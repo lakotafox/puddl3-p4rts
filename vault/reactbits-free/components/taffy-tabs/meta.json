@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/taffy-tabs",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "taffy-tabs",
+  "name": "TaffyTabs",
+  "title": "Taffy Tabs",
+  "description": "Navigation indicator morphs with gooey blob transitions between items.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GooeyNav-JS-CSS",
+      "path": "vault/reactbits-free/components/taffy-tabs/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/js-css/TaffyTabs.css",
+          "bytes": 4009,
+          "sha256": "2bb960c86e627b66cbfe7707cb0270489b479894812ab3c267cb5e71a0cbbebc"
+        },
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/js-css/TaffyTabs.jsx",
+          "bytes": 5348,
+          "sha256": "87594779929fd62dfbf2ce0246247a27b57b21b8c385fa6e85749f4dc2ca2f6a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TaffyTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/taffy-tabs/variants/js-css/TaffyTabs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "970381d3c2bbc07cea0f0f4dff6b9fed6531eb4699dbdb8c05a1317cddd6b766"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GooeyNav-JS-TW",
+      "path": "vault/reactbits-free/components/taffy-tabs/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/js-tw/TaffyTabs.jsx",
+          "bytes": 10333,
+          "sha256": "9cf0fe70edbdb0485f4b4086a0c67e464d49e46092186d4fceb0774cf218fb8e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TaffyTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/taffy-tabs/variants/js-tw/TaffyTabs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c3d9ec7959d9f2df564a17c944cdcc5a9e41c757615337e42ea64cf783fc24d1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GooeyNav-TS-CSS",
+      "path": "vault/reactbits-free/components/taffy-tabs/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/ts-css/TaffyTabs.css",
+          "bytes": 4009,
+          "sha256": "2bb960c86e627b66cbfe7707cb0270489b479894812ab3c267cb5e71a0cbbebc"
+        },
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/ts-css/TaffyTabs.tsx",
+          "bytes": 6116,
+          "sha256": "35341a8597c88696a14a73230c2426662c5ef3c0aabe3cb4b725af91ad5a7ce4"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TaffyTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/taffy-tabs/variants/ts-css/TaffyTabs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ac59305dba9b3e2303d7cf0d51b08e9cec806f3d36b14f201974e3ce5ad9d02f"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GooeyNav-TS-TW",
+      "path": "vault/reactbits-free/components/taffy-tabs/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/taffy-tabs/variants/ts-tw/TaffyTabs.tsx",
+          "bytes": 11064,
+          "sha256": "f7b6931ec0047d114ca098b01d09a376d59c59198f2c0592076dc3c317f6f955"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TaffyTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/taffy-tabs/variants/ts-tw/TaffyTabs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "992d333d10b36d94bc2c449aba78341c96ead6d7a0bf5337f9d56b871a1049f1"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TaffyTabs",
+      "style": "default",
+      "file": "vault/reactbits-free/components/taffy-tabs/variants/ts-tw/TaffyTabs.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/taffy-tabs",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GooeyNav-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/gooey-nav"
+  },
+  "hash": "74c7fe66010d69684e013e9cb7c7ed2bff57bfa0eea69dd56a50adb2a8585d64",
+  "fetchedAt": "2026-08-14T05:36:11.387Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TaffyTabs",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "gooey-nav",
+  "upstreamName": "GooeyNav"
+}

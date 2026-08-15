@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/flock-pointer",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "flock-pointer",
+  "name": "FlockPointer",
+  "title": "Flock Pointer",
+  "description": "Flocking particle swarm that chases the pointer, jostles for space and drifts apart at rest.",
+  "tags": [
+    "cursor",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SwarmCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/flock-pointer/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/js-css/FlockPointer.css",
+          "bytes": 379,
+          "sha256": "91ec32f718118df31046e2aa983794c5da045e757f252dd928707edab4783470"
+        },
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/js-css/FlockPointer.jsx",
+          "bytes": 17888,
+          "sha256": "4804a1cdc6f2c060f5ab5f821191e6bf82f2eb1ea95f4ee6e0cb7f9815e6df65"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlockPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flock-pointer/variants/js-css/FlockPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "820dcaa4ba1f74fefe6ae6b9b7dec16adb9865d9d04656378b55aedb59317c44"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SwarmCursor-JS-TW",
+      "path": "vault/reactbits-free/components/flock-pointer/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/js-tw/FlockPointer.jsx",
+          "bytes": 17983,
+          "sha256": "d5999b5f1821e86a8103f7fa74066f5d9b988b80bb2248f05785394f51cb7f7a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlockPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flock-pointer/variants/js-tw/FlockPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42acceb2a8b8fc72d53674e992903efa0bc4bc8e0241d75d9c09e953ffccf773"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SwarmCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/flock-pointer/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/ts-css/FlockPointer.css",
+          "bytes": 379,
+          "sha256": "91ec32f718118df31046e2aa983794c5da045e757f252dd928707edab4783470"
+        },
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/ts-css/FlockPointer.tsx",
+          "bytes": 18921,
+          "sha256": "9ee9cdec41fd1077973a930b6d95129ee18f056d90cc47a1274e6f6b4ac6dee1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlockPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flock-pointer/variants/ts-css/FlockPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "084a76a6c023a13666aa88285d07c0b6326f094bc8867776eda11c3b9b68def9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SwarmCursor-TS-TW",
+      "path": "vault/reactbits-free/components/flock-pointer/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flock-pointer/variants/ts-tw/FlockPointer.tsx",
+          "bytes": 19016,
+          "sha256": "eafbca17c9f6657e09caab8c21bf2f44808a79d66f78fa49531b78ae8becd58d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlockPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flock-pointer/variants/ts-tw/FlockPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "938a8ccfa84395d1b1594a65c7684d663b4328598b454955a1edab509877376f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FlockPointer",
+      "style": "default",
+      "file": "vault/reactbits-free/components/flock-pointer/variants/ts-tw/FlockPointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/flock-pointer",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SwarmCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/swarm-cursor"
+  },
+  "hash": "b62ada898d69075698223c0db6e78a7c2e072e03ec60b26686cd5bab4574a6b3",
+  "fetchedAt": "2026-08-14T05:36:11.469Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FlockPointer",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "swarm-cursor",
+  "upstreamName": "SwarmCursor"
+}

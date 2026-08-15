@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-5",
+  "name": "card-5",
+  "title": "Card 5",
+  "description": "Plan cards pairing a price header with a specification list and an includes checklist.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-5",
+      "path": "vault/reactbits-pro/blocks/card-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-5/files/card-5.tsx",
+          "bytes": 6966,
+          "sha256": "d27e657206017e5d6bbcb2593ccf995e27b34dfbadf3c5028f64566d1c831981"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-5/files/card-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b4709412fc96577f3bfd62ab8b88165b7fb855a08ab985f223828ff42b467565"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-5/files/card-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c9eb763c3852c3150c64cbdc6d7a8ae35c48933b1afa1e9dc4ce8370678e82ff",
+  "fetchedAt": "2026-08-14T05:43:33.774Z",
+  "vaultVersion": 1
+}

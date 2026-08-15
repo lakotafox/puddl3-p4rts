@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/skill/skill-luxury-serif",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-luxury-serif",
+  "name": "skill-luxury-serif",
+  "title": "Luxury Serif",
+  "description": "Build high-end fashion, hospitality and jewellery pages where restraint reads as expensive: a high-contrast display serif, wide small-caps tracking, hairline rules and slow, deliberate motion.",
+  "tags": [
+    "skill",
+    "premium",
+    "luxury",
+    "serif",
+    "editorial",
+    "fashion",
+    "hospitality",
+    "typography"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-luxury-serif",
+      "path": "vault/reactbits-pro/agent-kit/skill-luxury-serif/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-luxury-serif/files/SKILL.md",
+          "bytes": 29098,
+          "sha256": "a8477d86f0ccdac76a1a82d688324bf76c69122796c8430b49da17f16a44a56a"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-luxury-serif/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "6049df71042e83c769b55633a4118f61bde712f1063985d85a31d966527af4f1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-luxury-serif",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-luxury-serif.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1172cbe7986433e32ccfcbbd7395f496bf225081bdc7d53ff7bf693d83c5e196",
+  "fetchedAt": "2026-08-14T05:54:59.505Z",
+  "vaultVersion": 1
+}

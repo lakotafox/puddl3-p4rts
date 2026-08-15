@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/agent-activity-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-activity-6",
+  "name": "agent-activity-6",
+  "title": "Agent Activity 6",
+  "description": "Parallel agent lanes showing concurrent workers, queue depth, and throughput.",
+  "tags": [
+    "ai",
+    "agent",
+    "activity",
+    "timeline",
+    "logs"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-activity-6",
+      "path": "vault/reactbits-pro/blocks/agent-activity-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-activity-6/files/agent-activity-6.tsx",
+          "bytes": 8144,
+          "sha256": "244fb4111c7815a7b4d456ba9d89532a12c3c8ac5b72c3377bea8cb6fe1966e0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentActivity6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-activity-6/files/agent-activity-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "960bc06e79fb3be24b9f6a74d2e57de00693fd816660fe340c59d99e48469f7a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentActivity6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-activity-6/files/agent-activity-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-activity-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-activity-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d019c6c3f713304313df15d466e660714236848bfefcf8bcae771a153abe7c86",
+  "fetchedAt": "2026-08-14T05:36:07.674Z",
+  "vaultVersion": 1
+}

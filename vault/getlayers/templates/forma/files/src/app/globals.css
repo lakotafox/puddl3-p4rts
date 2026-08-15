@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   TIER 1 — PRIMITIVES  (`--raw-*`)
+   Raw literal values. The only tier allowed to contain a hex/px/ms literal.
+   Never referenced in markup, never bound into @theme. Rename freely.
+   Grammar: --raw-<category>-<name>[-<shade>]
+   See obsidian/frontend/design-system.md → "Token naming convention".
+
+   Colour + type values below are lifted from the original hero Figma frame
+   (file WINXFW2nTM7zYwd5dGgm1T, node 610:510). rem values assume the adaptive
+   grid's 1440 base, where 1rem = 16px.
+   --------------------------------------------------------------------------- */
+:root {
+  --raw-color-white: #ffffff;
+  --raw-color-black: #000000;
+  --raw-color-black-alpha-10: rgba(0, 0, 0, 0.1);
+  --raw-color-black-alpha-40: rgba(0, 0, 0, 0.4);
+  --raw-color-white-alpha-20: rgba(255, 255, 255, 0.2);
+  --raw-color-ink-950: #00012f;
+  --raw-color-grey-50: #f3f3f5;
+  --raw-color-grey-100: #f0eff2;
+  --raw-color-violet-100: #dad7f7;
+  --raw-color-violet-400: #8b60ff;
+  --raw-color-violet-500: #9466ff;
+  --raw-color-violet-600: #7751e2;
+  --raw-color-violet-950: #15004f;
+
+  --raw-duration-fast: 150ms;
+  --raw-duration-normal: 250ms;
+
+  --raw-radius-medium: 1rem; /* 16px — cards & media */
+  --raw-radius-pill: 3.25rem; /* 52px — chip */
+  --raw-radius-track: 3.125rem; /* 50px — meter bar */
+
+  --raw-text-display: 3.5rem; /* 56px */
+  --raw-text-title: 1.5rem; /* 24px */
+  --raw-text-heading: 1.25rem; /* 20px */
+  --raw-text-body: 1rem; /* 16px */
+  --raw-text-small: 0.875rem; /* 14px */
+}
+
+/* ---------------------------------------------------------------------------
+   TIER 2 — SEMANTIC  (role names, no namespace prefix)
+   Purpose, not appearance. Always `var(--raw-*)` — never a literal.
+   This is the themeable layer.
+   Grammar: --<role>[-<variant>][-<state>]
+   --------------------------------------------------------------------------- */
+:root {
+  --background: var(--raw-color-grey-50);
+  --foreground: var(--raw-color-ink-950);
+  /* The wordmark is pure black in the design — a deliberate step darker than
+     the body ink, so it gets its own role rather than reusing --foreground. */
+  --foreground-strong: var(--raw-color-black);
+  --foreground-inverse: var(--raw-color-white);
+
+  --surface-raised: var(--raw-color-white);
+  --surface-accent: var(--raw-color-violet-100);
+  --surface-meter: var(--raw-color-grey-100);
+
+  --border-subtle: var(--raw-color-black-alpha-10);
+  --border-field: var(--raw-color-black-alpha-40);
+  --border-inverse-subtle: var(--raw-color-white-alpha-20);
+
+  --accent: var(--raw-color-violet-600);
+  --accent-gradient-from: var(--raw-color-violet-400);
+  --accent-gradient-to: var(--raw-color-violet-950);
+  --accent-ring-from: var(--raw-color-violet-500);
+  --accent-ring-to: var(--raw-color-violet-950);
+
+  --radius-surface: var(--raw-radius-medium);
+  --radius-control: var(--raw-radius-pill);
+  --radius-bar: var(--raw-radius-track);
+
+  --text-size-display: var(--raw-text-display);
+  --text-size-title: var(--raw-text-title);
+  --text-size-heading: var(--raw-text-heading);
+  --text-size-body: var(--raw-text-body);
+  --text-size-small: var(--raw-text-small);
+
+  --duration-fast: var(--raw-duration-fast);
+  --duration-normal: var(--raw-duration-normal);
+}
+
+/* ---------------------------------------------------------------------------
+   THEME BINDINGS — map semantic tokens into Tailwind namespaces.
+   Every entry is exactly `--<tw-namespace>-<role>: var(--<role>)`.
+   `inline` is required: it inlines the var() into each utility, so any runtime
+   override of a Tier 2 token cascades. Binding a literal here instead would
+   freeze the value and break theming.
+
+   Only these namespaces generate utilities (verified against tailwindcss
+   v4.3.3): --color-* --spacing-* --radius-* --leading-* --tracking-* --text-*
+   --font-* --ease-* --breakpoint-* --container-* --shadow-* --blur-* --animate-*
+   NOTE: there is NO --duration-* namespace in v4 — `duration-fast` compiles to
+   nothing. Durations stay Tier 2 only and are used as duration-[var(--duration-fast)].
+   --------------------------------------------------------------------------- */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-foreground-strong: var(--foreground-strong);
+  --color-foreground-inverse: var(--foreground-inverse);
+
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-accent: var(--surface-accent);
+  --color-surface-meter: var(--surface-meter);
+
+  --color-border-subtle: var(--border-subtle);
+  --color-border-field: var(--border-field);
+  --color-border-inverse-subtle: var(--border-inverse-subtle);
+
+  --color-accent: var(--accent);
+  --color-accent-gradient-from: var(--accent-gradient-from);
+  --color-accent-gradient-to: var(--accent-gradient-to);
+  --color-accent-ring-from: var(--accent-ring-from);
+  --color-accent-ring-to: var(--accent-ring-to);
+
+  --radius-card: var(--radius-surface);
+  --radius-chip: var(--radius-control);
+  --radius-meter: var(--radius-bar);
+
+  --text-display: var(--text-size-display);
+  --text-title: var(--text-size-title);
+  --text-heading: var(--text-size-heading);
+  --text-body: var(--text-size-body);
+  --text-small: var(--text-size-small);
+
+  --font-sans: var(--font-general-sans);
+
+  /* Leading floor for clipped TextEngine reveals — see
+     obsidian/frontend/text-engine.md → "Alignment & line-height". */
+  --leading-display: 1.1;
+  /* Body/label leading used throughout the hero (Figma 1.2). */
+  --leading-copy: 1.2;
+
+  --ease-entrance: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* The typeface is applied with the `font-sans` utility on <body> (see
+   src/app/layout.tsx): `@theme inline` inlines its values into utilities and
+   does not emit `--font-sans` as a custom property, so `var(--font-sans)`
+   would resolve to Tailwind's default stack here. */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100lvh;
+  overflow-x: hidden;
+}
+
+@layer base {
+  /* Adaptive scaling grid — scales the root font-size with the viewport so a
+     rem-based layout stays proportional. Each breakpoint divides FONT_BASE
+     (16px) by the design base width its range was laid out at:
+       font-size: 16 * 100 / baseWidth  (vw)
+     Above 1920px the AdaptiveGrid component takes over (scale-up).
+     Keep in sync with src/components/common/grid/grid.config.ts. */
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1920px) {
+    html {
+      font-size: 0.833333vw; /* 16 * 100 / 1920 */
+    }
+  }
+
+  @media (max-width: 1440px) {
+    html {
+      font-size: 1.111111vw; /* 16 * 100 / 1440 */
+    }
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 1.5625vw; /* 16 * 100 / 1024 */
+    }
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 4.444444vw; /* 16 * 100 / 360 */
+    }
+  }
+}
+
+@layer base {
+  /* The custom cursor adds this class itself, and only on fine pointers, so
+     touch and reduced-motion users keep the real one. The descendant selector
+     is needed to beat the UA's `cursor: pointer` on links and buttons. */
+  .has-custom-cursor,
+  .has-custom-cursor * {
+    cursor: none;
+  }
+
+  /* Set by the preloader while its curtain is up — see
+     obsidian/frontend/components/common.md. */
+  .is-loading {
+    overflow: hidden;
+  }
+
+  /* No native scrollbar anywhere. Scrolling still works; only the bar is gone.
+     It is worth hiding rather than styling: the page alternates between
+     scrolling and locked (the preloader locks it, and below `lg` the hero
+     scrolls), so the bar kept appearing and disappearing — and each toggle
+     resized the viewport by its own width, shifting the whole layout. */
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+}
+
+@layer components {
+}

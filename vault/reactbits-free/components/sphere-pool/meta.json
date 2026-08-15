@@ -1,0 +1,200 @@
+{
+  "id": "rb-free/component/sphere-pool",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "sphere-pool",
+  "name": "SpherePool",
+  "title": "Sphere Pool",
+  "description": "Physics ball pit simulation with bouncing colorful spheres.",
+  "tags": [
+    "gsap",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Ballpit-JS-CSS",
+      "path": "vault/reactbits-free/components/sphere-pool/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sphere-pool/variants/js-css/SpherePool.jsx",
+          "bytes": 21208,
+          "sha256": "4eefa6d60fda8fa6803d2081b1564da1c56fcc2b463d20baba81b0209366bbcb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpherePool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sphere-pool/variants/js-css/SpherePool.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "453a536b61dfc126cda487f71823fc8e5def0acf47827579b5b93396fb884341"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Ballpit-JS-TW",
+      "path": "vault/reactbits-free/components/sphere-pool/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sphere-pool/variants/js-tw/SpherePool.jsx",
+          "bytes": 21185,
+          "sha256": "0f6b8af1508ce46cf14b6f5802844191f901bbf7e9a297079e71619800eaa43d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpherePool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sphere-pool/variants/js-tw/SpherePool.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "83333cd3173e1c149319c969e0509f4f19866877069a127f91a31bc2bb979c54"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Ballpit-TS-CSS",
+      "path": "vault/reactbits-free/components/sphere-pool/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sphere-pool/variants/ts-css/SpherePool.tsx",
+          "bytes": 28682,
+          "sha256": "80feb986ff56fe7478d59ab5252dd0b4fce08376ce432b9a3a960f393d48323e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpherePool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sphere-pool/variants/ts-css/SpherePool.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "64e463ec42199c646512b07c4078014009915bac56945f29e4fe8190d19c832e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Ballpit-TS-TW",
+      "path": "vault/reactbits-free/components/sphere-pool/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sphere-pool/variants/ts-tw/SpherePool.tsx",
+          "bytes": 28414,
+          "sha256": "2594656b8e5b9e7ad1e555b83f9e028f955a70175540b39b783cbde8897736a5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpherePool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sphere-pool/variants/ts-tw/SpherePool.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8498611d3144a92e0bd874e40126f278772901486863c2d8b686eb6c1e125acb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpherePool",
+      "style": "default",
+      "file": "vault/reactbits-free/components/sphere-pool/variants/ts-tw/SpherePool.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/sphere-pool",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Ballpit-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ballpit"
+  },
+  "hash": "4e6560505585be937793905130ca3e53fe0af33327796ed4fcdc80c8192222d3",
+  "fetchedAt": "2026-08-14T05:36:11.336Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SpherePool",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ballpit",
+  "upstreamName": "Ballpit"
+}

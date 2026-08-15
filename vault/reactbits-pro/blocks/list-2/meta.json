@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-2",
+  "name": "list-2",
+  "title": "List 2",
+  "description": "Ranked spend list with a period switch, selection, and a footer action.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-2",
+      "path": "vault/reactbits-pro/blocks/list-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-2/files/list-2.tsx",
+          "bytes": 10534,
+          "sha256": "99db2e7b209e770b6987e8c862e0f77b84df7c3bb7f1824388c45ed3631e34af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-2/files/list-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "47a86328040fbc25e0095b0c9a64b5a9e99ee2119a7f0d840ffffaaec30d49f1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-2/files/list-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b27b40ba512ab46c137ab143bc28c91d0ad7ec3534f598c9d64d4f37cc128fa7",
+  "fetchedAt": "2026-08-14T05:49:05.990Z",
+  "vaultVersion": 1
+}

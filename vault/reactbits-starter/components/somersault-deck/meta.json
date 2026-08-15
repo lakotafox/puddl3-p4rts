@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/somersault-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "somersault-deck",
+  "name": "SomersaultDeck",
+  "title": "Somersault Deck",
+  "description": "Cards that tumble end over end as the carousel advances",
+  "tags": [
+    "carousel",
+    "3d",
+    "rotate",
+    "gallery",
+    "showcase",
+    "motion"
+  ],
+  "tagSource": "upstream",
+  "category": "carousel",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "tumble-carousel-css",
+      "path": "vault/reactbits-starter/components/somersault-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/somersault-deck/variants/css/somersault-deck.tsx",
+          "bytes": 13245,
+          "sha256": "7a09ee61051704ec9fe54f7bae5e41700bab41216645504766cbcd1b93d4b9b2"
+        },
+        {
+          "path": "vault/reactbits-starter/components/somersault-deck/variants/css/somersault-deck.css",
+          "bytes": 2239,
+          "sha256": "a3c4bbafd0a029c0b065e6cd3c05ee0c0ec4d19e526d7efbfd0647a2a5c4da28"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SomersaultDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/somersault-deck/variants/css/somersault-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3bd5b3c58992784f735aacb06223b77d7b06276927c0115e9f83f0d248848ae0"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "tumble-carousel-tw",
+      "path": "vault/reactbits-starter/components/somersault-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/somersault-deck/variants/tw/somersault-deck.tsx",
+          "bytes": 14013,
+          "sha256": "33160a7562fd0a974b609e309801c38aed16f6048f7362690fab1a8be9395bd4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SomersaultDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/somersault-deck/variants/tw/somersault-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c0e7fdb1f5be90e4176865b4705be79c36dd3b8e7280e9c48be6a96442ba35d0"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SomersaultDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/somersault-deck/variants/tw/somersault-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/somersault-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/tumble-carousel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "9ce7aef2117d5e53b6153319194edd7c3f2adf5348744fea9436ee6b74c923f7",
+  "fetchedAt": "2026-08-14T05:35:14.514Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "tumble-carousel",
+  "upstreamName": "TumbleCarousel"
+}

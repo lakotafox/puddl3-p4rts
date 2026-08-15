@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/notifications-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "notifications-2",
+  "name": "notifications-2",
+  "title": "Notifications 2",
+  "description": "Toast stack that collapses when idle, expands on hover, and pauses its auto-dismiss timers.",
+  "tags": [
+    "notifications",
+    "alerts",
+    "toast",
+    "inbox",
+    "activity"
+  ],
+  "tagSource": "upstream",
+  "category": "notifications",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "notifications-2",
+      "path": "vault/reactbits-pro/blocks/notifications-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/notifications-2/files/notifications-2.tsx",
+          "bytes": 11308,
+          "sha256": "d15affa5320d3d83f90e55ea6a90ac52b3cf5924d9a64584c8642d18a3b4bcdf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Notifications2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/notifications-2/files/notifications-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3b6d013d39401c0c9651434afb3aecc7f45b5e7ffd1fdc28b6413ec044a4c8f1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Notifications2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/notifications-2/files/notifications-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/notifications-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/notifications-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d47d00ddfe3488baae43d483858ffcd579fe8060deb693965aca72b411affb8e",
+  "fetchedAt": "2026-08-14T05:52:55.908Z",
+  "vaultVersion": 1
+}

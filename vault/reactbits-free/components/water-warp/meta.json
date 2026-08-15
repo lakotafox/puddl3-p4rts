@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/water-warp",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "water-warp",
+  "name": "WaterWarp",
+  "title": "Water Warp",
+  "description": "Pointer-driven water displacement that warps content and leaves a decaying wake.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "RippleDistortion-JS-CSS",
+      "path": "vault/reactbits-free/components/water-warp/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/js-css/WaterWarp.css",
+          "bytes": 196,
+          "sha256": "3a7ecc6d99d604a7ee29f8a6ff3f84aece179a5cdc85d981b81179532170c852"
+        },
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/js-css/WaterWarp.jsx",
+          "bytes": 13053,
+          "sha256": "f7aa069d9dba0337ab99f9339d983ffce73cb8a63f0d78f5f9423ed346b535d4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterWarp",
+          "style": "default",
+          "file": "vault/reactbits-free/components/water-warp/variants/js-css/WaterWarp.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "015dadfd0f13acbcc4af78fd286f4e621b3e49acb9ad13efe4ad6375a946478c"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "RippleDistortion-JS-TW",
+      "path": "vault/reactbits-free/components/water-warp/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/js-tw/WaterWarp.jsx",
+          "bytes": 13135,
+          "sha256": "50b25c5e266365b45bc1f39fa0042f9fff2410f28ae40f9c8d8f3fe16ca5342e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterWarp",
+          "style": "default",
+          "file": "vault/reactbits-free/components/water-warp/variants/js-tw/WaterWarp.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7ffc25c82e50f6ba964474302dfcc818aa9252d0f0a8a19a6fc73e6ba46d009f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "RippleDistortion-TS-CSS",
+      "path": "vault/reactbits-free/components/water-warp/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/ts-css/WaterWarp.css",
+          "bytes": 196,
+          "sha256": "3a7ecc6d99d604a7ee29f8a6ff3f84aece179a5cdc85d981b81179532170c852"
+        },
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/ts-css/WaterWarp.tsx",
+          "bytes": 14992,
+          "sha256": "74c0dd9b1edea29de5d947446059cffc6d39f543c703932f49a9a483a35c614d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterWarp",
+          "style": "default",
+          "file": "vault/reactbits-free/components/water-warp/variants/ts-css/WaterWarp.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d68d609fd4dfc4881562fb007442c976aedf4bb7d46eaf44d81d668501e4d7a0"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "RippleDistortion-TS-TW",
+      "path": "vault/reactbits-free/components/water-warp/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/water-warp/variants/ts-tw/WaterWarp.tsx",
+          "bytes": 15074,
+          "sha256": "055988e05fe138ae1111bce122e1b71ac51342788486d2e366dcf81c3f5c9350"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterWarp",
+          "style": "default",
+          "file": "vault/reactbits-free/components/water-warp/variants/ts-tw/WaterWarp.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "01e1411ebc8e2bd03bbb33cf22b9669b1454a4d552af0184d7243aa3eec66c99"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WaterWarp",
+      "style": "default",
+      "file": "vault/reactbits-free/components/water-warp/variants/ts-tw/WaterWarp.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/water-warp",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/RippleDistortion-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ripple-distortion"
+  },
+  "hash": "08b49f626664517d12af377c5137dc1d04de66f10de84938e42759ed2e13407e",
+  "fetchedAt": "2026-08-14T05:36:11.445Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WaterWarp",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ripple-distortion",
+  "upstreamName": "RippleDistortion"
+}

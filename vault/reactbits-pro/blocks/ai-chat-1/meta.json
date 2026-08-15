@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/ai-chat-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-chat-1",
+  "name": "ai-chat-1",
+  "title": "AI Chat 1",
+  "description": "Full assistant thread with reasoning disclosure, live tool call, streaming answer, sources, and an attachment composer.",
+  "tags": [
+    "ai",
+    "agent",
+    "chat",
+    "assistant",
+    "streaming"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-chat-1",
+      "path": "vault/reactbits-pro/blocks/ai-chat-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-chat-1/files/ai-chat-1.tsx",
+          "bytes": 23803,
+          "sha256": "9160afb130787eb5c03da012c2c2e892b0b2d100c2348d083dd01a76c1a93a52"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AiChat1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-chat-1/files/ai-chat-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dd9b695722e2057a58595e04ac344ff2809a04e6904392a42d8e0f99e21566ed"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiChat1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-chat-1/files/ai-chat-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-chat-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-chat-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f5a0e2971795fc2d71c9860d5e873cd6ec00f609bfcce28500cce5f8fc48ebf7",
+  "fetchedAt": "2026-08-14T05:36:28.612Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/comet-streak",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "comet-streak",
+  "name": "CometStreak",
+  "title": "Comet Streak",
+  "description": "Conformal star warp shader with sweeping motion",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "star-swipe-css",
+      "path": "vault/reactbits-starter/components/comet-streak/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/comet-streak/variants/css/comet-streak.tsx",
+          "bytes": 10058,
+          "sha256": "8b19bd5d1e0a2d4f24b93db0672ab35364a3babfba4c9f8189b5c5e293673681"
+        },
+        {
+          "path": "vault/reactbits-starter/components/comet-streak/variants/css/comet-streak.css",
+          "bytes": 243,
+          "sha256": "2b589fc44210b3057b96798b21b11def6b2720bfdf660883437ff9bfc3646e71"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CometStreak",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/comet-streak/variants/css/comet-streak.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "65f9dcdc3245da98a691b1a514e2a1a2ef46d9e5ad0df9ba68276b1c09140a6d"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "star-swipe-tw",
+      "path": "vault/reactbits-starter/components/comet-streak/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/comet-streak/variants/tw/comet-streak.tsx",
+          "bytes": 10111,
+          "sha256": "bc5397ca43a1366b0dc0eed55a9272f919a518affdc2ef70ac9eb576a87d942c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CometStreak",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/comet-streak/variants/tw/comet-streak.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "57bba5d1ea95389b0035d5c356d67f513c4e8fb4252fbf0fefbc0ce49288a0be"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CometStreak",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/comet-streak/variants/tw/comet-streak.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/comet-streak",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/star-swipe-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "870b1daa8584ad74367a0dcf8d82fd839e2d91ddfebbb72f09dfe941395dc2bd",
+  "fetchedAt": "2026-08-14T05:34:58.747Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "star-swipe",
+  "upstreamName": "StarSwipe"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/film-grain",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "film-grain",
+  "name": "FilmGrain",
+  "title": "Film Grain",
+  "description": "Animated film grain / noise overlay adding subtle texture and motion.",
+  "tags": [
+    "background"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Noise-JS-CSS",
+      "path": "vault/reactbits-free/components/film-grain/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/js-css/FilmGrain.css",
+          "bytes": 119,
+          "sha256": "5ff618c3301f931c448cb6b9bcb1593a77c19ecf6297b172b14a36c2c9668d2d"
+        },
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/js-css/FilmGrain.jsx",
+          "bytes": 1680,
+          "sha256": "dc94b936e7b0ccc5567b2d65855381455b7000bd8481ca80ec27a4195aa8fa93"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FilmGrain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/film-grain/variants/js-css/FilmGrain.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3ac11bc26e2986fb49d570cd1b8890603c102962435719a5949d3338167fd3d0"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Noise-JS-TW",
+      "path": "vault/reactbits-free/components/film-grain/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/js-tw/FilmGrain.jsx",
+          "bytes": 1727,
+          "sha256": "90418044186847d95951d55749a331f615b829f397c27bd5a6ad11c835c26e76"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FilmGrain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/film-grain/variants/js-tw/FilmGrain.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f5b4bf37b5a985ad652b6bc938cb7c95decb4892d60f295fb740047619268f69"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Noise-TS-CSS",
+      "path": "vault/reactbits-free/components/film-grain/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/ts-css/FilmGrain.css",
+          "bytes": 119,
+          "sha256": "5ff618c3301f931c448cb6b9bcb1593a77c19ecf6297b172b14a36c2c9668d2d"
+        },
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/ts-css/FilmGrain.tsx",
+          "bytes": 1930,
+          "sha256": "9392e06b625cd6ea3ef13994493826f6239a19b4a311d9fb4e4e33420aac5078"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FilmGrain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/film-grain/variants/ts-css/FilmGrain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "88ede772305a2047c410568a5bc9061397eeb9c04f8da3b3f64e3df9afa396b9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Noise-TS-TW",
+      "path": "vault/reactbits-free/components/film-grain/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/film-grain/variants/ts-tw/FilmGrain.tsx",
+          "bytes": 1976,
+          "sha256": "eda564ddff586a403802bc24bdf8d542d24da85289b8067b882ca711d1a471c7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FilmGrain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/film-grain/variants/ts-tw/FilmGrain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "485b97ae6d80632866ceba585137a65370f762b48728252bc58045caca23ff76"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FilmGrain",
+      "style": "default",
+      "file": "vault/reactbits-free/components/film-grain/variants/ts-tw/FilmGrain.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/film-grain",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Noise-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/noise"
+  },
+  "hash": "8b23d38cde03e970e7728c147018cf8c7467eeacf0626f90664575f1611681dd",
+  "fetchedAt": "2026-08-14T05:36:11.426Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FilmGrain",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "noise",
+  "upstreamName": "Noise"
+}

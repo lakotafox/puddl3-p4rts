@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/dew-sparks",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "dew-sparks",
+  "name": "DewSparks",
+  "title": "Dew Sparks",
+  "description": "Falling light streaks with rotation and glow effects",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "light-droplets-css",
+      "path": "vault/reactbits-starter/components/dew-sparks/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/dew-sparks/variants/css/dew-sparks.tsx",
+          "bytes": 10140,
+          "sha256": "95aa04e76eea23075cbedd95c47c4121d5876c933f8e2763ec1b520a9c758794"
+        },
+        {
+          "path": "vault/reactbits-starter/components/dew-sparks/variants/css/dew-sparks.css",
+          "bytes": 255,
+          "sha256": "35faa660c0ea1603dffc4cba602dbc5bec7cb94a481a4e926886d4b994723a14"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DewSparks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/dew-sparks/variants/css/dew-sparks.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "77c7715f594646515a9be3e54e66ec9784e2785e41f6bdac03f441d4af58be34"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "light-droplets-tw",
+      "path": "vault/reactbits-starter/components/dew-sparks/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/dew-sparks/variants/tw/dew-sparks.tsx",
+          "bytes": 10198,
+          "sha256": "d658acba0a4807de879f9dbd0b041f7582db9def403f36d2eba504d93f6aaab8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DewSparks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/dew-sparks/variants/tw/dew-sparks.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fa4378ea8f217e31d5b8f8d5261d08d084d7018df69a618c7138b03ab323ccb7"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DewSparks",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/dew-sparks/variants/tw/dew-sparks.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/dew-sparks",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/light-droplets-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "25e30736ff98cfc1d9d39c8b67833276c835c3315ed4819081ae351b1e81927e",
+  "fetchedAt": "2026-08-14T05:33:18.822Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "light-droplets",
+  "upstreamName": "LightDroplets"
+}

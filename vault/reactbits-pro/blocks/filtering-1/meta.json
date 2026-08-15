@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-1",
+  "name": "filtering-1",
+  "title": "Filtering 1",
+  "description": "Faceted product rail with derived counts, a price range, and glaze swatches.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-1",
+      "path": "vault/reactbits-pro/blocks/filtering-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-1/files/filtering-1.tsx",
+          "bytes": 33975,
+          "sha256": "e3dbfb73339957bb81f8f57801660d0f634c02ab4c5899cb059da53e5d3f137d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-1/files/filtering-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "446ee24449f1448b3030300fde4a99eb96500a3b01d6aadf9249ce2c0429fb89"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-1/files/filtering-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d0638755aa74427452ff01d257fb8233bc9a9a85626d0e5265044c9f64fd114f",
+  "fetchedAt": "2026-08-14T05:47:03.093Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/footer-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-3",
+  "name": "footer-3",
+  "title": "Footer 3",
+  "description": "Full-width CTA button with yellow hover, description, two-column links, and copyright",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-3",
+      "path": "vault/reactbits-pro/blocks/footer-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-3/files/footer-3.tsx",
+          "bytes": 4436,
+          "sha256": "6e986a9d52e84503141ec1307faa46394a623dd24d2be2b14d838e90a3a0eb0c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-3/files/footer-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "768a4ca05d1a271a6fd6769f39a343551744465fe54c43c1a0721c65d3c67896"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-3/files/footer-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "84283bee1b3106988c5d8f0f234e9fda67cb8c631eef2f4695be676a475a6421",
+  "fetchedAt": "2026-08-14T05:47:23.995Z",
+  "vaultVersion": 1
+}

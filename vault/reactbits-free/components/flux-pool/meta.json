@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/flux-pool",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "flux-pool",
+  "name": "FluxPool",
+  "title": "Flux Pool",
+  "description": "A churning magnetic fluid traced by glowing contour lines, with a cursor magnet.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Ferrofluid-JS-CSS",
+      "path": "vault/reactbits-free/components/flux-pool/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/js-css/FluxPool.css",
+          "bytes": 99,
+          "sha256": "2b444713862e4af8a216cf5e56c21345539a5d81211cb0df7861307e8ec99639"
+        },
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/js-css/FluxPool.jsx",
+          "bytes": 10407,
+          "sha256": "80e1e3a1ce3b0e230026df2d3e1019159441acec895fab0ccb1bc38f20aedc9d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluxPool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flux-pool/variants/js-css/FluxPool.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aec8895dd7460fc945bdf55b966ce16c4d920b370b6e3fc5d81004354c995340"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Ferrofluid-JS-TW",
+      "path": "vault/reactbits-free/components/flux-pool/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/js-tw/FluxPool.jsx",
+          "bytes": 10398,
+          "sha256": "0204975df7c15d614ed9f3946866d8e3e6fc29a1465d08486d8c891f10b4582d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluxPool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flux-pool/variants/js-tw/FluxPool.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "df36db6d95703d8b269d2970f6a3418ae8f649e7e95dcbbe8a6d515bff83afe1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Ferrofluid-TS-CSS",
+      "path": "vault/reactbits-free/components/flux-pool/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/ts-css/FluxPool.css",
+          "bytes": 99,
+          "sha256": "2b444713862e4af8a216cf5e56c21345539a5d81211cb0df7861307e8ec99639"
+        },
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/ts-css/FluxPool.tsx",
+          "bytes": 11315,
+          "sha256": "2d3d90f060d009316a792ac99cb6922b89938dcd5cae34361fdd32f2b01fabee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluxPool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flux-pool/variants/ts-css/FluxPool.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "98eb9b5ac8db5ca93b2418a2e01374e24992b08c25ced4bd26f8dd1b431bff5a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Ferrofluid-TS-TW",
+      "path": "vault/reactbits-free/components/flux-pool/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/flux-pool/variants/ts-tw/FluxPool.tsx",
+          "bytes": 11306,
+          "sha256": "4036531dddb29c70acf22f0a1eaeb8f3aaa17e06a7a8fd359de431d8b5e847ad"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluxPool",
+          "style": "default",
+          "file": "vault/reactbits-free/components/flux-pool/variants/ts-tw/FluxPool.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "00ac30c5c2247f84f3827f6344553a7adb0301871a76929a74d00cbef554677c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FluxPool",
+      "style": "default",
+      "file": "vault/reactbits-free/components/flux-pool/variants/ts-tw/FluxPool.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/flux-pool",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Ferrofluid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ferrofluid"
+  },
+  "hash": "ecf69c8cb3af704b4b74f95294e8f7a6c7a5f28470a18b553bbaf07c59b9449e",
+  "fetchedAt": "2026-08-14T05:36:11.376Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FluxPool",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ferrofluid",
+  "upstreamName": "Ferrofluid"
+}

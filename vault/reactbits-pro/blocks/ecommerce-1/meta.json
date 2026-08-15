@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-1",
+  "name": "ecommerce-1",
+  "title": "Ecommerce 1",
+  "description": "Sneaker product page with thumbnail rail, fit toggle, and accordion details",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-1",
+      "path": "vault/reactbits-pro/blocks/ecommerce-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-1/files/ecommerce-1.tsx",
+          "bytes": 10766,
+          "sha256": "d0a0e7a67cd70d83aa5566aef260246a264e54cc09594c414acc59b64a7f39df"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-1/files/ecommerce-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ce3c9599dcfaafafc2ec8acc92f54c3ba3c6db8b4d229126d93bd363b4add13d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-1/files/ecommerce-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4b47613235c261482d3512bb41a230c14480772925371d9bdfab10eaed38045c",
+  "fetchedAt": "2026-08-14T05:45:44.370Z",
+  "vaultVersion": 1
+}

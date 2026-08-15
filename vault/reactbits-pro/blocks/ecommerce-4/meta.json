@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-4",
+  "name": "ecommerce-4",
+  "title": "Ecommerce 4",
+  "description": "Out-of-stock apparel page with size picker, highlight pills, and notify-me CTA",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-4",
+      "path": "vault/reactbits-pro/blocks/ecommerce-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-4/files/ecommerce-4.tsx",
+          "bytes": 7869,
+          "sha256": "8dfac5a9f1edb39ae3c05a6c5569b50eaed771cbc4ea34f8f6920d3da1663e3e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-4/files/ecommerce-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d6f9d1c1d51b426c7dfd10d614b695599c6869767aae885b323d83c959af1587"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-4/files/ecommerce-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ae979c1c93bf09d7a1a26ab8e344639b84a5de3329d7dd542dd44bbfe50784d5",
+  "fetchedAt": "2026-08-14T05:45:51.727Z",
+  "vaultVersion": 1
+}

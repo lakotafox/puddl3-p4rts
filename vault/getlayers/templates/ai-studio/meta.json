@@ -1,0 +1,432 @@
+{
+  "id": "getlayers/template/ai-studio",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "ai-studio",
+  "name": "AIStudio",
+  "title": "AI Studio",
+  "description": "Scroll-driven WebGL showreel, now the PUDDL3 wage-streaming landing page",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "ai-studio",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "ai-studio",
+      "path": "vault/getlayers/templates/ai-studio/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/tsconfig.tsbuildinfo"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/hero-image-2.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/stone.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/star.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/card-2.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/card-3.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/portfolio-3.mp4"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/model.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/portfolio-2.mp4"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/showreel/portfolio-1.mp4"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/icons/arrow.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 559.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 558.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 560.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 561.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 553.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 556.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 557.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 555.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/public/assets/grid-images/image 554.png"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/apple-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/opengraph-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/twitter-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/manifest.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/showreel/geometry.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/showreel/timeline.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/text-reveal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/appear.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/reveal-on-load.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/container.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/arrow-button.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/eyebrow.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/ui/icon-arrow.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/3d/flame-background.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/3d/hero-gradient.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/3d/target-star.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/3d/particle-sphere.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/use-showreel-layout.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/use-loader.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/brand.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/showreel-stage.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/scroll-letters.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/catalist-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/marquee.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/cta-block.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/portfolio.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/intro-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/sphere-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home/hero-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/ai-studio/files/src/views/home.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/ai-studio",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second"
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=ai-studio",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.065Z",
+  "vaultVersion": 1
+}

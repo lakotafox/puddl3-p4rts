@@ -1,0 +1,217 @@
+{
+  "id": "rb-free/component/riffle-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "riffle-type",
+  "name": "RiffleType",
+  "title": "Riffle Type",
+  "description": "Animated text reveal where characters shuffle before settling.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Shuffle-JS-CSS",
+      "path": "vault/reactbits-free/components/riffle-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/js-css/RiffleType.css",
+          "bytes": 595,
+          "sha256": "97ca133d095b1b63b0f05f2ae3178fb9da133c4079e5b865ce4d36f124f7208b"
+        },
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/js-css/RiffleType.jsx",
+          "bytes": 12306,
+          "sha256": "c11d09fe2aa252a47585bce2e67beb7bbc834e2677f8b64b6dba5ffed38e5d62"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RiffleType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/riffle-type/variants/js-css/RiffleType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d1bfba1b061be11bcb8c0d9f6c5866ba44f0490bb492128c4ef0655d052db32"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Shuffle-JS-TW",
+      "path": "vault/reactbits-free/components/riffle-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/js-tw/RiffleType.jsx",
+          "bytes": 12736,
+          "sha256": "0de69381355a4182f7283044b5cf4d4b607db26d5f1208c4e7802672d38d1327"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RiffleType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/riffle-type/variants/js-tw/RiffleType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6bdb868db02b275620645c42bc369c7104571c27d6f9b42687cd4e90dd066e0a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Shuffle-TS-CSS",
+      "path": "vault/reactbits-free/components/riffle-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/ts-css/RiffleType.css",
+          "bytes": 595,
+          "sha256": "97ca133d095b1b63b0f05f2ae3178fb9da133c4079e5b865ce4d36f124f7208b"
+        },
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/ts-css/RiffleType.tsx",
+          "bytes": 13518,
+          "sha256": "7697a4f25a3131c79d6f18c67a5c08e3ee58aac8c5d252dbdf8a88f3487fb1e6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RiffleType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/riffle-type/variants/ts-css/RiffleType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "436f744930bc36a5db9297d18c2992c459392093a34fa7c72e5e1d7e3a932db4"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Shuffle-TS-TW",
+      "path": "vault/reactbits-free/components/riffle-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/riffle-type/variants/ts-tw/RiffleType.tsx",
+          "bytes": 13978,
+          "sha256": "7e6cb6ded7a372ee4cb4b3a9c9e3c87633f1df1addaa58ab3d22cb7fb80837de"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RiffleType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/riffle-type/variants/ts-tw/RiffleType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9268f6beb612d4f99ea54f47dba0412f86f4345753129db952f262a7bc65134a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "^2.1.2"
+    },
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RiffleType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/riffle-type/variants/ts-tw/RiffleType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/riffle-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Shuffle-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/shuffle"
+  },
+  "hash": "2d3a40cea4655f9b36d833f6af8edde4d8dcc9ad655d3efdf6746d9b79cf0c3d",
+  "fetchedAt": "2026-08-14T05:36:11.454Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RiffleType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "shuffle",
+  "upstreamName": "Shuffle"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/onboarding-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "onboarding-4",
+  "name": "onboarding-4",
+  "title": "Onboarding 4",
+  "description": "Use-case picker with selectable option tiles and a segmented team-size control.",
+  "tags": [
+    "onboarding",
+    "setup",
+    "stepper",
+    "checklist",
+    "invite"
+  ],
+  "tagSource": "upstream",
+  "category": "onboarding",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "onboarding-4",
+      "path": "vault/reactbits-pro/blocks/onboarding-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/onboarding-4/files/onboarding-4.tsx",
+          "bytes": 6715,
+          "sha256": "ac4ceadda6e1cc44e91cb5e93e953d9c803300b99f330ee758c9c1f64bd056b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Onboarding4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/onboarding-4/files/onboarding-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c21149ee87c8f64877e2d3dd8b11f90ac85c34fd42f009f6557fca009751c93"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Onboarding4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/onboarding-4/files/onboarding-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/onboarding-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/onboarding-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ba42bf0b97a40127fe5bffc8e5babef96ab0f61f561044172fd536909aa5476b",
+  "fetchedAt": "2026-08-14T05:53:07.894Z",
+  "vaultVersion": 1
+}

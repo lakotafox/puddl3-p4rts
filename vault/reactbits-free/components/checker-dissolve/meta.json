@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/checker-dissolve",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "checker-dissolve",
+  "name": "CheckerDissolve",
+  "title": "Checker Dissolve",
+  "description": "Pixel dissolve transition for content reveal on hover.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelTransition-JS-CSS",
+      "path": "vault/reactbits-free/components/checker-dissolve/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/js-css/CheckerDissolve.css",
+          "bytes": 708,
+          "sha256": "4470210ba9fe44f14e9797f35467cd5db01f06fe2d2c519d8428539579f5fd1b"
+        },
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/js-css/CheckerDissolve.jsx",
+          "bytes": 3613,
+          "sha256": "63621c0bc9a88a961761a2ce235a156ff1969c015bbd1a890948c6be815771f0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CheckerDissolve",
+          "style": "default",
+          "file": "vault/reactbits-free/components/checker-dissolve/variants/js-css/CheckerDissolve.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e1135a4a492e68ea73d75b1d33994f9ec895f74a4ada2d5753b81c63d15293be"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelTransition-JS-TW",
+      "path": "vault/reactbits-free/components/checker-dissolve/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/js-tw/CheckerDissolve.jsx",
+          "bytes": 3914,
+          "sha256": "2f232394b72711b6b0df5b3f5b970d870cf73e287e90f7f599c46ec1098e9e8e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CheckerDissolve",
+          "style": "default",
+          "file": "vault/reactbits-free/components/checker-dissolve/variants/js-tw/CheckerDissolve.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bbaf0e9b9b20c4db89f2ee41482f9bf555c89668110d1f399507e5cc0acfe4b9"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelTransition-TS-CSS",
+      "path": "vault/reactbits-free/components/checker-dissolve/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/ts-css/CheckerDissolve.css",
+          "bytes": 686,
+          "sha256": "59346fb59640fd2a66fba3268ccaf417415e7eccda004a8b14b8951766495d1a"
+        },
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/ts-css/CheckerDissolve.tsx",
+          "bytes": 4111,
+          "sha256": "8dce19e32a5017e19c8d3c2d14d3a8cdcd398a8d581435419fcb1889e1345c37"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CheckerDissolve",
+          "style": "default",
+          "file": "vault/reactbits-free/components/checker-dissolve/variants/ts-css/CheckerDissolve.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1a3dc52d9d533cc13377eb53b4e5bc5f0627e3e3d4dc9abd5fb6543b4e736697"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelTransition-TS-TW",
+      "path": "vault/reactbits-free/components/checker-dissolve/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/checker-dissolve/variants/ts-tw/CheckerDissolve.tsx",
+          "bytes": 4409,
+          "sha256": "ffc4b274b382080ffacfbb39dbe441149877022c3cb0eabac2984942ed69cc76"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CheckerDissolve",
+          "style": "default",
+          "file": "vault/reactbits-free/components/checker-dissolve/variants/ts-tw/CheckerDissolve.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9411400a33f01531fa88f821f545ac3c7d106115a0380a967899b90e99b324b7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CheckerDissolve",
+      "style": "default",
+      "file": "vault/reactbits-free/components/checker-dissolve/variants/ts-tw/CheckerDissolve.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/checker-dissolve",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelTransition-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-transition"
+  },
+  "hash": "e1fa33f9a4146144a1baee2581a2b6073ff0ad5b0e5a43a6643c02020d7b2282",
+  "fetchedAt": "2026-08-14T05:36:11.437Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CheckerDissolve",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-transition",
+  "upstreamName": "PixelTransition"
+}

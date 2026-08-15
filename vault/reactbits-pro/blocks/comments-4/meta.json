@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/comments-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comments-4",
+  "name": "comments-4",
+  "title": "Comments 4",
+  "description": "Comment composer with mention autocomplete, attachment chips, and a formatting bar.",
+  "tags": [
+    "comments",
+    "collaboration",
+    "threads",
+    "review",
+    "annotations"
+  ],
+  "tagSource": "upstream",
+  "category": "comments",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comments-4",
+      "path": "vault/reactbits-pro/blocks/comments-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comments-4/files/comments-4.tsx",
+          "bytes": 11953,
+          "sha256": "a320a9f9420edb544d0257a047c407f43500d6c6d51e42b3f03ae1e4e9b95abf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comments4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comments-4/files/comments-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "219fa8e23c8b0eaaf6a1ab66da148c30a30b280ec92c16adef815eae8184adf4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comments4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comments-4/files/comments-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comments-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comments-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "16f7afeefb056da27e55a1569e240f4b4414056c5957b0e4e06660146c868bb3",
+  "fetchedAt": "2026-08-14T05:44:04.161Z",
+  "vaultVersion": 1
+}

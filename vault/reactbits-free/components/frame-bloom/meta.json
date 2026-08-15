@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/frame-bloom",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "frame-bloom",
+  "name": "FrameBloom",
+  "title": "Frame Bloom",
+  "description": "A rounded media frame that grows to full bleed as it scrolls through the viewport.",
+  "tags": [
+    "scroll"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrollExpand-JS-CSS",
+      "path": "vault/reactbits-free/components/frame-bloom/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/js-css/FrameBloom.css",
+          "bytes": 1930,
+          "sha256": "1904e6e0c498a45b11b16521e64dafb02f9e7e2bd33305bb7134fb0081d39c1e"
+        },
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/js-css/FrameBloom.jsx",
+          "bytes": 6631,
+          "sha256": "129f2296bb2e684d644c9cc3ad3128676b8806ab0b935b16470d9bbf00704714"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrameBloom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frame-bloom/variants/js-css/FrameBloom.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "458d2827650e7f3367a0a420cfe9a8c7d371afca397138a46e9d5c5f48738502"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrollExpand-JS-TW",
+      "path": "vault/reactbits-free/components/frame-bloom/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/js-tw/FrameBloom.jsx",
+          "bytes": 7773,
+          "sha256": "f6814efd5e5bbedc7ecf8cde14f9eb3001c6954fd7a358d8641813a3b6556fc6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrameBloom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frame-bloom/variants/js-tw/FrameBloom.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2aba4f8dc345de0682f7e229394bdef1e4100275f792111a2bfbd6cdcbad785a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrollExpand-TS-CSS",
+      "path": "vault/reactbits-free/components/frame-bloom/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/ts-css/FrameBloom.css",
+          "bytes": 1930,
+          "sha256": "1904e6e0c498a45b11b16521e64dafb02f9e7e2bd33305bb7134fb0081d39c1e"
+        },
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/ts-css/FrameBloom.tsx",
+          "bytes": 7872,
+          "sha256": "d2c2537af75aced1dcda4206e7b1f46d2d96d24e8e3952edc918b69053f51cd8"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrameBloom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frame-bloom/variants/ts-css/FrameBloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7397cb83ad66bea2f93fc57c14f2496d385d5f7019adf3ef492ccee03d7f2c5d"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrollExpand-TS-TW",
+      "path": "vault/reactbits-free/components/frame-bloom/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frame-bloom/variants/ts-tw/FrameBloom.tsx",
+          "bytes": 9014,
+          "sha256": "796ec60a5bd6ef5eeda4ae1cfe786747f6bd79d47bb69cea201b97597b30c47c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrameBloom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frame-bloom/variants/ts-tw/FrameBloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a230b4a67be9f242270efc78d77a268c40cd47d861037a1dd2c9d83866637ba8"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FrameBloom",
+      "style": "default",
+      "file": "vault/reactbits-free/components/frame-bloom/variants/ts-tw/FrameBloom.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/frame-bloom",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrollExpand-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scroll-expand"
+  },
+  "hash": "d5154c885b6d3bd27029e4ab50f706ff827ab156ffb63494d03d8887dff61ed1",
+  "fetchedAt": "2026-08-14T05:36:11.448Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FrameBloom",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scroll-expand",
+  "upstreamName": "ScrollExpand"
+}

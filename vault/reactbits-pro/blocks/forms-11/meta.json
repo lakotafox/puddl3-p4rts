@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-11",
+  "name": "forms-11",
+  "title": "Forms 11",
+  "description": "Create-environment dialog with a segmented kind picker and live slug availability.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-11",
+      "path": "vault/reactbits-pro/blocks/forms-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-11/files/forms-11.tsx",
+          "bytes": 29584,
+          "sha256": "2e38fe3e2b3e52108f8efec3b3c81b20c2b0f08f13d37f49fd873cf07fed9b10"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-11/files/forms-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "327e5fa5f3bc2d0b825b221e011ee42609fbb2c75c5c882df13aa6d1788dbb8f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-11/files/forms-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1b91e40c3a60c97063f8a347cc59e2ef34c5978bbee0942deb22326d4be81fe0",
+  "fetchedAt": "2026-08-14T05:47:37.622Z",
+  "vaultVersion": 1
+}

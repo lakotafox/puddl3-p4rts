@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/editor-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "editor-1",
+  "name": "editor-1",
+  "title": "Editor 1",
+  "description": "Rich text editor with a block type menu, mark toolbar, autosave state, and a word count bar.",
+  "tags": [
+    "editor",
+    "writing",
+    "markdown",
+    "code",
+    "document"
+  ],
+  "tagSource": "upstream",
+  "category": "editor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "editor-1",
+      "path": "vault/reactbits-pro/blocks/editor-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/editor-1/files/editor-1.tsx",
+          "bytes": 11771,
+          "sha256": "781c88fd57469d24ea64e423b9e8b9c57aab35bb0f68eb0d49ee6feea0c24f0b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Editor1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/editor-1/files/editor-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6e265adb8c00b092e337bead5b87eea8a271dc74dedd2e836f7f18f061c07e9b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Editor1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/editor-1/files/editor-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/editor-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/editor-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "64979f88cdc44eef5d3e30dd188c9713d23ceffb5e13ae76b390aeed52e03601",
+  "fetchedAt": "2026-08-14T05:46:00.718Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,123 @@
+{
+  "id": "rb-pro/block/download-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-3",
+  "name": "download-3",
+  "title": "Download 3",
+  "description": "Download CTA with description and animated shader logo",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-3",
+      "path": "vault/reactbits-pro/blocks/download-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-3/files/download-3.tsx",
+          "bytes": 5817,
+          "sha256": "7995a72ab9d319d22f0014b73ac3035e87aa1821817ee9b4f74dea7d6e2e94a5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-3/files/download-3.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Download3",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/download-3/files/download-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f25c468b5b3d42d8e3e7d0a861e096bf78f9998cd02d1455703f3abc7e7653bf"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-3/files/download-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d6e7613e169a63275834f9776cc0ff3a2a83f2803c615d2abba9c0c78049c4db",
+  "fetchedAt": "2026-08-14T05:45:35.463Z",
+  "vaultVersion": 1
+}

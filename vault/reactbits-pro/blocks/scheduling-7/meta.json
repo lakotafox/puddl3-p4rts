@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/scheduling-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "scheduling-7",
+  "name": "scheduling-7",
+  "title": "Scheduling 7",
+  "description": "Booking page with a meeting summary, a horizontal day strip, and a time-slot grid.",
+  "tags": [
+    "scheduling",
+    "calendar",
+    "availability",
+    "booking",
+    "time"
+  ],
+  "tagSource": "upstream",
+  "category": "scheduling",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "scheduling-7",
+      "path": "vault/reactbits-pro/blocks/scheduling-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/scheduling-7/files/scheduling-7.tsx",
+          "bytes": 10745,
+          "sha256": "61b376700fa6a2be98420c2c95c970085d3e8a955d2ca6257754c16c9cc03837"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Scheduling7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/scheduling-7/files/scheduling-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1a91cf0234ed05b4367f6871d9e98b6247b21d28ccb3913d28267bff4be92e95"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Scheduling7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/scheduling-7/files/scheduling-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/scheduling-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/scheduling-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8d8a526212dbabc9730a0d385c770cd79f03aeb7df42ebc47ca3e34b547b002d",
+  "fetchedAt": "2026-08-14T05:54:31.940Z",
+  "vaultVersion": 1
+}

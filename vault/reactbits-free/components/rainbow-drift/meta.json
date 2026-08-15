@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/rainbow-drift",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "rainbow-drift",
+  "name": "RainbowDrift",
+  "title": "Rainbow Drift",
+  "description": "Vibrant color bends with smooth flowing animation.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ColorBends-JS-CSS",
+      "path": "vault/reactbits-free/components/rainbow-drift/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/js-css/RainbowDrift.css",
+          "bytes": 100,
+          "sha256": "9bb4450f3d254000159033dd229136fa023c796bcce975f1793a3108b9709ca2"
+        },
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/js-css/RainbowDrift.jsx",
+          "bytes": 10560,
+          "sha256": "3950288bedcf60dbf5f5ea63429f742bcc33c01beb8c1607b4e2f9f1ff73eb36"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-drift/variants/js-css/RainbowDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d4bef3c132b4380010bcbb0f641114fa9270782e4cfe5abfdbd8012ba57cc058"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ColorBends-JS-TW",
+      "path": "vault/reactbits-free/components/rainbow-drift/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/js-tw/RainbowDrift.jsx",
+          "bytes": 10610,
+          "sha256": "5db8d185981f68f88386d059e5888698d74d9f6f495ebb44f4030298378004ff"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-drift/variants/js-tw/RainbowDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e8189b45e59c5b4cd749329a6b1ecd04df532d16493634785d5434548f6b7d4d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ColorBends-TS-CSS",
+      "path": "vault/reactbits-free/components/rainbow-drift/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/ts-css/RainbowDrift.css",
+          "bytes": 100,
+          "sha256": "9bb4450f3d254000159033dd229136fa023c796bcce975f1793a3108b9709ca2"
+        },
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/ts-css/RainbowDrift.tsx",
+          "bytes": 11183,
+          "sha256": "7d320dab93c57252553f12ae89040ff474ce2ac1c98e1e5bdc90e851a0a01def"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-drift/variants/ts-css/RainbowDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eb9e6387e809bc35223f0e1a3d03b9ae0694e6dde5731540171fb623ba364b28"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ColorBends-TS-TW",
+      "path": "vault/reactbits-free/components/rainbow-drift/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-drift/variants/ts-tw/RainbowDrift.tsx",
+          "bytes": 11173,
+          "sha256": "0d0b002cc71c6bbc24e4b1992fa4c980a347ee65ec7b5fa938781ec1afc37f22"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-drift/variants/ts-tw/RainbowDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a39b90a412db96c6364330e04ebe2781d9ff480539ba1e5fa7f458b4de97de79"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RainbowDrift",
+      "style": "default",
+      "file": "vault/reactbits-free/components/rainbow-drift/variants/ts-tw/RainbowDrift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/rainbow-drift",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ColorBends-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/color-bends"
+  },
+  "hash": "fc9c04f389511c2bf6cebb7493d6f94020ae8227f8a84a538078c7e35c91ffc9",
+  "fetchedAt": "2026-08-14T05:36:11.351Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RainbowDrift",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "color-bends",
+  "upstreamName": "ColorBends"
+}

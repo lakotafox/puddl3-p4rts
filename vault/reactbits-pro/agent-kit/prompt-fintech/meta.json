@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/prompt/prompt-fintech",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-fintech",
+  "name": "prompt-fintech",
+  "title": "Fintech",
+  "description": "Build a financial product page where trust is the design problem: licensing, deposit protection, security, fee transparency, and required risk disclosures placed to convert.",
+  "tags": [
+    "prompt",
+    "finance",
+    "fintech",
+    "payments",
+    "banking",
+    "compliance",
+    "trust"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-fintech",
+      "path": "vault/reactbits-pro/agent-kit/prompt-fintech/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-fintech/files/PROMPT.md",
+          "bytes": 19570,
+          "sha256": "bb5b5e1aef889abe6df8f1c492dbf3691a330cd5e3a43d9c9465ba070982569f"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-fintech/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "811007b4f8e1e88162c9a3c85eb1efa232b7789bb41a0af137b90cb5779e73bf"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-fintech",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-fintech.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b15e7c495807a4206047691d0c6dd2aef452c6d62e4a9a92fc113a22508feb7b",
+  "fetchedAt": "2026-08-14T05:54:01.927Z",
+  "vaultVersion": 1
+}

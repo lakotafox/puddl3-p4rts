@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/bit-drizzle",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "bit-drizzle",
+  "name": "BitDrizzle",
+  "title": "Bit Drizzle",
+  "description": "Pixelated streaks falling in a quiet digital rain",
+  "tags": [
+    "background",
+    "shader",
+    "rain",
+    "pixel",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "pixel-rain-css",
+      "path": "vault/reactbits-starter/components/bit-drizzle/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bit-drizzle/variants/css/bit-drizzle.tsx",
+          "bytes": 12930,
+          "sha256": "77a7e292024fb3bb6a588319ce0f99432909e2351f03d719c5db9760027c4b5e"
+        },
+        {
+          "path": "vault/reactbits-starter/components/bit-drizzle/variants/css/bit-drizzle.css",
+          "bytes": 209,
+          "sha256": "1558286c647255f47a6dcd1e3b92a0f23ab20b12b5f20c37365f236da9faf070"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BitDrizzle",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bit-drizzle/variants/css/bit-drizzle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bc1adcebc10c036c2444ed81a4e11a99340c5dd62ce4c0d92c9534a02064d1e2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "pixel-rain-tw",
+      "path": "vault/reactbits-starter/components/bit-drizzle/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bit-drizzle/variants/tw/bit-drizzle.tsx",
+          "bytes": 12954,
+          "sha256": "101000afef764f67fdfac9a6bddbbda8fd66f7a4cc48b2db57e27e04f78dd7cf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BitDrizzle",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bit-drizzle/variants/tw/bit-drizzle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "daf723c37f4dd92f8500e1bc01a76259488367cfa172f21acbf896d535213ca1"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BitDrizzle",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/bit-drizzle/variants/tw/bit-drizzle.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/bit-drizzle",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/pixel-rain-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "517bd8e689daea6854037418f342bd110961147678d418847bafc08d81443517",
+  "fetchedAt": "2026-08-14T05:33:59.164Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "pixel-rain",
+  "upstreamName": "PixelRain"
+}

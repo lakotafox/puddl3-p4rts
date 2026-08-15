@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/about-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-6",
+  "name": "about-6",
+  "title": "About 6",
+  "description": "Meet the Team section with large wordmark headline and founder profile cards",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-6",
+      "path": "vault/reactbits-pro/blocks/about-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-6/files/about-6.tsx",
+          "bytes": 4444,
+          "sha256": "3426036d6a8b6f304763660f7da448ac13025937610553586149b59994025cbf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-6/files/about-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7491457f4377b112f33ff58a9d23cbb59036f20ed9ae14d832aa99a27660aef8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-6/files/about-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "87884199bd77c12ae44840739a69bfe49d4c2377a2c3024a320771cd951dd614",
+  "fetchedAt": "2026-08-14T05:35:54.432Z",
+  "vaultVersion": 1
+}

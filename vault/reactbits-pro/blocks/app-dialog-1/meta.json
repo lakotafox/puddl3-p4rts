@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-1",
+  "name": "app-dialog-1",
+  "title": "App Dialog 1",
+  "description": "Standard dialog with header, scrollable body, and a footer action pair.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-1",
+      "path": "vault/reactbits-pro/blocks/app-dialog-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-1/files/app-dialog-1.tsx",
+          "bytes": 13710,
+          "sha256": "4ef83775af16a8a04097e49e933b01227c6990c67cc928ed2d6cfe54724a3a04"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-1/files/app-dialog-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c1abb5febe351ebe6846c4b0a26302bd67315af7fed07868e6c09ddc8c2a744e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-1/files/app-dialog-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8bbf74ebfb6edaf1e8ed55b28d79a50e00d7c43301c21dc9540bfd6ab9ac5f93",
+  "fetchedAt": "2026-08-14T05:37:17.835Z",
+  "vaultVersion": 1
+}

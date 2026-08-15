@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/skill/skill-playful-motion",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-playful-motion",
+  "name": "skill-playful-motion",
+  "title": "Playful Motion",
+  "description": "Build energetic consumer product pages driven by real spring physics: staggered reveals, scroll-linked transforms, oversized rounded geometry and micro-interactions that stay purposeful and never fight the reader.",
+  "tags": [
+    "skill",
+    "expressive",
+    "motion",
+    "spring",
+    "playful",
+    "animation",
+    "consumer",
+    "interaction"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-playful-motion",
+      "path": "vault/reactbits-pro/agent-kit/skill-playful-motion/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-playful-motion/files/SKILL.md",
+          "bytes": 25865,
+          "sha256": "1a74e814f47baa805e02398590f4e2be18ba71167dd654ea72e89b89bcba656f"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-playful-motion/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "bb261d7f799040281dcb72b0c8b8074e5b3c7975fa8d21d6c216470b59b7ae37"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-playful-motion",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-playful-motion.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "09f2d3a98019cbb0034ea4d550d2412b4d00bcc7e667efaf626dc80e648020c4",
+  "fetchedAt": "2026-08-14T05:55:02.853Z",
+  "vaultVersion": 1
+}

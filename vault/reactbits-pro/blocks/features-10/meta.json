@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-10",
+  "name": "features-10",
+  "title": "Features 10",
+  "description": "Split integration map with orbital rings, labeled floating service nodes, and a pulsing central hub.",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-10",
+      "path": "vault/reactbits-pro/blocks/features-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-10/files/features-10.tsx",
+          "bytes": 10629,
+          "sha256": "01e96fbb88d5e5713fbbb9f4e4c1bdf1797022847828f3bcf169911b4a23d18f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-10/files/features-10.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features10",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-10/files/features-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80a277941be7da0586bf660f78bd491b968e371c782c04793c87d2bc2c791d0b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-10/files/features-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "cd61b83646e806e5c5641448f682e0465c4b5e0931d17065483cdbc269fce2e9",
+  "fetchedAt": "2026-08-14T05:46:30.455Z",
+  "vaultVersion": 1
+}

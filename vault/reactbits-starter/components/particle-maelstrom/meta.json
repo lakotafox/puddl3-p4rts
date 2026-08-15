@@ -1,0 +1,126 @@
+{
+  "id": "rb-starter/component/particle-maelstrom",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "particle-maelstrom",
+  "name": "ParticleMaelstrom",
+  "title": "Particle Maelstrom",
+  "description": "Infinitely spinning 3D tunnel with particles and depth effect",
+  "tags": [
+    "animation",
+    "effect",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "vortex-css",
+      "path": "vault/reactbits-starter/components/particle-maelstrom/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/particle-maelstrom/variants/css/particle-maelstrom.tsx",
+          "bytes": 9549,
+          "sha256": "454f14fddf5e947022aaadd07b4bd65f0a529bf7521e8f6cec703ded2897279a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/particle-maelstrom/variants/css/particle-maelstrom.css",
+          "bytes": 125,
+          "sha256": "aac2919f6ddcc29f2f4fe7bef64d4218d5e48723eb08ab05ca20c116de810bc9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ParticleMaelstrom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/particle-maelstrom/variants/css/particle-maelstrom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "ParticleMaelstrom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/particle-maelstrom/variants/css/particle-maelstrom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c634b61428dd6fc75ad179f33f9f049897223ce8991ed1ce434e580a39e6801a"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "vortex-tw",
+      "path": "vault/reactbits-starter/components/particle-maelstrom/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/particle-maelstrom/variants/tw/particle-maelstrom.tsx",
+          "bytes": 9562,
+          "sha256": "1644fdc7f1a06c3ffd5ad693cca1a0136204f9e80a11da12bc1ed902b8de0581"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ParticleMaelstrom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/particle-maelstrom/variants/tw/particle-maelstrom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "ParticleMaelstrom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/particle-maelstrom/variants/tw/particle-maelstrom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8137dc1a33ed1bdd38599c98a1cb76c4595d42caea6fa75c061d76076dd2483"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ParticleMaelstrom",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/particle-maelstrom/variants/tw/particle-maelstrom.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/particle-maelstrom",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/vortex-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "726ed6ce17e04fc8c378c9501d50dd4bfd46e2c968bc005b6d560588a10e99b1",
+  "fetchedAt": "2026-08-14T05:35:19.729Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "vortex",
+  "upstreamName": "Vortex"
+}

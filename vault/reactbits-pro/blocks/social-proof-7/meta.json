@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/social-proof-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-7",
+  "name": "social-proof-7",
+  "title": "Social Proof 7",
+  "description": "Full-width video player with description and logo marquee",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-7",
+      "path": "vault/reactbits-pro/blocks/social-proof-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-7/files/social-proof-7.tsx",
+          "bytes": 5454,
+          "sha256": "80b793072dc458503069be5e7a4c4d999abd8ad2a9caf006ef526da4e3fd7a62"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-7/files/social-proof-7.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SocialProof7",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/social-proof-7/files/social-proof-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8db9164505825df0108f3e45b315f56dd15d29f3c432a8ce2b32696ac150fb2e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-7/files/social-proof-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "27d70629613035655c05fb4bc9d7bd7a4be478355c6d5979b803d0927d0e00ea",
+  "fetchedAt": "2026-08-14T05:55:28.453Z",
+  "vaultVersion": 1
+}

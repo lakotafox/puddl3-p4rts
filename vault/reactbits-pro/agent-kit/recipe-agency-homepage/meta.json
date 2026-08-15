@@ -1,0 +1,82 @@
+{
+  "id": "rb-pro/recipe/recipe-agency-homepage",
+  "source": "rb-pro",
+  "kind": "recipe",
+  "slug": "recipe-agency-homepage",
+  "name": "recipe-agency-homepage",
+  "title": "Agency Homepage",
+  "description": "A tested 10-block arrangement that assembles a complete creative or technical studio homepage (positioning through enquiry) from React Bits Pro blocks in one prompt.",
+  "tags": [
+    "recipe",
+    "marketing",
+    "agency",
+    "studio",
+    "homepage",
+    "portfolio",
+    "blocks"
+  ],
+  "tagSource": "upstream",
+  "category": "recipe",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "recipe-agency-homepage",
+      "path": "vault/reactbits-pro/agent-kit/recipe-agency-homepage/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-agency-homepage/files/RECIPE.md",
+          "bytes": 22165,
+          "sha256": "87007cb2b4c5c91d6853301518571b1066ee6cfbf76ab16b6b534e4fba45fe75"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-agency-homepage/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-agency-homepage/files/plan.json",
+          "bytes": 6260,
+          "sha256": "0ac7cbe23983d0161ca4d63db2187f7924d11c24f59bbe68e05b6605bf23d743"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "6a3cedfe596ab9a525832225a1ad845c795f9fb0fe07ae17bb95f2e884f7110f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/recipe-agency-homepage",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/recipe-agency-homepage.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3fcb25264edb94fdd7697b6167ecd89cc7dae9e28fc04f46a7ec9777c0388da5",
+  "fetchedAt": "2026-08-14T05:54:18.379Z",
+  "vaultVersion": 1
+}

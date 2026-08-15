@@ -1,0 +1,113 @@
+{
+  "id": "rb-pro/block/hero-23",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-23",
+  "name": "hero-23",
+  "title": "Hero 23",
+  "description": "Centered product hero with a framed Water shader showcase panel, live-render chip, and GPU-accelerated caption.",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-23",
+      "path": "vault/reactbits-pro/blocks/hero-23/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-23/files/hero-23.tsx",
+          "bytes": 8295,
+          "sha256": "76079213cd0a4e6a9f522758a76ee39ca1b42e9e19632a9fd2d621446e55d1b5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        },
+        {
+          "name": "@paper-design/shaders-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero23",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-23/files/hero-23.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero23",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-23/files/hero-23.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "390906709aada60f1db75574733e1fb700e27e823f6ab0729dac0bf8d9a0d6fd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "@paper-design/shaders-react",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero23",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-23/files/hero-23.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-23",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-23.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d0a243e514bb504fdbfdf131c128c341595e7d3e77a2edcc34a7ac1c8c92df6e",
+  "fetchedAt": "2026-08-14T05:48:15.132Z",
+  "vaultVersion": 1
+}

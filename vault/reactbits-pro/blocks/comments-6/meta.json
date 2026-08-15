@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/comments-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comments-6",
+  "name": "comments-6",
+  "title": "Comments 6",
+  "description": "Canvas comment panel with numbered pin markers and a linked side rail of notes.",
+  "tags": [
+    "comments",
+    "collaboration",
+    "threads",
+    "review",
+    "annotations"
+  ],
+  "tagSource": "upstream",
+  "category": "comments",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comments-6",
+      "path": "vault/reactbits-pro/blocks/comments-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comments-6/files/comments-6.tsx",
+          "bytes": 11672,
+          "sha256": "175a95eb04bc8564b7217d5f707c5c6ea34aced23b38728b0e7564681d2628ab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comments6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comments-6/files/comments-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "af65d7eb254216303e1cb1f984d73b92cbe575f5ecbfc4f951249cfdc29c68e5"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comments6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comments-6/files/comments-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comments-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comments-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "81dcc65ad5d948f33cfc4beb633fd6b711124c0ebbfcb877572a4c94e7ccd03e",
+  "fetchedAt": "2026-08-14T05:44:07.116Z",
+  "vaultVersion": 1
+}

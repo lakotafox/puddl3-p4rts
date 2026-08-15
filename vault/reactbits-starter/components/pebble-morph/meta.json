@@ -1,0 +1,154 @@
+{
+  "id": "rb-starter/component/pebble-morph",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "pebble-morph",
+  "name": "PebbleMorph",
+  "title": "Pebble Morph",
+  "description": "Morphing squircle shape animation",
+  "tags": [
+    "animation",
+    "shape",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "squircle-shift-css",
+      "path": "vault/reactbits-starter/components/pebble-morph/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pebble-morph/variants/css/pebble-morph.tsx",
+          "bytes": 9095,
+          "sha256": "c1cde9b3ad8651390cf600a132596d2ff2b3d7dbce4f9717627cb80084d1578c"
+        },
+        {
+          "path": "vault/reactbits-starter/components/pebble-morph/variants/css/pebble-morph.css",
+          "bytes": 199,
+          "sha256": "4515977d5c00511c895f4acb78a1d1d3382dd5208e3bb4ebb06da3cb2cd0b6ae"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PebbleMorph",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pebble-morph/variants/css/pebble-morph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "06b1134bc0d0a0bba34dd4830fa071b2ef0863fe1fca99a9ad788b5811f822e5"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "squircle-shift-tw",
+      "path": "vault/reactbits-starter/components/pebble-morph/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pebble-morph/variants/tw/pebble-morph.tsx",
+          "bytes": 9015,
+          "sha256": "5eccfce6a625e8cf2cbc36f303eaa6fd8c0aabcfbe34829a9ac80553db6d90b8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PebbleMorph",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pebble-morph/variants/tw/pebble-morph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9b8312e4779256d878141f40a3460f32b7b30db1f6a3de48362a21012cae83e1"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PebbleMorph",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/pebble-morph/variants/tw/pebble-morph.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/pebble-morph",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/squircle-shift-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "eae55b8104dae5d8f986998a23d7cbb0696f27620c35ae1f0230b963f1696f3e",
+  "fetchedAt": "2026-08-14T05:34:53.491Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "squircle-shift",
+  "upstreamName": "SquircleShift"
+}

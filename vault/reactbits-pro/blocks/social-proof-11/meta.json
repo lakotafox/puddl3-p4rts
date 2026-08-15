@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-11",
+  "name": "social-proof-11",
+  "title": "Social Proof 11",
+  "description": "Tweet-style testimonial carousel with member avatars and prev/next controls",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-11",
+      "path": "vault/reactbits-pro/blocks/social-proof-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-11/files/social-proof-11.tsx",
+          "bytes": 4491,
+          "sha256": "71ecc7f41da32897f8e3f3e7ab385f8a5a38917833c1a714ccff264ee7b7065c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-11/files/social-proof-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e6254ca6d521d859c246d27b9faa9eceeedd642eda76c8e45b65b1459d698453"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-11/files/social-proof-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "00326d484cfb8e94a0662364fe00ad929e1159d24af3de9a04092d1425c7a01a",
+  "fetchedAt": "2026-08-14T05:55:11.147Z",
+  "vaultVersion": 1
+}

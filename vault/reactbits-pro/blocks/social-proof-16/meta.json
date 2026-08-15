@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-16",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-16",
+  "name": "social-proof-16",
+  "title": "Social Proof 16",
+  "description": "Dark featured pull-quote panel beside a verified social post grid",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-16",
+      "path": "vault/reactbits-pro/blocks/social-proof-16/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-16/files/social-proof-16.tsx",
+          "bytes": 7282,
+          "sha256": "433e33757745303ca043b45c02a9886a48965abe241ed674b7cbbcac2443df11"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof16",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-16/files/social-proof-16.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f789df1cec56f434d2b8882039365d01ba28dca7981335fd20b31ebde932e639"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof16",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-16/files/social-proof-16.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-16",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-16.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fb3bebac500e49fb39375fd3b2d0f33b52bf253d5054c492f107c578639ee60f",
+  "fetchedAt": "2026-08-14T05:55:19.230Z",
+  "vaultVersion": 1
+}

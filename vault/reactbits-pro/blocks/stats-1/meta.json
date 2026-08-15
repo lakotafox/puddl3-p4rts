@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/stats-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-1",
+  "name": "stats-1",
+  "title": "Stats 1",
+  "description": "Two-column layout with stacked bar chart",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-1",
+      "path": "vault/reactbits-pro/blocks/stats-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-1/files/stats-1.tsx",
+          "bytes": 3342,
+          "sha256": "b8a17ee0754bc18667c0a3caaced6c9f7847f318301a6e1a3669a326fb3481b8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-1/files/stats-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dac9093d724da58effe9a606f681089a5e82e3f882dbe81ca6d0c37ee78b27b0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-1/files/stats-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2670786e4be4da7558986ffea4b7dc40b81f1db3240da378d33e42518ddc3a11",
+  "fetchedAt": "2026-08-14T05:55:33.118Z",
+  "vaultVersion": 1
+}

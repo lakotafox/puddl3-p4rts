@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/agent-plan-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-plan-3",
+  "name": "agent-plan-3",
+  "title": "Agent Plan 3",
+  "description": "Plan tree with nested subtasks, dependency links, and blocked states.",
+  "tags": [
+    "ai",
+    "agent",
+    "plan",
+    "tasks",
+    "checklist"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-plan-3",
+      "path": "vault/reactbits-pro/blocks/agent-plan-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-plan-3/files/agent-plan-3.tsx",
+          "bytes": 11376,
+          "sha256": "54173120af5db4b44cfab8f105a965676674c0d3b6d133048458978b5bc474af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentPlan3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-plan-3/files/agent-plan-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53546e8ad31982eefcfe26bfd5dfccf8d3d48fa8fa651decfbcd440dd269a0ea"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentPlan3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-plan-3/files/agent-plan-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-plan-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-plan-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2f60fef4ba324f40d8324e8cceda16e65b85819cd7020389dfad7d6dfb0461de",
+  "fetchedAt": "2026-08-14T05:36:22.565Z",
+  "vaultVersion": 1
+}

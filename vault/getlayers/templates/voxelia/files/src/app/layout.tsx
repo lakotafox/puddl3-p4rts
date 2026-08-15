@@ -1,0 +1,70 @@
+import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
+
+import {
+  generateMetadata,
+  generateViewport,
+} from "@/utils/seo/generate-page-metadata";
+import { getSiteStructuredData } from "@/utils/seo/structured-data";
+
+import { LazyCookie } from "@/components/common/Cookie";
+import { Cursor3D } from "@/components/common/cursor-3d";
+import { AdaptiveGrid } from "@/components/common/grid";
+import { PixelWaves } from "@/components/common/pixel-waves";
+import { Preloader } from "@/components/common/preloader";
+import { ReducedMotion } from "@/components/common/reduced-motion";
+import { ScrollLayout } from "@/layouts/scroll-layout";
+
+import "@/app/globals.css";
+
+/**
+ * The two faces the design uses, and only those. The starter shipped Onest from
+ * Google Fonts; it was a third family doing the same job as General Sans, so it
+ * is gone rather than left loading in the background.
+ */
+const generalSans = localFont({
+  src: "./fonts/GeneralSans-Medium.otf",
+  variable: "--font-general-sans",
+  weight: "500",
+  style: "normal",
+  display: "swap",
+});
+
+const jersey = localFont({
+  src: "./fonts/Jersey25-Regular.ttf",
+  variable: "--font-jersey",
+  weight: "400",
+  style: "normal",
+  display: "swap",
+});
+
+export const metadata: Metadata = generateMetadata();
+export const viewport: Viewport = generateViewport();
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${generalSans.variable} ${jersey.variable} font-sans`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getSiteStructuredData()),
+          }}
+        />
+        <ScrollLayout>
+          <AdaptiveGrid />
+          <ReducedMotion />
+          <PixelWaves />
+          <Cursor3D />
+          <Preloader />
+          <LazyCookie />
+          {children}
+        </ScrollLayout>
+      </body>
+    </html>
+  );
+}

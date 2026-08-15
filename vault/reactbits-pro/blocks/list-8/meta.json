@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-8",
+  "name": "list-8",
+  "title": "List 8",
+  "description": "Inbox with archive, snooze, and a collapsing row that offers undo.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-8",
+      "path": "vault/reactbits-pro/blocks/list-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-8/files/list-8.tsx",
+          "bytes": 18750,
+          "sha256": "ddc1e51ed8e9e6efa184f735531ee4495e9199f79ed0c69a8b1aadbdc7f9080f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-8/files/list-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "56751b05a8dea263afe63a79281ed9e83708b8a17432a707ffb4c50d272f7782"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-8/files/list-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4b5488571bea0ce3928d75b57ba15e87efee912679eeaca38aea3ed405ece05c",
+  "fetchedAt": "2026-08-14T05:49:15.315Z",
+  "vaultVersion": 1
+}

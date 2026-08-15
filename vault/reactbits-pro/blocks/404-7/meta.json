@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/404-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "404-7",
+  "name": "404-7",
+  "title": "404 7",
+  "description": "Radar-sweep 404 with sweep-synced contact pings, outline-mix numeral, and inline search",
+  "tags": [
+    "404",
+    "error",
+    "page"
+  ],
+  "tagSource": "upstream",
+  "category": "404",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "404-7",
+      "path": "vault/reactbits-pro/blocks/404-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/404-7/files/404-7.tsx",
+          "bytes": 10341,
+          "sha256": "243228a1fd579412e329c5cb4bcf510de24fb9f7a3288eb164704504f0e20a62"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NotFound7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/404-7/files/404-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f2304a7a083a7d90423b04e4c93da396475d2d22b12b8d9f3a8b74feabd98e68"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NotFound7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/404-7/files/404-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/404-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/404-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "40bc3fcf9d6aa464350d721df710edceba11ee9c468adaf963c3b915fedeaf75",
+  "fetchedAt": "2026-08-14T05:35:39.664Z",
+  "vaultVersion": 1
+}

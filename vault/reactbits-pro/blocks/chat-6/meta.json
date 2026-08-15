@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/chat-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "chat-6",
+  "name": "chat-6",
+  "title": "Chat 6",
+  "description": "Live stream chat with a pinned notice, host and moderator badges, and a viewer list.",
+  "tags": [
+    "chat",
+    "messaging",
+    "conversation",
+    "inbox",
+    "social",
+    "support"
+  ],
+  "tagSource": "upstream",
+  "category": "chat",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "chat-6",
+      "path": "vault/reactbits-pro/blocks/chat-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/chat-6/files/chat-6.tsx",
+          "bytes": 11724,
+          "sha256": "f479e3311b7980067f81a9a1c20760a17ea82aa89f3bfe78dfd285f5aac42e40"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Chat6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/chat-6/files/chat-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "65902660971e62ac1681b0960eb10e91f774e0f3a4daf7c9a50d45086b345356"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Chat6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/chat-6/files/chat-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/chat-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/chat-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1d6fa89de1b72b451be7bb40189de9288d54a33df7a4b10523621fca39e066c6",
+  "fetchedAt": "2026-08-14T05:43:48.747Z",
+  "vaultVersion": 1
+}

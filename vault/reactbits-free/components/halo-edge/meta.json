@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/halo-edge",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "halo-edge",
+  "name": "HaloEdge",
+  "title": "Halo Edge",
+  "description": "Glowing mesh-gradient border that follows cursor direction and intensifies near edges.",
+  "tags": [
+    "effect"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "BorderGlow-JS-CSS",
+      "path": "vault/reactbits-free/components/halo-edge/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/js-css/HaloEdge.css",
+          "bytes": 5915,
+          "sha256": "b535627b58584d14dc22be192e1f5352d8bea5ab3b0e11fcb9d9848f8b5ad447"
+        },
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/js-css/HaloEdge.jsx",
+          "bytes": 5399,
+          "sha256": "868ab27a576c1422521ba1bf2bad4a43cc9e0e27561277f686986a50f723f4ef"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HaloEdge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/halo-edge/variants/js-css/HaloEdge.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b70fa771d9d5042475d20117d279c42336f8aa79833af5b4ee4dbc0c52eff21b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "BorderGlow-JS-TW",
+      "path": "vault/reactbits-free/components/halo-edge/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/js-tw/HaloEdge.jsx",
+          "bytes": 9541,
+          "sha256": "947c2a93960f5ac1d0762fbf22b61d90fec1d136051fa8cda81396ed6634e0f3"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HaloEdge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/halo-edge/variants/js-tw/HaloEdge.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45ad546d717639d1299507c9bdd1f3997b54ceb95342d7049d3e051c6d8822fb"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "BorderGlow-TS-CSS",
+      "path": "vault/reactbits-free/components/halo-edge/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/ts-css/HaloEdge.css",
+          "bytes": 5915,
+          "sha256": "b535627b58584d14dc22be192e1f5352d8bea5ab3b0e11fcb9d9848f8b5ad447"
+        },
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/ts-css/HaloEdge.tsx",
+          "bytes": 6290,
+          "sha256": "727d75d190be1b1b9746879be1652b1447a7ce588ee0d8161846bbab662f0d25"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HaloEdge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/halo-edge/variants/ts-css/HaloEdge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e91abd9db56071f7c7a7d3f48631e26b5dc1d3b96dad306af10079de814e286c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "BorderGlow-TS-TW",
+      "path": "vault/reactbits-free/components/halo-edge/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/halo-edge/variants/ts-tw/HaloEdge.tsx",
+          "bytes": 10430,
+          "sha256": "149a88f0ea7c4a7bd5aca7e41a091dd0e2f144c08150f038ea846e9b86526b66"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HaloEdge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/halo-edge/variants/ts-tw/HaloEdge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8e704c9ff6c68425c13708d7477207870ba11ddab6627924f57470d95f28dce1"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HaloEdge",
+      "style": "default",
+      "file": "vault/reactbits-free/components/halo-edge/variants/ts-tw/HaloEdge.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/halo-edge",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/BorderGlow-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/border-glow"
+  },
+  "hash": "81b242aa9259ed3b82ba98485aecfd20dc58ff443b4999efe9a9e8ab8c1b5d7b",
+  "fetchedAt": "2026-08-14T05:36:11.341Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HaloEdge",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "border-glow",
+  "upstreamName": "BorderGlow"
+}

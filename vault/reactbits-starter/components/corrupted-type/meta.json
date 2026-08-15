@@ -1,0 +1,112 @@
+{
+  "id": "rb-starter/component/corrupted-type",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "corrupted-type",
+  "name": "CorruptedType",
+  "title": "Corrupted Type",
+  "description": "Interactive canvas-based text with sticky glitch effect that responds to cursor movement",
+  "tags": [
+    "animation",
+    "text"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glitch-text-css",
+      "path": "vault/reactbits-starter/components/corrupted-type/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/corrupted-type/variants/css/corrupted-type.tsx",
+          "bytes": 13499,
+          "sha256": "50a8199a90c519270fffcbf0ca8e84e49edc7f36773fa69b5e9e23847a0e429e"
+        },
+        {
+          "path": "vault/reactbits-starter/components/corrupted-type/variants/css/corrupted-type.css",
+          "bytes": 303,
+          "sha256": "bd99e94f985fb1e6362757bea8992321ae99edadb3f2e9b87114b55cf30d1b23"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CorruptedType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/corrupted-type/variants/css/corrupted-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6a8d0830973b861d85beea4e2da031834b7d90225eeaab61f7c0312e3286e5ae"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glitch-text-tw",
+      "path": "vault/reactbits-starter/components/corrupted-type/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/corrupted-type/variants/tw/corrupted-type.tsx",
+          "bytes": 13392,
+          "sha256": "16a7704f319b21e56cbda30afd231b85cbf8973cc99dc2315586fc5949824821"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CorruptedType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/corrupted-type/variants/tw/corrupted-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7d9a6a175f21b105c33539c1c12168ca78c733c79eed480a66e30bc0592b6930"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CorruptedType",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/corrupted-type/variants/tw/corrupted-type.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/corrupted-type",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glitch-text-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "08ae8c323d781dd8c63a3839ef5c1d0e0f16db607602e62047b68018e03eaa92",
+  "fetchedAt": "2026-08-14T05:32:50.453Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glitch-text",
+  "upstreamName": "GlitchText"
+}

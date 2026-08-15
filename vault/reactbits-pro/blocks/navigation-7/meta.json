@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navigation-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-7",
+  "name": "navigation-7",
+  "title": "Navigation 7",
+  "description": "Top nav with rounded items and dropdown menus",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-7",
+      "path": "vault/reactbits-pro/blocks/navigation-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-7/files/navigation-7.tsx",
+          "bytes": 16420,
+          "sha256": "76fd3a005ccb68c632c122788572c295177430225e243022a49c487f022e4e60"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-7/files/navigation-7.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Navigation7",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/navigation-7/files/navigation-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "264f374e782852fa1321bce774523fe47ce6afd624fa0f6eeffd5fa49874cbb0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-7/files/navigation-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a641965ab15d693a06227e640b8e2fd5f564efdff3edf1d6149e235671ed018f",
+  "fetchedAt": "2026-08-14T05:52:49.972Z",
+  "vaultVersion": 1
+}

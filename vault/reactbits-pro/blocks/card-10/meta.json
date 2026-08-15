@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-10",
+  "name": "card-10",
+  "title": "Card 10",
+  "description": "A standalone balance card with a headline figure, a split, recent activity, and money actions.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-10",
+      "path": "vault/reactbits-pro/blocks/card-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-10/files/card-10.tsx",
+          "bytes": 5083,
+          "sha256": "b2c398c85358a8fe70106f5356b67ccb279f61c985088f27bc84507277ca8530"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-10/files/card-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "605f4678a5c3e52b15bbe36732299c770a2e6ec9115fab13cc6e136e872e75d9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-10/files/card-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5aa0bf7c51f6ede2ce7eaf5a068c8765fa70248db5cde8959df62ba3b8f990b4",
+  "fetchedAt": "2026-08-14T05:43:25.898Z",
+  "vaultVersion": 1
+}

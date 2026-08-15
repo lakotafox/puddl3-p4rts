@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-14",
+  "name": "cta-14",
+  "title": "CTA 14",
+  "description": "Dark split CTA with animated marquee tags and stacked preview card",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-14",
+      "path": "vault/reactbits-pro/blocks/cta-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-14/files/cta-14.tsx",
+          "bytes": 9303,
+          "sha256": "38fd91a400a65f5cc7f3d60bc6c6e93b34480633eec4d8c20b3c8dcc0d8992a1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-14/files/cta-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e9bf93ec5b203fee56a55b47602bfade4a897c0d1e1bfb969e04dac428fdce85"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-14/files/cta-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d5191ac9d570ab34f9e5a0438484e3673488f341a2d2e6eb4ea3a94f9fd2bc98",
+  "fetchedAt": "2026-08-14T05:44:45.744Z",
+  "vaultVersion": 1
+}

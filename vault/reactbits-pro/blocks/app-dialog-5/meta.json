@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-5",
+  "name": "app-dialog-5",
+  "title": "App Dialog 5",
+  "description": "Side drawer containing a form with an unsaved-changes guard.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-5",
+      "path": "vault/reactbits-pro/blocks/app-dialog-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-5/files/app-dialog-5.tsx",
+          "bytes": 23048,
+          "sha256": "b45fd17a2bb8e0b29c9a1c6e1ea507b5df22f8bd5558c5e967d191dcf1cde0d5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-5/files/app-dialog-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "91c6503bbebef179e2486f24dfd13bc3193d09f452869d8e434060ade59b0d83"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-5/files/app-dialog-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2ab11a5891bea6588608a24964d8d04fd6ae568c4f052e21fe772d527074104a",
+  "fetchedAt": "2026-08-14T05:37:23.862Z",
+  "vaultVersion": 1
+}

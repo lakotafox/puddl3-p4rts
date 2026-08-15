@@ -1,0 +1,23 @@
+{
+  "name": "RIPPL3",
+  "short_name": "RIPPL3",
+  "description": "Walk-in diagnostics, same-day results and specialist care — any hour, any day.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eff4f2",
+  "theme_color": "#246f65",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

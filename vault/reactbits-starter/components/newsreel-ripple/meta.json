@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/newsreel-ripple",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "newsreel-ripple",
+  "name": "NewsreelRipple",
+  "title": "Newsreel Ripple",
+  "description": "Animated halftone dot grid with noise",
+  "tags": [
+    "3d",
+    "shader",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "halftone-wave-css",
+      "path": "vault/reactbits-starter/components/newsreel-ripple/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/newsreel-ripple/variants/css/newsreel-ripple.tsx",
+          "bytes": 10167,
+          "sha256": "50d96a9409ee5a963b6718b10b3a938ffb7b9db33f5ab44650913deb2d7f04d1"
+        },
+        {
+          "path": "vault/reactbits-starter/components/newsreel-ripple/variants/css/newsreel-ripple.css",
+          "bytes": 252,
+          "sha256": "de636b95b8e0e710d2b918ceb0ea0b51543a12eaa889ef781f22692938e84f5b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsreelRipple",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/newsreel-ripple/variants/css/newsreel-ripple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5d29aa4572d8acaa8181c4f38f073506612cbdf9acd312b69e78ca5e87f4147a"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "halftone-wave-tw",
+      "path": "vault/reactbits-starter/components/newsreel-ripple/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/newsreel-ripple/variants/tw/newsreel-ripple.tsx",
+          "bytes": 10208,
+          "sha256": "256d741208c54f30b35eb39bd7bfb17c658d0d6aa730e601d25f82b4cbae404c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsreelRipple",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/newsreel-ripple/variants/tw/newsreel-ripple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "89bd85a1d875d50c4b46b77c09c5125e2d4eab1cee943653feee0a71def07a39"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NewsreelRipple",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/newsreel-ripple/variants/tw/newsreel-ripple.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/newsreel-ripple",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/halftone-wave-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1eca5f599364e7869716b095bcd2e32cf3fe938177184b8b8ffe6a2114563c63",
+  "fetchedAt": "2026-08-14T05:33:10.043Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "halftone-wave",
+  "upstreamName": "HalftoneWave"
+}

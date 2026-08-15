@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/paywall-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "paywall-4",
+  "name": "paywall-4",
+  "title": "Paywall 4",
+  "description": "Usage-cap notice with per-quota meters and a top-up or upgrade choice.",
+  "tags": [
+    "paywall",
+    "upgrade",
+    "billing",
+    "gate",
+    "pricing",
+    "trial"
+  ],
+  "tagSource": "upstream",
+  "category": "paywall",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "paywall-4",
+      "path": "vault/reactbits-pro/blocks/paywall-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/paywall-4/files/paywall-4.tsx",
+          "bytes": 5977,
+          "sha256": "7dc2c571607645cf808e1260886acb373912064ec5a7576565145a9d06f9fb01"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Paywall4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/paywall-4/files/paywall-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "efe784ec2e4822eb9cc38e97e5ef4fc5d6086de479baaee9b56088890ebc2de0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Paywall4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/paywall-4/files/paywall-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/paywall-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/paywall-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d8aa926dd706660e4b0c34ea7a177cc2c47f33bbc4900a45af4ece1556315ff7",
+  "fetchedAt": "2026-08-14T05:53:18.713Z",
+  "vaultVersion": 1
+}

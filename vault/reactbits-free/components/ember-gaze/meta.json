@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/ember-gaze",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ember-gaze",
+  "name": "EmberGaze",
+  "title": "Ember Gaze",
+  "description": "Procedural evil eye shader with animated iris, slit pupil, and fiery outer glow.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "EvilEye-JS-CSS",
+      "path": "vault/reactbits-free/components/ember-gaze/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/js-css/EmberGaze.css",
+          "bytes": 55,
+          "sha256": "906a7d9c0fd90ae689d1eeab0a13afb5f1d0be9d023ec23e08f887a9c2c5e2db"
+        },
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/js-css/EmberGaze.jsx",
+          "bytes": 8178,
+          "sha256": "a69e64419ab3b4cd80c34b0aca90957c9bf0d7ea3a9ea38d06efa453feb0d947"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberGaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ember-gaze/variants/js-css/EmberGaze.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4709b87ab838eaa911ae741ea2ee0bc75a68a8f17e2b4b465fd16ccb200a154d"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "EvilEye-JS-TW",
+      "path": "vault/reactbits-free/components/ember-gaze/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/js-tw/EmberGaze.jsx",
+          "bytes": 8149,
+          "sha256": "888a6124e3df42aa3f8dc46338c8172e6aff8dccc2b3f3f75e237a4686138425"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberGaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ember-gaze/variants/js-tw/EmberGaze.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3135fc45b770e270be51d4224d4348b1d89c9940b4095996b7557b4e9a205dae"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "EvilEye-TS-CSS",
+      "path": "vault/reactbits-free/components/ember-gaze/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/ts-css/EmberGaze.css",
+          "bytes": 55,
+          "sha256": "906a7d9c0fd90ae689d1eeab0a13afb5f1d0be9d023ec23e08f887a9c2c5e2db"
+        },
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/ts-css/EmberGaze.tsx",
+          "bytes": 8620,
+          "sha256": "f9b7a260555c07e259ccc464e06e61d2bdf4908eea826ffdaed34ca9723d03cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberGaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ember-gaze/variants/ts-css/EmberGaze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0fbe37a6f27f94d8b77dc9eb147192c573f6322013cce1971cd54e6e051b401f"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "EvilEye-TS-TW",
+      "path": "vault/reactbits-free/components/ember-gaze/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ember-gaze/variants/ts-tw/EmberGaze.tsx",
+          "bytes": 8591,
+          "sha256": "587345b34a423fa3010d8b7d21b9c8f96c25845e507edd03fdb13ea595f3bcab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberGaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ember-gaze/variants/ts-tw/EmberGaze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b3fa14e55fa95ac83c21a4bbaa18f6da70253b7067407c8518ccd5f81021275e"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmberGaze",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ember-gaze/variants/ts-tw/EmberGaze.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ember-gaze",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/EvilEye-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/evil-eye"
+  },
+  "hash": "5b8ba83b6979c24415ff6f1bc2cdec366ec3798ee438ef054306b5ae89cb7c6e",
+  "fetchedAt": "2026-08-14T05:36:11.373Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "EmberGaze",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "evil-eye",
+  "upstreamName": "EvilEye"
+}

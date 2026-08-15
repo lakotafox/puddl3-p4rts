@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/twinkle-tiles",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "twinkle-tiles",
+  "name": "TwinkleTiles",
+  "title": "Twinkle Tiles",
+  "description": "A grid of little squares that quietly twinkle",
+  "tags": [
+    "grid",
+    "squares",
+    "shader",
+    "twinkle",
+    "background",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "grid",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "blinking-squares-css",
+      "path": "vault/reactbits-starter/components/twinkle-tiles/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/twinkle-tiles/variants/css/twinkle-tiles.tsx",
+          "bytes": 8410,
+          "sha256": "c7cced0150854a16ae7701273dbdda8e1068fb8c1b12b3494be29fd355f1765e"
+        },
+        {
+          "path": "vault/reactbits-starter/components/twinkle-tiles/variants/css/twinkle-tiles.css",
+          "bytes": 69,
+          "sha256": "d762c846a74c1a256467b77d04306fbcefca9471c6c2f4d6d17aaac6efc4f75b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TwinkleTiles",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/twinkle-tiles/variants/css/twinkle-tiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a9e505765efb31045352f6efed59128308e9944bed88edf31542ff76c8d774a4"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "blinking-squares-tw",
+      "path": "vault/reactbits-starter/components/twinkle-tiles/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/twinkle-tiles/variants/tw/twinkle-tiles.tsx",
+          "bytes": 8390,
+          "sha256": "511afcf0189f191c62e372f52cf9ce42128afd08fb1ccb96d922511181304780"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TwinkleTiles",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/twinkle-tiles/variants/tw/twinkle-tiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "213ff083bef7d1a405d4e45a567b2c431db6e988a6b80e5b57efe3cb1f62e108"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TwinkleTiles",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/twinkle-tiles/variants/tw/twinkle-tiles.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/twinkle-tiles",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/blinking-squares-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "16aa233f0a18588ac9875b274800d837b64047b88dff94439c66423e2ae78674",
+  "fetchedAt": "2026-08-14T05:31:52.645Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "blinking-squares",
+  "upstreamName": "BlinkingSquares"
+}

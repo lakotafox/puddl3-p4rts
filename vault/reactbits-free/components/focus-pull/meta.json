@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/focus-pull",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "focus-pull",
+  "name": "FocusPull",
+  "title": "Focus Pull",
+  "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.",
+  "tags": [
+    "effect"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GradualBlur-JS-CSS",
+      "path": "vault/reactbits-free/components/focus-pull/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/js-css/FocusPull.css",
+          "bytes": 491,
+          "sha256": "13f6d68ac89837835ba68a03efb8c4ce1c56d633bca304fc51dfb8a93069e87b"
+        },
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/js-css/FocusPull.jsx",
+          "bytes": 8535,
+          "sha256": "6f78e3aa59744d79f23fca525e85be62e8c79a327364028f084c2ee3c8ab78ea"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FocusPullMemo",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focus-pull/variants/js-css/FocusPull.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "48cb76e99767c1397a4170bef63ec47ae9e698c03a253948d91539b27ede6156"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GradualBlur-JS-TW",
+      "path": "vault/reactbits-free/components/focus-pull/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/js-tw/FocusPull.jsx",
+          "bytes": 7819,
+          "sha256": "c796b60d9e78cc98025133e646036cb315dad9919f0c2fc63592663a03043180"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FocusPullMemo",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focus-pull/variants/js-tw/FocusPull.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "094ff1fab2d07626fd00bc69deb4d0d41812526a857291aedffca9e62a1c18c4"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GradualBlur-TS-CSS",
+      "path": "vault/reactbits-free/components/focus-pull/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/ts-css/FocusPull.css",
+          "bytes": 491,
+          "sha256": "13f6d68ac89837835ba68a03efb8c4ce1c56d633bca304fc51dfb8a93069e87b"
+        },
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/ts-css/FocusPull.tsx",
+          "bytes": 10058,
+          "sha256": "551bc89f0edefc8cf7a06849278dd2f40f63970b85d80ef8345a793969e4047c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FocusPullMemo",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focus-pull/variants/ts-css/FocusPull.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e35220f74b0f696c4b7b5f4d5ca76366b86c37e4747f5ede8d4693066c6d31ac"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GradualBlur-TS-TW",
+      "path": "vault/reactbits-free/components/focus-pull/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focus-pull/variants/ts-tw/FocusPull.tsx",
+          "bytes": 9873,
+          "sha256": "865db8e0ee957dfc81e9c2bbce1706dc39d7495ed69c06182f5b631af1fbd96e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FocusPullMemo",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focus-pull/variants/ts-tw/FocusPull.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7445a74ea4ddab7494a833dedeaec2103642eeda9807c4245fa11525370566da"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FocusPullMemo",
+      "style": "default",
+      "file": "vault/reactbits-free/components/focus-pull/variants/ts-tw/FocusPull.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/focus-pull",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GradualBlur-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/gradual-blur"
+  },
+  "hash": "43d1f21839395ddd0d813160e16b21b762698f610e742f7f160d34453bee4c6c",
+  "fetchedAt": "2026-08-14T05:36:11.390Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FocusPull",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "gradual-blur",
+  "upstreamName": "GradualBlurMemo"
+}

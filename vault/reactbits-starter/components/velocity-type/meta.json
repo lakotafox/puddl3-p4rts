@@ -1,0 +1,131 @@
+{
+  "id": "rb-starter/component/velocity-type",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "velocity-type",
+  "name": "VelocityType",
+  "title": "Velocity Type",
+  "description": "Text that stretches and smears as it races past the viewport",
+  "tags": [
+    "text",
+    "marquee",
+    "speed",
+    "motion",
+    "blur",
+    "kinetic"
+  ],
+  "tagSource": "upstream",
+  "category": "text",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "speeding-text-css",
+      "path": "vault/reactbits-starter/components/velocity-type/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/velocity-type/variants/css/velocity-type.tsx",
+          "bytes": 12026,
+          "sha256": "6ebc6e6e3cce23a8fc9a78fa85d6954acdf3a3370770c8599632b016b15b5601"
+        },
+        {
+          "path": "vault/reactbits-starter/components/velocity-type/variants/css/velocity-type.css",
+          "bytes": 61,
+          "sha256": "8a01531942d52e4d23bdadf2f7d750e3d9f7d51f69a1670a2e989d480b25670b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VelocityType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/velocity-type/variants/css/velocity-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aec90b7f89b20fe9c827578512acdeb5d6f44cc96970d840446026b5f00bd518"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "speeding-text-tw",
+      "path": "vault/reactbits-starter/components/velocity-type/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/velocity-type/variants/tw/velocity-type.tsx",
+          "bytes": 12018,
+          "sha256": "d8ad288cc80c3156e4dd10d7fcbbbb041f8240e835c509a980db6260ebee2b24"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VelocityType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/velocity-type/variants/tw/velocity-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4a4a06566381189b63a54688395e465983f206e01a68e0addb59d16059880819"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VelocityType",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/velocity-type/variants/tw/velocity-type.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/velocity-type",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/speeding-text-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "87f80069e3a57551cb308286f4ca8ce9d0627c605e9c7e5a20f9d2e92deb6c33",
+  "fetchedAt": "2026-08-14T05:34:48.332Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "speeding-text",
+  "upstreamName": "SpeedingText"
+}

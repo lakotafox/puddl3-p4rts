@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/ink-wash",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ink-wash",
+  "name": "InkWash",
+  "title": "Ink Wash",
+  "description": "Animated watercolor noise shader with two-color blend",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "watercolor-css",
+      "path": "vault/reactbits-starter/components/ink-wash/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ink-wash/variants/css/ink-wash.tsx",
+          "bytes": 9219,
+          "sha256": "8270563c1557f824ef2686c131577eead3bdd2d6079a7d9ba3fa040e4a79bc31"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ink-wash/variants/css/ink-wash.css",
+          "bytes": 243,
+          "sha256": "f27d3850a8d734d167b3a887fe6b35c692be4179783feb9c40125c3e7683f978"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkWash",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ink-wash/variants/css/ink-wash.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c847a46b46cd40174cd753f79f8944b35c04a11079be4ff41872665e9c69e842"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "watercolor-tw",
+      "path": "vault/reactbits-starter/components/ink-wash/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ink-wash/variants/tw/ink-wash.tsx",
+          "bytes": 9273,
+          "sha256": "3cabd54cbde3ba09eb3e13e61ced747454dc239f5c071bb92650f4e1e8434680"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkWash",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ink-wash/variants/tw/ink-wash.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae7ab4306c4af3c2ce0a0617bad4a4155137bd023f3308222ee815a1bb3c90c4"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "InkWash",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ink-wash/variants/tw/ink-wash.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ink-wash",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/watercolor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c9e24729e7eb68c313fad7fc5538c42cc7ee6d1b1d52b864e56fee938279b10e",
+  "fetchedAt": "2026-08-14T05:35:25.179Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "watercolor",
+  "upstreamName": "Watercolor"
+}

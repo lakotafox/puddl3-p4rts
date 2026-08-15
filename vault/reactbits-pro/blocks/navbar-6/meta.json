@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-6",
+  "name": "navbar-6",
+  "title": "Navbar 6",
+  "description": "App top bar with an expanding search, a notifications popover, and an account menu.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-6",
+      "path": "vault/reactbits-pro/blocks/navbar-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-6/files/navbar-6.tsx",
+          "bytes": 17807,
+          "sha256": "26828d702fcb282c5bfeff919e4b66f16a6f30372c58b7f0dc5c40f851a29a87"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-6/files/navbar-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4f9cd542698b161a09a6435a03923336d6b391e716a4e1fe643f17fb313188f6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-6/files/navbar-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bd1fe25d31081e77e37c4bdcca09f226295765ad25c48c6c20f6b8dbb50b04ed",
+  "fetchedAt": "2026-08-14T05:49:55.382Z",
+  "vaultVersion": 1
+}

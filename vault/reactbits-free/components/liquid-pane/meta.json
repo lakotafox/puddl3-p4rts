@@ -1,0 +1,247 @@
+{
+  "id": "rb-free/component/liquid-pane",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "liquid-pane",
+  "name": "LiquidPane",
+  "title": "Liquid Pane",
+  "description": "Glassmorphism container with animated liquid distortion refraction.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FluidGlass-JS-CSS",
+      "path": "vault/reactbits-free/components/liquid-pane/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-pane/variants/js-css/LiquidPane.jsx",
+          "bytes": 8063,
+          "sha256": "e285d018c9dd356e075e04db2e935e900e966d272c8f1b8cc7242ffe856894f1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "maath",
+          "range": "^0.10.8"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-pane/variants/js-css/LiquidPane.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a90294ecc93068ad4f0178184290fc0edd885cad93e0c2940f54287a9edf36c7"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FluidGlass-JS-TW",
+      "path": "vault/reactbits-free/components/liquid-pane/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-pane/variants/js-tw/LiquidPane.jsx",
+          "bytes": 8063,
+          "sha256": "bc1d085dbe1bdc1ea98c126c3d0dcdf126b447cffeac9d7970ba138ece851677"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "maath",
+          "range": "^0.10.8"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-pane/variants/js-tw/LiquidPane.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "70335e41e0e11e8042f98bb5f4ea6e605727a9cce31859e303cfce811df6312d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FluidGlass-TS-CSS",
+      "path": "vault/reactbits-free/components/liquid-pane/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-pane/variants/ts-css/LiquidPane.tsx",
+          "bytes": 9262,
+          "sha256": "3030fdb52417fae6985e798abddfd50a337d0253528a3540d80c1ceaccb59924"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "maath",
+          "range": "^0.10.8"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-pane/variants/ts-css/LiquidPane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8a369d81eddbedffb5ae86d37d8aca65e5a4c29b2780e52367fa133d54757288"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FluidGlass-TS-TW",
+      "path": "vault/reactbits-free/components/liquid-pane/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-pane/variants/ts-tw/LiquidPane.tsx",
+          "bytes": 9262,
+          "sha256": "3030fdb52417fae6985e798abddfd50a337d0253528a3540d80c1ceaccb59924"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "maath",
+          "range": "^0.10.8"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-pane/variants/ts-tw/LiquidPane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8a369d81eddbedffb5ae86d37d8aca65e5a4c29b2780e52367fa133d54757288"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "^10.7.4"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "maath",
+      "range": "^0.10.8"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LiquidPane",
+      "style": "default",
+      "file": "vault/reactbits-free/components/liquid-pane/variants/ts-tw/LiquidPane.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/liquid-pane",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FluidGlass-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/fluid-glass"
+  },
+  "hash": "35f9aef813491034e19be5dffc7a1491cd0ff8f1fb183410df7d2db056ac5d5f",
+  "fetchedAt": "2026-08-14T05:36:11.379Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LiquidPane",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "fluid-glass",
+  "upstreamName": "FluidGlass"
+}

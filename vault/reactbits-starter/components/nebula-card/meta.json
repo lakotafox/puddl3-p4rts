@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/nebula-card",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "nebula-card",
+  "name": "NebulaCard",
+  "title": "Nebula Card",
+  "description": "Card with animated WebGL shader background effect",
+  "tags": [
+    "card",
+    "shader"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "shader-card-css",
+      "path": "vault/reactbits-starter/components/nebula-card/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/nebula-card/variants/css/nebula-card.tsx",
+          "bytes": 13471,
+          "sha256": "0431936f2b4d2143cb33eedfd1eb365644807a99fe3044fc842ab0652934bdf4"
+        },
+        {
+          "path": "vault/reactbits-starter/components/nebula-card/variants/css/nebula-card.css",
+          "bytes": 559,
+          "sha256": "f11ea0816dc7da8e5815461c2d738ec5f02260f2987ee1dff97bc38b1820ace9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/nebula-card/variants/css/nebula-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80908d3cdd5570d092ed5e638711afeccdafdeca1f149a54245314f184bb7382"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "shader-card-tw",
+      "path": "vault/reactbits-starter/components/nebula-card/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/nebula-card/variants/tw/nebula-card.tsx",
+          "bytes": 13611,
+          "sha256": "ba133b3740b77dca3ad93772c759055213608060aa96f23070b12f7a56bd76bd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/nebula-card/variants/tw/nebula-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8820ad51fb0aa6479d9314c4faa5a6ce5be9e097147a31ee352af4ff28e662f4"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NebulaCard",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/nebula-card/variants/tw/nebula-card.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/nebula-card",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/shader-card-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "2aba467887e43a5fd2b7a729dd5f73c987ea3e9876a98798e22246438ca90e69",
+  "fetchedAt": "2026-08-14T05:34:27.354Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "shader-card",
+  "upstreamName": "ShaderCard"
+}

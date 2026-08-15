@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/retro-tide",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "retro-tide",
+  "name": "RetroTide",
+  "title": "Retro Tide",
+  "description": "Animated wave effect with retro dithering pattern",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "dither-wave-css",
+      "path": "vault/reactbits-starter/components/retro-tide/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/retro-tide/variants/css/retro-tide.tsx",
+          "bytes": 10269,
+          "sha256": "67f542691a16f66ef44168cf236043a147dcb8b3512c1afc4fdae13b0835837f"
+        },
+        {
+          "path": "vault/reactbits-starter/components/retro-tide/variants/css/retro-tide.css",
+          "bytes": 236,
+          "sha256": "2faf3d61065bea4bde5272a093c643321f936a5bcf421743038f7e4da38b43ae"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/retro-tide/variants/css/retro-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c45d28c178bcd00a27dff1f9e716e1f3f5b594ae0b1eca3e8d5f254b2464dd91"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "dither-wave-tw",
+      "path": "vault/reactbits-starter/components/retro-tide/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/retro-tide/variants/tw/retro-tide.tsx",
+          "bytes": 10314,
+          "sha256": "62d578eb5c7e88c0af90b160baa23d4acf98e9739c79ae41e15ee25f4741edca"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/retro-tide/variants/tw/retro-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a867c68b9832d35ea5500ff1a377aef69ade12972c1fd953ccc13b8a177c3ecd"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RetroTide",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/retro-tide/variants/tw/retro-tide.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/retro-tide",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/dither-wave-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a6b3af4092723e68bc378279850735c9ccf3f230f793e27e8e8d699104e1a990",
+  "fetchedAt": "2026-08-14T05:32:28.249Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "dither-wave",
+  "upstreamName": "DitherWave"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/chroma-columns",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "chroma-columns",
+  "name": "ChromaColumns",
+  "title": "Chroma Columns",
+  "description": "Animated striped gradient bars",
+  "tags": [
+    "3d",
+    "shader",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "gradient-bars-css",
+      "path": "vault/reactbits-starter/components/chroma-columns/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/chroma-columns/variants/css/chroma-columns.tsx",
+          "bytes": 9153,
+          "sha256": "7f418f10c3ae2fc6de03134283a579d643e42768e3b54039c6fe7e3340ee5770"
+        },
+        {
+          "path": "vault/reactbits-starter/components/chroma-columns/variants/css/chroma-columns.css",
+          "bytes": 196,
+          "sha256": "7a3512fbc0966562805580d7db1eea7a0acb50eb1b9008f2dd84b4ab3a58c191"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ChromaColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/chroma-columns/variants/css/chroma-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cd33c5ef35d18bd652fdcf4a4916082f599800b20d4b69aaeac0edaac878fd48"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "gradient-bars-tw",
+      "path": "vault/reactbits-starter/components/chroma-columns/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/chroma-columns/variants/tw/chroma-columns.tsx",
+          "bytes": 9188,
+          "sha256": "c415819fc869aa35003f42d40e6bbcdba9fd26714698793035e9d3334d555ebf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ChromaColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/chroma-columns/variants/tw/chroma-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ff24641ac90d8479e72c6ae5bae9c8120b56c751097ff89b0a5cfceb5dc0310a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ChromaColumns",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/chroma-columns/variants/tw/chroma-columns.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/chroma-columns",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/gradient-bars-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "282e50f3dbc9735dc081d93075e9b6d342771c502b11e83483ce829c6af2911f",
+  "fetchedAt": "2026-08-14T05:32:59.627Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "gradient-bars",
+  "upstreamName": "GradientBars"
+}

@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   TIER 1 — PRIMITIVES  (`--raw-*`)
+   Raw literal values. The only tier allowed to contain a hex/px/ms literal.
+   Never referenced in markup, never bound into @theme. Rename freely.
+   Grammar: --raw-<category>-<name>[-<shade>]
+   See obsidian/frontend/design-system.md → "Token naming convention".
+   --------------------------------------------------------------------------- */
+:root {
+  --raw-color-white: #ffffff;
+  --raw-color-neutral-100: #ededed;
+  --raw-color-neutral-900: #171717;
+  --raw-color-neutral-950: #0a0a0a;
+  --raw-color-black: #000000;
+
+  /* Ink palette for the hero vortex — two pale hues that marble into each
+     other: the valley's lantern light and the night sky above it. */
+  --raw-color-yellow-100: #ffd75a;
+  --raw-color-sky-200: #8ccfff;
+
+  /* Figma "Get Layers" / node 698:174 — the hero frame. */
+  --raw-color-cloud-050: #f0f2fa;
+  /* The preloader's ground — the night sky one stop brighter than the hero, so
+     the reveal reads as opening onto the scene rather than lifting a black lid. */
+  --raw-color-navy-900: #04305c;
+  --raw-color-sand-200: #ffe5ac;
+  --raw-color-steel-300: #97bdde;
+
+  /* Submit-button fill, and the left-to-right fade on the display heading. */
+  --raw-gradient-action: linear-gradient(
+    104.458deg,
+    var(--raw-color-sand-200) 10.028%,
+    var(--raw-color-steel-300) 100%
+  );
+  /* The heading's left-to-right fade. Applied as a *mask*, not a clipped
+     background: TextEngine gives every letter its own transformed span, and
+     `background-clip: text` does not reach through those — the heading renders
+     completely invisible. A mask applies to the whole subtree. */
+  --raw-mask-display: linear-gradient(
+    to right,
+    rgb(0 0 0 / 1) 0%,
+    rgb(0 0 0 / 0.3) 100%
+  );
+
+  /* Light catching the bottom inner edge of the glass field. */
+  --raw-shadow-glass-inset: inset 0 -4px 12px rgb(255 255 255 / 0.2);
+
+  /* Figma px ÷ 16 — the adaptive rem grid maps 1rem to 16px at the 1440
+     design width, so these stay proportional at every viewport. */
+  --raw-radius-field: 4.375rem; /* 70px */
+  --raw-radius-button: 1.8125rem; /* 29px */
+
+  --raw-blur-glass: 0.3125rem; /* 5px */
+  --raw-blur-glass-strong: 1.44375rem; /* 23.1px */
+
+  --raw-text-display: 4rem; /* 64px */
+  /* The display face below `lg`, where the rem grid is based on a 360/1024
+     design and 64px would run off the side of the screen. */
+  --raw-text-display-compact: 1.75rem; /* 28px */
+  --raw-text-counter: 2.75rem; /* 44px — the preloader's figure */
+  --raw-text-title: 1.5rem; /* 24px */
+  --raw-text-lead: 1.125rem; /* 18px */
+  --raw-text-body: 1rem; /* 16px */
+
+  --raw-leading-display: 1.1;
+  --raw-leading-body: 1.3;
+
+  --raw-duration-fast: 150ms;
+  --raw-duration-normal: 250ms;
+}
+
+/* ---------------------------------------------------------------------------
+   TIER 2 — SEMANTIC  (role names, no namespace prefix)
+   Purpose, not appearance. Always `var(--raw-*)` — never a literal.
+   This is the themeable layer: dark mode overrides happen HERE, which is why
+   these are separate from the @theme bindings below (see the note there).
+   Grammar: --<role>[-<variant>][-<state>]
+   --------------------------------------------------------------------------- */
+:root {
+  --background: var(--raw-color-white);
+  --foreground: var(--raw-color-neutral-900);
+
+  --duration-fast: var(--raw-duration-fast);
+  --duration-normal: var(--raw-duration-normal);
+
+  /* Cursor fluid vortex (hero). Read at runtime by <CursorVortex>; each ink
+     splat lands near one hue or the other, and the solver marbles them. */
+  --vortex-warm: var(--raw-color-yellow-100);
+  --vortex-cool: var(--raw-color-sky-200);
+
+  /* Scrim laid over full-bleed media so foreground copy keeps contrast. */
+  --scrim: var(--raw-color-black);
+
+  /* The page colour behind the hero media. */
+  --surface-base: var(--raw-color-cloud-050);
+  /* Everything that sits on top of the media: copy, rules, glass borders.
+     Consumed with an opacity modifier — `text-on-media/70`, `border-on-media/30`. */
+  --on-media: var(--raw-color-white);
+  /* Copy on the light gradient button. */
+  --action-foreground: var(--raw-color-black);
+
+  --action-gradient: var(--raw-gradient-action);
+  --display-fade: var(--raw-mask-display);
+
+  /* Glass — the field bar and the stats bar. */
+  --glass: var(--raw-blur-glass);
+  --glass-strong: var(--raw-blur-glass-strong);
+  --glass-inset: var(--raw-shadow-glass-inset);
+
+  --field: var(--raw-radius-field);
+  --button: var(--raw-radius-button);
+
+  --display-size: var(--raw-text-display);
+  --display-compact-size: var(--raw-text-display-compact);
+  --counter-size: var(--raw-text-counter);
+
+  /* Preloader ground. */
+  --intro-ground: var(--raw-color-navy-900);
+  --title-size: var(--raw-text-title);
+  --lead-size: var(--raw-text-lead);
+  --body-size: var(--raw-text-body);
+
+  --display-leading: var(--raw-leading-display);
+  --body-leading: var(--raw-leading-body);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--raw-color-neutral-950);
+    --foreground: var(--raw-color-neutral-100);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   THEME BINDINGS — map semantic tokens into Tailwind namespaces.
+   Every entry is exactly `--<tw-namespace>-<role>: var(--<role>)`.
+   `inline` is required: it inlines the var() into each utility, so the
+   dark-mode overrides on the Tier 2 tokens above cascade. Binding a literal
+   here instead would freeze the value and break theming.
+
+   Only these namespaces generate utilities (verified against tailwindcss
+   v4.3.3): --color-* --spacing-* --radius-* --leading-* --tracking-* --text-*
+   --font-* --ease-* --breakpoint-* --container-* --shadow-* --blur-* --animate-*
+   NOTE: there is NO --duration-* namespace in v4 — `duration-fast` compiles to
+   nothing. Durations stay Tier 2 only and are used as duration-[var(--duration-fast)].
+   --------------------------------------------------------------------------- */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-vortex-warm: var(--vortex-warm);
+  --color-vortex-cool: var(--vortex-cool);
+  --color-scrim: var(--scrim);
+  --color-surface-base: var(--surface-base);
+  --color-on-media: var(--on-media);
+  --color-action-foreground: var(--action-foreground);
+
+  /* Set by next/font/local in src/app/layout.tsx. */
+  --font-sans: var(--font-general);
+  --font-display: var(--font-gilda);
+
+  --text-display: var(--display-size);
+  --text-display-compact: var(--display-compact-size);
+  --text-counter: var(--counter-size);
+  --color-intro-ground: var(--intro-ground);
+  --text-title: var(--title-size);
+  --text-lead: var(--lead-size);
+  --text-body: var(--body-size);
+
+  /* Leading floor for clipped TextEngine reveals — see
+     obsidian/frontend/text-engine.md → "Alignment & line-height". */
+  --leading-display: var(--display-leading);
+  --leading-body: var(--body-leading);
+
+  --radius-field: var(--field);
+  --radius-button: var(--button);
+
+  --blur-glass: var(--glass);
+  --blur-glass-strong: var(--glass-strong);
+
+  --shadow-glass-inset: var(--glass-inset);
+
+  --ease-entrance: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Normal block flow. The starter shipped a centring flex box sized to the
+   viewport, which is right for an empty placeholder but collapses the width of
+   the ScrollLayout wrappers (flex items shrink-to-fit) once a real full-bleed
+   section is mounted inside it. */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  width: 100%;
+  min-height: 100lvh;
+}
+
+@layer base {
+  /* Adaptive scaling grid — scales the root font-size with the viewport so a
+     rem-based layout stays proportional. Each breakpoint divides FONT_BASE
+     (16px) by the design base width its range was laid out at:
+       font-size: 16 * 100 / baseWidth  (vw)
+     Above 1920px the AdaptiveGrid component takes over (scale-up).
+     Keep in sync with src/components/common/grid/grid.config.ts. */
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1920px) {
+    html {
+      font-size: 0.833333vw; /* 16 * 100 / 1920 */
+    }
+  }
+
+  @media (max-width: 1440px) {
+    html {
+      font-size: 1.111111vw; /* 16 * 100 / 1440 */
+    }
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 1.5625vw; /* 16 * 100 / 1024 */
+    }
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 4.444444vw; /* 16 * 100 / 360 */
+    }
+  }
+}
+
+@layer utilities {
+}
+
+@layer components {
+}

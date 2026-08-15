@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/filament-weave",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "filament-weave",
+  "name": "FilamentWeave",
+  "title": "Filament Weave",
+  "description": "Glowing ribbon-like strands that ripple and weave across a transparent canvas.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Strands-JS-CSS",
+      "path": "vault/reactbits-free/components/filament-weave/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/js-css/FilamentWeave.css",
+          "bytes": 183,
+          "sha256": "c97591a8a4b73fc190274eb68305581fdddae87bd15817499991b0101925861c"
+        },
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/js-css/FilamentWeave.jsx",
+          "bytes": 10163,
+          "sha256": "65d0af264ed975dc5f5aaf47139747e0d432f70f25deaadd9f2af5c6491d740b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FilamentWeave",
+          "style": "default",
+          "file": "vault/reactbits-free/components/filament-weave/variants/js-css/FilamentWeave.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c4aaf6f467253d277068ba1ea2163e358b9c0a78c81313f96e7efe03d5127a6a"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Strands-JS-TW",
+      "path": "vault/reactbits-free/components/filament-weave/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/js-tw/FilamentWeave.jsx",
+          "bytes": 10158,
+          "sha256": "ed8df8e530311a906596e6202d6838824ade8cee5f654ed8157623260a90e4b1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FilamentWeave",
+          "style": "default",
+          "file": "vault/reactbits-free/components/filament-weave/variants/js-tw/FilamentWeave.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9fd1944b6ad92c4b9a2786c0db687ef58990eee41206c32c61c7ce993940c10c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Strands-TS-CSS",
+      "path": "vault/reactbits-free/components/filament-weave/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/ts-css/FilamentWeave.css",
+          "bytes": 183,
+          "sha256": "c97591a8a4b73fc190274eb68305581fdddae87bd15817499991b0101925861c"
+        },
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/ts-css/FilamentWeave.tsx",
+          "bytes": 10996,
+          "sha256": "7e1e0ccecf2ae92d705313d7e87b05da136489d1c58694e983e0997f4e6fb126"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FilamentWeave",
+          "style": "default",
+          "file": "vault/reactbits-free/components/filament-weave/variants/ts-css/FilamentWeave.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "97cb0b7d0f9d5d59d65e726b71d8fcfc44e66913bdb6e2ebf8bcfa9eed0f3428"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Strands-TS-TW",
+      "path": "vault/reactbits-free/components/filament-weave/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/filament-weave/variants/ts-tw/FilamentWeave.tsx",
+          "bytes": 10991,
+          "sha256": "e971f7dda88e81d79e2b1152654d77062a25103866705f113bb84fa8976479e0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FilamentWeave",
+          "style": "default",
+          "file": "vault/reactbits-free/components/filament-weave/variants/ts-tw/FilamentWeave.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53bb226a77427557f9fca1bd579e4ef9744e5e0eb00d2cd424fa880be364562a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FilamentWeave",
+      "style": "default",
+      "file": "vault/reactbits-free/components/filament-weave/variants/ts-tw/FilamentWeave.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/filament-weave",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Strands-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/strands"
+  },
+  "hash": "c821c9b1862d89b5d57a17dc3d25e220d9dc70cec53c32fa00448d6afdf45b87",
+  "fetchedAt": "2026-08-14T05:36:11.467Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FilamentWeave",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "strands",
+  "upstreamName": "Strands"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/flip-cascade",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "flip-cascade",
+  "name": "FlipCascade",
+  "title": "Flip Cascade",
+  "description": "Staggered customizable 3D letter swap animation",
+  "tags": [
+    "animation",
+    "text",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "3d-letter-swap-css",
+      "path": "vault/reactbits-starter/components/flip-cascade/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/flip-cascade/variants/css/flip-cascade.tsx",
+          "bytes": 12272,
+          "sha256": "41d6c0293fc1d61ddf9d9b6885256577b050983ccbd9b4e9eb689427d70005af"
+        },
+        {
+          "path": "vault/reactbits-starter/components/flip-cascade/variants/css/flip-cascade.css",
+          "bytes": 1428,
+          "sha256": "e2f98bc59545c3506ec1e3cb91175c4ead84bd1d395d14c365c649448d2612f5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlipCascade",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/flip-cascade/variants/css/flip-cascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b7d9b611421da6f6aaeb1b7ba0873394222389090547690c55ba7115bf5d4479"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "3d-letter-swap-tw",
+      "path": "vault/reactbits-starter/components/flip-cascade/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/flip-cascade/variants/tw/flip-cascade.tsx",
+          "bytes": 13646,
+          "sha256": "bb8fd6139f9d6fd56dc13d29360176567a9f1818d1ededf4b8ceae5ec0382371"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FlipCascade",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/flip-cascade/variants/tw/flip-cascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "68dcd23517ff3fcd229772265aeb8d0b1360ec236b37fd1327a832bbcb76c8e6"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FlipCascade",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/flip-cascade/variants/tw/flip-cascade.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/flip-cascade",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/3d-letter-swap-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f2a346a7196bdc920b744998ddac1d581fa1660e553860738bcb4d2a74bb7e09",
+  "fetchedAt": "2026-08-14T05:31:27.714Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "3d-letter-swap",
+  "upstreamName": "ThreeDLetterSwap"
+}

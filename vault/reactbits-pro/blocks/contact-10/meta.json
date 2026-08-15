@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/contact-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-10",
+  "name": "contact-10",
+  "title": "Contact 10",
+  "description": "Dark enterprise sales form with consultation benefits and dense fields.",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-10",
+      "path": "vault/reactbits-pro/blocks/contact-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-10/files/contact-10.tsx",
+          "bytes": 9725,
+          "sha256": "64634c97c1b0957e210eed2e139aad0609cd81f818dc1b0954257b1f1219a4b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-10/files/contact-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "84faf4baa0dc18b9c8707056a6bfa6ad35137f07dfe8a5ac4fa2690fbefee0e0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-10/files/contact-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "02cf75b2a4fb0bcd2866c22dac5fba688ef21ef435429e47b9333fd917a27608",
+  "fetchedAt": "2026-08-14T05:44:22.131Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,217 @@
+{
+  "id": "rb-free/component/square-burst",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "square-burst",
+  "name": "SquareBurst",
+  "title": "Square Burst",
+  "description": "Exploding pixel particle bursts with optional liquid postprocessing.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelBlast-JS-CSS",
+      "path": "vault/reactbits-free/components/square-burst/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/js-css/SquareBurst.css",
+          "bytes": 100,
+          "sha256": "a202c86968a0026b627f627f013b9e60328d303b95245a9cae6c3b609beee6aa"
+        },
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/js-css/SquareBurst.jsx",
+          "bytes": 19813,
+          "sha256": "101d0d693d9a712dc15ec51edc89abee406c94f362d03b61f96354b121d0837b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-burst/variants/js-css/SquareBurst.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b4f5e5a473e10f0ebe6ba1ea1d17c739b0a6073fb89bbb16d5e1a58b56f3abbf"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelBlast-JS-TW",
+      "path": "vault/reactbits-free/components/square-burst/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/js-tw/SquareBurst.jsx",
+          "bytes": 19803,
+          "sha256": "c15a0fcaeb78209f3f68a2e20cd7ba6aaef1cbd7dd8d96b6c804976778a91d6a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-burst/variants/js-tw/SquareBurst.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9644bda48579e567664c4f857ccfea4e3ae4d467b011102dc9e71fc7b48ae846"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelBlast-TS-CSS",
+      "path": "vault/reactbits-free/components/square-burst/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/ts-css/SquareBurst.css",
+          "bytes": 100,
+          "sha256": "a202c86968a0026b627f627f013b9e60328d303b95245a9cae6c3b609beee6aa"
+        },
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/ts-css/SquareBurst.tsx",
+          "bytes": 22998,
+          "sha256": "94a903cf792a0d8a2918fa3492b8ee06c1c952a767dfdbd7deaf7ca13ffc741a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-burst/variants/ts-css/SquareBurst.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "993e8ded228f73ffc545dcecb67ab9eb217fb6d9607ecfe592bf9ee7e31b7fae"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelBlast-TS-TW",
+      "path": "vault/reactbits-free/components/square-burst/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-burst/variants/ts-tw/SquareBurst.tsx",
+          "bytes": 22986,
+          "sha256": "a7f0ec2b42cf8bc992722799db250c8d7b0580f8c4941e481e713ff67fba3087"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-burst/variants/ts-tw/SquareBurst.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d9c32dd247b54fae9687baa877249088f4987edbd0019a1e618d86d59f9030e0"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "postprocessing",
+      "range": "^6.36.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SquareBurst",
+      "style": "default",
+      "file": "vault/reactbits-free/components/square-burst/variants/ts-tw/SquareBurst.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/square-burst",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelBlast-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-blast"
+  },
+  "hash": "9e2296ceac0857ff1bd642be252e8318206fd9729130552b43424e898b9a24fd",
+  "fetchedAt": "2026-08-14T05:36:11.433Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SquareBurst",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-blast",
+  "upstreamName": "PixelBlast"
+}

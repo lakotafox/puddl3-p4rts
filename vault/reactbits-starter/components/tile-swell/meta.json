@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/tile-swell",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "tile-swell",
+  "name": "TileSwell",
+  "title": "Tile Swell",
+  "description": "Waves rolling through a mosaic of shifting tiles",
+  "tags": [
+    "background",
+    "shader",
+    "mosaic",
+    "waves",
+    "webgl",
+    "tiles"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "mosaic-waves-css",
+      "path": "vault/reactbits-starter/components/tile-swell/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tile-swell/variants/css/tile-swell.tsx",
+          "bytes": 14414,
+          "sha256": "0bb69081e9f2b72c3907a6807fdbd5c115a84a55668c09da1f9828fc89a25236"
+        },
+        {
+          "path": "vault/reactbits-starter/components/tile-swell/variants/css/tile-swell.css",
+          "bytes": 215,
+          "sha256": "90bd3f6e216f741a8114b410e880e76d5b1abaeae561d2e8a76260f6967432c1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TileSwell",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tile-swell/variants/css/tile-swell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "996ff6dcd4c5296896cecc5fdb1aa16e2bc9f72c7233475dc6f8372c707fb7cf"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "mosaic-waves-tw",
+      "path": "vault/reactbits-starter/components/tile-swell/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tile-swell/variants/tw/tile-swell.tsx",
+          "bytes": 14430,
+          "sha256": "f49c1a9071a57b9d8e6ad3641a86b3af163717d1c5e203bd21898590e7d05d75"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TileSwell",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tile-swell/variants/tw/tile-swell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0ae384f6460b82741d1d81fc8844c14905578b25d410fac07cbaa30fb0f32a05"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TileSwell",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/tile-swell/variants/tw/tile-swell.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/tile-swell",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/mosaic-waves-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "906829826e76f2788a8c8673e912337ba06e84a2f56a0e4a9ce86d826691dcfb",
+  "fetchedAt": "2026-08-14T05:33:37.966Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "mosaic-waves",
+  "upstreamName": "MosaicWaves"
+}

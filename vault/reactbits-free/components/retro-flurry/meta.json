@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/retro-flurry",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "retro-flurry",
+  "name": "RetroFlurry",
+  "title": "Retro Flurry",
+  "description": "Falling pixelated snow effect with customizable density and speed.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelSnow-JS-CSS",
+      "path": "vault/reactbits-free/components/retro-flurry/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/js-css/RetroFlurry.css",
+          "bytes": 298,
+          "sha256": "d4177c416c50f40398031209c8cac566aafc58230a38b15d5907f55358e5fb59"
+        },
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/js-css/RetroFlurry.jsx",
+          "bytes": 10864,
+          "sha256": "bb95c50d7488a8da095b61e6df515e7d37420bfe297dee6f4dab3309dfa1581e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroFlurry",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-flurry/variants/js-css/RetroFlurry.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "458d6b2d8d5f3c7dca5d78e8859625cefd22ab90e956d8b0a2d1072d4c429ece"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelSnow-JS-TW",
+      "path": "vault/reactbits-free/components/retro-flurry/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/js-tw/RetroFlurry.jsx",
+          "bytes": 10931,
+          "sha256": "d3f3313e748d38414a6371ec6280977754cd0227522405bcec8e29facb3ca65b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroFlurry",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-flurry/variants/js-tw/RetroFlurry.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bfadd4bccfa978115964649587f9b867094bbbaa4bccb61011b43bf38016609b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelSnow-TS-CSS",
+      "path": "vault/reactbits-free/components/retro-flurry/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/ts-css/RetroFlurry.css",
+          "bytes": 298,
+          "sha256": "d4177c416c50f40398031209c8cac566aafc58230a38b15d5907f55358e5fb59"
+        },
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/ts-css/RetroFlurry.tsx",
+          "bytes": 11270,
+          "sha256": "5d486c36e028c7f84948c7d3d40d056ab663c6c90140bc51140f4db418b8c31f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroFlurry",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-flurry/variants/ts-css/RetroFlurry.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bbde5b461bd7cd91a88ace03089c098bdac46d0bada378cd6f81e12ff025cb92"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelSnow-TS-TW",
+      "path": "vault/reactbits-free/components/retro-flurry/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-flurry/variants/ts-tw/RetroFlurry.tsx",
+          "bytes": 11337,
+          "sha256": "fb533de8babefea498e05e62b96361275e782f732000435cb9989820a1eef200"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroFlurry",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-flurry/variants/ts-tw/RetroFlurry.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "55b0bd3aa943daca73f797bdab79907e92d4da66e8fa3341b7513ceba6a60a6a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RetroFlurry",
+      "style": "default",
+      "file": "vault/reactbits-free/components/retro-flurry/variants/ts-tw/RetroFlurry.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/retro-flurry",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelSnow-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-snow"
+  },
+  "hash": "9e79fac4a5a7be97a8be7e8d3938ef78d1b8a43bda471181e6c7f52032bca46a",
+  "fetchedAt": "2026-08-14T05:36:11.435Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RetroFlurry",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-snow",
+  "upstreamName": "PixelSnow"
+}

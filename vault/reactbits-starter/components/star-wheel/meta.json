@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/star-wheel",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "star-wheel",
+  "name": "StarWheel",
+  "title": "Star Wheel",
+  "description": "Spinning star particles with orbital animation",
+  "tags": [
+    "animation",
+    "particles",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rotating-stars-css",
+      "path": "vault/reactbits-starter/components/star-wheel/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/star-wheel/variants/css/star-wheel.tsx",
+          "bytes": 4822,
+          "sha256": "6446ff21fd964a886728978b34f92152712a7086ec81f3e7daf2f64dbfee846a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/star-wheel/variants/css/star-wheel.css",
+          "bytes": 130,
+          "sha256": "e675bd0b2ba27af6fcf72f182bc2a7c3b3d12cad118e710fc1d471fc9a847534"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StarWheel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/star-wheel/variants/css/star-wheel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ed200d50c241711e0f08abc5f3431ef5bf02a1420fe9d32ef71c0a80e5ebcbc8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rotating-stars-tw",
+      "path": "vault/reactbits-starter/components/star-wheel/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/star-wheel/variants/tw/star-wheel.tsx",
+          "bytes": 4835,
+          "sha256": "cc887d40966063b7287ac9b4197438dcc348c3ce173461d1e86e96c9aeb20c9f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StarWheel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/star-wheel/variants/tw/star-wheel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a087d2e9b54c376c74d57b3b3cba45628bc38a6e52259795a09eb5d9c17f6e65"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StarWheel",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/star-wheel/variants/tw/star-wheel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/star-wheel",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rotating-stars-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "0c60a081bd0b80a8aa372a27a4f3d939e52fba778726d6388f47a9a65593bba8",
+  "fetchedAt": "2026-08-14T05:34:20.276Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rotating-stars",
+  "upstreamName": "RotatingStars"
+}

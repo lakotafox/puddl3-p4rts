@@ -1,0 +1,16 @@
+{
+  "name": "features-7",
+  "type": "registry:block",
+  "description": "Alternating feature rows with phone mockup, rewards card, and social feed",
+  "dependencies": [
+    "motion"
+  ],
+  "files": [
+    {
+      "path": "components/blocks/features-7.tsx",
+      "content": "\"use client\";\n\nimport { motion } from \"motion/react\";\n\nconst sections = [\n  {\n    title: \"Every tool one place\",\n    body: [\n      \"A shared workspace for everything you touch during the day, from briefs and comments to drafts and approvals.\",\n    ],\n  },\n  {\n    title: \"Publish work and share it\",\n    body: [\n      \"Turn the pieces you put into the world into a small, steady revenue stream. Your audience supports you directly, with no middle layer.\",\n    ],\n  },\n  {\n    title: \"Discover new ideas\",\n    body: [\n      \"A slow feed of things worth reading, watching, and trying, curated by the people you already trust.\",\n    ],\n  },\n];\n\nexport default function Features7() {\n  return (\n    <section className=\"w-full min-h-[var(--rb-section-min-h,100vh)] flex items-start py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-neutral-950\">\n      <div className=\"max-w-[1400px] mx-auto w-full flex flex-col gap-24 sm:gap-28\">\n        {sections.map((s, i) => {\n          const flipped = i % 2 === 1;\n          return (\n            <motion.div\n              key={i}\n              initial={{ opacity: 0, y: 20 }}\n              whileInView={{ opacity: 1, y: 0 }}\n              viewport={{ once: true }}\n              transition={{ duration: 0.3 }}\n              className=\"grid grid-cols-1 md:grid-cols-2 gap-10 items-center\"\n            >\n              <div\n                className={`rounded-2xl bg-neutral-100 dark:bg-neutral-900 overflow-hidden aspect-4/3 flex items-center justify-center ${\n                  flipped ? \"md:order-2\" : \"\"\n                }`}\n              >\n                <img\n                  src=\"/svg/placeholder.svg\"\n                  alt=\"\"\n                  className=\"w-full h-full object-cover\"\n                />\n              </div>\n\n              <div\n                className={`flex flex-col gap-3 ${flipped ? \"md:order-1\" : \"\"}`}\n              >\n                <h3 className=\"text-3xl sm:text-4xl font-medium text-neutral-900 dark:text-white tracking-tight leading-tight\">\n                  {s.title}\n                </h3>\n                {s.body.map((p, pi) => (\n                  <p\n                    key={pi}\n                    className=\"text-sm sm:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed\"\n                  >\n                    {p}\n                  </p>\n                ))}\n              </div>\n            </motion.div>\n          );\n        })}\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:block"
+    }
+  ],
+  "docs": "https://pro.reactbits.dev/docs/blocks/features/features-7"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "rb-free/component/stage-tracker",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "stage-tracker",
+  "name": "StageTracker",
+  "title": "Stage Tracker",
+  "description": "Animated multi-step progress indicator with active state transitions.",
+  "tags": [
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Stepper-JS-CSS",
+      "path": "vault/reactbits-free/components/stage-tracker/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/js-css/StageTracker.css",
+          "bytes": 2424,
+          "sha256": "8f95c1ecd5b1a6e7740b9efc4dce02187d5241b4d4cef1878f9797c4e536c777"
+        },
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/js-css/StageTracker.jsx",
+          "bytes": 7476,
+          "sha256": "e07c50e4d1b56cf76d08227ae8ab4c62b4eca4cc9be774fe7cb70caa02385e24"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StageTracker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/js-css/StageTracker.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Step",
+          "style": "named",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/js-css/StageTracker.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ca041e167b3c7014979185d9a2300b5a511161c632274891f3473c0b1ddbe88f"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Stepper-JS-TW",
+      "path": "vault/reactbits-free/components/stage-tracker/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/js-tw/StageTracker.jsx",
+          "bytes": 8184,
+          "sha256": "2b81b155c881e853b18b50bc2ecb9dc5e519f058298ea6e3a8a7e015022604f9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StageTracker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/js-tw/StageTracker.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Step",
+          "style": "named",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/js-tw/StageTracker.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f446a0e583bf94e5e0e70334264284be87c7b59d46a3dc673188afec70912773"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Stepper-TS-CSS",
+      "path": "vault/reactbits-free/components/stage-tracker/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/ts-css/StageTracker.css",
+          "bytes": 2430,
+          "sha256": "da46856d60bbe87c0feae193d8101159145318c4b8944098b80da8000f655647"
+        },
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/ts-css/StageTracker.tsx",
+          "bytes": 9114,
+          "sha256": "1b2a5a06248aa120cc97ad90886164d396bc758cc4219e83736155f73fc485d7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StageTracker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/ts-css/StageTracker.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Step",
+          "style": "named",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/ts-css/StageTracker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef3c6864c228e4f68b3deea34866915b6fc31bad8c7c7870c66eb13ca123a3f2"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Stepper-TS-TW",
+      "path": "vault/reactbits-free/components/stage-tracker/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stage-tracker/variants/ts-tw/StageTracker.tsx",
+          "bytes": 9856,
+          "sha256": "9252fe8ab77b5df0de3e3a1e615c474f2a4107f54e4241c7017576b25bce11e9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StageTracker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/ts-tw/StageTracker.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Step",
+          "style": "named",
+          "file": "vault/reactbits-free/components/stage-tracker/variants/ts-tw/StageTracker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c27a525d43a681faef053108c91cdcb1bffd746d190c6662b99146922193944"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StageTracker",
+      "style": "default",
+      "file": "vault/reactbits-free/components/stage-tracker/variants/ts-tw/StageTracker.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/stage-tracker",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Stepper-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/stepper"
+  },
+  "hash": "5a3e0257652c9059b95985affb7aeb2e7368153a9aabced2248db2c4079d7560",
+  "fetchedAt": "2026-08-14T05:36:11.465Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "StageTracker",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "stepper",
+  "upstreamName": "Stepper"
+}

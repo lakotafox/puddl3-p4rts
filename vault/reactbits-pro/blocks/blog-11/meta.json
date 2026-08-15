@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/blog-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "blog-11",
+  "name": "blog-11",
+  "title": "Blog 11",
+  "description": "Framed featured essay beside a hairline-divided list of compact secondary reads.",
+  "tags": [
+    "blog",
+    "articles",
+    "posts",
+    "content"
+  ],
+  "tagSource": "upstream",
+  "category": "blog",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "blog-11",
+      "path": "vault/reactbits-pro/blocks/blog-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/blog-11/files/blog-11.tsx",
+          "bytes": 9466,
+          "sha256": "1302249db34bb6f8cbe1c99ba54325e6f5317af9ffbede20018ef622864a4c96"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Blog11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/blog-11/files/blog-11.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Blog11",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/blog-11/files/blog-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9f830946cd54726c3e4d59cb3943a4285a21ec52c81f26d2ee7d67b0e8acc3b4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Blog11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/blog-11/files/blog-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/blog-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/blog-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a0d04f47eff838c55cd085922f8764ea3f8f2022ddda5005e1c1ecc7b2fdece4",
+  "fetchedAt": "2026-08-14T05:43:09.631Z",
+  "vaultVersion": 1
+}

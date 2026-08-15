@@ -1,0 +1,162 @@
+{
+  "id": "rb-free/component/ripple-pointer",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ripple-pointer",
+  "name": "RipplePointer",
+  "title": "Ripple Pointer",
+  "description": "Liquid splash burst at cursor with curling ripples and waves.",
+  "tags": [
+    "cursor"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SplashCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/ripple-pointer/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-pointer/variants/js-css/RipplePointer.jsx",
+          "bytes": 35266,
+          "sha256": "e6c441535cbd602e0358ee8f860c03a5e0ae2c4046d030f6dba0f946909b1d16"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RipplePointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-pointer/variants/js-css/RipplePointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "905f8924df9f8eb7f963deb1e9d5d7dbb993b6b5497182871c6b4bc52fedf007"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SplashCursor-JS-TW",
+      "path": "vault/reactbits-free/components/ripple-pointer/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-pointer/variants/js-tw/RipplePointer.jsx",
+          "bytes": 35004,
+          "sha256": "74c778a974136dfab977edd7132db69bd26ab45abdb3f91499f0050211b0c94b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RipplePointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-pointer/variants/js-tw/RipplePointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cd21616e484ce51f23aca4d851b690c33d7116141a273e31739f9d9ba8096d69"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SplashCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/ripple-pointer/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-pointer/variants/ts-css/RipplePointer.tsx",
+          "bytes": 41392,
+          "sha256": "56fac59b06b1e8eedf8d1dfdfd8c40babdf08011150dc3b54cb345ee5fb6646d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RipplePointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-pointer/variants/ts-css/RipplePointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8d5a4498be79dc4b21c528acd19330166273fa4a919e2663e4a5e29371cc8c54"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SplashCursor-TS-TW",
+      "path": "vault/reactbits-free/components/ripple-pointer/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-pointer/variants/ts-tw/RipplePointer.tsx",
+          "bytes": 41189,
+          "sha256": "c46753b6740296821dd2c88a237f14e7083919ae05b31c519f2b5249488ae7f2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RipplePointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-pointer/variants/ts-tw/RipplePointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c28d469c49c4a869c7d9068c6f8645fb2653760925c963c1a3a1472d10ae0f63"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RipplePointer",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ripple-pointer/variants/ts-tw/RipplePointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ripple-pointer",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SplashCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/splash-cursor"
+  },
+  "hash": "fb6faf4d4bf0a51b17661045232c736834fa88f484bf07aab59aa313883fbdbd",
+  "fetchedAt": "2026-08-14T05:36:11.460Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RipplePointer",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "splash-cursor",
+  "upstreamName": "SplashCursor"
+}

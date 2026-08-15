@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/holo-badge",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "holo-badge",
+  "name": "HoloBadge",
+  "title": "Holo Badge",
+  "description": "Animated profile card glare with 3D hover effect.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ProfileCard-JS-CSS",
+      "path": "vault/reactbits-free/components/holo-badge/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/js-css/HoloBadge.css",
+          "bytes": 11416,
+          "sha256": "f9b993c00a584215ae1da04ed7b61811d3766b5af084518b50bf51be5fc8864d"
+        },
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/js-css/HoloBadge.jsx",
+          "bytes": 11689,
+          "sha256": "cef79a4b0573a0291bd3c14b7f427eb6901034bafbc1edd5ab801e6dec3f4c52"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HoloBadge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/holo-badge/variants/js-css/HoloBadge.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3eb2deed89ff3fcb461d61b7740b663055b9435943b415eb9b9fcc38628ac5e4"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ProfileCard-JS-TW",
+      "path": "vault/reactbits-free/components/holo-badge/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/js-tw/HoloBadge.jsx",
+          "bytes": 21387,
+          "sha256": "d71bc6e12afe2b29c64512a52028e95cd2d855fad4526b237edee379dfc28014"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HoloBadge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/holo-badge/variants/js-tw/HoloBadge.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0c2cd1929f64dafa61dd7516f71f98bb7a1cec84c3fa9411ab3c51dbb32aba05"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ProfileCard-TS-CSS",
+      "path": "vault/reactbits-free/components/holo-badge/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/ts-css/HoloBadge.css",
+          "bytes": 11416,
+          "sha256": "f9b993c00a584215ae1da04ed7b61811d3766b5af084518b50bf51be5fc8864d"
+        },
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/ts-css/HoloBadge.tsx",
+          "bytes": 12724,
+          "sha256": "d10db2866bf4495184e62c7da2d95f66c02db5de9cdd557eaa39c93ccdeabb84"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HoloBadge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/holo-badge/variants/ts-css/HoloBadge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bca5e0d1bef27cfa62ae5b74676994ee9bc82298ecb0434fb96bafbf5b422a4a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ProfileCard-TS-TW",
+      "path": "vault/reactbits-free/components/holo-badge/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/holo-badge/variants/ts-tw/HoloBadge.tsx",
+          "bytes": 23003,
+          "sha256": "c295c9a522779a1dea69cdacf89e283e57bc0d8668cc74e70083de8e37c6d1c3"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "HoloBadge",
+          "style": "default",
+          "file": "vault/reactbits-free/components/holo-badge/variants/ts-tw/HoloBadge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aa4f680ae0532e9144cec17bf0223bbcbb3935112d2203a37c0cfb7b4c77728f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HoloBadge",
+      "style": "default",
+      "file": "vault/reactbits-free/components/holo-badge/variants/ts-tw/HoloBadge.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/holo-badge",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ProfileCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/profile-card"
+  },
+  "hash": "fa1fa13c9cf18307c6b48e5b33a4200b7fc4917e3f4ed5724587ea4fb2b23866",
+  "fetchedAt": "2026-08-14T05:36:11.442Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HoloBadge",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "profile-card",
+  "upstreamName": "ProfileCard"
+}

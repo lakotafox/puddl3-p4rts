@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/aura-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "aura-deck",
+  "name": "AuraDeck",
+  "title": "Aura Deck",
+  "description": "3D card carousel with dynamic gradient background extraction",
+  "tags": [
+    "carousel",
+    "animation",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "carousel",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "gradient-carousel-css",
+      "path": "vault/reactbits-starter/components/aura-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/aura-deck/variants/css/aura-deck.tsx",
+          "bytes": 27527,
+          "sha256": "c6a07228b9249f9300688209c2aa20ef7b497f3090c97748c09b0603405fed6b"
+        },
+        {
+          "path": "vault/reactbits-starter/components/aura-deck/variants/css/aura-deck.css",
+          "bytes": 2215,
+          "sha256": "1c0156ad88dfe1c2da09334684242ffd8b1b4cefa2925b6392127fd0e9d2b233"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/aura-deck/variants/css/aura-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "effea131ab677a707b3a97ede3f9854ec5a861b466be9edf3747be3eac4e34ae"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "gradient-carousel-tw",
+      "path": "vault/reactbits-starter/components/aura-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/aura-deck/variants/tw/aura-deck.tsx",
+          "bytes": 28216,
+          "sha256": "de5459ef3ec5fc1df35a6761039eb0338c527a333a102be2453ed919cbeea960"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/aura-deck/variants/tw/aura-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c14a506a9aeecef49929b7aec6e88386e8b0883c06297f617a79d5f3e66a340e"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AuraDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/aura-deck/variants/tw/aura-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/aura-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/gradient-carousel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "18c7fa280c18b2a21689fe69233bba07995c1a85d44ef26a240c3b2da737755e",
+  "fetchedAt": "2026-08-14T05:33:03.116Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "gradient-carousel",
+  "upstreamName": "GradientCarousel"
+}

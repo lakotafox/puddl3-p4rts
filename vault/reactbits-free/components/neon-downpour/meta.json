@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/neon-downpour",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "neon-downpour",
+  "name": "NeonDownpour",
+  "title": "Neon Downpour",
+  "description": "Colorful light streaks raining down a glowing tunnel with a cursor light.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Lightfall-JS-CSS",
+      "path": "vault/reactbits-free/components/neon-downpour/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/js-css/NeonDownpour.css",
+          "bytes": 98,
+          "sha256": "3f738465aea090aa661c4f49aef9bad41d045762cf567ef90a6d8fd42865b790"
+        },
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/js-css/NeonDownpour.jsx",
+          "bytes": 10186,
+          "sha256": "1b0e6ab3f94f096daabd7e27c76b18134b7cf516dedc4d3c021c9cc3a5f59b9d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonDownpour",
+          "style": "default",
+          "file": "vault/reactbits-free/components/neon-downpour/variants/js-css/NeonDownpour.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae577b4bf1144bf99e051acefa33eed221ced6cd94addb8f537f77684eec16f7"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Lightfall-JS-TW",
+      "path": "vault/reactbits-free/components/neon-downpour/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/js-tw/NeonDownpour.jsx",
+          "bytes": 10179,
+          "sha256": "d87d7c6b442d34aed3349d57db3147c62135bb206664b1c5ce8490b30d92b42c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonDownpour",
+          "style": "default",
+          "file": "vault/reactbits-free/components/neon-downpour/variants/js-tw/NeonDownpour.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "10ad59a6c3bd798c454330d930e5cbbf8293e911c4e5fd9367760024da0ea55c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Lightfall-TS-CSS",
+      "path": "vault/reactbits-free/components/neon-downpour/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/ts-css/NeonDownpour.css",
+          "bytes": 98,
+          "sha256": "3f738465aea090aa661c4f49aef9bad41d045762cf567ef90a6d8fd42865b790"
+        },
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/ts-css/NeonDownpour.tsx",
+          "bytes": 11095,
+          "sha256": "3abad4eccb8b1146bae67590ac69cbb5eb1b5c7225175a4e31d22294542f9aaf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonDownpour",
+          "style": "default",
+          "file": "vault/reactbits-free/components/neon-downpour/variants/ts-css/NeonDownpour.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "805542211ec95cfb43c303c90e315c2c80473c0631b61e9cb820625eae691ec6"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Lightfall-TS-TW",
+      "path": "vault/reactbits-free/components/neon-downpour/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/neon-downpour/variants/ts-tw/NeonDownpour.tsx",
+          "bytes": 11088,
+          "sha256": "8ba3b3f9bf038e72ba351eb28c8aa84e938e4e2402f0a1f58720b43bf680c00f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonDownpour",
+          "style": "default",
+          "file": "vault/reactbits-free/components/neon-downpour/variants/ts-tw/NeonDownpour.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be18182b67fc8268b8653b8d55492b19115f3441f04257263b0e5d7736655f3a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NeonDownpour",
+      "style": "default",
+      "file": "vault/reactbits-free/components/neon-downpour/variants/ts-tw/NeonDownpour.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/neon-downpour",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Lightfall-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/lightfall"
+  },
+  "hash": "7de999336cb092c37b621cccf6ea399e077fb3affbe050696e99c980b0c88290",
+  "fetchedAt": "2026-08-14T05:36:11.407Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "NeonDownpour",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "lightfall",
+  "upstreamName": "Lightfall"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-9",
+  "name": "cta-9",
+  "title": "CTA 9",
+  "description": "Centered migration CTA with tilted video and document accents on either side",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-9",
+      "path": "vault/reactbits-pro/blocks/cta-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-9/files/cta-9.tsx",
+          "bytes": 4829,
+          "sha256": "ac87d051f0edcd4e3b713eeee8c4810ad12b2eb5e6170401d990860fa1e81f07"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cta9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-9/files/cta-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9fb1b22840e5d02ac903549b8448cb3ceb0b6fa160061942f66c9c613f7f1db6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cta9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-9/files/cta-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ee505f0fc6b44ae6f8abdc586a80ee632b92eaf38dcf962e11c67b2097f15975",
+  "fetchedAt": "2026-08-14T05:44:57.671Z",
+  "vaultVersion": 1
+}

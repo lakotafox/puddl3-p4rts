@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/pricing-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "pricing-13",
+  "name": "pricing-13",
+  "title": "Pricing 13",
+  "description": "Interactive plan picker with an animated selection highlight and live detail panel.",
+  "tags": [
+    "pricing",
+    "plans",
+    "subscription",
+    "payment"
+  ],
+  "tagSource": "upstream",
+  "category": "pricing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "pricing-13",
+      "path": "vault/reactbits-pro/blocks/pricing-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/pricing-13/files/pricing-13.tsx",
+          "bytes": 11346,
+          "sha256": "0219fd3da24404a3af43340dcd577cf50a5e769f40eb025363bd903c219d7aae"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Pricing13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/pricing-13/files/pricing-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c5100d759100c7559218ad652c8f0a0c2831ffbd728bb51e650302c5ef6dcadc"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Pricing13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/pricing-13/files/pricing-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/pricing-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/pricing-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c59b301a9e7e589bfbca8db6a9508d4f35e31f7699642f1205275fa23e236ad6",
+  "fetchedAt": "2026-08-14T05:53:30.430Z",
+  "vaultVersion": 1
+}

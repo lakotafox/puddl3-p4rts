@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/showcase-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "showcase-8",
+  "name": "showcase-8",
+  "title": "Showcase 8",
+  "description": "Scroll-snap project carousel with editorial cards, progress rail, and counter.",
+  "tags": [
+    "showcase",
+    "portfolio",
+    "gallery",
+    "display"
+  ],
+  "tagSource": "upstream",
+  "category": "showcase",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "showcase-8",
+      "path": "vault/reactbits-pro/blocks/showcase-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/showcase-8/files/showcase-8.tsx",
+          "bytes": 10624,
+          "sha256": "e974836c2ebbd6fbc0df1e06bdb44245b11190cd03e90c83dfdb90ac99bf4003"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Showcase8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/showcase-8/files/showcase-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Showcase8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/showcase-8/files/showcase-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "41764f33c604fcf9e0cee4c5d4c3ea8be9d1fba0385b2c887fc8b389d6f508ba"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Showcase8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/showcase-8/files/showcase-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/showcase-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/showcase-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "73665cfd6015cd39282cb47bfd3b2cd6fbc303deed3b05cfc8e69c50f61affd9",
+  "fetchedAt": "2026-08-14T05:54:52.867Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/liquid-letters",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "liquid-letters",
+  "name": "LiquidLetters",
+  "title": "Liquid Letters",
+  "description": "WebGL warp that bends and refracts the text around the pointer.",
+  "tags": [
+    "text",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "WarpText-JS-CSS",
+      "path": "vault/reactbits-free/components/liquid-letters/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/js-css/LiquidLetters.css",
+          "bytes": 265,
+          "sha256": "72af89bb1da9bc44f3e51d6888429929d04211a3888cadfba65340f6356bed77"
+        },
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/js-css/LiquidLetters.jsx",
+          "bytes": 15898,
+          "sha256": "a7fec578e12fe2ba6bd1f7e1b80b47c5fbfa255ebaf90192dc8e74c02b0a5f2a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-letters/variants/js-css/LiquidLetters.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1a828c0173fb42fb303866a6929741b9153e63cbe9a4fd3738e08cf3a7ef0f40"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "WarpText-JS-TW",
+      "path": "vault/reactbits-free/components/liquid-letters/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/js-tw/LiquidLetters.jsx",
+          "bytes": 15957,
+          "sha256": "79c8afd390634fd145d3e3c4740a7dfa3ed3bc0490b62fc0931c1a03672ecf8d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-letters/variants/js-tw/LiquidLetters.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "37bc87767e6ba0a3bb44e0b056ab1c6c65d1031e2376be35d638c86755e0622d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "WarpText-TS-CSS",
+      "path": "vault/reactbits-free/components/liquid-letters/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/ts-css/LiquidLetters.css",
+          "bytes": 265,
+          "sha256": "72af89bb1da9bc44f3e51d6888429929d04211a3888cadfba65340f6356bed77"
+        },
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/ts-css/LiquidLetters.tsx",
+          "bytes": 17477,
+          "sha256": "e11be77b9f02aac59f946288f48700ca234a8b5e5c5e31ff9d2d828c61f3d7c9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-letters/variants/ts-css/LiquidLetters.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5c489ffd5fdb9a7ec87cff1d7cf877bfcc091d259639202cf06fab95db143d8c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "WarpText-TS-TW",
+      "path": "vault/reactbits-free/components/liquid-letters/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-letters/variants/ts-tw/LiquidLetters.tsx",
+          "bytes": 17536,
+          "sha256": "d0df3c2adaf87aa3d5c28a9510a84e5a12d143c5b980a2b70673877c3633ec62"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-letters/variants/ts-tw/LiquidLetters.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c8dd33213ed7209ed8a3ed248f47340381a678a8448339f3dbcaf1812e4cdc9"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LiquidLetters",
+      "style": "default",
+      "file": "vault/reactbits-free/components/liquid-letters/variants/ts-tw/LiquidLetters.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/liquid-letters",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/WarpText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/warp-text"
+  },
+  "hash": "e8a94f823178c4375ef6c07179d0d6e139d65ae5493c7a4fec9b15d871d585d0",
+  "fetchedAt": "2026-08-14T05:36:11.477Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LiquidLetters",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "warp-text",
+  "upstreamName": "WarpText"
+}

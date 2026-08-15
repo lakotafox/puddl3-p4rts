@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-2",
+  "name": "analytics-2",
+  "title": "Analytics 2",
+  "description": "Area chart with crosshair, keyboard cursor, and period summary stats.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-2",
+      "path": "vault/reactbits-pro/blocks/analytics-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-2/files/analytics-2.tsx",
+          "bytes": 15159,
+          "sha256": "186de19508702f22a20ac8ccf18321e04aeaca0b63418c92e40ffb8dd92af439"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-2/files/analytics-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7ea97af05bd071fcc2f96e80223c560d0b70f2a62829ac9f32ee75c76e04dc19"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-2/files/analytics-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dcd412a08aeb641af0da74657dd1881b974cfd1933d49e222629ebb9324abab8",
+  "fetchedAt": "2026-08-14T05:37:05.854Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/shutter-reveal",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "shutter-reveal",
+  "name": "ShutterReveal",
+  "title": "Shutter Reveal",
+  "description": "Scroll opens a mask that reveals an image six ways",
+  "tags": [
+    "scroll",
+    "mask",
+    "reveal",
+    "sticky",
+    "cinematic",
+    "image"
+  ],
+  "tagSource": "upstream",
+  "category": "scroll",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "scroll-mask-css",
+      "path": "vault/reactbits-starter/components/shutter-reveal/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/shutter-reveal/variants/css/shutter-reveal.tsx",
+          "bytes": 16237,
+          "sha256": "81eef99d06e697b8c1ffe511c106c1e028e6bd33bcc6be9fe1e021fdf6682e2f"
+        },
+        {
+          "path": "vault/reactbits-starter/components/shutter-reveal/variants/css/shutter-reveal.css",
+          "bytes": 1090,
+          "sha256": "1773c112d5b55df228ea5a0f8ba3eafaa85db7c83bbeabf14b64229a47bb136a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShutterReveal",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/shutter-reveal/variants/css/shutter-reveal.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "ShutterReveal",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/shutter-reveal/variants/css/shutter-reveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "118f70d8b6efd5f2a8efbe73f99e4086f0e89143d7e4dac322d67739855a98b9"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "scroll-mask-tw",
+      "path": "vault/reactbits-starter/components/shutter-reveal/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/shutter-reveal/variants/tw/shutter-reveal.tsx",
+          "bytes": 16435,
+          "sha256": "1ceb0b981ff8f6f8d192b733b72076522f0338cf284e8e896f3cd7c8167b1ea8"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShutterReveal",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/shutter-reveal/variants/tw/shutter-reveal.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "ShutterReveal",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/shutter-reveal/variants/tw/shutter-reveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "383e6f6bcbad252f0603f3ae1d821c7d2107a90a49c6b485a18537f46bfa3c30"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ShutterReveal",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/shutter-reveal/variants/tw/shutter-reveal.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/shutter-reveal",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/scroll-mask-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "de1af72e090d00d0a7db260b05d1baab17152681b25a422c27d27ba1592730a4",
+  "fetchedAt": "2026-08-14T05:34:23.909Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "scroll-mask",
+  "upstreamName": "ScrollMask"
+}

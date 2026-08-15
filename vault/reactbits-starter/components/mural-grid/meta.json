@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/mural-grid",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "mural-grid",
+  "name": "MuralGrid",
+  "title": "Mural Grid",
+  "description": "Mosaic effect with animated wave or video background",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "mosaic-css",
+      "path": "vault/reactbits-starter/components/mural-grid/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/mural-grid/variants/css/mural-grid.tsx",
+          "bytes": 11648,
+          "sha256": "5699b70f922311a6227d670697780841735cdd39d4029a8b6794737aa6864dfe"
+        },
+        {
+          "path": "vault/reactbits-starter/components/mural-grid/variants/css/mural-grid.css",
+          "bytes": 231,
+          "sha256": "45718556318d2104e6288f5cb66162d66c6ed196d24e6718e61dfa7fd2492494"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MuralGrid",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/mural-grid/variants/css/mural-grid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b0381d7355288cb9653269b5eebd4d2e9e2716e979c15a1f3269527303444df2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "mosaic-tw",
+      "path": "vault/reactbits-starter/components/mural-grid/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/mural-grid/variants/tw/mural-grid.tsx",
+          "bytes": 11737,
+          "sha256": "63862c65bf5b472e7971f583fd811a8e48b53b5b2cae7aea4debfcd9ebb4977a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MuralGrid",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/mural-grid/variants/tw/mural-grid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4fc13296e54c5deda529f7d43fb5ff23f86ccc81791dbc5247997b34f8fd0344"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MuralGrid",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/mural-grid/variants/tw/mural-grid.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/mural-grid",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/mosaic-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "74050c14f364950ece3eff88b72b577d353f0223801c9af123feeae7adbbea9a",
+  "fetchedAt": "2026-08-14T05:33:36.243Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "mosaic",
+  "upstreamName": "Mosaic"
+}

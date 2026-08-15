@@ -1,0 +1,152 @@
+{
+  "id": "rb-starter/component/glass-orb-wipe",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glass-orb-wipe",
+  "name": "GlassOrbWipe",
+  "title": "Glass Orb Wipe",
+  "description": "Swap images transition with a stunning liquid glass ball effect",
+  "tags": [
+    "animation",
+    "transition",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "liquid-swap-css",
+      "path": "vault/reactbits-starter/components/glass-orb-wipe/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glass-orb-wipe/variants/css/glass-orb-wipe.tsx",
+          "bytes": 11664,
+          "sha256": "d97531fb482bc807ae1e684c362ff810067d6ef2a0a3056f3ef2a5b925e8cb75"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glass-orb-wipe/variants/css/glass-orb-wipe.css",
+          "bytes": 446,
+          "sha256": "2f7837986d24d7129b0b748821e0dfc45db8306032baa83c76ee6af3f5998538"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlassOrbWipe",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glass-orb-wipe/variants/css/glass-orb-wipe.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "GlassOrbWipe",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/glass-orb-wipe/variants/css/glass-orb-wipe.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dd279e6e6ba49e2541cba68438acc6a7fe573139ccb96272cc0eb43861804408"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "liquid-swap-tw",
+      "path": "vault/reactbits-starter/components/glass-orb-wipe/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glass-orb-wipe/variants/tw/glass-orb-wipe.tsx",
+          "bytes": 12423,
+          "sha256": "6a5a83492d314dd74bcb820e3a32fb4341e4dba9c04f574d0049fb0cb413d9fb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlassOrbWipe",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glass-orb-wipe/variants/tw/glass-orb-wipe.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "GlassOrbWipe",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/glass-orb-wipe/variants/tw/glass-orb-wipe.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "29bcb453437cde3671f2b8f46ecdf2b4feb4587fd1b146559fd411803c5d619b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlassOrbWipe",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glass-orb-wipe/variants/tw/glass-orb-wipe.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glass-orb-wipe",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/liquid-swap-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a4877b7ef235ed1a4f38d6dddb2c5ac6b247dba7fe82e8767b2a3e733a2945bc",
+  "fetchedAt": "2026-08-14T05:33:27.497Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "liquid-swap",
+  "upstreamName": "LiquidSwap"
+}

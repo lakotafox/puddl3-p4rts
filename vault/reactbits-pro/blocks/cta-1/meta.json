@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/cta-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-1",
+  "name": "cta-1",
+  "title": "CTA 1",
+  "description": "Centered sign-up form with cursor-parallax floating background cards",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-1",
+      "path": "vault/reactbits-pro/blocks/cta-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-1/files/cta-1.tsx",
+          "bytes": 7726,
+          "sha256": "659d29a60b1d283cfa565d804e08ec3f863d530a34ecc0580347a039847c7009"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-1/files/cta-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8a1f64ec033209bea80ec593a10c86d62de3a6e6e3e3d3a1195b13a33adfe8be"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-1/files/cta-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "cccbfeb145ce86c0b6e1ae13aa893140f00947232ba1c1a2c76f423354c0b8ee",
+  "fetchedAt": "2026-08-14T05:44:38.373Z",
+  "vaultVersion": 1
+}

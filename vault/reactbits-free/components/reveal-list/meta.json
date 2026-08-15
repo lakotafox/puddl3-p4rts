@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/reveal-list",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "reveal-list",
+  "name": "RevealList",
+  "title": "Reveal List",
+  "description": "List items enter with staggered motion variants for polished reveals.",
+  "tags": [
+    "animation",
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "AnimatedList-JS-CSS",
+      "path": "vault/reactbits-free/components/reveal-list/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/js-css/RevealList.css",
+          "bytes": 1095,
+          "sha256": "b10367c73d4b8d76df07cba49c1270ce26864f079b2c42a790fec6b1d2dad5ef"
+        },
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/js-css/RevealList.jsx",
+          "bytes": 4909,
+          "sha256": "32e06e0c23bbd2a062d51356feb5cb8845d8da2785bdb3d1190f04fe2978fcb4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RevealList",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reveal-list/variants/js-css/RevealList.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "147497566e8cee42ef1da0b65cf58f40ca2496c70cc3b29919d5987d01707a24"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "AnimatedList-JS-TW",
+      "path": "vault/reactbits-free/components/reveal-list/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/js-tw/RevealList.jsx",
+          "bytes": 5597,
+          "sha256": "2f25e030ee1f004193f46bc02e55512dc34d4060796b9ea4ce6ea0b638fe0b0a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RevealList",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reveal-list/variants/js-tw/RevealList.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e4fc508d41e353306638a586906f3c19c00b074dbbe610a33877a14c48f1f01c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "AnimatedList-TS-CSS",
+      "path": "vault/reactbits-free/components/reveal-list/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/ts-css/RevealList.css",
+          "bytes": 1086,
+          "sha256": "53b64d4f27f6a133aa79e1914212d49f11084b61f1e07b4e95d4f00420816263"
+        },
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/ts-css/RevealList.tsx",
+          "bytes": 5680,
+          "sha256": "1e7452807c3151e1eab7064de0cdc1246b68806186486ddf337766784f1576a1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RevealList",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reveal-list/variants/ts-css/RevealList.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4dd0699e77c6b7d61d5968ec4f142da1de537eb7ade041cdb03254e12ef54fce"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "AnimatedList-TS-TW",
+      "path": "vault/reactbits-free/components/reveal-list/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reveal-list/variants/ts-tw/RevealList.tsx",
+          "bytes": 6324,
+          "sha256": "313aad437d80469866420e018e4c87345f0b9a7d4b8270ad9851b47f52dcc08d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RevealList",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reveal-list/variants/ts-tw/RevealList.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b20093f247bf26097124217242f765c4442a120468942fba0b6a4efa86654642"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RevealList",
+      "style": "default",
+      "file": "vault/reactbits-free/components/reveal-list/variants/ts-tw/RevealList.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/reveal-list",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/AnimatedList-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/animated-list"
+  },
+  "hash": "8478fc675264b2a919bf8e37b827fd639a4a2f80bbd88a0dd5e82eb23417d101",
+  "fetchedAt": "2026-08-14T05:36:11.329Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RevealList",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "animated-list",
+  "upstreamName": "AnimatedList"
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+export FOXBITS_HOME="${FOXBITS_HOME:-$HOME/foxbits}"
+exec bun run "$FOXBITS_HOME/src/cli/main.ts" "$@"

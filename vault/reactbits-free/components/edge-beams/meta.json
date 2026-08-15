@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/edge-beams",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "edge-beams",
+  "name": "EdgeBeams",
+  "title": "Edge Beams",
+  "description": "Animated light rays emanating from the side with customizable colors and speed.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SideRays-JS-CSS",
+      "path": "vault/reactbits-free/components/edge-beams/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/js-css/EdgeBeams.css",
+          "bytes": 136,
+          "sha256": "1e210cbf1b0708d2dcd9a6e0a8dc521cde97d15e6ed213e09bde3ec83f35cf66"
+        },
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/js-css/EdgeBeams.jsx",
+          "bytes": 8244,
+          "sha256": "b77838b2723bf3322b0cc7c5b9827890c7df5e3c4688b18a619222f743195b16"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EdgeBeams",
+          "style": "default",
+          "file": "vault/reactbits-free/components/edge-beams/variants/js-css/EdgeBeams.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d80f094ee82d8649722b207f8140d809bbe3f4c248e97c7054841d0942320429"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SideRays-JS-TW",
+      "path": "vault/reactbits-free/components/edge-beams/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/js-tw/EdgeBeams.jsx",
+          "bytes": 8290,
+          "sha256": "6c7f335723d46fb1c68860492c621d2fee3fa17e3001d196740b337b6f1eb4a6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EdgeBeams",
+          "style": "default",
+          "file": "vault/reactbits-free/components/edge-beams/variants/js-tw/EdgeBeams.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "39b18c1d5fc4ccd45385fc323045e99d9f3599af85814986d3f32a2a90e1173b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SideRays-TS-CSS",
+      "path": "vault/reactbits-free/components/edge-beams/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/ts-css/EdgeBeams.css",
+          "bytes": 136,
+          "sha256": "1e210cbf1b0708d2dcd9a6e0a8dc521cde97d15e6ed213e09bde3ec83f35cf66"
+        },
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/ts-css/EdgeBeams.tsx",
+          "bytes": 8884,
+          "sha256": "016a2d7d47e0c05df4f82c4bf4f48b133e2581e76231c569717a54741e864d92"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EdgeBeams",
+          "style": "default",
+          "file": "vault/reactbits-free/components/edge-beams/variants/ts-css/EdgeBeams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2016d8fcdf3a0a8aea55c96db2dd1b1c219d1e2517353a7ad88dfdd49c2b59e1"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SideRays-TS-TW",
+      "path": "vault/reactbits-free/components/edge-beams/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/edge-beams/variants/ts-tw/EdgeBeams.tsx",
+          "bytes": 8930,
+          "sha256": "2366ae04d9a629f6f782e532e552912723c208d1e0890577815e07d4f8d8a884"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EdgeBeams",
+          "style": "default",
+          "file": "vault/reactbits-free/components/edge-beams/variants/ts-tw/EdgeBeams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dc7fa53d4dcd6525ac43b782a93c81088ea2ce16661f4656b64e7b4e10c23504"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EdgeBeams",
+      "style": "default",
+      "file": "vault/reactbits-free/components/edge-beams/variants/ts-tw/EdgeBeams.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/edge-beams",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SideRays-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/side-rays"
+  },
+  "hash": "772e292289c2a17cdd6e1764c5625b2ffe67a763c3a428b7f2d35069469dfd60",
+  "fetchedAt": "2026-08-14T05:36:11.455Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "EdgeBeams",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "side-rays",
+  "upstreamName": "SideRays"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-6",
+  "name": "forms-6",
+  "title": "Forms 6",
+  "description": "Checkout with country-driven regions, card formatting, and a live order summary.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-6",
+      "path": "vault/reactbits-pro/blocks/forms-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-6/files/forms-6.tsx",
+          "bytes": 38282,
+          "sha256": "919d317174393c3753b7f886841bb7619eddd25ab5849f082a666c39a024911d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-6/files/forms-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d42e8c41b023c0476cc372e0114c2b41fa913131950168f3b2cf02c70e82f81c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-6/files/forms-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "105c48c9b234ef0ec7c7b01e2d637c9d0e60171ee3edcd85bbc652235e5b382b",
+  "fetchedAt": "2026-08-14T05:47:46.659Z",
+  "vaultVersion": 1
+}

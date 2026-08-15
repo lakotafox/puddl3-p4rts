@@ -1,0 +1,92 @@
+{
+  "id": "rb-pro/block/social-proof-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-1",
+  "name": "social-proof-1",
+  "title": "Social Proof 1",
+  "description": "Simple logo grid with bordered cells and hover effects",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-1",
+      "path": "vault/reactbits-pro/blocks/social-proof-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-1/files/social-proof-1.tsx",
+          "bytes": 1988,
+          "sha256": "d89b19e16f66b83ddb90c4f951a69525bca8c788208f4c96d11620e8ed9a3c6c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-1/files/social-proof-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "689a87a66d4556b8c2213a90e09764799df782a6a18f9e75deef5566f58b611c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-1/files/social-proof-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8672d243e71742e5c6298734afc6fdff4927bdee74f3acdfd67b28051e61e635",
+  "fetchedAt": "2026-08-14T05:55:07.853Z",
+  "vaultVersion": 1
+}

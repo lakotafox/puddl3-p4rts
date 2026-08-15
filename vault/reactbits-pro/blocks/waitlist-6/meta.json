@@ -1,0 +1,110 @@
+{
+  "id": "rb-pro/block/waitlist-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "waitlist-6",
+  "name": "waitlist-6",
+  "title": "Waitlist 6",
+  "description": "Centered atmospheric waitlist over a theme-aware GLSL ripple field with a glass pill capture and queue social proof.",
+  "tags": [
+    "waitlist",
+    "signup",
+    "email",
+    "form",
+    "pre-launch"
+  ],
+  "tagSource": "upstream",
+  "category": "waitlist",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "waitlist-6",
+      "path": "vault/reactbits-pro/blocks/waitlist-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/waitlist-6/files/waitlist-6.tsx",
+          "bytes": 12439,
+          "sha256": "5b291ba0bb2f960cf9342febf7a915618d489e4c8720ee8d61f3d9938497a69f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Waitlist6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/waitlist-6/files/waitlist-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "91d8ff85ecb34bb5507869e42cce9c01bb6994c2f61db266666c06bd0c5367bd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Waitlist6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/waitlist-6/files/waitlist-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/waitlist-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/waitlist-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "09336355048c26a67ff3137f687805c7f6a452f253c4decb143bb558849f7f85",
+  "fetchedAt": "2026-08-14T05:56:20.710Z",
+  "vaultVersion": 1
+}

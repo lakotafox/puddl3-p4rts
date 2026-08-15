@@ -1,0 +1,220 @@
+{
+  "id": "rb-free/component/capsule-tabs",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "capsule-tabs",
+  "name": "CapsuleTabs",
+  "title": "Capsule Tabs",
+  "description": "Minimal pill nav with sliding active highlight + smooth easing.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PillNav-JS-CSS",
+      "path": "vault/reactbits-free/components/capsule-tabs/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/js-css/CapsuleTabs.css",
+          "bytes": 4057,
+          "sha256": "0ffe3f4516a6823f0edd6fcf85cc3467a6f76eba608134be8048bc1b2bca9c5b"
+        },
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/js-css/CapsuleTabs.jsx",
+          "bytes": 10387,
+          "sha256": "acb2b7f052a788600683c3f81efb742b9e87653c6697c21820db8a87f396aa40"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-router-dom",
+          "range": "^6.30.1"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CapsuleTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/capsule-tabs/variants/js-css/CapsuleTabs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5c76faa70be41a1193cb5aba467b7a236326a216894acc72b111c60049a47d12"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PillNav-JS-TW",
+      "path": "vault/reactbits-free/components/capsule-tabs/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/js-tw/CapsuleTabs.jsx",
+          "bytes": 14522,
+          "sha256": "72ba7bf7f7218db321c23c5f24ffd4c7d301d94b5101eba348df201579d2ac05"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-router-dom",
+          "range": "^6.30.1"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CapsuleTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/capsule-tabs/variants/js-tw/CapsuleTabs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8f58da7916dbf375426fd5819f51b17d227df4ff2d2eb428dcbe6883fc0c0c6e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PillNav-TS-CSS",
+      "path": "vault/reactbits-free/components/capsule-tabs/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/ts-css/CapsuleTabs.css",
+          "bytes": 4057,
+          "sha256": "0ffe3f4516a6823f0edd6fcf85cc3467a6f76eba608134be8048bc1b2bca9c5b"
+        },
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/ts-css/CapsuleTabs.tsx",
+          "bytes": 11153,
+          "sha256": "7831b9f8fe1aff1a6bb0cac991022d10d33e7b5b0f2de679de82e29d35471ecf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-router-dom",
+          "range": "^6.30.1"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CapsuleTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/capsule-tabs/variants/ts-css/CapsuleTabs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "32422a54b996915d3811b1a8171abe7d8c790dc5a34294c80ab73b0fb1b4a2af"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PillNav-TS-TW",
+      "path": "vault/reactbits-free/components/capsule-tabs/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/capsule-tabs/variants/ts-tw/CapsuleTabs.tsx",
+          "bytes": 15443,
+          "sha256": "42acf9769b2948667efe99d8f5ca24e207720eefb7e0ae8843336a7dc021bc4b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-router-dom",
+          "range": "^6.30.1"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CapsuleTabs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/capsule-tabs/variants/ts-tw/CapsuleTabs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b3776cf11e3ddb8328f9faa7a49bc674199c00855b15c0ed38b118364eb3b033"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    },
+    {
+      "name": "react-router-dom",
+      "range": "^6.30.1"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CapsuleTabs",
+      "style": "default",
+      "file": "vault/reactbits-free/components/capsule-tabs/variants/ts-tw/CapsuleTabs.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": [
+      "react-router"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/capsule-tabs",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PillNav-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pill-nav"
+  },
+  "hash": "457d8752b2f36aa92726bb1b559d3c6f530a6c6ef2aabd3b23fccf3f9ce99690",
+  "fetchedAt": "2026-08-14T05:36:11.432Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CapsuleTabs",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pill-nav",
+  "upstreamName": "PillNav"
+}

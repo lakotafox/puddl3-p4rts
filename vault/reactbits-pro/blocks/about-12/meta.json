@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/about-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-12",
+  "name": "about-12",
+  "title": "About 12",
+  "description": "Inverted founder pull-quote panel paired with a numbered operating-values ledger.",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-12",
+      "path": "vault/reactbits-pro/blocks/about-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-12/files/about-12.tsx",
+          "bytes": 5448,
+          "sha256": "6272991ca822f8003319cf24770b1425363117d3c4410cd9f3636f28672e4f25"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-12/files/about-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "84b8e7179236fa9f0be033855aad18c8f63e5014a90c9fc3e908c8c8b645ae2a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-12/files/about-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d3aca6987aa6e8d4493835cfdd82828f9dc246ecd17dc74dcae52c8aac589e50",
+  "fetchedAt": "2026-08-14T05:35:47.001Z",
+  "vaultVersion": 1
+}

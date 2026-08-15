@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-3",
+  "name": "navbar-3",
+  "title": "Navbar 3",
+  "description": "Workspace switcher bar with organisation, searchable project, and environment selectors.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-3",
+      "path": "vault/reactbits-pro/blocks/navbar-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-3/files/navbar-3.tsx",
+          "bytes": 16861,
+          "sha256": "af569ffdaaa793dc33a2db03665c26c5e34a51a10ee31fe542d36e9acf209976"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-3/files/navbar-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f190a1c4a5938ec721c6cf71e6e7d5e97142b8dc59eed9cec34dc689a4e1921b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-3/files/navbar-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3e8b236803d997ca8bc667ef3105c4a2cdb56422c535f0d16a536e4679bd02ed",
+  "fetchedAt": "2026-08-14T05:49:50.869Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/agent-approval-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-approval-3",
+  "name": "agent-approval-3",
+  "title": "Agent Approval 3",
+  "description": "Batch approval queue with select-all, per-item risk badges, and bulk decisions.",
+  "tags": [
+    "ai",
+    "agent",
+    "approval",
+    "permissions",
+    "confirmation"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-approval-3",
+      "path": "vault/reactbits-pro/blocks/agent-approval-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-approval-3/files/agent-approval-3.tsx",
+          "bytes": 13897,
+          "sha256": "a1bbd660f0322030c065cefe01b071c2cb62df2794079ec6d578bfb99fe87db9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentApproval3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-approval-3/files/agent-approval-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "390c19329372d195051db40349b24c345452635e455c00b88683c059dc97f2ff"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentApproval3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-approval-3/files/agent-approval-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-approval-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-approval-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2f0e149a90189a45086f5062c570a58f531669b5b9305987238640db26dac7a9",
+  "fetchedAt": "2026-08-14T05:36:13.550Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/lava-lamp",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "lava-lamp",
+  "name": "LavaLamp",
+  "title": "Lava Lamp",
+  "description": "Morphing 3D blob with gradient colors and cursor interaction",
+  "tags": [
+    "animation",
+    "effect",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "gradient-blob-css",
+      "path": "vault/reactbits-starter/components/lava-lamp/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lava-lamp/variants/css/lava-lamp.tsx",
+          "bytes": 17054,
+          "sha256": "a8cc2294fbf05d2c524ad23f5c17b8f9438a232f198776cadf685fe8dcd0f310"
+        },
+        {
+          "path": "vault/reactbits-starter/components/lava-lamp/variants/css/lava-lamp.css",
+          "bytes": 252,
+          "sha256": "c3d256a42428ead97b2fd43ecf9591ec3c20ad791c21979c48a9ed299ed2d92e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LavaLamp",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lava-lamp/variants/css/lava-lamp.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c4df0062dfb62fd3b30dc37d4889f2ab7908ad028d0cff00bb00a82a4a6fe023"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "gradient-blob-tw",
+      "path": "vault/reactbits-starter/components/lava-lamp/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lava-lamp/variants/tw/lava-lamp.tsx",
+          "bytes": 17116,
+          "sha256": "35ae537b13b12d7c9ece14e653b67f3fd4409ecfac467efaa6d36c943df7d8ea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LavaLamp",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lava-lamp/variants/tw/lava-lamp.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f16b9578e68b80bf25721b2a887916a9da253ade2412409c3221b198300aaa35"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LavaLamp",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/lava-lamp/variants/tw/lava-lamp.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/lava-lamp",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/gradient-blob-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "d0693a3e2a1014a51fcfd765826d93fa6ff7da6cdc869a44cb3f189c9f89ea02",
+  "fetchedAt": "2026-08-14T05:33:01.379Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "gradient-blob",
+  "upstreamName": "GradientBlob"
+}

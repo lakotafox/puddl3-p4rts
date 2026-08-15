@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/empty-state-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "empty-state-2",
+  "name": "empty-state-2",
+  "title": "Empty State 2",
+  "description": "No search results with the query echoed, removable filter chips, and suggested searches.",
+  "tags": [
+    "empty",
+    "zero state",
+    "onboarding",
+    "no results",
+    "error",
+    "upload"
+  ],
+  "tagSource": "upstream",
+  "category": "empty",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "empty-state-2",
+      "path": "vault/reactbits-pro/blocks/empty-state-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/empty-state-2/files/empty-state-2.tsx",
+          "bytes": 6547,
+          "sha256": "de4a60944c0e7d1b6682859b7fa981fb6fb3374793a5ef3e5bef1a2a36d41fb1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmptyState2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/empty-state-2/files/empty-state-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8490ed263c6da22389309d63d2db757afb43c5d92cdb5dddc9519cbc57958036"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmptyState2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/empty-state-2/files/empty-state-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/empty-state-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/empty-state-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "52c266d3a1b49f282b3fb34797c6ac6ec89c6dd821591a9ca7fe4acc0b030322",
+  "fetchedAt": "2026-08-14T05:46:09.579Z",
+  "vaultVersion": 1
+}

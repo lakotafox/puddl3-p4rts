@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/dashboard-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-3",
+  "name": "dashboard-3",
+  "title": "Dashboard 3",
+  "description": "Widget grid with per-card overflow menus and mixed card spans.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-3",
+      "path": "vault/reactbits-pro/blocks/dashboard-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-3/files/dashboard-3.tsx",
+          "bytes": 20518,
+          "sha256": "cd1a22fc3a96355b23ea4089047a0f7466758f9fdc1b66e1543fad4480302c1e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-3/files/dashboard-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b129134a402382e8d752ba11a5ec43a3cf55ef9c031076016bb993aeb24781a2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-3/files/dashboard-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "badbc930fa63bc1f3b8f81f37eca7ca467ff53f6f29721ad7615f35dca7ac085",
+  "fetchedAt": "2026-08-14T05:45:09.853Z",
+  "vaultVersion": 1
+}

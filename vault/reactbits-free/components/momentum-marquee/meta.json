@@ -1,0 +1,222 @@
+{
+  "id": "rb-free/component/momentum-marquee",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "momentum-marquee",
+  "name": "MomentumMarquee",
+  "title": "Momentum Marquee",
+  "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+  "tags": [
+    "motion",
+    "scroll"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrollVelocity-JS-CSS",
+      "path": "vault/reactbits-free/components/momentum-marquee/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/js-css/MomentumMarquee.css",
+          "bytes": 414,
+          "sha256": "b7a2cdd063aba43bb90c95ed91ac85e435ecf14bdc09e5fe0b2881aa2cd08304"
+        },
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/js-css/MomentumMarquee.jsx",
+          "bytes": 3663,
+          "sha256": "303e99414c961327e9de8d112d9b2b18b48e27e0795de5f78b79058f40e28678"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MomentumMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/js-css/MomentumMarquee.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MomentumMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/js-css/MomentumMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0780bbfb7f8287c901153552ddf2da67bd007b80ef2687b3f2ea952be71f5f12"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrollVelocity-JS-TW",
+      "path": "vault/reactbits-free/components/momentum-marquee/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/js-tw/MomentumMarquee.jsx",
+          "bytes": 3824,
+          "sha256": "d26f1a1b39b49b5c8b1de3e681c1df4cb8a52ea548e931f62daeeae757f66c52"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MomentumMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/js-tw/MomentumMarquee.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MomentumMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/js-tw/MomentumMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "47eb93d1332baf3ed0890be862807febd098f20b86645128534e36361ea14e2d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrollVelocity-TS-CSS",
+      "path": "vault/reactbits-free/components/momentum-marquee/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/ts-css/MomentumMarquee.css",
+          "bytes": 414,
+          "sha256": "b7a2cdd063aba43bb90c95ed91ac85e435ecf14bdc09e5fe0b2881aa2cd08304"
+        },
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/ts-css/MomentumMarquee.tsx",
+          "bytes": 4726,
+          "sha256": "a4fb36336f011db669229c2e6ca1823da795c52ce91b209e6fcdd23c162efe06"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MomentumMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/ts-css/MomentumMarquee.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MomentumMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/ts-css/MomentumMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "051f91b723edcad178e618d020b09590961b0396e6b276cca23650b437e6a790"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrollVelocity-TS-TW",
+      "path": "vault/reactbits-free/components/momentum-marquee/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/momentum-marquee/variants/ts-tw/MomentumMarquee.tsx",
+          "bytes": 4880,
+          "sha256": "bed1300fc4d9b3dfed8c8f9c3900920dbeea73f232511f3e157cff724cb22bf6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MomentumMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/ts-tw/MomentumMarquee.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MomentumMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/momentum-marquee/variants/ts-tw/MomentumMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8bb3b63fe8758bbc566aaff023fbf65d17bae310754aab1ec9f1287760ba721"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MomentumMarquee",
+      "style": "default",
+      "file": "vault/reactbits-free/components/momentum-marquee/variants/ts-tw/MomentumMarquee.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/momentum-marquee",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrollVelocity-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scroll-velocity"
+  },
+  "hash": "c9b79d061222f4b611fe97ca51050d137230c21872c73ea67090e51573ba6d09",
+  "fetchedAt": "2026-08-14T05:36:11.451Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MomentumMarquee",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scroll-velocity",
+  "upstreamName": "ScrollVelocity"
+}

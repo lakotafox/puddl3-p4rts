@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/sticky-specks",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "sticky-specks",
+  "name": "StickySpecks",
+  "title": "Sticky Specks",
+  "description": "Metaball dots that stick together and stretch apart as they meet",
+  "tags": [
+    "background",
+    "metaball",
+    "dots",
+    "canvas",
+    "organic",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glue-dots-css",
+      "path": "vault/reactbits-starter/components/sticky-specks/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/sticky-specks/variants/css/sticky-specks.tsx",
+          "bytes": 14008,
+          "sha256": "59203a9ce7295e7532291663b586c05079270e585f6b7eb8c6513a394a7cb557"
+        },
+        {
+          "path": "vault/reactbits-starter/components/sticky-specks/variants/css/sticky-specks.css",
+          "bytes": 388,
+          "sha256": "8b1e380f8fb21fad5175bd193d7ce971c9ae5eddddc06e04be6de50bfcdabc7a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StickySpecks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/sticky-specks/variants/css/sticky-specks.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "StickySpecks",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/sticky-specks/variants/css/sticky-specks.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "349eb0229ff19625003270ada475ddd1af22d3796a5e7fe77841fa2b75a0c962"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glue-dots-tw",
+      "path": "vault/reactbits-starter/components/sticky-specks/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/sticky-specks/variants/tw/sticky-specks.tsx",
+          "bytes": 14070,
+          "sha256": "4494aa6c16f18de947ce1c9e2c66b6dd75c4175d3a20c8edb47e4c7f0d23d071"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StickySpecks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/sticky-specks/variants/tw/sticky-specks.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "StickySpecks",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/sticky-specks/variants/tw/sticky-specks.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "846f47ee5b476b7e73baf2eb42a5bce90592ac0228b7380945d92ad9c2bf3c87"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StickySpecks",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/sticky-specks/variants/tw/sticky-specks.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/sticky-specks",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glue-dots-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c50c763fea5c25832823771f159265805fb3e869a3065781b92227fd60413a38",
+  "fetchedAt": "2026-08-14T05:32:57.610Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glue-dots",
+  "upstreamName": "GlueDots"
+}

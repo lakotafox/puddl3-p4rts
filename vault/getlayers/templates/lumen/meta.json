@@ -1,0 +1,363 @@
+{
+  "id": "getlayers/template/lumen",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "lumen",
+  "name": "Lumen",
+  "title": "Lumen",
+  "description": "PUDDL3 wage-streaming hero — cash-out card rising from a WebGL night sea",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "lumen",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "lumen",
+      "path": "vault/getlayers/templates/lumen/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/lumen/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/tsconfig.tsbuildinfo"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/favicon-16x16.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/open-graph.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-192x192.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-72x72.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-96x96.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-36x36.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/apple-icon-180x180.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-48x48.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/assets/card.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/assets/logo.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/browserconfig.xml"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/android-icon-144x144.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/public/favicon-32x32.png"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/types/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/fonts/Mulish-Regular.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/fonts/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/fonts/Mulish-Light.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/animation/ripple-bus.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/halcyon-gate.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/index.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/use-preloader.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/hero-section.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/mobile-nav.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/lumen/files/src/views/home/tilt-card.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/lumen",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=lumen",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.241Z",
+  "vaultVersion": 1
+}

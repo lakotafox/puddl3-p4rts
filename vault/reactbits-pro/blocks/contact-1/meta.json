@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/contact-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-1",
+  "name": "contact-1",
+  "title": "Contact 1",
+  "description": "Three-card grid layout with pill badges and call-to-action links",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-1",
+      "path": "vault/reactbits-pro/blocks/contact-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-1/files/contact-1.tsx",
+          "bytes": 3380,
+          "sha256": "537789003d1207dd370cbfbc711f5603def55a07b64e7e2b023764b8c71b3af0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-1/files/contact-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42b53ee03e1e4d06950f0626cd20f355ae11f05ff7a069dc2da5cb5be80a4e24"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-1/files/contact-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f2fc89eec9e839610f3b5e92e305d55e44d4ee3671044aa7a7e3252f8f44a79e",
+  "fetchedAt": "2026-08-14T05:44:20.572Z",
+  "vaultVersion": 1
+}

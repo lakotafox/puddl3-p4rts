@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/editor-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "editor-5",
+  "name": "editor-5",
+  "title": "Editor 5",
+  "description": "Long document reader with a collapsible outline rail and a focus mode that dims other sections.",
+  "tags": [
+    "editor",
+    "writing",
+    "markdown",
+    "code",
+    "document"
+  ],
+  "tagSource": "upstream",
+  "category": "editor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "editor-5",
+      "path": "vault/reactbits-pro/blocks/editor-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/editor-5/files/editor-5.tsx",
+          "bytes": 9197,
+          "sha256": "f9648dd34889c087b14969960295c26d91cb0dd506fa2f3f9d312160afcea355"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Editor5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/editor-5/files/editor-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2a4afca600843c4ced49e0dd54c28981ed1092ca1750e131163d1b4d91a0d2bb"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Editor5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/editor-5/files/editor-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/editor-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/editor-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "33d4c55d4738e5ed7aade78271c487dec4421b87b0bb4bb1bd142dee27c9701b",
+  "fetchedAt": "2026-08-14T05:46:06.644Z",
+  "vaultVersion": 1
+}

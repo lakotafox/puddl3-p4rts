@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/blog-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "blog-1",
+  "name": "blog-1",
+  "title": "Blog 1",
+  "description": "Responsive blog page with article card grid",
+  "tags": [
+    "blog",
+    "articles",
+    "posts",
+    "content"
+  ],
+  "tagSource": "upstream",
+  "category": "blog",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "blog-1",
+      "path": "vault/reactbits-pro/blocks/blog-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/blog-1/files/blog-1.tsx",
+          "bytes": 5004,
+          "sha256": "5ed6a1dc149794ce38abfc66c6defc6a2da1f99707597223cdbc1a963f74960e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Blog1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/blog-1/files/blog-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Blog1",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/blog-1/files/blog-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c72c0d9f8178c34a1864d0fe9b73296833c6cd7c6727e4a87aff4396c3088f9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Blog1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/blog-1/files/blog-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/blog-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/blog-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "457cd3231daedee64450db3a82b0ba325768313020d0da40adb296d60bac4f85",
+  "fetchedAt": "2026-08-14T05:43:06.698Z",
+  "vaultVersion": 1
+}

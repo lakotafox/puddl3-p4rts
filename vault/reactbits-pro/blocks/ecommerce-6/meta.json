@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/ecommerce-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-6",
+  "name": "ecommerce-6",
+  "title": "Ecommerce 6",
+  "description": "Shop-all product grid with animated category pill tabs and sold-out overlay",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-6",
+      "path": "vault/reactbits-pro/blocks/ecommerce-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-6/files/ecommerce-6.tsx",
+          "bytes": 5785,
+          "sha256": "84b32fe6f4a66622defb7c90cdd02fb9ab88993e98bbce28ee427ef3a7824f18"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-6/files/ecommerce-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ca15e350e761232fb78a6752934bf35f551645abd839ce8bb6ee16d18adcabb6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-6/files/ecommerce-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "04fcb1c2265134615af7b417fbcec3052f513d0b29649c8212f1ef22ca25a032",
+  "fetchedAt": "2026-08-14T05:45:54.744Z",
+  "vaultVersion": 1
+}

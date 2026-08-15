@@ -1,0 +1,219 @@
+{
+  "id": "rb-free/component/melt-reel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "melt-reel",
+  "name": "MeltReel",
+  "title": "Melt Reel",
+  "description": "WebGL slider that melts between images with a displacement transition.",
+  "tags": [
+    "gsap",
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MorphSlider-JS-CSS",
+      "path": "vault/reactbits-free/components/melt-reel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/js-css/MeltReel.css",
+          "bytes": 3278,
+          "sha256": "213e79d63ec5003698f60c8e81d2b616bf3bb2548327682f02a40c11cd2e9d92"
+        },
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/js-css/MeltReel.jsx",
+          "bytes": 19661,
+          "sha256": "5386c53792f06a426e12ca1b717b92e7485f28f559fb225e38d6255688a17eb1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeltReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/melt-reel/variants/js-css/MeltReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f13445f9e698fcded6aa9ba004bfc44e99368f4e1e176f09a2504f1d34e18034"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MorphSlider-JS-TW",
+      "path": "vault/reactbits-free/components/melt-reel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/js-tw/MeltReel.jsx",
+          "bytes": 21765,
+          "sha256": "0f45070f17c96d585728e5036bf8898a118bdcf1aab595d5121dd0eee8dc794b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeltReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/melt-reel/variants/js-tw/MeltReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "59a87eb9c90eba5d8e14f4e972f0bc7a26fc16a2fb1832c83944bc99f661ef3d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MorphSlider-TS-CSS",
+      "path": "vault/reactbits-free/components/melt-reel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/ts-css/MeltReel.css",
+          "bytes": 3278,
+          "sha256": "213e79d63ec5003698f60c8e81d2b616bf3bb2548327682f02a40c11cd2e9d92"
+        },
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/ts-css/MeltReel.tsx",
+          "bytes": 22130,
+          "sha256": "5bac3e628f0b1c81b2538e4efee2bac10c3c21d761f7b48e80d97ec29ceca69e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeltReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/melt-reel/variants/ts-css/MeltReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "261cd35ab3ed0d4dd1cbe0346ce1746744aa64115d1677f851adab4cd667e80d"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MorphSlider-TS-TW",
+      "path": "vault/reactbits-free/components/melt-reel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/melt-reel/variants/ts-tw/MeltReel.tsx",
+          "bytes": 24236,
+          "sha256": "79029fa40a87941f1575702a5dadbb2add3cf36c5f0c784ae3dbeb02cfe259c2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeltReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/melt-reel/variants/ts-tw/MeltReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9aff66918edb7214cd8d4753876157cbce38dd429d5e6a906c89009705641326"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    },
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MeltReel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/melt-reel/variants/ts-tw/MeltReel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/melt-reel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MorphSlider-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/morph-slider"
+  },
+  "hash": "10b7243d8995148a950b0ff1063c76d835eced779c9e7a4ceea2d07e60ea8294",
+  "fetchedAt": "2026-08-14T05:36:11.426Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MeltReel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "morph-slider",
+  "upstreamName": "MorphSlider"
+}

@@ -1,0 +1,262 @@
+{
+  "id": "rb-free/component/warp-drive",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "warp-drive",
+  "name": "WarpDrive",
+  "title": "Warp Drive",
+  "description": "Animated lines continuously moving to simulate hyperspace travel on click hold.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Hyperspeed-JS-CSS",
+      "path": "vault/reactbits-free/components/warp-drive/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/js-css/HyperSpeedPresets.js",
+          "bytes": 6206,
+          "sha256": "be15ad23a648985df593f5757bc4a592222dc889ebaf5cc9d9328895f2a4efd8"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/js-css/WarpDrive.css",
+          "bytes": 128,
+          "sha256": "5bbb0806c4927877dcdd1794d9780cfd7a4e8f31ef4ae7244c5fbc45cc041291"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/js-css/WarpDrive.jsx",
+          "bytes": 39747,
+          "sha256": "37fc39096bf9f3ac8bc8166769b363e748a8847b726ed49776a20355a57f879f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "hyperspeedPresets",
+          "style": "named",
+          "file": "vault/reactbits-free/components/warp-drive/variants/js-css/HyperSpeedPresets.js",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WarpDrive",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-drive/variants/js-css/WarpDrive.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "684049c436e2d81cec4bc947519ac72d1d6c8b6fc89bd6d599fa6ae90d525150"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Hyperspeed-JS-TW",
+      "path": "vault/reactbits-free/components/warp-drive/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/js-tw/HyperSpeedPresets.js",
+          "bytes": 6206,
+          "sha256": "be15ad23a648985df593f5757bc4a592222dc889ebaf5cc9d9328895f2a4efd8"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/js-tw/WarpDrive.jsx",
+          "bytes": 39702,
+          "sha256": "e1cf1d449f36f6db98add279fac7d90f1f151c5a9cc3fe031208d7cab701cd5f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "hyperspeedPresets",
+          "style": "named",
+          "file": "vault/reactbits-free/components/warp-drive/variants/js-tw/HyperSpeedPresets.js",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WarpDrive",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-drive/variants/js-tw/WarpDrive.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b29a3d66fd4b1702564d101cb0e1d601d397d3cfea8dbbb3dd0b4659ac5bf4ee"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Hyperspeed-TS-CSS",
+      "path": "vault/reactbits-free/components/warp-drive/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/ts-css/HyperSpeedPresets.ts",
+          "bytes": 6206,
+          "sha256": "be15ad23a648985df593f5757bc4a592222dc889ebaf5cc9d9328895f2a4efd8"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/ts-css/WarpDrive.css",
+          "bytes": 128,
+          "sha256": "5bbb0806c4927877dcdd1794d9780cfd7a4e8f31ef4ae7244c5fbc45cc041291"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/ts-css/WarpDrive.tsx",
+          "bytes": 39978,
+          "sha256": "f60f935d0d47b37ff896ba4512551f6d502e5844ff020fe885ae67d120574d8a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "hyperspeedPresets",
+          "style": "named",
+          "file": "vault/reactbits-free/components/warp-drive/variants/ts-css/HyperSpeedPresets.ts",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WarpDrive",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-drive/variants/ts-css/WarpDrive.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "208254f0802174f6d0f2ed11bbb78b3700611365080894542260d80b47fc89c6"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Hyperspeed-TS-TW",
+      "path": "vault/reactbits-free/components/warp-drive/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/ts-tw/HyperSpeedPresets.ts",
+          "bytes": 6206,
+          "sha256": "be15ad23a648985df593f5757bc4a592222dc889ebaf5cc9d9328895f2a4efd8"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-drive/variants/ts-tw/WarpDrive.tsx",
+          "bytes": 39976,
+          "sha256": "204a9f3db551b218c6e86c445f6f09bd06880d5666e7671a13050bf067def64b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "hyperspeedPresets",
+          "style": "named",
+          "file": "vault/reactbits-free/components/warp-drive/variants/ts-tw/HyperSpeedPresets.ts",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WarpDrive",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-drive/variants/ts-tw/WarpDrive.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "56c0e1296f7723d11c3c955df4145c0e603676bf53d3e05fcc7f83363a89afa7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "postprocessing",
+      "range": "^6.36.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WarpDrive",
+      "style": "default",
+      "file": "vault/reactbits-free/components/warp-drive/variants/ts-tw/WarpDrive.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/warp-drive",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Hyperspeed-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/hyperspeed"
+  },
+  "hash": "13f9521cb5ae741a13c6e83cb0062cce73001ee15925b483bbad4437144ffef1",
+  "fetchedAt": "2026-08-14T05:36:11.398Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WarpDrive",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "hyperspeed",
+  "upstreamName": "Hyperspeed"
+}

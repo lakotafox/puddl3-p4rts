@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-7",
+  "name": "ecommerce-7",
+  "title": "Ecommerce 7",
+  "description": "Category tile grid with animated underline tabs switching between print collections",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-7",
+      "path": "vault/reactbits-pro/blocks/ecommerce-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-7/files/ecommerce-7.tsx",
+          "bytes": 11003,
+          "sha256": "af06f02ee06750ecba383788661fde7d4c01321df93badfb41c868a5129c5168"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-7/files/ecommerce-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "16ab33de3e6bc1e8435be14ac0fcdbd0cb5195fd5c1391d19535609188c8d63c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-7/files/ecommerce-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0ce4c7e21a8b774eddfee72aa46d41ba247e65528f84d9943d87391a44a4d3af",
+  "fetchedAt": "2026-08-14T05:45:56.286Z",
+  "vaultVersion": 1
+}

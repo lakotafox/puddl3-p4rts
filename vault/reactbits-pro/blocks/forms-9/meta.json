@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-9",
+  "name": "forms-9",
+  "title": "Forms 9",
+  "description": "Weekly opening hours with per-day intervals, overlap validation, and a live total.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-9",
+      "path": "vault/reactbits-pro/blocks/forms-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-9/files/forms-9.tsx",
+          "bytes": 32701,
+          "sha256": "ede557f3c0c77d7aa1d36d4b68c7760d86e9daccdcf81a23a1277f77e44c2d12"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-9/files/forms-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a912233486ca5c2e1f5b61f1616536fe769fc5df45b8744c0c49c9e64cf54d04"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-9/files/forms-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "67409f1916f61af09730c11409d8894663b90c6a5f1fa1c88c27d7f40e8c2349",
+  "fetchedAt": "2026-08-14T05:47:51.101Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,228 @@
+{
+  "id": "rb-free/component/orbit-stage",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "orbit-stage",
+  "name": "OrbitStage",
+  "title": "Orbit Stage",
+  "description": "Three.js model viewer with orbit controls and lighting presets.",
+  "tags": [
+    "3d",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ModelViewer-JS-CSS",
+      "path": "vault/reactbits-free/components/orbit-stage/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/orbit-stage/variants/js-css/OrbitStage.jsx",
+          "bytes": 14505,
+          "sha256": "ababbadcfaf54b279e8aa7669b9de2f0f065e640d335a294d843aa487c0389e5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitStage",
+          "style": "default",
+          "file": "vault/reactbits-free/components/orbit-stage/variants/js-css/OrbitStage.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b375883cc962f88dbebf2dfbd5219523fb5a72ba8923b555a118d03d4163d8b8"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ModelViewer-JS-TW",
+      "path": "vault/reactbits-free/components/orbit-stage/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/orbit-stage/variants/js-tw/OrbitStage.jsx",
+          "bytes": 14401,
+          "sha256": "d1b0f0dd250c342ac2f9319a97add101d1e9a3eaad530cfeba9753d80730f4d3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitStage",
+          "style": "default",
+          "file": "vault/reactbits-free/components/orbit-stage/variants/js-tw/OrbitStage.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "83f7ef55f2f78a022651706e27aa0237b6fb2e5afbbbe6f72daff802d51a8240"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ModelViewer-TS-CSS",
+      "path": "vault/reactbits-free/components/orbit-stage/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/orbit-stage/variants/ts-css/OrbitStage.tsx",
+          "bytes": 16846,
+          "sha256": "49a3c082d7e5cd11f1ff728fb9960b67116c4f439131f486fe7cb622c72d1f01"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitStage",
+          "style": "default",
+          "file": "vault/reactbits-free/components/orbit-stage/variants/ts-css/OrbitStage.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cf02dfcddb7b2888c365e146bc53ca4586f6a53c4693ec6b99eab1c6485b97af"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ModelViewer-TS-TW",
+      "path": "vault/reactbits-free/components/orbit-stage/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/orbit-stage/variants/ts-tw/OrbitStage.tsx",
+          "bytes": 16131,
+          "sha256": "802ace5da8515c2cffe4ffe83aaa25c4a5720d81613568ae01b7e0bb7512135c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitStage",
+          "style": "default",
+          "file": "vault/reactbits-free/components/orbit-stage/variants/ts-tw/OrbitStage.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "261a72bec93a9f1e7f11958d4d862895fd471d4c7654824d3edeb3b7c7355896"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "^10.7.4"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OrbitStage",
+      "style": "default",
+      "file": "vault/reactbits-free/components/orbit-stage/variants/ts-tw/OrbitStage.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/orbit-stage",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ModelViewer-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/model-viewer"
+  },
+  "hash": "81b12205034cafde08647ed106f65ab41cb4bb848633ca2ad89a723daf6aa085",
+  "fetchedAt": "2026-08-14T05:36:11.423Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "OrbitStage",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "model-viewer",
+  "upstreamName": "ModelViewer"
+}

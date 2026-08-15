@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-7",
+  "name": "list-7",
+  "title": "List 7",
+  "description": "Supplier directory with live search, category filtering, and column labels.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-7",
+      "path": "vault/reactbits-pro/blocks/list-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-7/files/list-7.tsx",
+          "bytes": 18206,
+          "sha256": "122f5406ee8733686b1f23489dba483ab2b4b2fb95752efdc8760e18c7da8128"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-7/files/list-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2ece7e9c5d5da291dfdb1c578034b2b6ba2285820832c36c704597dd4ad2b6e9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-7/files/list-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "093bc90bd80e1f58a744d39556a9305aee385d10d4eacbfcc339cee74721bc18",
+  "fetchedAt": "2026-08-14T05:49:13.848Z",
+  "vaultVersion": 1
+}

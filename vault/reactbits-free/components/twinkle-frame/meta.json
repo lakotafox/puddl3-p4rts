@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/twinkle-frame",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "twinkle-frame",
+  "name": "TwinkleFrame",
+  "title": "Twinkle Frame",
+  "description": "Animated star / sparkle border orbiting content with twinkle pulses.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "StarBorder-JS-CSS",
+      "path": "vault/reactbits-free/components/twinkle-frame/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/js-css/TwinkleFrame.css",
+          "bytes": 1089,
+          "sha256": "a131e112100678b8b1a9f37ef8ca78d50091cfde4135919deca259c1d6cff972"
+        },
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/js-css/TwinkleFrame.jsx",
+          "bytes": 882,
+          "sha256": "926d22e22af3bf7d515ff6c47412a15a249fbad796b9122565d622653e5b0ce2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/twinkle-frame/variants/js-css/TwinkleFrame.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b2e87ee1551626fb0832baacfbcdb38ffb609dc5fe4719da7534ffe9c90ec4bb"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "StarBorder-JS-TW",
+      "path": "vault/reactbits-free/components/twinkle-frame/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/js-tw/TwinkleFrame.jsx",
+          "bytes": 1921,
+          "sha256": "ce74a1153684f5458beeeae1671277b6ced85d7bc185c2f7563b642f44136b84"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/twinkle-frame/variants/js-tw/TwinkleFrame.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45e118350b7c06e40f43694c194c464db636b91193460513ddb2d0775c937bcd"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "StarBorder-TS-CSS",
+      "path": "vault/reactbits-free/components/twinkle-frame/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/ts-css/TwinkleFrame.css",
+          "bytes": 1126,
+          "sha256": "5a174ab1eeab24988b42a976c96ec3cb7dac937f436297e6de88398398dfa9a8"
+        },
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/ts-css/TwinkleFrame.tsx",
+          "bytes": 1250,
+          "sha256": "13e54153e066904ae0e0317488247852241199697af4b2942d89e606d1bfe3ad"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/twinkle-frame/variants/ts-css/TwinkleFrame.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0816f37fb787594860a0a9c1976639162e82846ffc9cb9fafc268bda2118568f"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "StarBorder-TS-TW",
+      "path": "vault/reactbits-free/components/twinkle-frame/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/twinkle-frame/variants/ts-tw/TwinkleFrame.tsx",
+          "bytes": 2290,
+          "sha256": "e3fbaa1bd6f05ec92db94265ff0ba740a12f62996bfd671291ae20f9680c90e9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/twinkle-frame/variants/ts-tw/TwinkleFrame.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14135d0cf0d3f80404e2eb72e5e2ae66b926be14af6570df7773aa1e26b5b03b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TwinkleFrame",
+      "style": "default",
+      "file": "vault/reactbits-free/components/twinkle-frame/variants/ts-tw/TwinkleFrame.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/twinkle-frame",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/StarBorder-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/star-border"
+  },
+  "hash": "f28975b80568d3cc4ba450e54a0fd26b4eed0b2f6ba723e2b3d70e2c0c9c8c56",
+  "fetchedAt": "2026-08-14T05:36:11.464Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TwinkleFrame",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "star-border",
+  "upstreamName": "StarBorder"
+}

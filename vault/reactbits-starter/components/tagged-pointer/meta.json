@@ -1,0 +1,131 @@
+{
+  "id": "rb-starter/component/tagged-pointer",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "tagged-pointer",
+  "name": "TaggedPointer",
+  "title": "Tagged Pointer",
+  "description": "A custom cursor with a little name tag that follows along",
+  "tags": [
+    "cursor",
+    "pointer",
+    "spring",
+    "interactive",
+    "motion",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "user-cursor-css",
+      "path": "vault/reactbits-starter/components/tagged-pointer/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tagged-pointer/variants/css/tagged-pointer.tsx",
+          "bytes": 14002,
+          "sha256": "fc00acf81329b00865152eee4c91b43cd38cda18e74d1aa66d727c96446dfd81"
+        },
+        {
+          "path": "vault/reactbits-starter/components/tagged-pointer/variants/css/tagged-pointer.css",
+          "bytes": 524,
+          "sha256": "c0a9dafd41f8c3d3374cfa67d32d223b5f8d737e3faba485cdc650a777a22227"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TaggedPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tagged-pointer/variants/css/tagged-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "98aa4918f12d1bd50129c8dcaf8f92312802112a4d89c187b118566beba6059e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "user-cursor-tw",
+      "path": "vault/reactbits-starter/components/tagged-pointer/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tagged-pointer/variants/tw/tagged-pointer.tsx",
+          "bytes": 14103,
+          "sha256": "738b55dd6a8a6a84823811e4183504030c98a3856643c437f660a57b58cde29b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TaggedPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tagged-pointer/variants/tw/tagged-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "352e4d53f6e8f79be59712963117b531120162aebf17ad1f06b881987e03c1a6"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TaggedPointer",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/tagged-pointer/variants/tw/tagged-pointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/tagged-pointer",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/user-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1f04bab6b43e0480f219c7643eecfc24b7080c834483af25266495ed387caa79",
+  "fetchedAt": "2026-08-14T05:35:18.012Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "user-cursor",
+  "upstreamName": "UserCursor"
+}

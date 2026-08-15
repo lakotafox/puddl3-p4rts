@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    
+    /* Скрываем скроллбар для Firefox, IE и Edge */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body {
+    min-height: 900vh; /* Увеличенная высота скролла для плавной кинематографичной прокрутки и вдумчивого чтения */
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden; /* Скрываем только горизонтальный скролл */
+    cursor: none; /* Скрываем стандартный курсор на всем сайте */
+}
+
+* {
+    cursor: none !important; /* Ультимативно глушим стандартные курсоры при наведении на ссылки и кнопки */
+}
+
+/* --- Кастомный двойной курсор --- */
+.cursor-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border: 2px solid rgba(255, 255, 255, 1); /* Толстый и яркий чистый контур */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Пропускает клики сквозь себя */
+    z-index: 9999; /* Самый высокий приоритет поверх всего сайта */
+}
+
+.cursor-outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid rgba(255, 255, 255, 0.7); /* Чистый яркий внешний контур */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Пропускает клики сквозь себя */
+    z-index: 9998;
+    transition: width 0.3s, height 0.3s, background 0.3s;
+}
+
+/* Полностью скрываем скроллбар для WebKit браузеров (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+#webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    outline: none;
+}
+
+.cinematic-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none; /* Пропускаем клики и драг сквозь текст на Canvas! */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 60px 40px 60px; /* Убираем верхний отступ для хедера */
+    box-sizing: border-box;
+}
+
+/* Прогресс-бар в стиле Stories на последней линии сетки */
+.story-dashes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Расстояние между черточками */
+}
+
+.story-dash {
+    width: 2px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15); /* Темный фон черточки */
+    border-radius: 2px;
+}
+
+.story-dash-fill {
+    width: 100%;
+    height: 0%; /* Заполняется скриптом по скроллу */
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 20;
+    pointer-events: auto; /* Разрешаем клики по хедеру */
+    padding: 20px 0; /* Вертикальные паддинги ровно 20px */
+}
+
+.brand {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-link {
+    color: #ffffff; /* Белые ссылки */
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.nav-dot {
+    width: 3px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Расстояние между текстом и кружком */
+    padding: 10px 24px;
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn-circle {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #000000; /* Черный аутлайновый кружок */
+    border-radius: 50%;
+    background: transparent;
+}
+
+.contact-btn:hover {
+    transform: scale(1.05);
+    background: #f0f0f0;
+}
+
+.slide {
+    position: absolute;
+    bottom: 12%;
+    pointer-events: none; /* Пропускаем клики, когда слайд неактивен */
+}
+
+/* Индивидуальное выравнивание слайдов относительно вертикальных линий сетки */
+#slide-1 {
+    left: 0;
+    width: 100%; /* Полноширинный контейнер для точного позиционирования по vw */
+}
+
+#slide-1 .slide-title {
+    margin-left: 60px; /* Выравнивание заголовка по первой колонке */
+}
+
+#slide-1 .desc-row {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+#slide-1 .col-1 {
+    margin-left: 60px; /* 20px справа от Первой линии (40px) */
+    width: calc(25vw - 60px); /* Ровно до Второй линии с отступом 20px */
+    max-width: calc(25vw - 60px);
+}
+
+#slide-1 .col-2 {
+    position: absolute;
+    left: calc(25vw + 40px); /* Ровно 20px справа от Второй линии (которая на 25vw + 20px) */
+    width: calc(25vw - 60px); /* Ровно до Третьей линии с отступом 20px */
+    max-width: calc(25vw - 60px);
+}
+
+#slide-2 {
+    left: 0;
+    width: 100%;
+}
+
+#slide-2-img {
+    position: fixed;
+    top: 90px; /* Ровно 20px от хедера (высота которого 70px) */
+    left: 60px; /* 20px справа от Первой линии (которая на 40px) */
+    width: calc(25vw - 60px); /* Ровно до Второй линии с отступом 20px */
+    aspect-ratio: 1 / 1; /* Квадратный формат */
+    overflow: hidden;
+    z-index: 2; /* Под текстом, но над фоном */
+    pointer-events: none;
+    clip-path: inset(0 0 100% 0); /* Маска полностью скрывает картинку снизу */
+    transition: clip-path 1.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.8s ease;
+    opacity: 0;
+}
+
+#slide-2-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.15); /* Более мягкий параллакс-масштаб */
+    transition: transform 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#slide-2-img.active {
+    clip-path: inset(0 0 0 0); /* Идеально плавное раскрытие сверху вниз */
+    opacity: 1;
+}
+
+#slide-2-img.active img {
+    transform: scale(1);
+}
+
+#slide-2 .slide-title {
+    margin-left: calc(25vw + 40px); /* 20px справа от Второй линии (которая на 25vw + 20px) */
+}
+
+#slide-2 .slide-desc {
+    margin-left: calc(50vw + 20px); /* 20px справа от Третьей линии (которая на 50vw) */
+    width: calc(25vw - 60px); /* Ровно до Четвертой линии (которая на 75vw - 20px) с отступом 20px */
+    max-width: calc(25vw - 60px);
+}
+
+#slide-3 {
+    left: calc(50vw + 20px); /* 20px справа от Третьей линии (которая на 50vw) */
+    width: calc(25vw - 60px); /* Ровно до Четвертой линии (которая на 75vw - 20px) с отступом 20px */
+    max-width: calc(25vw - 60px);
+}
+
+#slide-3 .slide-title {
+    white-space: nowrap;
+}
+
+#slide-4 {
+    left: calc(25% + 40px); /* 20px справа от Второй линии */
+    max-width: 600px;
+}
+
+.slide-title {
+    font-family: 'Italiana', serif;
+    font-size: 116px; /* Увеличено в 2 раза (58px * 2) */
+    line-height: 1.0; /* Плотный интерлиньяж для аккуратного наложения */
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #fff6ed;
+}
+
+.slide-desc {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #d1d5db;
+    letter-spacing: 0.5px;
+    
+    /* Анимация всплытия описания */
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    transition-delay: 0.4s; /* Ждем, пока заголовок эффектно начнет появляться */
+}
+
+.slide.active .slide-desc {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Побуквенная анимация заголовков (снизу вверх с блюром) */
+.slide-title .char {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+    filter: blur(12px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                filter 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.slide.active .slide-title .char {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+.slide.active {
+    pointer-events: auto; /* Разрешаем выделять текст, когда он активен */
+}
+
+/* Горизонтальная линия, отделяющая хедер от сетки */
+.grid-horizontal-line {
+    position: fixed;
+    top: 70px; /* Ровно под контентом хедера (20px padding + 30px content + 20px padding) */
+    left: 0;
+    right: 0;
+    width: 100%; /* До краев экрана */
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* Сетка из 5 полупрозрачных линий поверх сцены */
+.grid-lines {
+    position: fixed;
+    top: 0; /* Линии 1, 2, 4, 5 идут через весь экран, заходя на хедер */
+    left: 40px;
+    right: 40px;
+    width: calc(100% - 80px);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.grid-line {
+    position: relative; /* Чтобы кружки позиционировались относительно линии */
+    width: 1px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.12); /* Благородный белый (12% непрозрачности) */
+}
+
+/* Третья (центральная) линия обрезается, чтобы не перечеркивать навигацию */
+.grid-line:nth-child(3) {
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+}
+
+/* Декоративные полупрозрачные кружки поверх линий */
+.grid-dot {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35); /* Нежно-белый кружок */
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.15); /* Мягкое свечение */
+}

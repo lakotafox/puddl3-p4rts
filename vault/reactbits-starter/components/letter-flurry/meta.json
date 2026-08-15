@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/letter-flurry",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "letter-flurry",
+  "name": "LetterFlurry",
+  "title": "Letter Flurry",
+  "description": "Interactive letter scatter effect",
+  "tags": [
+    "animation",
+    "text"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "text-scatter-css",
+      "path": "vault/reactbits-starter/components/letter-flurry/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/letter-flurry/variants/css/letter-flurry.tsx",
+          "bytes": 2034,
+          "sha256": "fd9b9529e84c326cca1312c47929454ab09db2d7de83ee5d1dc12c7630327d65"
+        },
+        {
+          "path": "vault/reactbits-starter/components/letter-flurry/variants/css/letter-flurry.css",
+          "bytes": 270,
+          "sha256": "06695648547515e548b74c8212650b2210b85f911847535a83c3f93a1e42d8d4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterFlurry",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/letter-flurry/variants/css/letter-flurry.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "116047ef98e94af738ad473e89b315a3c779ccdcf934e68453645df53cbcde9f"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "text-scatter-tw",
+      "path": "vault/reactbits-starter/components/letter-flurry/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/letter-flurry/variants/tw/letter-flurry.tsx",
+          "bytes": 2042,
+          "sha256": "81aa03e9c750fb4f22e945f16469f5778a0d2a7539d3cb3743116213f3f19b92"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterFlurry",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/letter-flurry/variants/tw/letter-flurry.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7c3283b617f6c06755a529ce8b25007636c22ece851cca48154ecf72b4b1ce84"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LetterFlurry",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/letter-flurry/variants/tw/letter-flurry.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/letter-flurry",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/text-scatter-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "446bf4eae4a2d55fe0b58a2fc794a5a29cfd5d111c32592f063dbf7bec00b848",
+  "fetchedAt": "2026-08-14T05:35:09.332Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "text-scatter",
+  "upstreamName": "TextScatter"
+}

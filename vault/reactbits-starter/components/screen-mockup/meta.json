@@ -1,0 +1,139 @@
+{
+  "id": "rb-starter/component/screen-mockup",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "screen-mockup",
+  "name": "ScreenMockup",
+  "title": "Screen Mockup",
+  "description": "Performant CSS device mockup with custom content",
+  "tags": [
+    "ui",
+    "mockup"
+  ],
+  "tagSource": "upstream",
+  "category": "ui",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "device-css",
+      "path": "vault/reactbits-starter/components/screen-mockup/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/screen-mockup/variants/css/screen-mockup.tsx",
+          "bytes": 7657,
+          "sha256": "876689e135319266e2351ea9422af48a00bc50b7babf0cd985bfd0fb7b595f55"
+        },
+        {
+          "path": "vault/reactbits-starter/components/screen-mockup/variants/css/screen-mockup.css",
+          "bytes": 3444,
+          "sha256": "2d6505cb5838284ce03ce148b6cd03a9042d2d3db44524a7e589f1b348d2cf0c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lenis",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScreenMockup",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/screen-mockup/variants/css/screen-mockup.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c9baae01a86b1f9075008a10f16e90762d9ba6d5fca0f976c84b72265265a72"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "device-tw",
+      "path": "vault/reactbits-starter/components/screen-mockup/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/screen-mockup/variants/tw/screen-mockup.tsx",
+          "bytes": 10283,
+          "sha256": "f878e8a054714d49416ba3cb724fd7543ff85b5226adfd86fc5d6f95f08f40eb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lenis",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScreenMockup",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/screen-mockup/variants/tw/screen-mockup.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d477ba09f3626e57e8f0bc436deecd1e25fa5157222c3a12425bc129ed7c7de3"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "lenis",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ScreenMockup",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/screen-mockup/variants/tw/screen-mockup.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/screen-mockup",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/device-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8dfe7e792716900ea75d2657e1baa6abe26aeb06630129d3c6020cd939fae236",
+  "fetchedAt": "2026-08-14T05:32:24.272Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "device",
+  "upstreamName": "Device"
+}

@@ -1,0 +1,173 @@
+{
+  "id": "rb-free/component/static-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "static-type",
+  "name": "StaticType",
+  "title": "Static Type",
+  "description": "RGB split and distortion glitch effect with jitter effects.",
+  "tags": [
+    "effect",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GlitchText-JS-CSS",
+      "path": "vault/reactbits-free/components/static-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/js-css/StaticType.css",
+          "bytes": 2378,
+          "sha256": "7c1071040ade0877a64179c35a1fc92dd3cb9a0f1820afb3d935eb307dbf9c6e"
+        },
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/js-css/StaticType.jsx",
+          "bytes": 611,
+          "sha256": "d128bbbbfa3e759ffece66723a259eb5b2907be737c2044e4ab5e781a0a82728"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StaticType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/static-type/variants/js-css/StaticType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "631cb1e6385f0216e83e042d493b4c755709d27b3471c85ddd3a9daf446789df"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GlitchText-JS-TW",
+      "path": "vault/reactbits-free/components/static-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/js-tw/StaticType.jsx",
+          "bytes": 3571,
+          "sha256": "ab7e36af3a44534a18dead622968bf3b86fe0793506719f836b443879b05857c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StaticType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/static-type/variants/js-tw/StaticType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eb675c21f6ea555aeeb086c24188ce5fa7129a63dabe6879b3d5a1fc1e85c1f1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GlitchText-TS-CSS",
+      "path": "vault/reactbits-free/components/static-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/ts-css/StaticType.css",
+          "bytes": 2378,
+          "sha256": "4e45c0b6e06078efa41f242ffcd4dcb9b96559bcdc0e80820719d93b02c39f32"
+        },
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/ts-css/StaticType.tsx",
+          "bytes": 1029,
+          "sha256": "da5e0654bc0f59857e39be138e16b367be670bc781e4c3bd843788b0c0e303bb"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StaticType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/static-type/variants/ts-css/StaticType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4306582b62c20babb79b686dcfa4c05457569ff347a3f869ba90d3cf8ea257cb"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GlitchText-TS-TW",
+      "path": "vault/reactbits-free/components/static-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/static-type/variants/ts-tw/StaticType.tsx",
+          "bytes": 3987,
+          "sha256": "7a385e61287a7573fa535d2dc54ccc5a3648608bae59f3fa8062919b02eee628"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StaticType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/static-type/variants/ts-tw/StaticType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e310e1b077847d5a9dcd085ef21c3796af9239aaa7876d7c04486e3f0e28f5eb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StaticType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/static-type/variants/ts-tw/StaticType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/static-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GlitchText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/glitch-text"
+  },
+  "hash": "5e58a7e60010d8e6c6d6395d5fe3832cc3acc6e81d859838253f3d19c868baf4",
+  "fetchedAt": "2026-08-14T05:36:11.386Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "StaticType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "glitch-text",
+  "upstreamName": "GlitchText"
+}

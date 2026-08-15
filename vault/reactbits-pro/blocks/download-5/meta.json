@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/download-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-5",
+  "name": "download-5",
+  "title": "Download 5",
+  "description": "Centered desktop-app download hero with dual CTAs and iOS/Android footer",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-5",
+      "path": "vault/reactbits-pro/blocks/download-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-5/files/download-5.tsx",
+          "bytes": 4130,
+          "sha256": "72183d94fbc92867d7444815665ddad03854c9a44eb914ace50055554052f4e0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-5/files/download-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a6d8f723229f2fe1a6db22895fd37dfdc655cb45b3531308c645e71079102c86"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-5/files/download-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9186cd6a9081453c39fc554890fd247e184cabafceb749d08a5055f69dd0763f",
+  "fetchedAt": "2026-08-14T05:45:38.404Z",
+  "vaultVersion": 1
+}

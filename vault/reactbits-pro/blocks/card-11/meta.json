@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-11",
+  "name": "card-11",
+  "title": "Card 11",
+  "description": "A standalone invoice card with line items, totals, a paid status, and a PDF download.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-11",
+      "path": "vault/reactbits-pro/blocks/card-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-11/files/card-11.tsx",
+          "bytes": 5089,
+          "sha256": "88f223aed51c122f8ffe573cfa0ed59188125a4b081fdfd3545d780099f78bc1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-11/files/card-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "18293a1ef9abbda57ce06c010c68bf922942d2ea4b62cd88910d0ab997c698f0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-11/files/card-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4de2ad64c27cb5ae4a108df96c59aaac8b0eb081b4b6ea1c1af6d8fb902d2120",
+  "fetchedAt": "2026-08-14T05:43:27.375Z",
+  "vaultVersion": 1
+}

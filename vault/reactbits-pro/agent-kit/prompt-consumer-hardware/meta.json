@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/prompt/prompt-consumer-hardware",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-consumer-hardware",
+  "name": "prompt-consumer-hardware",
+  "title": "Consumer Hardware",
+  "description": "Build a product page for a physical consumer device: desire before specs, one honest hero photograph, a spec table buyers actually read, and shipping, warranty and returns resolved before the visitor hunts for them.",
+  "tags": [
+    "prompt",
+    "physical product",
+    "hardware",
+    "consumer",
+    "ecommerce",
+    "product",
+    "specs",
+    "retail"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-consumer-hardware",
+      "path": "vault/reactbits-pro/agent-kit/prompt-consumer-hardware/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-consumer-hardware/files/PROMPT.md",
+          "bytes": 20177,
+          "sha256": "aa0c80982f46cb1fe42a941090b09aa3eb9f8909ef4f3c7a51ce87530dced7c2"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-consumer-hardware/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "e63f3ddd25334485ea00a18c26e9ca95d32956556e3c2eb4806f1478ed5953e4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-consumer-hardware",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-consumer-hardware.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2aeadd3dfd2e60a1b8bb4b44c8d7939911594ebce3d8eb2026dca771efd0afa4",
+  "fetchedAt": "2026-08-14T05:53:57.218Z",
+  "vaultVersion": 1
+}

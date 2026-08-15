@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/showcase-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "showcase-6",
+  "name": "showcase-6",
+  "title": "Showcase 6",
+  "description": "Scrapbook studio gallery with tilted, overlapping polaroid cards and mono captions.",
+  "tags": [
+    "showcase",
+    "portfolio",
+    "gallery",
+    "display"
+  ],
+  "tagSource": "upstream",
+  "category": "showcase",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "showcase-6",
+      "path": "vault/reactbits-pro/blocks/showcase-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/showcase-6/files/showcase-6.tsx",
+          "bytes": 5328,
+          "sha256": "9157227f05643b7893e89eeea9e7e3f497ffde7b904d2967d2b36380ba3bb8a2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Showcase6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/showcase-6/files/showcase-6.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Showcase6",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/showcase-6/files/showcase-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2749ef5bb95256bae616946dda09a1e09f946727c1a7a074c55075c10caac836"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Showcase6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/showcase-6/files/showcase-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/showcase-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/showcase-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6c5b5b738b35eb20ffa7830c2a37c5af11c8d1c455267424db632a3340ee7c38",
+  "fetchedAt": "2026-08-14T05:54:49.865Z",
+  "vaultVersion": 1
+}

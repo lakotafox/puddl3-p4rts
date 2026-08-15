@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/slat-ripple",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "slat-ripple",
+  "name": "SlatRipple",
+  "title": "Slat Ripple",
+  "description": "A grid of soft glowing bars rippling like a slatted equalizer.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SlicedWaves-JS-CSS",
+      "path": "vault/reactbits-free/components/slat-ripple/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/js-css/SlatRipple.css",
+          "bytes": 101,
+          "sha256": "d1f50b4d92e9f4ffbd31bc75604535a13e0a52a010a5a84a9725aaedc3a11a3c"
+        },
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/js-css/SlatRipple.jsx",
+          "bytes": 10009,
+          "sha256": "34a63176ce974af412a77939b1af8ddc45350f8aaa8c808e2849ca541e98a73f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlatRipple",
+          "style": "default",
+          "file": "vault/reactbits-free/components/slat-ripple/variants/js-css/SlatRipple.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0564a8f322246fce61b4bee8a9839ca6730ab9e170c4244e078b3761745f0593"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SlicedWaves-JS-TW",
+      "path": "vault/reactbits-free/components/slat-ripple/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/js-tw/SlatRipple.jsx",
+          "bytes": 9997,
+          "sha256": "c351d8660882c9ad116fd5aaf3e6791b63af5ec1b5c812f895f3935e327dcc4e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlatRipple",
+          "style": "default",
+          "file": "vault/reactbits-free/components/slat-ripple/variants/js-tw/SlatRipple.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e517ad53454724023511ea7241f027985102b13fecbe3174a779237d15e64a0a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SlicedWaves-TS-CSS",
+      "path": "vault/reactbits-free/components/slat-ripple/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/ts-css/SlatRipple.css",
+          "bytes": 101,
+          "sha256": "d1f50b4d92e9f4ffbd31bc75604535a13e0a52a010a5a84a9725aaedc3a11a3c"
+        },
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/ts-css/SlatRipple.tsx",
+          "bytes": 11023,
+          "sha256": "c1f56f22f1d61804c2f567e19d404c9a746f19b904e0bf5e534d71e1414e396b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlatRipple",
+          "style": "default",
+          "file": "vault/reactbits-free/components/slat-ripple/variants/ts-css/SlatRipple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "77e089b101283c27019394875ee5d38c76852ea8c8b44accabcbd61fa9dc6074"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SlicedWaves-TS-TW",
+      "path": "vault/reactbits-free/components/slat-ripple/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/slat-ripple/variants/ts-tw/SlatRipple.tsx",
+          "bytes": 11011,
+          "sha256": "ddb55d5c39e4be4084c781466cde6b38a755c20f991dbd44026013ab502f1e75"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlatRipple",
+          "style": "default",
+          "file": "vault/reactbits-free/components/slat-ripple/variants/ts-tw/SlatRipple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9d7d59a1bf72b2371d1563bfa05fb8262d5c253292c5a4004e4957e1d057b0db"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SlatRipple",
+      "style": "default",
+      "file": "vault/reactbits-free/components/slat-ripple/variants/ts-tw/SlatRipple.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/slat-ripple",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SlicedWaves-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/sliced-waves"
+  },
+  "hash": "1de2b65134a0e5dc64714f4d13d0e5320de4e7d2959f56f826ee5e698fc0b07c",
+  "fetchedAt": "2026-08-14T05:36:11.456Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SlatRipple",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "sliced-waves",
+  "upstreamName": "SlicedWaves"
+}

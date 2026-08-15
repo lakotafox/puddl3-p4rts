@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/stats-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-14",
+  "name": "stats-14",
+  "title": "Stats 14",
+  "description": "Telemetry stat cards with data-drawn sparklines and delta chips.",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-14",
+      "path": "vault/reactbits-pro/blocks/stats-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-14/files/stats-14.tsx",
+          "bytes": 8528,
+          "sha256": "8c837522003d47de5e193ffb856872a0408c1cdf872ae0f64cb8a4cbfe12ad2d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-14/files/stats-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8f83dabbed811591a7bdcc29a52495f5c61b69df3aecee16093295ec6d051757"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-14/files/stats-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bef166ee8427c7709cd6f04962ee6180d5e0d57b4c79278edae19e3aab8dc37f",
+  "fetchedAt": "2026-08-14T05:55:41.053Z",
+  "vaultVersion": 1
+}

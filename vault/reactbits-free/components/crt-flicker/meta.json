@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/crt-flicker",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "crt-flicker",
+  "name": "CRTFlicker",
+  "title": "CRT Flicker",
+  "description": "Terminal CRT scanline squares effect with flicker + noise.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FaultyTerminal-JS-CSS",
+      "path": "vault/reactbits-free/components/crt-flicker/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/js-css/CRTFlicker.css",
+          "bytes": 104,
+          "sha256": "d769937672090dfd768c6a46912defd9de0eefd64dc22a9d9bf5eb1ce7b3d4b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/js-css/CRTFlicker.jsx",
+          "bytes": 11002,
+          "sha256": "e348db4eed2af30a03c9f424710ec96b360caa52f4bf983cce889e497896a761"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CRTFlicker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crt-flicker/variants/js-css/CRTFlicker.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3a6ce8722dadaf982a3d8e54bc4f256c30de2aa961049b37b76aea3bd9387427"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FaultyTerminal-JS-TW",
+      "path": "vault/reactbits-free/components/crt-flicker/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/js-tw/CRTFlicker.jsx",
+          "bytes": 10994,
+          "sha256": "d12efe3c2f2000d01943a2cc66c145da10485b5095225b18f1a3a9dd8a180632"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CRTFlicker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crt-flicker/variants/js-tw/CRTFlicker.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "74ea99183eadf319dcca4bdc486bd25147c439259347e363156debe0df05e45d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FaultyTerminal-TS-CSS",
+      "path": "vault/reactbits-free/components/crt-flicker/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/ts-css/CRTFlicker.css",
+          "bytes": 104,
+          "sha256": "d769937672090dfd768c6a46912defd9de0eefd64dc22a9d9bf5eb1ce7b3d4b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/ts-css/CRTFlicker.tsx",
+          "bytes": 11700,
+          "sha256": "1abec80d7bccfdf9d58da3344f28049cc4bcf3d501dc5e9f0400298edf410114"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CRTFlicker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crt-flicker/variants/ts-css/CRTFlicker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c7b77f187a6f1542c8accbf43d56048fb688ba85dda6960ad4a234f7292ce1fb"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FaultyTerminal-TS-TW",
+      "path": "vault/reactbits-free/components/crt-flicker/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crt-flicker/variants/ts-tw/CRTFlicker.tsx",
+          "bytes": 11694,
+          "sha256": "f49609df065b8fcb25ea70954a001703bfaffe8bd09c41fa6cd64adbf94a4ea7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CRTFlicker",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crt-flicker/variants/ts-tw/CRTFlicker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6081db331f0ddfb323393d003a8bcda3dc07217e2feefd2d72f8eccb9cb4fc37"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CRTFlicker",
+      "style": "default",
+      "file": "vault/reactbits-free/components/crt-flicker/variants/ts-tw/CRTFlicker.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/crt-flicker",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FaultyTerminal-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/faulty-terminal"
+  },
+  "hash": "f2d1d313f990ed64434124c99cabb5ea2f6cdc1cba51793401f86e605f6e1541",
+  "fetchedAt": "2026-08-14T05:36:11.375Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CRTFlicker",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "faulty-terminal",
+  "upstreamName": "FaultyTerminal"
+}

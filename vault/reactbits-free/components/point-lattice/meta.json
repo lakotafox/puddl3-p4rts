@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/point-lattice",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "point-lattice",
+  "name": "PointLattice",
+  "title": "Point Lattice",
+  "description": "Animated dot grid with cursor interactions.",
+  "tags": [
+    "background",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DotGrid-JS-CSS",
+      "path": "vault/reactbits-free/components/point-lattice/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/js-css/PointLattice.css",
+          "bytes": 320,
+          "sha256": "e0620db2de6d9b0e783d25f143eeb631c0609225fa61e94fa2a6d75714c00d80"
+        },
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/js-css/PointLattice.jsx",
+          "bytes": 7713,
+          "sha256": "c77af9e15c51a5f63b6ce25dc1d89345885f2f0e3816d02cdec2a04766c56621"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PointLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/point-lattice/variants/js-css/PointLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cc74a0b63b4e96dc8cb6448e1070f6238801fbbb71ce6f4f4b5de103f2556f8c"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DotGrid-JS-TW",
+      "path": "vault/reactbits-free/components/point-lattice/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/js-tw/PointLattice.jsx",
+          "bytes": 7774,
+          "sha256": "6ca6fdbc4c559a1d68c6e2748b62c12e3dca62fc1ce07f0080a805500425be9e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PointLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/point-lattice/variants/js-tw/PointLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6016ff6b2040d1411c365677bc924d7e4215a8235baaa2a86bea37b800405fa9"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DotGrid-TS-CSS",
+      "path": "vault/reactbits-free/components/point-lattice/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/ts-css/PointLattice.css",
+          "bytes": 336,
+          "sha256": "4bb8a8808e63a966e2da7eb69166654f300a83eb82ee0a33388ce7f6268c3af6"
+        },
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/ts-css/PointLattice.tsx",
+          "bytes": 8370,
+          "sha256": "c1440e84a4d4ad33223fae8a2ef2179e9eb7af2775d9ce1c10aef01da100fe95"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PointLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/point-lattice/variants/ts-css/PointLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b0b4765d095c45eeb47e4f430b0397d6138f23166f3ff92644080b59cea4b1a5"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DotGrid-TS-TW",
+      "path": "vault/reactbits-free/components/point-lattice/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/point-lattice/variants/ts-tw/PointLattice.tsx",
+          "bytes": 8438,
+          "sha256": "adb2f0f233c69903fa4f3fbba012f280f9145cc4b4ff0167a6f2a0696e5a520c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PointLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/point-lattice/variants/ts-tw/PointLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6650ef710358f607fc38ece61a2551e4be7f22c0a075d429da41422521842fdd"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PointLattice",
+      "style": "default",
+      "file": "vault/reactbits-free/components/point-lattice/variants/ts-tw/PointLattice.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/point-lattice",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DotGrid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dot-grid"
+  },
+  "hash": "dadf83037aa55336bda57f272e488b2f0019837415d45a66456e447529e31d3e",
+  "fetchedAt": "2026-08-14T05:36:11.368Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PointLattice",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dot-grid",
+  "upstreamName": "DotGrid"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/smudge-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "smudge-type",
+  "name": "SmudgeType",
+  "title": "Smudge Type",
+  "description": "Detects cursor position and applies a distortion effect to text.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrambledText-JS-CSS",
+      "path": "vault/reactbits-free/components/smudge-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/js-css/SmudgeType.css",
+          "bytes": 191,
+          "sha256": "72193d2c501a79788362c549dbbd2918f288de490ff9fd231f4fcc307fea028d"
+        },
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/js-css/SmudgeType.jsx",
+          "bytes": 1879,
+          "sha256": "ad1ca647be4a3bf8a87f17516f9407686bb2143408aa1b37918fa32059faf75b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SmudgeType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/smudge-type/variants/js-css/SmudgeType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef78383b7ad805b783be87477a5db10ee38d641e44ddb0ab02695c0a856e3959"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrambledText-JS-TW",
+      "path": "vault/reactbits-free/components/smudge-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/js-tw/SmudgeType.jsx",
+          "bytes": 1881,
+          "sha256": "10216ba5ca37bdc2ca782246808eed235665c5f08cb9c4f9ea29d7b2780aedd8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SmudgeType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/smudge-type/variants/js-tw/SmudgeType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0ccf6c8b33e923452da4c90c8408c10a2893b9813c98491e7a2462e20002729e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrambledText-TS-CSS",
+      "path": "vault/reactbits-free/components/smudge-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/ts-css/SmudgeType.css",
+          "bytes": 191,
+          "sha256": "72193d2c501a79788362c549dbbd2918f288de490ff9fd231f4fcc307fea028d"
+        },
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/ts-css/SmudgeType.tsx",
+          "bytes": 2211,
+          "sha256": "d21c5f570aa8c4c46ba178a7de074850472775ebf246c9a232b654362a55cc74"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SmudgeType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/smudge-type/variants/ts-css/SmudgeType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a1669575ab113c56f74b2b1aef95d7ef194e86be6a378c3caae95e13426c2dfd"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrambledText-TS-TW",
+      "path": "vault/reactbits-free/components/smudge-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/smudge-type/variants/ts-tw/SmudgeType.tsx",
+          "bytes": 2194,
+          "sha256": "db35cae7fd7c2fcd4222dfcc43fe77b76478450a2e098d616ae1c93bdc1a133a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SmudgeType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/smudge-type/variants/ts-tw/SmudgeType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "74eb16a829cb2d7a4fa074f999f76e628c418aa0f4b0f4a5dc5a7647175f6d34"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SmudgeType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/smudge-type/variants/ts-tw/SmudgeType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/smudge-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrambledText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scrambled-text"
+  },
+  "hash": "dcf0b0dc1db11a40e3f2ff7214b897c139c2f3030603d872ff4d03ba69abd075",
+  "fetchedAt": "2026-08-14T05:36:11.448Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SmudgeType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scrambled-text",
+  "upstreamName": "ScrambledText"
+}

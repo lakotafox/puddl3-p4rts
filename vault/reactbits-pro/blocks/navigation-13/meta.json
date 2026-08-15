@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/navigation-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-13",
+  "name": "navigation-13",
+  "title": "Navigation 13",
+  "description": "Editorial split navbar with a centered wordmark, text roll-up link hovers, and a full-screen curtain menu.",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-13",
+      "path": "vault/reactbits-pro/blocks/navigation-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-13/files/navigation-13.tsx",
+          "bytes": 10912,
+          "sha256": "630443de0f501e309398ae5d46f5c650fd25ab5698384269a35b901b7506f055"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-13/files/navigation-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4682c760cb09f601fde97fa17fb5c874cf1ed2626b6a4a513b949aceaa62cb95"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-13/files/navigation-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bf07e44784fef65b23c79fe586282b8ba7a09ed059522be78ab551d10417d5a7",
+  "fetchedAt": "2026-08-14T05:52:37.033Z",
+  "vaultVersion": 1
+}

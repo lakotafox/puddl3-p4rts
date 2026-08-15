@@ -1,0 +1,154 @@
+{
+  "id": "rb-starter/component/ink-threads",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ink-threads",
+  "name": "InkThreads",
+  "title": "Ink Threads",
+  "description": "Flowing liquid line animation effect",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "liquid-lines-css",
+      "path": "vault/reactbits-starter/components/ink-threads/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ink-threads/variants/css/ink-threads.tsx",
+          "bytes": 8484,
+          "sha256": "ee382eb7ab33a38f208c11217cfd21f2f38374b47511eb2ce9fabe6b9495b43a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ink-threads/variants/css/ink-threads.css",
+          "bytes": 195,
+          "sha256": "0a0d4a63cde2ee731e30a6eb494745251d8d339d2e5340cab4cd1c0d73892b12"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkThreads",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ink-threads/variants/css/ink-threads.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4e7f7f517e0d66eaedffcd43cce9d216c8b94e6b837381199cb53f9900748bb7"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "liquid-lines-tw",
+      "path": "vault/reactbits-starter/components/ink-threads/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ink-threads/variants/tw/ink-threads.tsx",
+          "bytes": 8407,
+          "sha256": "d0065b336002bb7fcd7dfebeb9214a95c2c5900f113ad3545544a4600a33d34b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkThreads",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ink-threads/variants/tw/ink-threads.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "46838213023402836eafd6da1bbe40a3e3610f6b6dc853ab516a240d48984874"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "InkThreads",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ink-threads/variants/tw/ink-threads.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ink-threads",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/liquid-lines-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f96917a26905f04375926f8a7f8e1b9d34df164506861107ffc5fe3ac8a53771",
+  "fetchedAt": "2026-08-14T05:33:25.766Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "liquid-lines",
+  "upstreamName": "LiquidLines"
+}

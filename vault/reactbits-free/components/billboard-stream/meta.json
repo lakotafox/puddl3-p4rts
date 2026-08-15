@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/billboard-stream",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "billboard-stream",
+  "name": "BillboardStream",
+  "title": "Billboard Stream",
+  "description": "3D posters rotate on scroll infinitely.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FlyingPosters-JS-CSS",
+      "path": "vault/reactbits-free/components/billboard-stream/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/js-css/BillboardStream.css",
+          "bytes": 180,
+          "sha256": "c44ef0cb7264f29270ed5c1171c2b65c6648b531c58c6576252f0e2affc76d87"
+        },
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/js-css/BillboardStream.jsx",
+          "bytes": 13372,
+          "sha256": "3d4962ff02b7e5ce39cb50fe3bdfc938a327c5d948cf57158956bb0a25317dea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BillboardStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/billboard-stream/variants/js-css/BillboardStream.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "78a72d5f3c776d9a7763030091d77d505f919a8fd4c022a6c5d6925623fabf24"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FlyingPosters-JS-TW",
+      "path": "vault/reactbits-free/components/billboard-stream/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/js-tw/BillboardStream.jsx",
+          "bytes": 13370,
+          "sha256": "1d82784a3c11f3c709a3959d4783a4da1c93e28ca90b9eca6283f6e170c93644"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BillboardStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/billboard-stream/variants/js-tw/BillboardStream.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "37cd9c8d3d109f04abfc8e293558ed2cc30ccd65f848a8513b1f0cc48bdef453"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FlyingPosters-TS-CSS",
+      "path": "vault/reactbits-free/components/billboard-stream/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/ts-css/BillboardStream.css",
+          "bytes": 180,
+          "sha256": "c44ef0cb7264f29270ed5c1171c2b65c6648b531c58c6576252f0e2affc76d87"
+        },
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/ts-css/BillboardStream.tsx",
+          "bytes": 15730,
+          "sha256": "6a78cd8fe32ba049d1ebe5f4b0c8a1859dc3b687cd55d00ac73305862611349a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BillboardStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/billboard-stream/variants/ts-css/BillboardStream.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5cc07e664cd92e347fc7b5de7e3a6c0cb777192afdb199dce8ef616441e2a8da"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FlyingPosters-TS-TW",
+      "path": "vault/reactbits-free/components/billboard-stream/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/billboard-stream/variants/ts-tw/BillboardStream.tsx",
+          "bytes": 15723,
+          "sha256": "648608bbaeabc2250135f1ef8638c2fd6efc04e8dec8e55a8f000efcc676ef89"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BillboardStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/billboard-stream/variants/ts-tw/BillboardStream.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5ec0b8017e01a00ccab4deb5285b413174856050e1ebbb235ae1e0bd837a48cc"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BillboardStream",
+      "style": "default",
+      "file": "vault/reactbits-free/components/billboard-stream/variants/ts-tw/BillboardStream.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/billboard-stream",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FlyingPosters-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/flying-posters"
+  },
+  "hash": "299caa174fe0762074838b4449d62ab2005b57e09178fe30c4244fd3b1fd7399",
+  "fetchedAt": "2026-08-14T05:36:11.380Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BillboardStream",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "flying-posters",
+  "upstreamName": "FlyingPosters"
+}

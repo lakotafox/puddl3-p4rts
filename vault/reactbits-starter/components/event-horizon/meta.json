@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/event-horizon",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "event-horizon",
+  "name": "EventHorizon",
+  "title": "Event Horizon",
+  "description": "Gravitational particle effect with color cycling",
+  "tags": [
+    "3d",
+    "shader",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "black-hole-css",
+      "path": "vault/reactbits-starter/components/event-horizon/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/event-horizon/variants/css/event-horizon.tsx",
+          "bytes": 9367,
+          "sha256": "9b419a07fd6c5956ff829490dc7bb6a22029f2023de49c4ad881b353ccbb2cbb"
+        },
+        {
+          "path": "vault/reactbits-starter/components/event-horizon/variants/css/event-horizon.css",
+          "bytes": 187,
+          "sha256": "059b5d022864bdbe4255b1ddfacf1ede8d87d2d2e2b96f6ce09d63a10310726a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EventHorizon",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/event-horizon/variants/css/event-horizon.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c6fcfa52c86546ac2a5fbecfe2e98918df347cb109ec85297712171d52d63097"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "black-hole-tw",
+      "path": "vault/reactbits-starter/components/event-horizon/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/event-horizon/variants/tw/event-horizon.tsx",
+          "bytes": 9369,
+          "sha256": "56538c7300e2484a7ad6eb7bf459c63896cec6617b314f15d429b8f98603ddc9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EventHorizon",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/event-horizon/variants/tw/event-horizon.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d223f44353d2c6d137b7c26513a981d7f7960e3d1ea72519074eabf9d169cfa5"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EventHorizon",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/event-horizon/variants/tw/event-horizon.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/event-horizon",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/black-hole-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a1d469c4f494e6a56652f164cd8dacf060247084c5a62ffd8090cf4c3fff32ba",
+  "fetchedAt": "2026-08-14T05:31:49.170Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "black-hole",
+  "upstreamName": "BlackHole"
+}

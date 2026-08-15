@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/quiet-rings",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "quiet-rings",
+  "name": "QuietRings",
+  "title": "Quiet Rings",
+  "description": "Quiet concentric ripples spreading outward from a still point",
+  "tags": [
+    "background",
+    "shader",
+    "ripple",
+    "minimal",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "minimal-ripple-css",
+      "path": "vault/reactbits-starter/components/quiet-rings/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/quiet-rings/variants/css/quiet-rings.tsx",
+          "bytes": 13057,
+          "sha256": "ca5fb7fe9194f6dae2c7e0526fe68d85b0072564255b556a6594cecf2dd46658"
+        },
+        {
+          "path": "vault/reactbits-starter/components/quiet-rings/variants/css/quiet-rings.css",
+          "bytes": 221,
+          "sha256": "15bcbae2f9121d432fd8f4c7131647c65ec3539348b3eeba3bfe810cf1e037a0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "QuietRings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/quiet-rings/variants/css/quiet-rings.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "QuietRings",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/quiet-rings/variants/css/quiet-rings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "de9443b6118d4d66d5b9f6c6a09b6186a261d5c43b6d6623184e6ac0e456a7fd"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "minimal-ripple-tw",
+      "path": "vault/reactbits-starter/components/quiet-rings/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/quiet-rings/variants/tw/quiet-rings.tsx",
+          "bytes": 13030,
+          "sha256": "20fa6320980183299b0cecf6e0be619a748dcc1954947e2fd18fe9522cca7f61"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "QuietRings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/quiet-rings/variants/tw/quiet-rings.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "QuietRings",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/quiet-rings/variants/tw/quiet-rings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "313f1926e66433d7e453ac871fc77ae37eb2ea6733635d6dfcbc318b568511c0"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "QuietRings",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/quiet-rings/variants/tw/quiet-rings.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/quiet-rings",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/minimal-ripple-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c6722580abb1c75422fcf4592faf83c87159c3a4105faa408b7fdcd599a35596",
+  "fetchedAt": "2026-08-14T05:33:32.751Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "minimal-ripple",
+  "upstreamName": "MinimalRipple"
+}

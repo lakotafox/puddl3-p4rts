@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/phrase-flip",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "phrase-flip",
+  "name": "PhraseFlip",
+  "title": "Phrase Flip",
+  "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+  "tags": [
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "RotatingText-JS-CSS",
+      "path": "vault/reactbits-free/components/phrase-flip/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/js-css/PhraseFlip.css",
+          "bytes": 513,
+          "sha256": "9a6757dfd090eac2991a64d9fa7833dc13c1ef01f174a026730c205185e39f76"
+        },
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/js-css/PhraseFlip.jsx",
+          "bytes": 6037,
+          "sha256": "7d3e9bd8366231aeb5b88e97637df3232a285422598dd8cc8104fb2079ec4316"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhraseFlip",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phrase-flip/variants/js-css/PhraseFlip.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1cb39687f832863b6e4249344fd478466c7a210340d7ee1253bf0204fe67c0b1"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "RotatingText-JS-TW",
+      "path": "vault/reactbits-free/components/phrase-flip/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/js-tw/PhraseFlip.jsx",
+          "bytes": 6076,
+          "sha256": "f37d1be070fe23f2fa8a407819449ab0c645dfc134df586738182f1ea571e143"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhraseFlip",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phrase-flip/variants/js-tw/PhraseFlip.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "05c9c2a712784711ae90da724d969a0f37512e22ccf4befaef6755ca21eea0e2"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "RotatingText-TS-CSS",
+      "path": "vault/reactbits-free/components/phrase-flip/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/ts-css/PhraseFlip.css",
+          "bytes": 513,
+          "sha256": "9a6757dfd090eac2991a64d9fa7833dc13c1ef01f174a026730c205185e39f76"
+        },
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/ts-css/PhraseFlip.tsx",
+          "bytes": 7188,
+          "sha256": "2f9e2ab56b10dc6f2eba60f2286933a98eec5c1f5d76048dbd1996a493a4b260"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhraseFlip",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phrase-flip/variants/ts-css/PhraseFlip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "edbf10f8417fb4566711eaec7beecce4645ac1fa1526288d3a4086ea9bdc4244"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "RotatingText-TS-TW",
+      "path": "vault/reactbits-free/components/phrase-flip/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phrase-flip/variants/ts-tw/PhraseFlip.tsx",
+          "bytes": 7566,
+          "sha256": "5d0c009b61a8f742938f0d471e5a730299098550964074831c615dc489909836"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhraseFlip",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phrase-flip/variants/ts-tw/PhraseFlip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3d4e3f719e9787c73fbb4121f5e85d49400fc42e4e99d1f9438ca611a72a28d7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PhraseFlip",
+      "style": "default",
+      "file": "vault/reactbits-free/components/phrase-flip/variants/ts-tw/PhraseFlip.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/phrase-flip",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/RotatingText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/rotating-text"
+  },
+  "hash": "4ddd175cc1201bea33c32701a7cd245821c8643932b351e7c75d2bf0181323bf",
+  "fetchedAt": "2026-08-14T05:36:11.446Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PhraseFlip",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "rotating-text",
+  "upstreamName": "RotatingText"
+}

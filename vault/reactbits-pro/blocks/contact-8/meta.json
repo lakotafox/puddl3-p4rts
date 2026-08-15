@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/contact-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-8",
+  "name": "contact-8",
+  "title": "Contact 8",
+  "description": "Split layout with serif headline, checklist, reviewer avatars, and dark pill-input form",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-8",
+      "path": "vault/reactbits-pro/blocks/contact-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-8/files/contact-8.tsx",
+          "bytes": 9083,
+          "sha256": "7a0376b7bc8936aa323512e172a91b9f72552a7c66443a9f8d083e81c234c494"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-8/files/contact-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "92a694a72e7a4fdc4e11f514353243c17bf63be6deba3c6f77fab0b3b2c1cdba"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-8/files/contact-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "15c4cd0b2833bbcb3d2ffc6a10a7212ea374408a4f264be50fe912a571cd7ffa",
+  "fetchedAt": "2026-08-14T05:44:35.428Z",
+  "vaultVersion": 1
+}

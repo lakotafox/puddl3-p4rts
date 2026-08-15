@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/onboarding-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "onboarding-7",
+  "name": "onboarding-7",
+  "title": "Onboarding 7",
+  "description": "Horizontal top stepper over a workspace form with a live URL slug preview.",
+  "tags": [
+    "onboarding",
+    "setup",
+    "stepper",
+    "checklist",
+    "invite"
+  ],
+  "tagSource": "upstream",
+  "category": "onboarding",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "onboarding-7",
+      "path": "vault/reactbits-pro/blocks/onboarding-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/onboarding-7/files/onboarding-7.tsx",
+          "bytes": 10810,
+          "sha256": "2eadca36dd77cf36d57a63625f07f9357cec64fbfb22b9f2e0c7ede0d0b5fdc8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Onboarding7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/onboarding-7/files/onboarding-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "559a009a88009ca7d0ec9612335f17e147b09b49cf9487ffb5a697de2dc8fcc0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Onboarding7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/onboarding-7/files/onboarding-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/onboarding-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/onboarding-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8317779258f07ed310e22cb1373058290dfa17077e894b8bea4cb7ee7c132e01",
+  "fetchedAt": "2026-08-14T05:53:12.669Z",
+  "vaultVersion": 1
+}

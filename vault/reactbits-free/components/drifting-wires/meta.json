@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/drifting-wires",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "drifting-wires",
+  "name": "DriftingWires",
+  "title": "Drifting Wires",
+  "description": "3D floating lines that react to cursor movement.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FloatingLines-JS-CSS",
+      "path": "vault/reactbits-free/components/drifting-wires/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/js-css/DriftingWires.css",
+          "bytes": 103,
+          "sha256": "b17d3fb6ea0a9483caf3251fb04303ca838a64c54908f90453a14d94230cbcdc"
+        },
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/js-css/DriftingWires.jsx",
+          "bytes": 13632,
+          "sha256": "51252537b9fc3d3573b8c02530aa80996db6d68007dcb046157669b882e84d63"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DriftingWires",
+          "style": "default",
+          "file": "vault/reactbits-free/components/drifting-wires/variants/js-css/DriftingWires.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "da95db7cf0c4ffcdb9775ddf34d160d9a0978d5b8bf3cdcb19a54ec27807e43e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FloatingLines-JS-TW",
+      "path": "vault/reactbits-free/components/drifting-wires/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/js-tw/DriftingWires.jsx",
+          "bytes": 13640,
+          "sha256": "f3ccf52d7572d3153c680f7f5fe2afa07f5438523ddfe27f7f760284f06420cf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DriftingWires",
+          "style": "default",
+          "file": "vault/reactbits-free/components/drifting-wires/variants/js-tw/DriftingWires.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3a444fc9052dda7b191308bf0699a769ff85b9cdb9fd14889f46b1ab3aaf5086"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FloatingLines-TS-CSS",
+      "path": "vault/reactbits-free/components/drifting-wires/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/ts-css/DriftingWires.css",
+          "bytes": 103,
+          "sha256": "b17d3fb6ea0a9483caf3251fb04303ca838a64c54908f90453a14d94230cbcdc"
+        },
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/ts-css/DriftingWires.tsx",
+          "bytes": 14367,
+          "sha256": "039362a4c48dfba1fba1ec340b931025849bc7236ec64250f6d8f81ed117824d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DriftingWires",
+          "style": "default",
+          "file": "vault/reactbits-free/components/drifting-wires/variants/ts-css/DriftingWires.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0504fde1f2c09f02f9d5dfe6cad702860037530f79296e60233b55a2412f8f50"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FloatingLines-TS-TW",
+      "path": "vault/reactbits-free/components/drifting-wires/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/drifting-wires/variants/ts-tw/DriftingWires.tsx",
+          "bytes": 14376,
+          "sha256": "711f4c817bf3b2d86cbc5dc4d09d2103168b5740f9014cd4e69b93516cbca404"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DriftingWires",
+          "style": "default",
+          "file": "vault/reactbits-free/components/drifting-wires/variants/ts-tw/DriftingWires.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4073c6eaa1e59c8fcb407e51760b37f3551ab2906d2c05cec2d2179b7e02a66a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DriftingWires",
+      "style": "default",
+      "file": "vault/reactbits-free/components/drifting-wires/variants/ts-tw/DriftingWires.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/drifting-wires",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FloatingLines-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/floating-lines"
+  },
+  "hash": "9dc462c9f30c5d237d75c431c07a5938b0ea9d35f2f3f896e8940c334bafb255",
+  "fetchedAt": "2026-08-14T05:36:11.377Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DriftingWires",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "floating-lines",
+  "upstreamName": "FloatingLines"
+}

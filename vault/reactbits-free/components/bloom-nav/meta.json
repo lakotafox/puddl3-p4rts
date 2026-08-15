@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/bloom-nav",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "bloom-nav",
+  "name": "BloomNav",
+  "title": "Bloom Nav",
+  "description": "Floating circular expanding menu with staggered item reveal.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "BubbleMenu-JS-CSS",
+      "path": "vault/reactbits-free/components/bloom-nav/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/js-css/BloomNav.css",
+          "bytes": 5240,
+          "sha256": "39016371d484fe7ea1588cedaeab2242541c8a4e6b009508de35168a9df5a369"
+        },
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/js-css/BloomNav.jsx",
+          "bytes": 6185,
+          "sha256": "bc4f719011ed838e5a49a6ff801e1a53aeda17257a45478f3dad7f4f1b7e5b17"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bloom-nav/variants/js-css/BloomNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bc295d9aa4efb23870b5bac0e50974f0b7b97572b4c20bda9f196ac9fa5ccdf2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "BubbleMenu-JS-TW",
+      "path": "vault/reactbits-free/components/bloom-nav/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/js-tw/BloomNav.jsx",
+          "bytes": 11663,
+          "sha256": "c95a9ff844b1f510eb56feb4b67f1d61f49d32751ecfe209d6eb352bab613655"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bloom-nav/variants/js-tw/BloomNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "357b3546ab0b8380e457887b20abe1e4308cc9c5f0782be5378be6dd7d3a5158"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "BubbleMenu-TS-CSS",
+      "path": "vault/reactbits-free/components/bloom-nav/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/ts-css/BloomNav.css",
+          "bytes": 5240,
+          "sha256": "39016371d484fe7ea1588cedaeab2242541c8a4e6b009508de35168a9df5a369"
+        },
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/ts-css/BloomNav.tsx",
+          "bytes": 6920,
+          "sha256": "86eb7865af71c55c6fa035d107cf287938613d3e7d7f77ffa36bf703f63bd92a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bloom-nav/variants/ts-css/BloomNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ffa32ca73338767a487de2cf98a92efec44cbc617990cede20e7cba314353801"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "BubbleMenu-TS-TW",
+      "path": "vault/reactbits-free/components/bloom-nav/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bloom-nav/variants/ts-tw/BloomNav.tsx",
+          "bytes": 12467,
+          "sha256": "e2ca3a4b089ebfcffb08406d1e581f4cd4a08b89a16a35af61521a1e9f832ad6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bloom-nav/variants/ts-tw/BloomNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "18b0c545eae4af1f089b3af8c3cf910ba46deac540d6ba7203b9aeb2266a1b79"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BloomNav",
+      "style": "default",
+      "file": "vault/reactbits-free/components/bloom-nav/variants/ts-tw/BloomNav.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/bloom-nav",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/BubbleMenu-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/bubble-menu"
+  },
+  "hash": "d38f4a30d3a3f90c89971402dfb95a9d3be6a578d98da9dfa9e3396b9ab3d236",
+  "fetchedAt": "2026-08-14T05:36:11.343Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BloomNav",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "bubble-menu",
+  "upstreamName": "BubbleMenu"
+}

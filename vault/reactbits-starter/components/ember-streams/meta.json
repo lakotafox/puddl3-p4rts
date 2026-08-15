@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/ember-streams",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ember-streams",
+  "name": "EmberStreams",
+  "title": "Ember Streams",
+  "description": "Animated flame-like wave effect",
+  "tags": [
+    "3d",
+    "shader",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "flame-paths-css",
+      "path": "vault/reactbits-starter/components/ember-streams/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-streams/variants/css/ember-streams.tsx",
+          "bytes": 10219,
+          "sha256": "7f5b2e6ddc168dfe599160160f8c9ca7e1204bb388e1ad7635b49239ffa14e1a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ember-streams/variants/css/ember-streams.css",
+          "bytes": 190,
+          "sha256": "57bbc0ffd4ed75bd4b9b74b0daa966bac23b4c7932ebb48f0af2be81391a92ce"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberStreams",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-streams/variants/css/ember-streams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2f4fef0f022af1dd8d758f6a10ffef8bdb33eabbae346e8959c619ed68a443fe"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "flame-paths-tw",
+      "path": "vault/reactbits-starter/components/ember-streams/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-streams/variants/tw/ember-streams.tsx",
+          "bytes": 10237,
+          "sha256": "3fcd551fb74498fbb4846deed8872e8068d346d523c41bc0918f1df2fd1ff9f3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberStreams",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-streams/variants/tw/ember-streams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "919adfae644732e8d340097efcba73a90b4c367c14a79e033f050e8c3629d834"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmberStreams",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ember-streams/variants/tw/ember-streams.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ember-streams",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/flame-paths-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "94e90a36b424e8a36b3969947ab9e5b1175050464d9e23a596e27efaa12ad4ad",
+  "fetchedAt": "2026-08-14T05:32:36.159Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "flame-paths",
+  "upstreamName": "FlamePaths"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/noise-swells",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "noise-swells",
+  "name": "NoiseSwells",
+  "title": "Noise Swells",
+  "description": "Animated wave shader effect with noise distortion",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "chroma-waves-css",
+      "path": "vault/reactbits-starter/components/noise-swells/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/noise-swells/variants/css/noise-swells.tsx",
+          "bytes": 11843,
+          "sha256": "629d7eed79b1a8f9461b07dbe2e61f06b13d4e5296c3813cccf6c812f1c46fb5"
+        },
+        {
+          "path": "vault/reactbits-starter/components/noise-swells/variants/css/noise-swells.css",
+          "bytes": 249,
+          "sha256": "84612606ddc8a0ad5bc53ea8c3129a84a73748d07dc100f4a422dfe8e392fc67"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NoiseSwells",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/noise-swells/variants/css/noise-swells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "69ae739d94aeea30f274264b170445160d5a41f3bc5527c66f72823346094c2b"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "chroma-waves-tw",
+      "path": "vault/reactbits-starter/components/noise-swells/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/noise-swells/variants/tw/noise-swells.tsx",
+          "bytes": 11908,
+          "sha256": "15a705e031aa3ff52a26a3d8cdfb5d0f483f1633c491e20327d704b241f6f1e4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NoiseSwells",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/noise-swells/variants/tw/noise-swells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eff74c050ed06951193da977d7871581fd7d5d8e30fe6a76338c3f2a3537c425"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NoiseSwells",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/noise-swells/variants/tw/noise-swells.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/noise-swells",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/chroma-waves-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "73a535f94346726784517349a099db6fbf00b6a45c33251926581450160d58df",
+  "fetchedAt": "2026-08-14T05:32:04.846Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "chroma-waves",
+  "upstreamName": "ChromaWaves"
+}

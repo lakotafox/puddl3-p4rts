@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/data-table-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "data-table-2",
+  "name": "data-table-2",
+  "title": "Data Table 2",
+  "description": "Table with row selection, a bulk action bar, and pagination.",
+  "tags": [
+    "data",
+    "table",
+    "grid",
+    "filters",
+    "pagination"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "data-table-2",
+      "path": "vault/reactbits-pro/blocks/data-table-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/data-table-2/files/data-table-2.tsx",
+          "bytes": 23619,
+          "sha256": "e54aad4877035e8e03c981618cca4ad6965d7285a37996571f74f53c5fc05586"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataTable2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/data-table-2/files/data-table-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "da4f673da9ee41387382d88e5e78987cb3640059b56c1a9401ba0e4ee22b07ff"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DataTable2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/data-table-2/files/data-table-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/data-table-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/data-table-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0c593df9cc4f65c253effa7c15eca42e0df36ea79b7ec9d80427b01fd77da88d",
+  "fetchedAt": "2026-08-14T05:45:22.137Z",
+  "vaultVersion": 1
+}

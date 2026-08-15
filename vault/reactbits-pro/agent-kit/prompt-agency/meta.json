@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/prompt/prompt-agency",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-agency",
+  "name": "prompt-agency",
+  "title": "Agency",
+  "description": "Build a studio site where the work is the pitch: selected projects, a real process, named people, and an enquiry form that filters for the clients you want.",
+  "tags": [
+    "prompt",
+    "services",
+    "agency",
+    "studio",
+    "portfolio",
+    "case-studies",
+    "enquiry"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-agency",
+      "path": "vault/reactbits-pro/agent-kit/prompt-agency/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-agency/files/PROMPT.md",
+          "bytes": 18624,
+          "sha256": "2ffcea6f72a2f6da76a824c1637523159fce6b270a3357cba7aaf1095ceeae1b"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-agency/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "8002ec62480e084eb3e34fa5b4cef69eedec7946dcf95a5b2c1c3cf1a27780bd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-agency",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-agency.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6fbc36bdc0d468f818312036f4490d64b15e67d00b4cfc6a8e675341db343f9e",
+  "fetchedAt": "2026-08-14T05:53:55.661Z",
+  "vaultVersion": 1
+}

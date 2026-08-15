@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/prompt/prompt-ecommerce-brand",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-ecommerce-brand",
+  "name": "prompt-ecommerce-brand",
+  "title": "Ecommerce Brand",
+  "description": "Build a DTC product page where every unanswered question is a lost sale: hero shot, product story, sizing, variants, shipping and returns as conversion levers, honest reviews, and a mobile-first sticky add-to-cart.",
+  "tags": [
+    "prompt",
+    "commerce",
+    "ecommerce",
+    "dtc",
+    "product",
+    "conversion",
+    "mobile",
+    "checkout"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-ecommerce-brand",
+      "path": "vault/reactbits-pro/agent-kit/prompt-ecommerce-brand/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-ecommerce-brand/files/PROMPT.md",
+          "bytes": 16394,
+          "sha256": "0761dde6db9e4bf18c6300eecd53af66ea3e311e16e6722d46d9da29fb521621"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-ecommerce-brand/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "8fd4c4c80a624912fbacabb532ff3d043ece0997c6a88d98808837e4f4f60a5f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-ecommerce-brand",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-ecommerce-brand.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9cfff4fe010c92d5c8b7379b48e836c3385d864f8d4638f9592f28d025ef6590",
+  "fetchedAt": "2026-08-14T05:54:00.243Z",
+  "vaultVersion": 1
+}

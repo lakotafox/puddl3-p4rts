@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/slant-reel",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "slant-reel",
+  "name": "SlantReel",
+  "title": "Slant Reel",
+  "description": "A skewed marquee of cards that tilts and scales as it scrolls",
+  "tags": [
+    "carousel",
+    "marquee",
+    "skew",
+    "scroll",
+    "gallery",
+    "showcase"
+  ],
+  "tagSource": "upstream",
+  "category": "carousel",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "skewed-carousel-css",
+      "path": "vault/reactbits-starter/components/slant-reel/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/slant-reel/variants/css/slant-reel.tsx",
+          "bytes": 10856,
+          "sha256": "ded3bfb3b6385e6ea869b52e0adbde69dc01c1b3aa9b19cf411e8dde5c07ad9b"
+        },
+        {
+          "path": "vault/reactbits-starter/components/slant-reel/variants/css/slant-reel.css",
+          "bytes": 2607,
+          "sha256": "3db12e36a586de912ce0d6d384a2aee9508d33f74ced22f8781bec4b463877e6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlantReel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/slant-reel/variants/css/slant-reel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9dfe5abcfa85bbd232cc801065cb906fc4178f8461b1ee54ddabb3eda601fbf2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "skewed-carousel-tw",
+      "path": "vault/reactbits-starter/components/slant-reel/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/slant-reel/variants/tw/slant-reel.tsx",
+          "bytes": 11728,
+          "sha256": "f424c18d8eb3eb1210be0ffa53b5c465dcceced49ffe586cc535a4475018f3af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlantReel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/slant-reel/variants/tw/slant-reel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "05934325d377de509fe4861cdffea4b11379f0ee79e618b3811a7d3ad65ef685"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SlantReel",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/slant-reel/variants/tw/slant-reel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/slant-reel",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/skewed-carousel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1befac721c06a5f37b4ab8304f0cd959628610ff2fead488629de23987d7d444",
+  "fetchedAt": "2026-08-14T05:34:39.863Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "skewed-carousel",
+  "upstreamName": "SkewedCarousel"
+}

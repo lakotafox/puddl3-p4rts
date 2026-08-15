@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/about-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-5",
+  "name": "about-5",
+  "title": "About 5",
+  "description": "Infinite horizontal scroll with bento cards",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-5",
+      "path": "vault/reactbits-pro/blocks/about-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-5/files/about-5.tsx",
+          "bytes": 5049,
+          "sha256": "35effd19118b2ac9625d5f4c9f34a8c513a5d3809719eabfb6a7fce21802bb88"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lenis",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-5/files/about-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6eb79151e0355491452dd5fa06b0faaa47c99dd1f35cba5b8ae7f7b5ba131d7b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lenis",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-5/files/about-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "426cb3fe17be64f6f293219c0f4938a343fbabdc5aa54d986ec389328326808c",
+  "fetchedAt": "2026-08-14T05:35:52.978Z",
+  "vaultVersion": 1
+}

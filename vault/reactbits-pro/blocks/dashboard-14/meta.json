@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/dashboard-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-14",
+  "name": "dashboard-14",
+  "title": "Dashboard 14",
+  "description": "Master-detail service board where selecting a service swaps the metrics, chart, and activity.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-14",
+      "path": "vault/reactbits-pro/blocks/dashboard-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-14/files/dashboard-14.tsx",
+          "bytes": 32648,
+          "sha256": "995ca3edf09005d1787d401eb3de73217b59321ff17652b70fa1767963efc87c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-14/files/dashboard-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0248c732056505eb844544fd6c152765a36096c448a16823449d3d2ff294d8dd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-14/files/dashboard-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "18164eb42b378e7921d061e456bdfa31cc3e2b5c3429b492e4c3acb144a8205a",
+  "fetchedAt": "2026-08-14T05:45:06.878Z",
+  "vaultVersion": 1
+}

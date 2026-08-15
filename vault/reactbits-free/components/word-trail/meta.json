@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/word-trail",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "word-trail",
+  "name": "WordTrail",
+  "title": "Word Trail",
+  "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+  "tags": [
+    "cursor",
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TextCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/word-trail/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/js-css/WordTrail.css",
+          "bytes": 308,
+          "sha256": "e93bb3050ac518047f6bcdf421665cf7fdf85e328d8653ad64056f8e36b0dd83"
+        },
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/js-css/WordTrail.jsx",
+          "bytes": 4160,
+          "sha256": "145835578cad86299263aca55ae67c64edbf5316196e1748605d060d15d6b93a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WordTrail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/word-trail/variants/js-css/WordTrail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bddd5892a4e85cee77416a2d23096a89d7004040907c420d20c0c44aca697a38"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TextCursor-JS-TW",
+      "path": "vault/reactbits-free/components/word-trail/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/js-tw/WordTrail.jsx",
+          "bytes": 4184,
+          "sha256": "74cedbe64f57402bf99f2378ef3fe8c493bb462e5108c61fe3817ea076b80ff3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WordTrail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/word-trail/variants/js-tw/WordTrail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7ef727a58ec1b14b8ed827655408d86bc75610ae4184f8ec86d2df3725a607d5"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TextCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/word-trail/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/ts-css/WordTrail.css",
+          "bytes": 308,
+          "sha256": "e93bb3050ac518047f6bcdf421665cf7fdf85e328d8653ad64056f8e36b0dd83"
+        },
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/ts-css/WordTrail.tsx",
+          "bytes": 4611,
+          "sha256": "e8e86b541b8568b9c6f8e599224890ef9947b630cc8e2fe52d747fe6b68b4835"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WordTrail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/word-trail/variants/ts-css/WordTrail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2fe43b16e632beb4ea4992a9f9e89c1f4978f8f681eea6f6b949409de9dcff06"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TextCursor-TS-TW",
+      "path": "vault/reactbits-free/components/word-trail/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/word-trail/variants/ts-tw/WordTrail.tsx",
+          "bytes": 5066,
+          "sha256": "62a7a66f5d66d9facf9530217504e7525142497e7918b3180df7b065c1665a4d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WordTrail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/word-trail/variants/ts-tw/WordTrail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3b4a020c5d0c36217412c04c751831983e4575f272cec75105ea3147b027ba80"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WordTrail",
+      "style": "default",
+      "file": "vault/reactbits-free/components/word-trail/variants/ts-tw/WordTrail.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/word-trail",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TextCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/text-cursor"
+  },
+  "hash": "329db615a6da6dcf70c4d16eb150e1447241eb81e6bc3325e2ee658a1bff7c72",
+  "fetchedAt": "2026-08-14T05:36:11.471Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WordTrail",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "text-cursor",
+  "upstreamName": "TextCursor"
+}

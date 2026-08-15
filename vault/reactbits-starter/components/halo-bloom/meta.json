@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/halo-bloom",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "halo-bloom",
+  "name": "HaloBloom",
+  "title": "Halo Bloom",
+  "description": "A soft glowing blob surrounded by a slowly shifting aura",
+  "tags": [
+    "background",
+    "shader",
+    "blob",
+    "glow",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "aura-blob-css",
+      "path": "vault/reactbits-starter/components/halo-bloom/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/halo-bloom/variants/css/halo-bloom.tsx",
+          "bytes": 16587,
+          "sha256": "22f1ffd66947e8c546d49adb6690f378afdde9684c11f0fa3546f737a5062e58"
+        },
+        {
+          "path": "vault/reactbits-starter/components/halo-bloom/variants/css/halo-bloom.css",
+          "bytes": 206,
+          "sha256": "31a3af04a3d2fcbf5abff1329a05e6047b788cf44f5c78733b1ab00cbc9494b9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HaloBloom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/halo-bloom/variants/css/halo-bloom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HaloBloom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/halo-bloom/variants/css/halo-bloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d6b5ad02c3e940bef2e1bff364e9684724d0e5c3531f36803dc969bdd31cc4a2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "aura-blob-tw",
+      "path": "vault/reactbits-starter/components/halo-bloom/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/halo-bloom/variants/tw/halo-bloom.tsx",
+          "bytes": 16597,
+          "sha256": "dd6f169719c2fefe64270c3d8d896684e5e3cd671092c6b88c714587ec48d6d8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HaloBloom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/halo-bloom/variants/tw/halo-bloom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HaloBloom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/halo-bloom/variants/tw/halo-bloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0c414e60637d513761a071364baa6a273c357ec9e10c0e9539cb583568774891"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HaloBloom",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/halo-bloom/variants/tw/halo-bloom.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/halo-bloom",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/aura-blob-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a13d5ebcc484914a9d32b353d131339324111d205f86b235cd865954a5ab1074",
+  "fetchedAt": "2026-08-14T05:31:42.100Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "aura-blob",
+  "upstreamName": "AuraBlob"
+}

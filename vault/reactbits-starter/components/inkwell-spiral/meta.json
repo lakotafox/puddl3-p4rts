@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/inkwell-spiral",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "inkwell-spiral",
+  "name": "InkwellSpiral",
+  "title": "Inkwell Spiral",
+  "description": "Cursor-reactive halftone dot vortex",
+  "tags": [
+    "3d",
+    "shader",
+    "cursor"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "halftone-vortex-css",
+      "path": "vault/reactbits-starter/components/inkwell-spiral/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/inkwell-spiral/variants/css/inkwell-spiral.tsx",
+          "bytes": 9447,
+          "sha256": "18972f2955e161b46d71be00c8574230c38f184f2c12e6e3245ff12b4a7d3fb2"
+        },
+        {
+          "path": "vault/reactbits-starter/components/inkwell-spiral/variants/css/inkwell-spiral.css",
+          "bytes": 202,
+          "sha256": "53cc5643fad626a8a4f220f5acfafb0e691e989db0899cd61fb28baff8c4641f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkwellSpiral",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/inkwell-spiral/variants/css/inkwell-spiral.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e1b47093f8da5dd46c17c3ac01544a642eab8e8b2c9e2bfe2699f8c79d8e23dc"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "halftone-vortex-tw",
+      "path": "vault/reactbits-starter/components/inkwell-spiral/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/inkwell-spiral/variants/tw/inkwell-spiral.tsx",
+          "bytes": 9474,
+          "sha256": "c3a5144d6bde17b89f40c3c34765bf88bbace43b29ce9ee9e839eb78e37c9a85"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkwellSpiral",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/inkwell-spiral/variants/tw/inkwell-spiral.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d6fb4d08e7ef4c8985504aaf52526943968d8f3776d30f6678666da5d3634d2b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "InkwellSpiral",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/inkwell-spiral/variants/tw/inkwell-spiral.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/inkwell-spiral",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/halftone-vortex-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "7162dc5d3d6c43e22216c1a3d5272243af27273cf4f64c3f9f259cdffd67cf66",
+  "fetchedAt": "2026-08-14T05:33:08.309Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "halftone-vortex",
+  "upstreamName": "HalftoneVortex"
+}

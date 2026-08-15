@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/agent-plan-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-plan-4",
+  "name": "agent-plan-4",
+  "title": "Agent Plan 4",
+  "description": "Plan versus actual comparison with drift indicators and step-level deltas.",
+  "tags": [
+    "ai",
+    "agent",
+    "plan",
+    "tasks",
+    "checklist"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-plan-4",
+      "path": "vault/reactbits-pro/blocks/agent-plan-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-plan-4/files/agent-plan-4.tsx",
+          "bytes": 9871,
+          "sha256": "46fe0af226af740372d3d505603981682d914aa0939a4967bb038d67cdc46999"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AgentPlan4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-plan-4/files/agent-plan-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "576f2b125cd6930a363f5e36a20658215a9dc18a3a7a3d4e985576bee37d7a3a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentPlan4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-plan-4/files/agent-plan-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-plan-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-plan-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c62724184fb1cbcfaa1b2fc2e54d596b613d4bbc5a154f0388f362c8b8c0cfea",
+  "fetchedAt": "2026-08-14T05:36:24.036Z",
+  "vaultVersion": 1
+}

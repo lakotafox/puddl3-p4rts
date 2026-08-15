@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/ripple-lines",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ripple-lines",
+  "name": "RippleLines",
+  "title": "Ripple Lines",
+  "description": "Layered lines that form smooth wave patterns with animation.",
+  "tags": [
+    "background"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Waves-JS-CSS",
+      "path": "vault/reactbits-free/components/ripple-lines/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/js-css/RippleLines.css",
+          "bytes": 461,
+          "sha256": "e42f0d2bbfeaf45aadba7d32df034587ba1c6226391fa5c53644e82c82f19422"
+        },
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/js-css/RippleLines.jsx",
+          "bytes": 9914,
+          "sha256": "943f072472e46369b72f0027b4f3332a6beddb5a7bb1115250605877153ae04e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RippleLines",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-lines/variants/js-css/RippleLines.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "738bf883c76a8f53060c767a7b0ace12eee48c624b3746125326d2d2e5941726"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Waves-JS-TW",
+      "path": "vault/reactbits-free/components/ripple-lines/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/js-tw/RippleLines.jsx",
+          "bytes": 9990,
+          "sha256": "c05403e1609302bf12d197845dd9c3825c808298477f1b2c039b869321fcf4d6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RippleLines",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-lines/variants/js-tw/RippleLines.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "51852789e66de5337c08bb4ec689d31627fd939294aa44df397b7ba163730516"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Waves-TS-CSS",
+      "path": "vault/reactbits-free/components/ripple-lines/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/ts-css/RippleLines.css",
+          "bytes": 461,
+          "sha256": "e42f0d2bbfeaf45aadba7d32df034587ba1c6226391fa5c53644e82c82f19422"
+        },
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/ts-css/RippleLines.tsx",
+          "bytes": 11604,
+          "sha256": "90f74062c565cd5546b1119bf93254287f3232369ca8e711a1bd7c75ee2cd655"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RippleLines",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-lines/variants/ts-css/RippleLines.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "00d24e8ebcfd72a4fa72b1df572709ce0f26d6c8a3e1fc5f33dad4b5fd507795"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Waves-TS-TW",
+      "path": "vault/reactbits-free/components/ripple-lines/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ripple-lines/variants/ts-tw/RippleLines.tsx",
+          "bytes": 11715,
+          "sha256": "b47e781c89c40df2d86ae1a02472459d6d9b47abbf411ce49070d3ea56c5bac7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RippleLines",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ripple-lines/variants/ts-tw/RippleLines.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "054d8bd41e8efe3488507569e5fb327f347aa54a69df87fb6b649e853f65fc69"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RippleLines",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ripple-lines/variants/ts-tw/RippleLines.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ripple-lines",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Waves-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/waves"
+  },
+  "hash": "24e9b0b0f449a4509f60e45aa94a3f89c897fba9dd1c9b38a5cf7feb63883290",
+  "fetchedAt": "2026-08-14T05:36:11.478Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RippleLines",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "waves",
+  "upstreamName": "Waves"
+}

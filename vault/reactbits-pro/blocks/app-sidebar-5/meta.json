@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/app-sidebar-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-sidebar-5",
+  "name": "app-sidebar-5",
+  "title": "App Sidebar 5",
+  "description": "Sidebar with nested tree navigation and inline row actions.",
+  "tags": [
+    "navigation",
+    "sidebar",
+    "shell",
+    "layout",
+    "app"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-sidebar-5",
+      "path": "vault/reactbits-pro/blocks/app-sidebar-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-sidebar-5/files/app-sidebar-5.tsx",
+          "bytes": 15259,
+          "sha256": "c903706a77a89c269bbcbf5edf7cade362e8bcbb50fd458ba785a364d2bb6d28"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppSidebar5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-sidebar-5/files/app-sidebar-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f422a52d47eea94f07643ae97866cc207f54dcdf2243ee83ec8c4e2a69a53360"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppSidebar5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-sidebar-5/files/app-sidebar-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-sidebar-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-sidebar-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1f8e5c5f3c4051ce2599fb1ebf8816b720a9b4de6646134a3b99e01746307b0e",
+  "fetchedAt": "2026-08-14T05:37:47.643Z",
+  "vaultVersion": 1
+}

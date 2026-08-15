@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/pricing-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "pricing-3",
+  "name": "pricing-3",
+  "title": "Pricing 3",
+  "description": "Minimal three-card layout with bold typography and simple feature lists",
+  "tags": [
+    "pricing",
+    "plans",
+    "subscription",
+    "payment"
+  ],
+  "tagSource": "upstream",
+  "category": "pricing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "pricing-3",
+      "path": "vault/reactbits-pro/blocks/pricing-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/pricing-3/files/pricing-3.tsx",
+          "bytes": 6536,
+          "sha256": "0c147d79a5abf98f7bba1d5501921709dfd43052a0d222ad5ef0c42438b9d2fd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Pricing3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/pricing-3/files/pricing-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c7a60e2329723440e4b6758d814debb1eab4f30ede3d4cd7f06875badc953766"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Pricing3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/pricing-3/files/pricing-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/pricing-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/pricing-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e3289eb60c6e646d54ca1bbdaec212ac5e5c4f6221769ef94dce29e994c91cfa",
+  "fetchedAt": "2026-08-14T05:53:36.285Z",
+  "vaultVersion": 1
+}

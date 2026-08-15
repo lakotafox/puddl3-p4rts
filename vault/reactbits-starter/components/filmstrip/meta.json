@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/filmstrip",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "filmstrip",
+  "name": "Filmstrip",
+  "title": "Filmstrip",
+  "description": "A draggable image carousel with a smooth parallax feel",
+  "tags": [
+    "shader",
+    "carousel",
+    "gallery",
+    "parallax",
+    "drag",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "parallax-carousel-css",
+      "path": "vault/reactbits-starter/components/filmstrip/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/filmstrip/variants/css/filmstrip.tsx",
+          "bytes": 16004,
+          "sha256": "2f25d5feb1004f0604ec54523a33321cb60adc9d148e0fa11ef0e9888b9433df"
+        },
+        {
+          "path": "vault/reactbits-starter/components/filmstrip/variants/css/filmstrip.css",
+          "bytes": 689,
+          "sha256": "6939ef13d38d1dd18f540f43f49845515702d990f1f7b1ee05c8d7401798af93"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filmstrip",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/filmstrip/variants/css/filmstrip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e0e20ab4f67ba459eb53ad22f10634ecc3c6721fe1745d91427344c25b05c595"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "parallax-carousel-tw",
+      "path": "vault/reactbits-starter/components/filmstrip/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/filmstrip/variants/tw/filmstrip.tsx",
+          "bytes": 16462,
+          "sha256": "77adc43e93a47a5e5c8f5ca29e665b541d03fd2b6171527487e7add43bebedcd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filmstrip",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/filmstrip/variants/tw/filmstrip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae223a99d4a71b261da127abe9dfffd2abca2e0f003fd97c7f202979ddc4bad4"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filmstrip",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/filmstrip/variants/tw/filmstrip.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/filmstrip",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/parallax-carousel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "6e55c21c92137464783ca403afe727c27568c478bf3a800bb72ca4956175a35f",
+  "fetchedAt": "2026-08-14T05:33:48.556Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "parallax-carousel",
+  "upstreamName": "ParallaxCarousel"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "rb-starter/component/glyph-trail",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glyph-trail",
+  "name": "GlyphTrail",
+  "title": "Glyph Trail",
+  "description": "Cursor that leaves ASCII character trail",
+  "tags": [
+    "cursor",
+    "ascii"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "ascii-cursor-css",
+      "path": "vault/reactbits-starter/components/glyph-trail/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-trail/variants/css/glyph-trail.tsx",
+          "bytes": 11531,
+          "sha256": "951a06cd0a03c49b6b408e7fc3111fb7de550dd4611fe725696ed28c72ca2fdd"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glyph-trail/variants/css/glyph-trail.css",
+          "bytes": 155,
+          "sha256": "212434925e155ab0ccac4d138c8daa28089d7258dfe7275341e35eedf4bcc5f7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphTrail",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-trail/variants/css/glyph-trail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "94ca76375708c4fc19ebd566e24e744603db48caa1b59e585853535fb7559b98"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "ascii-cursor-tw",
+      "path": "vault/reactbits-starter/components/glyph-trail/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-trail/variants/tw/glyph-trail.tsx",
+          "bytes": 11570,
+          "sha256": "cefac34e17c5ed15a49befeb67320267e88850ec0149c8d44dd3122e03ae5c09"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphTrail",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-trail/variants/tw/glyph-trail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7f3de421c865401fbe3ed87a58645bcda6afc80154b7a3e610ca33f76b595224"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "*"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlyphTrail",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glyph-trail/variants/tw/glyph-trail.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glyph-trail",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/ascii-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "0eab2479f717acc0269331037b15d3506879305655e52d618b0765dfcb1fdeb2",
+  "fetchedAt": "2026-08-14T05:31:36.695Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "ascii-cursor",
+  "upstreamName": "AsciiCursor"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/decal-lift",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "decal-lift",
+  "name": "DecalLift",
+  "title": "Decal Lift",
+  "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "StickerPeel-JS-CSS",
+      "path": "vault/reactbits-free/components/decal-lift/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/js-css/DecalLift.css",
+          "bytes": 3664,
+          "sha256": "dff78d26a5869eca85b9c246cd3adac81e7b7572da6a7ff4c0ca5f0181e8ee0b"
+        },
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/js-css/DecalLift.jsx",
+          "bytes": 7878,
+          "sha256": "1fccec6c7ebc9ebc02bf21fd6ff6b8257582e95d4949734531ae5db25eedeaed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DecalLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/decal-lift/variants/js-css/DecalLift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ee5fdb08869b7c074248f934474ece6d49592703547fe5627c6d8ef2ef296130"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "StickerPeel-JS-TW",
+      "path": "vault/reactbits-free/components/decal-lift/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/js-tw/DecalLift.jsx",
+          "bytes": 11500,
+          "sha256": "ecb1e0f7b796abfbedab6cd1357f8c75943183efe07c963d8b3561f15710e329"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DecalLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/decal-lift/variants/js-tw/DecalLift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f4b00457e0a4c6af4963677599b12b6cee73e3f138759018ce5c06ade8577de2"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "StickerPeel-TS-CSS",
+      "path": "vault/reactbits-free/components/decal-lift/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/ts-css/DecalLift.css",
+          "bytes": 3628,
+          "sha256": "dee3cc85b9241a35a3292bc2362fdf65e2a7a8fabe0fdf48692ebaefb8aaf5e4"
+        },
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/ts-css/DecalLift.tsx",
+          "bytes": 9162,
+          "sha256": "b71d0bbadbbe751aeb4671dea3d955b011d0b8f03ddf6396c980eedab7231259"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DecalLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/decal-lift/variants/ts-css/DecalLift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "55119f3e5cbc153d610b9def9251c241ee348aecbbf4c2510bfafdf8f7479873"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "StickerPeel-TS-TW",
+      "path": "vault/reactbits-free/components/decal-lift/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/decal-lift/variants/ts-tw/DecalLift.tsx",
+          "bytes": 12902,
+          "sha256": "4aad31513eb4bcdf32a933f2943ae884cf965738b9fbc4cfcddb2ee6645c54bc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DecalLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/decal-lift/variants/ts-tw/DecalLift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a75a0e0d329953815ba1ad68f995833fdd75319157dad1996f7efe5b1fba6a24"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DecalLift",
+      "style": "default",
+      "file": "vault/reactbits-free/components/decal-lift/variants/ts-tw/DecalLift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/decal-lift",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/StickerPeel-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/sticker-peel"
+  },
+  "hash": "8ee42e2cd2afc7da619a24e05b828ffedbdbb88f8fdcc151690f3b82a491bea6",
+  "fetchedAt": "2026-08-14T05:36:11.466Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DecalLift",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "sticker-peel",
+  "upstreamName": "StickerPeel"
+}

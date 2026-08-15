@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/synth-horizon",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "synth-horizon",
+  "name": "SynthHorizon",
+  "title": "Synth Horizon",
+  "description": "Retro perspective grid with scrolling waves",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "retro-lines-css",
+      "path": "vault/reactbits-starter/components/synth-horizon/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/synth-horizon/variants/css/synth-horizon.tsx",
+          "bytes": 10867,
+          "sha256": "f56165303bebad249cddc727b480b62919bf2a4a2a583cfee29b8433397d978b"
+        },
+        {
+          "path": "vault/reactbits-starter/components/synth-horizon/variants/css/synth-horizon.css",
+          "bytes": 246,
+          "sha256": "cc5b917e4d237244af0e032c862f17ee26e30f84f57f87500eb49a017ca94c07"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SynthHorizon",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/synth-horizon/variants/css/synth-horizon.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5b062a2447fc951191e9ea36618d411fdda85d0295b21de347cb0d8c328488fb"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "retro-lines-tw",
+      "path": "vault/reactbits-starter/components/synth-horizon/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/synth-horizon/variants/tw/synth-horizon.tsx",
+          "bytes": 10916,
+          "sha256": "c914caeb1252b6ce14ea9a9b334d7cb2ea9e1038d5ccbc06d34b1ebe3559d3f3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SynthHorizon",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/synth-horizon/variants/tw/synth-horizon.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "257b0685113b0ea2a49b3ab5466a0b52d7ae66748206a4aeb6ef40ccd5f1ee29"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SynthHorizon",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/synth-horizon/variants/tw/synth-horizon.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/synth-horizon",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/retro-lines-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "39f6f9c815122fb0ad38cc62b5e1e0ce01b5689a2c6bb1c767725a54adfcfcbb",
+  "fetchedAt": "2026-08-14T05:34:11.530Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "retro-lines",
+  "upstreamName": "RetroLines"
+}

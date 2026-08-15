@@ -1,0 +1,98 @@
+{
+  "id": "rb-pro/block/social-proof-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-9",
+  "name": "social-proof-9",
+  "title": "Social Proof 9",
+  "description": "Minimal dual opposite-scrolling marquees with gradient fades",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-9",
+      "path": "vault/reactbits-pro/blocks/social-proof-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-9/files/social-proof-9.tsx",
+          "bytes": 4637,
+          "sha256": "a47760414aa010d645aedacf39bd866a1976238903aad391ad53d2f22206d9e9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-9/files/social-proof-9.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SocialProof9",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/social-proof-9/files/social-proof-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c0a2acc233d51e79b0f3f5e09bdeb2aa6583527a3790c383b2708860105bd813"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-9/files/social-proof-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bdc31c49e700bad3831c2029ab8c5210e346f22d23c489db92beac19a5952556",
+  "fetchedAt": "2026-08-14T05:55:31.525Z",
+  "vaultVersion": 1
+}

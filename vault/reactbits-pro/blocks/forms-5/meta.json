@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-5",
+  "name": "forms-5",
+  "title": "Forms 5",
+  "description": "Provisioning form with subdomain availability, password strength, and a success state.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-5",
+      "path": "vault/reactbits-pro/blocks/forms-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-5/files/forms-5.tsx",
+          "bytes": 36298,
+          "sha256": "7765d56c7ef4173cef3c5c8720d8fc175c29e98e6f1be3f89fb3b4f61704a9fa"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-5/files/forms-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "05df07ef34cd413d65874c049a20184606baf9f6c928079c91a8b7ae9768acd4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-5/files/forms-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9111526078ed24d344ea9c95f70796b7abf71ea23c44f97ad5d260593b899b02",
+  "fetchedAt": "2026-08-14T05:47:45.173Z",
+  "vaultVersion": 1
+}

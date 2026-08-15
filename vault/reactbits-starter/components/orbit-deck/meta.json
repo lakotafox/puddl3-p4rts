@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/orbit-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "orbit-deck",
+  "name": "OrbitDeck",
+  "title": "Orbit Deck",
+  "description": "3D circular carousel with draggable rotating cards",
+  "tags": [
+    "animation",
+    "cards",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rotating-cards-css",
+      "path": "vault/reactbits-starter/components/orbit-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/orbit-deck/variants/css/orbit-deck.tsx",
+          "bytes": 9724,
+          "sha256": "ded31ec093d54086af7fe5a2390cefa06c029af4a5f22f79c115e9154e3ebcf2"
+        },
+        {
+          "path": "vault/reactbits-starter/components/orbit-deck/variants/css/orbit-deck.css",
+          "bytes": 1034,
+          "sha256": "7cdde2c66e9b6a714e99fe48217d118efe01c03488e8c3435a4f629b95cad10a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/orbit-deck/variants/css/orbit-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "550fde9a6911debca459ae18c1fb45e40226cb0e6c51a9872cdb0024c395b7d9"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rotating-cards-tw",
+      "path": "vault/reactbits-starter/components/orbit-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/orbit-deck/variants/tw/orbit-deck.tsx",
+          "bytes": 9887,
+          "sha256": "ee89e067be5debca5ea1309d85d17ab2fbb59aede3dacb8a069b8879e8ff8717"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrbitDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/orbit-deck/variants/tw/orbit-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ac4aa100df4a61953a98219282c4b78cfe6ae9531e93a54ad882f0ec1bf5b76f"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OrbitDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/orbit-deck/variants/tw/orbit-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/orbit-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rotating-cards-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "cf505edb974e2e4a1994b8caba1f3ea7ee0251457bf30453e5fb3164e9ab3c75",
+  "fetchedAt": "2026-08-14T05:34:18.561Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rotating-cards",
+  "upstreamName": "RotatingCards"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/noise-rim",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "noise-rim",
+  "name": "NoiseRim",
+  "title": "Noise Rim",
+  "description": "Animated noise-textured border effect",
+  "tags": [
+    "3d",
+    "shader",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "frame-border-css",
+      "path": "vault/reactbits-starter/components/noise-rim/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/noise-rim/variants/css/noise-rim.tsx",
+          "bytes": 7199,
+          "sha256": "ee067bda9d5688218495714872c1ba848dfd9fd95d8cffdc3492ef56c05f4690"
+        },
+        {
+          "path": "vault/reactbits-starter/components/noise-rim/variants/css/noise-rim.css",
+          "bytes": 248,
+          "sha256": "01f2a4b98baa0de59d36a9ab1fd5618f111341a7e109165aacd44d414b7d2fab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NoiseRim",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/noise-rim/variants/css/noise-rim.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf361e52d91cb96ef8178ecc71117d022d7791a61b9adc8865a3d40d7dfd9153"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "frame-border-tw",
+      "path": "vault/reactbits-starter/components/noise-rim/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/noise-rim/variants/tw/noise-rim.tsx",
+          "bytes": 7303,
+          "sha256": "395cd4680fa732d15ba95163c7a2cbe4f9c7120e45ea472d2c0219c00dc93ba5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NoiseRim",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/noise-rim/variants/tw/noise-rim.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "612675bc481292c24debece7d0b1ecb8494670bff52483e3425759d234883715"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NoiseRim",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/noise-rim/variants/tw/noise-rim.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/noise-rim",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/frame-border-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "0fc1982eb2d58be307a576caf8b91799d0cab4ce7c60d27bc7e8acc213322eb6",
+  "fetchedAt": "2026-08-14T05:32:41.639Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "frame-border",
+  "upstreamName": "FrameBorder"
+}

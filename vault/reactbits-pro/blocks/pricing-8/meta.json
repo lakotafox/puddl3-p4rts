@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/pricing-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "pricing-8",
+  "name": "pricing-8",
+  "title": "Pricing 8",
+  "description": "Four-column compare-plans table with expandable section rows and tier CTAs",
+  "tags": [
+    "pricing",
+    "plans",
+    "subscription",
+    "payment"
+  ],
+  "tagSource": "upstream",
+  "category": "pricing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "pricing-8",
+      "path": "vault/reactbits-pro/blocks/pricing-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/pricing-8/files/pricing-8.tsx",
+          "bytes": 5179,
+          "sha256": "264989aae6f1658fe0c48b5284d66074bdbf3045c36f7a745501da0721a70650"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Pricing8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/pricing-8/files/pricing-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5a19dd2d0355c49a794c675265199c8919111f397623e98c51d266a344117478"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Pricing8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/pricing-8/files/pricing-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/pricing-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/pricing-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "87d7f8f0ccdcf901528a1463cd25dc796679986a57f8decdbace9f86fe8f4a58",
+  "fetchedAt": "2026-08-14T05:53:43.799Z",
+  "vaultVersion": 1
+}

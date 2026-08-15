@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/about-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-3",
+  "name": "about-3",
+  "title": "About 3",
+  "description": "Glass cards with metrics overlay",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-3",
+      "path": "vault/reactbits-pro/blocks/about-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-3/files/about-3.tsx",
+          "bytes": 5463,
+          "sha256": "4befac2842f79550fc3778bcce12ce9a328c5f1ffff2310a23fc3b65497ee8e3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-3/files/about-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be217d58307aff9f824de36ede25e770140dedeee9a53eb223df8c49d47c75cd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-3/files/about-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5f66602ba9d4a3175f495ee0f3f4ada15789d9db04f33d13a86df16615b544c1",
+  "fetchedAt": "2026-08-14T05:35:49.913Z",
+  "vaultVersion": 1
+}

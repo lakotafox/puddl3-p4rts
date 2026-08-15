@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/dossier",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "dossier",
+  "name": "Dossier",
+  "title": "Dossier",
+  "description": "Interactive folder opens to reveal nested content smooth motion.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Folder-JS-CSS",
+      "path": "vault/reactbits-free/components/dossier/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/js-css/Dossier.css",
+          "bytes": 2404,
+          "sha256": "f3476c80d1145db8d09e880e1ae9bc14d19832ddb24791be6ef9281852d9c9a6"
+        },
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/js-css/Dossier.jsx",
+          "bytes": 3616,
+          "sha256": "b6b2db7df829c7285e337a0b299ec49bb7a882a615a24d3d94550a312854f4ca"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dossier",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dossier/variants/js-css/Dossier.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "43fd0aa773d66d40020b91985154cf3e63704184b00680b149a99fbd8ec1a27f"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Folder-JS-TW",
+      "path": "vault/reactbits-free/components/dossier/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/js-tw/Dossier.jsx",
+          "bytes": 5904,
+          "sha256": "43d5a9f1555e3dbdc9fccbed95dae8bfe53003e2052bd11c3368953e1ed9db42"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dossier",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dossier/variants/js-tw/Dossier.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d9c2ec6a672ec17262ca92f155f3d39e8b6adf2e98c2ea432a0028c02b0488b1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Folder-TS-CSS",
+      "path": "vault/reactbits-free/components/dossier/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/ts-css/Dossier.css",
+          "bytes": 2404,
+          "sha256": "f3476c80d1145db8d09e880e1ae9bc14d19832ddb24791be6ef9281852d9c9a6"
+        },
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/ts-css/Dossier.tsx",
+          "bytes": 3995,
+          "sha256": "02b7ada20215a8ddf94eec94a8bb81c2095e24432d0f219690f6f010e3167f39"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dossier",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dossier/variants/ts-css/Dossier.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4a3d5f547dfe5cadc40f44b0138e79489130e84ce0c3ad668997252cc463b57c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Folder-TS-TW",
+      "path": "vault/reactbits-free/components/dossier/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dossier/variants/ts-tw/Dossier.tsx",
+          "bytes": 6268,
+          "sha256": "c53777bbebbf49d0d874ac5c5c87f28ffc8f7536f995b548a96eefa70e3ddd14"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dossier",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dossier/variants/ts-tw/Dossier.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6fa2f253409d6e3b3fdccaf3eac26ee508b7d9b31065d976c17a8b124f7c0e11"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dossier",
+      "style": "default",
+      "file": "vault/reactbits-free/components/dossier/variants/ts-tw/Dossier.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/dossier",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Folder-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/folder"
+  },
+  "hash": "21eff059a449508f7c81bdd8c5b3843bc0e1ff03829c2847615b36e98b2e2e00",
+  "fetchedAt": "2026-08-14T05:36:11.380Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "Dossier",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "folder",
+  "upstreamName": "Folder"
+}

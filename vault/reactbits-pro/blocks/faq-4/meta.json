@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/faq-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "faq-4",
+  "name": "faq-4",
+  "title": "FAQ 4",
+  "description": "Centered stacked FAQ list with plus/minus toggles and minimalist styling",
+  "tags": [
+    "faq",
+    "questions",
+    "accordion",
+    "help"
+  ],
+  "tagSource": "upstream",
+  "category": "faq",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "faq-4",
+      "path": "vault/reactbits-pro/blocks/faq-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/faq-4/files/faq-4.tsx",
+          "bytes": 7629,
+          "sha256": "8813924510a672876ce83dc1fa91c4dc7d5c6d632b05c65645741002154cf32b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Faq4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/faq-4/files/faq-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "524b077a527c248cdf93c91442d0f61dec10c47eb2f0a9949ebd10fd5d661a5e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Faq4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/faq-4/files/faq-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/faq-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/faq-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fddafe65d00190611418b1e25139f396a937f90d17096a84ee46d9672b960b23",
+  "fetchedAt": "2026-08-14T05:46:19.853Z",
+  "vaultVersion": 1
+}

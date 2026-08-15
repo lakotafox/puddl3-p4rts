@@ -1,0 +1,222 @@
+{
+  "id": "rb-free/component/waterfall-nav",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "waterfall-nav",
+  "name": "WaterfallNav",
+  "title": "Waterfall Nav",
+  "description": "Menu with staggered item animations and smooth transitions on open/close.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "StaggeredMenu-JS-CSS",
+      "path": "vault/reactbits-free/components/waterfall-nav/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/js-css/WaterfallNav.css",
+          "bytes": 6023,
+          "sha256": "93ac9319434abcdf09176307dac3b7b37338019011e833655722a6ff1f5ac0f5"
+        },
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/js-css/WaterfallNav.jsx",
+          "bytes": 14532,
+          "sha256": "b6dccbb01234d3cfcdf22a2d4160d6c338bf2ad484bb33fb5e96bccce64e593c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterfallNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/js-css/WaterfallNav.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WaterfallNav",
+          "style": "named",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/js-css/WaterfallNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dd75197266443254a77ee48ec755eca3ec434441330814f0f1993e64b7602bfb"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "StaggeredMenu-JS-TW",
+      "path": "vault/reactbits-free/components/waterfall-nav/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/js-tw/WaterfallNav.jsx",
+          "bytes": 23276,
+          "sha256": "74c706c24d2086ce6c32f2422de407d6cb6275950b2221010cffc020fb69b00c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterfallNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/js-tw/WaterfallNav.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WaterfallNav",
+          "style": "named",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/js-tw/WaterfallNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a9bc8684472ccb0d4bfbf4a2653ff95b6995606567bfcc904798b3d7a2067fc6"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "StaggeredMenu-TS-CSS",
+      "path": "vault/reactbits-free/components/waterfall-nav/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/ts-css/WaterfallNav.css",
+          "bytes": 6021,
+          "sha256": "71df848dc8fd34abb67f2f99410d5369252a0f37c82c5a060f4aea6a10eb8f1c"
+        },
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/ts-css/WaterfallNav.tsx",
+          "bytes": 15903,
+          "sha256": "1940753cb62b720f586877e30dec36ff8d0b69bbb5fcd00d247568d91b3291f0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterfallNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/ts-css/WaterfallNav.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WaterfallNav",
+          "style": "named",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/ts-css/WaterfallNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f05ed4da0126847ba717dc5387f433fda77ded230d25dff1b12d52b066f17810"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "StaggeredMenu-TS-TW",
+      "path": "vault/reactbits-free/components/waterfall-nav/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/waterfall-nav/variants/ts-tw/WaterfallNav.tsx",
+          "bytes": 24763,
+          "sha256": "f98e5d3ce1a8435d2d4543a04e7668b2278e74125cfb20d3c76c052082176801"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaterfallNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/ts-tw/WaterfallNav.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "WaterfallNav",
+          "style": "named",
+          "file": "vault/reactbits-free/components/waterfall-nav/variants/ts-tw/WaterfallNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2dbf2c96599765f2547ba6e4edf259b61504cbe8646f8b95ed2bb9180b4ac60e"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WaterfallNav",
+      "style": "default",
+      "file": "vault/reactbits-free/components/waterfall-nav/variants/ts-tw/WaterfallNav.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/waterfall-nav",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/StaggeredMenu-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/staggered-menu"
+  },
+  "hash": "820fc3b58013cbcdda221854c56cb6728dae93731e574f56b0fdd2992f027867",
+  "fetchedAt": "2026-08-14T05:36:11.463Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WaterfallNav",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "staggered-menu",
+  "upstreamName": "StaggeredMenu"
+}

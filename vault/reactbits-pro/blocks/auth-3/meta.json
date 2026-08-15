@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/auth-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "auth-3",
+  "name": "auth-3",
+  "title": "Auth 3",
+  "description": "Centered card with OAuth options and floating brand section over background image",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "authentication"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "auth-3",
+      "path": "vault/reactbits-pro/blocks/auth-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/auth-3/files/auth-3.tsx",
+          "bytes": 7875,
+          "sha256": "1dca56e84465badf1880077b5273daaa26ac33ad1104e92c672cf8206aaaac39"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Auth3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/auth-3/files/auth-3.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Auth3",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/auth-3/files/auth-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f59504834d5b05c5b70c54dfdf8fb7762c1138e02903301f71ce82769ef3161d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Auth3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/auth-3/files/auth-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/auth-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/auth-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4c3dce557ea3b00304d6c089a80a7633c49fa408f37299488aba9dfd58d8d860",
+  "fetchedAt": "2026-08-14T05:37:54.949Z",
+  "vaultVersion": 1
+}

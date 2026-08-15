@@ -1,0 +1,98 @@
+{
+  "id": "rb-pro/block/monitoring-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "monitoring-8",
+  "name": "monitoring-8",
+  "title": "Monitoring 8",
+  "description": "Response time panel with percentile cards, a latency histogram, and a sortable endpoint table.",
+  "tags": [
+    "monitoring",
+    "observability",
+    "metrics",
+    "charts",
+    "alerts",
+    "incidents",
+    "uptime",
+    "logs",
+    "slo"
+  ],
+  "tagSource": "upstream",
+  "category": "monitoring",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "monitoring-8",
+      "path": "vault/reactbits-pro/blocks/monitoring-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/monitoring-8/files/monitoring-8.tsx",
+          "bytes": 14056,
+          "sha256": "7d8b6f66235231b6269f602fb771175a5df5e5bb4a7be9122dec3211c577f90b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Monitoring8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/monitoring-8/files/monitoring-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fd6bf23d08e88b09b0818987343920caffc9ab800109eab351be102bfaf90523"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Monitoring8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/monitoring-8/files/monitoring-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/monitoring-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/monitoring-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dacd51ad1de247d17cb95d17dc30d77e3d84176f26ebdc911430d41804ad3bf8",
+  "fetchedAt": "2026-08-14T05:49:37.578Z",
+  "vaultVersion": 1
+}

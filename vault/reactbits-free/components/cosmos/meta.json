@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/cosmos",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "cosmos",
+  "name": "Cosmos",
+  "title": "Cosmos",
+  "description": "Parallax realistic starfield with pointer interactions.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Galaxy-JS-CSS",
+      "path": "vault/reactbits-free/components/cosmos/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/js-css/Cosmos.css",
+          "bytes": 75,
+          "sha256": "3efecd1df6de1d34f861c5cb4058a335be170446f8e8ed282556e93b3109599c"
+        },
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/js-css/Cosmos.jsx",
+          "bytes": 9840,
+          "sha256": "eeb61d4ea5820114a942567f39b0d772435c051042dbe3ae31711908caffce84"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cosmos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cosmos/variants/js-css/Cosmos.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "591b545c82789189b6527b91f387605063e3d8e5d9ead550d4df760e1d597317"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Galaxy-JS-TW",
+      "path": "vault/reactbits-free/components/cosmos/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/js-tw/Cosmos.jsx",
+          "bytes": 9823,
+          "sha256": "1c425ed681467d11972f6d3e3f25adbc16c1a3866c2cd0a32ebc832066812dc5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cosmos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cosmos/variants/js-tw/Cosmos.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "54c41d9161e5f6c6cc6a12291b8aa8c24b3f2ffc0a25b81b12317f61d5d1bb51"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Galaxy-TS-CSS",
+      "path": "vault/reactbits-free/components/cosmos/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/ts-css/Cosmos.css",
+          "bytes": 75,
+          "sha256": "3efecd1df6de1d34f861c5cb4058a335be170446f8e8ed282556e93b3109599c"
+        },
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/ts-css/Cosmos.tsx",
+          "bytes": 10352,
+          "sha256": "f0a33d156a2361c237e5de5ed195a87157de77cd3ae6cebf152d3446919dc6e2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cosmos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cosmos/variants/ts-css/Cosmos.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2ab6b5a248aeeb8f85f773baba809992b9773d23d3bfe8357f43a0e6dc9f4b6b"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Galaxy-TS-TW",
+      "path": "vault/reactbits-free/components/cosmos/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cosmos/variants/ts-tw/Cosmos.tsx",
+          "bytes": 10335,
+          "sha256": "92eb51212c415f8ae1e3f9d25ea848b68c35ed4591389c8625ec2ed3ac8e15e3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cosmos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cosmos/variants/ts-tw/Cosmos.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7d954751f7a53cf558c1eb8427d39c5961390f585fb4bec6883168b71c882ca8"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cosmos",
+      "style": "default",
+      "file": "vault/reactbits-free/components/cosmos/variants/ts-tw/Cosmos.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/cosmos",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Galaxy-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/galaxy"
+  },
+  "hash": "129549b7e8069093c3e55c2fbb3e98dfce322e935360f1026618f7cc13924556",
+  "fetchedAt": "2026-08-14T05:36:11.383Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "Cosmos",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "galaxy",
+  "upstreamName": "Galaxy"
+}

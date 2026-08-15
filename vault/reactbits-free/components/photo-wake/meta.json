@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/photo-wake",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "photo-wake",
+  "name": "PhotoWake",
+  "title": "Photo Wake",
+  "description": "Cursor-based image trail with several built-in variants.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ImageTrail-JS-CSS",
+      "path": "vault/reactbits-free/components/photo-wake/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/js-css/PhotoWake.css",
+          "bytes": 561,
+          "sha256": "389e288d154145d67cbdbc5b14454200439329b5b051157259ebf5e338f5a9c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/js-css/PhotoWake.jsx",
+          "bytes": 31142,
+          "sha256": "6c4ef92d2e709d9c98473499aa858a1f59d68049afa3f13f711cd56e4d52515d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-wake/variants/js-css/PhotoWake.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "626cc03c5b990ca46d4a8af16c4b128090909a030eff33ec57483e74bad651a0"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ImageTrail-JS-TW",
+      "path": "vault/reactbits-free/components/photo-wake/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/js-tw/PhotoWake.jsx",
+          "bytes": 31453,
+          "sha256": "99d8a50deb207e3bd91d2668444a359e0269e27ad67bdbcb06d618decaadcc18"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-wake/variants/js-tw/PhotoWake.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ecdfd54c6dedcae0a23c91ee2a39e8929fc1713dc9bd1885a2960dea560c814f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ImageTrail-TS-CSS",
+      "path": "vault/reactbits-free/components/photo-wake/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/ts-css/PhotoWake.css",
+          "bytes": 561,
+          "sha256": "389e288d154145d67cbdbc5b14454200439329b5b051157259ebf5e338f5a9c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/ts-css/PhotoWake.tsx",
+          "bytes": 37766,
+          "sha256": "76f8383af4d5ba6a3c3cc92b3caa96c4cc24cfe2290c337e799c9ea781851cf9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-wake/variants/ts-css/PhotoWake.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "038be2bd464ebd336268539c2f1fb18a045ff180eb6329aec19eec3f1372e02a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ImageTrail-TS-TW",
+      "path": "vault/reactbits-free/components/photo-wake/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-wake/variants/ts-tw/PhotoWake.tsx",
+          "bytes": 38078,
+          "sha256": "829a2c752bb4ea1e1714e42fadc684358fcea71b227fdde051816d283160e078"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-wake/variants/ts-tw/PhotoWake.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0b241b3fc014ab1f1c2c5c2aef6c52a458b1dc5186859771fe8e58fe5b2b7ec5"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PhotoWake",
+      "style": "default",
+      "file": "vault/reactbits-free/components/photo-wake/variants/ts-tw/PhotoWake.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/photo-wake",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ImageTrail-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/image-trail"
+  },
+  "hash": "b3149bdafa5106687cb4a1cd6b3618661e6977699565a4610b802793bbea1a9e",
+  "fetchedAt": "2026-08-14T05:36:11.400Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PhotoWake",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "image-trail",
+  "upstreamName": "ImageTrail"
+}

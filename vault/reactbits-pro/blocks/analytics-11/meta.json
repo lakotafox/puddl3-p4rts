@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-11",
+  "name": "analytics-11",
+  "title": "Analytics 11",
+  "description": "Cohort retention matrix with pinned labels and value-driven shading.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-11",
+      "path": "vault/reactbits-pro/blocks/analytics-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-11/files/analytics-11.tsx",
+          "bytes": 19533,
+          "sha256": "ffa2772a6ebae46834425fba909019f18ced51541f1cfbe27ae2ef8a8fc8ca21"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-11/files/analytics-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c9ca577f9baef748ad550b378a112c7042b9a0334d8e632563da236cdceebf1a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-11/files/analytics-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a4879088882dbb1343f2230f13239393736068a6268dd6ab1449acc182df46fa",
+  "fetchedAt": "2026-08-14T05:36:56.967Z",
+  "vaultVersion": 1
+}

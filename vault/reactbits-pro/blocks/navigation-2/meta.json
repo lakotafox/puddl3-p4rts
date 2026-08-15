@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navigation-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-2",
+  "name": "navigation-2",
+  "title": "Navigation 2",
+  "description": "Centered rounded nav with glass effect and expanding card dropdowns",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-2",
+      "path": "vault/reactbits-pro/blocks/navigation-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-2/files/navigation-2.tsx",
+          "bytes": 14610,
+          "sha256": "bb98742b8f824d06e82f9a2291638a5191d6247a6ab56690215fe7d99e51cc15"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-2/files/navigation-2.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Navigation2",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/navigation-2/files/navigation-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "33677575e6e7e33d1527407d0bc4674de6080efe83fa38bb0701ade64485cfd4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-2/files/navigation-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e81327bbe08fe2babe865790b5792cf6c8e4499169d878d0161aa69d341a6b47",
+  "fetchedAt": "2026-08-14T05:52:42.052Z",
+  "vaultVersion": 1
+}

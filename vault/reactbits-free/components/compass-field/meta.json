@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/compass-field",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "compass-field",
+  "name": "CompassField",
+  "title": "Compass Field",
+  "description": "Animated field lines bend toward the cursor.",
+  "tags": [
+    "animation"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MagnetLines-JS-CSS",
+      "path": "vault/reactbits-free/components/compass-field/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/js-css/CompassField.css",
+          "bytes": 372,
+          "sha256": "ada3ce8593d84e58d8b4208eba3c4adf94ab7ca8ef37b180a4f103f5ecd0b1ad"
+        },
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/js-css/CompassField.jsx",
+          "bytes": 2010,
+          "sha256": "c36c7d31dc86174fca838df6a79520c88a9aa06f906c62d7127b508a5edc515b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CompassField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/compass-field/variants/js-css/CompassField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1642f9c4490349234a00a5a43dd3c15725066b2226eb54edd8c121a4c636112e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MagnetLines-JS-TW",
+      "path": "vault/reactbits-free/components/compass-field/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/js-tw/CompassField.jsx",
+          "bytes": 2074,
+          "sha256": "fbe9560d31481ce9e144413352089c657fec8e5b0b0e79f7e5d3f681765f4446"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CompassField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/compass-field/variants/js-tw/CompassField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4e54165d565a8a63c8049f3323190d244ff588a55e14af325dde1e2b85b2fca2"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MagnetLines-TS-CSS",
+      "path": "vault/reactbits-free/components/compass-field/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/ts-css/CompassField.css",
+          "bytes": 372,
+          "sha256": "ada3ce8593d84e58d8b4208eba3c4adf94ab7ca8ef37b180a4f103f5ecd0b1ad"
+        },
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/ts-css/CompassField.tsx",
+          "bytes": 2530,
+          "sha256": "64cdec98e63c22740e940a981d2f36da65f3001cf1955106b6a5d23ff734e009"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CompassField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/compass-field/variants/ts-css/CompassField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d3d0e8afe0736cfae65de1b69ea9f0fe8439e5d86042ae2147f053b66f1552f"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MagnetLines-TS-TW",
+      "path": "vault/reactbits-free/components/compass-field/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/compass-field/variants/ts-tw/CompassField.tsx",
+          "bytes": 2572,
+          "sha256": "2f4a71e0b224c3023ca599770458976880578c75c0a295ef4907965eca54cf04"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CompassField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/compass-field/variants/ts-tw/CompassField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "57678a4278e53782d8a7d9174b0ecd134484157251ddacd4b8216a9b69ed59f3"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CompassField",
+      "style": "default",
+      "file": "vault/reactbits-free/components/compass-field/variants/ts-tw/CompassField.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/compass-field",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MagnetLines-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/magnet-lines"
+  },
+  "hash": "6719ae00a708b445e85fbd6706ccf3567e3d70141621fa38e1ca87c7de5bc13e",
+  "fetchedAt": "2026-08-14T05:36:11.419Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CompassField",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "magnet-lines",
+  "upstreamName": "MagnetLines"
+}

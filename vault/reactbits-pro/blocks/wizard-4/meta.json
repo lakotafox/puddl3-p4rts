@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/wizard-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "wizard-4",
+  "name": "wizard-4",
+  "title": "Wizard 4",
+  "description": "Service-selection step: a two-band header, a checkable tile grid, and a live summary footer.",
+  "tags": [
+    "wizard",
+    "stepper",
+    "multi-step",
+    "flow",
+    "progress"
+  ],
+  "tagSource": "upstream",
+  "category": "wizard",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "wizard-4",
+      "path": "vault/reactbits-pro/blocks/wizard-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/wizard-4/files/wizard-4.tsx",
+          "bytes": 13139,
+          "sha256": "0bbea6066cf2fb83207d1a50e6edd83762bd00a676801b5a7f016c20e2a85f79"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Wizard4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/wizard-4/files/wizard-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d3f9ba46a055e554b9328a3cd78f75110330fa5384204b8ba4042a762d883b3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Wizard4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/wizard-4/files/wizard-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/wizard-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/wizard-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f1167078cc5c16a456135b9416b2690dd28cc918e4778f45caee799258583a4d",
+  "fetchedAt": "2026-08-14T05:56:27.063Z",
+  "vaultVersion": 1
+}

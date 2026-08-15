@@ -1,0 +1,139 @@
+{
+  "id": "rb-starter/component/polar-haze",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "polar-haze",
+  "name": "PolarHaze",
+  "title": "Polar Haze",
+  "description": "Ethereal aurora borealis blur effect",
+  "tags": [
+    "animation",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "aurora-blur-css",
+      "path": "vault/reactbits-starter/components/polar-haze/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/polar-haze/variants/css/polar-haze.tsx",
+          "bytes": 9911,
+          "sha256": "33656527646ff59d71ea8b8b0cb57311705a1796f659fe77eaf5ba832fd4305a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/polar-haze/variants/css/polar-haze.css",
+          "bytes": 255,
+          "sha256": "3173859396359b2b42f3b6f6fe7ece68efc94e4b9aa76799ce997907d1cec182"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarHaze",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/polar-haze/variants/css/polar-haze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ababfbd1dab1a8d6cdec5c1e24159e822ccde4309f08e1afab013a107d04fc5d"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "aurora-blur-tw",
+      "path": "vault/reactbits-starter/components/polar-haze/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/polar-haze/variants/tw/polar-haze.tsx",
+          "bytes": 9802,
+          "sha256": "2b11ab3164c6e3a81435386efbc3c0a8433db0fba6b9a450c219a8f330825b04"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarHaze",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/polar-haze/variants/tw/polar-haze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4306667cda17dbaaa6af68ced862bddbfe4abc6c6931293193fe8ad33f9efbc7"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PolarHaze",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/polar-haze/variants/tw/polar-haze.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/polar-haze",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/aurora-blur-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f87744c8ac02550def73105d7851e8d135a31b476bed5a9052bdc47020975761",
+  "fetchedAt": "2026-08-14T05:31:45.570Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "aurora-blur",
+  "upstreamName": "AuroraBlur"
+}

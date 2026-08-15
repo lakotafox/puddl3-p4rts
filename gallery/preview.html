@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>preview</title>
+    <style>
+      /* Full-bleed components measure offsetHeight of their parent (Aurora et al
+         end with `<div className="w-full h-full">`), so the height chain must be
+         unbroken all the way to <html> or they collapse to zero. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: #060608; color: #e5e5e5; overflow: hidden;
+             font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/preview.tsx"></script>
+  </body>
+</html>

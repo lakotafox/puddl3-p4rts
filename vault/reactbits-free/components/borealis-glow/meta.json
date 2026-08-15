@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/borealis-glow",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "borealis-glow",
+  "name": "BorealisGlow",
+  "title": "Borealis Glow",
+  "description": "Soft aurora borealis shader with 3D Perlin noise and cosine gradient palettes.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SoftAurora-JS-CSS",
+      "path": "vault/reactbits-free/components/borealis-glow/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/js-css/BorealisGlow.css",
+          "bytes": 58,
+          "sha256": "091c4593c231d45c9e90aeb526af6bbb18f820063bb042e8c7d8d0006f97f174"
+        },
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/js-css/BorealisGlow.jsx",
+          "bytes": 8113,
+          "sha256": "be2fcd2bed2679d149d85b04eb61c45d5c58c2a779098dd3f043c0b561adf14c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BorealisGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/borealis-glow/variants/js-css/BorealisGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8ad58f05de37fa6e4e14a3bb6b2767d93c5e7b59e677c4126852e9d450160795"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SoftAurora-JS-TW",
+      "path": "vault/reactbits-free/components/borealis-glow/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/js-tw/BorealisGlow.jsx",
+          "bytes": 8077,
+          "sha256": "f19bf49daf754e5b3fe06dcc8911ae766c342af9e5b4831faa671f41d1f2f62a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BorealisGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/borealis-glow/variants/js-tw/BorealisGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "28038c7f68b64f867a4d8105667255e53f4c3ea7e7d4828757d3460c43f5fe31"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SoftAurora-TS-CSS",
+      "path": "vault/reactbits-free/components/borealis-glow/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/ts-css/BorealisGlow.css",
+          "bytes": 58,
+          "sha256": "091c4593c231d45c9e90aeb526af6bbb18f820063bb042e8c7d8d0006f97f174"
+        },
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/ts-css/BorealisGlow.tsx",
+          "bytes": 8579,
+          "sha256": "b50776fb689a32a86379633317bdc2db73736238a5e245f3586ce5a915e47c38"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BorealisGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/borealis-glow/variants/ts-css/BorealisGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f11fb46227d1649b71facb7fefceae573dcd34a8e6aa5a7a1ca83ba982a7c952"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SoftAurora-TS-TW",
+      "path": "vault/reactbits-free/components/borealis-glow/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/borealis-glow/variants/ts-tw/BorealisGlow.tsx",
+          "bytes": 8543,
+          "sha256": "680a1e34867ec402ab70e969e3e4f678ed4e0fabc8c9ed0959cc2e565b7ec363"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BorealisGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/borealis-glow/variants/ts-tw/BorealisGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6249bdeae424da5bddcd1ad3d22af8056fa3114af5c8c801568ce61924ae68e6"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BorealisGlow",
+      "style": "default",
+      "file": "vault/reactbits-free/components/borealis-glow/variants/ts-tw/BorealisGlow.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/borealis-glow",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SoftAurora-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/soft-aurora"
+  },
+  "hash": "de3330e4c8620882f77a56ec0be1006e0eab7be4424eb066a0a350f0c9480844",
+  "fetchedAt": "2026-08-14T05:36:11.457Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BorealisGlow",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "soft-aurora",
+  "upstreamName": "SoftAurora"
+}

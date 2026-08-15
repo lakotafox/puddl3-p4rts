@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/mote-field",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "mote-field",
+  "name": "MoteField",
+  "title": "Mote Field",
+  "description": "Configurable particle system.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Particles-JS-CSS",
+      "path": "vault/reactbits-free/components/mote-field/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/js-css/MoteField.css",
+          "bytes": 78,
+          "sha256": "a5c384b80f3b58374326602cd6a0d5cc56a5e1ba8c91f5b24077df15222784cb"
+        },
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/js-css/MoteField.jsx",
+          "bytes": 6769,
+          "sha256": "90e26bdc94cbd0c0180d2d103ece4e7ccf6cd93c2e23ae8655e17d718b88da85"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoteField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mote-field/variants/js-css/MoteField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2b680e4c565892a37565f77f447b35ed46a0d494466c0fe4fe7fd69789ead854"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Particles-JS-TW",
+      "path": "vault/reactbits-free/components/mote-field/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/js-tw/MoteField.jsx",
+          "bytes": 6745,
+          "sha256": "3ee49cebf33035f6346bce9dc8aa77251a23d523335f9fe380506561b3793c46"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoteField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mote-field/variants/js-tw/MoteField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dbbd9a1ad7b8176bfebc8ffe4c117dfeb3b73470f56a519612c4ac21db7a7c5d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Particles-TS-CSS",
+      "path": "vault/reactbits-free/components/mote-field/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/ts-css/MoteField.css",
+          "bytes": 78,
+          "sha256": "a5c384b80f3b58374326602cd6a0d5cc56a5e1ba8c91f5b24077df15222784cb"
+        },
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/ts-css/MoteField.tsx",
+          "bytes": 7338,
+          "sha256": "7d158fe56b3a8db71aaf6238b78acd594f23005a22f9922aea05238df21fa493"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoteField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mote-field/variants/ts-css/MoteField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0ba0383ce35d44fba916bc062c35d980552f36461f9be4f0c0ea0f08b308ce9a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Particles-TS-TW",
+      "path": "vault/reactbits-free/components/mote-field/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mote-field/variants/ts-tw/MoteField.tsx",
+          "bytes": 7337,
+          "sha256": "b13e1503978ff612d0dd3b3e969f69c299718136a3296afc4a67abe79d45046b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoteField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mote-field/variants/ts-tw/MoteField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8516266eb1854888e7924dd036c3978412267eb66bdaddd21645b40dc064ceb2"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MoteField",
+      "style": "default",
+      "file": "vault/reactbits-free/components/mote-field/variants/ts-tw/MoteField.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/mote-field",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Particles-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/particles"
+  },
+  "hash": "ab3beb5056a7070bb51b4e40f882059e4637c1d56c7651694089a7b531586525",
+  "fetchedAt": "2026-08-14T05:36:11.430Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MoteField",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "particles",
+  "upstreamName": "Particles"
+}

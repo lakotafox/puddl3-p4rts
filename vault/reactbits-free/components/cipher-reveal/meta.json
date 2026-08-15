@@ -1,0 +1,188 @@
+{
+  "id": "rb-free/component/cipher-reveal",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "cipher-reveal",
+  "name": "CipherReveal",
+  "title": "Cipher Reveal",
+  "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+  "tags": [
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DecryptedText-JS-CSS",
+      "path": "vault/reactbits-free/components/cipher-reveal/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-reveal/variants/js-css/CipherReveal.jsx",
+          "bytes": 11264,
+          "sha256": "24dfdcab6da8cbf41e3d165176e2d0108a4413b31fce4327379b6052672723eb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CipherReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-reveal/variants/js-css/CipherReveal.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42798fcecb67b2a6efbb0bf01bfe75de5c59192d2e48320935cd7cf40cde9beb"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DecryptedText-JS-TW",
+      "path": "vault/reactbits-free/components/cipher-reveal/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-reveal/variants/js-tw/CipherReveal.jsx",
+          "bytes": 10991,
+          "sha256": "129a3b79f326d4d2ddf5007f283a0c3a5a8df3d5646548609fdc4a01704253cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CipherReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-reveal/variants/js-tw/CipherReveal.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a0ad5302adafe18391975c62c937df688043d233127ef13883786b04bd6bd311"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DecryptedText-TS-CSS",
+      "path": "vault/reactbits-free/components/cipher-reveal/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-reveal/variants/ts-css/CipherReveal.tsx",
+          "bytes": 12216,
+          "sha256": "33cacd793e1fc1fe48e8a7e13f2465580b518f47e6b668b9a593e52f75552779"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CipherReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-reveal/variants/ts-css/CipherReveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f86e8cb42e980c1d2f5dbd053dc3634be888524d883858e907824a052d19708b"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DecryptedText-TS-TW",
+      "path": "vault/reactbits-free/components/cipher-reveal/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-reveal/variants/ts-tw/CipherReveal.tsx",
+          "bytes": 11954,
+          "sha256": "4544f064d81c0351027940154ff41d0a00f57c9edac961834fc43055892441e7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CipherReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-reveal/variants/ts-tw/CipherReveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "46aa56d7ead582753aff7ccf1274dd2ddccd3fcca1c9cafa0834fad6e45087a2"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CipherReveal",
+      "style": "default",
+      "file": "vault/reactbits-free/components/cipher-reveal/variants/ts-tw/CipherReveal.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/cipher-reveal",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DecryptedText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/decrypted-text"
+  },
+  "hash": "8b0b71f54099bd58495ea26643526c25d29fbdefc1fdc14687dfd506614ba506",
+  "fetchedAt": "2026-08-14T05:36:11.361Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CipherReveal",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "decrypted-text",
+  "upstreamName": "DecryptedText"
+}

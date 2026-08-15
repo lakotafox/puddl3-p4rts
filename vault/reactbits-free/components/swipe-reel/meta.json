@@ -1,0 +1,218 @@
+{
+  "id": "rb-free/component/swipe-reel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "swipe-reel",
+  "name": "SwipeReel",
+  "title": "Swipe Reel",
+  "description": "Responsive carousel with touch gestures, looping and transitions.",
+  "tags": [
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Carousel-JS-CSS",
+      "path": "vault/reactbits-free/components/swipe-reel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/js-css/SwipeReel.css",
+          "bytes": 2343,
+          "sha256": "c7561c14fe970d72c1b7741b4a8efd157c67027e0ee9d9e3f80fa6b3dd402d76"
+        },
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/js-css/SwipeReel.jsx",
+          "bytes": 8055,
+          "sha256": "08f5c8806ea9627c44524c242339fb1723742747b12324a42e915201d3474949"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-reel/variants/js-css/SwipeReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0391382790e1e57799cd391428316698202b67bba1b6a8d6af29b2e11e472bee"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Carousel-JS-TW",
+      "path": "vault/reactbits-free/components/swipe-reel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/js-tw/SwipeReel.jsx",
+          "bytes": 8881,
+          "sha256": "012ffc86aeeff2bbbc07abb1d33d45b165c6c2e46b2b6eebef1ac1c9ba94e453"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-reel/variants/js-tw/SwipeReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d4492dfe647ec4337d6f1e93f01c7686eabcbc0696a5bf6df5c39fed6b8a0e02"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Carousel-TS-CSS",
+      "path": "vault/reactbits-free/components/swipe-reel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/ts-css/SwipeReel.css",
+          "bytes": 2343,
+          "sha256": "82d3aab032ee5f7164292b03fda3448077125719f815c28ede707044eb21788c"
+        },
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/ts-css/SwipeReel.tsx",
+          "bytes": 8726,
+          "sha256": "21c7c7c88103e5582d5c4171f3790f0dc09cf7f0a0e7f1ea2fd873a8720641b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-reel/variants/ts-css/SwipeReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "389fd0a4b79077a88f85d1ce88ef848cbdaba3163458d510939f5a40e54746a6"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Carousel-TS-TW",
+      "path": "vault/reactbits-free/components/swipe-reel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-reel/variants/ts-tw/SwipeReel.tsx",
+          "bytes": 9580,
+          "sha256": "df235c62dc1fffcb0d6ec1c7d7ee1ee136aed5222e57c5608ab9c78525620983"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-reel/variants/ts-tw/SwipeReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d7dee3a40ae1978e9c8b3a93e58cabd4c17321e0898cde5f03904e2a06e56c4"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    },
+    {
+      "name": "react-icons",
+      "range": "^5.5.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SwipeReel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/swipe-reel/variants/ts-tw/SwipeReel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/swipe-reel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Carousel-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/carousel"
+  },
+  "hash": "9ccba48393148a01d9f600f8eda9ff90949a07b1c4d08066c60341c8896d88be",
+  "fetchedAt": "2026-08-14T05:36:11.346Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SwipeReel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "carousel",
+  "upstreamName": "Carousel"
+}

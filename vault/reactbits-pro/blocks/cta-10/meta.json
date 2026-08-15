@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-10",
+  "name": "cta-10",
+  "title": "CTA 10",
+  "description": "Floating join-the-movement card with side image, email input, and close button",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-10",
+      "path": "vault/reactbits-pro/blocks/cta-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-10/files/cta-10.tsx",
+          "bytes": 3164,
+          "sha256": "6f6ff0f6d7ff01b9bd1d3c295d12cc3ba769110518f6caa2de13efff33489b63"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cta10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-10/files/cta-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5264610ff38bf4a58319f47f1ae4647e97f8ded49664af2144f109d354e4d956"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cta10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-10/files/cta-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bff1761cdd3e11d77cd28d5c072f03563427784cd0f75accc1609dc2da89371b",
+  "fetchedAt": "2026-08-14T05:44:39.845Z",
+  "vaultVersion": 1
+}

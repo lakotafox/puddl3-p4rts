@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/bloom-beams",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "bloom-beams",
+  "name": "BloomBeams",
+  "title": "Bloom Beams",
+  "description": "Flickering vertical light beams with bloom",
+  "tags": [
+    "3d",
+    "shader",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "blurred-rays-css",
+      "path": "vault/reactbits-starter/components/bloom-beams/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bloom-beams/variants/css/bloom-beams.tsx",
+          "bytes": 11292,
+          "sha256": "49af9afcccbf1d858ae6cafa537f98d48dff39c34c174411979f8b217a81a74a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/bloom-beams/variants/css/bloom-beams.css",
+          "bytes": 193,
+          "sha256": "88fba0ced6f34c2d55e8ba55d582f6222734e85347e04b085c300bc894611331"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomBeams",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bloom-beams/variants/css/bloom-beams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "521dc32d4ed0ada39afbe1090210d6e2c808df0ad8a4d73a595c7538a3180289"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "blurred-rays-tw",
+      "path": "vault/reactbits-starter/components/bloom-beams/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bloom-beams/variants/tw/bloom-beams.tsx",
+          "bytes": 11286,
+          "sha256": "37e4609032732f5cc6267a356c19da9844a99943be2dec93e26942df96b204c3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BloomBeams",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bloom-beams/variants/tw/bloom-beams.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c59ec3179ec1e772e8398bfb7a65604ac0ec2b4e4b54d51eb512cf26b3ad8a0a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BloomBeams",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/bloom-beams/variants/tw/bloom-beams.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/bloom-beams",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/blurred-rays-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3e03bb9656f402482863ff7ee6b6231d769606fe1335ff0b970f803f6c31ca6d",
+  "fetchedAt": "2026-08-14T05:31:56.117Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "blurred-rays",
+  "upstreamName": "BlurredRays"
+}

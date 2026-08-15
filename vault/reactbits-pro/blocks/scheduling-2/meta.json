@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/scheduling-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "scheduling-2",
+  "name": "scheduling-2",
+  "title": "Scheduling 2",
+  "description": "Compact time-range card with start and end selects and a wrap-around duration chip set.",
+  "tags": [
+    "scheduling",
+    "calendar",
+    "availability",
+    "booking",
+    "time"
+  ],
+  "tagSource": "upstream",
+  "category": "scheduling",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "scheduling-2",
+      "path": "vault/reactbits-pro/blocks/scheduling-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/scheduling-2/files/scheduling-2.tsx",
+          "bytes": 8159,
+          "sha256": "aed40ee2bd252f7e51472de3c31448fc947d96d20f32e7b225ab2425c287d4ad"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Scheduling2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/scheduling-2/files/scheduling-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "301da7b250cf082e25f02152ad737c527a8b4c81eadc96dd66d25fbecca100f1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Scheduling2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/scheduling-2/files/scheduling-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/scheduling-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/scheduling-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ea7f5baf07e5a992e015f4cf383fe85b4ffd5530538016b7f4961c553e01bcbe",
+  "fetchedAt": "2026-08-14T05:54:24.399Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/rimlight-button",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "rimlight-button",
+  "name": "RimlightButton",
+  "title": "Rimlight Button",
+  "description": "Glass button with a shader-driven specular rim light that sweeps around the edge and follows the cursor.",
+  "tags": [
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SpecularButton-JS-CSS",
+      "path": "vault/reactbits-free/components/rimlight-button/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/js-css/RimlightButton.css",
+          "bytes": 1624,
+          "sha256": "ef4e261d8513e06de048de3462c80dfd8b84f86364c4f4751305ec4462e456b7"
+        },
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/js-css/RimlightButton.jsx",
+          "bytes": 8134,
+          "sha256": "48b7f82df6086572259ab043cffbbee860bb3778818560439e9c1acb27283970"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RimlightButton",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rimlight-button/variants/js-css/RimlightButton.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14d7166a3b771db3fde9284f36f989e8471655ed3a9ed30fc8f55b08c2ebbaa3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SpecularButton-JS-TW",
+      "path": "vault/reactbits-free/components/rimlight-button/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/js-tw/RimlightButton.jsx",
+          "bytes": 8889,
+          "sha256": "bd4e7f24774fb7a75d8d0f37f5990f47fc8e31d68e37f08ddf8ca8f33c5696bf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RimlightButton",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rimlight-button/variants/js-tw/RimlightButton.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c77fd3ffc4bc775ae095882ec6a7be5bc593c3efb1cb53cda75740f90468c6b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SpecularButton-TS-CSS",
+      "path": "vault/reactbits-free/components/rimlight-button/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/ts-css/RimlightButton.css",
+          "bytes": 1624,
+          "sha256": "ef4e261d8513e06de048de3462c80dfd8b84f86364c4f4751305ec4462e456b7"
+        },
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/ts-css/RimlightButton.tsx",
+          "bytes": 9188,
+          "sha256": "c17a0099e9d60702d31e64e058ad29b8fdaaed26e4113e8552463b27078bb38d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RimlightButton",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rimlight-button/variants/ts-css/RimlightButton.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d55874e854d704b7ee361e7fa1272f57a6f7f17d47b387c751d0ee83282d5c62"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SpecularButton-TS-TW",
+      "path": "vault/reactbits-free/components/rimlight-button/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rimlight-button/variants/ts-tw/RimlightButton.tsx",
+          "bytes": 9971,
+          "sha256": "253d0d3b6ecb0c643608278da1348f4633519e47d05ddb6953dba42d4e58fef6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RimlightButton",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rimlight-button/variants/ts-tw/RimlightButton.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cd214a667e83c693126f6e3636ffd0f745429891202e937a873390c57a303bea"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RimlightButton",
+      "style": "default",
+      "file": "vault/reactbits-free/components/rimlight-button/variants/ts-tw/RimlightButton.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/rimlight-button",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SpecularButton-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/specular-button"
+  },
+  "hash": "3b132812cfe60f140a14d39bd2c964187398ea9c1e0c18861cb8b312041640b8",
+  "fetchedAt": "2026-08-14T05:36:11.457Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RimlightButton",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "specular-button",
+  "upstreamName": "SpecularButton"
+}

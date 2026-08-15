@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Primary CTA fill — exact Figma gradient (PUDDL3 hero 431:159). */
+  --gradient-brand: linear-gradient(
+    100deg,
+    #000 5.58%,
+    #3700bd 59.63%,
+    #d8c2eb 113.68%
+  );
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-onest);
+
+  /* PUDDL3 hero (Figma frame 431:159). Light-on-dark scene overlay — these are
+     fixed white-alpha inks + brand gradient, intentionally scheme-independent. */
+  --color-hero-fg: #ffffff; /* primary heading, button/label text */
+  --color-hero-dim: rgb(255 255 255 / 0.5); /* secondary heading lines */
+  --color-hero-muted: rgb(255 255 255 / 0.72); /* body copy, feature list */
+  --color-hero-line: rgb(255 255 255 / 0.16); /* horizontal divider */
+  --color-hero-surface: rgb(255 255 255 / 0.08); /* nav / ghost pill fill */
+  --color-hero-border: rgb(255 255 255 / 0.18); /* pill + ghost button border */
+  --color-hero-glass: rgb(255 255 255 / 0.22); /* brighter frosted fill — header CTA */
+  --color-hero-glass-edge: rgb(255 255 255 / 0.4); /* glass pill border highlight */
+
+  /* Hero display font — Mulish (next/font in layout.tsx). Repoint this one var
+     to change the family; nothing else does. */
+  --font-hero: var(--font-mulish);
+
+  /* Fluid hero metrics. Unit = cqw (1% of the hero stage width; design base
+     1440px). Every size below is `figma_px / 1440 * 100` so the whole hero
+     scales as one block with the viewport — no breakpoints. Resolves only
+     inside the `@container` stage. */
+  --text-display: 4.1667cqw; /* 60px @1440 — display headings */
+  --text-display--line-height: 1; /* tight leading for the display headings */
+  --text-fluid: 1.1111cqw; /* 16px @1440 — body / nav / labels */
+  --text-fluid--line-height: 1.35;
+
+  --spacing-edge: 2.2222cqw; /* 32px — page inset / large gap */
+  --spacing-md: 1.1111cqw; /* 16px */
+  --spacing-sm: 0.5556cqw; /* 8px */
+  --spacing-pill-x: 1.6667cqw; /* 24px — nav / header pill x-padding */
+  --spacing-pill-y: 0.8333cqw; /* 12px — nav pill y-padding */
+  --spacing-btn-y: 0.9722cqw; /* 14px — CTA button y-padding */
+  --spacing-dot: 0.3472cqw; /* 5px — indicator dot */
+  --spacing-copy: 25.21cqw; /* 363px — description column */
+  --spacing-head: 44.79cqw; /* 645px — heading measure */
+
+  /* Preloader (Figma 446:382) — a white intro over the hero. The progress ring
+     is filled with the primary-CTA gradient (--gradient-brand), recreated as SVG
+     stops in preloader.tsx; no separate track. */
+  --color-preloader-surface: #ffffff; /* full-screen bg */
+  --color-preloader-ink: #140038; /* counter + logo (dark on white) */
+  --text-counter: 4rem; /* the 0–100 counter */
+  --text-counter--line-height: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+@layer base {
+  /* Adaptive scaling grid — scales the root font-size with the viewport so a
+     rem-based layout stays proportional. Each breakpoint divides FONT_BASE
+     (16px) by the design base width its range was laid out at:
+       font-size: 16 * 100 / baseWidth  (vw)
+     Above 1920px the AdaptiveGrid component takes over (scale-up).
+     Keep in sync with src/components/common/grid/grid.config.ts. */
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1920px) {
+    html {
+      font-size: 0.833333vw; /* 16 * 100 / 1920 */
+    }
+  }
+
+  @media (max-width: 1440px) {
+    html {
+      font-size: 1.111111vw; /* 16 * 100 / 1440 */
+    }
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 1.5625vw; /* 16 * 100 / 1024 */
+    }
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 4.444444vw; /* 16 * 100 / 360 */
+    }
+  }
+}
+
+/* Multi-stop brand gradient — Tailwind's gradient utilities can't express the
+   exact 3-stop/positioned fill, so it's a token-backed utility. */
+@utility bg-brand-gradient {
+  background-image: var(--gradient-brand);
+}
+
+@layer utilities {
+}
+
+@layer components {
+}

@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/tool-calls-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "tool-calls-6",
+  "name": "tool-calls-6",
+  "title": "Tool Calls 6",
+  "description": "Tool permission row with per-tool enable, disable, and scope disclosure.",
+  "tags": [
+    "ai",
+    "agent",
+    "tools",
+    "function-calling",
+    "results"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "tool-calls-6",
+      "path": "vault/reactbits-pro/blocks/tool-calls-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/tool-calls-6/files/tool-calls-6.tsx",
+          "bytes": 14569,
+          "sha256": "c0efd503c149977fa91dbdeba86ec0d3655ad1c524962aa11d58ba541062ca2e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ToolCalls6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/tool-calls-6/files/tool-calls-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "65233585aa9b0dedc4214451d3af5d402ad27b33827710d989a39bfc8d9a3c04"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ToolCalls6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/tool-calls-6/files/tool-calls-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/tool-calls-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/tool-calls-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3bd7f430ce676b23a4c567eaa1bcbac31be289466800f4c1a2f9a0666caf622d",
+  "fetchedAt": "2026-08-14T05:56:10.897Z",
+  "vaultVersion": 1
+}

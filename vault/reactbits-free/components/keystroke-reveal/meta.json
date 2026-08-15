@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/keystroke-reveal",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "keystroke-reveal",
+  "name": "KeystrokeReveal",
+  "title": "Keystroke Reveal",
+  "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TextType-JS-CSS",
+      "path": "vault/reactbits-free/components/keystroke-reveal/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/js-css/KeystrokeReveal.css",
+          "bytes": 201,
+          "sha256": "f4491de7244b3e3fc81cf2de535e806f372379ac25e2960837126eb100e6c653"
+        },
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/js-css/KeystrokeReveal.jsx",
+          "bytes": 4863,
+          "sha256": "6b38730bf8574b30a03a7a9f402046e686f2778440115bce44a19e4fa63efd4c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "KeystrokeReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/keystroke-reveal/variants/js-css/KeystrokeReveal.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b5dc07a8d06393b9ee4d192fc61c845cc821e058e0f2a4f7177116d5f5febb06"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TextType-JS-TW",
+      "path": "vault/reactbits-free/components/keystroke-reveal/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/js-tw/KeystrokeReveal.jsx",
+          "bytes": 4858,
+          "sha256": "86e4d356a2d6bfef992d36301958216257bf65411771851c891a38f203179443"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "KeystrokeReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/keystroke-reveal/variants/js-tw/KeystrokeReveal.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b139f4fa90020ad5d424894579f344d24370c055407c90618a515a5f978f091b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TextType-TS-CSS",
+      "path": "vault/reactbits-free/components/keystroke-reveal/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/ts-css/KeystrokeReveal.css",
+          "bytes": 201,
+          "sha256": "f4491de7244b3e3fc81cf2de535e806f372379ac25e2960837126eb100e6c653"
+        },
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/ts-css/KeystrokeReveal.tsx",
+          "bytes": 5503,
+          "sha256": "e0ff76d840822a12898e703da218d6422e6925ec9aba9fd366f6e4f532657eaa"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "KeystrokeReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/keystroke-reveal/variants/ts-css/KeystrokeReveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "70a8275a147f2a4f79cd444a1578bfb1fe84e68b471acf21c6ba459810706415"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TextType-TS-TW",
+      "path": "vault/reactbits-free/components/keystroke-reveal/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/keystroke-reveal/variants/ts-tw/KeystrokeReveal.tsx",
+          "bytes": 5497,
+          "sha256": "6ade702a8985af787976b2fbf1a72c96a22ec6c978ce97ee4508fbd4134c9d65"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "KeystrokeReveal",
+          "style": "default",
+          "file": "vault/reactbits-free/components/keystroke-reveal/variants/ts-tw/KeystrokeReveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14c3fd7768ef0bfdf322a7af323dda511406ff46ead3a0d6e56247dd50d4f0ba"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "KeystrokeReveal",
+      "style": "default",
+      "file": "vault/reactbits-free/components/keystroke-reveal/variants/ts-tw/KeystrokeReveal.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/keystroke-reveal",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TextType-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/text-type"
+  },
+  "hash": "c389fcac0bebf1b11839488b47886108f721fa2319f8758ba3d77a38fe3a3877",
+  "fetchedAt": "2026-08-14T05:36:11.473Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "KeystrokeReveal",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "text-type",
+  "upstreamName": "TextType"
+}

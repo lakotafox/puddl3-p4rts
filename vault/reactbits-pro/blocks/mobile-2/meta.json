@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/mobile-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "mobile-2",
+  "name": "mobile-2",
+  "title": "Mobile 2",
+  "description": "Expanding action button that fans out labelled quick actions over a blurred scrim.",
+  "tags": [
+    "mobile",
+    "navigation",
+    "tab bar",
+    "bottom bar",
+    "bottom sheet",
+    "floating action button",
+    "dock",
+    "drawer",
+    "touch"
+  ],
+  "tagSource": "upstream",
+  "category": "mobile",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "mobile-2",
+      "path": "vault/reactbits-pro/blocks/mobile-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/mobile-2/files/mobile-2.tsx",
+          "bytes": 10857,
+          "sha256": "2fe2a308cdfb3b463e58eda60239e063b0b0128096cba3b7ec5e1218d1a166f2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Mobile2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/mobile-2/files/mobile-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5da2dd2b21d9dbfb03fa483111f498650188dd7d2e0e21306ccceb8a2530dd67"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Mobile2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/mobile-2/files/mobile-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/mobile-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/mobile-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5ee210982a283d4c506b58ae5b0b2f565229458eb220165005ad71234323248c",
+  "fetchedAt": "2026-08-14T05:49:19.738Z",
+  "vaultVersion": 1
+}

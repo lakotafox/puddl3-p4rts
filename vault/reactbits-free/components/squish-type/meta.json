@@ -1,0 +1,162 @@
+{
+  "id": "rb-free/component/squish-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "squish-type",
+  "name": "SquishType",
+  "title": "Squish Type",
+  "description": "Characters scale / warp interactively based on pointer pressure zone.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TextPressure-JS-CSS",
+      "path": "vault/reactbits-free/components/squish-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/squish-type/variants/js-css/SquishType.jsx",
+          "bytes": 6801,
+          "sha256": "353ef76fd596c760f315b5f31be772ff053c3d418e1228d0c1862ae963398100"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "SquishType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/squish-type/variants/js-css/SquishType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "74b6362d4f0bae231a4cc02f9932b8853eaa9b683bac093f72954d72259f6f2c"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TextPressure-JS-TW",
+      "path": "vault/reactbits-free/components/squish-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/squish-type/variants/js-tw/SquishType.jsx",
+          "bytes": 6330,
+          "sha256": "e2f6cf112672d910213f6ece233cc223e89c80d2e42bba1efe224cecdb2071d2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "SquishType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/squish-type/variants/js-tw/SquishType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a90f63a4e5dcf1868b71eeff767dda2a02b3d49337c7b5efb44d36bde0361f05"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TextPressure-TS-CSS",
+      "path": "vault/reactbits-free/components/squish-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/squish-type/variants/ts-css/SquishType.tsx",
+          "bytes": 7434,
+          "sha256": "758faddda6bc3cc358e63d77b7dd6e46625d0758cada058e0976cdd1cc22397c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "SquishType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/squish-type/variants/ts-css/SquishType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5018e786b8350096ffd103bb07372ef70d5058cf0a607eead97a85b889e107da"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TextPressure-TS-TW",
+      "path": "vault/reactbits-free/components/squish-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/squish-type/variants/ts-tw/SquishType.tsx",
+          "bytes": 7040,
+          "sha256": "9d944c2920e2b373e1e4e7817f89fb4820c356dbc9adbefe67b2ee176cd2cc2d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "SquishType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/squish-type/variants/ts-tw/SquishType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e69d70c4ca71e9a61d2080b49bf89f3e0b5dc9d4a23c784b42cf12f93231d791"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SquishType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/squish-type/variants/ts-tw/SquishType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/squish-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TextPressure-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/text-pressure"
+  },
+  "hash": "5f7457e9c831097fa523581d1ca1c7b5deaf938773ce719f4673269410f959e4",
+  "fetchedAt": "2026-08-14T05:36:11.472Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SquishType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "text-pressure",
+  "upstreamName": "TextPressure"
+}

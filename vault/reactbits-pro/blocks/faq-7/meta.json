@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/faq-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "faq-7",
+  "name": "faq-7",
+  "title": "FAQ 7",
+  "description": "Help-center FAQ with vertical category rail and animated tab indicator.",
+  "tags": [
+    "faq",
+    "questions",
+    "accordion",
+    "help"
+  ],
+  "tagSource": "upstream",
+  "category": "faq",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "faq-7",
+      "path": "vault/reactbits-pro/blocks/faq-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/faq-7/files/faq-7.tsx",
+          "bytes": 13271,
+          "sha256": "a52b4055d9f65aa493d0f50364478d9cd2b63f3c15d89771aa530ae14626a7e0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FAQ7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/faq-7/files/faq-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1e6fdd69f6bf10a5a81fd049e10255568c17b9d996fdec01b149a8d8207c28da"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FAQ7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/faq-7/files/faq-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/faq-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/faq-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fe315db00e11a189bab30c5be4e6b0d38705bcfb311e6bb1005266ba0dfa9714",
+  "fetchedAt": "2026-08-14T05:46:24.273Z",
+  "vaultVersion": 1
+}

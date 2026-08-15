@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/speckle-wash",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "speckle-wash",
+  "name": "SpeckleWash",
+  "title": "Speckle Wash",
+  "description": "Grainy gradient swirls with soft wave distortion.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Grainient-JS-CSS",
+      "path": "vault/reactbits-free/components/speckle-wash/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/js-css/SpeckleWash.css",
+          "bytes": 98,
+          "sha256": "b85f1b657c732ef21d3b4277b7bbe4125b79e38669620373320c228db0de032d"
+        },
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/js-css/SpeckleWash.jsx",
+          "bytes": 9169,
+          "sha256": "89935b39c118c6484b6e2943132cd3273722c22f16e2659745a414ede6daef9a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckleWash",
+          "style": "default",
+          "file": "vault/reactbits-free/components/speckle-wash/variants/js-css/SpeckleWash.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5ab827125bfaf2abde8a61ffd4f09ced35dbfb1f463ecf4b5a060d213a2bba73"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Grainient-JS-TW",
+      "path": "vault/reactbits-free/components/speckle-wash/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/js-tw/SpeckleWash.jsx",
+          "bytes": 9163,
+          "sha256": "a432972dd18d53dcd4a7c707a3880029a578ffa6fc18236d61281df0379d9dfa"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckleWash",
+          "style": "default",
+          "file": "vault/reactbits-free/components/speckle-wash/variants/js-tw/SpeckleWash.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cbce3ba694593294bbbba760b7513a82edd1465598a20f9f611ce54e09f79206"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Grainient-TS-CSS",
+      "path": "vault/reactbits-free/components/speckle-wash/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/ts-css/SpeckleWash.css",
+          "bytes": 98,
+          "sha256": "b85f1b657c732ef21d3b4277b7bbe4125b79e38669620373320c228db0de032d"
+        },
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/ts-css/SpeckleWash.tsx",
+          "bytes": 10100,
+          "sha256": "9e38dee245b0e15556dff05e072d73d11976241e4f453222f6e572230fcbeb85"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckleWash",
+          "style": "default",
+          "file": "vault/reactbits-free/components/speckle-wash/variants/ts-css/SpeckleWash.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be10820db502efa3c85df085039a0d878876eda454e04fc036c7571703e33e63"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Grainient-TS-TW",
+      "path": "vault/reactbits-free/components/speckle-wash/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/speckle-wash/variants/ts-tw/SpeckleWash.tsx",
+          "bytes": 10093,
+          "sha256": "7103852c2c81c60dee2e85f55a8a29c59455a0983b852c8dc722ded35c076d8f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckleWash",
+          "style": "default",
+          "file": "vault/reactbits-free/components/speckle-wash/variants/ts-tw/SpeckleWash.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fee34587572306766435d5012eec2847a96d6bfb35c057473d425d1714202820"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpeckleWash",
+      "style": "default",
+      "file": "vault/reactbits-free/components/speckle-wash/variants/ts-tw/SpeckleWash.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/speckle-wash",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Grainient-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/grainient"
+  },
+  "hash": "5f6d92ad01cbbe10078ff80c2a6fae44218d1bf0b3e798586d679f302a4ed3b3",
+  "fetchedAt": "2026-08-14T05:36:11.391Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SpeckleWash",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "grainient",
+  "upstreamName": "Grainient"
+}

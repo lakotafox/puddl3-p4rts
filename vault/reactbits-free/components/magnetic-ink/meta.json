@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/magnetic-ink",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "magnetic-ink",
+  "name": "MagneticInk",
+  "title": "Magnetic Ink",
+  "description": "Letter styling changes continuously with pointer distance mapping.",
+  "tags": [
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "VariableProximity-JS-CSS",
+      "path": "vault/reactbits-free/components/magnetic-ink/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/js-css/MagneticInk.css",
+          "bytes": 353,
+          "sha256": "52a8317f04f37c18ec9a3652a0c49efa8731d5a2f69b257fecca7e4de641f670"
+        },
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/js-css/MagneticInk.jsx",
+          "bytes": 5557,
+          "sha256": "0a536fb12c569acc51dfe6bbe8355632d6b5519d569c4ba778f4e1ad18b67fe5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MagneticInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/magnetic-ink/variants/js-css/MagneticInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef39f4833dd9f81a9afb53c2c639e17ffe44932877a0d00e814a0ebef58d4e75"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "VariableProximity-JS-TW",
+      "path": "vault/reactbits-free/components/magnetic-ink/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/js-tw/MagneticInk.jsx",
+          "bytes": 5545,
+          "sha256": "c4de3d39067c779fac6c4e5fbc8c77202c6620c08dc9824e4083d54a9c8b872d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MagneticInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/magnetic-ink/variants/js-tw/MagneticInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aa02a0a66074eb8002aa7d81424f5639a6c5114e4e75567d3391d72fd2f01a76"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "VariableProximity-TS-CSS",
+      "path": "vault/reactbits-free/components/magnetic-ink/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/ts-css/MagneticInk.css",
+          "bytes": 353,
+          "sha256": "52a8317f04f37c18ec9a3652a0c49efa8731d5a2f69b257fecca7e4de641f670"
+        },
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/ts-css/MagneticInk.tsx",
+          "bytes": 6246,
+          "sha256": "af99acded9c21836b33f940817b9ee14f3886396a6af9f0ed5643292c2aa103b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MagneticInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/magnetic-ink/variants/ts-css/MagneticInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0e1461bf4ddd64a45b666f4969101b3cab234a4a4ba34f772486160d0fd84e1d"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "VariableProximity-TS-TW",
+      "path": "vault/reactbits-free/components/magnetic-ink/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/magnetic-ink/variants/ts-tw/MagneticInk.tsx",
+          "bytes": 6232,
+          "sha256": "b5a7f449d1c66c5029276cb026f6b028e307af93638e34b718d2aac9d25535cf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MagneticInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/magnetic-ink/variants/ts-tw/MagneticInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9e616068082538bf74ea8c2d02b1351b189d3d4c706938861f7eaf273d0c111f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MagneticInk",
+      "style": "default",
+      "file": "vault/reactbits-free/components/magnetic-ink/variants/ts-tw/MagneticInk.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/magnetic-ink",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/VariableProximity-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/variable-proximity"
+  },
+  "hash": "41cb9f57967d82e971ad2c1dc8ff1de8350a282f6a7b977afba737fcf4e88a85",
+  "fetchedAt": "2026-08-14T05:36:11.476Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MagneticInk",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "variable-proximity",
+  "upstreamName": "VariableProximity"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "rb-starter/component/glyph-swarm",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glyph-swarm",
+  "name": "GlyphSwarm",
+  "title": "Glyph Swarm",
+  "description": "Interactive 3D particle text with WebGL",
+  "tags": [
+    "animation",
+    "text",
+    "particles"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "particle-text-css",
+      "path": "vault/reactbits-starter/components/glyph-swarm/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-swarm/variants/css/glyph-swarm.tsx",
+          "bytes": 8289,
+          "sha256": "2a41c60a32439a180248fc82548d7a5b5177861e35086a4a0055a9988b8672a1"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glyph-swarm/variants/css/glyph-swarm.css",
+          "bytes": 296,
+          "sha256": "27bcfc39afdf4c961a5426728347ca9a1c2e2b6f9ebf8e0b57de78247197cbf2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlyphSwarm",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-swarm/variants/css/glyph-swarm.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bab623be28125af743f7da233bf15538fccae8e8cc133a147665b45d24f16c17"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "particle-text-tw",
+      "path": "vault/reactbits-starter/components/glyph-swarm/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-swarm/variants/tw/glyph-swarm.tsx",
+          "bytes": 8279,
+          "sha256": "201d58227e70bedfe0edcf451d1aff3a79cbaaef2b0839d70dfbf7d3f6bedd67"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlyphSwarm",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-swarm/variants/tw/glyph-swarm.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1362dc94c444f5b99136846fde5db5938654ec4aeb03344b05abca5fe0b46222"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlyphSwarm",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glyph-swarm/variants/tw/glyph-swarm.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glyph-swarm",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/particle-text-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "68051febedbf7a2b6a5df4e29f0b1e99cee76b703dd4778cb9537c9fb3d2e05e",
+  "fetchedAt": "2026-08-14T05:33:53.742Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "particle-text",
+  "upstreamName": "ParticleText"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/pulse-chart",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "pulse-chart",
+  "name": "PulseChart",
+  "title": "Pulse Chart",
+  "description": "Animated line graph w/ custom interactions and advanced customization",
+  "tags": [
+    "visualization",
+    "graph",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "visualization",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "simple-graph-css",
+      "path": "vault/reactbits-starter/components/pulse-chart/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pulse-chart/variants/css/pulse-chart.tsx",
+          "bytes": 15985,
+          "sha256": "9c0c63f2e4d687343f338083b5cef4574195260f1b2588ba67939d0eeb19cab0"
+        },
+        {
+          "path": "vault/reactbits-starter/components/pulse-chart/variants/css/pulse-chart.css",
+          "bytes": 2188,
+          "sha256": "458d7b7429d6cc8b6e59f9f318748d57be724db80ffe148f02eec1eabe2a0869"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PulseChart",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pulse-chart/variants/css/pulse-chart.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "021a9f27a9aa6ee473ec637c76ecd24315081086ef65dc891e2e8ec55d21eb22"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "simple-graph-tw",
+      "path": "vault/reactbits-starter/components/pulse-chart/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pulse-chart/variants/tw/pulse-chart.tsx",
+          "bytes": 16109,
+          "sha256": "48a84d5a12e62cdd326dacf896fb0c3a449fea82a2e2547824760a8774097f5d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PulseChart",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pulse-chart/variants/tw/pulse-chart.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d2b10925750167e20b33ec6a7dc1b07a00272e24794f7c5afc4d6ea0eb79303f"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PulseChart",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/pulse-chart/variants/tw/pulse-chart.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/pulse-chart",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/simple-graph-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1af57319b86c65426563c6cfd6c54fedc657bff8b0a8f1f91931c3f124321e71",
+  "fetchedAt": "2026-08-14T05:34:36.176Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "simple-graph",
+  "upstreamName": "SimpleGraph"
+}

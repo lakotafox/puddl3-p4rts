@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/comparison-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comparison-8",
+  "name": "comparison-8",
+  "title": "Comparison 8",
+  "description": "A grouped capability matrix with tri-state status chips, a tinted featured column, and a sticky label rail on horizontal scroll.",
+  "tags": [
+    "comparison",
+    "features",
+    "pricing"
+  ],
+  "tagSource": "upstream",
+  "category": "comparison",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comparison-8",
+      "path": "vault/reactbits-pro/blocks/comparison-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comparison-8/files/comparison-8.tsx",
+          "bytes": 11764,
+          "sha256": "57619dff463d86acbd77d3f97d7ad700bd4b5f96f39e4ce2891f0cb0e079e274"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comparison8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comparison-8/files/comparison-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c7b4e02f142abb35893ec005111e31a2162a69360e8e7a92bd361b5a436cec0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comparison8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comparison-8/files/comparison-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comparison-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comparison-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "858514ae43f00c290328c6b0c9705514bb9550f5a069080e0bb6ed28f2974f13",
+  "fetchedAt": "2026-08-14T05:44:19.119Z",
+  "vaultVersion": 1
+}

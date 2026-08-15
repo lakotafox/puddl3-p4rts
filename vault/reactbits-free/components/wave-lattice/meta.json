@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/wave-lattice",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "wave-lattice",
+  "name": "WaveLattice",
+  "title": "Wave Lattice",
+  "description": "A grid that continuously animates with a ripple effect.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "RippleGrid-JS-CSS",
+      "path": "vault/reactbits-free/components/wave-lattice/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/js-css/WaveLattice.css",
+          "bytes": 100,
+          "sha256": "d48f1fec6fea2cae735cd6763992f9504c37774b65526f157e8a4a541ccd9798"
+        },
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/js-css/WaveLattice.jsx",
+          "bytes": 9061,
+          "sha256": "22947d85872dfa9bbea1b0d2f419e3f72c95e57f8b6a9b225ccc05d7e7e1957e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaveLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/wave-lattice/variants/js-css/WaveLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d5f64424ee03eef19150a6ae339b2fc3380f781f6dc7d843546acc2c5c78862"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "RippleGrid-JS-TW",
+      "path": "vault/reactbits-free/components/wave-lattice/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/js-tw/WaveLattice.jsx",
+          "bytes": 9068,
+          "sha256": "e66085b62838fd87664fabcc4e936617f6b15e24b2057c63b28384e3a2e4cf1e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaveLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/wave-lattice/variants/js-tw/WaveLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a618011b1a8bb3ce3eedc7aff6a329a5efa4e7ba45c48245e3d9195c23b691de"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "RippleGrid-TS-CSS",
+      "path": "vault/reactbits-free/components/wave-lattice/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/ts-css/WaveLattice.css",
+          "bytes": 100,
+          "sha256": "d48f1fec6fea2cae735cd6763992f9504c37774b65526f157e8a4a541ccd9798"
+        },
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/ts-css/WaveLattice.tsx",
+          "bytes": 9459,
+          "sha256": "1dfc3f84b5784784b82a170f193fbfca762b79c622d474ade1c46d1b218f1dee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaveLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/wave-lattice/variants/ts-css/WaveLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2a2a8d7b4e8dd317480027cac66d6a2ebc6046ee6299bcefcaaf36ecf44007ce"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "RippleGrid-TS-TW",
+      "path": "vault/reactbits-free/components/wave-lattice/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wave-lattice/variants/ts-tw/WaveLattice.tsx",
+          "bytes": 9466,
+          "sha256": "58749141798c092eb4fff78e67584b70cdcb54e60e778b2c64fa71216b1bd31f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WaveLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/wave-lattice/variants/ts-tw/WaveLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9b87485bf962a525f62faddc91cd98f6b05bc6c3d65eba827cc22c576f3f4773"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WaveLattice",
+      "style": "default",
+      "file": "vault/reactbits-free/components/wave-lattice/variants/ts-tw/WaveLattice.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/wave-lattice",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/RippleGrid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ripple-grid"
+  },
+  "hash": "44a55a89f0cf8d23b3759883f049fa57e2c8cd6b14b6e0786937dd9b8741f113",
+  "fetchedAt": "2026-08-14T05:36:11.446Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WaveLattice",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ripple-grid",
+  "upstreamName": "RippleGrid"
+}

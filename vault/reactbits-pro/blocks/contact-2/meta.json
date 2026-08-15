@@ -1,0 +1,91 @@
+{
+  "id": "rb-pro/block/contact-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-2",
+  "name": "contact-2",
+  "title": "Contact 2",
+  "description": "Two-column layout with company info and full contact form with input fields",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-2",
+      "path": "vault/reactbits-pro/blocks/contact-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-2/files/contact-2.tsx",
+          "bytes": 7938,
+          "sha256": "c99302d29140b4c512ab4ccfd9514e34c5cdbb9ceca90fdd25994e10afbc7cf2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-2/files/contact-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d5fff750e0f858fec55d4bf1359da4ded4fe0b85c8d7c45ce631803045e00f33"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-2/files/contact-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9f07e1abb788b133266f91755149b2f2885615140ef588a91a10c3cd147bfe37",
+  "fetchedAt": "2026-08-14T05:44:26.567Z",
+  "vaultVersion": 1
+}

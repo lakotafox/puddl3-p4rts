@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/pivot-panel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "pivot-panel",
+  "name": "PivotPanel",
+  "title": "Pivot Panel",
+  "description": "3D perspective tilt card reacting to pointer.",
+  "tags": [
+    "animation",
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TiltedCard-JS-CSS",
+      "path": "vault/reactbits-free/components/pivot-panel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/js-css/PivotPanel.css",
+          "bytes": 1061,
+          "sha256": "98f8b8156d22cfa4806953f302a4002e91f255e5d21b2971e26b2556b0eeca67"
+        },
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/js-css/PivotPanel.jsx",
+          "bytes": 3171,
+          "sha256": "cf521827f4236eec7171f81755ff08bab82e05689bf426071dbbd5b0abbcc939"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PivotPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pivot-panel/variants/js-css/PivotPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2c4fb25a4e59847e0ca02252c5ed21d5578c107b96867471e423eb7dfe28343b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TiltedCard-JS-TW",
+      "path": "vault/reactbits-free/components/pivot-panel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/js-tw/PivotPanel.jsx",
+          "bytes": 3566,
+          "sha256": "704b631d1849921096e7ca78572274509317a42b968de80da37d7d1a63bd46f4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PivotPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pivot-panel/variants/js-tw/PivotPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "df98b75f976b8ae9359ce8352d1d4a4e63fc47c2b91ddae6ad065ae80aaabfba"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TiltedCard-TS-CSS",
+      "path": "vault/reactbits-free/components/pivot-panel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/ts-css/PivotPanel.css",
+          "bytes": 1061,
+          "sha256": "98f8b8156d22cfa4806953f302a4002e91f255e5d21b2971e26b2556b0eeca67"
+        },
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/ts-css/PivotPanel.tsx",
+          "bytes": 3803,
+          "sha256": "be25bd4d77437d1a01f9c1efe11f33dca1fdc730a8c39200851b1b8e10ed0e0b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PivotPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pivot-panel/variants/ts-css/PivotPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "18e59e76f47cd5c93df5aa36775b95276bc389b2a2b69b6ffb9640e56a7a25db"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TiltedCard-TS-TW",
+      "path": "vault/reactbits-free/components/pivot-panel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pivot-panel/variants/ts-tw/PivotPanel.tsx",
+          "bytes": 4188,
+          "sha256": "90b0b2de3d4781a0c4be23f339abfef2ce836dde30ac9b8385a4378e559b7c15"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PivotPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pivot-panel/variants/ts-tw/PivotPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14b7c882e95ece9e035613a09b1ceb761f075856a482f180ed6dd278e57254f5"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PivotPanel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/pivot-panel/variants/ts-tw/PivotPanel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/pivot-panel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TiltedCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/tilted-card"
+  },
+  "hash": "2969e2068f1806ec58ec1e6ee8669721ffb6a6cf8d63303d5fc524aa1916528a",
+  "fetchedAt": "2026-08-14T05:36:11.474Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PivotPanel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "tilted-card",
+  "upstreamName": "TiltedCard"
+}

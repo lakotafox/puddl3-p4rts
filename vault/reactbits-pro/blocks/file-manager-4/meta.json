@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/file-manager-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "file-manager-4",
+  "name": "file-manager-4",
+  "title": "File Manager 4",
+  "description": "Upload manager with a dropzone, per-file progress, retries, and a transfer summary.",
+  "tags": [
+    "files",
+    "drive",
+    "folders",
+    "storage",
+    "upload",
+    "assets"
+  ],
+  "tagSource": "upstream",
+  "category": "files",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "file-manager-4",
+      "path": "vault/reactbits-pro/blocks/file-manager-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/file-manager-4/files/file-manager-4.tsx",
+          "bytes": 13806,
+          "sha256": "b3172a77e3878076862d9301d5d937bead2fe981748362dfba78cc438295a4a1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FileManager4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/file-manager-4/files/file-manager-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e02cac9431cda50b71a982f181a8df811d0578e90f1d23ae3efdca66cf8e9f16"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FileManager4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/file-manager-4/files/file-manager-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/file-manager-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/file-manager-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5c7515dce6d2237cddc6be0d84e548f5e939e6e67a41f4e1f1bdc9726df137a9",
+  "fetchedAt": "2026-08-14T05:47:01.607Z",
+  "vaultVersion": 1
+}

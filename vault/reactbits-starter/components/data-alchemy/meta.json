@@ -1,0 +1,132 @@
+{
+  "id": "rb-starter/component/data-alchemy",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "data-alchemy",
+  "name": "DataAlchemy",
+  "title": "Data Alchemy",
+  "description": "Documents fly in and come out as colorful results",
+  "tags": [
+    "ai",
+    "pipeline",
+    "data",
+    "transform",
+    "marketing",
+    "motion",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "magic-transform-css",
+      "path": "vault/reactbits-starter/components/data-alchemy/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/data-alchemy/variants/css/data-alchemy.tsx",
+          "bytes": 24475,
+          "sha256": "5f558b091ea925414165346b2a059327f1308b85b5d5a9be7e025301dce41061"
+        },
+        {
+          "path": "vault/reactbits-starter/components/data-alchemy/variants/css/data-alchemy.css",
+          "bytes": 3994,
+          "sha256": "9cd821242016bc903aef5322eefd04af38d887ec94a03e1a4c7125e0f05712cc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataAlchemy",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/data-alchemy/variants/css/data-alchemy.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "949d68c25690f8d751a1a90787c020c15b122a9ca7f5ae3efffe195543cb5191"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "magic-transform-tw",
+      "path": "vault/reactbits-starter/components/data-alchemy/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/data-alchemy/variants/tw/data-alchemy.tsx",
+          "bytes": 26136,
+          "sha256": "b3b8efd3a3e6692e23c8494a4e1c7594dced5d282b167d988f612ccfe76fb38e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataAlchemy",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/data-alchemy/variants/tw/data-alchemy.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a3a9a27e1a32fb5f2a902e46c03a12c9dfc8e81066f69f18aef3f69aaa8a9b27"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DataAlchemy",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/data-alchemy/variants/tw/data-alchemy.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/data-alchemy",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/magic-transform-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e6a23034bec53ece52f307f0d1f1d6eca943d2ba5403538a2bf5ad6be960962b",
+  "fetchedAt": "2026-08-14T05:33:29.224Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "magic-transform",
+  "upstreamName": "MagicTransform"
+}

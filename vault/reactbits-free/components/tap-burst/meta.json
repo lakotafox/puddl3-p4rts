@@ -1,0 +1,162 @@
+{
+  "id": "rb-free/component/tap-burst",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "tap-burst",
+  "name": "TapBurst",
+  "title": "Tap Burst",
+  "description": "Creates particle spark bursts at click position.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ClickSpark-JS-CSS",
+      "path": "vault/reactbits-free/components/tap-burst/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tap-burst/variants/js-css/TapBurst.jsx",
+          "bytes": 3819,
+          "sha256": "63b91cf2e4d6ce12e422685bfc7783a07466a24c22b9ae4443f0cca3fdcd3512"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TapBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tap-burst/variants/js-css/TapBurst.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c13a3b22c431287eb391c87ceaebc761315d6debab69f193175be7c020d426b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ClickSpark-JS-TW",
+      "path": "vault/reactbits-free/components/tap-burst/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tap-burst/variants/js-tw/TapBurst.jsx",
+          "bytes": 3577,
+          "sha256": "5a16eaa7af0b865ead15d7f82e2e66db521a68d8bb937f80272e18d75b7e927b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TapBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tap-burst/variants/js-tw/TapBurst.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3be9a23dfa369cc6dabdcca8a92048383b7ac3b39bb8de27253da25e928bcfa5"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ClickSpark-TS-CSS",
+      "path": "vault/reactbits-free/components/tap-burst/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tap-burst/variants/ts-css/TapBurst.tsx",
+          "bytes": 4256,
+          "sha256": "5b74bf913e7f941235ac47922b704970342434a9955e4a98159ebddc99612f4e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TapBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tap-burst/variants/ts-css/TapBurst.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7f66db71dd0436a7599f559755dcc5b94ff86a69914dd8f236e72c93b638396d"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ClickSpark-TS-TW",
+      "path": "vault/reactbits-free/components/tap-burst/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tap-burst/variants/ts-tw/TapBurst.tsx",
+          "bytes": 4103,
+          "sha256": "439d10b7298270ebba6c7b3d126f4f5c06591a69160068310d227a18c6e45b1f"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TapBurst",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tap-burst/variants/ts-tw/TapBurst.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8f2da861c2d0dde42f785460ab20d7133b56981960e1ce485665372c6a9925f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TapBurst",
+      "style": "default",
+      "file": "vault/reactbits-free/components/tap-burst/variants/ts-tw/TapBurst.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/tap-burst",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ClickSpark-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/click-spark"
+  },
+  "hash": "444dfa30aeec5f938839f6a6f19fba4d135bfa909ecacd237045046fa2b47e17",
+  "fetchedAt": "2026-08-14T05:36:11.350Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TapBurst",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "click-spark",
+  "upstreamName": "ClickSpark"
+}

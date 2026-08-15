@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/blur-relay",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "blur-relay",
+  "name": "BlurRelay",
+  "title": "Blur Relay",
+  "description": "Applies dynamic blur / clarity based over a series of words in order.",
+  "tags": [
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TrueFocus-JS-CSS",
+      "path": "vault/reactbits-free/components/blur-relay/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/js-css/BlurRelay.css",
+          "bytes": 1123,
+          "sha256": "7a2b00b5936f4f69d35b8b347724f34071374d3c85345765dc84bb3a517b6d66"
+        },
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/js-css/BlurRelay.jsx",
+          "bytes": 3502,
+          "sha256": "d6c2b2a5ddd68869a47ce96a6b3a3598e3db532da4fcd9864e7f39beac0f1a72"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlurRelay",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blur-relay/variants/js-css/BlurRelay.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1cf7ba2024324b3af94239de43b739e558939024f0ca654cbf9d27db19199b8d"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TrueFocus-JS-TW",
+      "path": "vault/reactbits-free/components/blur-relay/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/js-tw/BlurRelay.jsx",
+          "bytes": 4612,
+          "sha256": "bccebd3e59cb34af0dc5c515f0362921b489febeb573861544ba36db1b523924"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlurRelay",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blur-relay/variants/js-tw/BlurRelay.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f60e9dcc4e75f2b50ea178979a9a28ac096b413e2f8411d9dca6ea6f7bba894d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TrueFocus-TS-CSS",
+      "path": "vault/reactbits-free/components/blur-relay/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/ts-css/BlurRelay.css",
+          "bytes": 1123,
+          "sha256": "7a2b00b5936f4f69d35b8b347724f34071374d3c85345765dc84bb3a517b6d66"
+        },
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/ts-css/BlurRelay.tsx",
+          "bytes": 4156,
+          "sha256": "3036343c12b35c63a4f58dc7079f4023f7e3494593931b8979e16135d0107bed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlurRelay",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blur-relay/variants/ts-css/BlurRelay.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f7ecec40e63932d5956eb132f9ef4a85bce9891d45a11456f54d5efb24285b60"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TrueFocus-TS-TW",
+      "path": "vault/reactbits-free/components/blur-relay/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blur-relay/variants/ts-tw/BlurRelay.tsx",
+          "bytes": 5088,
+          "sha256": "f0657e4949286b429551a369a670fbb1ba094a2051c7f7463b7f764857082049"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlurRelay",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blur-relay/variants/ts-tw/BlurRelay.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "225dd1fda5628f9dc9b736a45460c5cc888381f7e78e2d746214f92266bbc77b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BlurRelay",
+      "style": "default",
+      "file": "vault/reactbits-free/components/blur-relay/variants/ts-tw/BlurRelay.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/blur-relay",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TrueFocus-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/true-focus"
+  },
+  "hash": "0e854f5ee169e4b275dac86d1931487ba1fd5bdf73558cf4ad4f7e3a329bb622",
+  "fetchedAt": "2026-08-14T05:36:11.475Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BlurRelay",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "true-focus",
+  "upstreamName": "TrueFocus"
+}

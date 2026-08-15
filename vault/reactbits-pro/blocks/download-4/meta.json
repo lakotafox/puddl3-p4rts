@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/download-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-4",
+  "name": "download-4",
+  "title": "Download 4",
+  "description": "Editorial sample-pack download with serif headline, overlay image, and pink CTA",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-4",
+      "path": "vault/reactbits-pro/blocks/download-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-4/files/download-4.tsx",
+          "bytes": 4845,
+          "sha256": "4357219cd576fc6d6d110886a698708a312fd6aa0277311f9d10d02524b08782"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-4/files/download-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7f3c6bc707496b9b6392d47fbfded417c5746a678919c5a294d92fdf2eac9ca4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-4/files/download-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b72e1f02c8431fdaa1e5faca2b7064b293f99ba3de72dfc6850079d2ef6affbb",
+  "fetchedAt": "2026-08-14T05:45:36.923Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-4",
+  "name": "navbar-4",
+  "title": "Navbar 4",
+  "description": "Marketing header with animated dropdown panels and an accordion mobile sheet.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-4",
+      "path": "vault/reactbits-pro/blocks/navbar-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-4/files/navbar-4.tsx",
+          "bytes": 17538,
+          "sha256": "d4be3300f42bf4c1802103f4b12b924d75cdce517c201a414ad0c2455bad4755"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-4/files/navbar-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3d76d3a2821300e3b1a7e37e3d437d8f71a2b59c7d2d1a40f133acd9124976ad"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-4/files/navbar-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "362dcdf82b90e89ee7f96680e79d4d166d59167e9787a18f304a6dcaec6c1cd8",
+  "fetchedAt": "2026-08-14T05:49:52.337Z",
+  "vaultVersion": 1
+}

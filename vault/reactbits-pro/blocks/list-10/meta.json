@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-10",
+  "name": "list-10",
+  "title": "List 10",
+  "description": "Incident runbook checklist with live progress and scroll-faded steps.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-10",
+      "path": "vault/reactbits-pro/blocks/list-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-10/files/list-10.tsx",
+          "bytes": 11869,
+          "sha256": "acd4b5aefab6b465df0f8c1ca32d26be3e6a60d1b1d26594c7e744b2752accd7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-10/files/list-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "616dad600ac4b1f2d8e9e6459e8bd2894134eca9bf4b49f2f4157703f6909557"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-10/files/list-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "74297d365ba60b4024f68dcacc54969ab690ccbd6ca6fe9f07ec6d697fa6a88e",
+  "fetchedAt": "2026-08-14T05:49:01.382Z",
+  "vaultVersion": 1
+}

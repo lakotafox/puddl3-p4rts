@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/empty-state-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "empty-state-3",
+  "name": "empty-state-3",
+  "title": "Empty State 3",
+  "description": "All caught up view summarising the day's work and offering optional next actions.",
+  "tags": [
+    "empty",
+    "zero state",
+    "onboarding",
+    "no results",
+    "error",
+    "upload"
+  ],
+  "tagSource": "upstream",
+  "category": "empty",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "empty-state-3",
+      "path": "vault/reactbits-pro/blocks/empty-state-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/empty-state-3/files/empty-state-3.tsx",
+          "bytes": 4392,
+          "sha256": "1114094a343833cee42cd85a689c0ebec5dd16aac17acf06bfd2aff2812a502f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmptyState3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/empty-state-3/files/empty-state-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "292a8f282695a4200903cf7aa47765bcefd8b89d4f1ac96443f0558ccf44187c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmptyState3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/empty-state-3/files/empty-state-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/empty-state-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/empty-state-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d9a296eb81fe37114cf4c9188215238b6ecbb2a02094c1b0b488c99c9a175fb6",
+  "fetchedAt": "2026-08-14T05:46:11.037Z",
+  "vaultVersion": 1
+}

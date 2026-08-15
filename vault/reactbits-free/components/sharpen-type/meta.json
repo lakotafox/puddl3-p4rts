@@ -1,0 +1,189 @@
+{
+  "id": "rb-free/component/sharpen-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "sharpen-type",
+  "name": "SharpenType",
+  "title": "Sharpen Type",
+  "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect.",
+  "tags": [
+    "effect",
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "BlurText-JS-CSS",
+      "path": "vault/reactbits-free/components/sharpen-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sharpen-type/variants/js-css/SharpenType.jsx",
+          "bytes": 2876,
+          "sha256": "acc6de3d323a3e961849b2b35967317ab2295fb28742090f75ea189a5aefa7be"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SharpenType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sharpen-type/variants/js-css/SharpenType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "668a3dcf1902a68771879eb0ff4dec50e6a07a35837e00394198c2469f741102"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "BlurText-JS-TW",
+      "path": "vault/reactbits-free/components/sharpen-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sharpen-type/variants/js-tw/SharpenType.jsx",
+          "bytes": 2860,
+          "sha256": "5e6f519103ca698abbe9013891e1a14f81fb06d4f6329f4bba6f618f86c1e4da"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SharpenType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sharpen-type/variants/js-tw/SharpenType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7cd45d036401e7624c01845a3ceea8d8d20cd3c7d16e7247781bb0636334ad3c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "BlurText-TS-CSS",
+      "path": "vault/reactbits-free/components/sharpen-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sharpen-type/variants/ts-css/SharpenType.tsx",
+          "bytes": 3573,
+          "sha256": "2c5a6a899d87a85cde8b18205cab8b90de40a96db5c3deb4aea2050a4203dab0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SharpenType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sharpen-type/variants/ts-css/SharpenType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6fc26168ad03adb52000ab1a66734f4712360dcf3157b2348b5100c9ff96419c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "BlurText-TS-TW",
+      "path": "vault/reactbits-free/components/sharpen-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sharpen-type/variants/ts-tw/SharpenType.tsx",
+          "bytes": 3561,
+          "sha256": "88138d3d673460fd61ac8ef17fc3d5df2472602e265f13729189078432cb8ffb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SharpenType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sharpen-type/variants/ts-tw/SharpenType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3b0ae04331f894883d656b2348ba841f2f6c70f5a292ac18575250ce793878fd"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SharpenType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/sharpen-type/variants/ts-tw/SharpenType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/sharpen-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/BlurText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/blur-text"
+  },
+  "hash": "341801beab3ec8da98aaaf2a8458976f9a1ba1f2aba2cd40ad9eca497004435b",
+  "fetchedAt": "2026-08-14T05:36:11.340Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SharpenType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "blur-text",
+  "upstreamName": "BlurText"
+}

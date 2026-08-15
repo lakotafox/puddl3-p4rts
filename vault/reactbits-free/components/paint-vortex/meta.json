@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/paint-vortex",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "paint-vortex",
+  "name": "PaintVortex",
+  "title": "Paint Vortex",
+  "description": "The balatro shader, fully customizalbe and interactive.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Balatro-JS-CSS",
+      "path": "vault/reactbits-free/components/paint-vortex/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/js-css/PaintVortex.css",
+          "bytes": 54,
+          "sha256": "c3898c6efafc3058b4605009a280b32f7ca56389c245a85634afc161cbcc3ab2"
+        },
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/js-css/PaintVortex.jsx",
+          "bytes": 6239,
+          "sha256": "056f853ed2fe62ec8a10560a52e62ae44cc8ebe899acb641bc90bbd9e3b78899"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PaintVortex",
+          "style": "default",
+          "file": "vault/reactbits-free/components/paint-vortex/variants/js-css/PaintVortex.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a6b2529c57701b5c307d5c3f69de77e5c8da77dc49a09df1580bc7fe67ceb61a"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Balatro-JS-TW",
+      "path": "vault/reactbits-free/components/paint-vortex/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/js-tw/PaintVortex.jsx",
+          "bytes": 6210,
+          "sha256": "4f960c28e7b23e54299bf2c0d6bd0adb1cb6120d216447d7ace4b4cd737f3944"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PaintVortex",
+          "style": "default",
+          "file": "vault/reactbits-free/components/paint-vortex/variants/js-tw/PaintVortex.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7faf65c779871f6ad7d3d6fd919ff51d0475fdc635af9ff4c7bdd4615395c867"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Balatro-TS-CSS",
+      "path": "vault/reactbits-free/components/paint-vortex/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/ts-css/PaintVortex.css",
+          "bytes": 54,
+          "sha256": "c3898c6efafc3058b4605009a280b32f7ca56389c245a85634afc161cbcc3ab2"
+        },
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/ts-css/PaintVortex.tsx",
+          "bytes": 6653,
+          "sha256": "52926b0832455f6c65d4f33d20b82bc55dad6de7a5853219f59302d0d3cc414b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PaintVortex",
+          "style": "default",
+          "file": "vault/reactbits-free/components/paint-vortex/variants/ts-css/PaintVortex.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9f9e6ed7d78d7740d0d43bdadbb46368ab89d9a54780bb491a152a7319017584"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Balatro-TS-TW",
+      "path": "vault/reactbits-free/components/paint-vortex/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/paint-vortex/variants/ts-tw/PaintVortex.tsx",
+          "bytes": 6624,
+          "sha256": "c9dc7e2812ab6407a55c795c7b96f4d84697266ac4575d15eff6057a73e5171b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PaintVortex",
+          "style": "default",
+          "file": "vault/reactbits-free/components/paint-vortex/variants/ts-tw/PaintVortex.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cb2ed023ec4cc878aa25db41c3dba39258d1f55eb50b0c6b9cc80333767098a7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PaintVortex",
+      "style": "default",
+      "file": "vault/reactbits-free/components/paint-vortex/variants/ts-tw/PaintVortex.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/paint-vortex",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Balatro-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/balatro"
+  },
+  "hash": "842c62fd19d08bdc688e0fafc994b3108b74ec94ca964c285b19666d2e57e743",
+  "fetchedAt": "2026-08-14T05:36:11.334Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PaintVortex",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "balatro",
+  "upstreamName": "Balatro"
+}

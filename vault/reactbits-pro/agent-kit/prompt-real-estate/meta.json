@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/prompt/prompt-real-estate",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-real-estate",
+  "name": "prompt-real-estate",
+  "title": "Real Estate",
+  "description": "Build a property page where imagery does the selling for a single listing, development launch, or brokerage, with a shot-ordered gallery, mobile-readable floor plans, spec tables, and a viewing-request conversion.",
+  "tags": [
+    "prompt",
+    "property",
+    "real-estate",
+    "listing",
+    "development",
+    "brokerage",
+    "gallery"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-real-estate",
+      "path": "vault/reactbits-pro/agent-kit/prompt-real-estate/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-real-estate/files/PROMPT.md",
+          "bytes": 16859,
+          "sha256": "9e4217557906dffea30900027c3a5b2a733636ea8c658fa31ec5d6149de1cf2d"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-real-estate/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "56a05b821cf40487afd439ab272781e40d77b7daad957460285dc964e241fb0a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-real-estate",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-real-estate.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9718a79ac40e45bc3f80acc65add00c7190b37685718f2f97caa2f3d7cc5815b",
+  "fetchedAt": "2026-08-14T05:54:15.407Z",
+  "vaultVersion": 1
+}

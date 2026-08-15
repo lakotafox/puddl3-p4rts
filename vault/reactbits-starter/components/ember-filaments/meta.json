@@ -1,0 +1,142 @@
+{
+  "id": "rb-starter/component/ember-filaments",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ember-filaments",
+  "name": "EmberFilaments",
+  "title": "Ember Filaments",
+  "description": "Soft glowing lines that pulse with a warm sweep",
+  "tags": [
+    "shader",
+    "background",
+    "lines",
+    "glow",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "twilight-lines-css",
+      "path": "vault/reactbits-starter/components/ember-filaments/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-filaments/variants/css/ember-filaments.tsx",
+          "bytes": 11722,
+          "sha256": "fd350bcad9dfe388cb0d004c49c9398f5c170712d5f876c5e19f02001f51fb2a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ember-filaments/variants/css/ember-filaments.css",
+          "bytes": 195,
+          "sha256": "5412730d5ed542a940fc153d39f71b842c07712ca3472cc6a0c7d30c0a9af02c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberFilaments",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-filaments/variants/css/ember-filaments.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fded191a926cc12acf2dc6e0f426721e2a81d0ee6013abaa30b7a4740f396f68"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "twilight-lines-tw",
+      "path": "vault/reactbits-starter/components/ember-filaments/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-filaments/variants/tw/ember-filaments.tsx",
+          "bytes": 11635,
+          "sha256": "d31cd971a6283ebdbf509836618abbf91ee7c5b879ba78f1bb90b21d219a5fdb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberFilaments",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-filaments/variants/tw/ember-filaments.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3f8c6bf13c1b2ff2dfd89164e617472c2d1ed422c30138a1c4c8f6c5bc2437a5"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmberFilaments",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ember-filaments/variants/tw/ember-filaments.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ember-filaments",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/twilight-lines-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "cf72c53d0d423f27e22de9c8c6cd37c82e2d5aa9a3f07388be58071d561b6056",
+  "fetchedAt": "2026-08-14T05:35:16.288Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "twilight-lines",
+  "upstreamName": "TwilightLines"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/parallax-lift",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "parallax-lift",
+  "name": "ParallaxLift",
+  "title": "Parallax Lift",
+  "description": "Text gently floats / parallax shifts on scroll.",
+  "tags": [
+    "gsap",
+    "scroll"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrollFloat-JS-CSS",
+      "path": "vault/reactbits-free/components/parallax-lift/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/js-css/ParallaxLift.css",
+          "bytes": 225,
+          "sha256": "5e2ee6e4f242c37292a5062101e6cf1cd823af71dd99cb7dc1b789a6326981a9"
+        },
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/js-css/ParallaxLift.jsx",
+          "bytes": 1869,
+          "sha256": "03bb1dad7ae744f63ae0d234f1670635679d99c52b3c21d0a5794886eb8f3a7b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParallaxLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/parallax-lift/variants/js-css/ParallaxLift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7848a27327f8dde2f5ef56697a6a5b3c58d4f3ee41aa79b978dafc2c21edfa08"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrollFloat-JS-TW",
+      "path": "vault/reactbits-free/components/parallax-lift/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/js-tw/ParallaxLift.jsx",
+          "bytes": 1908,
+          "sha256": "a100576d575618ccc11a447c105e6b4b6b057007fb3d626e7abcd29be01d6852"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParallaxLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/parallax-lift/variants/js-tw/ParallaxLift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b099fad1fca1ed6ff569b252ded23b5a13613273531c36f8246c5df22d8c98cc"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrollFloat-TS-CSS",
+      "path": "vault/reactbits-free/components/parallax-lift/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/ts-css/ParallaxLift.css",
+          "bytes": 225,
+          "sha256": "5e2ee6e4f242c37292a5062101e6cf1cd823af71dd99cb7dc1b789a6326981a9"
+        },
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/ts-css/ParallaxLift.tsx",
+          "bytes": 2218,
+          "sha256": "4f69814084cad505f4e6e467c8984eed154febf36b918c97dbd07a24e97bc9b8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParallaxLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/parallax-lift/variants/ts-css/ParallaxLift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "76ab1f1fcd40f87333b915630b0e40cd2c787816ee71a3ef8983918e9624de04"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrollFloat-TS-TW",
+      "path": "vault/reactbits-free/components/parallax-lift/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/parallax-lift/variants/ts-tw/ParallaxLift.tsx",
+          "bytes": 2257,
+          "sha256": "8adf0c44e65e18a0ae25fb9055ed45f3f29b4f078ce4439a95d9743faf36d968"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParallaxLift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/parallax-lift/variants/ts-tw/ParallaxLift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c64d2210a41e514de0474a6027a3408d74fadfa15fe7fea3f4db0aa95c007894"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ParallaxLift",
+      "style": "default",
+      "file": "vault/reactbits-free/components/parallax-lift/variants/ts-tw/ParallaxLift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/parallax-lift",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrollFloat-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scroll-float"
+  },
+  "hash": "95615690952979f7684758cffec59b66e89d12cfcbc605af087a470a01aac8b1",
+  "fetchedAt": "2026-08-14T05:36:11.449Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ParallaxLift",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scroll-float",
+  "upstreamName": "ScrollFloat"
+}

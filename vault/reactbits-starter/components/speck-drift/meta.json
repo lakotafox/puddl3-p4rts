@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/speck-drift",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "speck-drift",
+  "name": "SpeckDrift",
+  "title": "Speck Drift",
+  "description": "Shifting grid of animated dots",
+  "tags": [
+    "animation",
+    "grid",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "dot-shift-css",
+      "path": "vault/reactbits-starter/components/speck-drift/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/speck-drift/variants/css/speck-drift.tsx",
+          "bytes": 3722,
+          "sha256": "98b33ef1cf6126d42fbe3b87996c9a78cca68bf9dee13dab83aaf56cd848decb"
+        },
+        {
+          "path": "vault/reactbits-starter/components/speck-drift/variants/css/speck-drift.css",
+          "bytes": 125,
+          "sha256": "af9e987740ede3a60f7a1900da2ce83fc6c1ec7a89b01912e67d612022cd2019"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/speck-drift/variants/css/speck-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "16ec3f0cd26208b5c34d6427ec15fec47056619f5c4c73bf23aba60f0b3627c5"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "dot-shift-tw",
+      "path": "vault/reactbits-starter/components/speck-drift/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/speck-drift/variants/tw/speck-drift.tsx",
+          "bytes": 3750,
+          "sha256": "6314e365741177d2eb8cdb9f484435ab6af61e8c1dc6ed2f445e5c6adca7b079"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpeckDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/speck-drift/variants/tw/speck-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "905e656177df3a207d34aef8aae0a5319bedfbb61dd872b0336d2dff30186a4a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpeckDrift",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/speck-drift/variants/tw/speck-drift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/speck-drift",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/dot-shift-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e43edf06cc51837c6e7b1cecbd957d8c27a2d26deea846f009fa13a10240fec1",
+  "fetchedAt": "2026-08-14T05:32:30.203Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "dot-shift",
+  "upstreamName": "DotShift"
+}

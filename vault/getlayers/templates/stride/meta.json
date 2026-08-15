@@ -1,0 +1,471 @@
+{
+  "id": "getlayers/template/stride",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "stride",
+  "name": "Stride",
+  "title": "Stride",
+  "description": "PUDDL3 — real-time wage-streaming fintech landing (WebGL plasma hero, stats bento, chain scene)",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "stride",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "stride",
+      "path": "vault/getlayers/templates/stride/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/stride/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/tsconfig.tsbuildinfo"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/favicon-16x16.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/open-graph.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-192x192.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/draco/draco_decoder.js"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/draco/draco_decoder.wasm"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/draco/draco_wasm_wrapper.js"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-72x72.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-96x96.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-36x36.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/apple-icon-180x180.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-48x48.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/heart.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/3rd/team.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/3rd/approach.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/3rd/technology.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/3rd/security.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/6th.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/4.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/5.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/6.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/2.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/3.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/portfolio/1.jpg"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/2nd/avatars/4.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/2nd/avatars/2.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/2nd/avatars/3.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/2nd/avatars/1.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/images/2nd/people.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/assets/chain.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/browserconfig.xml"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/android-icon-144x144.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/public/favicon-32x32.png"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/fonts/Mulish-Regular.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/fonts/Mulish-Light.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/fonts/Mulish-Medium.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/animated-heading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/use-reveal-cascade.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/use-preloader.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/three/chain-scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/three/plasma-burst-scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/three/gradient-background-scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/data/mocks/contact.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/data/mocks/product.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/hero-title.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/hero.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/product.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/footer-scene.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/works.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/home.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/site-footer.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/chain.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/plasma-burst.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/showcase.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/plasma-controls.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/stats.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/chain-controls.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/logo-marquee.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/site-nav.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/about.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/stride/files/src/views/contact-form.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/stride",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second"
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=stride",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.136Z",
+  "vaultVersion": 1
+}

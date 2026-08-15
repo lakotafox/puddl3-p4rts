@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/wizard-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "wizard-2",
+  "name": "wizard-2",
+  "title": "Wizard 2",
+  "description": "Full-screen task wizard with a centred progress bar, a step counter, and grouped form sections.",
+  "tags": [
+    "wizard",
+    "stepper",
+    "multi-step",
+    "flow",
+    "progress"
+  ],
+  "tagSource": "upstream",
+  "category": "wizard",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "wizard-2",
+      "path": "vault/reactbits-pro/blocks/wizard-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/wizard-2/files/wizard-2.tsx",
+          "bytes": 15906,
+          "sha256": "23c0985ec9ca852b616f4ff9230935bb3b672516e265238b622b9008ca07ac40"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Wizard2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/wizard-2/files/wizard-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "007e153f4de3b6b17c646747b513cdb7ce915fc774bba3641c5fed08d461f876"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Wizard2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/wizard-2/files/wizard-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/wizard-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/wizard-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "94e8e5819b290feac6b44cd0a91b2203b496301173c4b969bfa1d45b1256ae17",
+  "fetchedAt": "2026-08-14T05:56:24.128Z",
+  "vaultVersion": 1
+}

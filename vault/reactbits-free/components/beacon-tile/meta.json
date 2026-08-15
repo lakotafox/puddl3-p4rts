@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/beacon-tile",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "beacon-tile",
+  "name": "BeaconTile",
+  "title": "Beacon Tile",
+  "description": "Dynamic spotlight follows cursor casting gradient illumination.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SpotlightCard-JS-CSS",
+      "path": "vault/reactbits-free/components/beacon-tile/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/js-css/BeaconTile.css",
+          "bytes": 625,
+          "sha256": "d2e0a07a5b9edf383c74d7a3ee93d9e0c6cdfff21c861c67dca1ce88902d08f9"
+        },
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/js-css/BeaconTile.jsx",
+          "bytes": 739,
+          "sha256": "f31b73f72852c45cb8430abb568fac23aae95c545369b04795c0f76792bfd779"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BeaconTile",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beacon-tile/variants/js-css/BeaconTile.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "36b5f6dcc777a3c4c3b973f5b86ba6cf0eada81c56f4efafd5aae60b804b86c6"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SpotlightCard-JS-TW",
+      "path": "vault/reactbits-free/components/beacon-tile/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/js-tw/BeaconTile.jsx",
+          "bytes": 1524,
+          "sha256": "ffae3cd1b899ae3e0e91048401e305ba8230d8a01bd3a9c3d80246f13ca06dba"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BeaconTile",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beacon-tile/variants/js-tw/BeaconTile.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef46286f8992689dc487b7e8ea659f05005c3e782c202a69d65a6e6c688ce99f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SpotlightCard-TS-CSS",
+      "path": "vault/reactbits-free/components/beacon-tile/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/ts-css/BeaconTile.css",
+          "bytes": 625,
+          "sha256": "d2e0a07a5b9edf383c74d7a3ee93d9e0c6cdfff21c861c67dca1ce88902d08f9"
+        },
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/ts-css/BeaconTile.tsx",
+          "bytes": 1082,
+          "sha256": "4539624fd2c8caeb8ded04dfa639a39c05c585bd5d63559ea525f5e13b1ee2f9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BeaconTile",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beacon-tile/variants/ts-css/BeaconTile.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf22d4882594b9835daa05a8f27fdad76c72a8ab3c8378520afbd0304bd35e3c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SpotlightCard-TS-TW",
+      "path": "vault/reactbits-free/components/beacon-tile/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beacon-tile/variants/ts-tw/BeaconTile.tsx",
+          "bytes": 1860,
+          "sha256": "68a097df6a661390430ae03af412b8ce091a21253961ef24a9701c4df070ea56"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BeaconTile",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beacon-tile/variants/ts-tw/BeaconTile.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "beebd5f91e4198c2d315d870ff22d5ebbd688f5255ce32b3345d0a00341bb04c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BeaconTile",
+      "style": "default",
+      "file": "vault/reactbits-free/components/beacon-tile/variants/ts-tw/BeaconTile.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/beacon-tile",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SpotlightCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/spotlight-card"
+  },
+  "hash": "553bfa7d56716d6106d608653b5cf1e47da4a4f38c2106de7cd9a772649586db",
+  "fetchedAt": "2026-08-14T05:36:11.461Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BeaconTile",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "spotlight-card",
+  "upstreamName": "SpotlightCard"
+}

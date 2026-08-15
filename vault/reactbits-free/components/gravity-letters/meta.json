@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/gravity-letters",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "gravity-letters",
+  "name": "GravityLetters",
+  "title": "Gravity Letters",
+  "description": "Characters fall with gravity + bounce creating a playful entrance.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FallingText-JS-CSS",
+      "path": "vault/reactbits-free/components/gravity-letters/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/js-css/GravityLetters.css",
+          "bytes": 418,
+          "sha256": "d92e2aa001dad5eb4807e0a08d92e9e60ecca50aaea9e490923be0909f5beee4"
+        },
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/js-css/GravityLetters.jsx",
+          "bytes": 5637,
+          "sha256": "a40a309f056c3366ea77472563194af0aca5279f1176b4b06c8892259c750985"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "matter-js",
+          "range": "^0.20.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GravityLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gravity-letters/variants/js-css/GravityLetters.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8a606f256678a142fce264ac8b6d8a904f4986c4a8a5515657f7311f961fadeb"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FallingText-JS-TW",
+      "path": "vault/reactbits-free/components/gravity-letters/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/js-tw/GravityLetters.jsx",
+          "bytes": 5555,
+          "sha256": "4291586a7309a7097e2c5bcd0036dc69e710ea02206ca9965a6b092e240347ac"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "matter-js",
+          "range": "^0.20.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GravityLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gravity-letters/variants/js-tw/GravityLetters.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "078819c27fc072e82de09d317a56d45a77f79f2c6c3111af71d35043a2a2f17d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FallingText-TS-CSS",
+      "path": "vault/reactbits-free/components/gravity-letters/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/ts-css/GravityLetters.css",
+          "bytes": 418,
+          "sha256": "d92e2aa001dad5eb4807e0a08d92e9e60ecca50aaea9e490923be0909f5beee4"
+        },
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/ts-css/GravityLetters.tsx",
+          "bytes": 6045,
+          "sha256": "2a809189247704a07ec62728447d79b34ced30ab1657330c5aeb7e3944fcc9c8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "matter-js",
+          "range": "^0.20.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GravityLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gravity-letters/variants/ts-css/GravityLetters.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "79853d0a895fd7df843191d491c0fc02313b80a87384e149af065c633c5b7837"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FallingText-TS-TW",
+      "path": "vault/reactbits-free/components/gravity-letters/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gravity-letters/variants/ts-tw/GravityLetters.tsx",
+          "bytes": 5959,
+          "sha256": "9fda808cc97a8295aae11a529544990f1c3c0b22b356091cec97eb3ea2a5adec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "matter-js",
+          "range": "^0.20.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GravityLetters",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gravity-letters/variants/ts-tw/GravityLetters.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3727abe6a7f5b40dae09b142ebc956cafff880a179cadfe09557f72c37afbc28"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "matter-js",
+      "range": "^0.20.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GravityLetters",
+      "style": "default",
+      "file": "vault/reactbits-free/components/gravity-letters/variants/ts-tw/GravityLetters.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/gravity-letters",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FallingText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/falling-text"
+  },
+  "hash": "12462c4898a66293b9b181ed8da49f4905ef67ea1166cb26fd39a7e9ab9fbb28",
+  "fetchedAt": "2026-08-14T05:36:11.375Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "GravityLetters",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "falling-text",
+  "upstreamName": "FallingText"
+}

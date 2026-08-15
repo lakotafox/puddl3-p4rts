@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/billing-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "billing-7",
+  "name": "billing-7",
+  "title": "Billing 7",
+  "description": "Usage and overage view with metered allowances, limits, and an estimated total.",
+  "tags": [
+    "billing",
+    "invoices",
+    "subscriptions",
+    "plans",
+    "payments",
+    "usage"
+  ],
+  "tagSource": "upstream",
+  "category": "billing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "billing-7",
+      "path": "vault/reactbits-pro/blocks/billing-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/billing-7/files/billing-7.tsx",
+          "bytes": 10297,
+          "sha256": "4678437f1c406588e5d86005fbbfd4fb81181a605e85b42013604b1dce7b26ac"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Billing7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/billing-7/files/billing-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5b004cda1cfce580b825bd40ea37c58acdca7747c07e99eb0253c935ad0d8c2e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Billing7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/billing-7/files/billing-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/billing-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/billing-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d009c9a3f746b1190029d629860db9a8977e3f58d1112228bfd71fbf9876ef76",
+  "fetchedAt": "2026-08-14T05:43:03.749Z",
+  "vaultVersion": 1
+}

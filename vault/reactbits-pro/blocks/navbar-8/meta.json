@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-8",
+  "name": "navbar-8",
+  "title": "Navbar 8",
+  "description": "Segmented tab bar with an animated pill indicator, an overflow view menu, and toolbar actions.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-8",
+      "path": "vault/reactbits-pro/blocks/navbar-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-8/files/navbar-8.tsx",
+          "bytes": 11904,
+          "sha256": "bea7d1e8858cc7f6567876ba9f64c3331bdfd8234a3622a5f19ccc630f1df129"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-8/files/navbar-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53e8ecfbf2d0a6901c73faea4c1f2b9f3d0c78e9c1dbc737a60a781f2fcb8f6a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-8/files/navbar-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e3c1d763c53d0e94989859da0269981f15f7186ad3aaf25847be877dfb7ffd53",
+  "fetchedAt": "2026-08-14T05:49:58.343Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/departure-board",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "departure-board",
+  "name": "DepartureBoard",
+  "title": "Departure Board",
+  "description": "Mechanical split-flap departure board that clacks through to each new phrase.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SplitFlapText-JS-CSS",
+      "path": "vault/reactbits-free/components/departure-board/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/js-css/DepartureBoard.css",
+          "bytes": 3952,
+          "sha256": "f376e56f59aa26a3ee3df3947b96fb57eecb04916851ef9c509e879ffb6b1225"
+        },
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/js-css/DepartureBoard.jsx",
+          "bytes": 9442,
+          "sha256": "98da2cf3f8933fb95cfa76499d039d645549a32296b2b23c50e1771a49394419"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DepartureBoard",
+          "style": "default",
+          "file": "vault/reactbits-free/components/departure-board/variants/js-css/DepartureBoard.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2206d514f0d42dae1b56bae5bc9423d718544ac27f7c3a1b138307ed3c950691"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SplitFlapText-JS-TW",
+      "path": "vault/reactbits-free/components/departure-board/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/js-tw/DepartureBoard.jsx",
+          "bytes": 12709,
+          "sha256": "b1632cb09f86a8cb1272830dfcd4399376c0eacda219006f236662e2b4624510"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DepartureBoard",
+          "style": "default",
+          "file": "vault/reactbits-free/components/departure-board/variants/js-tw/DepartureBoard.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a7c78a0c454ee658d25bfefa521c924bf1d21601de4b1856c3cd2bbb4159ef77"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SplitFlapText-TS-CSS",
+      "path": "vault/reactbits-free/components/departure-board/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/ts-css/DepartureBoard.css",
+          "bytes": 3952,
+          "sha256": "f376e56f59aa26a3ee3df3947b96fb57eecb04916851ef9c509e879ffb6b1225"
+        },
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/ts-css/DepartureBoard.tsx",
+          "bytes": 10692,
+          "sha256": "2632b10e0c9ab7e329fce186aa765a67d6866d0f4b3866ab2fcd64c1aac55e25"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DepartureBoard",
+          "style": "default",
+          "file": "vault/reactbits-free/components/departure-board/variants/ts-css/DepartureBoard.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53750d5875dc9ec3d4ff0a56f02e73ad96d6785467c2be99a03aa853c63a4eef"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SplitFlapText-TS-TW",
+      "path": "vault/reactbits-free/components/departure-board/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/departure-board/variants/ts-tw/DepartureBoard.tsx",
+          "bytes": 13959,
+          "sha256": "83610de332d1dff1941fe27ea524179a0abae986ed5db0335a30f9175adf4258"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DepartureBoard",
+          "style": "default",
+          "file": "vault/reactbits-free/components/departure-board/variants/ts-tw/DepartureBoard.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d14e21f3ee79ee626c633b88dbe2ef12583af7cedfafb6fee380bab087a2a5da"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DepartureBoard",
+      "style": "default",
+      "file": "vault/reactbits-free/components/departure-board/variants/ts-tw/DepartureBoard.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/departure-board",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SplitFlapText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/split-flap-text"
+  },
+  "hash": "ed457d79893775e182305d3c9eae99ea3dfdfaf350410f355026ef358a975288",
+  "fetchedAt": "2026-08-14T05:36:11.460Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DepartureBoard",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "split-flap-text",
+  "upstreamName": "SplitFlapText"
+}

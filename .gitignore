@@ -1,0 +1,11 @@
+node_modules/
+.env
+cache/
+gallery/dist/
+gallery/node_modules/
+**/*.tsbuildinfo
+.DS_Store
+vault/getlayers/**/media/
+backups/
+scripts/data/shots/
+scripts/data/pro-test-results.json

@@ -1,0 +1,98 @@
+{
+  "id": "rb-pro/block/monitoring-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "monitoring-6",
+  "name": "monitoring-6",
+  "title": "Monitoring 6",
+  "description": "Uptime grid with per-day status bars, selectable windows, and per-service incident history.",
+  "tags": [
+    "monitoring",
+    "observability",
+    "metrics",
+    "charts",
+    "alerts",
+    "incidents",
+    "uptime",
+    "logs",
+    "slo"
+  ],
+  "tagSource": "upstream",
+  "category": "monitoring",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "monitoring-6",
+      "path": "vault/reactbits-pro/blocks/monitoring-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/monitoring-6/files/monitoring-6.tsx",
+          "bytes": 11431,
+          "sha256": "a156777730d7f299a8dac90b584f296ea920309607486bd18a2cf3d4d9d0645b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Monitoring6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/monitoring-6/files/monitoring-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "74aef5a1152a95bb1645ff7ffa6f35ab28037ef25c1758019b0c91808e08ce40"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Monitoring6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/monitoring-6/files/monitoring-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/monitoring-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/monitoring-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "154b6d54ebaa4eb4495c940802f9cc6145d730eae1324475fbf76ac4b9c305a8",
+  "fetchedAt": "2026-08-14T05:49:34.651Z",
+  "vaultVersion": 1
+}

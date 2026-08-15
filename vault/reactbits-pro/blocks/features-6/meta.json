@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/features-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-6",
+  "name": "features-6",
+  "title": "Features 6",
+  "description": "Four feature cards with colored gradient blobs and hover arrow accents",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-6",
+      "path": "vault/reactbits-pro/blocks/features-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-6/files/features-6.tsx",
+          "bytes": 4903,
+          "sha256": "a54290c5f10d398572a6a5265a17b662f36fa258968389f0c9ebe558083fc23c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-6/files/features-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a9b3423a936f00df286d28d38ef9cef069b97e7ed2d166e39d72edaf365ab3df"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-6/files/features-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "448433c2329d71200e5a1373b0c966ead3f91dcf61300b3e6c5f6d329519785d",
+  "fetchedAt": "2026-08-14T05:46:42.281Z",
+  "vaultVersion": 1
+}

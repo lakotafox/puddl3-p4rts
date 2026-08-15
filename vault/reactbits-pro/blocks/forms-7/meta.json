@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-7",
+  "name": "forms-7",
+  "title": "Forms 7",
+  "description": "Application form with a dropzone, radio cards, token input, and a completion meter.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-7",
+      "path": "vault/reactbits-pro/blocks/forms-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-7/files/forms-7.tsx",
+          "bytes": 38525,
+          "sha256": "34739b312b1c0e735c63a15f09f4aaea87e6edff0c10dd26fdf3b21e8753304e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-7/files/forms-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4dc181c6198201d0222b22be17911d125e0d120504022868453c2ef28f466593"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-7/files/forms-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b783a780e2641aeafaad1938d29f9d7e4ffc9f4db382d8f6250a20813f1175be",
+  "fetchedAt": "2026-08-14T05:47:48.140Z",
+  "vaultVersion": 1
+}

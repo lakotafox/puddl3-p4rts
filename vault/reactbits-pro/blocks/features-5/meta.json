@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-5",
+  "name": "features-5",
+  "title": "Features 5",
+  "description": "6-card grid with icons, CTAs, and dashed fade background",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-5",
+      "path": "vault/reactbits-pro/blocks/features-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-5/files/features-5.tsx",
+          "bytes": 8406,
+          "sha256": "b402c7ddbfe48352108a6c13ff080da895ad9fe1d79138aac0c622037b77745f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-5/files/features-5.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features5",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-5/files/features-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "78d285a86149e326131c345cc2ecee32196056b25f49a64bb7eee27cc696e66d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-5/files/features-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7f6e17a88cd33e45947ce284837e43f178db3a71265d1f479ede197d427f5e67",
+  "fetchedAt": "2026-08-14T05:46:40.809Z",
+  "vaultVersion": 1
+}

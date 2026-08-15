@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/skill/skill-editorial",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-editorial",
+  "name": "skill-editorial",
+  "title": "Editorial",
+  "description": "Build magazine-grade editorial landing pages with a real serif display face, an asymmetric 12-column grid, controlled measure in ch, correct drop caps and pull quotes, hairline rules, and images that bleed and break the grid.",
+  "tags": [
+    "skill",
+    "editorial",
+    "magazine",
+    "typography",
+    "serif",
+    "print",
+    "grid"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-editorial",
+      "path": "vault/reactbits-pro/agent-kit/skill-editorial/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-editorial/files/SKILL.md",
+          "bytes": 28871,
+          "sha256": "02b8a61dbdf080d0b026bf615bd533667e4c9a0b1a9233fed833412e5d054fbe"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-editorial/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "7cfb7df7ba02fbed2bba64576a1d1c2451c8679fa6279377be51173dc56c9a48"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-editorial",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-editorial.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4b6a9620a9dd95c1931c03faa85f45fb2f910de82d5059ece6f1feacec30102e",
+  "fetchedAt": "2026-08-14T05:54:57.855Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,129 @@
+{
+  "id": "rb-starter/component/depth-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "depth-deck",
+  "name": "DepthDeck",
+  "title": "Depth Deck",
+  "description": "3D layered card display with mouse-driven parallax depth effect",
+  "tags": [
+    "animation",
+    "cards",
+    "parallax",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "parallax-cards-css",
+      "path": "vault/reactbits-starter/components/depth-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/depth-deck/variants/css/depth-deck.tsx",
+          "bytes": 12149,
+          "sha256": "c10073ccce232563b7d857018026cbacce4ed3d424b819c465a402d57810db20"
+        },
+        {
+          "path": "vault/reactbits-starter/components/depth-deck/variants/css/depth-deck.css",
+          "bytes": 818,
+          "sha256": "dd1fd706a89fa4fe5333153bbc5fea6d0ac70b3d444ee18a2775b63096e38865"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DepthDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/depth-deck/variants/css/depth-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6f16a0cbbf9afe2ce9244101177b136e4d48303c15af882971bba9c6da4bdda2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "parallax-cards-tw",
+      "path": "vault/reactbits-starter/components/depth-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/depth-deck/variants/tw/depth-deck.tsx",
+          "bytes": 12550,
+          "sha256": "d2810a764151cbea1b425013f87defc7ff14b3217e3bcd157b20bc704e0410b4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DepthDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/depth-deck/variants/tw/depth-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6bbfa17068baeb76e5f277c8b42f156acd809e0dc7d21462210212bddf0544e0"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DepthDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/depth-deck/variants/tw/depth-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/depth-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/parallax-cards-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "320780ff25b8db2f8325b76110ea32f65ffa241f879c8f09d8852f51a2a166e7",
+  "fetchedAt": "2026-08-14T05:33:46.821Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "parallax-cards",
+  "upstreamName": "ParallaxCards"
+}

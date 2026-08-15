@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/pixel-pulse",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "pixel-pulse",
+  "name": "PixelPulse",
+  "title": "Pixel Pulse",
+  "description": "A crisp field of dots blinking in and out on a fixed grid",
+  "tags": [
+    "background",
+    "shader",
+    "dots",
+    "grid",
+    "webgl",
+    "minimal"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "blinking-dots-css",
+      "path": "vault/reactbits-starter/components/pixel-pulse/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pixel-pulse/variants/css/pixel-pulse.tsx",
+          "bytes": 14862,
+          "sha256": "c5c4b3fa917cc872bf93e88efc2b7e00172c529513288501d0fbd82737c2d4e7"
+        },
+        {
+          "path": "vault/reactbits-starter/components/pixel-pulse/variants/css/pixel-pulse.css",
+          "bytes": 218,
+          "sha256": "db2f42fbba2082bae64ea3e0b92b45ea9398df8ea38501529c3c5029658af9d4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PixelPulse",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pixel-pulse/variants/css/pixel-pulse.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2764e32000eec4ecf8f69b386e172b1a95f6438003c026efd1ee90e05c0704b0"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "blinking-dots-tw",
+      "path": "vault/reactbits-starter/components/pixel-pulse/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pixel-pulse/variants/tw/pixel-pulse.tsx",
+          "bytes": 14855,
+          "sha256": "b857ed74c0c7915c054a0ed115e9bf0fce6e413c84fea7eb34988db8d29eb526"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PixelPulse",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pixel-pulse/variants/tw/pixel-pulse.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c84b01e3b50bfb051d2173575d8ba94bc4ac535e0e49dc7e4a5e864e050e02b5"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PixelPulse",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/pixel-pulse/variants/tw/pixel-pulse.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/pixel-pulse",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/blinking-dots-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a393254ce12aaf8712303be2e8351f775b98a9ee73c0d716bdeff15da8485dae",
+  "fetchedAt": "2026-08-14T05:31:50.892Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "blinking-dots",
+  "upstreamName": "BlinkingDots"
+}

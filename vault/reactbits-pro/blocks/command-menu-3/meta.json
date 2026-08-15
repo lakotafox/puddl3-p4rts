@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/command-menu-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "command-menu-3",
+  "name": "command-menu-3",
+  "title": "Command Menu 3",
+  "description": "Search-first palette with typed filters and inline result previews.",
+  "tags": [
+    "navigation",
+    "command",
+    "palette",
+    "search",
+    "shortcuts"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "command-menu-3",
+      "path": "vault/reactbits-pro/blocks/command-menu-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/command-menu-3/files/command-menu-3.tsx",
+          "bytes": 25590,
+          "sha256": "3a4c6fb89982d7adf5f16e61051841f6ea6347719ef421a9cb6e24ef3fd51053"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CommandMenu3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/command-menu-3/files/command-menu-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3f4d2c1088b886c2c7414e894107a65f6ee6393bdeaf2db9ea1c6eca57e1b580"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CommandMenu3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/command-menu-3/files/command-menu-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/command-menu-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/command-menu-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6015abae6280fd00298da784abac552c7a4dc0ce1ffadb8db7b98cdfdb34b2d4",
+  "fetchedAt": "2026-08-14T05:43:53.766Z",
+  "vaultVersion": 1
+}

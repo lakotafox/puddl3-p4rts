@@ -1,0 +1,210 @@
+{
+  "id": "rb-free/component/hue-tiles",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "hue-tiles",
+  "name": "HueTiles",
+  "title": "Hue Tiles",
+  "description": "A responsive grid of grayscale tiles. Hovering the grid reaveals their colors.",
+  "tags": [
+    "background",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ChromaGrid-JS-CSS",
+      "path": "vault/reactbits-free/components/hue-tiles/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/js-css/HueTiles.css",
+          "bytes": 3615,
+          "sha256": "1d6831b06bdf52b4caed0733f7a2e1e19ea4fa7d26f4b23d2bec7ca8321ef89e"
+        },
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/js-css/HueTiles.jsx",
+          "bytes": 4793,
+          "sha256": "c3d90383696e2e15f629d77c89e1cc4a81106745d57bcdc1af3347cfc487861a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HueTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/js-css/HueTiles.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HueTiles",
+          "style": "named",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/js-css/HueTiles.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c04591f6d58e70cd2cca52cf22d681048d29b72d0c5c5cb2d9102c1cbfec9c48"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ChromaGrid-JS-TW",
+      "path": "vault/reactbits-free/components/hue-tiles/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/js-tw/HueTiles.jsx",
+          "bytes": 6956,
+          "sha256": "2bbc6ea1fd6c644af615973f7c354b72b7804d9cd8a8acde143651211abcbfc7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HueTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/js-tw/HueTiles.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "076cf25a5830bb9d5616004b7a56a9c72b1ae4721445eb4213112eda6c0c78be"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ChromaGrid-TS-CSS",
+      "path": "vault/reactbits-free/components/hue-tiles/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/ts-css/HueTiles.css",
+          "bytes": 3615,
+          "sha256": "1d6831b06bdf52b4caed0733f7a2e1e19ea4fa7d26f4b23d2bec7ca8321ef89e"
+        },
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/ts-css/HueTiles.tsx",
+          "bytes": 5568,
+          "sha256": "6c456698c700d7c09201e93114e97e0c6b1b938a6d36a7c02335e94a51b22130"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HueTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/ts-css/HueTiles.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HueTiles",
+          "style": "named",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/ts-css/HueTiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f1ed0d22b3e76f278bf1abce9c9f5c5305f4023e596c459d8e64ef9150a05aac"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ChromaGrid-TS-TW",
+      "path": "vault/reactbits-free/components/hue-tiles/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hue-tiles/variants/ts-tw/HueTiles.tsx",
+          "bytes": 7706,
+          "sha256": "dc3946ba8da6ed5f31bb4aa68dc7204af08788d04db9e7a67944458ca78bdbdb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HueTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hue-tiles/variants/ts-tw/HueTiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1c839257b3c838266cd00477dec9a4602edb05675a86d304b15a836265ffc836"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HueTiles",
+      "style": "default",
+      "file": "vault/reactbits-free/components/hue-tiles/variants/ts-tw/HueTiles.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/hue-tiles",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ChromaGrid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/chroma-grid"
+  },
+  "hash": "48c95dc94d5223ffaaccc6585879828bede0de7d72ddd9f110df568278cfd787",
+  "fetchedAt": "2026-08-14T05:36:11.347Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HueTiles",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "chroma-grid",
+  "upstreamName": "ChromaGrid"
+}

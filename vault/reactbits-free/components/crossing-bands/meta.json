@@ -1,0 +1,238 @@
+{
+  "id": "rb-free/component/crossing-bands",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "crossing-bands",
+  "name": "CrossingBands",
+  "title": "Crossing Bands",
+  "description": "Crossing animated ribbons with customizable properties.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Beams-JS-CSS",
+      "path": "vault/reactbits-free/components/crossing-bands/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/js-css/CrossingBands.css",
+          "bytes": 74,
+          "sha256": "1fbc7849289da72741f91fe32c10566921eb4c18c68ff58324ea5024635f4c4f"
+        },
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/js-css/CrossingBands.jsx",
+          "bytes": 10419,
+          "sha256": "47c9399335515486181cef4094ed0175a860dc40255fe5852ab09b4d121a133b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrossingBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crossing-bands/variants/js-css/CrossingBands.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7381cbc0d1a14e4dae8ca20623609686f4aef6e2a9dd658017fe23173485f649"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Beams-JS-TW",
+      "path": "vault/reactbits-free/components/crossing-bands/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/js-tw/CrossingBands.jsx",
+          "bytes": 10403,
+          "sha256": "de5b3a721e4bab389db0bea0fab0e75d7bb7a3158af7de7a3b8aa6b966c24644"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrossingBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crossing-bands/variants/js-tw/CrossingBands.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b84e1eb146567e6cc49e8fe3543885eeb35e0ee3e28f4ebf8e236448534ba1a3"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Beams-TS-CSS",
+      "path": "vault/reactbits-free/components/crossing-bands/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/ts-css/CrossingBands.css",
+          "bytes": 74,
+          "sha256": "1fbc7849289da72741f91fe32c10566921eb4c18c68ff58324ea5024635f4c4f"
+        },
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/ts-css/CrossingBands.tsx",
+          "bytes": 12247,
+          "sha256": "42895d174e9cd1b7eee528838736c59c1f8be4aaf73498199099cf6f8b7db0cc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrossingBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crossing-bands/variants/ts-css/CrossingBands.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9d2ebebaf7fa4bb359d00b693d0bcd63091c76af1401ca5491540e2b14744a2e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Beams-TS-TW",
+      "path": "vault/reactbits-free/components/crossing-bands/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crossing-bands/variants/ts-tw/CrossingBands.tsx",
+          "bytes": 12231,
+          "sha256": "ed727c5bfc15ddb195b0c902493da846d2f3f7e6c061b1ef63fc239167f16e16"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrossingBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crossing-bands/variants/ts-tw/CrossingBands.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0ecd53edb51c18b57e916c054d8df719632f15fe178a3bf41f15af4ad1a92e79"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "^10.7.4"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CrossingBands",
+      "style": "default",
+      "file": "vault/reactbits-free/components/crossing-bands/variants/ts-tw/CrossingBands.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/crossing-bands",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Beams-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/beams"
+  },
+  "hash": "0b2bc8234d53f50320da60ea4e64ad750ea3d872a898e4fc74959451c674153a",
+  "fetchedAt": "2026-08-14T05:36:11.338Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CrossingBands",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "beams",
+  "upstreamName": "Beams"
+}

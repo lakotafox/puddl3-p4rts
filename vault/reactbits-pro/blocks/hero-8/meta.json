@@ -1,0 +1,97 @@
+{
+  "id": "rb-pro/block/hero-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-8",
+  "name": "hero-8",
+  "title": "Hero 8",
+  "description": "Large typography with expandable media tiles between text",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-8",
+      "path": "vault/reactbits-pro/blocks/hero-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-8/files/hero-8.tsx",
+          "bytes": 6631,
+          "sha256": "ab66d171a5c7e553055c77c71cdcdbef4581ab4bdbe51f00db90bef18521821b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-8/files/hero-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-8/files/hero-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7dcd91e3b4bae6eca42ea01c48b27132470490c8e7e16f38918f18030c696060"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-8/files/hero-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6ec9498bfe856a2c8efdf7900456c9c4ef61e39557b97cfc46e15a38d33f24e3",
+  "fetchedAt": "2026-08-14T05:48:25.516Z",
+  "vaultVersion": 1
+}

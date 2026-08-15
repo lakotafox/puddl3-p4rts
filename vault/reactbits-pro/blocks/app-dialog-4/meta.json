@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-4",
+  "name": "app-dialog-4",
+  "title": "App Dialog 4",
+  "description": "Multi-step dialog with a progress indicator and back and next navigation.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-4",
+      "path": "vault/reactbits-pro/blocks/app-dialog-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-4/files/app-dialog-4.tsx",
+          "bytes": 22347,
+          "sha256": "eb0b7cf2fd34333c522a678a2eabd8efecc8d721554c2c8e3305b7d114b6267e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-4/files/app-dialog-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0e26b6441483e402c2fba2713f67ef21b9d8a9672fd5583b43059876685cac5d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-4/files/app-dialog-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "173157824eb46214b7dafc8c30fcc3ebd956f49fee7ee587967f153364872faa",
+  "fetchedAt": "2026-08-14T05:37:22.391Z",
+  "vaultVersion": 1
+}

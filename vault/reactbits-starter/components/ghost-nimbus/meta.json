@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/ghost-nimbus",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ghost-nimbus",
+  "name": "GhostNimbus",
+  "title": "Ghost Nimbus",
+  "description": "Volumetric clouds tinted with drifting spectral light",
+  "tags": [
+    "background",
+    "shader",
+    "clouds",
+    "volumetric",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "spectral-clouds-css",
+      "path": "vault/reactbits-starter/components/ghost-nimbus/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ghost-nimbus/variants/css/ghost-nimbus.tsx",
+          "bytes": 18610,
+          "sha256": "0f8700e74f0d7339e0f730d433a38fdd5e0ca819a4b0e27220611a5549a84120"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ghost-nimbus/variants/css/ghost-nimbus.css",
+          "bytes": 224,
+          "sha256": "a2fd4c4134daa768c916b8443052018dbb6182662bd56564d79c696a5f0bda7d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GhostNimbus",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ghost-nimbus/variants/css/ghost-nimbus.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "GhostNimbus",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ghost-nimbus/variants/css/ghost-nimbus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4b2c1d63fa85aa9304f0470741be61711a83fb8f812dd0a17df579c7cd6e4fd4"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "spectral-clouds-tw",
+      "path": "vault/reactbits-starter/components/ghost-nimbus/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ghost-nimbus/variants/tw/ghost-nimbus.tsx",
+          "bytes": 18578,
+          "sha256": "df06d19aa4ef073d92fc5cf792c98d3a0f19a9faa20e6f4631c7d71faca7fe42"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GhostNimbus",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ghost-nimbus/variants/tw/ghost-nimbus.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "GhostNimbus",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ghost-nimbus/variants/tw/ghost-nimbus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bb4d07ff7664251d8a80ca30ad900268d1072c99fdbfe819ae89e8e8fdfae730"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GhostNimbus",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ghost-nimbus/variants/tw/ghost-nimbus.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ghost-nimbus",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/spectral-clouds-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e03cbbfa285ee12033da51c742281c193fd5073f0153c15792df24688bba18fe",
+  "fetchedAt": "2026-08-14T05:34:46.630Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "spectral-clouds",
+  "upstreamName": "SpectralClouds"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/download-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-7",
+  "name": "download-7",
+  "title": "Download 7",
+  "description": "Centered mobile app hero with store badges, a scan-to-install chip, and layered phone silhouettes.",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-7",
+      "path": "vault/reactbits-pro/blocks/download-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-7/files/download-7.tsx",
+          "bytes": 12878,
+          "sha256": "adefd54c0acd0027dfb9a23fd6c40c7c6afa2b7790973b59a18165c57113e9e0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-7/files/download-7.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Download7",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/download-7/files/download-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be5ea93c52120c602d773600870be7254b3812f211a78a5a15ae01b7bd70241d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-7/files/download-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "59d3187e727db2b9cce5382cbfe7d7770495ad15403d3c5d30ef85a797fc00f0",
+  "fetchedAt": "2026-08-14T05:45:41.419Z",
+  "vaultVersion": 1
+}

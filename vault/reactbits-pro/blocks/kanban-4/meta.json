@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/kanban-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "kanban-4",
+  "name": "kanban-4",
+  "title": "Kanban 4",
+  "description": "Board with a master-detail side panel holding properties, stage controls, and an activity thread.",
+  "tags": [
+    "kanban",
+    "board",
+    "drag and drop",
+    "sortable",
+    "columns",
+    "swimlane",
+    "backlog",
+    "sprint",
+    "task",
+    "project"
+  ],
+  "tagSource": "upstream",
+  "category": "kanban",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "kanban-4",
+      "path": "vault/reactbits-pro/blocks/kanban-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/kanban-4/files/kanban-4.tsx",
+          "bytes": 25259,
+          "sha256": "ce0133c020a99c4d91e9d5ab4b02fe329f642ab2e87a2087c676db3792d1b248"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Kanban4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/kanban-4/files/kanban-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9d90aa50a3bb59d6c43f6ecafd2a22a77b11c05e81ba3af12aec9a9e785c9db1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Kanban4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/kanban-4/files/kanban-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/kanban-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/kanban-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a874d2e617a20381d7f55b4dcb682f4375ca237e92d7a92f78bf75155d7224f9",
+  "fetchedAt": "2026-08-14T05:48:55.487Z",
+  "vaultVersion": 1
+}

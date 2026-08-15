@@ -1,0 +1,98 @@
+{
+  "id": "rb-pro/block/social-proof-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-8",
+  "name": "social-proof-8",
+  "title": "Social Proof 8",
+  "description": "Testimonial slider with progress indicators and floating button",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-8",
+      "path": "vault/reactbits-pro/blocks/social-proof-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-8/files/social-proof-8.tsx",
+          "bytes": 7001,
+          "sha256": "1097901cc2358ea3a319695d179590a44c2602982687c4652b8bf167024dc303"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-8/files/social-proof-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SocialProof8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/social-proof-8/files/social-proof-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c6c28debd4278e15bb35acbb41c7e36cdfc1fdecf0b5d6731211396e76be8360"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-8/files/social-proof-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dc45534f9f762f03e1ade32c527aae106f63531a141c99f46699f97f3e1195ed",
+  "fetchedAt": "2026-08-14T05:55:29.991Z",
+  "vaultVersion": 1
+}

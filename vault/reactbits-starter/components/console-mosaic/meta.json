@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/console-mosaic",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "console-mosaic",
+  "name": "ConsoleMosaic",
+  "title": "Console Mosaic",
+  "description": "A terminal-style grid of squares that flicker on and off",
+  "tags": [
+    "background",
+    "shader",
+    "grid",
+    "terminal",
+    "retro",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "squares-terminal-css",
+      "path": "vault/reactbits-starter/components/console-mosaic/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/console-mosaic/variants/css/console-mosaic.tsx",
+          "bytes": 11448,
+          "sha256": "29f6bafd8838ab01dcb3c45f0da9e2ee39e1a52722a81fc038e70059f66f9037"
+        },
+        {
+          "path": "vault/reactbits-starter/components/console-mosaic/variants/css/console-mosaic.css",
+          "bytes": 227,
+          "sha256": "f8875699fb63db2ca85138428ad4fa1c85571448751bec55a3aeb9fc77b94a3e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConsoleMosaic",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/console-mosaic/variants/css/console-mosaic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3cd089c2cbdf7d0135c064b751fe88478660c9513022d0c0595450cbfc616e64"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "squares-terminal-tw",
+      "path": "vault/reactbits-starter/components/console-mosaic/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/console-mosaic/variants/tw/console-mosaic.tsx",
+          "bytes": 11429,
+          "sha256": "8018b1af4aff8430ab9215a4f348e077ee6b823e71b6ff659489ef739c737ae2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConsoleMosaic",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/console-mosaic/variants/tw/console-mosaic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "87bd6ecc76cde37fed3251c42d385d974421b7490c82d35f16384b7321bfc7a1"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ConsoleMosaic",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/console-mosaic/variants/tw/console-mosaic.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/console-mosaic",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/squares-terminal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "048b2bc2efde8bbb8d3832107a7079816c39788a36844063505748f1f1c8d54c",
+  "fetchedAt": "2026-08-14T05:34:51.773Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "squares-terminal",
+  "upstreamName": "SquaresTerminal"
+}

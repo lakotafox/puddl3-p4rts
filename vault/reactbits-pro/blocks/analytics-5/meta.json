@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-5",
+  "name": "analytics-5",
+  "title": "Analytics 5",
+  "description": "Donut chart with a bound legend and a hover-following centre total.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-5",
+      "path": "vault/reactbits-pro/blocks/analytics-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-5/files/analytics-5.tsx",
+          "bytes": 10557,
+          "sha256": "8a806cce323c43f0c6651046695d06239726694b49dc2d1333b5e2c1b3ecd3f2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-5/files/analytics-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a014668bde77d469e2bb970bd9f48f59d713b4e66e2e7cb2eeee439855666222"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-5/files/analytics-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ffdb01fe79c7553167e783288ceb5fdd45a3a3dd6d2594cf109cac5f88f719fb",
+  "fetchedAt": "2026-08-14T05:37:10.312Z",
+  "vaultVersion": 1
+}

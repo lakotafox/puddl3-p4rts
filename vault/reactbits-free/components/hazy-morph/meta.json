@@ -1,0 +1,188 @@
+{
+  "id": "rb-free/component/hazy-morph",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "hazy-morph",
+  "name": "HazyMorph",
+  "title": "Hazy Morph",
+  "description": "Morphing blurred geometric shape. The effect occurs on hover.",
+  "tags": [
+    "effect",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ShapeBlur-JS-CSS",
+      "path": "vault/reactbits-free/components/hazy-morph/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hazy-morph/variants/js-css/HazyMorph.jsx",
+          "bytes": 7193,
+          "sha256": "bd5c185a14fa8cf088496cab6d1d96a9e8fd22079394c808ff852d9f8287a132"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HazyMorph",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hazy-morph/variants/js-css/HazyMorph.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42c7675f32937382d1dc286afeb1fa472041af7cc17b1f22615289b2723bafce"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ShapeBlur-JS-TW",
+      "path": "vault/reactbits-free/components/hazy-morph/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hazy-morph/variants/js-tw/HazyMorph.jsx",
+          "bytes": 7170,
+          "sha256": "c711b3316c42f970bfdf7d45c5e27156536f8c87fa805c1811cdd0581b3f3714"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HazyMorph",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hazy-morph/variants/js-tw/HazyMorph.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "24ed8b97d0afb544a076d12967f47fbf34c16b4509bdad4093117458d4001c81"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ShapeBlur-TS-CSS",
+      "path": "vault/reactbits-free/components/hazy-morph/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hazy-morph/variants/ts-css/HazyMorph.tsx",
+          "bytes": 7333,
+          "sha256": "21a9c7aff58e4b64ad7bd2d5c8e34fe98583ab05d6881b60168004dc7cab0792"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HazyMorph",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hazy-morph/variants/ts-css/HazyMorph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "399008aaafdb0a7eaeb30ef9d1a2f92059134dd76f89b7d73bec766e59b39361"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ShapeBlur-TS-TW",
+      "path": "vault/reactbits-free/components/hazy-morph/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hazy-morph/variants/ts-tw/HazyMorph.tsx",
+          "bytes": 7649,
+          "sha256": "b9871edd9b66a5645e8f3b78f89a0daf9a8eb4026b092ce45c09d885b353e9b9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HazyMorph",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hazy-morph/variants/ts-tw/HazyMorph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "63944a5685be15dda1fba1e468b5d0ad46203c09e62d98936f1a4c5af9355a9b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HazyMorph",
+      "style": "default",
+      "file": "vault/reactbits-free/components/hazy-morph/variants/ts-tw/HazyMorph.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/hazy-morph",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ShapeBlur-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/shape-blur"
+  },
+  "hash": "e9d180bd7418de812efca3cc311121e736736a1ba098d598349a69ebde236e6d",
+  "fetchedAt": "2026-08-14T05:36:11.451Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HazyMorph",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "shape-blur",
+  "upstreamName": "ShapeBlur"
+}

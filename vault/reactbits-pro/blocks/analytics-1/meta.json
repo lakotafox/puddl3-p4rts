@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/analytics-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-1",
+  "name": "analytics-1",
+  "title": "Analytics 1",
+  "description": "Metric strip with hover-scrubbable sparklines and a range segmented control.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-1",
+      "path": "vault/reactbits-pro/blocks/analytics-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-1/files/analytics-1.tsx",
+          "bytes": 12127,
+          "sha256": "ed67906a8f09f9bd411b92685071f1ea8f515e8c53ae22eb765ec304d5f2a307"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-1/files/analytics-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "003c32678aa63819bb0cecaee7311c3e2276b4035762bb35481d9095e7773456"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-1/files/analytics-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dcaccbb8aa87f9472e5f99e530bd0a6d8c88b1a651879de35c9dae56eb1b1775",
+  "fetchedAt": "2026-08-14T05:36:54.029Z",
+  "vaultVersion": 1
+}

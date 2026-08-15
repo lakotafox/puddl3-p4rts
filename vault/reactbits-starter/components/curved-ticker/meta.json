@@ -1,0 +1,116 @@
+{
+  "id": "rb-starter/component/curved-ticker",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "curved-ticker",
+  "name": "CurvedTicker",
+  "title": "Curved Ticker",
+  "description": "A marquee that bends along a curve as it scrolls",
+  "tags": [
+    "marquee",
+    "curve",
+    "scroll",
+    "text",
+    "motion",
+    "kinetic"
+  ],
+  "tagSource": "upstream",
+  "category": "marquee",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "bending-marquee-css",
+      "path": "vault/reactbits-starter/components/curved-ticker/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/curved-ticker/variants/css/curved-ticker.tsx",
+          "bytes": 11693,
+          "sha256": "45deb1aeb0b32ba10b0c3954efd73d6b2548c748f7f2e8ad68d5f9c05cc8e09a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/curved-ticker/variants/css/curved-ticker.css",
+          "bytes": 975,
+          "sha256": "c8adf394b82fc02257d1ef9ec478aa67b51e0010eb3f38eb51a8f042e865cf7a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CurvedTicker",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/curved-ticker/variants/css/curved-ticker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b21b35510064716368e3cd2261eff2fab35d583e215a24139420be820b66796f"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "bending-marquee-tw",
+      "path": "vault/reactbits-starter/components/curved-ticker/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/curved-ticker/variants/tw/curved-ticker.tsx",
+          "bytes": 11875,
+          "sha256": "67d3e9c2dcf5af7d5f95c957e4d94e7d4b5fc81907d9ea2d7a713e17999685a7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CurvedTicker",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/curved-ticker/variants/tw/curved-ticker.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9dfb5a5f84f5b16f24d133465027cd17c813bc359637b50d91958aeff2446ccd"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CurvedTicker",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/curved-ticker/variants/tw/curved-ticker.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/curved-ticker",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/bending-marquee-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "9734465b5f070280545a4b7db85da35f4f4a91fa59ad7ba9b38dc6093a6969ea",
+  "fetchedAt": "2026-08-14T05:31:47.324Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "bending-marquee",
+  "upstreamName": "BendingMarquee"
+}

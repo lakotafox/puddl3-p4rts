@@ -1,0 +1,92 @@
+{
+  "id": "rb-pro/block/404-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "404-3",
+  "name": "404-3",
+  "title": "404 3",
+  "description": "Centered 404 page with blurred large numerals and a compact CTA",
+  "tags": [
+    "404",
+    "error",
+    "page"
+  ],
+  "tagSource": "upstream",
+  "category": "404",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "404-3",
+      "path": "vault/reactbits-pro/blocks/404-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/404-3/files/404-3.tsx",
+          "bytes": 3188,
+          "sha256": "015b48cc76b33091d552dac5b08357706d4671a022f43ac2b4a00f1dce66626b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NotFound3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/404-3/files/404-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8734dd70c7b417755901b0d4b9f598db5970c09986495a6ded82fa1bd784521"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NotFound3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/404-3/files/404-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/404-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/404-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6ba615c4087e8ce45b9e9eed2297fce8e31a4cd804a5fef6e9106eeaa1353bec",
+  "fetchedAt": "2026-08-14T05:35:33.776Z",
+  "vaultVersion": 1
+}

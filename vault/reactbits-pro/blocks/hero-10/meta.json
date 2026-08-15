@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-10",
+  "name": "hero-10",
+  "title": "Hero 10",
+  "description": "Centered text with three stacked card elements",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-10",
+      "path": "vault/reactbits-pro/blocks/hero-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-10/files/hero-10.tsx",
+          "bytes": 3915,
+          "sha256": "a3e3108065f98535e14a288ff638cf4cb63290b647e35ff574ab25b511fd0c27"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-10/files/hero-10.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero10",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-10/files/hero-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "56c5793bbb0d3d5de5e3634b497282861ef1115f76102e9c573fe484ca23ac81"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-10/files/hero-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "69056d3c137a823920829980e2ad832553fa283ceb3f184b82ab267aec05646a",
+  "fetchedAt": "2026-08-14T05:47:54.136Z",
+  "vaultVersion": 1
+}

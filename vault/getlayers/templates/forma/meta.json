@@ -1,0 +1,405 @@
+{
+  "id": "getlayers/template/forma",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "forma",
+  "name": "Forma",
+  "title": "Forma",
+  "description": "Single-screen fintech hero for PUDDL3 wage-streaming — live earnings metric, ripple video panel, early-access capture form",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "forma",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "forma",
+      "path": "vault/getlayers/templates/forma/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/forma/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/favicon-16x16.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/open-graph.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-192x192.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-72x72.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-96x96.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-36x36.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/apple-icon-180x180.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-48x48.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/assets/hero/showcase-trails.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/assets/hero/purple-valley.mp4"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/browserconfig.xml"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/android-icon-144x144.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/public/favicon-32x32.png"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/fonts/GeneralSans-Light.otf"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/fonts/GeneralSans-Regular.otf"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/submit-arrow-button.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/meter.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/arrow-link-button.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/ring-dot.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/ui/chip-link.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/preloader/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/preloader/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/cursor/cursor.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/cursor/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/intro/use-intro.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/home.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/hero.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/intro-reveal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/copy-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/metric-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/intro-meter.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/hero-heading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/ripple-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/showcase-card.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/animated-text.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/hero-media.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/forma/files/src/views/home/hero/contact-form.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/forma",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=forma",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.041Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/ai-usage-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-usage-4",
+  "name": "ai-usage-4",
+  "title": "AI Usage 4",
+  "description": "Per-seat usage list with team filters, search, and individual spend caps.",
+  "tags": [
+    "ai",
+    "usage",
+    "tokens",
+    "billing",
+    "quota",
+    "cost"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-usage-4",
+      "path": "vault/reactbits-pro/blocks/ai-usage-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-usage-4/files/ai-usage-4.tsx",
+          "bytes": 8492,
+          "sha256": "b2c610b5cb2f6b89bb998e9da10dcf42f49a47068e0662c963e68d3e7cbbfd23"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AiUsage4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-usage-4/files/ai-usage-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fbfea7412021e8178e0a3154df85a5f82de48b6fc8367c0f4fe3c562831a536a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiUsage4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-usage-4/files/ai-usage-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-usage-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-usage-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0167df5af0cb1f6f030518fb3e510af0144812aa4d268a56d7e245e365fb26e3",
+  "fetchedAt": "2026-08-14T05:36:46.718Z",
+  "vaultVersion": 1
+}

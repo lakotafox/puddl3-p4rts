@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-4",
+  "name": "cta-4",
+  "title": "CTA 4",
+  "description": "Centered CTA with infinitely scrolling cards",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-4",
+      "path": "vault/reactbits-pro/blocks/cta-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-4/files/cta-4.tsx",
+          "bytes": 4846,
+          "sha256": "7091b62f67b916400f7297177558ef2330e2a6ee9a286d5bde4d5b2050877a63"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cta4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-4/files/cta-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fd1cc1f9319aeb952d283cafa86e39905ac817474bcada6fd566e300aa8c58fe"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cta4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-4/files/cta-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ce5953e8eeabb563ebf6bfb55de9271c2e7c4831e0d451d67e286c2eadfc6e1f",
+  "fetchedAt": "2026-08-14T05:44:50.296Z",
+  "vaultVersion": 1
+}

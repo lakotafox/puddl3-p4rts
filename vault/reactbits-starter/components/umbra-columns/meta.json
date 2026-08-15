@@ -1,0 +1,154 @@
+{
+  "id": "rb-starter/component/umbra-columns",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "umbra-columns",
+  "name": "UmbraColumns",
+  "title": "Umbra Columns",
+  "description": "Animated shadow bar effect with depth",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "shadow-bars-css",
+      "path": "vault/reactbits-starter/components/umbra-columns/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/umbra-columns/variants/css/umbra-columns.tsx",
+          "bytes": 10556,
+          "sha256": "9febb630cf0cee36ecfd73c4897047b078e59a7df0211d29484cd10a00dc988c"
+        },
+        {
+          "path": "vault/reactbits-starter/components/umbra-columns/variants/css/umbra-columns.css",
+          "bytes": 114,
+          "sha256": "886d5658b98f9451af53df9b436586e188dfe8098eec2db924a71b03ff3b8472"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "UmbraColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/umbra-columns/variants/css/umbra-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "40ac1fce90f1a5973c11078658b6031bf0259b3102b0d01195f3b119ddc1b156"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "shadow-bars-tw",
+      "path": "vault/reactbits-starter/components/umbra-columns/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/umbra-columns/variants/tw/umbra-columns.tsx",
+          "bytes": 10422,
+          "sha256": "c12c8c78623dd26a2ec1121d971eb55032770d392909ee1d60addac4447d5269"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "UmbraColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/umbra-columns/variants/tw/umbra-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "887981fb00ab2fd67a0b0f7cddf2eed0f1327a41f95e172df0207946dc9d5402"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "UmbraColumns",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/umbra-columns/variants/tw/umbra-columns.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/umbra-columns",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/shadow-bars-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "326802da962e23a7634fec92d77fb70a0f0e5ea88595636de5c77643298ebbde",
+  "fetchedAt": "2026-08-14T05:34:32.688Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "shadow-bars",
+  "upstreamName": "ShadowBars"
+}

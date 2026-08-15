@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-6",
+  "name": "filtering-6",
+  "title": "Filtering 6",
+  "description": "Candidate search driven by a skill token input, pay range, and seniority.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-6",
+      "path": "vault/reactbits-pro/blocks/filtering-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-6/files/filtering-6.tsx",
+          "bytes": 40367,
+          "sha256": "4a5ced9a4c77328b7b8f32fe07169878a5c6efbe66561b1f9d205b4c02678711"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-6/files/filtering-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e65e9642c8d5036371ff406b784d84b4697b2efc5c70203cd0761f13b5e689c6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-6/files/filtering-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c8fcf5cf98a092bb36681de79b400eb9938b7a2f10f84ba0f0e750432d9906e1",
+  "fetchedAt": "2026-08-14T05:47:10.686Z",
+  "vaultVersion": 1
+}

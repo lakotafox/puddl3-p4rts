@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/auth-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "auth-4",
+  "name": "auth-4",
+  "title": "Auth 4",
+  "description": "Framed split-panel sign-in with OAuth, password toggle, and an orbital trust-ring showcase with customer quote.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "authentication"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "auth-4",
+      "path": "vault/reactbits-pro/blocks/auth-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/auth-4/files/auth-4.tsx",
+          "bytes": 16862,
+          "sha256": "79405cc4ac36e35cc9a6625c48918c7b807d87ac60d660a653c8578f4d0ce63a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Auth4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/auth-4/files/auth-4.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Auth4",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/auth-4/files/auth-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b118da0a2a0d5e2fc7c0b54c49c329275326c758f2bca63ba2bbc4d229e3b6e2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Auth4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/auth-4/files/auth-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/auth-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/auth-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "470fac7f7a946959404f9d327270399b6762b39fe3b729f9d630df4d7ae8ecd7",
+  "fetchedAt": "2026-08-14T05:37:56.592Z",
+  "vaultVersion": 1
+}

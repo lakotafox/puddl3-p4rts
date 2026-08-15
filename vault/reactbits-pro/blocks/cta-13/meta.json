@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-13",
+  "name": "cta-13",
+  "title": "CTA 13",
+  "description": "Editorial serif CTA panel with halftone print texture and a single decisive action",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-13",
+      "path": "vault/reactbits-pro/blocks/cta-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-13/files/cta-13.tsx",
+          "bytes": 6834,
+          "sha256": "a9a1c4092101431671a9b36506c37c42fac28373982707acab05b8899fae09a6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-13/files/cta-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ec2a2f54ded4c48de936929c3e7fbc1287daca7192666787bca43c42ed34335d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-13/files/cta-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6e5e4b2e8461ec9f972d7bc4f02bc73146c156b160e0e07689166b24fbfaad76",
+  "fetchedAt": "2026-08-14T05:44:44.281Z",
+  "vaultVersion": 1
+}

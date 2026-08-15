@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-10",
+  "name": "social-proof-10",
+  "title": "Social Proof 10",
+  "description": "Case study grid with brand logos, category tags, and arrow CTAs",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-10",
+      "path": "vault/reactbits-pro/blocks/social-proof-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-10/files/social-proof-10.tsx",
+          "bytes": 9322,
+          "sha256": "68f40771ad8fbdc4c55018c6e2431e9f3c9efddb65bab20ebac3079c7a406107"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-10/files/social-proof-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae7a3ed8fe3b46e688c18e27d28b1553f0da5bc7852f069a41adcb26f6b695d3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-10/files/social-proof-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a515614048a712f6d94ec97bdd786e3a7d9f136481322920696b5710afef688a",
+  "fetchedAt": "2026-08-14T05:55:09.511Z",
+  "vaultVersion": 1
+}

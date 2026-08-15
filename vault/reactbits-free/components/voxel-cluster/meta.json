@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/voxel-cluster",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "voxel-cluster",
+  "name": "VoxelCluster",
+  "title": "Voxel Cluster",
+  "description": "3D rotating cube cluster. Supports auto-rotation or hover interaction.",
+  "tags": [
+    "3d",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Cubes-JS-CSS",
+      "path": "vault/reactbits-free/components/voxel-cluster/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/js-css/VoxelCluster.css",
+          "bytes": 1481,
+          "sha256": "08422a80a363ac1de52660bbcefe4b13ea47b2905d44ca41d460d4abdd7db686"
+        },
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/js-css/VoxelCluster.jsx",
+          "bytes": 9144,
+          "sha256": "9717698594150ed2c886d81a60bccaf6e7778050738a3c5e691731c4ec374816"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VoxelCluster",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voxel-cluster/variants/js-css/VoxelCluster.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ece28fa3b8aeb2d316af5ec1457c40bca8b5a2ecfce380db89502308802ed677"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Cubes-JS-TW",
+      "path": "vault/reactbits-free/components/voxel-cluster/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/js-tw/VoxelCluster.jsx",
+          "bytes": 11420,
+          "sha256": "3394e8b1620a580e2d3b71a02c077a3b08feb1d3d6fc1e5d57fc77f787b67a45"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VoxelCluster",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voxel-cluster/variants/js-tw/VoxelCluster.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "318475e6a23b1d1a01ae927c976216271dbcdebec23df7f061ea8655d42e7c5c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Cubes-TS-CSS",
+      "path": "vault/reactbits-free/components/voxel-cluster/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/ts-css/VoxelCluster.css",
+          "bytes": 1481,
+          "sha256": "08422a80a363ac1de52660bbcefe4b13ea47b2905d44ca41d460d4abdd7db686"
+        },
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/ts-css/VoxelCluster.tsx",
+          "bytes": 10202,
+          "sha256": "5c51b4b6554fd5e7174cbcd3e71549c30dbc4b7e892108dd3ca813d01d225ae9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VoxelCluster",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voxel-cluster/variants/ts-css/VoxelCluster.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a4056eeb5ad60f753c65a01609101586d1773280a1a6358e9d2cbbc91212e013"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Cubes-TS-TW",
+      "path": "vault/reactbits-free/components/voxel-cluster/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voxel-cluster/variants/ts-tw/VoxelCluster.tsx",
+          "bytes": 12478,
+          "sha256": "a3f61a3f7fb1e21ed0db897fc4dfa030b97886240b1715f4af0efc221dbb5712"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VoxelCluster",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voxel-cluster/variants/ts-tw/VoxelCluster.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "789b910def01a1d16d1b60e844de8af9d822014a03614e66325b9c7b82253a7a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VoxelCluster",
+      "style": "default",
+      "file": "vault/reactbits-free/components/voxel-cluster/variants/ts-tw/VoxelCluster.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/voxel-cluster",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Cubes-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/cubes"
+  },
+  "hash": "81135ece9d1d4ed408d938bf5697e4c17032ae0969ed860463b67eaf32774889",
+  "fetchedAt": "2026-08-14T05:36:11.354Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "VoxelCluster",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "cubes",
+  "upstreamName": "Cubes"
+}

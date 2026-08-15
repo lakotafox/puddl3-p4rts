@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-11",
+  "name": "list-11",
+  "title": "List 11",
+  "description": "Support leaderboard with switchable measures, periods, and rank movement.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-11",
+      "path": "vault/reactbits-pro/blocks/list-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-11/files/list-11.tsx",
+          "bytes": 19996,
+          "sha256": "a1c884bba9c967d12466d04742dcb504d257f8ebd8cffa4364a38516d71993c4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-11/files/list-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d69266b3fe87d2c3c082623242f98c3ebebfd6f72a1c1adebdd73af8cac63465"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-11/files/list-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a9430911a3075740f3ebe11dfb242c4bff1a2c9087b29f430a018192dcb1930b",
+  "fetchedAt": "2026-08-14T05:49:02.857Z",
+  "vaultVersion": 1
+}

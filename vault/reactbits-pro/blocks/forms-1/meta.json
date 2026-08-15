@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-1",
+  "name": "forms-1",
+  "title": "Forms 1",
+  "description": "Label-left record form with a token field, live completion meter, and revert.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-1",
+      "path": "vault/reactbits-pro/blocks/forms-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-1/files/forms-1.tsx",
+          "bytes": 26061,
+          "sha256": "57fbfdbbf64602d94b6a8a6b68d04b29d68436328911111234b7287454f3e634"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-1/files/forms-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "75305785f5e071097e7db37f259be781a99a79a28bf9d6c6b893866c5dfb3198"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-1/files/forms-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b9cdcc4a3942fdfa802c71e0c9f551bca5e3c8efb64aea66295a2cc14aa5d019",
+  "fetchedAt": "2026-08-14T05:47:34.641Z",
+  "vaultVersion": 1
+}

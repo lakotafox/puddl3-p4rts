@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/settings-form-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "settings-form-2",
+  "name": "settings-form-2",
+  "title": "Settings Form 2",
+  "description": "Profile form with avatar upload, field validation, and inline help text.",
+  "tags": [
+    "forms",
+    "settings",
+    "preferences",
+    "profile",
+    "account"
+  ],
+  "tagSource": "upstream",
+  "category": "forms",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "settings-form-2",
+      "path": "vault/reactbits-pro/blocks/settings-form-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/settings-form-2/files/settings-form-2.tsx",
+          "bytes": 21406,
+          "sha256": "19dadb3b144509d5126264164284f7fb5b1d5f6bf73e43773a1b711037011a39"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SettingsForm2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/settings-form-2/files/settings-form-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9c8c6689a66bde4fd2891941a8c4887016ade8138038493f4e2874bf9ac99ea3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SettingsForm2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/settings-form-2/files/settings-form-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/settings-form-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/settings-form-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a22d3cd8fdc792e34eceab39639a0ffa82f9b656b7cc33e029d7446818a6b3f1",
+  "fetchedAt": "2026-08-14T05:54:34.869Z",
+  "vaultVersion": 1
+}

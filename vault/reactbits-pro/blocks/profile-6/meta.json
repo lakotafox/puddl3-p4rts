@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/profile-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "profile-6",
+  "name": "profile-6",
+  "title": "Profile 6",
+  "description": "Compact team grid with portrait cards, availability status, focus tags, and social links.",
+  "tags": [
+    "profile",
+    "user",
+    "account"
+  ],
+  "tagSource": "upstream",
+  "category": "profile",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "profile-6",
+      "path": "vault/reactbits-pro/blocks/profile-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/profile-6/files/profile-6.tsx",
+          "bytes": 8480,
+          "sha256": "138e7785d7f551a90fe7b22e73dc5d782d05fe05fad902d3412700a5ec628932"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Profile6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/profile-6/files/profile-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0d6ab1a664a2cc41a5c5d454aadb46d3b89c11f322d0b86f676e63177e3e849a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Profile6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/profile-6/files/profile-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/profile-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/profile-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a2b6e643b30ed638706bc8ea1688c2fa2e21f5330931a68d4df0cdb0471e17f0",
+  "fetchedAt": "2026-08-14T05:53:54.141Z",
+  "vaultVersion": 1
+}

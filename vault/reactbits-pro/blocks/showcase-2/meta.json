@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/showcase-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "showcase-2",
+  "name": "showcase-2",
+  "title": "Showcase 2",
+  "description": "Draggable infinite horizontal carousel with 3D hover effect",
+  "tags": [
+    "showcase",
+    "portfolio",
+    "gallery",
+    "display"
+  ],
+  "tagSource": "upstream",
+  "category": "showcase",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "showcase-2",
+      "path": "vault/reactbits-pro/blocks/showcase-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/showcase-2/files/showcase-2.tsx",
+          "bytes": 5910,
+          "sha256": "b9db2263156f6798b3b8755d8e68c1c7a1e7109e9900b143803a20883b779a98"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Showcase2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/showcase-2/files/showcase-2.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Showcase2",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/showcase-2/files/showcase-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5c0af1e39e8d3cbbe8100a729c31ff05e0d440e1c5b13226c8b371c4042977d4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Showcase2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/showcase-2/files/showcase-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/showcase-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/showcase-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5065b85ec805ee99ec5c7f9525d3c410702a379cb45d8bfcb84d31e2b8faba66",
+  "fetchedAt": "2026-08-14T05:54:43.806Z",
+  "vaultVersion": 1
+}

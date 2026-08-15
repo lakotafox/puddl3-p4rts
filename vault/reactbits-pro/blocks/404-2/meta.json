@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/404-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "404-2",
+  "name": "404-2",
+  "title": "404 - 2",
+  "description": "Full screen 404 text with centered layout and navigation button",
+  "tags": [
+    "404",
+    "error",
+    "page"
+  ],
+  "tagSource": "upstream",
+  "category": "404",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "404-2",
+      "path": "vault/reactbits-pro/blocks/404-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/404-2/files/404-2.tsx",
+          "bytes": 12703,
+          "sha256": "4b1c3a82177fedb28ff3024b6b76f129843ae7ffd1c620e661233b50520677f3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NotFound2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/404-2/files/404-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2fb5a8e8adcbf30fd8fefd74c8c0e4c7075b32c59d3327ef545f3905e519bf39"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NotFound2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/404-2/files/404-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/404-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/404-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fe1ea0d333491f83bfd2586500f9a93e342bd807b057be4facf4a0ac95c8a29a",
+  "fetchedAt": "2026-08-14T05:35:32.321Z",
+  "vaultVersion": 1
+}

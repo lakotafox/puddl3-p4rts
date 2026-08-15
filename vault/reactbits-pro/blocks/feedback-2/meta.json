@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/feedback-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "feedback-2",
+  "name": "feedback-2",
+  "title": "Feedback 2",
+  "description": "Recommendation survey with an eleven-point scale and score-aware follow-up.",
+  "tags": [
+    "feedback",
+    "survey",
+    "nps",
+    "rating",
+    "requests",
+    "voting"
+  ],
+  "tagSource": "upstream",
+  "category": "feedback",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "feedback-2",
+      "path": "vault/reactbits-pro/blocks/feedback-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/feedback-2/files/feedback-2.tsx",
+          "bytes": 9717,
+          "sha256": "73bc0f0d60a157a87cdb99cf83574e063608ec1deee22e5bd2b83dd96444066e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Feedback2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/feedback-2/files/feedback-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "846e8e701d22e6594cc1d652ca6ab95f4f8e5014d6b1fa12791bdea43d1ae16e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Feedback2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/feedback-2/files/feedback-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/feedback-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/feedback-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dee9472ea2fa2a4d9a49d87c60a3af4d32cba21f9806d68ed7972750728e8113",
+  "fetchedAt": "2026-08-14T05:46:49.610Z",
+  "vaultVersion": 1
+}

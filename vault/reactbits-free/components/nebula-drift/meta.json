@@ -1,0 +1,221 @@
+{
+  "id": "rb-free/component/nebula-drift",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "nebula-drift",
+  "name": "NebulaDrift",
+  "title": "Nebula Drift",
+  "description": "Organic plasma gradients swirl + morph with smooth turbulence.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Plasma-JS-CSS",
+      "path": "vault/reactbits-free/components/nebula-drift/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/js-css/NebulaDrift.css",
+          "bytes": 95,
+          "sha256": "baa8d4161067b0ec491ef6e9dc081ac1284a15c35a837fa478dcfb929b66d89d"
+        },
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/js-css/NebulaDrift.jsx",
+          "bytes": 9887,
+          "sha256": "4ab9d0afac98969b39e72e907eb4c2a07db99fcd3b4998c010ae8a320edacf27"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/js-css/NebulaDrift.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NebulaDrift",
+          "style": "named",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/js-css/NebulaDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "95269e76b0950ab227fc0e9ba5ff716c331d551b0d445cfe527854020e1e4967"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Plasma-JS-TW",
+      "path": "vault/reactbits-free/components/nebula-drift/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/js-tw/NebulaDrift.jsx",
+          "bytes": 9903,
+          "sha256": "322285cb5494e53e8f865fdfc65e60bf397caf8993434979e9c2d4e5634587d8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/js-tw/NebulaDrift.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NebulaDrift",
+          "style": "named",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/js-tw/NebulaDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bd183b463967efa7babf50e1ea00f8aff19fe6f44b5881d3523a57303db04df0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Plasma-TS-CSS",
+      "path": "vault/reactbits-free/components/nebula-drift/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/ts-css/NebulaDrift.css",
+          "bytes": 95,
+          "sha256": "baa8d4161067b0ec491ef6e9dc081ac1284a15c35a837fa478dcfb929b66d89d"
+        },
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/ts-css/NebulaDrift.tsx",
+          "bytes": 10727,
+          "sha256": "d04a010f04d3adc758b2ae8a6468f294d52105ed54a769a81a2560ae638424b6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/ts-css/NebulaDrift.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NebulaDrift",
+          "style": "named",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/ts-css/NebulaDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "02bda690aef36ff5a0f2d90581b767e1a98c893e356e0c914a771ce0854e377a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Plasma-TS-TW",
+      "path": "vault/reactbits-free/components/nebula-drift/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/nebula-drift/variants/ts-tw/NebulaDrift.tsx",
+          "bytes": 10925,
+          "sha256": "26a3a4c54fd106ca482b8f69928d24bef74e81bd8900f13977923b76cc8c4817"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NebulaDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/ts-tw/NebulaDrift.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NebulaDrift",
+          "style": "named",
+          "file": "vault/reactbits-free/components/nebula-drift/variants/ts-tw/NebulaDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "981d1ff158d4b85ae285a0db4e9e2656b4bf04054a380bb1691d035db7a1b92a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NebulaDrift",
+      "style": "default",
+      "file": "vault/reactbits-free/components/nebula-drift/variants/ts-tw/NebulaDrift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/nebula-drift",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Plasma-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/plasma"
+  },
+  "hash": "23fb556900923de4fc71061d0313a7eef662abf7c4034b7c746c46b99c155b02",
+  "fetchedAt": "2026-08-14T05:36:11.438Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "NebulaDrift",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "plasma",
+  "upstreamName": "Plasma"
+}

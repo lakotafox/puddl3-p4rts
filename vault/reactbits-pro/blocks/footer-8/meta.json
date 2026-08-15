@@ -1,0 +1,91 @@
+{
+  "id": "rb-pro/block/footer-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-8",
+  "name": "footer-8",
+  "title": "Footer 8",
+  "description": "Minimal centered footer with social icon row and link columns",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-8",
+      "path": "vault/reactbits-pro/blocks/footer-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-8/files/footer-8.tsx",
+          "bytes": 7541,
+          "sha256": "15226bf95a5fc2beef258ff980ca6f1b8f9ad28c309c66859d6ace76ff2f8ed8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-8/files/footer-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "faa5d69bd77c3a265f0cc66028beca2c6b45f8a0ad720b3b941a7b48de8b635d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-8/files/footer-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "50ac136609e7cdbaa00fbdad53ae03be29ec48e6451db1df2c93c7313bf5fb7f",
+  "fetchedAt": "2026-08-14T05:47:31.474Z",
+  "vaultVersion": 1
+}

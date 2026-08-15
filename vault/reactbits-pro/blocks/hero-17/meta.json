@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-17",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-17",
+  "name": "hero-17",
+  "title": "Hero 17",
+  "description": "Two-column e-commerce hero with promo pill, bold headline, body copy, and stacked product image grid",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-17",
+      "path": "vault/reactbits-pro/blocks/hero-17/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-17/files/hero-17.tsx",
+          "bytes": 4636,
+          "sha256": "177e819ab90927b3a7fd2cc4e3f2ea5e471819d2a2b9d45df01696452e646a83"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero17",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-17/files/hero-17.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero17",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-17/files/hero-17.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e46573bffc7cd3760e624aaecafd5a39555cfa2fe53a3e7273e45a2741998674"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero17",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-17/files/hero-17.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-17",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-17.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c707bc33257aaa52669bb1aa7bd5b2eede12caf9fdb699d268c54e7a787e8267",
+  "fetchedAt": "2026-08-14T05:48:04.683Z",
+  "vaultVersion": 1
+}

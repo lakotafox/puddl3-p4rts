@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-14",
+  "name": "analytics-14",
+  "title": "Analytics 14",
+  "description": "Scatter plot with quadrant guides, bubble sizing, and nearest-point hit testing.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-14",
+      "path": "vault/reactbits-pro/blocks/analytics-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-14/files/analytics-14.tsx",
+          "bytes": 19132,
+          "sha256": "709e7d1eb6d22152eca288ff1b68386533f21b27fd7ded6badf2af1cc35181ac"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-14/files/analytics-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3fa5d640dff492921e530ed71cda8fe36ae0cb4ba11309cd3bb4e5eb8a0c7b50"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-14/files/analytics-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c07d7ad404b2132ae45eac4109f7d12b1c55518c7fcf0a999a2df65affe10822",
+  "fetchedAt": "2026-08-14T05:37:01.411Z",
+  "vaultVersion": 1
+}

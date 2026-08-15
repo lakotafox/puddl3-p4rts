@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/footer-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-12",
+  "name": "footer-12",
+  "title": "Footer 12",
+  "description": "Newsletter console footer with a dark dispatch panel, live status vitals, nav columns, and a slim legal bar.",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-12",
+      "path": "vault/reactbits-pro/blocks/footer-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-12/files/footer-12.tsx",
+          "bytes": 10272,
+          "sha256": "2af59966e343a76107cf2b1a71ddd477085c5b94ed022c39ce7a4186648e3308"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-12/files/footer-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "52fe96a971f043f7328898f2aa051e1290b4720f9faa1c5c1b17418eb3f74e39"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-12/files/footer-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8ac2e4842ac89f7d035e5418495dc4f355a1d7ba4572bd1fd1b172dbfa0398fc",
+  "fetchedAt": "2026-08-14T05:47:21.092Z",
+  "vaultVersion": 1
+}

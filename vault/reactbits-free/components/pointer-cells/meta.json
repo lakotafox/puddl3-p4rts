@@ -1,0 +1,173 @@
+{
+  "id": "rb-free/component/pointer-cells",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "pointer-cells",
+  "name": "PointerCells",
+  "title": "Pointer Cells",
+  "description": "Canvas grid whose cells light up around the cursor with configurable radius, falloff and click pulses.",
+  "tags": [
+    "background",
+    "cursor"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CursorGrid-JS-CSS",
+      "path": "vault/reactbits-free/components/pointer-cells/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/js-css/PointerCells.css",
+          "bytes": 165,
+          "sha256": "7e95fdfbe584d9db6baf1fe2a098d8c821b0936f67faf24f11ef1de383c0bc59"
+        },
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/js-css/PointerCells.jsx",
+          "bytes": 8851,
+          "sha256": "8b8eebac35d19a68fa52645189d238e2e6be3863d8f79cee849c28f488d8ba18"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerCells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-cells/variants/js-css/PointerCells.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2c0ecd840442c83cef68fafcc63b76a2e56b1b8683d8fdfc43afc25990b711a4"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CursorGrid-JS-TW",
+      "path": "vault/reactbits-free/components/pointer-cells/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/js-tw/PointerCells.jsx",
+          "bytes": 8851,
+          "sha256": "84e015b04ffc232bab0a3edcc4b5c85b59a5f3e540892be1038843c818e4e9fb"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerCells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-cells/variants/js-tw/PointerCells.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "353adbfbf68160f477b6f3e773f8509d53d2b577fdf19bde5bc749bd289d7344"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CursorGrid-TS-CSS",
+      "path": "vault/reactbits-free/components/pointer-cells/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/ts-css/PointerCells.css",
+          "bytes": 165,
+          "sha256": "7e95fdfbe584d9db6baf1fe2a098d8c821b0936f67faf24f11ef1de383c0bc59"
+        },
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/ts-css/PointerCells.tsx",
+          "bytes": 9943,
+          "sha256": "656c8d6a729b40470036b1b20d0e67024b58ac6285d85c918f68d05235ffae22"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerCells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-cells/variants/ts-css/PointerCells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5161e7df78fb4c18a538822ef5ed3cb35039d80e84aad0f06221bb8cbb33f121"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CursorGrid-TS-TW",
+      "path": "vault/reactbits-free/components/pointer-cells/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-cells/variants/ts-tw/PointerCells.tsx",
+          "bytes": 9943,
+          "sha256": "9324c60706bd962b078039f293ef2fc139b493ac483debe062486d1e956c5b80"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerCells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-cells/variants/ts-tw/PointerCells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80dfb8eb9e922b8bdb717a76099a8b59ee255b2610740a3d91497f41f66b2a49"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PointerCells",
+      "style": "default",
+      "file": "vault/reactbits-free/components/pointer-cells/variants/ts-tw/PointerCells.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/pointer-cells",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CursorGrid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/cursor-grid"
+  },
+  "hash": "fbe80fd1c42ad837d48b3f0b835664c6a0367e4eb9f1594d1903bc8e830ee086",
+  "fetchedAt": "2026-08-14T05:36:11.356Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PointerCells",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "cursor-grid",
+  "upstreamName": "CursorGrid"
+}

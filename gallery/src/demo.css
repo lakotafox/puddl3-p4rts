@@ -1,0 +1,40 @@
+/* react-bits' own global stylesheet, verbatim — fonts, CSS variables, and the
+   .demo-container / preview-control styling their demos rely on. */
+@import "../../vendor/reactbits/styles.css";
+@source "../../vendor/reactbits/**/*.{jsx,tsx,js,ts}";
+/* The vault is where Pro block/component source lives. Without this @source,
+   Tailwind never scans those files, so their utilities (dark:bg-neutral-950,
+   bg-linear-to-br, ...) are simply not generated — blocks render half-styled. */
+@source "../../vault/**/*.{jsx,tsx}";
+
+/* foxbits layout overrides.
+   Declared here rather than by editing the vendored CSS so a re-vendor cannot
+   silently drop them. Same specificity as the upstream rule and later in the
+   cascade, so these win. */
+.category-wrapper {
+  /* The Pro/Sponsors right rail is gone, but .category-wrapper still reserved
+     its column through padding-right: calc(var(--right-panel-width) + gap).
+     That reserved gutter is what pushed the preview left of centre. */
+  --right-panel-width: 0px;
+
+  /* Upstream caps the content column at 1080px to leave room for that rail.
+     With the rail gone the preview can use the width it actually has. */
+  --content-col-max: 1400px;
+}
+
+/* Tailwind v4 gotcha: `dark:` defaults to prefers-color-scheme, NOT the .dark
+   class. Pro blocks are authored for a shadcn setup where dark is class-based,
+   so without this the blocks render their light theme (bg-white) regardless of
+   the class on <html>. This is the standard shadcn v4 idiom. */
+@custom-variant dark (&:is(.dark *));
+
+/* ── sidebar on the RIGHT, content LEFT (user, 2026-08-15) ──
+   .category-wrapper insets are var-driven; swap which side reserves the
+   sidebar's width. The fixed sidebar itself is pinned by Chakra's left={0},
+   overridden here (our css loads after the vendored sheets). */
+.category-wrapper {
+  --content-inset-left: var(--app-gutter);
+  --content-inset-right: calc(var(--sidebar-width) + var(--content-gap));
+}
+.sidebar { left: auto !important; right: 0 !important; }
+.sidebar::before { left: auto; right: 0; }

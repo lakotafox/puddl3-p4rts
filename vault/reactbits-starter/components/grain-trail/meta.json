@@ -1,0 +1,151 @@
+{
+  "id": "rb-starter/component/grain-trail",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "grain-trail",
+  "name": "GrainTrail",
+  "title": "Grain Trail",
+  "description": "Cursor with dithering pixelated trail effect",
+  "tags": [
+    "cursor",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "dither-cursor-css",
+      "path": "vault/reactbits-starter/components/grain-trail/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/grain-trail/variants/css/grain-trail.tsx",
+          "bytes": 11154,
+          "sha256": "ce87ec32d650eec0ac85212f288c3cf41cb4ba711d4d3e303b762929c88bb1ee"
+        },
+        {
+          "path": "vault/reactbits-starter/components/grain-trail/variants/css/grain-trail.css",
+          "bytes": 142,
+          "sha256": "ebd4e5de5fccfd72e5c3f8975d612fb167b4992e7b43866eedbb7e5938cd3bee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GrainTrail",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/grain-trail/variants/css/grain-trail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4ec80866f41183858d8e943d798cb8cd77e8d8f81978fe017f7574e70357a7ce"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "dither-cursor-tw",
+      "path": "vault/reactbits-starter/components/grain-trail/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/grain-trail/variants/tw/grain-trail.tsx",
+          "bytes": 11209,
+          "sha256": "62277d1534854a15a8b205dc5a69339a63abc80b3bbf9d2f6767851cbfa38628"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GrainTrail",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/grain-trail/variants/tw/grain-trail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aca62f426005a1a24868c05e7d7675e1a611e92f540f29b7d98c1299c3414306"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "*"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GrainTrail",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/grain-trail/variants/tw/grain-trail.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/grain-trail",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/dither-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "ffa2abfe91856a33965c52bfabaa2df7d715da145f8bf74667d7520d4fbdcd02",
+  "fetchedAt": "2026-08-14T05:32:26.309Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "dither-cursor",
+  "upstreamName": "DitherCursor"
+}

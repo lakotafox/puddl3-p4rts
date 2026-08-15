@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/phantom-pointer",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "phantom-pointer",
+  "name": "PhantomPointer",
+  "title": "Phantom Pointer",
+  "description": "Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect.",
+  "tags": [
+    "cursor",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GhostCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/phantom-pointer/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/js-css/PhantomPointer.css",
+          "bytes": 180,
+          "sha256": "6aecc835ef3271c2e3b23516b4c408f92d036ab0205f8c51be12120ab1ed0784"
+        },
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/js-css/PhantomPointer.jsx",
+          "bytes": 16346,
+          "sha256": "1fffd960d1192044d6823cabbb7324781348e849ea9454a2405b926bdb54bf31"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhantomPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phantom-pointer/variants/js-css/PhantomPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d517197fca15215a0a721f48d06131ff0c76ce685952edc7763d18642c570f4"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GhostCursor-JS-TW",
+      "path": "vault/reactbits-free/components/phantom-pointer/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/js-tw/PhantomPointer.jsx",
+          "bytes": 16469,
+          "sha256": "e2b3bae748d7c490355e0d62dc39d05bc1f601cddefa0574fa135e8c3531fc8b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhantomPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phantom-pointer/variants/js-tw/PhantomPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "342e5de0bead572c356e2b20be87283a14ccc8206d2962ee4dfeda6b6480e8fc"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GhostCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/phantom-pointer/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/ts-css/PhantomPointer.css",
+          "bytes": 180,
+          "sha256": "6aecc835ef3271c2e3b23516b4c408f92d036ab0205f8c51be12120ab1ed0784"
+        },
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/ts-css/PhantomPointer.tsx",
+          "bytes": 17078,
+          "sha256": "fc01b42d6caf7f191f0c56ae28e681342661610ea2d9e9b55b2e8297704a924e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhantomPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phantom-pointer/variants/ts-css/PhantomPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dca59998964efea9bf97e00ce8a240acd9ed01284e65ef798505d6186eb746b1"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GhostCursor-TS-TW",
+      "path": "vault/reactbits-free/components/phantom-pointer/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/phantom-pointer/variants/ts-tw/PhantomPointer.tsx",
+          "bytes": 17285,
+          "sha256": "c44008225db551ffcc708b4f907c1ccadc4d635090c947ade414b30749024438"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhantomPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/phantom-pointer/variants/ts-tw/PhantomPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e53b0bd3a4c4dbfa0216a7493a62e1bb8f5358b18891a0c1ce25534506e0f484"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PhantomPointer",
+      "style": "default",
+      "file": "vault/reactbits-free/components/phantom-pointer/variants/ts-tw/PhantomPointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/phantom-pointer",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GhostCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ghost-cursor"
+  },
+  "hash": "3ed1a650e3cb68b9e02c18470103e2703d852cbe172a760e3e365400cbdf6199",
+  "fetchedAt": "2026-08-14T05:36:11.384Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PhantomPointer",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ghost-cursor",
+  "upstreamName": "GhostCursor"
+}

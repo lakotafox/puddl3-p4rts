@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/chrome-ink",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "chrome-ink",
+  "name": "ChromeInk",
+  "title": "Chrome Ink",
+  "description": "Liquid metallic paint shader which can be applied to SVG elements.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MetallicPaint-JS-CSS",
+      "path": "vault/reactbits-free/components/chrome-ink/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/js-css/ChromeInk.css",
+          "bytes": 93,
+          "sha256": "35e50fa9a110285e236d5c762e0d2064fbd97aac85a027ce72e6d091a846fe86"
+        },
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/js-css/ChromeInk.jsx",
+          "bytes": 15190,
+          "sha256": "ff18b414d80730b2725bae53dfc52ffda0db1b634ecb78fb0ee293e457385481"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChromeInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/chrome-ink/variants/js-css/ChromeInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45343ac0ea56eb654c6e660178d9a30b7ad46b2a758d48cdac1b328474d3e17e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MetallicPaint-JS-TW",
+      "path": "vault/reactbits-free/components/chrome-ink/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/js-tw/ChromeInk.jsx",
+          "bytes": 15179,
+          "sha256": "f6a221590af4a3fb9959d7bdd6166a110134454b99bb436cc40ec9928b668a23"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChromeInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/chrome-ink/variants/js-tw/ChromeInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6f00c2e5b730c726c69c421e98018e5145a8b559ed1f9286d1199890de53fae3"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MetallicPaint-TS-CSS",
+      "path": "vault/reactbits-free/components/chrome-ink/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/ts-css/ChromeInk.css",
+          "bytes": 93,
+          "sha256": "35e50fa9a110285e236d5c762e0d2064fbd97aac85a027ce72e6d091a846fe86"
+        },
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/ts-css/ChromeInk.tsx",
+          "bytes": 16175,
+          "sha256": "3f1f187d5724ca79106f955462eac0358ec7b9617d6f45c6a3937675d0dc16d6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChromeInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/chrome-ink/variants/ts-css/ChromeInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "64cae1edcb8fdf1a98a64bb4efa2d500e44a04920458f9ca51822709b64029ba"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MetallicPaint-TS-TW",
+      "path": "vault/reactbits-free/components/chrome-ink/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/chrome-ink/variants/ts-tw/ChromeInk.tsx",
+          "bytes": 16164,
+          "sha256": "842a20c90a76a8ec0e5d9bf941a34458c3b236059a1d1ddacac5afeb6ad2535b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChromeInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/chrome-ink/variants/ts-tw/ChromeInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "50d5c0116b04de771a0ac88b957b8dd2569263fd90a9c7ff6aabffb75db80145"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ChromeInk",
+      "style": "default",
+      "file": "vault/reactbits-free/components/chrome-ink/variants/ts-tw/ChromeInk.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/chrome-ink",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MetallicPaint-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/metallic-paint"
+  },
+  "hash": "b093d0fee01b3a4dbeff299bd3134d24158eace331de194f0a709894c221a80f",
+  "fetchedAt": "2026-08-14T05:36:11.422Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ChromeInk",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "metallic-paint",
+  "upstreamName": "MetallicPaint"
+}

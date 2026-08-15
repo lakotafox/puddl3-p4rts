@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/mist-orb",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "mist-orb",
+  "name": "MistOrb",
+  "title": "Mist Orb",
+  "description": "A soft, swirling sphere of fog",
+  "tags": [
+    "shader",
+    "3d",
+    "background",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "fog-sphere-css",
+      "path": "vault/reactbits-starter/components/mist-orb/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/mist-orb/variants/css/mist-orb.tsx",
+          "bytes": 13527,
+          "sha256": "6a03978787d5a8678beb8c418139b4ef744e8b2f88ea4434dc098d2b1ecc0981"
+        },
+        {
+          "path": "vault/reactbits-starter/components/mist-orb/variants/css/mist-orb.css",
+          "bytes": 187,
+          "sha256": "0e9139e2e8673c3ed663326685db1493e0da79a73866ec887a082ba4e144cd59"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MistOrb",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/mist-orb/variants/css/mist-orb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eaa4d3acb314c5be228753aa43fa0f0e27329c453f33d7ec2fbc581279e9dbc8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "fog-sphere-tw",
+      "path": "vault/reactbits-starter/components/mist-orb/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/mist-orb/variants/tw/mist-orb.tsx",
+          "bytes": 13522,
+          "sha256": "09eb1f48b998c406b49aa39f7ef2c7f2df1256fffc481c4a2864b0d89f599982"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MistOrb",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/mist-orb/variants/tw/mist-orb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "784d167e6ad85b30a9332eedb3cb73e020ec0a0a18e96c770ad396f76a62247f"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MistOrb",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/mist-orb/variants/tw/mist-orb.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/mist-orb",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/fog-sphere-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8a45f715d2affeaadde6eb09e3cc8f55505de4630c09b7e8ebd4692864db3d5f",
+  "fetchedAt": "2026-08-14T05:32:39.802Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "fog-sphere",
+  "upstreamName": "FogSphere"
+}

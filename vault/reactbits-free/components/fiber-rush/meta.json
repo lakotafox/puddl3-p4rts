@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/fiber-rush",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "fiber-rush",
+  "name": "FiberRush",
+  "title": "Fiber Rush",
+  "description": "A radial fibre-optic tunnel with light pulses racing into depth.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LightTunnel-JS-CSS",
+      "path": "vault/reactbits-free/components/fiber-rush/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/js-css/FiberRush.css",
+          "bytes": 101,
+          "sha256": "79a3421a4491779ccb145af2bfe25c786820f37eb753bd7592998aaf5cdfa343"
+        },
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/js-css/FiberRush.jsx",
+          "bytes": 11988,
+          "sha256": "7e755c8c02b6bcb1a64e7ff4d1feb3a6ffa14e648cf55424dc12f5b71b755540"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FiberRush",
+          "style": "default",
+          "file": "vault/reactbits-free/components/fiber-rush/variants/js-css/FiberRush.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "18dfbe9c0920210efd6ef14676f73a3ee2605990c85f9fc504b4fe996d0afc74"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LightTunnel-JS-TW",
+      "path": "vault/reactbits-free/components/fiber-rush/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/js-tw/FiberRush.jsx",
+          "bytes": 11976,
+          "sha256": "8a38144b1a93c4cc6732249035d7ce0d4f8aa23d6152e2ee1f03273dc72ac819"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FiberRush",
+          "style": "default",
+          "file": "vault/reactbits-free/components/fiber-rush/variants/js-tw/FiberRush.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "562679afe940cc005422cd7b6930330d53218550ddbb69306ea59a68e6525939"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LightTunnel-TS-CSS",
+      "path": "vault/reactbits-free/components/fiber-rush/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/ts-css/FiberRush.css",
+          "bytes": 101,
+          "sha256": "79a3421a4491779ccb145af2bfe25c786820f37eb753bd7592998aaf5cdfa343"
+        },
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/ts-css/FiberRush.tsx",
+          "bytes": 13280,
+          "sha256": "d9a2f5f31df3577fb0976111c4fab47c6491a9004d82a212460cbb47a73312a0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FiberRush",
+          "style": "default",
+          "file": "vault/reactbits-free/components/fiber-rush/variants/ts-css/FiberRush.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae94bbf9fecee1586d498157b14ccdcdb93f8575372b998ca21368eda34bffd1"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LightTunnel-TS-TW",
+      "path": "vault/reactbits-free/components/fiber-rush/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/fiber-rush/variants/ts-tw/FiberRush.tsx",
+          "bytes": 13268,
+          "sha256": "b1af91c9dbb848c8d2aaf1553657d7063525e85a4836ae52d5b207c87e5748c0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FiberRush",
+          "style": "default",
+          "file": "vault/reactbits-free/components/fiber-rush/variants/ts-tw/FiberRush.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e66a9c72ff9611a1b68150e944eb54190bdad0bdf2e202183916913e6ca94b7c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FiberRush",
+      "style": "default",
+      "file": "vault/reactbits-free/components/fiber-rush/variants/ts-tw/FiberRush.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/fiber-rush",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LightTunnel-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/light-tunnel"
+  },
+  "hash": "26219d124ba8253c97db6db73fa2a556c073b47d2c0201a05a2165da66663259",
+  "fetchedAt": "2026-08-14T05:36:11.410Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FiberRush",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "light-tunnel",
+  "upstreamName": "LightTunnel"
+}

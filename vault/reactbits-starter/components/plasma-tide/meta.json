@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/plasma-tide",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "plasma-tide",
+  "name": "PlasmaTide",
+  "title": "Plasma Tide",
+  "description": "Animated wave patterns with customizable colors and noise",
+  "tags": [
+    "animation",
+    "shader",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "shader-waves-css",
+      "path": "vault/reactbits-starter/components/plasma-tide/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/plasma-tide/variants/css/plasma-tide.tsx",
+          "bytes": 9345,
+          "sha256": "8c60526b2bd6e59b0603e8d02101d4df4f94ad6ae20a2b904da49104f8f726c1"
+        },
+        {
+          "path": "vault/reactbits-starter/components/plasma-tide/variants/css/plasma-tide.css",
+          "bytes": 249,
+          "sha256": "a4672bdd65e2c5e0f3933e311780a18cd789b1217cc04fea7b12ecee627a7e9d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlasmaTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/plasma-tide/variants/css/plasma-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dc00a988efe8debc7041d761aec13d840c5a23db61d89733947dc91ccdfe4446"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "shader-waves-tw",
+      "path": "vault/reactbits-starter/components/plasma-tide/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/plasma-tide/variants/tw/plasma-tide.tsx",
+          "bytes": 9411,
+          "sha256": "2a8f90c73e77d093461edae9aff21f8ca7bc27b49eb73a13a0448d4f432e8e13"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlasmaTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/plasma-tide/variants/tw/plasma-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7a2aad39849685ab06254ae9addad5c960907b329960760846ff5a15d99a9b85"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PlasmaTide",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/plasma-tide/variants/tw/plasma-tide.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/plasma-tide",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/shader-waves-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "03fdf8dc0c197900b1fed6b9704b3f0975a39959405282a96483f99c11376278",
+  "fetchedAt": "2026-08-14T05:34:30.959Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "shader-waves",
+  "upstreamName": "ShaderWaves"
+}

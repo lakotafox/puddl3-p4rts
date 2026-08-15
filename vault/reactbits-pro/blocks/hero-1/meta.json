@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-1",
+  "name": "hero-1",
+  "title": "Hero 1",
+  "description": "Clean two-column hero with CTA and social proof",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-1",
+      "path": "vault/reactbits-pro/blocks/hero-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-1/files/hero-1.tsx",
+          "bytes": 7808,
+          "sha256": "373c7118f8456cfee46112475323d39e51095e1fe9367096a3a401b18fde6025"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-1/files/hero-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero1",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-1/files/hero-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eb7f4111ae09fa726f910580956127a654cf7f62eeb22295369d0460f95a04d0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-1/files/hero-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "60f1f1c99d856795b23c01050674b84f7172e33d672a8674ac81adce2e53a16c",
+  "fetchedAt": "2026-08-14T05:47:52.667Z",
+  "vaultVersion": 1
+}

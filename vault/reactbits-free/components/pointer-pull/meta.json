@@ -1,0 +1,162 @@
+{
+  "id": "rb-free/component/pointer-pull",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "pointer-pull",
+  "name": "PointerPull",
+  "title": "Pointer Pull",
+  "description": "Elements magnetically ease toward the cursor then settle back with spring physics.",
+  "tags": [
+    "animation"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Magnet-JS-CSS",
+      "path": "vault/reactbits-free/components/pointer-pull/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-pull/variants/js-css/PointerPull.jsx",
+          "bytes": 2008,
+          "sha256": "b94a20ea6e2764512a180e7e3b16c6123bb16e3b45ad8f79d13079912989c5bc"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerPull",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-pull/variants/js-css/PointerPull.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "755ef424617747659e84ba1e3767c89039c86014666c8d26018a25812d6f96e5"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Magnet-JS-TW",
+      "path": "vault/reactbits-free/components/pointer-pull/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-pull/variants/js-tw/PointerPull.jsx",
+          "bytes": 2008,
+          "sha256": "b94a20ea6e2764512a180e7e3b16c6123bb16e3b45ad8f79d13079912989c5bc"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerPull",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-pull/variants/js-tw/PointerPull.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "755ef424617747659e84ba1e3767c89039c86014666c8d26018a25812d6f96e5"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Magnet-TS-CSS",
+      "path": "vault/reactbits-free/components/pointer-pull/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-pull/variants/ts-css/PointerPull.tsx",
+          "bytes": 2403,
+          "sha256": "c0b6fb4b1abd081ad1685cca39bcea71b648a05e6238330598668d0ee15330fa"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerPull",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-pull/variants/ts-css/PointerPull.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "721c95fcd621ffc476ce981e2b97c8e78d5648208351b0dd1d004bb7f095685c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Magnet-TS-TW",
+      "path": "vault/reactbits-free/components/pointer-pull/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pointer-pull/variants/ts-tw/PointerPull.tsx",
+          "bytes": 2403,
+          "sha256": "c0b6fb4b1abd081ad1685cca39bcea71b648a05e6238330598668d0ee15330fa"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerPull",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pointer-pull/variants/ts-tw/PointerPull.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "721c95fcd621ffc476ce981e2b97c8e78d5648208351b0dd1d004bb7f095685c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PointerPull",
+      "style": "default",
+      "file": "vault/reactbits-free/components/pointer-pull/variants/ts-tw/PointerPull.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/pointer-pull",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Magnet-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/magnet"
+  },
+  "hash": "72891fc05b77aa6008ecda90feb79781e64af4f9756f0505814959f2b004f648",
+  "fetchedAt": "2026-08-14T05:36:11.419Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PointerPull",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "magnet",
+  "upstreamName": "Magnet"
+}

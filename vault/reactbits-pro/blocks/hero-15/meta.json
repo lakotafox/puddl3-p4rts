@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-15",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-15",
+  "name": "hero-15",
+  "title": "Hero 15",
+  "description": "Centered serif italic headline with announcement pill, uppercase CTA, and chat-style input bar",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-15",
+      "path": "vault/reactbits-pro/blocks/hero-15/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-15/files/hero-15.tsx",
+          "bytes": 5248,
+          "sha256": "2c7dd7bf8643eda996eb40bc56ec1a8666ea837c7be560cdc396f1a7586b8255"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero15",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-15/files/hero-15.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero15",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-15/files/hero-15.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7fa3253f1105e9378285a7914fa6cdacabc0816056ce874a223d184d22bf3151"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero15",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-15/files/hero-15.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-15",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-15.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e29d41fecd2415b8b68d87e5a90f76a5053d91285bada7f3356c0225ff610226",
+  "fetchedAt": "2026-08-14T05:48:01.732Z",
+  "vaultVersion": 1
+}

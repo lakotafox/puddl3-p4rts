@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/skill/skill-swiss-grid",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-swiss-grid",
+  "name": "skill-swiss-grid",
+  "title": "Swiss Grid",
+  "description": "Build landing pages in the International Typographic Style: a visible 12-column modular grid, flush-left grotesque type at three sizes, and one accent used as data.",
+  "tags": [
+    "skill",
+    "systematic",
+    "swiss",
+    "grid",
+    "typographic",
+    "modular",
+    "grotesque"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-swiss-grid",
+      "path": "vault/reactbits-pro/agent-kit/skill-swiss-grid/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-swiss-grid/files/SKILL.md",
+          "bytes": 27865,
+          "sha256": "c5027e11c8c979e3d685f27331dfd2f845607a219c3d6ebf60aa4c36750442bf"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-swiss-grid/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "8e44afb2657569750aaf7fc0f970002e14a5e73ad90c3bcd546cf170f2684d9d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-swiss-grid",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-swiss-grid.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "96d29a5262ad07e5b1f8e6b478dce1f0b44eeb079c1af1700bd9ce057720576f",
+  "fetchedAt": "2026-08-14T05:55:04.807Z",
+  "vaultVersion": 1
+}

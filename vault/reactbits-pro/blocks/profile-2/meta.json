@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/profile-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "profile-2",
+  "name": "profile-2",
+  "title": "Profile 2",
+  "description": "Tabbed user profile card",
+  "tags": [
+    "profile",
+    "user",
+    "account"
+  ],
+  "tagSource": "upstream",
+  "category": "profile",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "profile-2",
+      "path": "vault/reactbits-pro/blocks/profile-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/profile-2/files/profile-2.tsx",
+          "bytes": 17786,
+          "sha256": "28379a544e8b589719a947397f4f85ca1a692a17ce9d52afd36f5f30f7f2700f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Profile2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/profile-2/files/profile-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f2a9e4404e0a4f018fa6d6dab57a2b52ffe881e6b37583123f902342e0dbb9f9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Profile2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/profile-2/files/profile-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/profile-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/profile-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "eeb095ad280ba8aca2f02ad3e2c7df7857d37741c7f48a1c635935f9aac42e4f",
+  "fetchedAt": "2026-08-14T05:53:48.227Z",
+  "vaultVersion": 1
+}

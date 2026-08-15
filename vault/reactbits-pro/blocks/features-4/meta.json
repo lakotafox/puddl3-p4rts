@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-4",
+  "name": "features-4",
+  "title": "Features 4",
+  "description": "Auto-cycling tabbed interface with smooth transitions and feature lists",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-4",
+      "path": "vault/reactbits-pro/blocks/features-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-4/files/features-4.tsx",
+          "bytes": 9149,
+          "sha256": "7787a3eefb058a0c16f649aa30b50e8acd80ad3732f10c19f8056cec1874953e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-4/files/features-4.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features4",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-4/files/features-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aee3ae109410fb0e074db4ef6794c75aa118899c1c88c912befb94b6590728df"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-4/files/features-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b3b33b265c795ff103f46dfd3ab938bcb6000694626992ce37f21380c422e8a4",
+  "fetchedAt": "2026-08-14T05:46:39.349Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/beam-ascent",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "beam-ascent",
+  "name": "BeamAscent",
+  "title": "Beam Ascent",
+  "description": "Ascending lines and particles with laser beam effect",
+  "tags": [
+    "animation",
+    "effect",
+    "shader",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rising-lines-css",
+      "path": "vault/reactbits-starter/components/beam-ascent/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/beam-ascent/variants/css/beam-ascent.tsx",
+          "bytes": 11601,
+          "sha256": "6ce798b17709dfea740006c86190b507bfc92441437adfce03f49d7e4e2e9581"
+        },
+        {
+          "path": "vault/reactbits-starter/components/beam-ascent/variants/css/beam-ascent.css",
+          "bytes": 62,
+          "sha256": "50956756e26afe60dc363fc388188b3c87399a93f3585b84945a3c4915f4664f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamAscent",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/beam-ascent/variants/css/beam-ascent.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamAscent",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/beam-ascent/variants/css/beam-ascent.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "32b426e1f31f01621d7c5608361c085a6f8c1ede0689fd50035c89903be02f48"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rising-lines-tw",
+      "path": "vault/reactbits-starter/components/beam-ascent/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/beam-ascent/variants/tw/beam-ascent.tsx",
+          "bytes": 12292,
+          "sha256": "7b728c2cdfd4351e886b22d97e6944dbc568cacd69ca50aa67b4879f8fddeb6d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamAscent",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/beam-ascent/variants/tw/beam-ascent.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamAscent",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/beam-ascent/variants/tw/beam-ascent.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "27e3220aa4eb528a527e21d729d76ce7560730c432d34099e2ad4901672bf444"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BeamAscent",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/beam-ascent/variants/tw/beam-ascent.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/beam-ascent",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rising-lines-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "90937164b9b7f099ea7f062ad3edcc2e72df68954a7cb78077519bbaae91c65d",
+  "fetchedAt": "2026-08-14T05:34:13.290Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rising-lines",
+  "upstreamName": "RisingLines"
+}

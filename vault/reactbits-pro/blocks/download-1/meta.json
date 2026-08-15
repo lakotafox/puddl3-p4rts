@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/download-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-1",
+  "name": "download-1",
+  "title": "Download 1",
+  "description": "Versioned download section with OS options",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-1",
+      "path": "vault/reactbits-pro/blocks/download-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-1/files/download-1.tsx",
+          "bytes": 12696,
+          "sha256": "0aa84404ef2b4a901b1592736842b6c4a5f925a919a411d645ef325440bdd5c4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-1/files/download-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Download1",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/download-1/files/download-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2dc43e5d8632137e784d79cc1b39974f6732c6ee619a7aace6688e157439e6f2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-1/files/download-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1e83972c31c34d1b9134f73f0aa4d4cd389c8b6a68b84adda0f2dac474c81232",
+  "fetchedAt": "2026-08-14T05:45:32.543Z",
+  "vaultVersion": 1
+}

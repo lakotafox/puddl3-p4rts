@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-10",
+  "name": "forms-10",
+  "title": "Forms 10",
+  "description": "Guest survey with a 0-10 scale, a rating matrix, and conditional follow-up questions.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-10",
+      "path": "vault/reactbits-pro/blocks/forms-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-10/files/forms-10.tsx",
+          "bytes": 33858,
+          "sha256": "14af04b38ee780b7b8fbbf48f1dda1e610753150db6489004a921eca9d4a1e64"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-10/files/forms-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "add981a4f32a26ca156ec16050acb3c5ac9384fedad096ea0f2283ab2bb19f7c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-10/files/forms-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "41640e6a60665025f0b1215f37df24c54609dcf9be15dce205730dd4aba71ac1",
+  "fetchedAt": "2026-08-14T05:47:36.144Z",
+  "vaultVersion": 1
+}

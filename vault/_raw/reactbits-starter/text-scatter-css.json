@@ -1,0 +1,21 @@
+{
+  "name": "text-scatter-css",
+  "type": "registry:component",
+  "description": "Interactive letter scatter effect (CSS version)",
+  "dependencies": [
+    "gsap"
+  ],
+  "files": [
+    {
+      "path": "components/react-bits/text-scatter.tsx",
+      "content": "\"use client\";\n\nimport React from \"react\";\nimport { gsap } from \"gsap\";\nimport \"./text-scatter.css\";\n\nexport interface TextScatterProps {\n  text?: string;\n  className?: string;\n  as?: React.ElementType;\n  velocity?: number;\n  rotation?: number;\n  scale?: number;\n  returnAfter?: number;\n  duration?: number;\n}\n\nconst TextScatter: React.FC<TextScatterProps> = ({\n  text = \"Bounce Back.\",\n  className = \"\",\n  as: Tag = \"h1\",\n  velocity = 200,\n  rotation = 90,\n  scale = 1,\n  returnAfter = 1,\n  duration = 2,\n}) => {\n  const handleMouseEnter = (e: React.MouseEvent<HTMLSpanElement>) => {\n    const target = e.currentTarget;\n    const rect = target.getBoundingClientRect();\n\n    const centerX = rect.left + rect.width / 2;\n    const centerY = rect.top + rect.height / 2;\n\n    const mouseX = e.clientX;\n    const mouseY = e.clientY;\n\n    const dx = centerX - mouseX;\n    const dy = centerY - mouseY;\n\n    const angle = Math.atan2(dy, dx);\n\n    const randomFactor = 0.8 + Math.random() * 0.4;\n    const force = velocity * randomFactor;\n\n    const moveX = Math.cos(angle) * force;\n    const moveY = Math.sin(angle) * force;\n\n    const rotate = (Math.random() - 0.5) * rotation * 2;\n\n    gsap.to(target, {\n      x: moveX,\n      y: moveY,\n      rotation: rotate,\n      scale: scale,\n      duration: duration,\n      ease: \"power4.out\",\n      overwrite: \"auto\",\n      onComplete: () => {\n        gsap.to(target, {\n          x: 0,\n          y: 0,\n          rotation: 0,\n          scale: 1,\n          duration: duration,\n          delay: returnAfter,\n          ease: \"elastic.out(1, 0.3)\",\n          overwrite: \"auto\",\n        });\n      },\n    });\n  };\n\n  return React.createElement(\n    Tag,\n    { className: `text-scatter ${className}` },\n    text.split(\"\").map((char, index) => (\n      <span\n        key={index}\n        className=\"text-scatter__letter\"\n        onMouseEnter={handleMouseEnter}\n        style={{ willChange: \"transform\" }}\n      >\n        {char === \" \" ? \"\\u00A0\" : char}\n      </span>\n    )),\n  );\n};\n\nexport default TextScatter;\n",
+      "type": "registry:component"
+    },
+    {
+      "path": "components/react-bits/text-scatter.css",
+      "content": ".text-scatter {\n  position: relative;\n  display: inline-block;\n  cursor: default;\n  user-select: none;\n}\n\n.text-scatter__letter {\n  display: inline-block;\n  position: relative;\n  white-space: pre;\n}\n\n.text-scatter__space {\n  display: inline-block;\n  white-space: pre;\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "docs": "https://pro.reactbits.dev/docs/components/text-scatter"
+}

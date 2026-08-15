@@ -1,0 +1,453 @@
+{
+  "id": "getlayers/template/auralis",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "auralis",
+  "name": "Auralis",
+  "title": "Auralis",
+  "description": "PUDDL3 — scroll-driven particle experience (glyph → hand → wave → tree) pitching real-time wage streaming",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "auralis",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "auralis",
+      "path": "vault/getlayers/templates/auralis/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/auralis/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/tsconfig.tsbuildinfo"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/tree/points.manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/tree/points.bin"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/hand/points.manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/hand/points.bin"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/brand/logo.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/points.manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/lights/light_3.png"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/lights/light_2.png"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/public/assets/lights/light_1.png"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/apple-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/opengraph-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/fonts/GoogleSansFlex_9pt-Light.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/fonts/GoogleSansFlex_9pt-ExtraLight.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/fonts/GoogleSansFlex_9pt-Regular.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/utils/scroll-progress.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/preloader/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/preloader/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-lights/hero-lights.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-lights/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/wave-overlay.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/mobile-menu.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/hero-overlay.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/hand-overlay.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/scroll-fade.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/tree-overlay.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/hero-overlay/live-dot.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/reveal/act-window.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/reveal/reveal-text.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/reveal/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/reveal/reveal-item.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/tuning-panel/tuning-panel.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/tuning-panel/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/grain/grain.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/grain/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/curl-noise.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/pointer-relax.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/rising-motes.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/hand-particles.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/wipe-line.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/tree-particles.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/scene.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/tuning.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/wipe-pass.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/scene-ready.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/bloom-pass.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/particle-cloud.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/random.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/backdrop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/dust.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/glyph-particles.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/containment-field.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/scene/particle-scene.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/lib/scene/device.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/auralis/files/src/views/home.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/auralis",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=auralis",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.296Z",
+  "vaultVersion": 1
+}

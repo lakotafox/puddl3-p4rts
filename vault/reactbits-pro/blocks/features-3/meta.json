@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-3",
+  "name": "features-3",
+  "title": "Features 3",
+  "description": "Grid with opposite-scrolling vertical marquees and gradient fades",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-3",
+      "path": "vault/reactbits-pro/blocks/features-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-3/files/features-3.tsx",
+          "bytes": 8173,
+          "sha256": "e7a068caeba55afb7233ef6b9cc4ef48bb7ad1a4dffd327b33a530221c7d86a4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-3/files/features-3.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features3",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-3/files/features-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "20312f64142a92b7047c3d641b4e92f6ed12c3ecb266450b2fca7d0dc546c95a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-3/files/features-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "95c0d83b5afca02173991f74de77d10f504bfe3eae03df8f3d43cfab96b5fc56",
+  "fetchedAt": "2026-08-14T05:46:37.864Z",
+  "vaultVersion": 1
+}

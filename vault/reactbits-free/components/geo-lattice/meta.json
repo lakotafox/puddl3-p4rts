@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/geo-lattice",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "geo-lattice",
+  "name": "GeoLattice",
+  "title": "Geo Lattice",
+  "description": "Animated grid with shape variants (square, hexagon, circle, triangle) + direction customization.",
+  "tags": [
+    "background"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ShapeGrid-JS-CSS",
+      "path": "vault/reactbits-free/components/geo-lattice/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/js-css/GeoLattice.css",
+          "bytes": 87,
+          "sha256": "4831b9df700da09f7708bf55999925b1e4ad1b5dfe5a5a76104637cc178abebf"
+        },
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/js-css/GeoLattice.jsx",
+          "bytes": 14755,
+          "sha256": "04fe8d6e21b4dd4aeff6c78c28f6173f0c56d06e9f4ddb554f796829af8f3bb7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GeoLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/geo-lattice/variants/js-css/GeoLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cb6ba3e3f3a6508f7acc8ee54ced6c60acf03026995720d7be7dba94654304e6"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ShapeGrid-JS-TW",
+      "path": "vault/reactbits-free/components/geo-lattice/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/js-tw/GeoLattice.jsx",
+          "bytes": 14970,
+          "sha256": "ec05512454440a19f61933bad5daeb1c19843cf974519f3607666aedcaaaaa82"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GeoLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/geo-lattice/variants/js-tw/GeoLattice.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0661b9a23180d476da2c2552363b7deb5129d850aa45a5841f3a6bc3a0704eed"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ShapeGrid-TS-CSS",
+      "path": "vault/reactbits-free/components/geo-lattice/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/ts-css/GeoLattice.css",
+          "bytes": 87,
+          "sha256": "4831b9df700da09f7708bf55999925b1e4ad1b5dfe5a5a76104637cc178abebf"
+        },
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/ts-css/GeoLattice.tsx",
+          "bytes": 15649,
+          "sha256": "bda11bb0d259d4ab7015d309c0970299a2281702e6fb5313560aa31ab910221a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GeoLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/geo-lattice/variants/ts-css/GeoLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3f2adaa87c604a031e173bd2a5d8476c82ec33709ba1e5eb7a6aa7ed0bc4d35b"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ShapeGrid-TS-TW",
+      "path": "vault/reactbits-free/components/geo-lattice/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/geo-lattice/variants/ts-tw/GeoLattice.tsx",
+          "bytes": 15638,
+          "sha256": "c1773b8b66364e01f494ff60985f9d66ddff876b84e19b68f650f25a3aadbd20"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GeoLattice",
+          "style": "default",
+          "file": "vault/reactbits-free/components/geo-lattice/variants/ts-tw/GeoLattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7b717bd0c4368f5a0d06be04efc5b53edfdaaef047318c5da106eb3befccf975"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GeoLattice",
+      "style": "default",
+      "file": "vault/reactbits-free/components/geo-lattice/variants/ts-tw/GeoLattice.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/geo-lattice",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ShapeGrid-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/shape-grid"
+  },
+  "hash": "2628eb591e14a566896476323e9066c8a312d0ee0cfc9129090b0153e43833c6",
+  "fetchedAt": "2026-08-14T05:36:11.452Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "GeoLattice",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "shape-grid",
+  "upstreamName": "ShapeGrid"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/extruded-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "extruded-type",
+  "name": "ExtrudedType",
+  "title": "Extruded Type",
+  "description": "Layered extruded type with parallax that shifts against the pointer.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DepthText-JS-CSS",
+      "path": "vault/reactbits-free/components/extruded-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/js-css/ExtrudedType.css",
+          "bytes": 1255,
+          "sha256": "9fa304ab16d3eb57f88709b7ff73ba43864bac1cf37d7a43a298a761807379b2"
+        },
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/js-css/ExtrudedType.jsx",
+          "bytes": 5658,
+          "sha256": "0f1eeaffd7bc7992a40e0c6561b49c4ec65a831221293384b0229d9be8adacf4"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ExtrudedType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/extruded-type/variants/js-css/ExtrudedType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2eaf32b033048512d3662f81f90ef7bc2b2c2d9991c887663fc7dabfc5ed72b3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DepthText-JS-TW",
+      "path": "vault/reactbits-free/components/extruded-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/js-tw/ExtrudedType.jsx",
+          "bytes": 6330,
+          "sha256": "0b26b36da01f28fa63ec9d21294950c4ba6f1f0acfdedc7ff0e9520e00740a6d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ExtrudedType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/extruded-type/variants/js-tw/ExtrudedType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "99f5e088e00a7cb6d01cd83c6124ac18be51f56251ecc3d132bd34934520b95e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DepthText-TS-CSS",
+      "path": "vault/reactbits-free/components/extruded-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/ts-css/ExtrudedType.css",
+          "bytes": 1255,
+          "sha256": "9fa304ab16d3eb57f88709b7ff73ba43864bac1cf37d7a43a298a761807379b2"
+        },
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/ts-css/ExtrudedType.tsx",
+          "bytes": 6372,
+          "sha256": "ce8708ccd5f1990d0e60f098aa5a76059327532bbf2f1973f04accf049afae12"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ExtrudedType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/extruded-type/variants/ts-css/ExtrudedType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "64ce7d42fd2521bcc7fa042b8bc8b9ecb5fd9dcf732efaf525fb2b3a84c906b2"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DepthText-TS-TW",
+      "path": "vault/reactbits-free/components/extruded-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/extruded-type/variants/ts-tw/ExtrudedType.tsx",
+          "bytes": 7072,
+          "sha256": "4278fa0795464ea2278e0c08312f7701ebafe388c83d69e278a80be6f71cc812"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ExtrudedType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/extruded-type/variants/ts-tw/ExtrudedType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45065f9c49ee188966205e0270d26e153603d439b5ea2491a27ca81bede7d76e"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ExtrudedType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/extruded-type/variants/ts-tw/ExtrudedType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/extruded-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DepthText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/depth-text"
+  },
+  "hash": "078500cf5cc21ca1e500791d4bea7d237e7478b0b6ecdcfb832a6ce86e9dfc22",
+  "fetchedAt": "2026-08-14T05:36:11.363Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ExtrudedType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "depth-text",
+  "upstreamName": "DepthText"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/ecommerce-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-5",
+  "name": "ecommerce-5",
+  "title": "Ecommerce 5",
+  "description": "Four-up product comparison with feature lists and buy buttons",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-5",
+      "path": "vault/reactbits-pro/blocks/ecommerce-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-5/files/ecommerce-5.tsx",
+          "bytes": 3941,
+          "sha256": "0ffb827f64e6a990388826ee8a1c9f82253d29d116fdff22ce82f2b5794518a4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-5/files/ecommerce-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "553be7bf7ffe709cf9dd599f259e1ff79f5f6ecc1de4b8014a73942e19cf98e9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-5/files/ecommerce-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c91377a4962aedd6ef910616600431bdc2e73af7c3b3daea37c0bc9db17c6fe8",
+  "fetchedAt": "2026-08-14T05:45:53.197Z",
+  "vaultVersion": 1
+}

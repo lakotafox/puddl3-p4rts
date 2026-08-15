@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-16",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-16",
+  "name": "hero-16",
+  "title": "Hero 16",
+  "description": "Full-bleed background image hero with logo, large headline, subtitle, and split CTA button",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-16",
+      "path": "vault/reactbits-pro/blocks/hero-16/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-16/files/hero-16.tsx",
+          "bytes": 3690,
+          "sha256": "5c7bb22b7b64fef347a5fb022958add2aec3396ef5d80c9b67d1181e207bd302"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero16",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-16/files/hero-16.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero16",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-16/files/hero-16.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0f91a853b48c255441da357d5662141b24e0eaa3501ed342fd05927fdb953b1c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero16",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-16/files/hero-16.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-16",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-16.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "536b18231d9256efd79065bf52d8b2d7ea4d900f44fe95cd34d65aab43fdeaa3",
+  "fetchedAt": "2026-08-14T05:48:03.198Z",
+  "vaultVersion": 1
+}

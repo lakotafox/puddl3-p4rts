@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/panel-cascade",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "panel-cascade",
+  "name": "PanelCascade",
+  "title": "Panel Cascade",
+  "description": "A wall of technical panels lighting up in sequence",
+  "tags": [
+    "background",
+    "shader",
+    "grid",
+    "tech",
+    "webgl",
+    "cyber"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "tech-wall-css",
+      "path": "vault/reactbits-starter/components/panel-cascade/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/panel-cascade/variants/css/panel-cascade.tsx",
+          "bytes": 18919,
+          "sha256": "4094ba2a254333c1605dbe9d00b5602b206e7dd381837f0dd349d8d89ee06fd5"
+        },
+        {
+          "path": "vault/reactbits-starter/components/panel-cascade/variants/css/panel-cascade.css",
+          "bytes": 206,
+          "sha256": "d7f4d1537cf6fd7cde48f7efa7e4fc9163def9d297ca727e13aa5a264dd9d4cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelCascade",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/panel-cascade/variants/css/panel-cascade.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PanelCascade",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/panel-cascade/variants/css/panel-cascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a453505e39c90954429a8a0f087c4b588e207171f1ffa7820f1c2b376a63730f"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "tech-wall-tw",
+      "path": "vault/reactbits-starter/components/panel-cascade/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/panel-cascade/variants/tw/panel-cascade.tsx",
+          "bytes": 18929,
+          "sha256": "45408a2b947ed851d2dc71a3e7a2faf9452ea76facb9e624f7b5467808704402"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelCascade",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/panel-cascade/variants/tw/panel-cascade.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PanelCascade",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/panel-cascade/variants/tw/panel-cascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5954db95c9e9b210d4a4779b9de4d69e772732d4bdd215a3b4a548986dab0006"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PanelCascade",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/panel-cascade/variants/tw/panel-cascade.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/panel-cascade",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/tech-wall-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8d1f350c918df73f88ae9f79c070e5a1a5487e5d21c5b232edcce175a0ebd411",
+  "fetchedAt": "2026-08-14T05:35:03.964Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "tech-wall",
+  "upstreamName": "TechWall"
+}

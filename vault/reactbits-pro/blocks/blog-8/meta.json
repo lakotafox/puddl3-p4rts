@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/blog-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "blog-8",
+  "name": "blog-8",
+  "title": "Blog 8",
+  "description": "Filterable changelog grid with a sliding category pill, live search, and floating image chips.",
+  "tags": [
+    "blog",
+    "articles",
+    "posts",
+    "content"
+  ],
+  "tagSource": "upstream",
+  "category": "blog",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "blog-8",
+      "path": "vault/reactbits-pro/blocks/blog-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/blog-8/files/blog-8.tsx",
+          "bytes": 11707,
+          "sha256": "539b65f574b9153a81c92fb949e4fa7e28256e9b0f2c20e07189a057196fea52"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Blog8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/blog-8/files/blog-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Blog8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/blog-8/files/blog-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c66cc3b651ec75bbadd0c7a170552dba58be62971ebaf6007ae21539266a4b21"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Blog8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/blog-8/files/blog-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/blog-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/blog-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "66cf5bf944c27af321990a27d69e03c5655b089ece7923cb368439baad747bee",
+  "fetchedAt": "2026-08-14T05:43:20.350Z",
+  "vaultVersion": 1
+}

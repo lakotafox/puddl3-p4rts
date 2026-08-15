@@ -1,0 +1,222 @@
+{
+  "id": "rb-free/component/pin-deck",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "pin-deck",
+  "name": "PinDeck",
+  "title": "Pin Deck",
+  "description": "Overlapping card stack reveals on scroll with depth layering.",
+  "tags": [
+    "scroll",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrollStack-JS-CSS",
+      "path": "vault/reactbits-free/components/pin-deck/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/js-css/PinDeck.css",
+          "bytes": 929,
+          "sha256": "90ee19352678314e850735b9f1ee80ba73dbdcb3baddb1eea8c05d32e3867802"
+        },
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/js-css/PinDeck.jsx",
+          "bytes": 9394,
+          "sha256": "4be439e98a47a91361c387484c693f6f630706da8f8db52eb4268e294823e4a7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lenis",
+          "range": "^1.3.13"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PinDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pin-deck/variants/js-css/PinDeck.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PinDeckItem",
+          "style": "named",
+          "file": "vault/reactbits-free/components/pin-deck/variants/js-css/PinDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c6cbde0264f4fb5df44c2fa7e32425584207f16831e910baf0e614643e71f71"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrollStack-JS-TW",
+      "path": "vault/reactbits-free/components/pin-deck/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/js-tw/PinDeck.jsx",
+          "bytes": 10308,
+          "sha256": "56feb08e9f912905f86161f15732bb955ed5cd5e11b4cb36029a6100a4e2b657"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lenis",
+          "range": "^1.3.13"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PinDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pin-deck/variants/js-tw/PinDeck.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PinDeckItem",
+          "style": "named",
+          "file": "vault/reactbits-free/components/pin-deck/variants/js-tw/PinDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "91320f4f777b7d0257ee07e5eb709adc75fcdb818df6101eca873bd6c51cda82"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrollStack-TS-CSS",
+      "path": "vault/reactbits-free/components/pin-deck/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/ts-css/PinDeck.css",
+          "bytes": 894,
+          "sha256": "47e050633962a7c0b16a7103c21c45ff99551535c58962e586b4b32251f55a77"
+        },
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/ts-css/PinDeck.tsx",
+          "bytes": 10103,
+          "sha256": "d31261c27cc14f6be3fc7521dbbe0164e6f101dd13de18609a8a369f6e17bb19"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lenis",
+          "range": "^1.3.13"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PinDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pin-deck/variants/ts-css/PinDeck.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PinDeckItem",
+          "style": "named",
+          "file": "vault/reactbits-free/components/pin-deck/variants/ts-css/PinDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5155078fb1d6b2a0e48862c8d1d7c8e2dcc620be8cd4611c87bb37f2bd747909"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrollStack-TS-TW",
+      "path": "vault/reactbits-free/components/pin-deck/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/pin-deck/variants/ts-tw/PinDeck.tsx",
+          "bytes": 10732,
+          "sha256": "16d18fb37fb5c14a69774bf1cf2a8f1442338de9eeb5fed4fd551ee75abd44d7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lenis",
+          "range": "^1.3.13"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PinDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/pin-deck/variants/ts-tw/PinDeck.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PinDeckItem",
+          "style": "named",
+          "file": "vault/reactbits-free/components/pin-deck/variants/ts-tw/PinDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bb48d3a0a569e2c23f783b891887755cde264c68d9011780d2848fd87a91bd6b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "lenis",
+      "range": "^1.3.13"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PinDeck",
+      "style": "default",
+      "file": "vault/reactbits-free/components/pin-deck/variants/ts-tw/PinDeck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/pin-deck",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrollStack-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scroll-stack"
+  },
+  "hash": "79c2a5fbdd531c0b2f270be8271ae412be5d6712312921ad640d0bc4f71cd4b1",
+  "fetchedAt": "2026-08-14T05:36:11.450Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PinDeck",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scroll-stack",
+  "upstreamName": "ScrollStack"
+}

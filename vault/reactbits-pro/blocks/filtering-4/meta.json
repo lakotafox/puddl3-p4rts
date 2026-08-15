@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-4",
+  "name": "filtering-4",
+  "title": "Filtering 4",
+  "description": "Log explorer with severity toggles, a service picker, and a volume histogram.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-4",
+      "path": "vault/reactbits-pro/blocks/filtering-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-4/files/filtering-4.tsx",
+          "bytes": 37474,
+          "sha256": "65c471552e32defb183822819e461f5890893188f538e0fea948aef14c2a0427"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-4/files/filtering-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "670861172f1121f8b16a7d3effc996b732d9cfc95dd0ac388380d1bf45cf865c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-4/files/filtering-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f0ac347061de009796565bf69ba5b0a615006c963ea503757ba0a29269883494",
+  "fetchedAt": "2026-08-14T05:47:07.707Z",
+  "vaultVersion": 1
+}

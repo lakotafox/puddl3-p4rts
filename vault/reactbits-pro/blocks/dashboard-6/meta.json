@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/dashboard-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-6",
+  "name": "dashboard-6",
+  "title": "Dashboard 6",
+  "description": "Analytics overview with a segmented control and comparison mode.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-6",
+      "path": "vault/reactbits-pro/blocks/dashboard-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-6/files/dashboard-6.tsx",
+          "bytes": 13254,
+          "sha256": "41e7e0d591809bc6663f064b21fdffbec180a1dd6dc4e0efd8ceb181cd448156"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dashboard6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-6/files/dashboard-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6f31e791e3aabaa040e924ec86eafac4f977c6c5c9e034c7987e57d4327fb29d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-6/files/dashboard-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "213e6e5b429d4cc7764a0276cdc91e614ab51530570903f55fc34bcdd96f8ab1",
+  "fetchedAt": "2026-08-14T05:45:14.584Z",
+  "vaultVersion": 1
+}

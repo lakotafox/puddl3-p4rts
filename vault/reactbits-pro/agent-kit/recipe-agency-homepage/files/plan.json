@@ -1,0 +1,152 @@
+{
+  "recommendedSkills": [
+    "skill-editorial",
+    "skill-luxury-serif"
+  ],
+  "harmonization": {
+    "type": {
+      "heroHeadline": "text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight",
+      "sectionHeading": "text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight",
+      "cardTitle": "text-lg sm:text-xl font-medium",
+      "lead": "text-base sm:text-lg leading-relaxed",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "eyebrow": "text-xs font-medium uppercase tracking-[0.08em]",
+      "weight": "font-medium for all display type and headings, font-semibold only for emphasis in running copy, never font-bold",
+      "rule": "the hero headline is the largest type on the page"
+    },
+    "colour": {
+      "sectionBase": "bg-white dark:bg-neutral-950",
+      "sectionRecessed": "bg-neutral-50 dark:bg-neutral-900",
+      "cardSurface": "bg-neutral-100 dark:bg-neutral-800",
+      "border": "border-neutral-200 dark:border-neutral-800",
+      "textPrimary": "text-neutral-900 dark:text-white",
+      "textSecondary": "text-neutral-600 dark:text-neutral-400",
+      "textTertiary": "text-neutral-500",
+      "rule": "one accent colour on the primary enquiry CTA only, repeated at most once elsewhere; the showcase-4 work samples supply the page's colour so the chrome stays neutral; never place two recessed sections next to each other"
+    },
+    "layout": {
+      "sectionPadding": "py-16 sm:py-20 lg:py-24",
+      "navPadding": "py-4",
+      "container": "max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8",
+      "innerMeasure": "max-w-2xl",
+      "headerAlignment": "left-aligned across the whole page",
+      "radiusPanel": "rounded-xl",
+      "radiusControl": "rounded-lg"
+    },
+    "motion": {
+      "reveal": {
+        "initial": "{ opacity: 0, y: 20 }",
+        "whileInView": "{ opacity: 1, y: 0 }",
+        "transition": "{ duration: 0.5, ease: \"easeOut\" }",
+        "viewport": "{ once: true, margin: \"-80px\" }"
+      },
+      "stagger": "delay: Math.min(index, 5) * 0.06, a section must finish revealing within 500ms",
+      "mountAllowed": [
+        "navigation-13",
+        "hero-16"
+      ],
+      "convertToScroll": [
+        "about-1"
+      ],
+      "maxScrollLinkedSections": 1,
+      "reducedMotion": "add useReducedMotion() and collapse to an opacity-only fade when it returns true"
+    }
+  },
+  "blocks": [
+    {
+      "slug": "navigation-13",
+      "role": "Navigation",
+      "content": "Studio wordmark, editorial split links limited to the pages that exist, and one enquiry CTA matching the page-wide label.",
+      "config": {
+        "ctaLabel": "match the page-wide enquiry label verbatim",
+        "links": "keep only real pages"
+      },
+      "fallback": "A split top bar: wordmark centered or left, links either side, one enquiry action."
+    },
+    {
+      "slug": "hero-16",
+      "role": "Positioning hero",
+      "content": "Studio wordmark top, an oversized headline stating the specialism in plain words, a one-sentence subtitle, and a single enquiry CTA.",
+      "config": {
+        "headline": "plain specialism statement, not a slogan",
+        "actions": "one CTA only"
+      },
+      "fallback": "A full-height hero: wordmark top, large statement headline, subtitle and single CTA at the base."
+    },
+    {
+      "slug": "showcase-4",
+      "role": "Selected work",
+      "content": "Four to eight real projects as a grid. Each tile carries a client or project name, the discipline, and a representative image.",
+      "config": {
+        "items": "4-8",
+        "content": "real case studies only"
+      },
+      "fallback": "A responsive project grid, each tile an image plus project name and discipline."
+    },
+    {
+      "slug": "features-1",
+      "role": "Services",
+      "content": "Three to six services as an icon grid, each written as the outcome the client buys rather than the deliverable produced.",
+      "config": {
+        "items": "3-6",
+        "framing": "outcomes, not deliverables"
+      },
+      "fallback": "A responsive icon grid of three to six service cards."
+    },
+    {
+      "slug": "how-it-works-4",
+      "role": "Process",
+      "content": "Three to four named stages describing how an engagement runs and what collaboration feels like.",
+      "config": {
+        "stages": "3-4"
+      },
+      "fallback": "A vertical list of three to four named stages with a short description each."
+    },
+    {
+      "slug": "about-1",
+      "role": "About and team",
+      "content": "A short studio statement plus team cards with real names, roles, and photos.",
+      "config": {
+        "team": "real members only"
+      },
+      "fallback": "A studio statement paragraph followed by a grid of team cards with name and role."
+    },
+    {
+      "slug": "social-proof-6",
+      "role": "Client logos",
+      "content": "Real client logos, with filter categories reduced to those that apply. Remove this block entirely if the logos are not real.",
+      "config": {
+        "optional": "true",
+        "omitWhen": "no real client logos"
+      },
+      "fallback": "A grayscale grid of real client logos with no filter."
+    },
+    {
+      "slug": "social-proof-3",
+      "role": "Testimonials",
+      "content": "One lead testimonial and two or three supporting quotes, each with a real name and role. Remove this block if quotes are not real.",
+      "config": {
+        "optional": "true",
+        "items": "3-4"
+      },
+      "fallback": "One large attributed quote with two or three smaller supporting quotes."
+    },
+    {
+      "slug": "contact-2",
+      "role": "Enquiry",
+      "content": "A two-column enquiry form asking name, email, company, and a scoped message, stating who replies and how fast, with a plain email fallback.",
+      "config": {
+        "fields": "name, email, company, message",
+        "qualify": "prompt for scope, timeline, or budget"
+      },
+      "fallback": "A two-column section: studio contact details left, a labelled enquiry form right."
+    },
+    {
+      "slug": "footer-3",
+      "role": "Footer",
+      "content": "Services, work, studio, contact, legal, and social links. Real destinations only.",
+      "config": {},
+      "fallback": "A small-type footer with grouped links and a legal line."
+    }
+  ]
+}

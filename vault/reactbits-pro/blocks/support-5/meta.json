@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/support-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "support-5",
+  "name": "support-5",
+  "title": "Support 5",
+  "description": "Request list with status pills, filter tabs, and per-ticket reply counts.",
+  "tags": [
+    "support",
+    "help",
+    "tickets",
+    "help center",
+    "chat",
+    "service desk"
+  ],
+  "tagSource": "upstream",
+  "category": "support",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "support-5",
+      "path": "vault/reactbits-pro/blocks/support-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/support-5/files/support-5.tsx",
+          "bytes": 9563,
+          "sha256": "bf10d19da420b5eda4ac87bd84fc10bd0e9abb63e4dcee18e456f886e49e9e38"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Support5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/support-5/files/support-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9f5cae4c78dca74368225beb678576619be7735edb93f4045ad17deea7c586c8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Support5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/support-5/files/support-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/support-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/support-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "86168b2dad4c435b7ce8f5950a088d010d2b724da83eed4be96043dcf17c9c17",
+  "fetchedAt": "2026-08-14T05:56:01.706Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/faq-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "faq-6",
+  "name": "faq-6",
+  "title": "FAQ 6",
+  "description": "Two-column FAQ with sticky intro, numbered accordion, and contact channels.",
+  "tags": [
+    "faq",
+    "questions",
+    "accordion",
+    "help"
+  ],
+  "tagSource": "upstream",
+  "category": "faq",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "faq-6",
+      "path": "vault/reactbits-pro/blocks/faq-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/faq-6/files/faq-6.tsx",
+          "bytes": 8843,
+          "sha256": "f90862519f45d2668696f42ba3314b8abd465f4c40914585161badd0c9a115fc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FAQ6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/faq-6/files/faq-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fea112fd948a926d9c47bb4b5133f534c379a073d894aed2333cdec3e4c81507"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FAQ6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/faq-6/files/faq-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/faq-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/faq-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9d7091c43bdb9b0f9803fb879932f665237ed98d3ded011207d48e8615f93af9",
+  "fetchedAt": "2026-08-14T05:46:22.805Z",
+  "vaultVersion": 1
+}

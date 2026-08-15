@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-10",
+  "name": "authentication-10",
+  "title": "Authentication 10",
+  "description": "Account chooser listing remembered profiles with session status and an add-account row.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-10",
+      "path": "vault/reactbits-pro/blocks/authentication-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-10/files/authentication-10.tsx",
+          "bytes": 8670,
+          "sha256": "6b8ce7751966838db9d940304ba540162122981a1b9e42ad767026fba10f964f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-10/files/authentication-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f69c6f4a8ee65c05b174eacc9db767292618fad5d837c0143389d7b5c630df4d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-10/files/authentication-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6ea9fd31e1a09deb320f8b2c197f5d87c0ef7c79e5a400182b78b7dc7a979c25",
+  "fetchedAt": "2026-08-14T05:42:34.381Z",
+  "vaultVersion": 1
+}

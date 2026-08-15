@@ -1,0 +1,22 @@
+{
+  "name": "dot-shift-css",
+  "type": "registry:component",
+  "description": "Shifting grid of animated dots (CSS version)",
+  "dependencies": [
+    "@react-three/fiber",
+    "three"
+  ],
+  "files": [
+    {
+      "path": "components/react-bits/dot-shift.tsx",
+      "content": "\"use client\";\n\nimport { useRef, useMemo } from \"react\";\nimport { Canvas, useFrame, useThree } from \"@react-three/fiber\";\nimport * as THREE from \"three\";\nimport \"./dot-shift.css\";\n\nconst vertexShader = `\n  varying vec2 vUv;\n  void main() {\n    vUv = uv;\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n  }\n`;\n\nconst fragmentShader = `\n  uniform float uTime;\n  uniform vec2 uResolution;\n  uniform float uSpeed;\n  uniform float uScale;\n  uniform vec3 uColor;\n  uniform float uSize;\n  uniform float uBlur;\n\n  varying vec2 vUv;\n\n  float hash13(vec3 p3) {\n    p3  = fract(p3 * .1031);\n    p3 += dot(p3, p3.zyx + 31.32);\n    return fract((p3.x + p3.y) * p3.z);\n  }\n\n  vec3 getPattern(vec3 dir, float time) {\n    dir += time * vec3(0.03, 0.01, 0.0);\n    vec3 v = abs(mod(dir * 50.0, 2.0) - 1.0);\n    vec3 pat = 3.0 * v * cos(hash13(floor(dir * 800.0)));\n    return pat;\n  }\n\n  void main() {\n    vec2 uv = (vUv * uResolution - 0.5 * uResolution) / uResolution.y;\n    vec3 dir = normalize(vec3(uv * uScale, 1.0));\n    float time = uTime * uSpeed;\n\n    vec3 pat = getPattern(dir, time);\n    float density = max(0.0, (1.5 * uSize) - dot(pat, vec3(1.0, 1.0, 0.5)));\n\n    vec3 col = uColor * density * 3.0;\n\n    float alpha = smoothstep(0.0, uBlur, density);\n\n    gl_FragColor = vec4(col, alpha);\n  }\n`;\n\ninterface SceneProps {\n  speed: number;\n  scale: number;\n  color: string;\n  size: number;\n  blur: number;\n}\n\nconst Scene: React.FC<SceneProps> = ({\n  speed,\n  scale,\n  color,\n  size: dotSize,\n  blur,\n}) => {\n  const meshRef = useRef<THREE.Mesh>(null);\n  const materialRef = useRef<THREE.ShaderMaterial>(null);\n  const { size, viewport } = useThree();\n\n  const uniforms = useMemo(\n    () => ({\n      uTime: { value: 0 },\n      uResolution: { value: new THREE.Vector2(size.width, size.height) },\n      uSpeed: { value: speed },\n      uScale: { value: scale },\n      uColor: { value: new THREE.Color(color) },\n      uSize: { value: dotSize },\n      uBlur: { value: blur },\n    }),\n    // eslint-disable-next-line react-hooks/exhaustive-deps\n    [],\n  );\n\n  useFrame((state) => {\n    if (materialRef.current) {\n      materialRef.current.uniforms.uTime.value = state.clock.elapsedTime;\n      materialRef.current.uniforms.uResolution.value.set(\n        size.width,\n        size.height,\n      );\n      materialRef.current.uniforms.uSpeed.value = speed;\n      materialRef.current.uniforms.uScale.value = scale;\n      materialRef.current.uniforms.uColor.value.set(color);\n      materialRef.current.uniforms.uSize.value = dotSize;\n      materialRef.current.uniforms.uBlur.value = blur;\n    }\n  });\n\n  return (\n    <mesh ref={meshRef}>\n      <planeGeometry args={[viewport.width, viewport.height]} />\n      <shaderMaterial\n        ref={materialRef}\n        vertexShader={vertexShader}\n        fragmentShader={fragmentShader}\n        uniforms={uniforms}\n        transparent={true}\n      />\n    </mesh>\n  );\n};\n\nexport interface DotShiftProps {\n  speed?: number;\n  scale?: number;\n  color?: string;\n  size?: number;\n  blur?: number;\n  className?: string;\n}\n\nconst DotShift: React.FC<DotShiftProps> = ({\n  speed = 0.5,\n  scale = 0.6,\n  color = \"#FF9FFC\",\n  size = 0.6,\n  blur = 0.5,\n  className,\n}) => {\n  return (\n    <div className={`dot-shift-container ${className || \"\"}`}>\n      <Canvas\n        orthographic\n        camera={{ position: [0, 0, 1], zoom: 1 }}\n        dpr={[1, 2]}\n        gl={{\n          alpha: true,\n          antialias: true,\n          powerPreference: \"high-performance\",\n        }}\n      >\n        <Scene\n          speed={speed}\n          scale={scale}\n          color={color}\n          size={size}\n          blur={blur}\n        />\n      </Canvas>\n    </div>\n  );\n};\n\nexport default DotShift;\n",
+      "type": "registry:component"
+    },
+    {
+      "path": "components/react-bits/dot-shift.css",
+      "content": ".dot-shift-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  background: transparent;\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "docs": "https://pro.reactbits.dev/docs/components/dot-shift"
+}

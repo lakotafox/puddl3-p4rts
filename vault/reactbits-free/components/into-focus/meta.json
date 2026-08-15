@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/into-focus",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "into-focus",
+  "name": "IntoFocus",
+  "title": "Into Focus",
+  "description": "Text gently unblurs and reveals on scroll.",
+  "tags": [
+    "gsap",
+    "scroll"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ScrollReveal-JS-CSS",
+      "path": "vault/reactbits-free/components/into-focus/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/js-css/IntoFocus.css",
+          "bytes": 177,
+          "sha256": "b16de51475c3214ba7c11dc7a8c42f4ccd8436701b3e5d60c01489a663f05938"
+        },
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/js-css/IntoFocus.jsx",
+          "bytes": 2561,
+          "sha256": "58102dd5392d00f0eb00902c827858beff240c147926c6c2f8ff4619061099c3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntoFocus",
+          "style": "default",
+          "file": "vault/reactbits-free/components/into-focus/variants/js-css/IntoFocus.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "629eda3df067f46409148ba4b4f7ce6191c26f1afe3e55c51584ed0ae89cd70f"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ScrollReveal-JS-TW",
+      "path": "vault/reactbits-free/components/into-focus/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/js-tw/IntoFocus.jsx",
+          "bytes": 2574,
+          "sha256": "c298ffd0724c0033bb15246d1424f0e5200983d307709775b576773b3a20989c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntoFocus",
+          "style": "default",
+          "file": "vault/reactbits-free/components/into-focus/variants/js-tw/IntoFocus.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4a9971321e6ec72626f27235fe3c44f6cc311b1a4aee2581a627215f32153bf3"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ScrollReveal-TS-CSS",
+      "path": "vault/reactbits-free/components/into-focus/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/ts-css/IntoFocus.css",
+          "bytes": 177,
+          "sha256": "b16de51475c3214ba7c11dc7a8c42f4ccd8436701b3e5d60c01489a663f05938"
+        },
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/ts-css/IntoFocus.tsx",
+          "bytes": 2962,
+          "sha256": "1a1d5413b09aa3951a0ed5951a8eee147da829978fda0c6e87cb272a6ab92a40"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntoFocus",
+          "style": "default",
+          "file": "vault/reactbits-free/components/into-focus/variants/ts-css/IntoFocus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f8a685ffe420faf8a061e3e560d083a9a6a76729c1ff68a3cac0cf3cc7ebb429"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ScrollReveal-TS-TW",
+      "path": "vault/reactbits-free/components/into-focus/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/into-focus/variants/ts-tw/IntoFocus.tsx",
+          "bytes": 2976,
+          "sha256": "7fc0e905bd6aaaf5858a1247870560dc75ea18b4adfc2da858871e66f30a7432"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntoFocus",
+          "style": "default",
+          "file": "vault/reactbits-free/components/into-focus/variants/ts-tw/IntoFocus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4d5f04133844b79e33ec98be1ed22c3e0c940fa92ab2ba36e2852b2245022c85"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "IntoFocus",
+      "style": "default",
+      "file": "vault/reactbits-free/components/into-focus/variants/ts-tw/IntoFocus.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/into-focus",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ScrollReveal-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scroll-reveal"
+  },
+  "hash": "1bbdbb600e69c8f5dd66b4dbc9a9ca96741d636391fa8c765730a6e539a67eaa",
+  "fetchedAt": "2026-08-14T05:36:11.449Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "IntoFocus",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scroll-reveal",
+  "upstreamName": "ScrollReveal"
+}

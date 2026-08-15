@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/wisp-sphere",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "wisp-sphere",
+  "name": "WispSphere",
+  "title": "Wisp Sphere",
+  "description": "A ghostly raymarched orb wrapped in drifting smoke",
+  "tags": [
+    "background",
+    "shader",
+    "webgl",
+    "orb",
+    "raymarching",
+    "abstract"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "specter-orb-css",
+      "path": "vault/reactbits-starter/components/wisp-sphere/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/wisp-sphere/variants/css/wisp-sphere.tsx",
+          "bytes": 19494,
+          "sha256": "ce678628a4fc9159752f8d425ae0d95e2021d5b21fdeadfc9bc9c1e5ddc97fe1"
+        },
+        {
+          "path": "vault/reactbits-starter/components/wisp-sphere/variants/css/wisp-sphere.css",
+          "bytes": 212,
+          "sha256": "5ad1118b517a5cd96fee0c00f89b39062eace25d56ea158606c1edbaa7b615b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WispSphere",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/wisp-sphere/variants/css/wisp-sphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cc2975cdf21a4ef9b91422c749378c2e6dfaa7892f2599a92d4ca03b7bc324d9"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "specter-orb-tw",
+      "path": "vault/reactbits-starter/components/wisp-sphere/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/wisp-sphere/variants/tw/wisp-sphere.tsx",
+          "bytes": 19513,
+          "sha256": "a0e9e3afe6589c403ddc300bc6557bc43e1a9bd8456f3673b1f13a4e0518f97c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WispSphere",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/wisp-sphere/variants/tw/wisp-sphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c4e97f048cf1e049a8b2dd009b5137fa8c3d8e9d809a2d803b56d494efeafb81"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WispSphere",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/wisp-sphere/variants/tw/wisp-sphere.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/wisp-sphere",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/specter-orb-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8c2a9b0cf8ba523869b359befc7ede9b8b38820d7a4b76f172217f19d504f4d1",
+  "fetchedAt": "2026-08-14T05:34:44.847Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "specter-orb",
+  "upstreamName": "SpecterOrb"
+}

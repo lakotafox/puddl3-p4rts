@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/contact-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-11",
+  "name": "contact-11",
+  "title": "Contact 11",
+  "description": "Team-routing contact layout with personal desks and an enquiry form.",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-11",
+      "path": "vault/reactbits-pro/blocks/contact-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-11/files/contact-11.tsx",
+          "bytes": 11555,
+          "sha256": "26e0f299df1e5485cf407904eb2cf236ae22ed7a0ac05f7d2fd58623fbcd1a52"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-11/files/contact-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8ee7ddc9f6b845b6dcb6f94453afb9b0575670b569f8d88ffea5c0a09a7046b4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-11/files/contact-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "57492d7d1ad64f361b0a295d982b3cef41439d9cf42f54bd626fc958ba9071d0",
+  "fetchedAt": "2026-08-14T05:44:23.613Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/deck-pileup",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "deck-pileup",
+  "name": "DeckPileup",
+  "title": "Deck Pileup",
+  "description": "Pinned cards that stack, turn and dissolve as the page scrolls",
+  "tags": [
+    "scroll",
+    "cards",
+    "stack",
+    "sticky",
+    "storytelling",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "scroll",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "scroll-stack-css",
+      "path": "vault/reactbits-starter/components/deck-pileup/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/deck-pileup/variants/css/deck-pileup.tsx",
+          "bytes": 16027,
+          "sha256": "3aa4477a72cc81022fe4a8751d7adcef65f270d2e1c37f5b8f357f965f646693"
+        },
+        {
+          "path": "vault/reactbits-starter/components/deck-pileup/variants/css/deck-pileup.css",
+          "bytes": 3563,
+          "sha256": "2043c5d813abe98e8c932ae0f65a089af057a2e9687277ee99706efcb3c79173"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DeckPileup",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/deck-pileup/variants/css/deck-pileup.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "DeckPileup",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/deck-pileup/variants/css/deck-pileup.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7e852507a146a6a08a8121e24592cfffeb42ff7bf10b7e8b9aec4e67aabb429a"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "scroll-stack-tw",
+      "path": "vault/reactbits-starter/components/deck-pileup/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/deck-pileup/variants/tw/deck-pileup.tsx",
+          "bytes": 17322,
+          "sha256": "c2582b56ed792ffd54b9c8025b51217fab20755b3502549fe494973dd65a6412"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DeckPileup",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/deck-pileup/variants/tw/deck-pileup.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "DeckPileup",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/deck-pileup/variants/tw/deck-pileup.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "83cd9adc0d4102f88e264cbe6ea884e98021d4cac02c5c39315965ff66c63e7b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DeckPileup",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/deck-pileup/variants/tw/deck-pileup.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/deck-pileup",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/scroll-stack-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "610ca19bdfe7b7984f1fc914a993b92002469f6728fa8fb0aff1240064df0c41",
+  "fetchedAt": "2026-08-14T05:34:25.645Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "scroll-stack",
+  "upstreamName": "ScrollStack"
+}

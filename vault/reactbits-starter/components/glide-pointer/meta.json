@@ -1,0 +1,112 @@
+{
+  "id": "rb-starter/component/glide-pointer",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glide-pointer",
+  "name": "GlidePointer",
+  "title": "Glide Pointer",
+  "description": "Canvas-based smooth cursor trail with spring physics",
+  "tags": [
+    "cursor",
+    "animation"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "smooth-cursor-css",
+      "path": "vault/reactbits-starter/components/glide-pointer/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glide-pointer/variants/css/glide-pointer.tsx",
+          "bytes": 7466,
+          "sha256": "824253ae3e0fbd19c456d3fa099abb48617b7e0fb6c5b85fe30fb1e926f92df5"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glide-pointer/variants/css/glide-pointer.css",
+          "bytes": 217,
+          "sha256": "0645149e24483bd499866cfda29b7b76af762c0ec8303a4a707497b758827976"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlidePointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glide-pointer/variants/css/glide-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8656de5e00ba05331842bcb96eedbf64ba17ebce4b8ab516c9255db387450157"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "smooth-cursor-tw",
+      "path": "vault/reactbits-starter/components/glide-pointer/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glide-pointer/variants/tw/glide-pointer.tsx",
+          "bytes": 7460,
+          "sha256": "06e71803cd7724e3a0c3f978e464723c5098d39c0c2a034bf88038b5c05b4aaa"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlidePointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glide-pointer/variants/tw/glide-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c00c070c412f1cddb55fa40d050d9f37c31cf62951e8aa09f9966e7e18a963f8"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlidePointer",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glide-pointer/variants/tw/glide-pointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glide-pointer",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/smooth-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "5c9ce96b5923e6b212f038f6e3fe476cda1d398fd6657d137db4600a2a0c3625",
+  "fetchedAt": "2026-08-14T05:34:43.125Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "smooth-cursor",
+  "upstreamName": "SmoothCursor"
+}

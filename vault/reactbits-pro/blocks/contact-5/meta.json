@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/contact-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "contact-5",
+  "name": "contact-5",
+  "title": "Contact 5",
+  "description": "Two-column layout with detailed contact info and auto-playing image carousel",
+  "tags": [
+    "contact",
+    "form"
+  ],
+  "tagSource": "upstream",
+  "category": "contact",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "contact-5",
+      "path": "vault/reactbits-pro/blocks/contact-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/contact-5/files/contact-5.tsx",
+          "bytes": 8677,
+          "sha256": "38b5bad0fb4cd0034fa535265884d46744e97ebaf847d4c89356553bf959fc2f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Contact5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/contact-5/files/contact-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "962913580d220a175e2701937f74f276e7b107dc45bfe63b8f4690aeb84e2baf"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Contact5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/contact-5/files/contact-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/contact-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/contact-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0f94c288e99228e79598018c8e4f0245ac8c5ee7c7c73df8bec506ba19aeb878",
+  "fetchedAt": "2026-08-14T05:44:31.038Z",
+  "vaultVersion": 1
+}

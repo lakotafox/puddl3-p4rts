@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/prompt-input-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "prompt-input-6",
+  "name": "prompt-input-6",
+  "title": "Prompt Input 6",
+  "description": "Prompt bar with @-mention context picker and scoped source pills.",
+  "tags": [
+    "ai",
+    "prompt",
+    "composer",
+    "input",
+    "textarea"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "prompt-input-6",
+      "path": "vault/reactbits-pro/blocks/prompt-input-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/prompt-input-6/files/prompt-input-6.tsx",
+          "bytes": 13171,
+          "sha256": "9e9c11185f2fbd779f29a2550116a79cdc9383d7e62b3c14432a5794041e1042"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PromptInput6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/prompt-input-6/files/prompt-input-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9074e5dca4ea685e3eca30f3fd0e01322382a1d0e0076aa25909731cc3b5c399"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PromptInput6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/prompt-input-6/files/prompt-input-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/prompt-input-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-input-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "496f71fbaed343939c13a36649f9e89a0f26caca186428ff991cde2b5dcc0820",
+  "fetchedAt": "2026-08-14T05:54:12.228Z",
+  "vaultVersion": 1
+}

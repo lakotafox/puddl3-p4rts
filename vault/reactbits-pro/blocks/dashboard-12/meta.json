@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/dashboard-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-12",
+  "name": "dashboard-12",
+  "title": "Dashboard 12",
+  "description": "Payout desk with a headline balance, dual-series pace chart, and sweep lanes.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-12",
+      "path": "vault/reactbits-pro/blocks/dashboard-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-12/files/dashboard-12.tsx",
+          "bytes": 33461,
+          "sha256": "756d822d64bf7a9826435dccf66df87648a9e5753853c9a997e59b22a3983ed4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-12/files/dashboard-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "085adbb824c87619c6da7d740ac3796e64e81bc96e806a8d7228b650d5382a7b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-12/files/dashboard-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5b30763ea09486ed5e02b36c98df0f468bb1dcc2e592c5f59378aad956fbcd97",
+  "fetchedAt": "2026-08-14T05:45:03.647Z",
+  "vaultVersion": 1
+}

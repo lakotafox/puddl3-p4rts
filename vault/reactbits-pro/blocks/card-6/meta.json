@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-6",
+  "name": "card-6",
+  "title": "Card 6",
+  "description": "Account metrics in one framed row, driven by a segmented date-range control.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-6",
+      "path": "vault/reactbits-pro/blocks/card-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-6/files/card-6.tsx",
+          "bytes": 7324,
+          "sha256": "c3cc6fb885e792616a0cfbae8c310de1772dd8689a0522c97f82bbad6681336c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-6/files/card-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "93332ed77783f1460a2b3c6f7726f50f48d93ec9de0d321c8e971085e9b316e8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-6/files/card-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "41d48279f2b4f72e6b5602227c66b400ca728be686bc266077d3a7ba448ba4bf",
+  "fetchedAt": "2026-08-14T05:43:35.256Z",
+  "vaultVersion": 1
+}

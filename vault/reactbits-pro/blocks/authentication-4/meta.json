@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-4",
+  "name": "authentication-4",
+  "title": "Authentication 4",
+  "description": "Two-step email then password flow that recalls the matched account before asking for a secret.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-4",
+      "path": "vault/reactbits-pro/blocks/authentication-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-4/files/authentication-4.tsx",
+          "bytes": 12977,
+          "sha256": "32e313cc358a5889a9afbd320ae30dcad52bc0b197e05bb64173d52247d33503"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-4/files/authentication-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "69f662c98e9c902776c4309521c80a86c01baf3320acf2a2f0c94228fd1bd8fb"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-4/files/authentication-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8101bc88fcbb78290bfa5ec79d08fc126fbd3c26705cca223a587c3a74d4b512",
+  "fetchedAt": "2026-08-14T05:42:45.778Z",
+  "vaultVersion": 1
+}

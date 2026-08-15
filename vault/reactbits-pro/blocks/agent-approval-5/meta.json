@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/agent-approval-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-approval-5",
+  "name": "agent-approval-5",
+  "title": "Agent Approval 5",
+  "description": "Approval banner for long-running or high-cost operations with an estimate breakdown.",
+  "tags": [
+    "ai",
+    "agent",
+    "approval",
+    "permissions",
+    "confirmation"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-approval-5",
+      "path": "vault/reactbits-pro/blocks/agent-approval-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-approval-5/files/agent-approval-5.tsx",
+          "bytes": 9088,
+          "sha256": "6f0d9f5ba5e41de2297f14d30af887ba5f51e3ec0c5ffd62188d2b03b579137d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentApproval5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-approval-5/files/agent-approval-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf0995f002eed7317b9c545f75a64f5d90beead3c220d27a8e4e115ac3c1f4e9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentApproval5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-approval-5/files/agent-approval-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-approval-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-approval-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4dfa42cfe121d7c693a2ecafa1da54095b5356f34393f913b0fabb1a5c77c02a",
+  "fetchedAt": "2026-08-14T05:36:16.474Z",
+  "vaultVersion": 1
+}

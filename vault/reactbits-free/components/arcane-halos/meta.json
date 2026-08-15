@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/arcane-halos",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "arcane-halos",
+  "name": "ArcaneHalos",
+  "title": "Arcane Halos",
+  "description": "Interactive magic rings effect with customizable parameters.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MagicRings-JS-CSS",
+      "path": "vault/reactbits-free/components/arcane-halos/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/js-css/ArcaneHalos.css",
+          "bytes": 58,
+          "sha256": "bea236547fde0dfa7b517acbe5cf27e4a0b31d232e98b20507f96fc9f0922f28"
+        },
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/js-css/ArcaneHalos.jsx",
+          "bytes": 9026,
+          "sha256": "c5d42ebe20cd5882e3f141fb3f936f99297131a9837649d99678c97c322b5173"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcaneHalos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arcane-halos/variants/js-css/ArcaneHalos.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4849991b9a70b3a3243cd9ff15c8230fe77b7ed2653664fb6ccc2dd2b71876ce"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MagicRings-JS-TW",
+      "path": "vault/reactbits-free/components/arcane-halos/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/js-tw/ArcaneHalos.jsx",
+          "bytes": 8990,
+          "sha256": "9a8db1569d640711e5fb175015d7b76920c4a69f2e73a847771274043ce88293"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcaneHalos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arcane-halos/variants/js-tw/ArcaneHalos.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4db339f6a4570a7dfd8d65961b19fbd882ec0f56200a97f0d6af73476ae5b903"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MagicRings-TS-CSS",
+      "path": "vault/reactbits-free/components/arcane-halos/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/ts-css/ArcaneHalos.css",
+          "bytes": 58,
+          "sha256": "bea236547fde0dfa7b517acbe5cf27e4a0b31d232e98b20507f96fc9f0922f28"
+        },
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/ts-css/ArcaneHalos.tsx",
+          "bytes": 9637,
+          "sha256": "0ad5610b847aa45de7145b9461862b2404d0ea7eb4cb878c4aeafd2f757d4375"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcaneHalos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arcane-halos/variants/ts-css/ArcaneHalos.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cae592bc19be6831da5e16fe96ebfd51ed660819c220c7c974b81cc5eee13259"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MagicRings-TS-TW",
+      "path": "vault/reactbits-free/components/arcane-halos/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arcane-halos/variants/ts-tw/ArcaneHalos.tsx",
+          "bytes": 9601,
+          "sha256": "08a919db9be74c04f6c950d13ace59a94c07dde229dc22a998d557cbf20d33ea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcaneHalos",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arcane-halos/variants/ts-tw/ArcaneHalos.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e7976d39cb710ea9ddb2b14a9a5be01cb2da7e47f5de9795f5527cce1d4dde72"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ArcaneHalos",
+      "style": "default",
+      "file": "vault/reactbits-free/components/arcane-halos/variants/ts-tw/ArcaneHalos.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/arcane-halos",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MagicRings-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/magic-rings"
+  },
+  "hash": "faeebd9f3deb2bcc99d3b4aed89b4800db1ec9f60a79997010804beac62c020a",
+  "fetchedAt": "2026-08-14T05:36:11.418Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ArcaneHalos",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "magic-rings",
+  "upstreamName": "MagicRings"
+}

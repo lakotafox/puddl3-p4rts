@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/proximity-nav",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "proximity-nav",
+  "name": "ProximityNav",
+  "title": "Proximity Nav",
+  "description": "Static list navigation with a cursor-proximity effect that shifts and highlights nearby items.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LineSidebar-JS-CSS",
+      "path": "vault/reactbits-free/components/proximity-nav/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/js-css/ProximityNav.css",
+          "bytes": 2570,
+          "sha256": "c54eb77aec1a1311c17cdf97fb69be8cc85b4e28e7749cd92e81dfe0aa3a2481"
+        },
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/js-css/ProximityNav.jsx",
+          "bytes": 5319,
+          "sha256": "962936b707de45f0e001e141d246626c7ae86141d031a9b6eaa169d412121129"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ProximityNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/proximity-nav/variants/js-css/ProximityNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cac33ece6e2fcda28d2ba26e2605cbdf2f0b55968e582a842eea2093604e1f9e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LineSidebar-JS-TW",
+      "path": "vault/reactbits-free/components/proximity-nav/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/js-tw/ProximityNav.jsx",
+          "bytes": 6640,
+          "sha256": "3aec60e8287bb7b018d052f3bb1934540fad44bb8da47d62f3751fafa91f19a6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ProximityNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/proximity-nav/variants/js-tw/ProximityNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "06f9e947477955a1d3c55ece6c9cc40707be1d9914c97d4545e90d23bcf11ed7"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LineSidebar-TS-CSS",
+      "path": "vault/reactbits-free/components/proximity-nav/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/ts-css/ProximityNav.css",
+          "bytes": 2570,
+          "sha256": "c54eb77aec1a1311c17cdf97fb69be8cc85b4e28e7749cd92e81dfe0aa3a2481"
+        },
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/ts-css/ProximityNav.tsx",
+          "bytes": 6180,
+          "sha256": "725f657a9bfd5b4e54fc27c2fd1d4a1e8abe4f15969968c3f2020bd6da2e4932"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ProximityNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/proximity-nav/variants/ts-css/ProximityNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3ac76597aa467c6bf6fc39d5ed13a6634a163b7c05c5c2b8d050af24e438e1b4"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LineSidebar-TS-TW",
+      "path": "vault/reactbits-free/components/proximity-nav/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/proximity-nav/variants/ts-tw/ProximityNav.tsx",
+          "bytes": 7502,
+          "sha256": "fc909b1076b8d4bc4fd87160440b496deca3936e671163d66fa20f6acd5aa88c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ProximityNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/proximity-nav/variants/ts-tw/ProximityNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4c501517df4747791525c315da1872f7b544201126fbac6f90a55558fc6c230c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ProximityNav",
+      "style": "default",
+      "file": "vault/reactbits-free/components/proximity-nav/variants/ts-tw/ProximityNav.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/proximity-nav",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LineSidebar-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/line-sidebar"
+  },
+  "hash": "4616c7bc590bb804474af72ee0bcc268d9eb7027a79b0b9a776c5becf5f6c4eb",
+  "fetchedAt": "2026-08-14T05:36:11.411Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ProximityNav",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "line-sidebar",
+  "upstreamName": "LineSidebar"
+}

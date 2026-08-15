@@ -1,0 +1,113 @@
+{
+  "id": "rb-starter/component/melt-glyphs",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "melt-glyphs",
+  "name": "MeltGlyphs",
+  "title": "Melt Glyphs",
+  "description": "Fluid simulation rendered as ASCII characters",
+  "tags": [
+    "ascii",
+    "simulation",
+    "cursor"
+  ],
+  "tagSource": "upstream",
+  "category": "ascii",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "liquid-ascii-css",
+      "path": "vault/reactbits-starter/components/melt-glyphs/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/melt-glyphs/variants/css/melt-glyphs.tsx",
+          "bytes": 24173,
+          "sha256": "9b2fc6ba72c799ef98c64172881a70a61a4e78ee633b58e839fe8684288f8219"
+        },
+        {
+          "path": "vault/reactbits-starter/components/melt-glyphs/variants/css/melt-glyphs.css",
+          "bytes": 322,
+          "sha256": "0cbeb6fe313daf82d748e6c39c5d16c0e4290994544d75df616e342994158edd"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "MeltGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/melt-glyphs/variants/css/melt-glyphs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "900e9495219c3d0cb173e1663a9bc3c8d0f2edae809f299ed01afb27bde574df"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "liquid-ascii-tw",
+      "path": "vault/reactbits-starter/components/melt-glyphs/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/melt-glyphs/variants/tw/melt-glyphs.tsx",
+          "bytes": 24273,
+          "sha256": "1eb7ad9431c80fade89004b4cebac2311fdca597158bb38f5e151e2a18853cf2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "MeltGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/melt-glyphs/variants/tw/melt-glyphs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "16d611c54ccab27501fe040fcb15fcf38ec2421e73c5e0d53f417a259c8503bb"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MeltGlyphs",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/melt-glyphs/variants/tw/melt-glyphs.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/melt-glyphs",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/liquid-ascii-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a51dc536d05d2780a44310263b74401525eb7f3327eca6efef63e0bbfaca69e2",
+  "fetchedAt": "2026-08-14T05:33:22.313Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "liquid-ascii",
+  "upstreamName": "LiquidAscii"
+}

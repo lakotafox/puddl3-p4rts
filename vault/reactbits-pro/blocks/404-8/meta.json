@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/404-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "404-8",
+  "name": "404-8",
+  "title": "404 8",
+  "description": "Terminal 404 that prints an ASCII numeral diagnosis with live recovery routes and a blinking caret",
+  "tags": [
+    "404",
+    "error",
+    "page"
+  ],
+  "tagSource": "upstream",
+  "category": "404",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "404-8",
+      "path": "vault/reactbits-pro/blocks/404-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/404-8/files/404-8.tsx",
+          "bytes": 7909,
+          "sha256": "00c73a5e31bc2fc987fa34390145b8e002afa17618fe9189c3978136e82f1071"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NotFound8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/404-8/files/404-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "84be3f0e823ea3672475efb887d28cb160051caa26874fc7112e4ed1469f10a9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NotFound8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/404-8/files/404-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/404-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/404-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3393eaef8ee8ccfcde45f2240e4c56dd35f8debecd30f7715a4e9675f255e6a6",
+  "fetchedAt": "2026-08-14T05:35:41.153Z",
+  "vaultVersion": 1
+}

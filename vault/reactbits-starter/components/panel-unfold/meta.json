@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/panel-unfold",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "panel-unfold",
+  "name": "PanelUnfold",
+  "title": "Panel Unfold",
+  "description": "Expandable cards that open into full-screen modals",
+  "tags": [
+    "modal",
+    "cards"
+  ],
+  "tagSource": "upstream",
+  "category": "modal",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "modal-cards-css",
+      "path": "vault/reactbits-starter/components/panel-unfold/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/panel-unfold/variants/css/panel-unfold.tsx",
+          "bytes": 16844,
+          "sha256": "7718014dfec8c03d3a044f0774ee8b95030e50197be9d48b658a91e7a3435d51"
+        },
+        {
+          "path": "vault/reactbits-starter/components/panel-unfold/variants/css/panel-unfold.css",
+          "bytes": 3350,
+          "sha256": "2b7d483c8844917d142239107b35d41df81fee5129aabc2f2e4fd480a2c026fd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelUnfold",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/panel-unfold/variants/css/panel-unfold.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "625b8c98af1018778316900adefb4fc5db1bf4d37594566bb51fb22d9c4d3637"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "modal-cards-tw",
+      "path": "vault/reactbits-starter/components/panel-unfold/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/panel-unfold/variants/tw/panel-unfold.tsx",
+          "bytes": 17869,
+          "sha256": "639a360c127414848d2b74b73c5de7ad71f1259972f950ec2580e8440d60697f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelUnfold",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/panel-unfold/variants/tw/panel-unfold.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b78fa59e1a613bfe30fe89a0f50e9879e7e274d738889ad87e0e12e86cefe1a9"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PanelUnfold",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/panel-unfold/variants/tw/panel-unfold.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/panel-unfold",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/modal-cards-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "2ebca8198f4a6aa1bd32bed10c56480595e941ee362332016d2b36a1c36f1698",
+  "fetchedAt": "2026-08-14T05:33:34.489Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "modal-cards",
+  "upstreamName": "ModalCards"
+}

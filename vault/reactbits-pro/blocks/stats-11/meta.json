@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/stats-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-11",
+  "name": "stats-11",
+  "title": "Stats 11",
+  "description": "Pastel stat cards with large metrics, source labels, and timeframe badges",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-11",
+      "path": "vault/reactbits-pro/blocks/stats-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-11/files/stats-11.tsx",
+          "bytes": 4146,
+          "sha256": "65ecbaeeb59ce18122758237699501d373149b7183913130e8039a25470ad6cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-11/files/stats-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "de60c97baa891dd9de1e3c29d16b1428db663ecd1c8db19be2dfb8a2f2dbfe52"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-11/files/stats-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fa7641db0f9e200de8a490f34a3cbf19ceff00b1f096913daf0aae553b427e33",
+  "fetchedAt": "2026-08-14T05:55:36.096Z",
+  "vaultVersion": 1
+}

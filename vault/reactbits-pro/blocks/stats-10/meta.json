@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/stats-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-10",
+  "name": "stats-10",
+  "title": "Stats 10",
+  "description": "Color-blocked stat cards with count-up numbers and supporting labels",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-10",
+      "path": "vault/reactbits-pro/blocks/stats-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-10/files/stats-10.tsx",
+          "bytes": 3155,
+          "sha256": "89f198f915c54e14b8799db331aa90a69db955ba0ccba72a06c004ef4d3ddd41"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-10/files/stats-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6e8d476f8221dfd27e4ceeabb4c94486b0fa0c83f9ef90014f706cf9b46cb7cd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-10/files/stats-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e0fe0e91f13f28d421d14a8d29c6bde86a67117033de00e6a5801c23b20493e1",
+  "fetchedAt": "2026-08-14T05:55:34.630Z",
+  "vaultVersion": 1
+}

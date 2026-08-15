@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-16",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-16",
+  "name": "analytics-16",
+  "title": "Analytics 16",
+  "description": "Combo chart pairing bars with a trend line on a dual axis.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-16",
+      "path": "vault/reactbits-pro/blocks/analytics-16/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-16/files/analytics-16.tsx",
+          "bytes": 16184,
+          "sha256": "8b5a22eb0ce5307b1a27234257b22a1c57ba4e478c27d725ef1f5395577c2fbe"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics16",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-16/files/analytics-16.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2f4e4c34632d752ea9642704102710f647e48ad4e73187f3cd5feb7b787f3c74"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics16",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-16/files/analytics-16.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-16",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-16.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8c56907fed3733b28bb4c4b3279f9a7f09e423838e00b36f1f0e83e6b551c662",
+  "fetchedAt": "2026-08-14T05:37:04.408Z",
+  "vaultVersion": 1
+}

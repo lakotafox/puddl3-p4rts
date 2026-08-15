@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/ridgeline",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ridgeline",
+  "name": "Ridgeline",
+  "title": "Ridgeline",
+  "description": "A procedurally generated landscape scrolling toward the horizon",
+  "tags": [
+    "background",
+    "shader",
+    "landscape",
+    "terrain",
+    "webgl",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "landscape-css",
+      "path": "vault/reactbits-starter/components/ridgeline/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ridgeline/variants/css/ridgeline.tsx",
+          "bytes": 19616,
+          "sha256": "b030cbd44f108e185f9e342fa53be633b9cdc7fef2cf76f846b9d12d771e9320"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ridgeline/variants/css/ridgeline.css",
+          "bytes": 206,
+          "sha256": "fb2d32116b5e6d75ea035ae78fee3d2c3512c207af3faf2b76fb584089fc9071"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ridgeline",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ridgeline/variants/css/ridgeline.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Ridgeline",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ridgeline/variants/css/ridgeline.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3abfc31384366548b91ada9e95dfe59bbb969fb209976882126069633dfccaef"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "landscape-tw",
+      "path": "vault/reactbits-starter/components/ridgeline/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ridgeline/variants/tw/ridgeline.tsx",
+          "bytes": 19626,
+          "sha256": "f7e8ca7017deeeb373694980b5bb69db1a76e56619e520e1cf859593e9343112"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ridgeline",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ridgeline/variants/tw/ridgeline.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Ridgeline",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ridgeline/variants/tw/ridgeline.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "305e92ff8df77fb1d99147c659d54567c1974996d0cfdda260e1438f222b6d80"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ridgeline",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ridgeline/variants/tw/ridgeline.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ridgeline",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/landscape-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3720ffb29044e9851595b532dfaa79b245f9ac0a76a84488b254521ebc729ead",
+  "fetchedAt": "2026-08-14T05:33:15.327Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "landscape",
+  "upstreamName": "Landscape"
+}

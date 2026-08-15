@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/dashboard-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-10",
+  "name": "dashboard-10",
+  "title": "Dashboard 10",
+  "description": "Metric explorer where a tab strip of six measures drives one large area chart.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-10",
+      "path": "vault/reactbits-pro/blocks/dashboard-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-10/files/dashboard-10.tsx",
+          "bytes": 24926,
+          "sha256": "6a896c8c17c13f9481972b2b194d52cbf14281e0d5fcb1b02d6d3ab217c023dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-10/files/dashboard-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "081cc31c16376cc52ef6d9a26f92d729c4b3da377b1a4c864a695d740592dc7e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-10/files/dashboard-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d11cf7e9e3cedb0c26f436006a9ef7e74435367162be5e49f8b1f21803d536ce",
+  "fetchedAt": "2026-08-14T05:45:00.665Z",
+  "vaultVersion": 1
+}

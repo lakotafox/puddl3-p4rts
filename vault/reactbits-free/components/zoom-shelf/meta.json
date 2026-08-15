@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/zoom-shelf",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "zoom-shelf",
+  "name": "ZoomShelf",
+  "title": "Zoom Shelf",
+  "description": "macOS style magnifying dock with proximity scaling of icons.",
+  "tags": [
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Dock-JS-CSS",
+      "path": "vault/reactbits-free/components/zoom-shelf/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/js-css/ZoomShelf.css",
+          "bytes": 1069,
+          "sha256": "0c3660de56f0b05d2f76d33271b895af642b314c641f190676b77849e3642cac"
+        },
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/js-css/ZoomShelf.jsx",
+          "bytes": 3946,
+          "sha256": "1b34937bb5e21ca49e3148053df9ffc0acc4e1bee859d2bbba97724fdd766e30"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ZoomShelf",
+          "style": "default",
+          "file": "vault/reactbits-free/components/zoom-shelf/variants/js-css/ZoomShelf.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c59400e4c1ad7f2b68e42512812c12723a2833773f5acfd0dc68ea9aa9463bf3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Dock-JS-TW",
+      "path": "vault/reactbits-free/components/zoom-shelf/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/js-tw/ZoomShelf.jsx",
+          "bytes": 4309,
+          "sha256": "e386f43385bb47c4d6fc67e0ba18ac154a66dabc0176a385e87dd38bd19c9b35"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ZoomShelf",
+          "style": "default",
+          "file": "vault/reactbits-free/components/zoom-shelf/variants/js-tw/ZoomShelf.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bcc95c9741aded7608b2e728f96a29723a21522fb23d6db8c70c6d788424c9e6"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Dock-TS-CSS",
+      "path": "vault/reactbits-free/components/zoom-shelf/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/ts-css/ZoomShelf.css",
+          "bytes": 1069,
+          "sha256": "0c3660de56f0b05d2f76d33271b895af642b314c641f190676b77849e3642cac"
+        },
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/ts-css/ZoomShelf.tsx",
+          "bytes": 5134,
+          "sha256": "c7d97c673538cc48f41d0a775bded14e63f442c587a07c51d861861beb103ded"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ZoomShelf",
+          "style": "default",
+          "file": "vault/reactbits-free/components/zoom-shelf/variants/ts-css/ZoomShelf.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d2a028629950a79a2911608a93ad8a81e6aef201130037b440e19d420ea669e5"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Dock-TS-TW",
+      "path": "vault/reactbits-free/components/zoom-shelf/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/zoom-shelf/variants/ts-tw/ZoomShelf.tsx",
+          "bytes": 5473,
+          "sha256": "894f612d1ef2347c90ae02bf80514eaed3e618ada24eafaf79a1b4ec69b0ad47"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ZoomShelf",
+          "style": "default",
+          "file": "vault/reactbits-free/components/zoom-shelf/variants/ts-tw/ZoomShelf.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "173d1067df9b73fd3822503910def73a0b91aa30fd69dd9ba32a99bc9dc70330"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ZoomShelf",
+      "style": "default",
+      "file": "vault/reactbits-free/components/zoom-shelf/variants/ts-tw/ZoomShelf.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/zoom-shelf",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Dock-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dock"
+  },
+  "hash": "ae2b40ae156713576517a64692bd1ea608c3ac599135aadbfbbea3ed2c079065",
+  "fetchedAt": "2026-08-14T05:36:11.364Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ZoomShelf",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dock",
+  "upstreamName": "Dock"
+}

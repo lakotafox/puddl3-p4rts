@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/streamers",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "streamers",
+  "name": "Streamers",
+  "title": "Streamers",
+  "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Ribbons-JS-CSS",
+      "path": "vault/reactbits-free/components/streamers/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/js-css/Streamers.css",
+          "bytes": 76,
+          "sha256": "fdbfa678eceb09b9b451a9d9de91e9834e19bcf6c07e859af5c964f6763d7943"
+        },
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/js-css/Streamers.jsx",
+          "bytes": 7240,
+          "sha256": "cbcac6d5f11fa7032f866bcc4028e59fa65214443414d36c2a5f8b183269d5eb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Streamers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/streamers/variants/js-css/Streamers.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4c91f25a6b6f40371c90f65a97e6b76725e23e6725e296b3804a99e16a8eacf2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Ribbons-JS-TW",
+      "path": "vault/reactbits-free/components/streamers/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/js-tw/Streamers.jsx",
+          "bytes": 7220,
+          "sha256": "a8e5cd74f53da6ce01016f7c1b0bede8f192e86e19b1ac67c046c753d7cf2834"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Streamers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/streamers/variants/js-tw/Streamers.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "259f772d09fd45d6474db7a966a3405b7d24b8de944381aa1c1f5f50c4ba0add"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Ribbons-TS-CSS",
+      "path": "vault/reactbits-free/components/streamers/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/ts-css/Streamers.css",
+          "bytes": 76,
+          "sha256": "fdbfa678eceb09b9b451a9d9de91e9834e19bcf6c07e859af5c964f6763d7943"
+        },
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/ts-css/Streamers.tsx",
+          "bytes": 8069,
+          "sha256": "79f1e77d5795a72a92c2ab5db776c2113f8376666282f2910bab120295e53b89"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Streamers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/streamers/variants/ts-css/Streamers.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a48da4445f79c1556e0ea96f0fd575a1320aa6de15fe9efc6baaab6db86b3072"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Ribbons-TS-TW",
+      "path": "vault/reactbits-free/components/streamers/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/streamers/variants/ts-tw/Streamers.tsx",
+          "bytes": 8049,
+          "sha256": "1c075b0e82544a93650a4b9f24deda61dc608cab38698c45dc1b3f2b4c107d02"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Streamers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/streamers/variants/ts-tw/Streamers.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "239560764283eba8d894ecf40671e521ec4005f2ff23f84a47636ac68a9da4bf"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Streamers",
+      "style": "default",
+      "file": "vault/reactbits-free/components/streamers/variants/ts-tw/Streamers.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/streamers",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Ribbons-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/ribbons"
+  },
+  "hash": "f9c791b23e8e3b1b7aa1434733c9319245f2bdc8c011b45610d052545dc3ed3b",
+  "fetchedAt": "2026-08-14T05:36:11.443Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "Streamers",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "ribbons",
+  "upstreamName": "Ribbons"
+}

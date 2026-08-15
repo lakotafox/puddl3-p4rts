@@ -1,0 +1,162 @@
+{
+  "id": "rb-free/component/tremor-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "tremor-type",
+  "name": "TremorType",
+  "title": "Tremor Type",
+  "description": "Vibrating fuzzy text with controllable hover intensity.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FuzzyText-JS-CSS",
+      "path": "vault/reactbits-free/components/tremor-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tremor-type/variants/js-css/TremorType.jsx",
+          "bytes": 11153,
+          "sha256": "10fd7ceda10ea8f47f3929e1625eace6caa6362df73f342b6e3cfa733b682d5e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TremorType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tremor-type/variants/js-css/TremorType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ce9ce6bedad5621a0f0a30b8b92f31bce242f68168054894f356eef347e839ab"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FuzzyText-JS-TW",
+      "path": "vault/reactbits-free/components/tremor-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tremor-type/variants/js-tw/TremorType.jsx",
+          "bytes": 9855,
+          "sha256": "0878df29995891290ebc99d2a343e9d7db618d6a37155ca0de42a7487c7a46f7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TremorType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tremor-type/variants/js-tw/TremorType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "986484b91092b1424d049a70bc3976cfe82c79375561e79efc1e592a6f9866c5"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FuzzyText-TS-CSS",
+      "path": "vault/reactbits-free/components/tremor-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tremor-type/variants/ts-css/TremorType.tsx",
+          "bytes": 10619,
+          "sha256": "178b516d2ab8f43b303fa150fd593fbc1b768489412a08237491ac010e2f69db"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TremorType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tremor-type/variants/ts-css/TremorType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aae184a40ed432014223abb75651afb170065ec656922d9909a82f217d609c05"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FuzzyText-TS-TW",
+      "path": "vault/reactbits-free/components/tremor-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tremor-type/variants/ts-tw/TremorType.tsx",
+          "bytes": 10619,
+          "sha256": "178b516d2ab8f43b303fa150fd593fbc1b768489412a08237491ac010e2f69db"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TremorType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tremor-type/variants/ts-tw/TremorType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aae184a40ed432014223abb75651afb170065ec656922d9909a82f217d609c05"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TremorType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/tremor-type/variants/ts-tw/TremorType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/tremor-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FuzzyText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/fuzzy-text"
+  },
+  "hash": "e78746937fcac93af39a7cec8d3e06a04d3dd50f4d84391b5d4f130eb8ee9f2a",
+  "fetchedAt": "2026-08-14T05:36:11.382Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TremorType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "fuzzy-text",
+  "upstreamName": "FuzzyText"
+}

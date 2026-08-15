@@ -1,0 +1,131 @@
+{
+  "id": "rb-starter/component/leaf-turn",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "leaf-turn",
+  "name": "LeafTurn",
+  "title": "Leaf Turn",
+  "description": "A book-style page flip you can drag through",
+  "tags": [
+    "book",
+    "flip",
+    "3d",
+    "drag",
+    "pages",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "book",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "page-flip-css",
+      "path": "vault/reactbits-starter/components/leaf-turn/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/leaf-turn/variants/css/leaf-turn.tsx",
+          "bytes": 9598,
+          "sha256": "15827c861c0a6335d933f59b8f5e2b381eab8df9ef3f9ded6ea447dabfd65374"
+        },
+        {
+          "path": "vault/reactbits-starter/components/leaf-turn/variants/css/leaf-turn.css",
+          "bytes": 348,
+          "sha256": "02f333de19b670fcb7c377d34f8f9db90440655483e6c14830acfc40d47b6335"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LeafTurn",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/leaf-turn/variants/css/leaf-turn.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "90409ea151893f98a4204f22a1f25654b05dcd5efccf946c2d68c56cbb3223b2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "page-flip-tw",
+      "path": "vault/reactbits-starter/components/leaf-turn/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/leaf-turn/variants/tw/leaf-turn.tsx",
+          "bytes": 9716,
+          "sha256": "5e4928c2cbfd98f463befedb63934eedf972d5dd5f6ab0946e5c757ca076205d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LeafTurn",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/leaf-turn/variants/tw/leaf-turn.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7c4edc75d65996c8369add45482c786306f6b962729f2c0db674a07a2a168893"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LeafTurn",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/leaf-turn/variants/tw/leaf-turn.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/leaf-turn",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/page-flip-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1edda40c91049a52b5de2e4a0d8a0af16c8af41a18912a6abae2486beaf051aa",
+  "fetchedAt": "2026-08-14T05:33:45.044Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "page-flip",
+  "upstreamName": "PageFlip"
+}

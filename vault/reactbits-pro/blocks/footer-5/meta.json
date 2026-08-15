@@ -1,0 +1,97 @@
+{
+  "id": "rb-pro/block/footer-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-5",
+  "name": "footer-5",
+  "title": "Footer 5",
+  "description": "Card footer with staggered fade background",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-5",
+      "path": "vault/reactbits-pro/blocks/footer-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-5/files/footer-5.tsx",
+          "bytes": 5337,
+          "sha256": "900b02dd6a78e5076d75f6115fdaa0e5d6092fb556f05ebc6c11b182e23d7c17"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-5/files/footer-5.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Footer5",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/footer-5/files/footer-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "11997b9351692758e72bb031ae562882f9565263105cde83c183dabbdd06e00f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-5/files/footer-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9a2241c035269369fcce64da944c7990706b4d75a2410d710e43e7c60a66bfec",
+  "fetchedAt": "2026-08-14T05:47:27.009Z",
+  "vaultVersion": 1
+}

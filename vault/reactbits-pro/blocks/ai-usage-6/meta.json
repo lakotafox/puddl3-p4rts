@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/ai-usage-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-usage-6",
+  "name": "ai-usage-6",
+  "title": "AI Usage 6",
+  "description": "Overage notice with included-versus-billed split and an inline plan upgrade picker.",
+  "tags": [
+    "ai",
+    "usage",
+    "tokens",
+    "billing",
+    "quota",
+    "cost"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-usage-6",
+      "path": "vault/reactbits-pro/blocks/ai-usage-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-usage-6/files/ai-usage-6.tsx",
+          "bytes": 8478,
+          "sha256": "a35b231b11c192f828dfec39fc5d3989e4f37aadc71bd1af06aee1596f7b49f5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AiUsage6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-usage-6/files/ai-usage-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2a32bb533b9fe4edd8bc6622a0ded4f31a46ea6979a22ff8dc341595398ddb8e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiUsage6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-usage-6/files/ai-usage-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-usage-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-usage-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d20a9df2756ff577f1d94db09fe590ff261f8bfc1162db0abccb6e91348aa8a3",
+  "fetchedAt": "2026-08-14T05:36:49.637Z",
+  "vaultVersion": 1
+}

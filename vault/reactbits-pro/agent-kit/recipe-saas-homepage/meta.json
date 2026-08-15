@@ -1,0 +1,81 @@
+{
+  "id": "rb-pro/recipe/recipe-saas-homepage",
+  "source": "rb-pro",
+  "kind": "recipe",
+  "slug": "recipe-saas-homepage",
+  "name": "recipe-saas-homepage",
+  "title": "SaaS Homepage",
+  "description": "A tested 13-block arrangement that assembles a complete self-serve B2B SaaS homepage (navigation through footer) from React Bits Pro blocks in one prompt.",
+  "tags": [
+    "recipe",
+    "marketing",
+    "saas",
+    "homepage",
+    "conversion",
+    "blocks"
+  ],
+  "tagSource": "upstream",
+  "category": "recipe",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "recipe-saas-homepage",
+      "path": "vault/reactbits-pro/agent-kit/recipe-saas-homepage/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-saas-homepage/files/RECIPE.md",
+          "bytes": 21529,
+          "sha256": "4ec6ac067a42c4f95cea9ab6aceeac5f410711bdc3ba63d7a6a723b105de690e"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-saas-homepage/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-saas-homepage/files/plan.json",
+          "bytes": 7652,
+          "sha256": "cefb20e7baa2dcf225a6dd1f88ce03ba9c705ef207edbbc49ef0447fa02bef4e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "df01de0839bc9a5636b99845eb32194113f49f08fb8320d850753df597257595"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/recipe-saas-homepage",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/recipe-saas-homepage.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7d7b32d64e98002263ce0e5b6de304dbc5e2153d191ab0d6d7d59e8c86af68d5",
+  "fetchedAt": "2026-08-14T05:54:21.410Z",
+  "vaultVersion": 1
+}

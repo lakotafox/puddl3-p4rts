@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/spin-reel",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "spin-reel",
+  "name": "SpinReel",
+  "title": "Spin Reel",
+  "description": "Draggable circular carousel with inertia and 3D transforms",
+  "tags": [
+    "gallery",
+    "animation",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "gallery",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "circle-gallery-css",
+      "path": "vault/reactbits-starter/components/spin-reel/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spin-reel/variants/css/spin-reel.tsx",
+          "bytes": 14556,
+          "sha256": "e25d1a384d9943da9eccc918904f63c018a971f2b04e2ae471c752ced65b60be"
+        },
+        {
+          "path": "vault/reactbits-starter/components/spin-reel/variants/css/spin-reel.css",
+          "bytes": 1137,
+          "sha256": "98a31416c9688401987736d779f8b7313b5fa59a34d3cd76a15d6754d1e52786"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpinReel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spin-reel/variants/css/spin-reel.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SpinReel",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/spin-reel/variants/css/spin-reel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "266882de7f38649378bb34840c6d519c99a2cadcbaacadab37b3802a350702f1"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "circle-gallery-tw",
+      "path": "vault/reactbits-starter/components/spin-reel/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spin-reel/variants/tw/spin-reel.tsx",
+          "bytes": 14899,
+          "sha256": "b0987e71607e3719b39fa2426210656ae01183eb315de2b4634ef1e84a4aebbf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpinReel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spin-reel/variants/tw/spin-reel.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SpinReel",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/spin-reel/variants/tw/spin-reel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "34da311b226e6abaca1afa15dc9bde50da2a7b29799c66a540bc2a60d611550d"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpinReel",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/spin-reel/variants/tw/spin-reel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/spin-reel",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/circle-gallery-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "56b806db04a58e1def4adaa9a83a3c5a34cf513b3bf798f28a825ca8f2baad09",
+  "fetchedAt": "2026-08-14T05:32:06.544Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "circle-gallery",
+  "upstreamName": "CircleGallery"
+}

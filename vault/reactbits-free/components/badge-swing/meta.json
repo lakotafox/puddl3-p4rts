@@ -1,0 +1,277 @@
+{
+  "id": "rb-free/component/badge-swing",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "badge-swing",
+  "name": "BadgeSwing",
+  "title": "Badge Swing",
+  "description": "Swinging 3D lanyard / badge card with realistic inertial motion.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Lanyard-JS-CSS",
+      "path": "vault/reactbits-free/components/badge-swing/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/js-css/BadgeSwing.css",
+          "bytes": 207,
+          "sha256": "5cd49585bdafb160a6a2c9ba410fd88855ccc76395d360c34f7375152a1b1ba7"
+        },
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/js-css/BadgeSwing.jsx",
+          "bytes": 10314,
+          "sha256": "1907def95ec5dce7e0fc29f2491d362c20123cbf4a39eb80017522573779b174"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/rapier",
+          "range": "*"
+        },
+        {
+          "name": "meshline",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BadgeSwing",
+          "style": "default",
+          "file": "vault/reactbits-free/components/badge-swing/variants/js-css/BadgeSwing.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bd4eedd89599da22e50388aa202c9dd877d27c1d3cbf1d6eed51462be57fe0fc"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Lanyard-JS-TW",
+      "path": "vault/reactbits-free/components/badge-swing/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/js-tw/BadgeSwing.jsx",
+          "bytes": 10370,
+          "sha256": "49a1b44f7aa941ff384e17dd3caee9f28eea452293b2b864c6fedc49bc29dc3d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/rapier",
+          "range": "*"
+        },
+        {
+          "name": "meshline",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BadgeSwing",
+          "style": "default",
+          "file": "vault/reactbits-free/components/badge-swing/variants/js-tw/BadgeSwing.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "32e1d213b9c911a0c95be5de6a769ba24e4a68b1daca12e3e4a7152311e02059"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Lanyard-TS-CSS",
+      "path": "vault/reactbits-free/components/badge-swing/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/ts-css/BadgeSwing.css",
+          "bytes": 207,
+          "sha256": "5cd49585bdafb160a6a2c9ba410fd88855ccc76395d360c34f7375152a1b1ba7"
+        },
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/ts-css/BadgeSwing.tsx",
+          "bytes": 11987,
+          "sha256": "38cc124ee303b91628790ab55b2b65696d7c2ffcb9c88fa885dd11d53f1c7f48"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/rapier",
+          "range": "*"
+        },
+        {
+          "name": "meshline",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BadgeSwing",
+          "style": "default",
+          "file": "vault/reactbits-free/components/badge-swing/variants/ts-css/BadgeSwing.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2648b20464d8f399eb5898ac5503c18380699f8f85cc19c4d7f657d6566fb8e5"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Lanyard-TS-TW",
+      "path": "vault/reactbits-free/components/badge-swing/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/badge-swing/variants/ts-tw/BadgeSwing.tsx",
+          "bytes": 12042,
+          "sha256": "d848edfb16f41fa2c384525c67fd08d7b90949694bbd9349cf432ea8bb303a88"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "@react-three/rapier",
+          "range": "*"
+        },
+        {
+          "name": "meshline",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BadgeSwing",
+          "style": "default",
+          "file": "vault/reactbits-free/components/badge-swing/variants/ts-tw/BadgeSwing.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b6be1f3c3ec49fa82f29a457a9e68c71d2531f9e986e7618172d92af95dc9555"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "*"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "@react-three/rapier",
+      "range": "*"
+    },
+    {
+      "name": "meshline",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BadgeSwing",
+      "style": "default",
+      "file": "vault/reactbits-free/components/badge-swing/variants/ts-tw/BadgeSwing.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/badge-swing",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free \u2014 personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Lanyard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/lanyard"
+  },
+  "hash": "68b3cf897d81022de176e60b7b3c6b3911286ce673a60c36c5de944d96c48684",
+  "fetchedAt": "2026-08-14T05:36:11.404Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BadgeSwing",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "lanyard",
+  "upstreamName": "Lanyard"
+}

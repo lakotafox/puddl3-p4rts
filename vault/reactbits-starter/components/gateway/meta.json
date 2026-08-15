@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/gateway",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "gateway",
+  "name": "Gateway",
+  "title": "Gateway",
+  "description": "Circular portal shader with customizable particle effects",
+  "tags": [
+    "animation",
+    "effect",
+    "shader"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "portal-css",
+      "path": "vault/reactbits-starter/components/gateway/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/gateway/variants/css/gateway.tsx",
+          "bytes": 9565,
+          "sha256": "dae4187476230a7c1e1c9995d381e64d341d0f822b7acf975e4ad145f26f2e7b"
+        },
+        {
+          "path": "vault/reactbits-starter/components/gateway/variants/css/gateway.css",
+          "bytes": 135,
+          "sha256": "716e3de78f2233c4eb1803dbe3af9014a53f367543421f06f1cb7b87777a8577"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Gateway",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/gateway/variants/css/gateway.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Gateway",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/gateway/variants/css/gateway.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a14a6a860baeb1477d10f94c108c9517173ab28e0751f31b4391d251e71bae24"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "portal-tw",
+      "path": "vault/reactbits-starter/components/gateway/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/gateway/variants/tw/gateway.tsx",
+          "bytes": 9583,
+          "sha256": "c2c2cad2ad7a468e62810faec8363e9c4ec5b3f304f46afc313f8d44db4639cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Gateway",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/gateway/variants/tw/gateway.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Gateway",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/gateway/variants/tw/gateway.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d89b00f7d1f92fad793bacc85e847fc21535cc740231f7dccc5e6bdea0a9a94a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Gateway",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/gateway/variants/tw/gateway.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/gateway",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/portal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "7ef73401eaff7d9f15bd9cfe092dc8c1958e03d9d4906b6382024d480064bb26",
+  "fetchedAt": "2026-08-14T05:34:04.502Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "portal",
+  "upstreamName": "Portal"
+}

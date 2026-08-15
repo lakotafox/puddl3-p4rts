@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/horizon-swells",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "horizon-swells",
+  "name": "HorizonSwells",
+  "title": "Horizon Swells",
+  "description": "Raymarched sine waves rolling toward a soft, hazy horizon.",
+  "tags": [
+    "background",
+    "effect",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GradientWaves-JS-CSS",
+      "path": "vault/reactbits-free/components/horizon-swells/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/js-css/HorizonSwells.css",
+          "bytes": 103,
+          "sha256": "4a3a19cd7977d5ddd128658750a007be8632c6fd9a66fa0c280eec2187927d65"
+        },
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/js-css/HorizonSwells.jsx",
+          "bytes": 10429,
+          "sha256": "92cf6aa408e3b7fe98474c6465441ecea7a7810250bbcc4a92b905e6848ae24f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HorizonSwells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/horizon-swells/variants/js-css/HorizonSwells.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1966a49ba53e6814eeaddab163a2db03b578eca7480fc24d87cbd653113f6556"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GradientWaves-JS-TW",
+      "path": "vault/reactbits-free/components/horizon-swells/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/js-tw/HorizonSwells.jsx",
+          "bytes": 10413,
+          "sha256": "5accc5627999ee2d85164cf72dbd8d0973df56a937f1069f5e3cb223e767e0d1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HorizonSwells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/horizon-swells/variants/js-tw/HorizonSwells.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e7ece1ffc1a0310ab4b29aa4370184c6e6a35e7f6a53c563117fba7f7f9c296f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GradientWaves-TS-CSS",
+      "path": "vault/reactbits-free/components/horizon-swells/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/ts-css/HorizonSwells.css",
+          "bytes": 103,
+          "sha256": "4a3a19cd7977d5ddd128658750a007be8632c6fd9a66fa0c280eec2187927d65"
+        },
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/ts-css/HorizonSwells.tsx",
+          "bytes": 11558,
+          "sha256": "e628db3607ac06f5b87eae602bd9554f73c045c3f00c5185653984cf03157717"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HorizonSwells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/horizon-swells/variants/ts-css/HorizonSwells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fa49e21843ca539e64a59d634dae85cfd61cbd3c031ecc8ee9cf5e6703eeefdf"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GradientWaves-TS-TW",
+      "path": "vault/reactbits-free/components/horizon-swells/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/horizon-swells/variants/ts-tw/HorizonSwells.tsx",
+          "bytes": 11542,
+          "sha256": "68c6f3a4e94431a933df80b97185d2c6c579a1363c236b0a5ea032917eb321fb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HorizonSwells",
+          "style": "default",
+          "file": "vault/reactbits-free/components/horizon-swells/variants/ts-tw/HorizonSwells.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0de2bc2da26980b6bf399dd3fac1acf51457011c6f4d56f0217ffe8e4d5200f4"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HorizonSwells",
+      "style": "default",
+      "file": "vault/reactbits-free/components/horizon-swells/variants/ts-tw/HorizonSwells.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/horizon-swells",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GradientWaves-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/gradient-waves"
+  },
+  "hash": "828a2cbb8692c66ca26600de4e0b85ae6b01e7bf26e95da3dee77bcea08fdd0d",
+  "fetchedAt": "2026-08-14T05:36:11.389Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HorizonSwells",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "gradient-waves",
+  "upstreamName": "GradientWaves"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/download-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-6",
+  "name": "download-6",
+  "title": "Download 6",
+  "description": "Desktop release manifest with signed platform builds, checksums, and changelog highlights.",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-6",
+      "path": "vault/reactbits-pro/blocks/download-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-6/files/download-6.tsx",
+          "bytes": 14047,
+          "sha256": "5fa8d32e9655db89347daece057c2197d252f44b63994fea402717f321e531b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-6/files/download-6.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Download6",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/download-6/files/download-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ea98b0e21d34d01ad5469a7196a5a81b07976ba7d64dd74c1fc5570f1bc51708"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-6/files/download-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "117dd38f49d60bc75233ec7751a8ed44b886a36f6bb5dcc442bf15e1638a73cd",
+  "fetchedAt": "2026-08-14T05:45:39.890Z",
+  "vaultVersion": 1
+}

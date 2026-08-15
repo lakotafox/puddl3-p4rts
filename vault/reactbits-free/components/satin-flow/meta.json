@@ -1,0 +1,208 @@
+{
+  "id": "rb-free/component/satin-flow",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "satin-flow",
+  "name": "SatinFlow",
+  "title": "Satin Flow",
+  "description": "Smooth waves background with soft lighting.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Silk-JS-CSS",
+      "path": "vault/reactbits-free/components/satin-flow/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/satin-flow/variants/js-css/SatinFlow.jsx",
+          "bytes": 3331,
+          "sha256": "c5d605662324a4f7005ac6dac7a7e047021622d63e31d5043a5d11c75bcc5d4c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/satin-flow/variants/js-css/SatinFlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0f4c60c6421ad8be7070de8827adb10cf59ff95acb7c2346a823ccc8007da07d"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Silk-JS-TW",
+      "path": "vault/reactbits-free/components/satin-flow/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/satin-flow/variants/js-tw/SatinFlow.jsx",
+          "bytes": 3331,
+          "sha256": "c5d605662324a4f7005ac6dac7a7e047021622d63e31d5043a5d11c75bcc5d4c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/satin-flow/variants/js-tw/SatinFlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0f4c60c6421ad8be7070de8827adb10cf59ff95acb7c2346a823ccc8007da07d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Silk-TS-CSS",
+      "path": "vault/reactbits-free/components/satin-flow/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/satin-flow/variants/ts-css/SatinFlow.tsx",
+          "bytes": 4375,
+          "sha256": "b1ef480ccfe129a6d09e6611868e81d1d999ed6b0fae3ad9129f33162375a613"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/satin-flow/variants/ts-css/SatinFlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ad0c5d9e29e68cb0737375dfc538c0aa5b6b3e49107fc603d602abbebaa02b53"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Silk-TS-TW",
+      "path": "vault/reactbits-free/components/satin-flow/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/satin-flow/variants/ts-tw/SatinFlow.tsx",
+          "bytes": 4375,
+          "sha256": "b1ef480ccfe129a6d09e6611868e81d1d999ed6b0fae3ad9129f33162375a613"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/satin-flow/variants/ts-tw/SatinFlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ad0c5d9e29e68cb0737375dfc538c0aa5b6b3e49107fc603d602abbebaa02b53"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SatinFlow",
+      "style": "default",
+      "file": "vault/reactbits-free/components/satin-flow/variants/ts-tw/SatinFlow.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/satin-flow",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Silk-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/silk"
+  },
+  "hash": "93bd2a9537b99e2dd47ba608f2beeb00268af675c9101c998545dde8b8dcaf10",
+  "fetchedAt": "2026-08-14T05:36:11.455Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SatinFlow",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "silk",
+  "upstreamName": "Silk"
+}

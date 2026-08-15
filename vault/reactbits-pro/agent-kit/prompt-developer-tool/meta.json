@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/prompt/prompt-developer-tool",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-developer-tool",
+  "name": "prompt-developer-tool",
+  "title": "Developer Tool",
+  "description": "Build a landing page for engineers: real code in the hero, a copy-paste quickstart, honest benchmarks, credible open-source signals, and zero marketing tics that close tabs.",
+  "tags": [
+    "prompt",
+    "software",
+    "developer",
+    "api",
+    "sdk",
+    "cli",
+    "open-source",
+    "docs"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-developer-tool",
+      "path": "vault/reactbits-pro/agent-kit/prompt-developer-tool/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-developer-tool/files/PROMPT.md",
+          "bytes": 18074,
+          "sha256": "ece60e3e36404fcc0273d86b69459d148a5045e0b8a0b4e8ae08cf2e2065cc7b"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-developer-tool/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "7522a766b46caa69407b544cb1ab4d458ded5ae8ffac13547702ab9154428190"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-developer-tool",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-developer-tool.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "482ba8f1a546bf775d8e6ff7cc236480631f8b7dd05d87cf049c50094294cf11",
+  "fetchedAt": "2026-08-14T05:53:58.750Z",
+  "vaultVersion": 1
+}

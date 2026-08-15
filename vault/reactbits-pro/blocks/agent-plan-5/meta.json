@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/agent-plan-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-plan-5",
+  "name": "agent-plan-5",
+  "title": "Agent Plan 5",
+  "description": "Todo board for agent work items grouped by queued, running, and done.",
+  "tags": [
+    "ai",
+    "agent",
+    "plan",
+    "tasks",
+    "checklist"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-plan-5",
+      "path": "vault/reactbits-pro/blocks/agent-plan-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-plan-5/files/agent-plan-5.tsx",
+          "bytes": 8618,
+          "sha256": "34d716b09c96dda136123a850bb9d9c4c12b2c60cb20d2bdaa093ba36271d3af"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AgentPlan5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-plan-5/files/agent-plan-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "362ac31db607d28bab10b8708890d6f7656ea9963a62079e5ae1fce3169a51e8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentPlan5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-plan-5/files/agent-plan-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-plan-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-plan-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c06dae6b856798366e1c9c89c4ff64f37bc909e5db9bcd30adc4619b47d0b4b5",
+  "fetchedAt": "2026-08-14T05:36:25.501Z",
+  "vaultVersion": 1
+}

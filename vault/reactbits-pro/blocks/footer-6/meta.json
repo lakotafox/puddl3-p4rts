@@ -1,0 +1,97 @@
+{
+  "id": "rb-pro/block/footer-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-6",
+  "name": "footer-6",
+  "title": "Footer 6",
+  "description": "Two row footer with categories and large links",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-6",
+      "path": "vault/reactbits-pro/blocks/footer-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-6/files/footer-6.tsx",
+          "bytes": 4608,
+          "sha256": "eac229c7aec6f8d1f432fb9fdca90a3f3c264d63521f00ff99388646deb30683"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-6/files/footer-6.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Footer6",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/footer-6/files/footer-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "86923ca8dbcdec0837d6a9fbfc27d1198b00fe7a12a652d5b87036d2b3f24c45"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-6/files/footer-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0e44b71e5476b8829bff13c18cbd812ca14d0b9871f7dbc19946d1a8cf0be6be",
+  "fetchedAt": "2026-08-14T05:47:28.500Z",
+  "vaultVersion": 1
+}

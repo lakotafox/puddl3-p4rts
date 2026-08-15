@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/block-bloom",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "block-bloom",
+  "name": "BlockBloom",
+  "title": "Block Bloom",
+  "description": "A raymarched tile field that lifts and ripples under the cursor",
+  "tags": [
+    "background",
+    "shader",
+    "grid",
+    "cursor",
+    "webgl",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "grid-rise-css",
+      "path": "vault/reactbits-starter/components/block-bloom/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/block-bloom/variants/css/block-bloom.tsx",
+          "bytes": 20867,
+          "sha256": "0dfedb0d645db517d99114f6c21ab4d45193b2108338d4069e710105431a4ab2"
+        },
+        {
+          "path": "vault/reactbits-starter/components/block-bloom/variants/css/block-bloom.css",
+          "bytes": 230,
+          "sha256": "fe3e3a82d33520ab182296c0c0b368200083ca540cca89add4e4612d93b3ff92"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlockBloom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/block-bloom/variants/css/block-bloom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BlockBloom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/block-bloom/variants/css/block-bloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ea969c53a2f2d892f9a4531c6df90fcbfca3ce47a6b586046adb98b0da36ed69"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "grid-rise-tw",
+      "path": "vault/reactbits-starter/components/block-bloom/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/block-bloom/variants/tw/block-bloom.tsx",
+          "bytes": 20934,
+          "sha256": "5291c5552a81c46612764ac23374767c762c4730e2ad809ceafdf9997330a29b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlockBloom",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/block-bloom/variants/tw/block-bloom.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BlockBloom",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/block-bloom/variants/tw/block-bloom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "17784d64858d52d2a609f93db170a86bbdfc0e391b6ad73a50b45e1afdb87f23"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BlockBloom",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/block-bloom/variants/tw/block-bloom.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/block-bloom",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/grid-rise-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "022cb7c3492859791c9c8a10706a20ea69294731ecdaf2a01d77870d43725216",
+  "fetchedAt": "2026-08-14T05:33:06.580Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "grid-rise",
+  "upstreamName": "GridRise"
+}

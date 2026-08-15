@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/kanban-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "kanban-5",
+  "name": "kanban-5",
+  "title": "Kanban 5",
+  "description": "Sprint board with point totals, per-column capacity meters, blocked flags, and a burn-down stat strip.",
+  "tags": [
+    "kanban",
+    "board",
+    "drag and drop",
+    "sortable",
+    "columns",
+    "swimlane",
+    "backlog",
+    "sprint",
+    "task",
+    "project"
+  ],
+  "tagSource": "upstream",
+  "category": "kanban",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "kanban-5",
+      "path": "vault/reactbits-pro/blocks/kanban-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/kanban-5/files/kanban-5.tsx",
+          "bytes": 19331,
+          "sha256": "953973e395add75a50f12a11d4517d17d8f24c5c1075a3affbc9870c4c227cd7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Kanban5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/kanban-5/files/kanban-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fedfb948ea128b7bd2a8be81352f0ef600316e7ff3a1bc15f600924dfbc2b8fc"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Kanban5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/kanban-5/files/kanban-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/kanban-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/kanban-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "cb1f1b30eea8bab9374e202a113d57b449bd6004412df61784fe83b95efc05be",
+  "fetchedAt": "2026-08-14T05:48:56.945Z",
+  "vaultVersion": 1
+}

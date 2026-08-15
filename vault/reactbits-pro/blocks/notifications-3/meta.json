@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/notifications-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "notifications-3",
+  "name": "notifications-3",
+  "title": "Notifications 3",
+  "description": "Delivery preferences matrix across in-app, email, and push with quiet hours and a save bar.",
+  "tags": [
+    "notifications",
+    "alerts",
+    "toast",
+    "inbox",
+    "activity"
+  ],
+  "tagSource": "upstream",
+  "category": "notifications",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "notifications-3",
+      "path": "vault/reactbits-pro/blocks/notifications-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/notifications-3/files/notifications-3.tsx",
+          "bytes": 14376,
+          "sha256": "60aa28737f4ae18427728dc751a40e3189040412375043ecc8444e6a456fa330"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Notifications3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/notifications-3/files/notifications-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "090b8f03cc74f01dd8846c4fd4399ae286f53e25ac29a442c1d29097f78dd900"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Notifications3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/notifications-3/files/notifications-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/notifications-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/notifications-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "73c86d1cfd8eaf03ea03a3cd7fe07b3c3801113e7c23369bc5b91c70355f91ba",
+  "fetchedAt": "2026-08-14T05:52:57.392Z",
+  "vaultVersion": 1
+}

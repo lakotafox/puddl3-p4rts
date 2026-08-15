@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/stats-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-5",
+  "name": "stats-5",
+  "title": "Stats 5",
+  "description": "Full-width colored card with world map background, stats grid, and CTA",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-5",
+      "path": "vault/reactbits-pro/blocks/stats-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-5/files/stats-5.tsx",
+          "bytes": 3177,
+          "sha256": "38bd50c893dd30d2dc406fe3e4867592a518f20429b4615e902228aa3579fc8f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-5/files/stats-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1251791bc61dec6e162962f7bc693340dcff5142c890c317d41c97f46ce8cc1d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-5/files/stats-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7da0274146931c9f729dec85c7ae955b4e7f42dd4016a8ae1729dd75ac17b65e",
+  "fetchedAt": "2026-08-14T05:55:48.502Z",
+  "vaultVersion": 1
+}

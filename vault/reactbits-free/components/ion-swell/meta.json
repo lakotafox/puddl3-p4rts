@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/ion-swell",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ion-swell",
+  "name": "IonSwell",
+  "title": "Ion Swell",
+  "description": "Raymarched plasma waves with dual-wave interference and OGL.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PlasmaWave-JS-CSS",
+      "path": "vault/reactbits-free/components/ion-swell/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/js-css/IonSwell.css",
+          "bytes": 58,
+          "sha256": "6f27a0a2a0710adcb32c02ce1215b0eb7febfb79bf6caafd0a1b7d552e808e47"
+        },
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/js-css/IonSwell.jsx",
+          "bytes": 6438,
+          "sha256": "40cc84b249b1fb8e71fcd7691b54b23dce39443ebac446da1653198c0bf78af0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IonSwell",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ion-swell/variants/js-css/IonSwell.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "113d7de0a3b4b4e339aff206e2f7e4e24ac612350c133693c3646acc7977295a"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PlasmaWave-JS-TW",
+      "path": "vault/reactbits-free/components/ion-swell/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/js-tw/IonSwell.jsx",
+          "bytes": 6402,
+          "sha256": "ceaed2f0e96a56f6a927ba575bc64aafc49ea568dad806b82953f9f41dbb6314"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IonSwell",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ion-swell/variants/js-tw/IonSwell.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e4640086ee60e8c17a339f48918f5c8eaa12e5ba385febefd357c53c179c2151"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PlasmaWave-TS-CSS",
+      "path": "vault/reactbits-free/components/ion-swell/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/ts-css/IonSwell.css",
+          "bytes": 58,
+          "sha256": "6f27a0a2a0710adcb32c02ce1215b0eb7febfb79bf6caafd0a1b7d552e808e47"
+        },
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/ts-css/IonSwell.tsx",
+          "bytes": 6717,
+          "sha256": "59a97ae530fee8eb280e1808771b64918974f705f1b2498fa162bd24ce990ade"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IonSwell",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ion-swell/variants/ts-css/IonSwell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "03b1ecea6af2082a3540b7c5ff00a9fe325420b70d647f59ea37e81dd15c3e67"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PlasmaWave-TS-TW",
+      "path": "vault/reactbits-free/components/ion-swell/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ion-swell/variants/ts-tw/IonSwell.tsx",
+          "bytes": 6681,
+          "sha256": "6ca93147269d408e01bd9cd14a6de404b50b11f97db58143c4fc17fc2fac5b7f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IonSwell",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ion-swell/variants/ts-tw/IonSwell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "db249e2a866d1a250a3dfac5adf206a3702d9a4431fe8e98ff591ceafdac391f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "IonSwell",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ion-swell/variants/ts-tw/IonSwell.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ion-swell",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PlasmaWave-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/plasma-wave"
+  },
+  "hash": "242b0696e5ff988bf299f708d46611f73440af7d3c70eed68e89b4431b23de99",
+  "fetchedAt": "2026-08-14T05:36:11.438Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "IonSwell",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "plasma-wave",
+  "upstreamName": "PlasmaWave"
+}

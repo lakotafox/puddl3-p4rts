@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/concertina-panels",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "concertina-panels",
+  "name": "ConcertinaPanels",
+  "title": "Concertina Panels",
+  "description": "Panels expand on hover or focus, revealing parallax imagery and captions.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "AccordionGallery-JS-CSS",
+      "path": "vault/reactbits-free/components/concertina-panels/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/js-css/ConcertinaPanels.css",
+          "bytes": 2879,
+          "sha256": "ed6b800ed83052859f1f617ccc2a846db8389cb9580db440dbb97fc0ab39b5e6"
+        },
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/js-css/ConcertinaPanels.jsx",
+          "bytes": 7040,
+          "sha256": "6acf6565d2de2943f2e8ca94900bf05f6c81c6e25c0f60ca579aabe0793bc182"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConcertinaPanels",
+          "style": "default",
+          "file": "vault/reactbits-free/components/concertina-panels/variants/js-css/ConcertinaPanels.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "90cf4b5ad94391b995da02069e480eca08f2a500bcb2436dc480e7e2594b0213"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "AccordionGallery-JS-TW",
+      "path": "vault/reactbits-free/components/concertina-panels/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/js-tw/ConcertinaPanels.jsx",
+          "bytes": 8771,
+          "sha256": "a3064b89ad9ff9194e4c657b136c595a4f197929f8a10c50af1a3addaa475264"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConcertinaPanels",
+          "style": "default",
+          "file": "vault/reactbits-free/components/concertina-panels/variants/js-tw/ConcertinaPanels.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "93e04afa3047a8c7a5c642cf0601e70a1111288bff0b19b79c5ce362fa235007"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "AccordionGallery-TS-CSS",
+      "path": "vault/reactbits-free/components/concertina-panels/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/ts-css/ConcertinaPanels.css",
+          "bytes": 2879,
+          "sha256": "ed6b800ed83052859f1f617ccc2a846db8389cb9580db440dbb97fc0ab39b5e6"
+        },
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/ts-css/ConcertinaPanels.tsx",
+          "bytes": 8352,
+          "sha256": "85b30dd0c96f65c65a2881d16e420ac34d7325f60f41b1af0ba06a286ba8fc81"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConcertinaPanels",
+          "style": "default",
+          "file": "vault/reactbits-free/components/concertina-panels/variants/ts-css/ConcertinaPanels.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4fc225cc9e3d99e30d20029296d8d33c46ae18ae1039a1e16ee05aa32a3821fd"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "AccordionGallery-TS-TW",
+      "path": "vault/reactbits-free/components/concertina-panels/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/concertina-panels/variants/ts-tw/ConcertinaPanels.tsx",
+          "bytes": 10017,
+          "sha256": "999bef1ff9768a708d804c4d70aa199a0acce7031da5d431c6072c3b206cbe52"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConcertinaPanels",
+          "style": "default",
+          "file": "vault/reactbits-free/components/concertina-panels/variants/ts-tw/ConcertinaPanels.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "da82239cd7f7badccdef37fea2aab9f53ad17cb3bf1b52a3eebc34d7a39965dd"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ConcertinaPanels",
+      "style": "default",
+      "file": "vault/reactbits-free/components/concertina-panels/variants/ts-tw/ConcertinaPanels.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/concertina-panels",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/AccordionGallery-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/accordion-gallery"
+  },
+  "hash": "d359c412a5e4aa2f74c0faff39413f5db5eff00f69b5adffc89da1ca0c96bd38",
+  "fetchedAt": "2026-08-14T05:36:11.325Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ConcertinaPanels",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "accordion-gallery",
+  "upstreamName": "AccordionGallery"
+}

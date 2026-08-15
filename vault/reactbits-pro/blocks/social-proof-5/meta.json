@@ -1,0 +1,92 @@
+{
+  "id": "rb-pro/block/social-proof-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-5",
+  "name": "social-proof-5",
+  "title": "Social Proof 5",
+  "description": "Auto-cycling testimonials with avatar carousel and circular progress indicators",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-5",
+      "path": "vault/reactbits-pro/blocks/social-proof-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-5/files/social-proof-5.tsx",
+          "bytes": 7552,
+          "sha256": "e2e9d485fa7abc2b80a38046928c96dc33fbf95d87fcaa675299575a7a19a884"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-5/files/social-proof-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "346dc67c07e432d094cd076c920aec1e2db2e2c6a8b0908945b712f5c93d779d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-5/files/social-proof-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9a884a0b6edc73c40eb8bbcfa6be5f5e9d01ccfa4ac07212176eccbc4437b5d5",
+  "fetchedAt": "2026-08-14T05:55:25.328Z",
+  "vaultVersion": 1
+}

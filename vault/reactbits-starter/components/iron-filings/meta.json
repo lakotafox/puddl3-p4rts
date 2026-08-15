@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/iron-filings",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "iron-filings",
+  "name": "IronFilings",
+  "title": "Iron Filings",
+  "description": "A cursor trail that magnetises the pixels it passes through",
+  "tags": [
+    "cursor",
+    "pixel",
+    "interactive",
+    "shader",
+    "webgl",
+    "trail"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "pixel-magnet-css",
+      "path": "vault/reactbits-starter/components/iron-filings/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/iron-filings/variants/css/iron-filings.tsx",
+          "bytes": 12911,
+          "sha256": "0f6c20ee6a820219ddf2c649c9edfbaa02cd5c56e2194d2cbb669d7eec051953"
+        },
+        {
+          "path": "vault/reactbits-starter/components/iron-filings/variants/css/iron-filings.css",
+          "bytes": 215,
+          "sha256": "dbc3d6d803ccef2a97954b02649bba2de65a82877e787fa69702d38ed84a70ea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IronFilings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/iron-filings/variants/css/iron-filings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "51bf9c2fa326d98bde237d2a72ab15010f9f734f18c1c1f6c2bced1f07010cd6"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "pixel-magnet-tw",
+      "path": "vault/reactbits-starter/components/iron-filings/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/iron-filings/variants/tw/iron-filings.tsx",
+          "bytes": 12927,
+          "sha256": "9477ea7d62561a08ebeb960a82c52d1f39c2640edd3d705cc0498b1c2b5380e2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "IronFilings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/iron-filings/variants/tw/iron-filings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14742dccbc50f3593eec42e2d0545ae151cbcaf1bf580600e06a49c329b7cd6c"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "IronFilings",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/iron-filings/variants/tw/iron-filings.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/iron-filings",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/pixel-magnet-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3fd8e6b232424de19a61e98f51c6c8d4f265bc68f93237b670f98f30ec4d3f3e",
+  "fetchedAt": "2026-08-14T05:33:57.209Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "pixel-magnet",
+  "upstreamName": "PixelMagnet"
+}

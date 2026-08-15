@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-5",
+  "name": "cta-5",
+  "title": "CTA 5",
+  "description": "Rounded video mask with CTA content below",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-5",
+      "path": "vault/reactbits-pro/blocks/cta-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-5/files/cta-5.tsx",
+          "bytes": 3320,
+          "sha256": "ad058f1d1255d7de0698bdd3877c431128aff5be8a13a4500cf309fe941b7b1d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cta5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-5/files/cta-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dc7bf8d9ecc4019129264c7bb02f7ee8e0b71f11f0c60a531b188d280f88c69b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cta5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-5/files/cta-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "27c94d9615b764e0289af448660605a8a3bcf5ccace79ad1b0caa90a301255cc",
+  "fetchedAt": "2026-08-14T05:44:51.775Z",
+  "vaultVersion": 1
+}

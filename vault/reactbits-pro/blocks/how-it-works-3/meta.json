@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/how-it-works-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-3",
+  "name": "how-it-works-3",
+  "title": "How It Works 3",
+  "description": "Animated stepper with 3D perspective shifting images",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-3",
+      "path": "vault/reactbits-pro/blocks/how-it-works-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-3/files/how-it-works-3.tsx",
+          "bytes": 8470,
+          "sha256": "25f6585da0ec4201e5be20b09372c0170b11737b88f79260579432843dbb63f2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-3/files/how-it-works-3.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HowItWorks3",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/how-it-works-3/files/how-it-works-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fd36149c288d7e8d59836aa3c0a1207c0c07a182eb85402511e9a910eddc44af"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-3/files/how-it-works-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "416d5843c4ff178c191a35bc383b5c8fec53a22ae03475f7f03a2877d6069d0a",
+  "fetchedAt": "2026-08-14T05:48:31.786Z",
+  "vaultVersion": 1
+}

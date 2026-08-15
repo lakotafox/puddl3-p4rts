@@ -1,0 +1,173 @@
+{
+  "id": "rb-free/component/gloss-glide",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "gloss-glide",
+  "name": "GlossGlide",
+  "title": "Gloss Glide",
+  "description": "Adds a realistic moving glare highlight on hover over any element.",
+  "tags": [
+    "animation",
+    "effect"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GlareHover-JS-CSS",
+      "path": "vault/reactbits-free/components/gloss-glide/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/js-css/GlossGlide.css",
+          "bytes": 983,
+          "sha256": "df3c0291d3946cb0f902b25d81ace5f5a9d98f8eb2e9139f1d383d3bb6d11f5f"
+        },
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/js-css/GlossGlide.jsx",
+          "bytes": 1401,
+          "sha256": "c6e80578ffcf6a26d1aecf7db6dd5fd0a7965c17e2fe75ecff8a171ed10b77df"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlossGlide",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gloss-glide/variants/js-css/GlossGlide.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "52abf9715298b53d12f3e2362705c4271aa8da1601d0dca5671f161e52442e67"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GlareHover-JS-TW",
+      "path": "vault/reactbits-free/components/gloss-glide/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/js-tw/GlossGlide.jsx",
+          "bytes": 2363,
+          "sha256": "81dd808e7ed0ab013f0e7b47c080475946f29f14c2a6c9b857b9a5bf8fcd29b9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlossGlide",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gloss-glide/variants/js-tw/GlossGlide.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b9f475818aa4a4f94fa556ae61eb54203be9e08d55459132870b34d55096b513"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GlareHover-TS-CSS",
+      "path": "vault/reactbits-free/components/gloss-glide/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/ts-css/GlossGlide.css",
+          "bytes": 983,
+          "sha256": "df3c0291d3946cb0f902b25d81ace5f5a9d98f8eb2e9139f1d383d3bb6d11f5f"
+        },
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/ts-css/GlossGlide.tsx",
+          "bytes": 1894,
+          "sha256": "10c3ba076562ef8279efc92324ea07078350035159b6ebeee9f847cc1cb2aff8"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlossGlide",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gloss-glide/variants/ts-css/GlossGlide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ba43c850e0f77bea1e4b2fc2a7c2938908bd8aaf9e23678a1e83b7977c9c2bc"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GlareHover-TS-TW",
+      "path": "vault/reactbits-free/components/gloss-glide/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/gloss-glide/variants/ts-tw/GlossGlide.tsx",
+          "bytes": 2810,
+          "sha256": "07819e64dc38ddc21702a2daeb40b981df7e38c926553dca77e994555ff831b2"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "GlossGlide",
+          "style": "default",
+          "file": "vault/reactbits-free/components/gloss-glide/variants/ts-tw/GlossGlide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf7bba86f789cd41b5ee25ec069faef89664b2f0733c33219c57fb169bd6c347"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlossGlide",
+      "style": "default",
+      "file": "vault/reactbits-free/components/gloss-glide/variants/ts-tw/GlossGlide.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/gloss-glide",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GlareHover-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/glare-hover"
+  },
+  "hash": "568c51b2ba47ba29305b70e5dad5f28d673cb0c7e0d0ef39faa497ba131ca66f",
+  "fetchedAt": "2026-08-14T05:36:11.384Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "GlossGlide",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "glare-hover",
+  "upstreamName": "GlareHover"
+}

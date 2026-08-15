@@ -1,0 +1,113 @@
+{
+  "id": "rb-starter/component/orbit-rings",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "orbit-rings",
+  "name": "OrbitRings",
+  "title": "Orbit Rings",
+  "description": "Rotating orbital rings with images and customizable animations",
+  "tags": [
+    "animation",
+    "effect",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "circles-css",
+      "path": "vault/reactbits-starter/components/orbit-rings/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/orbit-rings/variants/css/orbit-rings.tsx",
+          "bytes": 7932,
+          "sha256": "87e1a4402e8bfc9712111c84897784170bd54f9e1c245b33a950511a83db3b86"
+        },
+        {
+          "path": "vault/reactbits-starter/components/orbit-rings/variants/css/orbit-rings.css",
+          "bytes": 2087,
+          "sha256": "f9ba9b856f5454ee52ae8c81e1b4995299cf70dbfaf08621ec1be6233c16e4f6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "OrbitRings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/orbit-rings/variants/css/orbit-rings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "32fc7c8629afedff1b17c1d599dab73499afb4a7313f6973b7ef51d6ef00ae32"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "circles-tw",
+      "path": "vault/reactbits-starter/components/orbit-rings/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/orbit-rings/variants/tw/orbit-rings.tsx",
+          "bytes": 12556,
+          "sha256": "322f162952ba696c844c5227d80e8d10ad4d0d74142a7c4a6e2ba93dce2ad3e7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "OrbitRings",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/orbit-rings/variants/tw/orbit-rings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "98db5d78a4d9b3bc2e5ed7404c7395607ab80323abd9532f3cfa25b191767daf"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OrbitRings",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/orbit-rings/variants/tw/orbit-rings.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/orbit-rings",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/circles-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "487dd402d76792b5e9ff8b1777d99f2307bb536895a0c9f0bdce8f2ca2327c9e",
+  "fetchedAt": "2026-08-14T05:32:10.045Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "circles",
+  "upstreamName": "Circles"
+}

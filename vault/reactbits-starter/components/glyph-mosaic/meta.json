@@ -1,0 +1,142 @@
+{
+  "id": "rb-starter/component/glyph-mosaic",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glyph-mosaic",
+  "name": "GlyphMosaic",
+  "title": "Glyph Mosaic",
+  "description": "A field of glassy tiles made of glowing ASCII characters",
+  "tags": [
+    "shader",
+    "3d",
+    "background",
+    "ascii",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "ascii-tiles-css",
+      "path": "vault/reactbits-starter/components/glyph-mosaic/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-mosaic/variants/css/glyph-mosaic.tsx",
+          "bytes": 12403,
+          "sha256": "7b71091586be5b5c58d87411f696066a494d61e7c11810847f648a67b3ed20b5"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glyph-mosaic/variants/css/glyph-mosaic.css",
+          "bytes": 186,
+          "sha256": "7824970519ca6a634fdd38bbbcbeea067ed17548bfbda11971cfadde16041f6a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphMosaic",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-mosaic/variants/css/glyph-mosaic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "21d5d0f11d4802d12b3b31c63cdf3f594ea2355ca8ceb9006e6715b9b0961db4"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "ascii-tiles-tw",
+      "path": "vault/reactbits-starter/components/glyph-mosaic/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-mosaic/variants/tw/glyph-mosaic.tsx",
+          "bytes": 12352,
+          "sha256": "66b567e1ddfe98d2d582b056ca845318d8d96feb2a6801cc91bd6cfa5f5444a5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphMosaic",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-mosaic/variants/tw/glyph-mosaic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d81524bd20c253f6e7a2ec7ee098b53777ff92049039fe61c119676d01a4bcfb"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlyphMosaic",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glyph-mosaic/variants/tw/glyph-mosaic.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glyph-mosaic",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/ascii-tiles-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "415e1a4cb2fc477b7d8e871453ad03a6c8509527ed9d32c95dfda67f52391daf",
+  "fetchedAt": "2026-08-14T05:31:38.646Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "ascii-tiles",
+  "upstreamName": "AsciiTiles"
+}

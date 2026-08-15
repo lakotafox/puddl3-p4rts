@@ -1,0 +1,408 @@
+{
+  "id": "getlayers/template/voxelia",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "voxelia",
+  "name": "Voxelia",
+  "title": "Voxelia",
+  "description": "Single-page fintech hero for PUDDL3 wage-streaming, with an interactive 3D chess scene as the centerpiece visual and a 2x2 stats grid.",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "voxelia",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "voxelia",
+      "path": "vault/getlayers/templates/voxelia/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/voxelia/files/LICENSE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/draco/draco_decoder.js"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/draco/draco_decoder.wasm"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/draco/draco_wasm_wrapper.js"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/assets/cursor.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/public/assets/chess.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/types/scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/types/backdrop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/apple-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/opengraph-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/fonts/GeneralSans-Medium.otf"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/fonts/Jersey25-Regular.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/preloader/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/preloader/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/chess-scene/index.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/chess-scene/chess-scene.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/pixel-waves/pixel-waves.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/pixel-waves/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/cursor-3d/cursor-3d.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/cursor-3d/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/cursor-settings.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/cursor-scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/pointer.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/css-color.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/backdrop-settings.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-defaults.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-settings.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-physics.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-model.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-environment.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-lights.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-materials.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/device.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/scene/chess-post.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/lib/preloader.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/index.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/hero-intro.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/stat-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/headline.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/voxelia/files/src/views/home/reveal.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/voxelia",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Payday, every second."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=voxelia",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.018Z",
+  "vaultVersion": 1
+}

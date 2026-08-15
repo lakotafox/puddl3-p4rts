@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-14",
+  "name": "social-proof-14",
+  "title": "Social Proof 14",
+  "description": "Editorial wall of love with sticky intro rail and balanced masonry columns",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-14",
+      "path": "vault/reactbits-pro/blocks/social-proof-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-14/files/social-proof-14.tsx",
+          "bytes": 7006,
+          "sha256": "c1b8a621daa37e91ff233b97fe1b79f9a206668229126e870c26331d561933bd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-14/files/social-proof-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ffa0085ea16e520827c03d2bac7e3e9e3825975d6476c7a7973f3f66a6eb197a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-14/files/social-proof-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "82f7d2a00cd035299e8ccd7c976917b78474cd87222d8945c5f0979dcac7421d",
+  "fetchedAt": "2026-08-14T05:55:16.064Z",
+  "vaultVersion": 1
+}

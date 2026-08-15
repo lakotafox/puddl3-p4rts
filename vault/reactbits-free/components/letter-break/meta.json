@@ -1,0 +1,208 @@
+{
+  "id": "rb-free/component/letter-break",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "letter-break",
+  "name": "LetterBreak",
+  "title": "Letter Break",
+  "description": "Splits text into characters / words for staggered entrance animation.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "SplitText-JS-CSS",
+      "path": "vault/reactbits-free/components/letter-break/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/letter-break/variants/js-css/LetterBreak.jsx",
+          "bytes": 4537,
+          "sha256": "0cf8557800ea57acb4d42b2c510c76e04fb6859691ee0b6c77eea692c1a5534c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterBreak",
+          "style": "default",
+          "file": "vault/reactbits-free/components/letter-break/variants/js-css/LetterBreak.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "29af9ca48bedd7bf1ca42665ebfe25eea93e95054e9ab5eeb6eb3ae2b4a5ebdb"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "SplitText-JS-TW",
+      "path": "vault/reactbits-free/components/letter-break/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/letter-break/variants/js-tw/LetterBreak.jsx",
+          "bytes": 4471,
+          "sha256": "7e9975f0183b86f1f0a1be513c6b7f832434cedd88c9b5875c7d6a4921a08a90"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterBreak",
+          "style": "default",
+          "file": "vault/reactbits-free/components/letter-break/variants/js-tw/LetterBreak.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5f2ff64632c5344770f7df794c68e0b2550626750190059f0f743afeded0c55a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "SplitText-TS-CSS",
+      "path": "vault/reactbits-free/components/letter-break/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/letter-break/variants/ts-css/LetterBreak.tsx",
+          "bytes": 5165,
+          "sha256": "87c03a538d817d4fb50a04b53d86a80ceb1cef9763ba53633ab4a0083f00bd07"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterBreak",
+          "style": "default",
+          "file": "vault/reactbits-free/components/letter-break/variants/ts-css/LetterBreak.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f24296fbde78c1511646154d570ed3e410e42d4b8a0429db8e0922cca17fa8a3"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "SplitText-TS-TW",
+      "path": "vault/reactbits-free/components/letter-break/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/letter-break/variants/ts-tw/LetterBreak.tsx",
+          "bytes": 5176,
+          "sha256": "510507244fc73e28a52d049ddbd0d7f66a18ed0fee8ad0a533c99482327553d9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@gsap/react",
+          "range": "^2.1.2"
+        },
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LetterBreak",
+          "style": "default",
+          "file": "vault/reactbits-free/components/letter-break/variants/ts-tw/LetterBreak.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "abc5b49226d223d93f002822155264a3b6db6c8460237e69cca6a80cf6ac08cc"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "^2.1.2"
+    },
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LetterBreak",
+      "style": "default",
+      "file": "vault/reactbits-free/components/letter-break/variants/ts-tw/LetterBreak.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/letter-break",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/SplitText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/split-text"
+  },
+  "hash": "10df7a79c402d769a14ca2b973c4e8f20c3551e6145c81efe3c6a8a9cfadc6c9",
+  "fetchedAt": "2026-08-14T05:36:11.461Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LetterBreak",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "split-text",
+  "upstreamName": "SplitText"
+}

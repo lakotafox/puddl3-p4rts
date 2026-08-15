@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/block-wipe",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "block-wipe",
+  "name": "BlockWipe",
+  "title": "Block Wipe",
+  "description": "An image that reveals itself through a sweep of pixels",
+  "tags": [
+    "shader",
+    "image",
+    "reveal",
+    "pixels",
+    "scroll",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "pixel-reveal-css",
+      "path": "vault/reactbits-starter/components/block-wipe/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/block-wipe/variants/css/block-wipe.tsx",
+          "bytes": 13766,
+          "sha256": "671ff29f216c28d7c2f5546c47dfdddf71369073f602d9ca83cd867325ec9c92"
+        },
+        {
+          "path": "vault/reactbits-starter/components/block-wipe/variants/css/block-wipe.css",
+          "bytes": 286,
+          "sha256": "c9fa483088cf933403c10f19d31ffd4f6875434d67100879e5588c56b30b542f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlockWipe",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/block-wipe/variants/css/block-wipe.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a5dac1567d996fda41c74ba19764589dee5f2541760bc5b1763f0b868681d672"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "pixel-reveal-tw",
+      "path": "vault/reactbits-starter/components/block-wipe/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/block-wipe/variants/tw/block-wipe.tsx",
+          "bytes": 13839,
+          "sha256": "c39b855b58bae0066785bc2ea61245a2f47c75ff5b4891e872f4bf45c86cdbbe"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlockWipe",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/block-wipe/variants/tw/block-wipe.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "99b601014765117251523fb42902426c81fb629b6dd374e12ab0f2b4c0858d82"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BlockWipe",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/block-wipe/variants/tw/block-wipe.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/block-wipe",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/pixel-reveal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "39e7fe6559a366ec9f8651daacd02919cf14e9a1652c95fd2a1d592e81bc7091",
+  "fetchedAt": "2026-08-14T05:34:00.999Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "pixel-reveal",
+  "upstreamName": "PixelReveal"
+}

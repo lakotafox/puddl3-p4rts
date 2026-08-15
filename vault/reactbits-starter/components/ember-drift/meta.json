@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/ember-drift",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "ember-drift",
+  "name": "EmberDrift",
+  "title": "Ember Drift",
+  "description": "Particles glowing softly as they rise and drift upward",
+  "tags": [
+    "background",
+    "particles",
+    "shader",
+    "webgl",
+    "ambient",
+    "glow"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rising-particles-css",
+      "path": "vault/reactbits-starter/components/ember-drift/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-drift/variants/css/ember-drift.tsx",
+          "bytes": 16595,
+          "sha256": "5b59962f06943d08a1220d95c6aca9f3f37d4bb4b6af8db1d3439fa860ffc966"
+        },
+        {
+          "path": "vault/reactbits-starter/components/ember-drift/variants/css/ember-drift.css",
+          "bytes": 227,
+          "sha256": "1edc42017c66e2dddaf174ebeb3111b2274e3105682906e9faca4f3a37cdb185"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-drift/variants/css/ember-drift.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "EmberDrift",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ember-drift/variants/css/ember-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bcb23b476f48f6aaf48a149d2d471fc11ab04c0179d06cebaff4c8265ef11175"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rising-particles-tw",
+      "path": "vault/reactbits-starter/components/ember-drift/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/ember-drift/variants/tw/ember-drift.tsx",
+          "bytes": 16559,
+          "sha256": "569815fe5594444056bd93e7dfcb06ef0e54f97254b446aac04e2812bdab5d45"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmberDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/ember-drift/variants/tw/ember-drift.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "EmberDrift",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/ember-drift/variants/tw/ember-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d7efcfca1dcfb43ebf61793ddf2e3438c6f1d01e22206fbca529f0862cb72fd"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EmberDrift",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/ember-drift/variants/tw/ember-drift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/ember-drift",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rising-particles-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e20a32fba5a5d9f0a3a4dab5e5543b4bcec167bb8f7decf9a9c033965bcc4f20",
+  "fetchedAt": "2026-08-14T05:34:15.097Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rising-particles",
+  "upstreamName": "RisingParticles"
+}

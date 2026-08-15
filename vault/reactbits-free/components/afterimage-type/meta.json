@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/afterimage-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "afterimage-type",
+  "name": "AfterimageType",
+  "title": "Afterimage Type",
+  "description": "Ghosted copies trail behind the text and settle into a single word.",
+  "tags": [
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "EchoText-JS-CSS",
+      "path": "vault/reactbits-free/components/afterimage-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/js-css/AfterimageType.css",
+          "bytes": 826,
+          "sha256": "d6942c46992a711f597e1117233bdd6d4f49e1672ab6b7c60e553e04cde775a9"
+        },
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/js-css/AfterimageType.jsx",
+          "bytes": 8383,
+          "sha256": "36ac246afdc0cd7edeae6af49ba8a2ee02ea2bcda603b490024c4bdc3d00b754"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AfterimageType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/afterimage-type/variants/js-css/AfterimageType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3f2e0fdc71b083331307210beddd447bacbbca39d1c0a208912b8bd9fe533971"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "EchoText-JS-TW",
+      "path": "vault/reactbits-free/components/afterimage-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/js-tw/AfterimageType.jsx",
+          "bytes": 8726,
+          "sha256": "78913eede744fd9ce9a4a719dde732e778adb329fc3c0cb6bef31e37a35bd3b7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AfterimageType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/afterimage-type/variants/js-tw/AfterimageType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5bc808b0ef453e6128f8c1bf94c934d52b7bdf46f4e719e5f8f72fa6c4964659"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "EchoText-TS-CSS",
+      "path": "vault/reactbits-free/components/afterimage-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/ts-css/AfterimageType.css",
+          "bytes": 826,
+          "sha256": "d6942c46992a711f597e1117233bdd6d4f49e1672ab6b7c60e553e04cde775a9"
+        },
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/ts-css/AfterimageType.tsx",
+          "bytes": 9479,
+          "sha256": "39061934ae9caadadfc79cd3698f307795e3442402eafd50e16bcf8affec03ad"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AfterimageType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/afterimage-type/variants/ts-css/AfterimageType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f383cd521e44e96fe6dec8d590358def6d79b868f23e5167afe56cba6cb1c1e5"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "EchoText-TS-TW",
+      "path": "vault/reactbits-free/components/afterimage-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/afterimage-type/variants/ts-tw/AfterimageType.tsx",
+          "bytes": 9822,
+          "sha256": "7c07bc27729a053f2f5d41d060c68fb2817ffb786a17e721499281920dcc6a58"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AfterimageType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/afterimage-type/variants/ts-tw/AfterimageType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f724130edb03cdaf899024e2efa9ee654dddd2d77697807a343c1b9572ddd849"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AfterimageType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/afterimage-type/variants/ts-tw/AfterimageType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/afterimage-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/EchoText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/echo-text"
+  },
+  "hash": "b92ad5bff6c981261959d1213c0ac1e38f6994fc1476452792aeaaa975f45789",
+  "fetchedAt": "2026-08-14T05:36:11.370Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "AfterimageType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "echo-text",
+  "upstreamName": "EchoText"
+}

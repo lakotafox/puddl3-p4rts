@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/comments-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comments-2",
+  "name": "comments-2",
+  "title": "Comments 2",
+  "description": "Inline document annotation with clickable highlighted ranges and a comments rail.",
+  "tags": [
+    "comments",
+    "collaboration",
+    "threads",
+    "review",
+    "annotations"
+  ],
+  "tagSource": "upstream",
+  "category": "comments",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comments-2",
+      "path": "vault/reactbits-pro/blocks/comments-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comments-2/files/comments-2.tsx",
+          "bytes": 12047,
+          "sha256": "04aa6efe3bee7132427c349789d3817882ba0a76f32fc0c42b661f740b858869"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comments2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comments-2/files/comments-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d47c97b2664b3d9e13d0e2d7e3632522396c9fd60b04f23444aac150a1d95d86"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comments2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comments-2/files/comments-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comments-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comments-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0f86a76d4435a6787220fc3cce742402c97c4c451de2f24f166cba41ae875cc9",
+  "fetchedAt": "2026-08-14T05:44:01.209Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/holo-flip",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "holo-flip",
+  "name": "HoloFlip",
+  "title": "Holo Flip",
+  "description": "A gallery whose cards turn over like a lenticular print",
+  "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "hover",
+    "webgl",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "carousel",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "lenticular-carousel-css",
+      "path": "vault/reactbits-starter/components/holo-flip/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/holo-flip/variants/css/holo-flip.tsx",
+          "bytes": 31372,
+          "sha256": "156828b58fc7edaad0b1c5ddf0b11909f064a7b42f609e87dc4e739fdbe91569"
+        },
+        {
+          "path": "vault/reactbits-starter/components/holo-flip/variants/css/holo-flip.css",
+          "bytes": 1928,
+          "sha256": "1dda159aef3df0d96dcac17060179bc2e4585b7b6af657533247f038c9055a29"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HoloFlip",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/holo-flip/variants/css/holo-flip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0b7734e9a42f143cf1b315630c702350c9122eb464b6f28277509d5312ed7646"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "lenticular-carousel-tw",
+      "path": "vault/reactbits-starter/components/holo-flip/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/holo-flip/variants/tw/holo-flip.tsx",
+          "bytes": 31823,
+          "sha256": "52f2344e8f30e9370cfdb3d189d0cc16aefcce19c63d2d10c6ef6346bf196b9b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HoloFlip",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/holo-flip/variants/tw/holo-flip.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7d6ad43c8f6f50565da2eeaf932db48ab6856e2b8397ad3a773bb0ae7d792344"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HoloFlip",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/holo-flip/variants/tw/holo-flip.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/holo-flip",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/lenticular-carousel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "346059ca73ab64f261cf49f157e3cf0f41c305c26a655f3345d1009224a34e1b",
+  "fetchedAt": "2026-08-14T05:33:17.080Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "lenticular-carousel",
+  "upstreamName": "LenticularCarousel"
+}

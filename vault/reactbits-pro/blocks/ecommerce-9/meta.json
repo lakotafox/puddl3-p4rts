@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-9",
+  "name": "ecommerce-9",
+  "title": "Ecommerce 9",
+  "description": "Filterable collection grid with animated filter pill, quiet status chips, and motion-driven quick-add size overlay.",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-9",
+      "path": "vault/reactbits-pro/blocks/ecommerce-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-9/files/ecommerce-9.tsx",
+          "bytes": 10184,
+          "sha256": "b8839ed6eb23425b6e2a26bbe96904ef376c9b608af03358e86131fcf562daec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-9/files/ecommerce-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9492445c9d522951e62f5a8f8a1602cf0ae3d6576f423749cd142569ba9b6b11"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-9/files/ecommerce-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "234f111b6e1db4b1c9f0b383d765a0157a18d67a0513a4424dc53b434e22c205",
+  "fetchedAt": "2026-08-14T05:45:59.244Z",
+  "vaultVersion": 1
+}

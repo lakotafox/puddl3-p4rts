@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/luminous-rain",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "luminous-rain",
+  "name": "LuminousRain",
+  "title": "Luminous Rain",
+  "description": "Rays falling from top like rain of light",
+  "tags": [
+    "animation",
+    "particles",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "falling-rays-css",
+      "path": "vault/reactbits-starter/components/luminous-rain/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/luminous-rain/variants/css/luminous-rain.tsx",
+          "bytes": 11084,
+          "sha256": "d93fbc1c468e7568cd39195b75844e06e8e89551a6cd9affce6f4d24c88dced4"
+        },
+        {
+          "path": "vault/reactbits-starter/components/luminous-rain/variants/css/luminous-rain.css",
+          "bytes": 28,
+          "sha256": "1f8f7a1dcbcc5c100cad09d736d4a0f064f2ffb64744e32b4d0f031ee7d657e6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LuminousRain",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/luminous-rain/variants/css/luminous-rain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f2a12fa16d00ed2fc466d2263095e09bd26d252185c38137ca82598ab900cb59"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "falling-rays-tw",
+      "path": "vault/reactbits-starter/components/luminous-rain/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/luminous-rain/variants/tw/luminous-rain.tsx",
+          "bytes": 11105,
+          "sha256": "596e56a9c1cd3aa052064f8859caff970ef51495df516a2d30036e5d98436581"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LuminousRain",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/luminous-rain/variants/tw/luminous-rain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ab6913d16ca1cd574aab5acb39220b1b8c3bd6362c71241746a984e112e3b27"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LuminousRain",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/luminous-rain/variants/tw/luminous-rain.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/luminous-rain",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/falling-rays-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "6a2c2381bc0083ebdcbabfbaffe237b2ce3caa09be608fa665fe1595d0146da6",
+  "fetchedAt": "2026-08-14T05:32:34.331Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "falling-rays",
+  "upstreamName": "FallingRays"
+}

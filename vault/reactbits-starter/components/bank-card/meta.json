@@ -1,0 +1,151 @@
+{
+  "id": "rb-starter/component/bank-card",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "bank-card",
+  "name": "BankCard",
+  "title": "Bank Card",
+  "description": "Interactive 3D credit card with parallax tilt and hover effects",
+  "tags": [
+    "ui",
+    "card"
+  ],
+  "tagSource": "upstream",
+  "category": "ui",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "credit-card-css",
+      "path": "vault/reactbits-starter/components/bank-card/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bank-card/variants/css/bank-card.tsx",
+          "bytes": 19874,
+          "sha256": "673d8081ccd8387d04e16398180c93ca2eb08b405ac2818bd6da7d40509fd314"
+        },
+        {
+          "path": "vault/reactbits-starter/components/bank-card/variants/css/bank-card.css",
+          "bytes": 3956,
+          "sha256": "8d8a37aa3c0ca8181d2a29a73504c022524339a51c3703fac99de1a7e091363e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BankCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bank-card/variants/css/bank-card.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BankCard",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/bank-card/variants/css/bank-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "19aca77c31827a50ba0921c99289fa9aaebb90b7e854c90db08c06a33822c2d3"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "credit-card-tw",
+      "path": "vault/reactbits-starter/components/bank-card/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bank-card/variants/tw/bank-card.tsx",
+          "bytes": 20767,
+          "sha256": "cdf4e69e2fa668319f2b5c5e8fc6cc656c08496a217863d3262236d13f6ef1d5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BankCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bank-card/variants/tw/bank-card.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BankCard",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/bank-card/variants/tw/bank-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe6a83ea6a572f9e651937a2f328f6dc54dade8a9d86de2af76295cf3261ec1b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BankCard",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/bank-card/variants/tw/bank-card.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/bank-card",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/credit-card-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "64c2f4e6e433348be68d95b133f35375d13cd5465eb703d862cd8abb50895363",
+  "fetchedAt": "2026-08-14T05:32:17.041Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "credit-card",
+  "upstreamName": "CreditCard"
+}

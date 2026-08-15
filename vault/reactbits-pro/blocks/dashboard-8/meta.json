@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/dashboard-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-8",
+  "name": "dashboard-8",
+  "title": "Dashboard 8",
+  "description": "Module board with sparkline metrics and a sortable delivery table with progress rings.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-8",
+      "path": "vault/reactbits-pro/blocks/dashboard-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-8/files/dashboard-8.tsx",
+          "bytes": 33146,
+          "sha256": "3b0a82a48514376f3ce25fc8ad3b51fde5b466ab9e1d5836df535386371aa81d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-8/files/dashboard-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0638b429267aa308800e502a8e0d2e51823288472a364177384e3e00f26dbb24"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-8/files/dashboard-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "09d32a1ec569f9fa1fc0a6b769cff5ed90675dff9a7f506d5ed96f08ca760418",
+  "fetchedAt": "2026-08-14T05:45:17.691Z",
+  "vaultVersion": 1
+}

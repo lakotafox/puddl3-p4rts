@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/scheduling-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "scheduling-6",
+  "name": "scheduling-6",
+  "title": "Scheduling 6",
+  "description": "Week timeline grid with an hour rail, positioned events, and a view segmented control.",
+  "tags": [
+    "scheduling",
+    "calendar",
+    "availability",
+    "booking",
+    "time"
+  ],
+  "tagSource": "upstream",
+  "category": "scheduling",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "scheduling-6",
+      "path": "vault/reactbits-pro/blocks/scheduling-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/scheduling-6/files/scheduling-6.tsx",
+          "bytes": 26299,
+          "sha256": "49c8277ff57f537a93122ccb7c9ebdf40e351f6376f362f6b5aa293e797f8f23"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Scheduling6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/scheduling-6/files/scheduling-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "43773c2aa87c3d0191a17d34eb7411690030e33c9937efba0f3ad88c79944047"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Scheduling6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/scheduling-6/files/scheduling-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/scheduling-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/scheduling-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "df19f0458d9819d3772cdc53f8264e2770d3274fa5cba2a60dc68dbe001e415f",
+  "fetchedAt": "2026-08-14T05:54:30.484Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/frosted-glyphs",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "frosted-glyphs",
+  "name": "FrostedGlyphs",
+  "title": "Frosted Glyphs",
+  "description": "Icon set styled with frosted glass blur.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GlassIcons-JS-CSS",
+      "path": "vault/reactbits-free/components/frosted-glyphs/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/js-css/FrostedGlyphs.css",
+          "bytes": 2013,
+          "sha256": "e7d8ee27ad37f6b67e37d921e3abf0645b7fd43715d48c187f39d314d4ee14a6"
+        },
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/js-css/FrostedGlyphs.jsx",
+          "bytes": 1300,
+          "sha256": "f2b7af41f887d294f83d348afb18c4e43de411881a0a31b968b6eaecaa127b33"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrostedGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frosted-glyphs/variants/js-css/FrostedGlyphs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5309f48544e9a8e9c13b4696b7af5e1c44b1de8c46aecc9d636ec93f9b7f0ae9"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GlassIcons-JS-TW",
+      "path": "vault/reactbits-free/components/frosted-glyphs/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/js-tw/FrostedGlyphs.jsx",
+          "bytes": 2752,
+          "sha256": "962460c00e082ccac62e08747351718b62d64f789711562f3c8ac91bcb7c4e87"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrostedGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frosted-glyphs/variants/js-tw/FrostedGlyphs.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fd7c1634c4ac64def811214168c07faf5cb604c7a39d3fd647b67a3eb2e53adf"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GlassIcons-TS-CSS",
+      "path": "vault/reactbits-free/components/frosted-glyphs/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/ts-css/FrostedGlyphs.css",
+          "bytes": 2013,
+          "sha256": "e7d8ee27ad37f6b67e37d921e3abf0645b7fd43715d48c187f39d314d4ee14a6"
+        },
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/ts-css/FrostedGlyphs.tsx",
+          "bytes": 1619,
+          "sha256": "4bcc7a3bc29acf4b9f3b3b504911445ce1f12b2a4f8a4f5dbef64cd303c95377"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrostedGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frosted-glyphs/variants/ts-css/FrostedGlyphs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "470f219896383974c7caef95595a599520960c0924e1cd74e18c76ea4ee31729"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GlassIcons-TS-TW",
+      "path": "vault/reactbits-free/components/frosted-glyphs/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/frosted-glyphs/variants/ts-tw/FrostedGlyphs.tsx",
+          "bytes": 3072,
+          "sha256": "69b5fcbbad73f46fdbb9747af0dc4e875bc1114a69a43ad80d0731c6ba7771a0"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "FrostedGlyphs",
+          "style": "default",
+          "file": "vault/reactbits-free/components/frosted-glyphs/variants/ts-tw/FrostedGlyphs.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7c3c2dcd66cdcf704be15a05d0217cf8061d47d46acac5b2d9f3b97174ac3ee8"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FrostedGlyphs",
+      "style": "default",
+      "file": "vault/reactbits-free/components/frosted-glyphs/variants/ts-tw/FrostedGlyphs.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/frosted-glyphs",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GlassIcons-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/glass-icons"
+  },
+  "hash": "6397d146689d6965ca601ad556b68381e704d2e0408496f9b882213adbf0f2f7",
+  "fetchedAt": "2026-08-14T05:36:11.385Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FrostedGlyphs",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "glass-icons",
+  "upstreamName": "GlassIcons"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/polar-glow",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "polar-glow",
+  "name": "PolarGlow",
+  "title": "Polar Glow",
+  "description": "Flowing aurora gradient background.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Aurora-JS-CSS",
+      "path": "vault/reactbits-free/components/polar-glow/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/js-css/PolarGlow.css",
+          "bytes": 53,
+          "sha256": "2df81fdc13c0e763f17aec359863d3d0ec8ef97e442788be47635882f480467d"
+        },
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/js-css/PolarGlow.jsx",
+          "bytes": 5642,
+          "sha256": "e79d8a47d77fecc4dafb15d3afa3b5258c51029d5d837f7e8a0f8ee1c3527a2a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/polar-glow/variants/js-css/PolarGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e0cfd5aa0771772b4dbb31fbe297633d97b884193d5efe283535e645cd7e1975"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Aurora-JS-TW",
+      "path": "vault/reactbits-free/components/polar-glow/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/js-tw/PolarGlow.jsx",
+          "bytes": 5615,
+          "sha256": "2bee0c4e7f0807788e0e7197e03868fe37deda3d5809bf6a4282fbeb95528dc9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/polar-glow/variants/js-tw/PolarGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a82e4d9064157b9d952de13dd13038ded09e805ed410f156098adc003190ff9e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Aurora-TS-CSS",
+      "path": "vault/reactbits-free/components/polar-glow/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/ts-css/PolarGlow.css",
+          "bytes": 53,
+          "sha256": "2df81fdc13c0e763f17aec359863d3d0ec8ef97e442788be47635882f480467d"
+        },
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/ts-css/PolarGlow.tsx",
+          "bytes": 5839,
+          "sha256": "3ff67b61949257bda08f3fc5568f60d077c9df955d635ff63c633722b0cfa7c8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/polar-glow/variants/ts-css/PolarGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9c35fa075c6f749837fc305357449d96ece1cd1c64b3e9081fb676cca49afd70"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Aurora-TS-TW",
+      "path": "vault/reactbits-free/components/polar-glow/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/polar-glow/variants/ts-tw/PolarGlow.tsx",
+          "bytes": 5812,
+          "sha256": "397efe59b88effec7847a9c450af2c226f2b96b1c2d6b2f8c811b1618f2bab32"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/polar-glow/variants/ts-tw/PolarGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "94fbb83bc30df567a5c16ad310b82c17b69ec29bb7d47565608f80991185eccb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PolarGlow",
+      "style": "default",
+      "file": "vault/reactbits-free/components/polar-glow/variants/ts-tw/PolarGlow.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/polar-glow",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Aurora-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/aurora"
+  },
+  "hash": "605aece55092a2015a4c6a29c72cb9880c64d26ae755bc0034b48c7566e7d70b",
+  "fetchedAt": "2026-08-14T05:36:11.333Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PolarGlow",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "aurora",
+  "upstreamName": "Aurora"
+}

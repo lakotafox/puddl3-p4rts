@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/spark-tiles",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "spark-tiles",
+  "name": "SparkTiles",
+  "title": "Spark Tiles",
+  "description": "Interactive bento grid tiles expand + animate with various options.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MagicBento-JS-CSS",
+      "path": "vault/reactbits-free/components/spark-tiles/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/js-css/SparkTiles.css",
+          "bytes": 4252,
+          "sha256": "68c957ac27329d60bcab84df470363bb365af41a04594f0b2a60178e3d673405"
+        },
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/js-css/SparkTiles.jsx",
+          "bytes": 19699,
+          "sha256": "3f7b83e8b05afb96e6d4d5f5c27cb7750935c87f02b14338a9fe74fe905aec46"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SparkTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spark-tiles/variants/js-css/SparkTiles.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "598d853e38b29432d943bdfcedc51726d3ab34b1bdca3fee63547b2291077a9f"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MagicBento-JS-TW",
+      "path": "vault/reactbits-free/components/spark-tiles/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/js-tw/SparkTiles.jsx",
+          "bytes": 24994,
+          "sha256": "4a6d1736c72659ac1bb7aac4b7f8d58abdf0c47eb77ae3ff745381c7df96b218"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SparkTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spark-tiles/variants/js-tw/SparkTiles.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45ee9f38b5064f39f774213a4720903b38ca5980026261596c24da06f42e9f11"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MagicBento-TS-CSS",
+      "path": "vault/reactbits-free/components/spark-tiles/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/ts-css/SparkTiles.css",
+          "bytes": 4252,
+          "sha256": "68c957ac27329d60bcab84df470363bb365af41a04594f0b2a60178e3d673405"
+        },
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/ts-css/SparkTiles.tsx",
+          "bytes": 21250,
+          "sha256": "34fd5c0966e125d0c9c8d6b10bdd05598dbf785a7cd30af63ea91543dc30e58d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SparkTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spark-tiles/variants/ts-css/SparkTiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aaf21b35b58460568824e129e3d4f3995599b4a9fb922028e1b172a6354e9ef8"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MagicBento-TS-TW",
+      "path": "vault/reactbits-free/components/spark-tiles/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spark-tiles/variants/ts-tw/SparkTiles.tsx",
+          "bytes": 26462,
+          "sha256": "8224bc673b7430c44fe190ec2e35ae19a180dc64dc00ae5a66e8c41a5564f521"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SparkTiles",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spark-tiles/variants/ts-tw/SparkTiles.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "766bd7527b30f9cb9c3f57f484643683eac388850a73fd5500e6018860fc3040"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SparkTiles",
+      "style": "default",
+      "file": "vault/reactbits-free/components/spark-tiles/variants/ts-tw/SparkTiles.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/spark-tiles",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MagicBento-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/magic-bento"
+  },
+  "hash": "a555f10ed4a0c155b04c7ba99e7f69dc80e0c65e62b2da90ce0359c449853060",
+  "fetchedAt": "2026-08-14T05:36:11.417Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SparkTiles",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "magic-bento",
+  "upstreamName": "MagicBento"
+}

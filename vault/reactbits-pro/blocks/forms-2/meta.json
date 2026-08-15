@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/forms-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "forms-2",
+  "name": "forms-2",
+  "title": "Forms 2",
+  "description": "Two-column submission form with radio cards, validation, and a derived checklist.",
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "fields",
+    "submit",
+    "record"
+  ],
+  "tagSource": "upstream",
+  "category": "form",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "forms-2",
+      "path": "vault/reactbits-pro/blocks/forms-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/forms-2/files/forms-2.tsx",
+          "bytes": 29702,
+          "sha256": "910af1ecb75c7c397f38cebbf1890d3ac38698115e3b0abb2f1ba0077169462d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Forms2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/forms-2/files/forms-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8b2bf7b03fc24e417b06c7a410d805a04a7d6d6f03b5e89d50640b687b297191"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Forms2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/forms-2/files/forms-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/forms-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/forms-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b79f266337248053911fc995664e853e0e3d422c69677caf240a5bad8216b26c",
+  "fetchedAt": "2026-08-14T05:47:40.652Z",
+  "vaultVersion": 1
+}

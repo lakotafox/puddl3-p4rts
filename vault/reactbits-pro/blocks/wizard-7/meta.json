@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/wizard-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "wizard-7",
+  "name": "wizard-7",
+  "title": "Wizard 7",
+  "description": "Compact modal wizard: one question per step, dot pagination, and an inline back and continue pair.",
+  "tags": [
+    "wizard",
+    "stepper",
+    "multi-step",
+    "flow",
+    "progress"
+  ],
+  "tagSource": "upstream",
+  "category": "wizard",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "wizard-7",
+      "path": "vault/reactbits-pro/blocks/wizard-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/wizard-7/files/wizard-7.tsx",
+          "bytes": 7738,
+          "sha256": "d810cf020473486db68a05f74cc8e6d94f91bcf1cce7c2b2234a83c8086dc3f0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Wizard7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/wizard-7/files/wizard-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ba2f892bed007515942d72e812e73d66fbc2ae5175927fedbc4091b94f4b39d0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Wizard7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/wizard-7/files/wizard-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/wizard-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/wizard-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f8b8bace699ea335510bd8a395ed82384f52a5f8f44251f081070459874272f1",
+  "fetchedAt": "2026-08-14T05:56:31.534Z",
+  "vaultVersion": 1
+}

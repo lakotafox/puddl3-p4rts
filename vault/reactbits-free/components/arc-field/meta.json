@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/arc-field",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "arc-field",
+  "name": "ArcField",
+  "title": "Arc Field",
+  "description": "Arc-bent input bar with text, caret and submit button all following the curve.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CurvedInput-JS-CSS",
+      "path": "vault/reactbits-free/components/arc-field/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/js-css/ArcField.css",
+          "bytes": 1201,
+          "sha256": "42cf7b33fdf3824a00c2fe8cf5314f86d1e15ff083ee5aa0972d92b3f3b202e4"
+        },
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/js-css/ArcField.jsx",
+          "bytes": 16508,
+          "sha256": "b927cab7c02731d8119ec125d61ca2dffa9e91d13cba49639d281fabfcfce574"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ArcField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-field/variants/js-css/ArcField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cb43012e9787e3b41a6bbcdfe3246089a160674b868d5bd8c4e0e19e7b95e0fd"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CurvedInput-JS-TW",
+      "path": "vault/reactbits-free/components/arc-field/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/js-tw/ArcField.jsx",
+          "bytes": 17378,
+          "sha256": "b0adf06bf94daa4247d5b1965aef5a373e5eac5a66660d41f68746e8d97ebe03"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ArcField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-field/variants/js-tw/ArcField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "03ee9a39748aee2ce0185a689b771fd42fb82cfb6c210b360eaf8a2209398573"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CurvedInput-TS-CSS",
+      "path": "vault/reactbits-free/components/arc-field/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/ts-css/ArcField.css",
+          "bytes": 1201,
+          "sha256": "42cf7b33fdf3824a00c2fe8cf5314f86d1e15ff083ee5aa0972d92b3f3b202e4"
+        },
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/ts-css/ArcField.tsx",
+          "bytes": 19259,
+          "sha256": "a248100bf2ecfde67e1dcc41644ab8be15457f2bb39c42a9a4be0fe181e2a0c7"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ArcField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-field/variants/ts-css/ArcField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b4563c64ef1930e6f23f7209f1325ca46cedbb9fb8563c84e1352f2ca0035e67"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CurvedInput-TS-TW",
+      "path": "vault/reactbits-free/components/arc-field/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-field/variants/ts-tw/ArcField.tsx",
+          "bytes": 19732,
+          "sha256": "d01c879bc655fce21a1dd03545984012277a2134f93fb56f48155979c7ee4470"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ArcField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-field/variants/ts-tw/ArcField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "22932b3dc6bbb61092f4840e0f68b0d7d12959d71c6ad81aaf39a03cae594f59"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ArcField",
+      "style": "default",
+      "file": "vault/reactbits-free/components/arc-field/variants/ts-tw/ArcField.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/arc-field",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CurvedInput-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/curved-input"
+  },
+  "hash": "299e3bd1710cd7a3e9e7e7a8966d41db89bec8721282b25e8c50fcc4aee5865e",
+  "fetchedAt": "2026-08-14T05:36:11.357Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ArcField",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "curved-input",
+  "upstreamName": "CurvedInput"
+}

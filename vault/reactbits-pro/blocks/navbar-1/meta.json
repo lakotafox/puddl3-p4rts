@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-1",
+  "name": "navbar-1",
+  "title": "Navbar 1",
+  "description": "Project header with a breadcrumb, tab row with a sliding underline, and an avatar stack.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-1",
+      "path": "vault/reactbits-pro/blocks/navbar-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-1/files/navbar-1.tsx",
+          "bytes": 12593,
+          "sha256": "d557e1d4931302f6d191d93f5441608efe5f13e942d2d5aa4bdd9766795ab23c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-1/files/navbar-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8684de14af555e6558fe87c2ccea2cd560243286779d408593db0012be141033"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-1/files/navbar-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "824cc97a456464af623f43e75c0bd3cde14dc97988aff84d64ef3cb94c538469",
+  "fetchedAt": "2026-08-14T05:49:40.536Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/steel-vortex",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "steel-vortex",
+  "name": "SteelVortex",
+  "title": "Steel Vortex",
+  "description": "Metallic swirl shader background",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "metallic-swirl-css",
+      "path": "vault/reactbits-starter/components/steel-vortex/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/steel-vortex/variants/css/steel-vortex.tsx",
+          "bytes": 9662,
+          "sha256": "1125703e8de9d9754aa96a52a493e3c0a1fd0bf7857dd0b053ff359959712f15"
+        },
+        {
+          "path": "vault/reactbits-starter/components/steel-vortex/variants/css/steel-vortex.css",
+          "bytes": 255,
+          "sha256": "38c3ecb2408b6c5070198d1d3dec30890ef8c8876077cc70e2ac1a7240b582be"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SteelVortex",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/steel-vortex/variants/css/steel-vortex.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ac2e2a912fdf99f0e084a57b95b1a8450ada7a385e6d38c7fa31278b594cccf8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "metallic-swirl-tw",
+      "path": "vault/reactbits-starter/components/steel-vortex/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/steel-vortex/variants/tw/steel-vortex.tsx",
+          "bytes": 9699,
+          "sha256": "3b97dce16235fd5e0d3026075dee1579f2293185b3c7b7cab2d0e38b55a54ec3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SteelVortex",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/steel-vortex/variants/tw/steel-vortex.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf511e3e0960786fd5d75bb0e28d506adb1a0f944da034d094e46b218c4c918a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SteelVortex",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/steel-vortex/variants/tw/steel-vortex.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/steel-vortex",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/metallic-swirl-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "4e0b80d9562b82dd666d2aa42960bb46eca1aec01f05e6156cc4d5b41db870c8",
+  "fetchedAt": "2026-08-14T05:33:31.009Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "metallic-swirl",
+  "upstreamName": "MetallicSwirl"
+}

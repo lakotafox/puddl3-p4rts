@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/signal-bands",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "signal-bands",
+  "name": "SignalBands",
+  "title": "Signal Bands",
+  "description": "Calm interference bands sweeping across the screen like an oscilloscope.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Scanner-JS-CSS",
+      "path": "vault/reactbits-free/components/signal-bands/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/js-css/SignalBands.css",
+          "bytes": 96,
+          "sha256": "85e9b79a275771c27ddc91c5a4959dd0bd9a53aba3260aee0f4006f1ec1ad7c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/js-css/SignalBands.jsx",
+          "bytes": 11603,
+          "sha256": "3e5a63375ad49c585f33d963de2067f2539317e50ba64b0f4cd13456ece852c3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SignalBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/signal-bands/variants/js-css/SignalBands.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bb74a7fb4f2b2652d07cb0a9d8a27bc639dec27dd1dc9b87f3de18eede9998ef"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Scanner-JS-TW",
+      "path": "vault/reactbits-free/components/signal-bands/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/js-tw/SignalBands.jsx",
+          "bytes": 11600,
+          "sha256": "2b8258efee15c9fe990dbd01503f32848f5e232ba4e575456426e00bfca8e5fd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SignalBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/signal-bands/variants/js-tw/SignalBands.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f40cd2f6c185dbe9b55297e47cd629b64a4a1f486f8f8fd9aa3ab90adfd491a0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Scanner-TS-CSS",
+      "path": "vault/reactbits-free/components/signal-bands/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/ts-css/SignalBands.css",
+          "bytes": 96,
+          "sha256": "85e9b79a275771c27ddc91c5a4959dd0bd9a53aba3260aee0f4006f1ec1ad7c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/ts-css/SignalBands.tsx",
+          "bytes": 12816,
+          "sha256": "27e12b9c7268844cb9a3d252e3189366a4595298910c66778eb4b4ca7bdc712f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SignalBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/signal-bands/variants/ts-css/SignalBands.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5b62dc4c583a011ba70b3e6264ff30b4c10e6dc0b7433d7bb9c0f7e5ff68febe"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Scanner-TS-TW",
+      "path": "vault/reactbits-free/components/signal-bands/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/signal-bands/variants/ts-tw/SignalBands.tsx",
+          "bytes": 12813,
+          "sha256": "71c5299746f0dfcc341139cbb0ea247fa623b679ba2347dd4d5492f225b71ec0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SignalBands",
+          "style": "default",
+          "file": "vault/reactbits-free/components/signal-bands/variants/ts-tw/SignalBands.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ad5362766aa7f915e09817d3dd78aed8e633e96c6271c514afdef4e6cb3c8514"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SignalBands",
+      "style": "default",
+      "file": "vault/reactbits-free/components/signal-bands/variants/ts-tw/SignalBands.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/signal-bands",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Scanner-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/scanner"
+  },
+  "hash": "537cf2abe6d95f2a37b5800c3bb8dd70b4815b01b4467fc0f64a325fa445abb2",
+  "fetchedAt": "2026-08-14T05:36:11.447Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SignalBands",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "scanner",
+  "upstreamName": "Scanner"
+}

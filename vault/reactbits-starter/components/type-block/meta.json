@@ -1,0 +1,113 @@
+{
+  "id": "rb-starter/component/type-block",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "type-block",
+  "name": "TypeBlock",
+  "title": "Type Block",
+  "description": "Cursor-following 3D text cube with depth fade",
+  "tags": [
+    "canvas",
+    "cursor",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "canvas",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "text-cube-css",
+      "path": "vault/reactbits-starter/components/type-block/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/type-block/variants/css/type-block.tsx",
+          "bytes": 10701,
+          "sha256": "2d7ba3e1243fc2ec967fb517725b421f5e1915fdeb219fb5a0d683657c968ad6"
+        },
+        {
+          "path": "vault/reactbits-starter/components/type-block/variants/css/type-block.css",
+          "bytes": 209,
+          "sha256": "1606615155b5ee9540f94b4394ca865b90e610fde379a4502ff3ba1671c73ae0"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TypeBlock",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/type-block/variants/css/type-block.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6d82984c74b131a676b7e7e198012a96e3a252728736b7d7ea9a61faf6b25211"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "text-cube-tw",
+      "path": "vault/reactbits-starter/components/type-block/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/type-block/variants/tw/type-block.tsx",
+          "bytes": 10734,
+          "sha256": "9576bf1f759e88270c23289ad2eb4ad462f6f7361f6f3c4146c7115183c3f14f"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TypeBlock",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/type-block/variants/tw/type-block.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2217b9157b6e48ff54fb48db67e99091b4e6d085779c2b5f229ecb3f8ae0f0e5"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TypeBlock",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/type-block/variants/tw/type-block.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/type-block",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/text-cube-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "dd845a367ee6baf0da6b7666ff4cdda47be084a179d3427511148abd4b0b1c26",
+  "fetchedAt": "2026-08-14T05:35:05.667Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "text-cube",
+  "upstreamName": "TextCube"
+}

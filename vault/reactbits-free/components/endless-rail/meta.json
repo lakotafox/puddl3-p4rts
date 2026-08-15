@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/endless-rail",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "endless-rail",
+  "name": "EndlessRail",
+  "title": "Endless Rail",
+  "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap.",
+  "tags": [
+    "scroll",
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "InfiniteMenu-JS-CSS",
+      "path": "vault/reactbits-free/components/endless-rail/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/js-css/EndlessRail.css",
+          "bytes": 1950,
+          "sha256": "50080613ddd1b5cc76140f37691f18528c20d844b5d4229e6ca44e1aa825b967"
+        },
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/js-css/EndlessRail.jsx",
+          "bytes": 28111,
+          "sha256": "f06852ec8058ecf5285cce3ff5e3ccd4ed0d8b0b42af37a29c11a21e8340876d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gl-matrix",
+          "range": "^3.4.3"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/endless-rail/variants/js-css/EndlessRail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1aa8ae86cc5a71ff312c52ce1141d70999658e78d1c37778379362c086500203"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "InfiniteMenu-JS-TW",
+      "path": "vault/reactbits-free/components/endless-rail/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/js-tw/EndlessRail.jsx",
+          "bytes": 29723,
+          "sha256": "4d6aa2500761a07cc3f49124be2f348339cde39edbce01a5d4e83057d1d5498a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gl-matrix",
+          "range": "^3.4.3"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/endless-rail/variants/js-tw/EndlessRail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8820d4e14f4c10ba222eecb7bc3e6fe2d87172bb9a1691e95ec9789952519cc4"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "InfiniteMenu-TS-CSS",
+      "path": "vault/reactbits-free/components/endless-rail/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/ts-css/EndlessRail.css",
+          "bytes": 1862,
+          "sha256": "36398f1ab81f88a55f7657933d428d41d4feec05783b08532b83198198aa1da4"
+        },
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/ts-css/EndlessRail.tsx",
+          "bytes": 32699,
+          "sha256": "35b5e4e37dd10043eef3fb784f69db2f9949a07a19cc1423f62a00cf479fde8d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gl-matrix",
+          "range": "^3.4.3"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/endless-rail/variants/ts-css/EndlessRail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4868b57d657424568506b4470917fa59717faec38d14193a7d4a95ecdd3956f9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "InfiniteMenu-TS-TW",
+      "path": "vault/reactbits-free/components/endless-rail/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/endless-rail/variants/ts-tw/EndlessRail.tsx",
+          "bytes": 34304,
+          "sha256": "1ccb876dd1e37868d092c4d3e17860e834cc08dc1252352f6570170a52a6abdf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gl-matrix",
+          "range": "^3.4.3"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/endless-rail/variants/ts-tw/EndlessRail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2dc35efb14af53675e05d55a7ac8fe0e40346a8950896050fccf1a1fb588e148"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gl-matrix",
+      "range": "^3.4.3"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EndlessRail",
+      "style": "default",
+      "file": "vault/reactbits-free/components/endless-rail/variants/ts-tw/EndlessRail.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/endless-rail",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/InfiniteMenu-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/infinite-menu"
+  },
+  "hash": "7334afc2c89b25264c7681ff43eccda4a7e82b5f417552b67d4412a98f8c2710",
+  "fetchedAt": "2026-08-14T05:36:11.402Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "EndlessRail",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "infinite-menu",
+  "upstreamName": "InfiniteMenu"
+}

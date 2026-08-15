@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-12",
+  "name": "features-12",
+  "title": "Features 12",
+  "description": "Tonal neutral feature trio with anchored benefit statements and an inverted focal card.",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-12",
+      "path": "vault/reactbits-pro/blocks/features-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-12/files/features-12.tsx",
+          "bytes": 4153,
+          "sha256": "cc1ae0b0182e32eebce63ad8e96bb9b53db030b3c747494ccd7589be89e9723b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-12/files/features-12.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features12",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-12/files/features-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "14307c97ffdb9130907ddf06135bed548866909f0f42023999358fd516e1cad2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-12/files/features-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "47da296c7059a38604fa02cb88b618dabae78665996a8e663a6736a3abc80c6f",
+  "fetchedAt": "2026-08-14T05:46:33.401Z",
+  "vaultVersion": 1
+}

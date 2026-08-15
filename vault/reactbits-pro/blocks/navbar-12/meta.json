@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-12",
+  "name": "navbar-12",
+  "title": "Navbar 12",
+  "description": "Floating translucent navbar that gains elevation on scroll, with a drop-down mobile menu.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-12",
+      "path": "vault/reactbits-pro/blocks/navbar-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-12/files/navbar-12.tsx",
+          "bytes": 11877,
+          "sha256": "d8a1d7473fde00629d4165df06decad29bec42ee42545d767f3fe2fa519d724e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-12/files/navbar-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ffc72ebfce68c27d9331daaaa012eb87574ee5d8a721d072e0de532ed4b2ba07"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-12/files/navbar-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bd230cf5267ecc14c43a8486b4922478e1f85a11d86542df5c6d5ad90db04522",
+  "fetchedAt": "2026-08-14T05:49:44.947Z",
+  "vaultVersion": 1
+}

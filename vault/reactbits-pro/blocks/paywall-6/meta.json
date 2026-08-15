@@ -1,0 +1,85 @@
+{
+  "id": "rb-pro/block/paywall-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "paywall-6",
+  "name": "paywall-6",
+  "title": "Paywall 6",
+  "description": "Metered reads counter with an email capture and a sign-in alternative.",
+  "tags": [
+    "paywall",
+    "upgrade",
+    "billing",
+    "gate",
+    "pricing",
+    "trial"
+  ],
+  "tagSource": "upstream",
+  "category": "paywall",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "paywall-6",
+      "path": "vault/reactbits-pro/blocks/paywall-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/paywall-6/files/paywall-6.tsx",
+          "bytes": 4453,
+          "sha256": "63316322c0cb50cc091e2f164fea89ccfc1998f69a0d797a9c52b8ddea14e85b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Paywall6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/paywall-6/files/paywall-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "87ba8d9d57b63703ecb8fcd91744b741997a757040f0878c62e0420fd986d51e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Paywall6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/paywall-6/files/paywall-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/paywall-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/paywall-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3ebdd836469c4e9f5aa3fb62100a119d5bc3dd75a96735d14954cd2919c10f70",
+  "fetchedAt": "2026-08-14T05:53:21.636Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/origami-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "origami-type",
+  "name": "OrigamiType",
+  "title": "Origami Type",
+  "description": "Lines unfold into place like creased paper opening flat.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FoldText-JS-CSS",
+      "path": "vault/reactbits-free/components/origami-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/js-css/OrigamiType.css",
+          "bytes": 2110,
+          "sha256": "17da5118cdd7147e428f4cef58d9df014e389dfd0c1743ceaf3ba20f3a4e8124"
+        },
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/js-css/OrigamiType.jsx",
+          "bytes": 5745,
+          "sha256": "a6b96a47ba82c05dbfef438c423f0501c982cb1e751b281e1c6d01517ac872ec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrigamiType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/origami-type/variants/js-css/OrigamiType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3fb92c7a1cbd54219552d892bc5a8c52cb5623de11e2ce34fe94973449fe8521"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FoldText-JS-TW",
+      "path": "vault/reactbits-free/components/origami-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/js-tw/OrigamiType.jsx",
+          "bytes": 7926,
+          "sha256": "469bdeca3a54888ca3a06b9e13a1e16229d27c1a9be975b41b312a19e39fe290"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrigamiType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/origami-type/variants/js-tw/OrigamiType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5a06c82304c1757ef9fb6a1a836cee3c19b84d493fa3f5751f9109bbe9a26f7f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FoldText-TS-CSS",
+      "path": "vault/reactbits-free/components/origami-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/ts-css/OrigamiType.css",
+          "bytes": 2110,
+          "sha256": "17da5118cdd7147e428f4cef58d9df014e389dfd0c1743ceaf3ba20f3a4e8124"
+        },
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/ts-css/OrigamiType.tsx",
+          "bytes": 6735,
+          "sha256": "b440f93d18743e44b34b4135dd76e1f9ad07b6cc57672c35e62b62d509ae1543"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrigamiType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/origami-type/variants/ts-css/OrigamiType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2815ecd5434889953fd005b7c271886f65eda410e5675d4492ae33a9348abd9a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FoldText-TS-TW",
+      "path": "vault/reactbits-free/components/origami-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/origami-type/variants/ts-tw/OrigamiType.tsx",
+          "bytes": 8916,
+          "sha256": "1bf70f58d0ce779d2e9c9dfaea5daf451ac9f88a1097c2a04c6fb1928aa52c41"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OrigamiType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/origami-type/variants/ts-tw/OrigamiType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "492663f57727bdca2e17c46c809bde918858aa041b324ee045dcfa185b56a116"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OrigamiType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/origami-type/variants/ts-tw/OrigamiType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/origami-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FoldText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/fold-text"
+  },
+  "hash": "c4a234fb3f570fb729b699b9aa798ea62e485b859609fb5b44ecd0e5b6c18e0e",
+  "fetchedAt": "2026-08-14T05:36:11.381Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "OrigamiType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "fold-text",
+  "upstreamName": "FoldText"
+}

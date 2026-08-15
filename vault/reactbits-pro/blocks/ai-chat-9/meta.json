@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/ai-chat-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-chat-9",
+  "name": "ai-chat-9",
+  "title": "AI Chat 9",
+  "description": "Composer model picker with a provider list and a detail card carrying context, cost, and a reasoning effort control.",
+  "tags": [
+    "ai",
+    "agent",
+    "chat",
+    "assistant",
+    "streaming"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-chat-9",
+      "path": "vault/reactbits-pro/blocks/ai-chat-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-chat-9/files/ai-chat-9.tsx",
+          "bytes": 23737,
+          "sha256": "94263509b39ce8030872b8bc45a0483b21a64794e9ed515cd4d8e746a9a3a9a7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AiChat9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-chat-9/files/ai-chat-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "621e35332c323fbd18b0801153d414bb6a07b01f68ddd08dd523114acadb7ad1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiChat9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-chat-9/files/ai-chat-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-chat-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-chat-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5790b497c1f4a477871f6eaf8a79ffb96783a21af7bf54f5dbf5821c783f3eb4",
+  "fetchedAt": "2026-08-14T05:36:40.669Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,75 @@
+"use client";
+
+import Link from "next/link";
+import { useRef } from "react";
+import { Inview } from "@/components/animation/springs/in-view";
+import { Hover } from "@/components/animation/springs/hover";
+import { ArrowUpRightIcon } from "@/components/ui/icons";
+import type { ServiceItem } from "@/data/mocks/home";
+
+export interface ServiceRowProps {
+  item: ServiceItem;
+  index: number;
+}
+
+export const ServiceRow = ({ item, index }: ServiceRowProps) => {
+  const rowRef = useRef<HTMLElement>(null);
+
+  return (
+    <Inview
+      tag="li"
+      mode="once"
+      from={{ opacity: 0, transform: "translateY(24px)" }}
+      to={{ opacity: 1, transform: "translateY(0px)" }}
+      config={{ tension: 200, friction: 24 }}
+      delayIn={index * 80}
+      className="border-t border-line first:border-t-0"
+    >
+      <Link
+        ref={rowRef as React.Ref<HTMLAnchorElement>}
+        href={item.href}
+        className="relative block overflow-hidden rounded-card-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      >
+        {/* Hover fill — opacity only (no colour animation → no SSR mismatch). */}
+        <Hover
+          tag="span"
+          trigger={rowRef}
+          from={{ opacity: 0 }}
+          to={{ opacity: 1 }}
+          config={{ tension: 240, friction: 26 }}
+          className="pointer-events-none absolute inset-0 bg-surface"
+        />
+        <div className="relative flex items-center gap-4 px-4 py-6 sm:gap-6 sm:px-6 sm:py-8">
+          <Hover
+            tag="span"
+            trigger={rowRef}
+            from={{ transform: "translateX(0px)" }}
+            to={{ transform: "translateX(8px)" }}
+            config={{ tension: 240, friction: 24 }}
+            className="flex min-w-0 flex-1 items-center gap-4 sm:gap-6"
+          >
+            <span className="w-7 shrink-0 text-sm font-medium text-foreground/40 sm:w-10">
+              {item.index}
+            </span>
+            <h3 className="truncate text-2xl font-medium tracking-tight sm:text-3xl md:text-4xl">
+              {item.title}
+            </h3>
+          </Hover>
+          <p className="hidden max-w-xs text-sm text-foreground/55 lg:block">
+            {item.description}
+          </p>
+          <Hover
+            tag="span"
+            trigger={rowRef}
+            from={{ transform: "translateX(0px)" }}
+            to={{ transform: "translateX(5px)" }}
+            config={{ tension: 300, friction: 18 }}
+            className="grid size-10 shrink-0 place-items-center rounded-pill bg-ink text-base text-white sm:size-12"
+          >
+            <ArrowUpRightIcon />
+          </Hover>
+        </div>
+      </Link>
+    </Inview>
+  );
+};

@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/skill/skill-corporate-trust",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-corporate-trust",
+  "name": "skill-corporate-trust",
+  "title": "Corporate Trust",
+  "description": "Build enterprise, finance and healthcare pages where credibility is the entire design objective: a conservative palette, a ranked trust ladder, dense organised proof and a demo-request form that a procurement committee finds legible.",
+  "tags": [
+    "skill",
+    "enterprise",
+    "b2b",
+    "fintech",
+    "trust",
+    "credibility",
+    "conversion"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-corporate-trust",
+      "path": "vault/reactbits-pro/agent-kit/skill-corporate-trust/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-corporate-trust/files/SKILL.md",
+          "bytes": 27375,
+          "sha256": "fc9240c0a3e5183a05c522aa0aed3d7a3b0d8288c67af3fb1c0d3d1614083233"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-corporate-trust/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "f5a4aca4e61a90656e106db71e506ce937142388b9e82b105b9cdd76775a6360"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-corporate-trust",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-corporate-trust.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fb35dba1a25332bafc7a1d603756b0b0a8697604826b50ecc9edfa255c34bf31",
+  "fetchedAt": "2026-08-14T05:54:56.178Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/dashboard-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-5",
+  "name": "dashboard-5",
+  "title": "Dashboard 5",
+  "description": "Usage dashboard with quota meters, burn-down, and an upgrade call to action.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-5",
+      "path": "vault/reactbits-pro/blocks/dashboard-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-5/files/dashboard-5.tsx",
+          "bytes": 9097,
+          "sha256": "c6e6dbd858cd02658d43400c806cfc3cabce94a3f7926c7ddc0c7b7efff1e8af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-5/files/dashboard-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ffb958804a2a8986f79028b40f7ee0f36223f3a4509a80f16c937f0d089f1a80"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-5/files/dashboard-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dbffbe19871ccfd4aee29d09459f429effbc5a7be47b715bec01b5c5a7fd881a",
+  "fetchedAt": "2026-08-14T05:45:13.096Z",
+  "vaultVersion": 1
+}

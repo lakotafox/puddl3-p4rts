@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/sonar-sweep",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "sonar-sweep",
+  "name": "SonarSweep",
+  "title": "Sonar Sweep",
+  "description": "Radar sweep effect with concentric rings, radial spokes, and a rotating beam.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Radar-JS-CSS",
+      "path": "vault/reactbits-free/components/sonar-sweep/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/js-css/SonarSweep.css",
+          "bytes": 52,
+          "sha256": "83b7b2414d07d147fb14b92ee2a3347bb5f75a2c1dfe61ed6b55642d0359454c"
+        },
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/js-css/SonarSweep.jsx",
+          "bytes": 6238,
+          "sha256": "28f83b499cd578ee1aa7eb8db46ed6476f1d46a3b0c952f567f1524812487aa9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SonarSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sonar-sweep/variants/js-css/SonarSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9805fffabaefb1659d02eb41afc9f5c5c4a892b188fc38d48bd6f9847490a9d0"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Radar-JS-TW",
+      "path": "vault/reactbits-free/components/sonar-sweep/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/js-tw/SonarSweep.jsx",
+          "bytes": 6213,
+          "sha256": "9488ad6119c72b7d46dd6914143492b68018503ceef29e1e28af17d58ff89cb9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SonarSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sonar-sweep/variants/js-tw/SonarSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5b448fce20dd5a2760ff6e7314518e0ef3c35cbaaf0554ce8551b93dfebd51ed"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Radar-TS-CSS",
+      "path": "vault/reactbits-free/components/sonar-sweep/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/ts-css/SonarSweep.css",
+          "bytes": 52,
+          "sha256": "83b7b2414d07d147fb14b92ee2a3347bb5f75a2c1dfe61ed6b55642d0359454c"
+        },
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/ts-css/SonarSweep.tsx",
+          "bytes": 6718,
+          "sha256": "d0f0e73c0f804b4864936bcdda3f41334bd2b3705131155b81a52e06983b56e3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SonarSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sonar-sweep/variants/ts-css/SonarSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0e583f39547446089839dbe9c25b87be2278dc027a724a70a580fe2a712588ac"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Radar-TS-TW",
+      "path": "vault/reactbits-free/components/sonar-sweep/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sonar-sweep/variants/ts-tw/SonarSweep.tsx",
+          "bytes": 6693,
+          "sha256": "2761363ca7603af21ca1b8d91f398fda26afa2a191f6a9a21fee77fc4ea69d53"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SonarSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sonar-sweep/variants/ts-tw/SonarSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c33c71dde0eeeca9eb2d36cacea9e1477f93a1f39cc7cc4d6a0894f92a83200a"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SonarSweep",
+      "style": "default",
+      "file": "vault/reactbits-free/components/sonar-sweep/variants/ts-tw/SonarSweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/sonar-sweep",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Radar-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/radar"
+  },
+  "hash": "a3e782e961f109df29f3b7eef8d8aeeb07dff11c21cde50c55ada9a424b78d23",
+  "fetchedAt": "2026-08-14T05:36:11.442Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SonarSweep",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "radar",
+  "upstreamName": "Radar"
+}

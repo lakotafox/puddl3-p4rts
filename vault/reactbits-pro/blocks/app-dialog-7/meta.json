@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-7",
+  "name": "app-dialog-7",
+  "title": "App Dialog 7",
+  "description": "Popover and dropdown set with menus, submenus, separators, and shortcuts.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-7",
+      "path": "vault/reactbits-pro/blocks/app-dialog-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-7/files/app-dialog-7.tsx",
+          "bytes": 15225,
+          "sha256": "776215b240bc5132984c43ebcee8616153bd78e7cb32ae1a99535c5148bb56c2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-7/files/app-dialog-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8d62f0d6edc88ec557e5efd92daad9e0d5318a9d56b27dbf73ab0499dc1a4f93"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-7/files/app-dialog-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "444f6ff216c96e5d1826dba1ed8c5c4e025e7cc014978214ea725392b1b00670",
+  "fetchedAt": "2026-08-14T05:37:26.804Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/liquid-nav",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "liquid-nav",
+  "name": "LiquidNav",
+  "title": "Liquid Nav",
+  "description": "Liquid flowing active indicator glides between menu items.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FlowingMenu-JS-CSS",
+      "path": "vault/reactbits-free/components/liquid-nav/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/js-css/LiquidNav.css",
+          "bytes": 1487,
+          "sha256": "27a22045c6cf207bc26ed8119a6d8ab695084aaed081bf46555ab121d6e6fba9"
+        },
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/js-css/LiquidNav.jsx",
+          "bytes": 5383,
+          "sha256": "40e9834b373c66af2494e9254a11eff8bc6aeb946fd1bd95fbb546fe270717d6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-nav/variants/js-css/LiquidNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3e72045f57cb85632267145b129f17148b0f798254b620a64cb0a5344c9b5595"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FlowingMenu-JS-TW",
+      "path": "vault/reactbits-free/components/liquid-nav/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/js-tw/LiquidNav.jsx",
+          "bytes": 5324,
+          "sha256": "7550a742cdac8546a3f1619e484cd26c7c4ac4d6fc767a431019570a49095714"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-nav/variants/js-tw/LiquidNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe93d77c9be4972cf970337483d0d7b0f0f2110723605121ea4a0d4519d2d855"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FlowingMenu-TS-CSS",
+      "path": "vault/reactbits-free/components/liquid-nav/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/ts-css/LiquidNav.css",
+          "bytes": 1487,
+          "sha256": "27a22045c6cf207bc26ed8119a6d8ab695084aaed081bf46555ab121d6e6fba9"
+        },
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/ts-css/LiquidNav.tsx",
+          "bytes": 5944,
+          "sha256": "b7cf08860e394b8ee8604d46833968387be65d86a8d377bc5910329ed7cbcfd5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-nav/variants/ts-css/LiquidNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "971dc3d24f2b42b5263c7546d4ad1f099ded7c4b3be5e91a26a76bc6a2e583e2"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FlowingMenu-TS-TW",
+      "path": "vault/reactbits-free/components/liquid-nav/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/liquid-nav/variants/ts-tw/LiquidNav.tsx",
+          "bytes": 6126,
+          "sha256": "5939f39c9f4ddbe49e7ea2e049520b4e0e65092db4670a1af5d911e608432c56"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LiquidNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/liquid-nav/variants/ts-tw/LiquidNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "39ea8aedfe111f335ecb3ab6454c9a51196cd7947a99e85d742ab3953d9818d4"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LiquidNav",
+      "style": "default",
+      "file": "vault/reactbits-free/components/liquid-nav/variants/ts-tw/LiquidNav.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/liquid-nav",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FlowingMenu-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/flowing-menu"
+  },
+  "hash": "c2eddcbc8d9d9f9dcebd585e25a14613ede2b960a935a55152879802f47fa67a",
+  "fetchedAt": "2026-08-14T05:36:11.378Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LiquidNav",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "flowing-menu",
+  "upstreamName": "FlowingMenu"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/features-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "features-13",
+  "name": "features-13",
+  "title": "Features 13",
+  "description": "Interactive accordion feature list with an animated abstract preview panel.",
+  "tags": [
+    "features",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "features",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "features-13",
+      "path": "vault/reactbits-pro/blocks/features-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/features-13/files/features-13.tsx",
+          "bytes": 18775,
+          "sha256": "fc0f7d6209f4938d547a4621a0bd54228a628d170c6954894b4e988ada58d0ee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/features-13/files/features-13.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Features13",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/features-13/files/features-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f0e6250c908c4c95fa1541022b6eec0bce33f2b6f3a762b2cd0ad0248e0115d4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Features13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/features-13/files/features-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/features-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/features-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "61c49807bd7499816ac4f01acdbde05b4639c72b2eab7eaa33bbb6241bf7fd97",
+  "fetchedAt": "2026-08-14T05:46:34.878Z",
+  "vaultVersion": 1
+}

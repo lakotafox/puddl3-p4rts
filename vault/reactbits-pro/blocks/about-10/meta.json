@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/about-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-10",
+  "name": "about-10",
+  "title": "About 10",
+  "description": "People-first portrait collage around a faded brand statement with play CTA and trust strip.",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-10",
+      "path": "vault/reactbits-pro/blocks/about-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-10/files/about-10.tsx",
+          "bytes": 6933,
+          "sha256": "14f29c38b36fb0ad2cc1e030335ee1836eb072ead22f41526c8ca9b751955f2f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-10/files/about-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e5a72c5eff5fb5bc1f9302c5e481a56c565a302ce969f6b79bab12b96f6ac733"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-10/files/about-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e05f39983aeb818f4767e3fa5f693eaa59108510ac6505af65d9f49126ce8c9d",
+  "fetchedAt": "2026-08-14T05:35:44.075Z",
+  "vaultVersion": 1
+}

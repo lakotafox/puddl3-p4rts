@@ -1,0 +1,154 @@
+{
+  "id": "rb-starter/component/static-tide",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "static-tide",
+  "name": "StaticTide",
+  "title": "Static Tide",
+  "description": "Grainy wave texture animation effect",
+  "tags": [
+    "animation",
+    "texture",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "grain-wave-css",
+      "path": "vault/reactbits-starter/components/static-tide/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/static-tide/variants/css/static-tide.tsx",
+          "bytes": 8638,
+          "sha256": "fa62be0dfae9716154cbc97e5c0edd8f700fa9c00edaa386dc47cb4135799fea"
+        },
+        {
+          "path": "vault/reactbits-starter/components/static-tide/variants/css/static-tide.css",
+          "bytes": 191,
+          "sha256": "fc12d298fc219ade95431fdf64f54fb51632e5cc82f74a5c9cd7d076aaba1586"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StaticTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/static-tide/variants/css/static-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0650a38ddc82631d339a9e02167828fb2ef2fcf655ed1585f3626d83c1e7624d"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "grain-wave-tw",
+      "path": "vault/reactbits-starter/components/static-tide/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/static-tide/variants/tw/static-tide.tsx",
+          "bytes": 8574,
+          "sha256": "60902b1dfae4d9ecf0902fae5fa5753ad1f6b8a04f1be040e73e8198b2bc8a16"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StaticTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/static-tide/variants/tw/static-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d2c7040703225fc51048fba505a564f351fffe2f9c7d36dfff40c364ba6a7c8b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StaticTide",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/static-tide/variants/tw/static-tide.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/static-tide",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/grain-wave-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "baa1d64766b256f172219765b8f28e16279e0f0fcfe06aff3c2f8130d74993e3",
+  "fetchedAt": "2026-08-14T05:33:04.844Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "grain-wave",
+  "upstreamName": "GrainWave"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/path-marquee",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "path-marquee",
+  "name": "PathMarquee",
+  "title": "Path Marquee",
+  "description": "A seamless text marquee that flows along curved SVG paths.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TextLoop-JS-CSS",
+      "path": "vault/reactbits-free/components/path-marquee/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/js-css/PathMarquee.css",
+          "bytes": 253,
+          "sha256": "2cf98bbc437cd18d9bf09adfc48ae546d1fc4f72558403c6a958b3c8062134e4"
+        },
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/js-css/PathMarquee.jsx",
+          "bytes": 6475,
+          "sha256": "809146c3bce36e063d184ddfcfd437faaeb083f60c17c098a4a5363d29078d6b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PathMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/path-marquee/variants/js-css/PathMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0c95aa670aef34945d7591908c4a472ec0f49a2eba3ba8f398f6c9445433f993"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TextLoop-JS-TW",
+      "path": "vault/reactbits-free/components/path-marquee/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/js-tw/PathMarquee.jsx",
+          "bytes": 6483,
+          "sha256": "7b876c10a3d1b7421b407033314ca33535eb71ba8ee254ceee1dc761915de83e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PathMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/path-marquee/variants/js-tw/PathMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "94125616c99b7b6513f55f7b1f117b6d7cd426ec54ac07c11686fe8ddcbb0d55"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TextLoop-TS-CSS",
+      "path": "vault/reactbits-free/components/path-marquee/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/ts-css/PathMarquee.css",
+          "bytes": 253,
+          "sha256": "2cf98bbc437cd18d9bf09adfc48ae546d1fc4f72558403c6a958b3c8062134e4"
+        },
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/ts-css/PathMarquee.tsx",
+          "bytes": 7343,
+          "sha256": "c00a1f98142a746215c12adc8f956f8347918fbb1c40c93732480bdf6773182f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PathMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/path-marquee/variants/ts-css/PathMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3a4098c330453665755f4bd3fa3fbc4b124c1a09207b0190b44a8268c1031c6a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TextLoop-TS-TW",
+      "path": "vault/reactbits-free/components/path-marquee/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/path-marquee/variants/ts-tw/PathMarquee.tsx",
+          "bytes": 7351,
+          "sha256": "f601b7edd6e71517bcbfdaf1c83d254214118687b15877d658acfa184e3cb105"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PathMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/path-marquee/variants/ts-tw/PathMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c9ff7555d1a0f3b011652116488428451fdb772007a6d69535debe9fb6db96f2"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PathMarquee",
+      "style": "default",
+      "file": "vault/reactbits-free/components/path-marquee/variants/ts-tw/PathMarquee.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/path-marquee",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TextLoop-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/text-loop"
+  },
+  "hash": "c7cd0a60d188a91c08f3c200922be95ce3b7707e1d12b0787d6beed08011a300",
+  "fetchedAt": "2026-08-14T05:36:11.471Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PathMarquee",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "text-loop",
+  "upstreamName": "TextLoop"
+}

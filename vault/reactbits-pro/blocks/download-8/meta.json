@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/download-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "download-8",
+  "name": "download-8",
+  "title": "Download 8",
+  "description": "Terminal installer with platform tabs, a copyable one-line command, and verified install output.",
+  "tags": [
+    "download",
+    "app",
+    "cta",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "download",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "download-8",
+      "path": "vault/reactbits-pro/blocks/download-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/download-8/files/download-8.tsx",
+          "bytes": 12842,
+          "sha256": "f9e18abcd4eabd9abb37ba9a4ab652aa052e7c8d58aa13ef439873032d35bd4f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Download8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/download-8/files/download-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Download8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/download-8/files/download-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "880666e702903e48857da861ba8af9d62a3f66d8f08d5bc829b35345446687fb"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Download8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/download-8/files/download-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/download-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/download-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "39e3cf662f85218264e85bcd85e786c155c3a3f71ef24f55c905aebba4c3d864",
+  "fetchedAt": "2026-08-14T05:45:42.886Z",
+  "vaultVersion": 1
+}

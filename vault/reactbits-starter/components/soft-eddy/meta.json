@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/soft-eddy",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "soft-eddy",
+  "name": "SoftEddy",
+  "title": "Soft Eddy",
+  "description": "Rotating concentric swirl with glow",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "simple-swirl-css",
+      "path": "vault/reactbits-starter/components/soft-eddy/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/soft-eddy/variants/css/soft-eddy.tsx",
+          "bytes": 9788,
+          "sha256": "69b8b949197ba08e9c99ee09c3fce704cab5d969d328e8e24451cd2e00aa74c7"
+        },
+        {
+          "path": "vault/reactbits-starter/components/soft-eddy/variants/css/soft-eddy.css",
+          "bytes": 249,
+          "sha256": "55e7c24f05d2b231973d863a3b546a5ada9fc9b8fc235a0dc80024b40f7e4acf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEddy",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/soft-eddy/variants/css/soft-eddy.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c905b14022d675c600a036c5583ec3876312566a6e9291e1079cf4c68be2fe3b"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "simple-swirl-tw",
+      "path": "vault/reactbits-starter/components/soft-eddy/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/soft-eddy/variants/tw/soft-eddy.tsx",
+          "bytes": 9833,
+          "sha256": "171a9c4e0af249a2c4a147e6f83904675b46e70490ba653c583bb4af37a15dea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEddy",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/soft-eddy/variants/tw/soft-eddy.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4a148013880e106f49390f90b1155827184d13abb251165c04b58b5e45ddaa61"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SoftEddy",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/soft-eddy/variants/tw/soft-eddy.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/soft-eddy",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/simple-swirl-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "40036144f3e7dae1fe77d6512f12bd4d8eb09f92825e62c4b56050f3ba5a122b",
+  "fetchedAt": "2026-08-14T05:34:37.915Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "simple-swirl",
+  "upstreamName": "SimpleSwirl"
+}

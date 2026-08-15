@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/molten-pane",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "molten-pane",
+  "name": "MoltenPane",
+  "title": "Molten Pane",
+  "description": "Flowing glass-like blur animation",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glass-flow-css",
+      "path": "vault/reactbits-starter/components/molten-pane/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/molten-pane/variants/css/molten-pane.tsx",
+          "bytes": 11678,
+          "sha256": "514dac9efa83d0c4289aac0570092d9becb993aec445ea7f957f179cd7e1bea3"
+        },
+        {
+          "path": "vault/reactbits-starter/components/molten-pane/variants/css/molten-pane.css",
+          "bytes": 160,
+          "sha256": "af0e0895942faebb1cdd359cebca6d0fd9a59f9a45aaadb9753ea759b3e0f487"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoltenPane",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/molten-pane/variants/css/molten-pane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42d9ca262424733361986efd58b1661dd580d557cd26bd7af7315f78a7edc8dc"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glass-flow-tw",
+      "path": "vault/reactbits-starter/components/molten-pane/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/molten-pane/variants/tw/molten-pane.tsx",
+          "bytes": 11784,
+          "sha256": "74e4402165fccaec3f64f301b170a50b866eda03a83023240c73fbbbd5c7f996"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MoltenPane",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/molten-pane/variants/tw/molten-pane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "15c648da9640149fdda7ef554b03b304ad7f5dd75b7b682c7b9e1c930c0ddf0d"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MoltenPane",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/molten-pane/variants/tw/molten-pane.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/molten-pane",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glass-flow-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e9c17e6bbd876435ab9bfa9c4397ba582628c34ce513a9930e5a5ab4f319e89e",
+  "fetchedAt": "2026-08-14T05:32:46.944Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glass-flow",
+  "upstreamName": "GlassFlow"
+}

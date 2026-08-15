@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/dashboard-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-9",
+  "name": "dashboard-9",
+  "title": "Dashboard 9",
+  "description": "Weekly worklog grid with a sticky people column, day allocations, and week navigation.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-9",
+      "path": "vault/reactbits-pro/blocks/dashboard-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-9/files/dashboard-9.tsx",
+          "bytes": 26119,
+          "sha256": "35ab5d419d50c97b261ad6c4e6f3a6de840f50c431811c59d8a8531fb1239a4a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-9/files/dashboard-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7266f8ee24b5424b412fdb09c95835a73232a91462ac00636c3f23831c11737b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-9/files/dashboard-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "02fc4057043930ad65cee29866e7ed9eea8c4df3bb60c50e1eeca94575a20e0f",
+  "fetchedAt": "2026-08-14T05:45:19.177Z",
+  "vaultVersion": 1
+}

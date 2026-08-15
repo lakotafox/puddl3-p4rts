@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/axon-corridor",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "axon-corridor",
+  "name": "AxonCorridor",
+  "title": "Axon Corridor",
+  "description": "An endless tunnel of pulsing neural strands",
+  "tags": [
+    "background",
+    "shader",
+    "tunnel",
+    "webgl",
+    "3d",
+    "abstract"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "neural-tunnel-css",
+      "path": "vault/reactbits-starter/components/axon-corridor/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/axon-corridor/variants/css/axon-corridor.tsx",
+          "bytes": 13130,
+          "sha256": "9fcb0c2aa34c7d31bcd157aa44c6963a92bfe7305e5c40341b37ad8a36bce358"
+        },
+        {
+          "path": "vault/reactbits-starter/components/axon-corridor/variants/css/axon-corridor.css",
+          "bytes": 218,
+          "sha256": "7497add4f029433ac3c97a4567fe00686600a4709049e70724765160db22a3ab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AxonCorridor",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/axon-corridor/variants/css/axon-corridor.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "AxonCorridor",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/axon-corridor/variants/css/axon-corridor.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b54b0485bd04f0be9f7f76002a70a8c91f9fb8511374dd4d4e1063cab5112dc0"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "neural-tunnel-tw",
+      "path": "vault/reactbits-starter/components/axon-corridor/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/axon-corridor/variants/tw/axon-corridor.tsx",
+          "bytes": 13107,
+          "sha256": "f59485e05d6e532f890a67c1d2830a82f05892c2efb40ed50c0cb477fca45e4a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AxonCorridor",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/axon-corridor/variants/tw/axon-corridor.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "AxonCorridor",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/axon-corridor/variants/tw/axon-corridor.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d3b4f40901820af8bfee668778ca7f9079873824c471c87959244c692a7aa60d"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AxonCorridor",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/axon-corridor/variants/tw/axon-corridor.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/axon-corridor",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/neural-tunnel-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "6bef4068df23bd0b383e29711a550434fa6544a7e6f25e0cf1fb0b34e2c417ae",
+  "fetchedAt": "2026-08-14T05:33:43.326Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "neural-tunnel",
+  "upstreamName": "NeuralTunnel"
+}

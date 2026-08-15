@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/lattice-sphere",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "lattice-sphere",
+  "name": "LatticeSphere",
+  "title": "Lattice Sphere",
+  "description": "A rotating wireframe polyhedron raymarched in a shader",
+  "tags": [
+    "background",
+    "shader",
+    "webgl",
+    "3d",
+    "wireframe",
+    "geometric"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "wireframe-ball-css",
+      "path": "vault/reactbits-starter/components/lattice-sphere/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lattice-sphere/variants/css/lattice-sphere.tsx",
+          "bytes": 26552,
+          "sha256": "bb010c34a011ee710f5f76b1d769043fb999a18842daaa471eddb855cd9bef7a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/lattice-sphere/variants/css/lattice-sphere.css",
+          "bytes": 221,
+          "sha256": "8c5a8cc28bcbff24b257b3aeac2194c8b2d65b19e71b430b0efdc5260c88a08b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeSphere",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lattice-sphere/variants/css/lattice-sphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe6c0cac9d986e8b3e8a789fb107f8071e77abd2c485cd0295c5241d8997b823"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "wireframe-ball-tw",
+      "path": "vault/reactbits-starter/components/lattice-sphere/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lattice-sphere/variants/tw/lattice-sphere.tsx",
+          "bytes": 26541,
+          "sha256": "091892659117b6c88e93aee7b5cafb54b408067caa67b355dc1f196008c3dd92"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeSphere",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lattice-sphere/variants/tw/lattice-sphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2863614b4fede319a9e72ccc7d00855795cb2e435858053bbf0c10202d559a06"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LatticeSphere",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/lattice-sphere/variants/tw/lattice-sphere.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/lattice-sphere",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/wireframe-ball-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "491eddf389b87a3303e6256fa5dd99907582c174d6dcfd057891f439b0a20d2f",
+  "fetchedAt": "2026-08-14T05:35:26.914Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "wireframe-ball",
+  "upstreamName": "WireframeBall"
+}

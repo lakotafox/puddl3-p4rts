@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/how-it-works-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-4",
+  "name": "how-it-works-4",
+  "title": "How It Works 4",
+  "description": "Today/Day 5/Day 30 timeline pills with dotted connector and bordered checklist cards",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-4",
+      "path": "vault/reactbits-pro/blocks/how-it-works-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-4/files/how-it-works-4.tsx",
+          "bytes": 4729,
+          "sha256": "ed6f7d589c9c04badadae5f454d3141be967dc2bfbe9151e0cae1d6629b4dcfe"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-4/files/how-it-works-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "862a6d7237f9ad11d54ca5ed8118ee39e6e968dec3a128fc37291db288604413"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-4/files/how-it-works-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "47761456b036a21f038f5d8511ba72049dff3b312cdcdb98ffef3f18ba81712f",
+  "fetchedAt": "2026-08-14T05:48:33.264Z",
+  "vaultVersion": 1
+}

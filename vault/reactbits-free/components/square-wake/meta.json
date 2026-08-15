@@ -1,0 +1,237 @@
+{
+  "id": "rb-free/component/square-wake",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "square-wake",
+  "name": "SquareWake",
+  "title": "Square Wake",
+  "description": "Pixelated cursor trail emitting fading squares with retro digital feel.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelTrail-JS-CSS",
+      "path": "vault/reactbits-free/components/square-wake/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/js-css/SquareWake.css",
+          "bytes": 137,
+          "sha256": "27605efaa0205044b89159a843c6d14314ad099ff45c6599d9eeb45d3eb69c0e"
+        },
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/js-css/SquareWake.jsx",
+          "bytes": 3663,
+          "sha256": "f9f49332d101bc51b34b77e2393c7e173382e2513c7e336ed6cb27e7e6d86533"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-wake/variants/js-css/SquareWake.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b440303be77d1a08c93e3d04f2245fec28fc21e71c6b99cacd794b8ea8549f5e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelTrail-JS-TW",
+      "path": "vault/reactbits-free/components/square-wake/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/js-tw/SquareWake.jsx",
+          "bytes": 3643,
+          "sha256": "82e87355cf971046bacc6fea302a2acbd3162c21461e6767836955e159df1904"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-wake/variants/js-tw/SquareWake.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c774f4663ca7fe6d48dd169662df08316827675e0acd5679439f9ad6bb2adde1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelTrail-TS-CSS",
+      "path": "vault/reactbits-free/components/square-wake/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/ts-css/SquareWake.css",
+          "bytes": 137,
+          "sha256": "27605efaa0205044b89159a843c6d14314ad099ff45c6599d9eeb45d3eb69c0e"
+        },
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/ts-css/SquareWake.tsx",
+          "bytes": 4640,
+          "sha256": "88369e3b31d7afcfad48aba5c47368f23830b6f549e1116ceb7d826c120086a2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-wake/variants/ts-css/SquareWake.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "45c204df519c78b4acf85591677222828d55ece7f96d6daa3f970243b466adbf"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelTrail-TS-TW",
+      "path": "vault/reactbits-free/components/square-wake/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/square-wake/variants/ts-tw/SquareWake.tsx",
+          "bytes": 4809,
+          "sha256": "f66b727e3883e239cf3fc2619d78bfc5b8dbe2df8399a4895ddf0f31e707ea94"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/drei",
+          "range": "^10.7.4"
+        },
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SquareWake",
+          "style": "default",
+          "file": "vault/reactbits-free/components/square-wake/variants/ts-tw/SquareWake.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "602eb5125a543f41cdb57bc5bf73c7ab7d99c5951b11cde1f25aefc6bef7edff"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/drei",
+      "range": "^10.7.4"
+    },
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SquareWake",
+      "style": "default",
+      "file": "vault/reactbits-free/components/square-wake/variants/ts-tw/SquareWake.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/square-wake",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelTrail-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-trail"
+  },
+  "hash": "9ebf3455461b53162d092f5f698a286ea0cc7bfa8246f2887f9426dbd38e286e",
+  "fetchedAt": "2026-08-14T05:36:11.436Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SquareWake",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-trail",
+  "upstreamName": "PixelTrail"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-3",
+  "name": "app-dialog-3",
+  "title": "App Dialog 3",
+  "description": "Form dialog with field validation and a sticky footer.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-3",
+      "path": "vault/reactbits-pro/blocks/app-dialog-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-3/files/app-dialog-3.tsx",
+          "bytes": 19062,
+          "sha256": "2c7b25fd6f02237e21f7e4880d6b1888c228ede516ad816ed4bfa20bd5f1fc0f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-3/files/app-dialog-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d84f576a641cf9855f96374319a290e105d50d95a7e76ef33d47499ff8b3935f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-3/files/app-dialog-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e73624d8c609786573709698a424f22c759dc18a88fc886cc7a4145a65cbefbd",
+  "fetchedAt": "2026-08-14T05:37:20.821Z",
+  "vaultVersion": 1
+}

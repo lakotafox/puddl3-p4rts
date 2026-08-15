@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/marker-reveal",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "marker-reveal",
+  "name": "MarkerReveal",
+  "title": "Marker Reveal",
+  "description": "Animated paragraph with blur-in effect and automatic text highlighting",
+  "tags": [
+    "animation",
+    "effect",
+    "text"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "blur-highlight-css",
+      "path": "vault/reactbits-starter/components/marker-reveal/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/marker-reveal/variants/css/marker-reveal.tsx",
+          "bytes": 8956,
+          "sha256": "6bd604b29856e2ebd951d7c3816552369df560beb75b427fa7b6ef3bb111b41f"
+        },
+        {
+          "path": "vault/reactbits-starter/components/marker-reveal/variants/css/marker-reveal.css",
+          "bytes": 158,
+          "sha256": "186fb605bc9a3b3b478cf834711d0bf47135113e5cbf7a4a9ec6a034ca58907f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MarkerReveal",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/marker-reveal/variants/css/marker-reveal.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MarkerReveal",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/marker-reveal/variants/css/marker-reveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "29c26518eb462c76deffcf02ea7cd3e10f3f61ce759a42e213945735bacbf583"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "blur-highlight-tw",
+      "path": "vault/reactbits-starter/components/marker-reveal/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/marker-reveal/variants/tw/marker-reveal.tsx",
+          "bytes": 8925,
+          "sha256": "858313f7b97a3f34b05cc05328ed18abe5f06a9dfd002cb01db3d7e4f59c982f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MarkerReveal",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/marker-reveal/variants/tw/marker-reveal.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MarkerReveal",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/marker-reveal/variants/tw/marker-reveal.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bb7fd323bb38141081f526c4e289caf66ce355ce0a1f0d9def93287541cb0cab"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MarkerReveal",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/marker-reveal/variants/tw/marker-reveal.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/marker-reveal",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/blur-highlight-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8f9488f16cc211fc11c488d4e32d1625480d872efc43abd6c50886b29c6acd57",
+  "fetchedAt": "2026-08-14T05:31:54.406Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "blur-highlight",
+  "upstreamName": "BlurHighlight"
+}

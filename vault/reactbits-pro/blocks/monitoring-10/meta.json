@@ -1,0 +1,98 @@
+{
+  "id": "rb-pro/block/monitoring-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "monitoring-10",
+  "name": "monitoring-10",
+  "title": "Monitoring 10",
+  "description": "Service level objectives with an error budget burn-down chart and per-objective budget bars.",
+  "tags": [
+    "monitoring",
+    "observability",
+    "metrics",
+    "charts",
+    "alerts",
+    "incidents",
+    "uptime",
+    "logs",
+    "slo"
+  ],
+  "tagSource": "upstream",
+  "category": "monitoring",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "monitoring-10",
+      "path": "vault/reactbits-pro/blocks/monitoring-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/monitoring-10/files/monitoring-10.tsx",
+          "bytes": 14032,
+          "sha256": "b61641bfba02424a18b419d9e27f99a403e9119f7126f7168496a470b2210f51"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Monitoring10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/monitoring-10/files/monitoring-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "800c0781e0c4c25025ed26423bdcde2cd9d0b7896a7caf389688ff0c5c47b3af"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Monitoring10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/monitoring-10/files/monitoring-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/monitoring-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/monitoring-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "172777d61700f48ab292ad85545d847d33e95bf8918047e772a41ce173c06491",
+  "fetchedAt": "2026-08-14T05:49:27.085Z",
+  "vaultVersion": 1
+}

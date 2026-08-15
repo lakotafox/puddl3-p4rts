@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/tool-calls-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "tool-calls-1",
+  "name": "tool-calls-1",
+  "title": "Tool Calls 1",
+  "description": "Tool call card with collapsible arguments, formatted result, and timing metadata.",
+  "tags": [
+    "ai",
+    "agent",
+    "tools",
+    "function-calling",
+    "results"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "tool-calls-1",
+      "path": "vault/reactbits-pro/blocks/tool-calls-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/tool-calls-1/files/tool-calls-1.tsx",
+          "bytes": 19562,
+          "sha256": "bbea1f0e018920d4492deaf15f736f099f4b2cb8a61431c15c7bc7a2cbde73a5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ToolCalls1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/tool-calls-1/files/tool-calls-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e02883d4369e83b063a486d6fad71e31ccbdbefe009502e663234733e68d2d11"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ToolCalls1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/tool-calls-1/files/tool-calls-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/tool-calls-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/tool-calls-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "599f06480e3bf080a8be38219c744b2c1f1598d2c3d4ebbd6692c41e0fc4312a",
+  "fetchedAt": "2026-08-14T05:56:03.178Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-3",
+  "name": "filtering-3",
+  "title": "Filtering 3",
+  "description": "Query builder whose editable chips drive a live table of records.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-3",
+      "path": "vault/reactbits-pro/blocks/filtering-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-3/files/filtering-3.tsx",
+          "bytes": 37520,
+          "sha256": "0e9e6a69ff6940856ac9bd1c8eba1ecc4f05bbb989c7b8a0303192ac1ae80935"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-3/files/filtering-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "273dc9c78d1f376aa8f77d0a5dc2e625fb3e4e0365aa8ebab1fd4d30ecbb29a2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-3/files/filtering-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5f50f70a9a9d13308324a8165073ed06479f0032abfdd318904fad0d9524ff2f",
+  "fetchedAt": "2026-08-14T05:47:06.068Z",
+  "vaultVersion": 1
+}

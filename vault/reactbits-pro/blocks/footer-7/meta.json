@@ -1,0 +1,99 @@
+{
+  "id": "rb-pro/block/footer-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "footer-7",
+  "name": "footer-7",
+  "title": "Footer 7",
+  "description": "Minimal footer with circular logo badge, link columns, and pill newsletter form",
+  "tags": [
+    "footer",
+    "navigation"
+  ],
+  "tagSource": "upstream",
+  "category": "footer",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "footer-7",
+      "path": "vault/reactbits-pro/blocks/footer-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/footer-7/files/footer-7.tsx",
+          "bytes": 4969,
+          "sha256": "52b5370ab69c29a9152247b2adf868b3105858726e04f494ff2ec40425e91232"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/footer-7/files/footer-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6a74f0c4518e9217743a7a523f03675b4248f7772fcc9bee23d5ce9eabde7739"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Footer7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/footer-7/files/footer-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/footer-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/footer-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8b665c5c1600a85204e3841ae7e3b56c569a7d8fc96514f3bad74f3adb49488d",
+  "fetchedAt": "2026-08-14T05:47:29.971Z",
+  "vaultVersion": 1
+}

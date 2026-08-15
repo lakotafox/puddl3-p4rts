@@ -1,0 +1,129 @@
+{
+  "id": "rb-starter/component/tap-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "tap-deck",
+  "name": "TapDeck",
+  "title": "Tap Deck",
+  "description": "Click-to-cycle animated card stack",
+  "tags": [
+    "animation",
+    "interaction",
+    "cards",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "click-stack-css",
+      "path": "vault/reactbits-starter/components/tap-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tap-deck/variants/css/tap-deck.tsx",
+          "bytes": 7207,
+          "sha256": "6d7b5bdbf849185124b5e04fff3eab8df36fa7c9fcf180d4ad5749723e271488"
+        },
+        {
+          "path": "vault/reactbits-starter/components/tap-deck/variants/css/tap-deck.css",
+          "bytes": 251,
+          "sha256": "832a16a124608ec491a89824743ee98a46e6f16940be24da32fd656560c55953"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TapDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tap-deck/variants/css/tap-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "de317e6dba726c93d5700679332e04d328afa22e8e243a79ecc0f4b2e61ffff0"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "click-stack-tw",
+      "path": "vault/reactbits-starter/components/tap-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/tap-deck/variants/tw/tap-deck.tsx",
+          "bytes": 7305,
+          "sha256": "8887a17474870c129209fbc62b141f83e9cf0f59fab0a5e4cbfa3037c7385ef1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TapDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/tap-deck/variants/tw/tap-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8749bee30f931841a41392d43fea6e72e8aa3775d0388300bce5e0572fdbb9ed"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TapDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/tap-deck/variants/tw/tap-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/tap-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/click-stack-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "87be10ad6664dee235c0de0404f8c1385d26a1b68761923d04fd679a1b48cc65",
+  "fetchedAt": "2026-08-14T05:32:11.790Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "click-stack",
+  "upstreamName": "ClickStack"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/how-it-works-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-2",
+  "name": "how-it-works-2",
+  "title": "How It Works 2",
+  "description": "Step cards with dimmed image background hover effect",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-2",
+      "path": "vault/reactbits-pro/blocks/how-it-works-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-2/files/how-it-works-2.tsx",
+          "bytes": 6323,
+          "sha256": "4fe36f366c87d19a904025faa9ff0dd9b5f8cb32881350499e96b87a1aaca302"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-2/files/how-it-works-2.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HowItWorks2",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/how-it-works-2/files/how-it-works-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8835f469dc132f9a0b8f9d4be4fa263c44adb1357925f7cd8602b7fc9db92217"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-2/files/how-it-works-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "807f38fac8cba0ed28976c577dd9ad54b0af2ecf48aec4d56d29544e5949fffa",
+  "fetchedAt": "2026-08-14T05:48:30.318Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-3",
+  "name": "list-3",
+  "title": "List 3",
+  "description": "Security event feed with facet filtering and scroll-faded overflow.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-3",
+      "path": "vault/reactbits-pro/blocks/list-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-3/files/list-3.tsx",
+          "bytes": 15889,
+          "sha256": "40985a521fc4d514cc602ad2460bc34d9d710ac5ea1b724c9f5dfa22c25fe15f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-3/files/list-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9bb2a2538953f80b09089e408d5806a592fb22c7c40c7ce5224a01329fbacd64"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-3/files/list-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4d44bae185a7e52d636d5f1d26a185771d99911e1d32b48253e5733c840c1023",
+  "fetchedAt": "2026-08-14T05:49:07.572Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-13",
+  "name": "analytics-13",
+  "title": "Analytics 13",
+  "description": "Candlestick chart with a volume histogram and an OHLC tooltip.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-13",
+      "path": "vault/reactbits-pro/blocks/analytics-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-13/files/analytics-13.tsx",
+          "bytes": 20766,
+          "sha256": "1a5b1c640ffaacce386283c562f13fdf6b8a5a1448c3148732f9f785fed405ab"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-13/files/analytics-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0561c97745f038e351120dcfac3b59cc0d12d5a54ddeedad237570f1edd463c3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-13/files/analytics-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4370161e3cb7405a4b88d0ab30dde92eea5493f550fc3f187daae6b0a443a792",
+  "fetchedAt": "2026-08-14T05:36:59.948Z",
+  "vaultVersion": 1
+}

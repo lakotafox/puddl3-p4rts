@@ -1,0 +1,163 @@
+{
+  "id": "rb-free/component/cipher-rain",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "cipher-rain",
+  "name": "CipherRain",
+  "title": "Cipher Rain",
+  "description": "Matrix style letter animation.",
+  "tags": [
+    "effect",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LetterGlitch-JS-CSS",
+      "path": "vault/reactbits-free/components/cipher-rain/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-rain/variants/js-css/CipherRain.jsx",
+          "bytes": 6700,
+          "sha256": "644075738a9c11ea4840e95028736828ac8f5ae8664a7d7e55a938aa46caaf88"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CipherRain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-rain/variants/js-css/CipherRain.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4032a12c5d6cede13e5780da995003217e46dab5dbbc3db1c23753c047ff38b6"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LetterGlitch-JS-TW",
+      "path": "vault/reactbits-free/components/cipher-rain/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-rain/variants/js-tw/CipherRain.jsx",
+          "bytes": 6248,
+          "sha256": "f623ac64f6cea57114724e5ea9efb450ed1ebf69ac50f390691e020144193b60"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CipherRain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-rain/variants/js-tw/CipherRain.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6b54679082facb19ea539ac080db3c7ecb0bccd9795a6e592384a4672269a442"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LetterGlitch-TS-CSS",
+      "path": "vault/reactbits-free/components/cipher-rain/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-rain/variants/ts-css/CipherRain.tsx",
+          "bytes": 7250,
+          "sha256": "8b40ba6fc1af779cf1a52e2ed47f35732aaac5c7dc35f20baea01ecdbd0aecf6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CipherRain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-rain/variants/ts-css/CipherRain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a9bac3895f46e0945c584777dee4e7d8daa889f812435638091518e4940080b3"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LetterGlitch-TS-TW",
+      "path": "vault/reactbits-free/components/cipher-rain/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/cipher-rain/variants/ts-tw/CipherRain.tsx",
+          "bytes": 6769,
+          "sha256": "0dfeccff0cd40aca71b84006e60b908ea9db02077db57f1a2fd92cb30980eb39"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CipherRain",
+          "style": "default",
+          "file": "vault/reactbits-free/components/cipher-rain/variants/ts-tw/CipherRain.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4e22dc54b5ba0993548a9a6ada3865fa372681b056b4064b10695801cdc9ad06"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CipherRain",
+      "style": "default",
+      "file": "vault/reactbits-free/components/cipher-rain/variants/ts-tw/CipherRain.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/cipher-rain",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LetterGlitch-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/letter-glitch"
+  },
+  "hash": "57a6f9e1f34a85694658f1678d1f9d778082273d7542e0783b2f162f4dfbff16",
+  "fetchedAt": "2026-08-14T05:36:11.406Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CipherRain",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "letter-glitch",
+  "upstreamName": "LetterGlitch"
+}

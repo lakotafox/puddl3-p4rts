@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-15",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-15",
+  "name": "analytics-15",
+  "title": "Analytics 15",
+  "description": "Bullet chart list with target markers, deltas, and sortable rows.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-15",
+      "path": "vault/reactbits-pro/blocks/analytics-15/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-15/files/analytics-15.tsx",
+          "bytes": 14059,
+          "sha256": "f09ab46ebddd8c5f8ef108f9e93908caa4c8d28a9dfc4f50e757e8bad1de8d0d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics15",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-15/files/analytics-15.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "10f51bccfa7380bfac0616f21f30ebf31bda7ce774d6517930bfe41751b22838"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics15",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-15/files/analytics-15.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-15",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-15.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "10079974a0106b8e2a2fa5fd730f9d74b805e987330ceeb7ed2e5bfd35a27646",
+  "fetchedAt": "2026-08-14T05:37:02.879Z",
+  "vaultVersion": 1
+}

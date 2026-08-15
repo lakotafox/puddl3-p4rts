@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/faq-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "faq-5",
+  "name": "faq-5",
+  "title": "FAQ 5",
+  "description": "Two-column FAQ with inline CTA links and bordered accordions",
+  "tags": [
+    "faq",
+    "questions",
+    "accordion",
+    "help"
+  ],
+  "tagSource": "upstream",
+  "category": "faq",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "faq-5",
+      "path": "vault/reactbits-pro/blocks/faq-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/faq-5/files/faq-5.tsx",
+          "bytes": 5289,
+          "sha256": "f91bd8a71b22025377e5ea35307a5ff8d420118bf89add0d65585b8543a751fe"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Faq5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/faq-5/files/faq-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dce6f367310db5e19fd4345d6e98b20f94a71ba3e5f629d18dab39a730fbe2e9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Faq5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/faq-5/files/faq-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/faq-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/faq-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "19ec09eaf2df0ccfa9b983c423bcf4b6593f19441a1b3d3a3eeb5c59429c3ed2",
+  "fetchedAt": "2026-08-14T05:46:21.320Z",
+  "vaultVersion": 1
+}

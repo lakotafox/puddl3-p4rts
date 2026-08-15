@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/stipple-surface",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "stipple-surface",
+  "name": "StippleSurface",
+  "title": "Stipple Surface",
+  "description": "Interactive dot grid with cursor bulge, glow, sparkle, and wave effects.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DotField-JS-CSS",
+      "path": "vault/reactbits-free/components/stipple-surface/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/js-css/StippleSurface.css",
+          "bytes": 78,
+          "sha256": "62563098ba249d15cb1af573e30aade3c440d3fb58b12537714b5de6817d114a"
+        },
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/js-css/StippleSurface.jsx",
+          "bytes": 7923,
+          "sha256": "cf3642a3ec1ad8f792767cc2210565b684a8854a3bb4b580425234c966d0a425"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StippleSurface",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stipple-surface/variants/js-css/StippleSurface.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5cd92fffa52d080fd177fb3f337c14dc1f47aed5e07d1d7e39979a2d560b4b2e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DotField-JS-TW",
+      "path": "vault/reactbits-free/components/stipple-surface/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/js-tw/StippleSurface.jsx",
+          "bytes": 7900,
+          "sha256": "2bc0241ee69352a00f10b5551a1f3c3654fe80ac6056080f575f080c25a30730"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StippleSurface",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stipple-surface/variants/js-tw/StippleSurface.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bbc817ec603f0faf418163e9bfd0611cee65d9187e114d8393cc551cd3293242"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DotField-TS-CSS",
+      "path": "vault/reactbits-free/components/stipple-surface/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/ts-css/StippleSurface.css",
+          "bytes": 78,
+          "sha256": "62563098ba249d15cb1af573e30aade3c440d3fb58b12537714b5de6817d114a"
+        },
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/ts-css/StippleSurface.tsx",
+          "bytes": 8812,
+          "sha256": "2b4a52677c705c0f3cb3a0f9f0d73865950ddfbe72123c083aff91d539d74945"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StippleSurface",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stipple-surface/variants/ts-css/StippleSurface.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fc0a2b32b961392e2b9d638ff9440b8e60b887f47b35dec42ac333e2fb9cb859"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DotField-TS-TW",
+      "path": "vault/reactbits-free/components/stipple-surface/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stipple-surface/variants/ts-tw/StippleSurface.tsx",
+          "bytes": 8789,
+          "sha256": "9ad60fb4851e17118315df35852c1c523284da1875731e4d654d43e39ec1f5c9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StippleSurface",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stipple-surface/variants/ts-tw/StippleSurface.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3d269c8741d0057360eeac92597f3e354bb42519ada44147a1e9e04e9e4d7be4"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StippleSurface",
+      "style": "default",
+      "file": "vault/reactbits-free/components/stipple-surface/variants/ts-tw/StippleSurface.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/stipple-surface",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DotField-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dot-field"
+  },
+  "hash": "a445df0b0203ea6bbcc5c7f2fdcf464b3a374cf96054df889aaeb1fe6968fba6",
+  "fetchedAt": "2026-08-14T05:36:11.367Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "StippleSurface",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dot-field",
+  "upstreamName": "DotField"
+}

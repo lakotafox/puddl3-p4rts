@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-9",
+  "name": "analytics-9",
+  "title": "Analytics 9",
+  "description": "Activity heatmap with intensity legend, keyboard cursor, and day tooltips.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-9",
+      "path": "vault/reactbits-pro/blocks/analytics-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-9/files/analytics-9.tsx",
+          "bytes": 15282,
+          "sha256": "f5f0e56749e02813cc2ff5a1c1c92c505c5ad6ac6bab73c69a7ac8f0fee1d4ee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-9/files/analytics-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "38422afe9c658b93f3730df8b84d0271b31d1f21f4ee542a0b2efa333865d036"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-9/files/analytics-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ccb760c411bcd5374346869fa5379dba8fde1455902d7c51f50424d2c8e11625",
+  "fetchedAt": "2026-08-14T05:37:16.386Z",
+  "vaultVersion": 1
+}

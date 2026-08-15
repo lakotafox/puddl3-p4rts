@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/dendrite-drift",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "dendrite-drift",
+  "name": "DendriteDrift",
+  "title": "Dendrite Drift",
+  "description": "Soft neural filaments drifting weightlessly across the canvas",
+  "tags": [
+    "background",
+    "shader",
+    "webgl",
+    "organic",
+    "abstract",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "neural-float-css",
+      "path": "vault/reactbits-starter/components/dendrite-drift/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/dendrite-drift/variants/css/dendrite-drift.tsx",
+          "bytes": 20163,
+          "sha256": "d16d1f53df96557b33464f4b08ac0f953006e890a4636ed95c80e3988aca8470"
+        },
+        {
+          "path": "vault/reactbits-starter/components/dendrite-drift/variants/css/dendrite-drift.css",
+          "bytes": 215,
+          "sha256": "6be44cc2294565f25d7c5b46a78383887e9a6bd2581409c0be43bab7cdc79ef3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DendriteDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/dendrite-drift/variants/css/dendrite-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "21776aa77bbd6d7bea71e07db56f0d8e65c31d61d9b4abe13d20c1464bf64c7d"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "neural-float-tw",
+      "path": "vault/reactbits-starter/components/dendrite-drift/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/dendrite-drift/variants/tw/dendrite-drift.tsx",
+          "bytes": 20178,
+          "sha256": "c4d3bdbb9e1f13dd7b1e940ad1e56bb55a5b3269a79d49823236673190d3ea20"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DendriteDrift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/dendrite-drift/variants/tw/dendrite-drift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "66768e91d6bb03e8381dd2fa0157af4173cb2a53c242cf8e0d01879b84889d20"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DendriteDrift",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/dendrite-drift/variants/tw/dendrite-drift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/dendrite-drift",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/neural-float-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "843d765a001fab9e04502207c2ade78def245788dc9955db4efed2f857a249ae",
+  "fetchedAt": "2026-08-14T05:33:41.445Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "neural-float",
+  "upstreamName": "NeuralFloat"
+}

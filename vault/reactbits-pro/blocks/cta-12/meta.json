@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-12",
+  "name": "cta-12",
+  "title": "CTA 12",
+  "description": "Centered launch CTA with blueprint grid, corner marks, and terminal glyph fields",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-12",
+      "path": "vault/reactbits-pro/blocks/cta-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-12/files/cta-12.tsx",
+          "bytes": 7379,
+          "sha256": "76e55398f51f411cdeb7130a7462c22b6545f2dccd6410524c86af29be7ad39b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-12/files/cta-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "97a10feb6cb581039319cbe680121b09688acfc0b5b439f0ed6c942cb386b93a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-12/files/cta-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d84b18bd160ac83f727cf759ad8c51dee1b6f412890c3ffcf65263373aa81d2f",
+  "fetchedAt": "2026-08-14T05:44:42.816Z",
+  "vaultVersion": 1
+}

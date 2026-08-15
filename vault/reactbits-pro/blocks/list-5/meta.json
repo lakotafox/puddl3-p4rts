@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-5",
+  "name": "list-5",
+  "title": "List 5",
+  "description": "Selectable asset library with a bulk action bar and filter-driven empty state.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-5",
+      "path": "vault/reactbits-pro/blocks/list-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-5/files/list-5.tsx",
+          "bytes": 22459,
+          "sha256": "d6ca29cddb55b3affad7f6975c490c5b54703dbdc760605a77b01fd065b28ba3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-5/files/list-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b5c27c40d0b74a16faecdb7f985a7df4c5ad474808a4fe9aa10b2d050005575f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-5/files/list-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e4803b86854290a25c15074fba3258c76cfcd1366e2540f3d31a7bdb07f749cc",
+  "fetchedAt": "2026-08-14T05:49:10.901Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/about-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "about-1",
+  "name": "about-1",
+  "title": "About 1",
+  "description": "Two-column carousel with auto-cycling images and text",
+  "tags": [
+    "about",
+    "company",
+    "team",
+    "mission"
+  ],
+  "tagSource": "upstream",
+  "category": "about",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "about-1",
+      "path": "vault/reactbits-pro/blocks/about-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/about-1/files/about-1.tsx",
+          "bytes": 9836,
+          "sha256": "2dfef31d56209473a497d9dfebd476875f81f5ddbd7342313a32456554a5b286"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "About1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/about-1/files/about-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fea9b0bf5b6ff41bd7e0c310500d1bf606943d6b17defd3994bc4d5582cb808b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "About1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/about-1/files/about-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/about-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/about-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9f4a910a9bd6a0af26ba0039dcdffa464755ea84123d8297ffc6002097139a2e",
+  "fetchedAt": "2026-08-14T05:35:42.622Z",
+  "vaultVersion": 1
+}

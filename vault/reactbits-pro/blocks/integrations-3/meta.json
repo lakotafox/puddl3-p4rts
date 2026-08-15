@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/integrations-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "integrations-3",
+  "name": "integrations-3",
+  "title": "Integrations 3",
+  "description": "API key table with masked secrets, reveal, copy, rotate, and revoke row actions.",
+  "tags": [
+    "integrations",
+    "api keys",
+    "webhooks",
+    "oauth",
+    "connections"
+  ],
+  "tagSource": "upstream",
+  "category": "integrations",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "integrations-3",
+      "path": "vault/reactbits-pro/blocks/integrations-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/integrations-3/files/integrations-3.tsx",
+          "bytes": 14496,
+          "sha256": "0da2e41460898660d1efd344bfc5b7190611602b85e5d102b8b23a8776fa57f6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Integrations3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/integrations-3/files/integrations-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c49b4dad503b884dbf15c8ffc4ac50aa12844533a07266026a5f88817969ef33"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Integrations3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/integrations-3/files/integrations-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/integrations-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/integrations-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "801a89421cea1bf95af6d7cd9bf5136e595df6dbc930dbfc3f18a2651c7688c4",
+  "fetchedAt": "2026-08-14T05:48:45.154Z",
+  "vaultVersion": 1
+}

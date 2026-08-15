@@ -1,0 +1,188 @@
+{
+  "id": "rb-free/component/soft-entrance",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "soft-entrance",
+  "name": "SoftEntrance",
+  "title": "Soft Entrance",
+  "description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
+  "tags": [
+    "effect",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "FadeContent-JS-CSS",
+      "path": "vault/reactbits-free/components/soft-entrance/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/soft-entrance/variants/js-css/SoftEntrance.jsx",
+          "bytes": 2240,
+          "sha256": "d913f489f4b3892950deab0b20fe1901e68e4678d580f7a86cf6a53a46c4223d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEntrance",
+          "style": "default",
+          "file": "vault/reactbits-free/components/soft-entrance/variants/js-css/SoftEntrance.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "33efd40b1d4b365da947ece2c00955d7af4749d2b42ff3d491464169a27c491f"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "FadeContent-JS-TW",
+      "path": "vault/reactbits-free/components/soft-entrance/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/soft-entrance/variants/js-tw/SoftEntrance.jsx",
+          "bytes": 2189,
+          "sha256": "315c8d0e6e73b0bc0a58c893c033e8e1b36c821ccfd55c5b188bc54317754b2c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEntrance",
+          "style": "default",
+          "file": "vault/reactbits-free/components/soft-entrance/variants/js-tw/SoftEntrance.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2f08fb4c66869812064f98ec7741cd6f91f483c1026d41f91e06721e7444da50"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "FadeContent-TS-CSS",
+      "path": "vault/reactbits-free/components/soft-entrance/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/soft-entrance/variants/ts-css/SoftEntrance.tsx",
+          "bytes": 2711,
+          "sha256": "e44be78c662d5e40f78d5610fa8d630e2bb169627d9e45a6ba06ea2a0ec4efcc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEntrance",
+          "style": "default",
+          "file": "vault/reactbits-free/components/soft-entrance/variants/ts-css/SoftEntrance.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "49d06599f45baf96e2c3af4d9f77059c30dc50df706108cd88ea4aad5c19bec9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "FadeContent-TS-TW",
+      "path": "vault/reactbits-free/components/soft-entrance/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/soft-entrance/variants/ts-tw/SoftEntrance.tsx",
+          "bytes": 2659,
+          "sha256": "a871f453edd2ec7b09016865b43fb09d12ea8154e1bfd2d00155bae8ca10f041"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SoftEntrance",
+          "style": "default",
+          "file": "vault/reactbits-free/components/soft-entrance/variants/ts-tw/SoftEntrance.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "74c27f1df0404e6146c58888d368566151282c15c6719cdd1412d4e1da716a4b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SoftEntrance",
+      "style": "default",
+      "file": "vault/reactbits-free/components/soft-entrance/variants/ts-tw/SoftEntrance.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/soft-entrance",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/FadeContent-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/fade-content"
+  },
+  "hash": "d51fabe8d2efe422be81da40ab07096f398f1e8f56f70d3aef1e043c8263d554",
+  "fetchedAt": "2026-08-14T05:36:11.374Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SoftEntrance",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "fade-content",
+  "upstreamName": "FadeContent"
+}

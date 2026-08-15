@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/skill/skill-terminal-dark",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-terminal-dark",
+  "name": "skill-terminal-dark",
+  "title": "Terminal Dark",
+  "description": "Build developer-tool landing pages that read as software: dark-first surfaces, real compiling code as the hero, terminal motifs, hairline borders, and syntax as palette.",
+  "tags": [
+    "skill",
+    "technical",
+    "terminal",
+    "dark",
+    "developer",
+    "monospace",
+    "code",
+    "syntax"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-terminal-dark",
+      "path": "vault/reactbits-pro/agent-kit/skill-terminal-dark/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-terminal-dark/files/SKILL.md",
+          "bytes": 37395,
+          "sha256": "d10350326c81ac99db58df75fe939bda3408d9c366e4672a2f20ecc7fd8b6fb4"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-terminal-dark/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "aa995cd0e251a9582873de6285f2201dc4fe6cc50ed4e557b0138bd1eca5a4b2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-terminal-dark",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-terminal-dark.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "398542c4d386fb47fac7d1aa5bddf31c1ad51691b2b8f162d59a812dcac5d919",
+  "fetchedAt": "2026-08-14T05:55:06.247Z",
+  "vaultVersion": 1
+}

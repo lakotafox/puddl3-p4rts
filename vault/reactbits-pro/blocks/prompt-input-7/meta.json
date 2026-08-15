@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/prompt-input-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "prompt-input-7",
+  "name": "prompt-input-7",
+  "title": "Prompt Input 7",
+  "description": "Prompt input with ask, agent, and edit mode switcher plus keyboard hints.",
+  "tags": [
+    "ai",
+    "prompt",
+    "composer",
+    "input",
+    "textarea"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "prompt-input-7",
+      "path": "vault/reactbits-pro/blocks/prompt-input-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/prompt-input-7/files/prompt-input-7.tsx",
+          "bytes": 16519,
+          "sha256": "04ca7f3eac540b82bc4eb709f5db88afcbc7703ab9b68f47dd10ec7a6b3d6445"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PromptInput7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/prompt-input-7/files/prompt-input-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f9e2b57282f7e667fa46d9eb0d6735cf3b21e55a9788e8727b6c873c9898a639"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PromptInput7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/prompt-input-7/files/prompt-input-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/prompt-input-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-input-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "82ec0dc74fca85d6be0e4b47fb0774b3d33bc42b5aec1c0292ae62517e2510f7",
+  "fetchedAt": "2026-08-14T05:54:13.935Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-2",
+  "name": "cta-2",
+  "title": "CTA 2",
+  "description": "Full-screen centered CTA with GSAP-powered cursor trail image effect",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-2",
+      "path": "vault/reactbits-pro/blocks/cta-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-2/files/cta-2.tsx",
+          "bytes": 6463,
+          "sha256": "d2c26ea418164185f93cbb9d9faa9a54b1205091d149c26c6a3622709bf56542"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-2/files/cta-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5ab20789a9817940fa876d35989026bb60e9a79bc64a71ccc6c82b83ba0c20df"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-2/files/cta-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "382c22e574f0cd17147c27d82b2e47799c16f90d962c6f4415618e530ac562a8",
+  "fetchedAt": "2026-08-14T05:44:47.223Z",
+  "vaultVersion": 1
+}

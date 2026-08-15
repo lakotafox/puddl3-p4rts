@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/spring-deck",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "spring-deck",
+  "name": "SpringDeck",
+  "title": "Spring Deck",
+  "description": "Cards bounce that bounce in on mount.",
+  "tags": [
+    "animation",
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "BounceCards-JS-CSS",
+      "path": "vault/reactbits-free/components/spring-deck/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/js-css/SpringDeck.css",
+          "bytes": 400,
+          "sha256": "22eac93a15baf36169f98ff86501e85a2043ace89e91995c3f82c048d5276312"
+        },
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/js-css/SpringDeck.jsx",
+          "bytes": 3865,
+          "sha256": "bdfaf9d29c11fd11d85907aa5e6ec5cd9fedea687fcdabc50e4e6d897ff32a91"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-deck/variants/js-css/SpringDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "567a03eb206c6b3442b771958e48a82b335c8ac3e828301d53e647f9d484add5"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "BounceCards-JS-TW",
+      "path": "vault/reactbits-free/components/spring-deck/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/js-tw/SpringDeck.jsx",
+          "bytes": 3986,
+          "sha256": "cef4299e3473663f1916bb89537d61744048cd2881ba7510aa44e4553c80a662"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-deck/variants/js-tw/SpringDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0c4af19e612fd5a2eb10e69dce56e2a971384461b5ee757f031b88f46483e42b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "BounceCards-TS-CSS",
+      "path": "vault/reactbits-free/components/spring-deck/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/ts-css/SpringDeck.css",
+          "bytes": 400,
+          "sha256": "22eac93a15baf36169f98ff86501e85a2043ace89e91995c3f82c048d5276312"
+        },
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/ts-css/SpringDeck.tsx",
+          "bytes": 4185,
+          "sha256": "69171b99a73edb5a169cd7c386373b08f8e3bc00ad57d61cee4cd7163fe40720"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-deck/variants/ts-css/SpringDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "36d8392ac866d3190aa592637dd5bc2c3b6485aefba436d9870540125dcb7173"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "BounceCards-TS-TW",
+      "path": "vault/reactbits-free/components/spring-deck/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-deck/variants/ts-tw/SpringDeck.tsx",
+          "bytes": 4335,
+          "sha256": "3708c1c027b09e4fce6fb61531d07bb6f571773a83e269557f119d03582faba2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-deck/variants/ts-tw/SpringDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0517e8663b08ead614aed2b711de138fa790cd3e026cb1721a855c61004b16e3"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpringDeck",
+      "style": "default",
+      "file": "vault/reactbits-free/components/spring-deck/variants/ts-tw/SpringDeck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/spring-deck",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/BounceCards-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/bounce-cards"
+  },
+  "hash": "77ff3404656dde44024de6aa97cb1858a7d5d6a3bd3d9c8f8ed8fb375c1e08e7",
+  "fetchedAt": "2026-08-14T05:36:11.341Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SpringDeck",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "bounce-cards",
+  "upstreamName": "BounceCards"
+}

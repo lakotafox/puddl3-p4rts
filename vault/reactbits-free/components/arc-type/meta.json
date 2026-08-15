@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/arc-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "arc-type",
+  "name": "ArcType",
+  "title": "Arc Type",
+  "description": "Layouts characters around a circle with optional rotation animation.",
+  "tags": [
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CircularText-JS-CSS",
+      "path": "vault/reactbits-free/components/arc-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/js-css/ArcType.css",
+          "bytes": 463,
+          "sha256": "d3e172c6876ede12a028dbccf7798dd1fed7e087d3c13cd031d0b65afaa3968e"
+        },
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/js-css/ArcType.jsx",
+          "bytes": 2800,
+          "sha256": "07ac0108bfe9390160f6de3d1c1368c60a8baa9e83bdc9c40644986b596b2e4b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-type/variants/js-css/ArcType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f81c9549cfc3116347432fc0fa1aad20c42267dc9587283e072ff8a8a60dff6e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CircularText-JS-TW",
+      "path": "vault/reactbits-free/components/arc-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/js-tw/ArcType.jsx",
+          "bytes": 3028,
+          "sha256": "9af243c8f5d671c2314f593229c4f1117b549af04dbbb5cbd858c1c20dd91fad"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-type/variants/js-tw/ArcType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ac62df37d4a518b08a84bd9b9279e30619fb6b8773e689c275a03eab0fc8d632"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CircularText-TS-CSS",
+      "path": "vault/reactbits-free/components/arc-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/ts-css/ArcType.css",
+          "bytes": 441,
+          "sha256": "f5670d5e60f25fc290966e0a98438cd9341646503e42fe8b23e9236a00ddabac"
+        },
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/ts-css/ArcType.tsx",
+          "bytes": 3129,
+          "sha256": "5fe1ae23fee1447d8720281182bffc215ed0e9fbfcb35de82aa3d9aabaeeee5f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-type/variants/ts-css/ArcType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ed09e8ffe1a4371242347badc0346957f744fc8666443042db19aee62cb6ab16"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CircularText-TS-TW",
+      "path": "vault/reactbits-free/components/arc-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/arc-type/variants/ts-tw/ArcType.tsx",
+          "bytes": 3357,
+          "sha256": "98cf02b9d31ea8ab1ac4741ba1733302a22b73a61210f0095a641a57dc199767"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArcType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/arc-type/variants/ts-tw/ArcType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f69103b57918eef2d076da493c8201c8631de4fca9e057623cbe9babc35a9001"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ArcType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/arc-type/variants/ts-tw/ArcType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/arc-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CircularText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/circular-text"
+  },
+  "hash": "96be52e6b70a9726d2e95981226fb9b38430e831266ea5ef5ba10d9e7ca78a10",
+  "fetchedAt": "2026-08-14T05:36:11.350Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ArcType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "circular-text",
+  "upstreamName": "CircularText"
+}

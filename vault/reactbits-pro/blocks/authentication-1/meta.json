@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-1",
+  "name": "authentication-1",
+  "title": "Authentication 1",
+  "description": "Centered sign-in card with a password reveal, keep-me-signed-in, and a three-up provider row.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-1",
+      "path": "vault/reactbits-pro/blocks/authentication-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-1/files/authentication-1.tsx",
+          "bytes": 12868,
+          "sha256": "8a012d259abeb1bead3b73c85077956ef2a60521d7ecde3cc38dc6a46e5ddef2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-1/files/authentication-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1e61ea58bf655f1d5b8fda7b23980803a7124a2f2482a7f515afe5c71ddb317b"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-1/files/authentication-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "cbeb3b0ca94d910110e6163483918c841d45b5c60ba9806a9c9d21e6e4f6a8c2",
+  "fetchedAt": "2026-08-14T05:38:01.000Z",
+  "vaultVersion": 1
+}

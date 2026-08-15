@@ -1,0 +1,173 @@
+{
+  "id": "rb-free/component/dust-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "dust-type",
+  "name": "DustType",
+  "title": "Dust Type",
+  "description": "Text assembles from drifting particles that scatter and reform on demand.",
+  "tags": [
+    "background",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ParticleText-JS-CSS",
+      "path": "vault/reactbits-free/components/dust-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/js-css/DustType.css",
+          "bytes": 473,
+          "sha256": "fba1cb47e2106193c45cd6ce53e1f52bd4c1043d6d4459182e1b035abb28a8b4"
+        },
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/js-css/DustType.jsx",
+          "bytes": 13787,
+          "sha256": "060f8d1fa9ac159368c173f57dc90aa3f9dad34699f71f160bd63b5321a55c4e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DustType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dust-type/variants/js-css/DustType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9099dda8fc110125fdf53b91c90ef83fe0cb4c450a0fa29b7fbe68645e805291"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ParticleText-JS-TW",
+      "path": "vault/reactbits-free/components/dust-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/js-tw/DustType.jsx",
+          "bytes": 13847,
+          "sha256": "8894d7a9ebd3b8e137ec3090942589b17bb36a306608aec312e2403f58641a83"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DustType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dust-type/variants/js-tw/DustType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8c4760c6ac9f1468b18d50ee243527bf90b0113944a469da544d526cc8fddc79"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ParticleText-TS-CSS",
+      "path": "vault/reactbits-free/components/dust-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/ts-css/DustType.css",
+          "bytes": 473,
+          "sha256": "fba1cb47e2106193c45cd6ce53e1f52bd4c1043d6d4459182e1b035abb28a8b4"
+        },
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/ts-css/DustType.tsx",
+          "bytes": 15084,
+          "sha256": "92edee283a2b864e0079170b24f4c5b5665894ecd8020f1a38833aae4e340e52"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DustType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dust-type/variants/ts-css/DustType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5edb6b91ed101fcd95cf6ed045ae2134f088e5f3392ca058b56962982bf798b9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ParticleText-TS-TW",
+      "path": "vault/reactbits-free/components/dust-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dust-type/variants/ts-tw/DustType.tsx",
+          "bytes": 15144,
+          "sha256": "cdf81d3620bbfa390d3bee274584d19ce96befc6332b97cb3d0ae0512e4b30e3"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DustType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dust-type/variants/ts-tw/DustType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "04bd7d79f263c2160f083d1a3f34b649956932f57880272db59990c46251b11b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DustType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/dust-type/variants/ts-tw/DustType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/dust-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ParticleText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/particle-text"
+  },
+  "hash": "10eece107653ba854c6bb27ada19bede815dea54dad858d4ed8891f0b7838005",
+  "fetchedAt": "2026-08-14T05:36:11.431Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DustType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "particle-text",
+  "upstreamName": "ParticleText"
+}

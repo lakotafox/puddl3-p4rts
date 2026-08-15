@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/focal-fibers",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "focal-fibers",
+  "name": "FocalFibers",
+  "title": "Focal Fibers",
+  "description": "Glowing sine threads woven through a luminous convergence point.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "WebThreads-JS-CSS",
+      "path": "vault/reactbits-free/components/focal-fibers/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/js-css/FocalFibers.css",
+          "bytes": 100,
+          "sha256": "9785419446ef7e1a1a7e45e2022040035c4fcbd4fdf3844ce5e490a807aed7d7"
+        },
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/js-css/FocalFibers.jsx",
+          "bytes": 10582,
+          "sha256": "2098c01216ea808d6e657d26da56a896cf022f567f5bac20e110d58f9b045df8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FocalFibers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focal-fibers/variants/js-css/FocalFibers.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1db2f537cf8964478d8586c2e7af4e8c02f61e15569a1132987cdbc244b960b4"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "WebThreads-JS-TW",
+      "path": "vault/reactbits-free/components/focal-fibers/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/js-tw/FocalFibers.jsx",
+          "bytes": 10572,
+          "sha256": "e1f0ed496e926557700e169a854bc0110c60dd1db4aad2a99e9b213d853b05e5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FocalFibers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focal-fibers/variants/js-tw/FocalFibers.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fdebd23d449a5ddd5f670f6b89498fd9b1fba89566014e436c01fabf0c3ea146"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "WebThreads-TS-CSS",
+      "path": "vault/reactbits-free/components/focal-fibers/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/ts-css/FocalFibers.css",
+          "bytes": 100,
+          "sha256": "9785419446ef7e1a1a7e45e2022040035c4fcbd4fdf3844ce5e490a807aed7d7"
+        },
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/ts-css/FocalFibers.tsx",
+          "bytes": 11789,
+          "sha256": "1b30ed7911f83ac35a936261d5a1cc0accca4da522901f288afb6590daa7a28b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FocalFibers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focal-fibers/variants/ts-css/FocalFibers.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3068678ee175b5fc38f179c16a542d2a987bc2e82bf1620f4f6c1ca42bef93ef"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "WebThreads-TS-TW",
+      "path": "vault/reactbits-free/components/focal-fibers/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/focal-fibers/variants/ts-tw/FocalFibers.tsx",
+          "bytes": 11779,
+          "sha256": "1acd63eaee3e144091c5d8e09822c58f60dfa74e5daa2e50025c47bbdfd380f6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FocalFibers",
+          "style": "default",
+          "file": "vault/reactbits-free/components/focal-fibers/variants/ts-tw/FocalFibers.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "07d22082ad16268a47de196c7293f967b9ad4c0f39746e02b5c50255c54df737"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FocalFibers",
+      "style": "default",
+      "file": "vault/reactbits-free/components/focal-fibers/variants/ts-tw/FocalFibers.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/focal-fibers",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/WebThreads-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/web-threads"
+  },
+  "hash": "3a7678b79eb859227009654d63de7fbf29c01f4b447ed9b271e45b8ee0c167d6",
+  "fetchedAt": "2026-08-14T05:36:11.479Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "FocalFibers",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "web-threads",
+  "upstreamName": "WebThreads"
+}

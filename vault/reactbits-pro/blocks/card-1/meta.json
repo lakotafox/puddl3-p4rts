@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/card-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-1",
+  "name": "card-1",
+  "title": "Card 1",
+  "description": "Centred member cards with a presence dot, a framed three-up stat strip, and a connect toggle.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-1",
+      "path": "vault/reactbits-pro/blocks/card-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-1/files/card-1.tsx",
+          "bytes": 5797,
+          "sha256": "3916d38eafe7a190608ac5d589a10bf058175ef07b1f5cd1eedbc5a4414b3540"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Card1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-1/files/card-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "937189affe685b7ac5740445e549d107988fb834f44d2f50fd49e26e31eaa975"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-1/files/card-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5fe85950c7da29eccd67d488673a447f28827bedcccb145f159d54f4a1149e75",
+  "fetchedAt": "2026-08-14T05:43:24.177Z",
+  "vaultVersion": 1
+}

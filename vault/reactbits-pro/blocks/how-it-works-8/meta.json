@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/how-it-works-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-8",
+  "name": "how-it-works-8",
+  "title": "How It Works 8",
+  "description": "Horizontal three-step flow with a drawing connector line and UI-primitive vignettes",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-8",
+      "path": "vault/reactbits-pro/blocks/how-it-works-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-8/files/how-it-works-8.tsx",
+          "bytes": 9036,
+          "sha256": "1731c5f3a886d7db8e786d4f944f5dc422d4e854256a0c7ed72dcb9147dbb3be"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-8/files/how-it-works-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HowItWorks8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/how-it-works-8/files/how-it-works-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6f0581a037c7911e36dcdae50515e1c56ebb8f669be1fc468b1377a3da7a4620"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-8/files/how-it-works-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f21d14837cd728c585ac4d4a8e43ff8ac94c1a5f3c69875eebfdab08967108c3",
+  "fetchedAt": "2026-08-14T05:48:39.238Z",
+  "vaultVersion": 1
+}

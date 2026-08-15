@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-4",
+  "name": "list-4",
+  "title": "List 4",
+  "description": "Publishing queue reorderable by pointer drag or keyboard, with live status messages.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-4",
+      "path": "vault/reactbits-pro/blocks/list-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-4/files/list-4.tsx",
+          "bytes": 12103,
+          "sha256": "60fcaf979469fa36dbe74bb8fae177b42b5ef792e5ff9955102477c71a0250e9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-4/files/list-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f47a98fa2ea694a535e2d680aec9b4563491f1f076de2dafdf140800cf74070d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-4/files/list-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3a989b88afbf5ffa5142e1b8215fb0b60cb1a8259f4eb64b4bb3d0bacc7ee3e1",
+  "fetchedAt": "2026-08-14T05:49:09.350Z",
+  "vaultVersion": 1
+}

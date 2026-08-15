@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/comments-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comments-3",
+  "name": "comments-3",
+  "title": "Comments 3",
+  "description": "Code review thread pairing a diff panel with review notes and a suggested change.",
+  "tags": [
+    "comments",
+    "collaboration",
+    "threads",
+    "review",
+    "annotations"
+  ],
+  "tagSource": "upstream",
+  "category": "comments",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comments-3",
+      "path": "vault/reactbits-pro/blocks/comments-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comments-3/files/comments-3.tsx",
+          "bytes": 8721,
+          "sha256": "248a5acae73ec3e160fe90785f30c1ea7403151a05ff5c1732f89ec989e6a7d2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comments3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comments-3/files/comments-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "41ec0ed54fba54f469ab321ad9ea2f00e1b5f6a25a0eb3e793df41753f3f5073"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comments3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comments-3/files/comments-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comments-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comments-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "58f1554f8f2ffb66b460cd1ce58d47ea1f3d4b290b39b01e1214720cdd0dad20",
+  "fetchedAt": "2026-08-14T05:44:02.693Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/shutter-glow",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "shutter-glow",
+  "name": "ShutterGlow",
+  "title": "Shutter Glow",
+  "description": "Layered gradient blinds with spotlight and noise distortion.",
+  "tags": [
+    "effect",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GradientBlinds-JS-CSS",
+      "path": "vault/reactbits-free/components/shutter-glow/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/js-css/ShutterGlow.css",
+          "bytes": 104,
+          "sha256": "963320754df91d15eeb351a24a6c9e23145890f070f7f169a81573f8e6a69a1e"
+        },
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/js-css/ShutterGlow.jsx",
+          "bytes": 9983,
+          "sha256": "c4d660bc52f20b79e113c5a810e861875c801c902a4f2f3941bfd35a9461641d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShutterGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shutter-glow/variants/js-css/ShutterGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "660d332c9502f9183e6933ea503e183562a3bc643021c246a3c7a3a6b5372ab6"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GradientBlinds-JS-TW",
+      "path": "vault/reactbits-free/components/shutter-glow/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/js-tw/ShutterGlow.jsx",
+          "bytes": 9965,
+          "sha256": "5a45b3532538f6154b52622fd3bc12f168d4363bad158aac1da7d7b3039bb6bd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShutterGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shutter-glow/variants/js-tw/ShutterGlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c2902521f6064515ddc654f25111699c519187248b796b60bbd7c4da0dada062"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GradientBlinds-TS-CSS",
+      "path": "vault/reactbits-free/components/shutter-glow/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/ts-css/ShutterGlow.css",
+          "bytes": 104,
+          "sha256": "963320754df91d15eeb351a24a6c9e23145890f070f7f169a81573f8e6a69a1e"
+        },
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/ts-css/ShutterGlow.tsx",
+          "bytes": 11897,
+          "sha256": "4c804a124ff9ea3df4acc577bd18dc071d8c2efb6fa7b9f077f830a37f6e1f1a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShutterGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shutter-glow/variants/ts-css/ShutterGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "436315f7b3404def12a74a87ab502be60a5de799438908e8b5f5d8f4bf4e88b9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GradientBlinds-TS-TW",
+      "path": "vault/reactbits-free/components/shutter-glow/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shutter-glow/variants/ts-tw/ShutterGlow.tsx",
+          "bytes": 11879,
+          "sha256": "47ef11ba4ca53a36ae0bd72a6db84b2dad7cfd2c560a04465ffabca0a32fcfee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShutterGlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shutter-glow/variants/ts-tw/ShutterGlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80415d1f251ed7c4768417a761f4d7c76958f0bdb2d3d56e21a324612b86a950"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ShutterGlow",
+      "style": "default",
+      "file": "vault/reactbits-free/components/shutter-glow/variants/ts-tw/ShutterGlow.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/shutter-glow",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GradientBlinds-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/gradient-blinds"
+  },
+  "hash": "6177660413ed5d519ee4fc21e11bcea455485067fa3cc13aa23598acc8a7b5d4",
+  "fetchedAt": "2026-08-14T05:36:11.388Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ShutterGlow",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "gradient-blinds",
+  "upstreamName": "GradientBlinds"
+}

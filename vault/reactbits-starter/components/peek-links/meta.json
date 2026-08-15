@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/peek-links",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "peek-links",
+  "name": "PeekLinks",
+  "title": "Peek Links",
+  "description": "Interactive text image previews when hovering over target words.",
+  "tags": [
+    "interaction",
+    "preview",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "interaction",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "hover-preview-css",
+      "path": "vault/reactbits-starter/components/peek-links/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/peek-links/variants/css/peek-links.tsx",
+          "bytes": 9740,
+          "sha256": "fa2b258a248599b9fdbde8f4607225d434350dcd26f1fc5984801fa5bd58a811"
+        },
+        {
+          "path": "vault/reactbits-starter/components/peek-links/variants/css/peek-links.css",
+          "bytes": 1006,
+          "sha256": "e8de5e6340c75c99532bdf80531df4be63b578cb6f1e304604365915f5650ae4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PeekLinks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/peek-links/variants/css/peek-links.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f59e671d0fa06621a14e4ffbb3ab78c226157ad1c9391636ecc4b48612f10fe8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "hover-preview-tw",
+      "path": "vault/reactbits-starter/components/peek-links/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/peek-links/variants/tw/peek-links.tsx",
+          "bytes": 9724,
+          "sha256": "6ff376ccb481800a89b3465bdea2dbbc327bbc0c13f06f6abe874003630793dc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PeekLinks",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/peek-links/variants/tw/peek-links.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7bfff1f59ca9df48f80d824f335fefd30b2dec2a3deb09a194df0083a3d233eb"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PeekLinks",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/peek-links/variants/tw/peek-links.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/peek-links",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/hover-preview-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "75f267873cfcead75f9fdc37db7976121e4e154697cc34d6ac34c6220a773a66",
+  "fetchedAt": "2026-08-14T05:33:11.784Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "hover-preview",
+  "upstreamName": "HoverPreview"
+}

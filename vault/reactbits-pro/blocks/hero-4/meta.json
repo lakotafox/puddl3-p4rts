@@ -1,0 +1,97 @@
+{
+  "id": "rb-pro/block/hero-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-4",
+  "name": "hero-4",
+  "title": "Hero 4",
+  "description": "Infinite scrolling video carousel marquee",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-4",
+      "path": "vault/reactbits-pro/blocks/hero-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-4/files/hero-4.tsx",
+          "bytes": 6270,
+          "sha256": "9a0ac498ed94b89b31df5b75bf1e0c1c3238b93c134caeaefe89d7b5e1d03372"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-4/files/hero-4.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero4",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-4/files/hero-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dd38566d7b42f00f730797089e478eda1d3da50ca74f1951d0547e5da5d9a45a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-4/files/hero-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f1d421cfd1cf52b6cd5deae91ec298a7758141972b40e4a0bd6191a0f6dfc375",
+  "fetchedAt": "2026-08-14T05:48:19.528Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/photo-dust",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "photo-dust",
+  "name": "PhotoDust",
+  "title": "Photo Dust",
+  "description": "An image dissolved into GPU particles that swirl apart and reassemble",
+  "tags": [
+    "image",
+    "particles",
+    "webgl",
+    "gpgpu",
+    "hover",
+    "gallery"
+  ],
+  "tagSource": "upstream",
+  "category": "image",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "particle-image-css",
+      "path": "vault/reactbits-starter/components/photo-dust/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/photo-dust/variants/css/photo-dust.tsx",
+          "bytes": 21072,
+          "sha256": "9f2baaeeced4c5758a2485814aac9874c11ebc3b0a3931a18529f31c53feae87"
+        },
+        {
+          "path": "vault/reactbits-starter/components/photo-dust/variants/css/photo-dust.css",
+          "bytes": 195,
+          "sha256": "ebc037ce44fc6039387d078bb7afe4edf340dac02417b09a4ff341dfb27db725"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoDust",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/photo-dust/variants/css/photo-dust.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c5354130d33905746d033bbe97aa2e82df28e09ce04c09ba356a04fcc84a3a12"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "particle-image-tw",
+      "path": "vault/reactbits-starter/components/photo-dust/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/photo-dust/variants/tw/photo-dust.tsx",
+          "bytes": 21042,
+          "sha256": "ae09067d5ceccd7c19721d78495a61efad7f7d4b000e6933fc1c5f87bae3de7c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoDust",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/photo-dust/variants/tw/photo-dust.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ffe190c6a0a5d9d64346cad732e403837ab57ae463310d6e3a45a79d32e9b347"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PhotoDust",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/photo-dust/variants/tw/photo-dust.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/photo-dust",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/particle-image-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3b7d6a518f95726596643814093e7d8cc8252e08973c6617edfa7a4ebe24762e",
+  "fetchedAt": "2026-08-14T05:33:51.995Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "particle-image",
+  "upstreamName": "ParticleImage"
+}

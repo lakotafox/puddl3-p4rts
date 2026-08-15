@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/blog-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "blog-4",
+  "name": "blog-4",
+  "title": "Blog 4",
+  "description": "Article page with stats and user details",
+  "tags": [
+    "blog",
+    "articles",
+    "posts",
+    "content"
+  ],
+  "tagSource": "upstream",
+  "category": "blog",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "blog-4",
+      "path": "vault/reactbits-pro/blocks/blog-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/blog-4/files/blog-4.tsx",
+          "bytes": 6929,
+          "sha256": "cb138d245839855b2c8d5da714f42c5622a82bef7bcc76175e36b4206a07db78"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Blog4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/blog-4/files/blog-4.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Blog4",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/blog-4/files/blog-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "82a2dc49b298bd0bf27955357e4bdd2ae9f08c5c1e7a3152c0032bc804539bcb"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Blog4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/blog-4/files/blog-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/blog-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/blog-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a4f6bf02bb55d158abdaffbb81dd7c748d87700a3e55b966f3ab660111819714",
+  "fetchedAt": "2026-08-14T05:43:14.245Z",
+  "vaultVersion": 1
+}

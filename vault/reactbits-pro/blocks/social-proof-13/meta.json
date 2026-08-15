@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-13",
+  "name": "social-proof-13",
+  "title": "Social Proof 13",
+  "description": "Global coverage panel with tilted flag market chips over a masked dot field",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-13",
+      "path": "vault/reactbits-pro/blocks/social-proof-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-13/files/social-proof-13.tsx",
+          "bytes": 5838,
+          "sha256": "99d75d562597b7c98311b640f86f670022e6dc125675c6046d762d9d12ea906a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-13/files/social-proof-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fa5710b907eda98b5ccdc9ad46cd53066a60d9248645800e1beb74362484786c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-13/files/social-proof-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "40d9c1fd312cdf51c707ae1b8cf6cf9cfafc490850127508bbeac22c5e5c105a",
+  "fetchedAt": "2026-08-14T05:55:14.424Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/forge-swirl",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "forge-swirl",
+  "name": "ForgeSwirl",
+  "title": "Forge Swirl",
+  "description": "Swirling caustic plasma filaments with molten, white-hot cores.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MoltenMetal-JS-CSS",
+      "path": "vault/reactbits-free/components/forge-swirl/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/js-css/ForgeSwirl.css",
+          "bytes": 101,
+          "sha256": "b92ad99ba02629d135dadd766a7715e93fcde179cf5f8f4e409e4543a9c3b96e"
+        },
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/js-css/ForgeSwirl.jsx",
+          "bytes": 8849,
+          "sha256": "00328d211aaf4b9b0db03eb1c1c487782a419b06e753b3705d6370682405f101"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ForgeSwirl",
+          "style": "default",
+          "file": "vault/reactbits-free/components/forge-swirl/variants/js-css/ForgeSwirl.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "daa8296ed1288009b85e80a1b431c3c8d19656f323cf507d4119283806180750"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MoltenMetal-JS-TW",
+      "path": "vault/reactbits-free/components/forge-swirl/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/js-tw/ForgeSwirl.jsx",
+          "bytes": 8837,
+          "sha256": "ef0849981aed85a45121252b778b610b4013df371b741032aea1d79c46061d3d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ForgeSwirl",
+          "style": "default",
+          "file": "vault/reactbits-free/components/forge-swirl/variants/js-tw/ForgeSwirl.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9238122d4ea8bcb615f27d81e4832c2f6b3092ef2a395822eff854793591121d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MoltenMetal-TS-CSS",
+      "path": "vault/reactbits-free/components/forge-swirl/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/ts-css/ForgeSwirl.css",
+          "bytes": 101,
+          "sha256": "b92ad99ba02629d135dadd766a7715e93fcde179cf5f8f4e409e4543a9c3b96e"
+        },
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/ts-css/ForgeSwirl.tsx",
+          "bytes": 9800,
+          "sha256": "5d693143cf97990c2996395ead62291bcf3f636d19e7787c96d9c6c38ccb9a04"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ForgeSwirl",
+          "style": "default",
+          "file": "vault/reactbits-free/components/forge-swirl/variants/ts-css/ForgeSwirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c2ae8a2e82f8f4dfe6d336787bd2fc5624d8596acdf7a6e6c61940a5ef0d78bc"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MoltenMetal-TS-TW",
+      "path": "vault/reactbits-free/components/forge-swirl/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/forge-swirl/variants/ts-tw/ForgeSwirl.tsx",
+          "bytes": 9788,
+          "sha256": "97bca4f7b6263a65fbcf78a2032ec0e54f9b7d43157027e6ced24e2b4720c138"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ForgeSwirl",
+          "style": "default",
+          "file": "vault/reactbits-free/components/forge-swirl/variants/ts-tw/ForgeSwirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6d0d670cf4959a8a238348e7ddd992d7d3a035498d812248e6aa57ba84cd1484"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ForgeSwirl",
+      "style": "default",
+      "file": "vault/reactbits-free/components/forge-swirl/variants/ts-tw/ForgeSwirl.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/forge-swirl",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MoltenMetal-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/molten-metal"
+  },
+  "hash": "f751b4f7141db348a3b4354098c03b6ac84b29b080f66dabe7b660ba392f3c32",
+  "fetchedAt": "2026-08-14T05:36:11.424Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ForgeSwirl",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "molten-metal",
+  "upstreamName": "MoltenMetal"
+}

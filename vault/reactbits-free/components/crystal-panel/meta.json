@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/crystal-panel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "crystal-panel",
+  "name": "CrystalPanel",
+  "title": "Crystal Panel",
+  "description": "Advanced Apple-style glass surface with real-time distortion + lighting.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GlassSurface-JS-CSS",
+      "path": "vault/reactbits-free/components/crystal-panel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/js-css/CrystalPanel.css",
+          "bytes": 2920,
+          "sha256": "c346eb72ce130a1cfef4f126f52b7c1b8e417671b6eabd4ba7ee042209bdd15f"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/js-css/CrystalPanel.jsx",
+          "bytes": 7191,
+          "sha256": "2c4f3cd50e31e772776691dc899609d965901b82d7a4b959e6ef22ac4b0ee976"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CrystalPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-panel/variants/js-css/CrystalPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f0378e3887a14aac44e3032581487784036fbb79b0dd854c31a04f69e0ed8bb1"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GlassSurface-JS-TW",
+      "path": "vault/reactbits-free/components/crystal-panel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/js-tw/CrystalPanel.jsx",
+          "bytes": 11592,
+          "sha256": "54021637498665ff21d58edd2022187f2b4577536bd7a84144e0a5524e81fb09"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CrystalPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-panel/variants/js-tw/CrystalPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f63085f0a5491b3386c2f2fdc180d979961794bb01d10b812af48ba86a1bf5ec"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GlassSurface-TS-CSS",
+      "path": "vault/reactbits-free/components/crystal-panel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/ts-css/CrystalPanel.css",
+          "bytes": 2900,
+          "sha256": "aab7b9383d4b40089893ff91ebea92d64b21b212d3004b102d63c0d74d2c82df"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/ts-css/CrystalPanel.tsx",
+          "bytes": 8185,
+          "sha256": "be119ea4164dfe615037a2573443ba9c447f4071f0da7d8f9c2d2362235cdee6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CrystalPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-panel/variants/ts-css/CrystalPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a36becb56aa98c92d1d7380159a0fef356d3abfefcbda33259f9864b9f168c92"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GlassSurface-TS-TW",
+      "path": "vault/reactbits-free/components/crystal-panel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-panel/variants/ts-tw/CrystalPanel.tsx",
+          "bytes": 12513,
+          "sha256": "1830832d8a5efa29557d7cf2ef8a01eadef32b44eef7b0c5803531f529149529"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "CrystalPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-panel/variants/ts-tw/CrystalPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "df739a3da7cc2a649f57d2622984dbd3c172c0c2a3af48b19fee5f94b0014ff9"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CrystalPanel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/crystal-panel/variants/ts-tw/CrystalPanel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/crystal-panel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GlassSurface-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/glass-surface"
+  },
+  "hash": "870db888af699c88ca6c480128b492646ea8e2a4eba0842afa47f52713560d27",
+  "fetchedAt": "2026-08-14T05:36:11.386Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CrystalPanel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "glass-surface",
+  "upstreamName": "GlassSurface"
+}

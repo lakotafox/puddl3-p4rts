@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/comparison-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comparison-2",
+  "name": "comparison-2",
+  "title": "Comparison 2",
+  "description": "Pricing comparison table with plan toggle, colored border highlight, and feature rows",
+  "tags": [
+    "comparison",
+    "features",
+    "pricing"
+  ],
+  "tagSource": "upstream",
+  "category": "comparison",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comparison-2",
+      "path": "vault/reactbits-pro/blocks/comparison-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comparison-2/files/comparison-2.tsx",
+          "bytes": 17942,
+          "sha256": "00064b97924e80aab60c953718dd6626e15b8c868082c394cd6a6e3845763789"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comparison2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comparison-2/files/comparison-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b6740858f017b562c52448bb52bafcb31bd1e8af588ce4fbd537ec44a7a7c867"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comparison2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comparison-2/files/comparison-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comparison-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comparison-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a24008f45371c2665de309b12ebc5cfd9e99c1ae904f5658227e3e39904e4f3e",
+  "fetchedAt": "2026-08-14T05:44:10.128Z",
+  "vaultVersion": 1
+}

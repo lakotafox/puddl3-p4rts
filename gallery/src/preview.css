@@ -1,0 +1,9 @@
+/* Isolated preview page: Tailwind over the vault only. Deliberately NO site
+   CSS and no Chakra — mixing Chakra's global @layer reset with block utilities
+   is exactly what broke inline rendering. */
+@import "tailwindcss";
+@source "../../vault/**/*.{jsx,tsx}";
+/* demoProps in the generated catalog carry Tailwind classes (className props);
+   without scanning it those utilities never get generated. */
+@source "../../vendor/reactbits/constants/ProCatalog.js";
+@custom-variant dark (&:is(.dark *));

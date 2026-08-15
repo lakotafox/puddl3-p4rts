@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/chat-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "chat-5",
+  "name": "chat-5",
+  "title": "Chat 5",
+  "description": "Group chat with image and file attachments, emoji reactions, and thread counts.",
+  "tags": [
+    "chat",
+    "messaging",
+    "conversation",
+    "inbox",
+    "social",
+    "support"
+  ],
+  "tagSource": "upstream",
+  "category": "chat",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "chat-5",
+      "path": "vault/reactbits-pro/blocks/chat-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/chat-5/files/chat-5.tsx",
+          "bytes": 15128,
+          "sha256": "86dd950150353a8c8f6c043bd7a9fce757c93843248fe506ab2f95336641d7d6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Chat5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/chat-5/files/chat-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "66fe5d4fbdaf59e9a25461d602bb4ec96933af55131858bd604f2121b691b06d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Chat5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/chat-5/files/chat-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/chat-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/chat-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5b937229debe43c7ebdef9757caa44ce44cf83bdde2118fe615199e432e44269",
+  "fetchedAt": "2026-08-14T05:43:47.255Z",
+  "vaultVersion": 1
+}

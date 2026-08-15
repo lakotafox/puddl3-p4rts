@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/app-sidebar-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-sidebar-6",
+  "name": "app-sidebar-6",
+  "title": "App Sidebar 6",
+  "description": "Mobile drawer navigation with sheet, scrim, and collapsed app header.",
+  "tags": [
+    "navigation",
+    "sidebar",
+    "shell",
+    "layout",
+    "app"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-sidebar-6",
+      "path": "vault/reactbits-pro/blocks/app-sidebar-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-sidebar-6/files/app-sidebar-6.tsx",
+          "bytes": 11778,
+          "sha256": "9aafe32c489954c1caaf0b84a62585fa989a9d14e17dc18eff85787392ddc7cb"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppSidebar6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-sidebar-6/files/app-sidebar-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bfa9e7d9673db84efe9f536a1c51fc5783baa2bb419d56db963541a5db16d237"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppSidebar6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-sidebar-6/files/app-sidebar-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-sidebar-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-sidebar-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ba40ddf5d8585359a8257ad86c212dc2a0505edfdf14eb37fa0b035f00d78c95",
+  "fetchedAt": "2026-08-14T05:37:49.102Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/outline-ink",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "outline-ink",
+  "name": "OutlineInk",
+  "title": "Outline Ink",
+  "description": "Outlined letterforms draw themselves on, then flood with fill.",
+  "tags": [
+    "gsap",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "StrokeText-JS-CSS",
+      "path": "vault/reactbits-free/components/outline-ink/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/js-css/OutlineInk.css",
+          "bytes": 279,
+          "sha256": "f4ee13f91343a501ee893d8fbe088bcb231f3da54962eee30112d6ab0e1f6f7f"
+        },
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/js-css/OutlineInk.jsx",
+          "bytes": 7187,
+          "sha256": "5c0f21560c7f5c078a6ac3493005495d6d3a7eaf2cfccb3d8335c0bacba29d0c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OutlineInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/outline-ink/variants/js-css/OutlineInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0b9b0af716372a09fcbf36dc28e5632c410efdd97ff897915d42757076b92983"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "StrokeText-JS-TW",
+      "path": "vault/reactbits-free/components/outline-ink/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/js-tw/OutlineInk.jsx",
+          "bytes": 7185,
+          "sha256": "a3b86dfd5e583408b61ec1a01c02768aaa39d26f60dae4cd3465e7ddd530632d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OutlineInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/outline-ink/variants/js-tw/OutlineInk.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a32d704bbd3992d4eba866b2b8df2cce8ee511012ebbdb0b77d3f6b68b1cd3b0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "StrokeText-TS-CSS",
+      "path": "vault/reactbits-free/components/outline-ink/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/ts-css/OutlineInk.css",
+          "bytes": 279,
+          "sha256": "f4ee13f91343a501ee893d8fbe088bcb231f3da54962eee30112d6ab0e1f6f7f"
+        },
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/ts-css/OutlineInk.tsx",
+          "bytes": 8139,
+          "sha256": "22d7f1b6c8bdb3b28195ded980f439317f342f521a7474f9af65cd07ff3c7921"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OutlineInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/outline-ink/variants/ts-css/OutlineInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "90b61dc6ae8c28bd0b86f1e8816221bc7891f2f0902b90c4c0c23b0df119029a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "StrokeText-TS-TW",
+      "path": "vault/reactbits-free/components/outline-ink/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/outline-ink/variants/ts-tw/OutlineInk.tsx",
+          "bytes": 8118,
+          "sha256": "e297a0a655210df7ac12d60160298489697e81d203567daf16c33236ce5909d3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OutlineInk",
+          "style": "default",
+          "file": "vault/reactbits-free/components/outline-ink/variants/ts-tw/OutlineInk.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae44d0ce1b3cbc938f5bfa93834bc42d5b257c21341ed5b8dfe69af04beb45e7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OutlineInk",
+      "style": "default",
+      "file": "vault/reactbits-free/components/outline-ink/variants/ts-tw/OutlineInk.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/outline-ink",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/StrokeText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/stroke-text"
+  },
+  "hash": "bb1257bb74f23f15398726be2a8899c179d245001c61e78773f9a9e67052287f",
+  "fetchedAt": "2026-08-14T05:36:11.468Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "OutlineInk",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "stroke-text",
+  "upstreamName": "StrokeText"
+}

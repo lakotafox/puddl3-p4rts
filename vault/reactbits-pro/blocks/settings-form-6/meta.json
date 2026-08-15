@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/settings-form-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "settings-form-6",
+  "name": "settings-form-6",
+  "title": "Settings Form 6",
+  "description": "Danger zone with staged destructive confirmations and consequence summaries.",
+  "tags": [
+    "forms",
+    "settings",
+    "preferences",
+    "profile",
+    "account"
+  ],
+  "tagSource": "upstream",
+  "category": "forms",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "settings-form-6",
+      "path": "vault/reactbits-pro/blocks/settings-form-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/settings-form-6/files/settings-form-6.tsx",
+          "bytes": 19001,
+          "sha256": "79a1566847d99999ef64d9e841656ee49d97fcb6003c665e9eb0e21f67998ca6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SettingsForm6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/settings-form-6/files/settings-form-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "09ea6f585ab7df092a12585ed6eb1db5e8a69c025473cfb6ae66bcde3210ceb3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SettingsForm6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/settings-form-6/files/settings-form-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/settings-form-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/settings-form-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "56a06276f0a2f759f9ff52529b8baca702364fcac1485899a00b2a06c494c01e",
+  "fetchedAt": "2026-08-14T05:54:40.838Z",
+  "vaultVersion": 1
+}

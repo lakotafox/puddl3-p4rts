@@ -1,0 +1,132 @@
+{
+  "id": "rb-starter/component/spring-capsules",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "spring-capsules",
+  "name": "SpringCapsules",
+  "title": "Spring Capsules",
+  "description": "Bouncy labeled pills that drift along with your cursor",
+  "tags": [
+    "pills",
+    "parallax",
+    "spring",
+    "bounce",
+    "interactive",
+    "motion",
+    "cursor"
+  ],
+  "tagSource": "upstream",
+  "category": "pills",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "parallax-pills-css",
+      "path": "vault/reactbits-starter/components/spring-capsules/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spring-capsules/variants/css/spring-capsules.tsx",
+          "bytes": 12747,
+          "sha256": "32951dafce807ffbcc31a86294cf0fe7a7b107eeb5cf5bab09ce344a3bb57ce6"
+        },
+        {
+          "path": "vault/reactbits-starter/components/spring-capsules/variants/css/spring-capsules.css",
+          "bytes": 67,
+          "sha256": "4881057c2c490d7a578b56718f191a68911c2339bca205ebed204de58f593cef"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringCapsules",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spring-capsules/variants/css/spring-capsules.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7b00e04d8f1bd9f6c5c5ebf7bf5e8d4050dc498926b127d09a82ac45ae18647c"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "parallax-pills-tw",
+      "path": "vault/reactbits-starter/components/spring-capsules/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spring-capsules/variants/tw/spring-capsules.tsx",
+          "bytes": 12731,
+          "sha256": "425ae57997b1a7350d3e9174981cf0aeb2ffbbea93ed704e342ba2979d1a3979"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringCapsules",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spring-capsules/variants/tw/spring-capsules.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f022c4ad891b9420d86cf776b2bedc5bcbb45d4a891d7694669fd321910454dc"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpringCapsules",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/spring-capsules/variants/tw/spring-capsules.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/spring-capsules",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/parallax-pills-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c572d7505a3f81d2acd737c98a0838f62c4e2a7df5992ffff8e26f68dc917a7d",
+  "fetchedAt": "2026-08-14T05:33:50.277Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "parallax-pills",
+  "upstreamName": "ParallaxPills"
+}

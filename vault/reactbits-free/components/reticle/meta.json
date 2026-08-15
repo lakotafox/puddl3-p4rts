@@ -1,0 +1,187 @@
+{
+  "id": "rb-free/component/reticle",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "reticle",
+  "name": "Reticle",
+  "title": "Reticle",
+  "description": "Custom crosshair cursor with tracking, and link hover effects.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Crosshair-JS-CSS",
+      "path": "vault/reactbits-free/components/reticle/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reticle/variants/js-css/Reticle.jsx",
+          "bytes": 5891,
+          "sha256": "15e848fc0b9889aa690a8bf5e08322042f3203b9bedbdef7cf2741ba070fd7dc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Reticle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reticle/variants/js-css/Reticle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "50f8382559c56dc81d2fca682c5fb377770a6ded07d6b4c41682c25cc45b9c27"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Crosshair-JS-TW",
+      "path": "vault/reactbits-free/components/reticle/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reticle/variants/js-tw/Reticle.jsx",
+          "bytes": 5361,
+          "sha256": "30fb8d0f837f2dc8bfcc3ae02c7dae731ac454b776ee9ba5ee6439208a9eac51"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Reticle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reticle/variants/js-tw/Reticle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "42b3fe78c19a0d7bedff96cd88d29f9ff72f971322249ed06b862f68d2f7d60a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Crosshair-TS-CSS",
+      "path": "vault/reactbits-free/components/reticle/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reticle/variants/ts-css/Reticle.tsx",
+          "bytes": 6707,
+          "sha256": "1958ffd704355ea43f586e17ccb2cfcddbebef288a77ee0bc232052c21bcfcfa"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Reticle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reticle/variants/ts-css/Reticle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "79d07947f6c27e7bd1f7b5bb661c0799213666fcdbe4ba884a52b917d88dfc7e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Crosshair-TS-TW",
+      "path": "vault/reactbits-free/components/reticle/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/reticle/variants/ts-tw/Reticle.tsx",
+          "bytes": 6298,
+          "sha256": "be5d2efeede325051ab0ca7cfa4ae8de83fe4914d57d21a9bff41cc94d147673"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Reticle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/reticle/variants/ts-tw/Reticle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3104657a627e849cf12ecf90efba978a125406953bf0b8fcdd33a5b55a549003"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Reticle",
+      "style": "default",
+      "file": "vault/reactbits-free/components/reticle/variants/ts-tw/Reticle.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/reticle",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Crosshair-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/crosshair"
+  },
+  "hash": "1d6a761ffb200cbdf4a764e002671339a04378147ebd3c6c0d17c4c9c6b72487",
+  "fetchedAt": "2026-08-14T05:36:11.353Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "Reticle",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "crosshair",
+  "upstreamName": "Crosshair"
+}

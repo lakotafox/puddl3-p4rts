@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/swirl-orb",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "swirl-orb",
+  "name": "SwirlOrb",
+  "title": "Swirl Orb",
+  "description": "Animated 3D orb with swirl and glow effects",
+  "tags": [
+    "3d",
+    "shader",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "agentic-ball-css",
+      "path": "vault/reactbits-starter/components/swirl-orb/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/swirl-orb/variants/css/swirl-orb.tsx",
+          "bytes": 7246,
+          "sha256": "c389065871bf05a13f33ad050bc6b3eedbd1b0075a6a0f4e56b9286155bf7ebc"
+        },
+        {
+          "path": "vault/reactbits-starter/components/swirl-orb/variants/css/swirl-orb.css",
+          "bytes": 259,
+          "sha256": "fb3c702e00342ff568e5576ad5cc4e143c12a129a173337fa3d38564253160b9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwirlOrb",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/swirl-orb/variants/css/swirl-orb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "49e6c95d2f95a70c9a3388be72102315bf8bc736335b6ed60ade309c505a1fc2"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "agentic-ball-tw",
+      "path": "vault/reactbits-starter/components/swirl-orb/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/swirl-orb/variants/tw/swirl-orb.tsx",
+          "bytes": 7292,
+          "sha256": "0afc6281da99a05e7487d9ebb0ab85be9aa93c171c8e9b22c7f49bc9a84ba904"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwirlOrb",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/swirl-orb/variants/tw/swirl-orb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "47b976d7547a92323b241067bbef0852e8ef8df186c3b43773548cecb0761b23"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SwirlOrb",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/swirl-orb/variants/tw/swirl-orb.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/swirl-orb",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/agentic-ball-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c6dd52bd02ed76fb3f44bd3582bf89e91d8cd5a8abc9c12fdde9143bff3fefcf",
+  "fetchedAt": "2026-08-14T05:31:31.383Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "agentic-ball",
+  "upstreamName": "AgenticBall"
+}

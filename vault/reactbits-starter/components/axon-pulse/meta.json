@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/axon-pulse",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "axon-pulse",
+  "name": "AxonPulse",
+  "title": "Axon Pulse",
+  "description": "Neural network-like connection animations",
+  "tags": [
+    "animation",
+    "particles",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "synaptic-shift-css",
+      "path": "vault/reactbits-starter/components/axon-pulse/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/axon-pulse/variants/css/axon-pulse.tsx",
+          "bytes": 4966,
+          "sha256": "47f2a52d352a4da2f65ecd2c94123f7ba4d9b4e237c5d5541b2f1ad338a498be"
+        },
+        {
+          "path": "vault/reactbits-starter/components/axon-pulse/variants/css/axon-pulse.css",
+          "bytes": 130,
+          "sha256": "fb765c674346e6116e703bfba56469642440b687512700d0f96618684fb61c86"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AxonPulse",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/axon-pulse/variants/css/axon-pulse.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6813dbdfa6e0184b6d8a7bbe8062ce0694d3558ba5c8ac95f531e6ffa90144f7"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "synaptic-shift-tw",
+      "path": "vault/reactbits-starter/components/axon-pulse/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/axon-pulse/variants/tw/axon-pulse.tsx",
+          "bytes": 4984,
+          "sha256": "2b7b04f84539fd5c07631cd4920a11824c9115bcf11121efdf7ee88dead48c3f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AxonPulse",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/axon-pulse/variants/tw/axon-pulse.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "34cbf78b4ad22d037a9310171088d7772ecd93d44d39425fa434c67bc39930d9"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AxonPulse",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/axon-pulse/variants/tw/axon-pulse.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/axon-pulse",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/synaptic-shift-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "b38cecfc107cf83ef681bb07239115f8dd07017573c891fdb6350dc09b2d5ceb",
+  "fetchedAt": "2026-08-14T05:35:02.218Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "synaptic-shift",
+  "upstreamName": "SynapticShift"
+}

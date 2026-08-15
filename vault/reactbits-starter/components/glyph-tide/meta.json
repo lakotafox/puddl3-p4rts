@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/glyph-tide",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glyph-tide",
+  "name": "GlyphTide",
+  "title": "Glyph Tide",
+  "description": "Wave effect made of ASCII characters",
+  "tags": [
+    "background",
+    "animation",
+    "ascii"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "ascii-waves-css",
+      "path": "vault/reactbits-starter/components/glyph-tide/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-tide/variants/css/glyph-tide.tsx",
+          "bytes": 11290,
+          "sha256": "1080560f9ab41194f886a71d576a8dd01d10b4a2437b351867bd9a651964fc70"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glyph-tide/variants/css/glyph-tide.css",
+          "bytes": 100,
+          "sha256": "1bb9f583fcaacf1b751c38bdd5914eb662564542324b70425f22859e4c94765b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-tide/variants/css/glyph-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "01e55a9db7d07431b25afffcca75037fc2faeef3a149adfb04dffb506c03a109"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "ascii-waves-tw",
+      "path": "vault/reactbits-starter/components/glyph-tide/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glyph-tide/variants/tw/glyph-tide.tsx",
+          "bytes": 11352,
+          "sha256": "7e562004807e66aa88d06996872ddb3fe86b657b34267dbaf74ca4144dad5bb8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlyphTide",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glyph-tide/variants/tw/glyph-tide.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4bab3fcdff70b977d6fff97d4d55b4351632a8a5cf1c3967a83cf8f8177f0e7b"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlyphTide",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glyph-tide/variants/tw/glyph-tide.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glyph-tide",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/ascii-waves-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f3b0ce850e77a1146f54e951a7ca59c873f2e33ca40d3671227321243feb3aea",
+  "fetchedAt": "2026-08-14T05:31:40.362Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "ascii-waves",
+  "upstreamName": "AsciiWaves"
+}

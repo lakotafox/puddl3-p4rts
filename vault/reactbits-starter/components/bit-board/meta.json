@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/bit-board",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "bit-board",
+  "name": "BitBoard",
+  "title": "Bit Board",
+  "description": "Animated dot grid with wave presets",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "square-matrix-css",
+      "path": "vault/reactbits-starter/components/bit-board/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bit-board/variants/css/bit-board.tsx",
+          "bytes": 10238,
+          "sha256": "4faaf94859486c4997b756f756e8188ecb134b52720dc954713b14ffd0dde519"
+        },
+        {
+          "path": "vault/reactbits-starter/components/bit-board/variants/css/bit-board.css",
+          "bytes": 252,
+          "sha256": "c67b160370bb0532ab4dba1f80571b830ede94959777466858bf48118d7e9781"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BitBoard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bit-board/variants/css/bit-board.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d69fdcd761f21d620fdeadb017f32f1dce62de1a864c2846d74c24162eac8ae9"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "square-matrix-tw",
+      "path": "vault/reactbits-starter/components/bit-board/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bit-board/variants/tw/bit-board.tsx",
+          "bytes": 10279,
+          "sha256": "21476b53844d44f6c4afc2534fa3b53322a77ac5184154a8bf0e26fe2156b9dc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BitBoard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bit-board/variants/tw/bit-board.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "29933802a611ca87e24efd605e096364a0305fdbe52b506cd5063ec93f543aba"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BitBoard",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/bit-board/variants/tw/bit-board.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/bit-board",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/square-matrix-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "afdb647b9bd50674de47869c130a0b9d55d10fe66de26823a3359a4f5a6b7411",
+  "fetchedAt": "2026-08-14T05:34:50.048Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "square-matrix",
+  "upstreamName": "SquareMatrix"
+}

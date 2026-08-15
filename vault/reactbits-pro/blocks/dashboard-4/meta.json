@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/dashboard-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-4",
+  "name": "dashboard-4",
+  "title": "Dashboard 4",
+  "description": "Operations dashboard with a service status board and incident list.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-4",
+      "path": "vault/reactbits-pro/blocks/dashboard-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-4/files/dashboard-4.tsx",
+          "bytes": 15466,
+          "sha256": "32a659c784cef2933e0d80eea1b86c151a6e04f76059f759179e849312b999a0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-4/files/dashboard-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8d90bd117fc0d64a3dbb8a3af48aea78ef477fa22e5ce8e553cb336d99da3650"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-4/files/dashboard-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4d8f940d7f65f9913ea6fadbed067c15f7673dbb55ba08b16546593c05bbae39",
+  "fetchedAt": "2026-08-14T05:45:11.383Z",
+  "vaultVersion": 1
+}

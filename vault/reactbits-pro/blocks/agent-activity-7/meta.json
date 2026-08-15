@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/agent-activity-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-activity-7",
+  "name": "agent-activity-7",
+  "title": "Agent Activity 7",
+  "description": "Run detail panel with inputs, outputs, retry attempts, and an error surface.",
+  "tags": [
+    "ai",
+    "agent",
+    "activity",
+    "timeline",
+    "logs"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-activity-7",
+      "path": "vault/reactbits-pro/blocks/agent-activity-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-activity-7/files/agent-activity-7.tsx",
+          "bytes": 13798,
+          "sha256": "d82ff76358a8119e59ea474c191f8dfb2e133dd42f63c18e21356146c3268e0e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentActivity7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-activity-7/files/agent-activity-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "40171a0d622076b42c6f0baebf523e28b9702d3ac397bd5082808bc5c2aa29f0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentActivity7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-activity-7/files/agent-activity-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-activity-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-activity-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "13f0a40570ae924304fbd66103a072efd040a9e52af3c659ee5836cf47722639",
+  "fetchedAt": "2026-08-14T05:36:09.148Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-6",
+  "name": "list-6",
+  "title": "List 6",
+  "description": "Webhook delivery log with composed outcome and endpoint filters and expandable payloads.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-6",
+      "path": "vault/reactbits-pro/blocks/list-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-6/files/list-6.tsx",
+          "bytes": 17328,
+          "sha256": "452a16c672b472b7b33fd6be27aa2c645c217a23d70856cfa98caa5d8b7cce79"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-6/files/list-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8b8d65ff75b391627d165b710a96d88676448a38d91013f32857d0b7e956b8fd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-6/files/list-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "86073eb5e16c2352740db6c324edd53b25d161762a3d5ac3512e74af41413493",
+  "fetchedAt": "2026-08-14T05:49:12.369Z",
+  "vaultVersion": 1
+}

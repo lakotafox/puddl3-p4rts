@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/satin-ripples",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "satin-ripples",
+  "name": "SatinRipples",
+  "title": "Satin Ripples",
+  "description": "Smooth flowing silk-like wave animation",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "silk-waves-css",
+      "path": "vault/reactbits-starter/components/satin-ripples/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/satin-ripples/variants/css/satin-ripples.tsx",
+          "bytes": 8876,
+          "sha256": "2fba716f3ee9c575f0103771d527261a4ea87475416cec315c67436fb367ee9d"
+        },
+        {
+          "path": "vault/reactbits-starter/components/satin-ripples/variants/css/satin-ripples.css",
+          "bytes": 132,
+          "sha256": "138098e66be1d5de28bfe5e6f706a707db54e0daccdfbb5b1671ce04899cea6c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinRipples",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/satin-ripples/variants/css/satin-ripples.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e4d9f9499006f8b6ee8bb3d94c98e70074770facd136ef3d8a3eb0fb77050e39"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "silk-waves-tw",
+      "path": "vault/reactbits-starter/components/satin-ripples/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/satin-ripples/variants/tw/satin-ripples.tsx",
+          "bytes": 8937,
+          "sha256": "deec2da4da315081a64f1ddf9c10947b3764617c7d3207dd5215a4439625ea25"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SatinRipples",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/satin-ripples/variants/tw/satin-ripples.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "70decf7bdaabca4e7dd28cd48c08bf5c1d684029580601d32f20e8cc5a18e777"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SatinRipples",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/satin-ripples/variants/tw/satin-ripples.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/satin-ripples",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/silk-waves-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "af130172ef3870f076e0855109d55b27040c975706e207eac49bf5d316909347",
+  "fetchedAt": "2026-08-14T05:34:34.423Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "silk-waves",
+  "upstreamName": "SilkWaves"
+}

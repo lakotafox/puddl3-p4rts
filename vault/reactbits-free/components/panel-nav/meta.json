@@ -1,0 +1,218 @@
+{
+  "id": "rb-free/component/panel-nav",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "panel-nav",
+  "name": "PanelNav",
+  "title": "Panel Nav",
+  "description": "Expandable navigation bar with card panels revealing nested links.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CardNav-JS-CSS",
+      "path": "vault/reactbits-free/components/panel-nav/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/js-css/PanelNav.css",
+          "bytes": 3419,
+          "sha256": "e43b4f62606740686844334748da3fbbe368f0b1a14b4330348f38c60846705d"
+        },
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/js-css/PanelNav.jsx",
+          "bytes": 5723,
+          "sha256": "04486c41ee1199ea72cd2a5789a382e5a34e0b515fc878034a943b4b7f15bf3a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/panel-nav/variants/js-css/PanelNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "22f9b5fae0f4f21edfa56f27ce422408c08f001af03556a5baeb168c76feffff"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CardNav-JS-TW",
+      "path": "vault/reactbits-free/components/panel-nav/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/js-tw/PanelNav.jsx",
+          "bytes": 7705,
+          "sha256": "cb8e2454891866b854445061da2292961e85b48617b44d45267d2c3b9ac8f438"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/panel-nav/variants/js-tw/PanelNav.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "52c97f88b279a51258eae9f4312cc26744af7719aed94ef8a4b95a1a9aadf7d6"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CardNav-TS-CSS",
+      "path": "vault/reactbits-free/components/panel-nav/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/ts-css/PanelNav.css",
+          "bytes": 3419,
+          "sha256": "e43b4f62606740686844334748da3fbbe368f0b1a14b4330348f38c60846705d"
+        },
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/ts-css/PanelNav.tsx",
+          "bytes": 6215,
+          "sha256": "ec6d6d567e24b502a22562fc54283e3c01074043b593719faa0f0d6a99b97dec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/panel-nav/variants/ts-css/PanelNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "83eb0a494a35102023266e3124558f79ec48dbbbb4bc39e3ad959e05fb7baa12"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CardNav-TS-TW",
+      "path": "vault/reactbits-free/components/panel-nav/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/panel-nav/variants/ts-tw/PanelNav.tsx",
+          "bytes": 8197,
+          "sha256": "7f562aa286e346ee092c0deebe9aec44e0abbf326d9bbc43352e642a9567daa1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanelNav",
+          "style": "default",
+          "file": "vault/reactbits-free/components/panel-nav/variants/ts-tw/PanelNav.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "593825779348bacf5a275902f24d15533c8341f622467d22218dde94ce7341f9"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    },
+    {
+      "name": "react-icons",
+      "range": "^5.5.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PanelNav",
+      "style": "default",
+      "file": "vault/reactbits-free/components/panel-nav/variants/ts-tw/PanelNav.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/panel-nav",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CardNav-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/card-nav"
+  },
+  "hash": "9e1d5c9be3a21dbdba1b9773dcfb8b66137f1c3354311b0bd74b0a24e78d969e",
+  "fetchedAt": "2026-08-14T05:36:11.344Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PanelNav",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "card-nav",
+  "upstreamName": "CardNav"
+}

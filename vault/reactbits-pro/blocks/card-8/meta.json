@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-8",
+  "name": "card-8",
+  "title": "Card 8",
+  "description": "Selectable file tiles with a preview panel and a toolbar that acts on the selection.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-8",
+      "path": "vault/reactbits-pro/blocks/card-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-8/files/card-8.tsx",
+          "bytes": 7238,
+          "sha256": "3ddc0487903b2448eba6e2bd42d2be4987bfbfab577904519a83bb8ddd527916"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-8/files/card-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4792f44639ec58f43ee5a8f79c5474d0790a01c95b0e0cf69eb6f2d7939d81a3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-8/files/card-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0627b029a48fd53983a9d5440f5ce7ab284626011bf5a2809da189375cbf986b",
+  "fetchedAt": "2026-08-14T05:43:38.234Z",
+  "vaultVersion": 1
+}

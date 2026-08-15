@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/notifications-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "notifications-6",
+  "name": "notifications-6",
+  "title": "Notifications 6",
+  "description": "App bar bell with an unread badge and an anchored popover panel that closes on Escape.",
+  "tags": [
+    "notifications",
+    "alerts",
+    "toast",
+    "inbox",
+    "activity"
+  ],
+  "tagSource": "upstream",
+  "category": "notifications",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "notifications-6",
+      "path": "vault/reactbits-pro/blocks/notifications-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/notifications-6/files/notifications-6.tsx",
+          "bytes": 15735,
+          "sha256": "241aa6966f07353447f2480a4e70846d4144466376a3ede7b6b954c1b18cc573"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Notifications6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/notifications-6/files/notifications-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "98889ba6ac622d4ceaf906a65c72f64d5dbc4c66edadda6a1f28c768529c50d6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Notifications6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/notifications-6/files/notifications-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/notifications-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/notifications-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6a9f8332d25926ac04f23362ae1c8d6a126a424dca2f21580ac85e4c1dbfc4ee",
+  "fetchedAt": "2026-08-14T05:53:02.055Z",
+  "vaultVersion": 1
+}

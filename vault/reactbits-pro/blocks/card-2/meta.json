@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-2",
+  "name": "card-2",
+  "title": "Card 2",
+  "description": "Full-width integration rows: an icon, a description, and a switch that connects the service.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-2",
+      "path": "vault/reactbits-pro/blocks/card-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-2/files/card-2.tsx",
+          "bytes": 4822,
+          "sha256": "29d37d8fcea40126e57a0ede25d0550fdead494d1149f7eb2a223bef75944043"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-2/files/card-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "842df8ff2801ec716c7f7dfd5f200426ed98a5461e7aa10675c75d5e8b52efb9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-2/files/card-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d924d4ca75cf1e3a97a3ffce9417e01d1f9b17f64d0912a9cfea06e0d8e1e642",
+  "fetchedAt": "2026-08-14T05:43:29.056Z",
+  "vaultVersion": 1
+}

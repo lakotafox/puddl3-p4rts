@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/stencil-title",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "stencil-title",
+  "name": "StencilTitle",
+  "title": "Stencil Title",
+  "description": "A large headline with a drifting colour mesh or image showing through the glyphs, revealed word by word.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MaskedHeading-JS-CSS",
+      "path": "vault/reactbits-free/components/stencil-title/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/js-css/StencilTitle.css",
+          "bytes": 956,
+          "sha256": "50fa110a5d7afea828e7b4fa5df49affd8b24c7b012e54fd4d8768ccd0d3ddd1"
+        },
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/js-css/StencilTitle.jsx",
+          "bytes": 9149,
+          "sha256": "96cb22333d986a31d887ec35ddb0f0b83c8bef6e23037312b4e870daaf1b6380"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StencilTitle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stencil-title/variants/js-css/StencilTitle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bfbf65d21ee5cc5528b5e1b889a8e40249a2761885ddcce33f8390f909fffe6a"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MaskedHeading-JS-TW",
+      "path": "vault/reactbits-free/components/stencil-title/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/js-tw/StencilTitle.jsx",
+          "bytes": 9437,
+          "sha256": "fecec7607d3ff48dba6811b4af6f18859237d87631a82f886a7b610473c86e86"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StencilTitle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stencil-title/variants/js-tw/StencilTitle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7e23e6c07f3a621b460b40400015226d58225291aa60ae1a5b0d46e9ad5416a8"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MaskedHeading-TS-CSS",
+      "path": "vault/reactbits-free/components/stencil-title/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/ts-css/StencilTitle.css",
+          "bytes": 956,
+          "sha256": "50fa110a5d7afea828e7b4fa5df49affd8b24c7b012e54fd4d8768ccd0d3ddd1"
+        },
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/ts-css/StencilTitle.tsx",
+          "bytes": 10630,
+          "sha256": "c64291e0df24eee3c3261e9d18787321e9e0cdb22f89d164b2709032b87a35dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StencilTitle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stencil-title/variants/ts-css/StencilTitle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "62e977235f146570e2d37616fa3d7130e78f33a822fc10370fd90f0966798807"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MaskedHeading-TS-TW",
+      "path": "vault/reactbits-free/components/stencil-title/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/stencil-title/variants/ts-tw/StencilTitle.tsx",
+          "bytes": 10918,
+          "sha256": "c95ccc47eb50f5d7a96d1c8b7f9d5aeac162b38f774c63d90d91911d6767ad0f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StencilTitle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/stencil-title/variants/ts-tw/StencilTitle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b13b456ac4ac2b0fbdd758569f2ea46f3595060c3c3929468acf15f28db5f8fb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StencilTitle",
+      "style": "default",
+      "file": "vault/reactbits-free/components/stencil-title/variants/ts-tw/StencilTitle.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/stencil-title",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MaskedHeading-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/masked-heading"
+  },
+  "hash": "4e5767bfb6ab41c2487d0d8f0672a134082d3524f1f59b84f7c8ef1118099e37",
+  "fetchedAt": "2026-08-14T05:36:11.420Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "StencilTitle",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "masked-heading",
+  "upstreamName": "MaskedHeading"
+}

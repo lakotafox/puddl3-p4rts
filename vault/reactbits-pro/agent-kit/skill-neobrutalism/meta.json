@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/skill/skill-neobrutalism",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-neobrutalism",
+  "name": "skill-neobrutalism",
+  "title": "Neobrutalism",
+  "description": "Build loud neobrutalist landing pages with 3px black borders, hard offset shadows with zero blur, saturated flat colour blocks, and chunky type that physically moves when you press it.",
+  "tags": [
+    "skill",
+    "expressive",
+    "neobrutalism",
+    "brutalist",
+    "borders",
+    "shadows",
+    "bold"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-neobrutalism",
+      "path": "vault/reactbits-pro/agent-kit/skill-neobrutalism/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-neobrutalism/files/SKILL.md",
+          "bytes": 29433,
+          "sha256": "aa62848d974c4071aeb11541c73ca52d2246606a3f8b965516a873b6c2e9fa6f"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-neobrutalism/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "da86a933f6a5c4a74b749712777ff1801a7a90a3a4863d003a584a603551992f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-neobrutalism",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-neobrutalism.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "122d4eaa7725a4f54b8dde4f8594007db32cc5d9528d3068e03740d9771e739f",
+  "fetchedAt": "2026-08-14T05:55:01.149Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/onboarding-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "onboarding-6",
+  "name": "onboarding-6",
+  "title": "Onboarding 6",
+  "description": "Setup-complete summary listing what was configured, with the two obvious next actions.",
+  "tags": [
+    "onboarding",
+    "setup",
+    "stepper",
+    "checklist",
+    "invite"
+  ],
+  "tagSource": "upstream",
+  "category": "onboarding",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "onboarding-6",
+      "path": "vault/reactbits-pro/blocks/onboarding-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/onboarding-6/files/onboarding-6.tsx",
+          "bytes": 4080,
+          "sha256": "7aba212d9fb9b43cba2cb3f6481a433ff09bdd85893b37b9e38748bd816d9058"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Onboarding6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/onboarding-6/files/onboarding-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5b2373c29eb575e4e0711d6f09ee233194c506e97ccc07d51af0c17ab93dcbb4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Onboarding6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/onboarding-6/files/onboarding-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/onboarding-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/onboarding-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "09fef5770b0652e1f72709955831cf49eb11e7af06b57c88e779f3ab3e27ae42",
+  "fetchedAt": "2026-08-14T05:53:11.134Z",
+  "vaultVersion": 1
+}

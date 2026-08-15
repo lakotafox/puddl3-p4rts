@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/neon-swell",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "neon-swell",
+  "name": "NeonSwell",
+  "title": "Neon Swell",
+  "description": "A single luminous wave sweeping slowly across the screen",
+  "tags": [
+    "background",
+    "shader",
+    "glow",
+    "wave",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glowing-wave-css",
+      "path": "vault/reactbits-starter/components/neon-swell/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/neon-swell/variants/css/neon-swell.tsx",
+          "bytes": 15680,
+          "sha256": "8cd5839c85308945e68cf3f800d7ab1d865be1daa0404bdd05e5229588989bad"
+        },
+        {
+          "path": "vault/reactbits-starter/components/neon-swell/variants/css/neon-swell.css",
+          "bytes": 215,
+          "sha256": "f6c80df96c48c1c435ea0ac4594fd7539e4340013a115b5fc937bd9f22b0a485"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonSwell",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/neon-swell/variants/css/neon-swell.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NeonSwell",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/neon-swell/variants/css/neon-swell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "97cc98baf79de53a339e8b189750eaf0c5ad356e85ec5e5ab2804632a3347b2e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glowing-wave-tw",
+      "path": "vault/reactbits-starter/components/neon-swell/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/neon-swell/variants/tw/neon-swell.tsx",
+          "bytes": 16396,
+          "sha256": "5f2d167fca94b01fd8d9b887b51aaa013bda122ffaf78f2e0ec3013ca34decbf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NeonSwell",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/neon-swell/variants/tw/neon-swell.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "NeonSwell",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/neon-swell/variants/tw/neon-swell.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a829d7a0a02ce935687ba5336c9c150ba0a94beb329e9234b04904b23d0821ba"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NeonSwell",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/neon-swell/variants/tw/neon-swell.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/neon-swell",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glowing-wave-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "cf7f22cdb527585e1604e882640b274f7f7e4b70e45c81e32102d006d8724b8d",
+  "fetchedAt": "2026-08-14T05:32:55.667Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glowing-wave",
+  "upstreamName": "GlowingWave"
+}

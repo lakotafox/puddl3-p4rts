@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/oil-slick",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "oil-slick",
+  "name": "OilSlick",
+  "title": "Oil Slick",
+  "description": "Slick iridescent shader with shifting waves.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Iridescence-JS-CSS",
+      "path": "vault/reactbits-free/components/oil-slick/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/js-css/OilSlick.css",
+          "bytes": 58,
+          "sha256": "ec05e2db7913c9f456ed5c3c34a3b969f89fbf9f71d0837bb8c037bee42e61ea"
+        },
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/js-css/OilSlick.jsx",
+          "bytes": 3515,
+          "sha256": "213837e3c91c2608052990e1c5b2fff6b9cf5e70f4266ba2372792b086b8fedf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OilSlick",
+          "style": "default",
+          "file": "vault/reactbits-free/components/oil-slick/variants/js-css/OilSlick.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e4f8161ed609150d011bed451fdc883b2df001eb1296245c9da8a50810113be5"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Iridescence-JS-TW",
+      "path": "vault/reactbits-free/components/oil-slick/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/js-tw/OilSlick.jsx",
+          "bytes": 3478,
+          "sha256": "58195f0fbea1175e6d40b0b0ac800b018bb59866616856b5ec59211de8ae4746"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OilSlick",
+          "style": "default",
+          "file": "vault/reactbits-free/components/oil-slick/variants/js-tw/OilSlick.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7bd43c43c4b89b53e808d071112de189098c455e45ac1f94ef522db99e28c64d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Iridescence-TS-CSS",
+      "path": "vault/reactbits-free/components/oil-slick/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/ts-css/OilSlick.css",
+          "bytes": 58,
+          "sha256": "ec05e2db7913c9f456ed5c3c34a3b969f89fbf9f71d0837bb8c037bee42e61ea"
+        },
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/ts-css/OilSlick.tsx",
+          "bytes": 3728,
+          "sha256": "bccda42121dfb3e83c4ffcc997fed035de23654ea63ede51a71689ac8d64c834"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OilSlick",
+          "style": "default",
+          "file": "vault/reactbits-free/components/oil-slick/variants/ts-css/OilSlick.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8ccc20ff27d6c38859e51a08f9d8cc215b7aef8b364c291c28f41da54e82782b"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Iridescence-TS-TW",
+      "path": "vault/reactbits-free/components/oil-slick/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/oil-slick/variants/ts-tw/OilSlick.tsx",
+          "bytes": 3691,
+          "sha256": "4e8e0ad220afd9bf32268290812af270796170c598fa9efc77b58c25f9181c61"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "OilSlick",
+          "style": "default",
+          "file": "vault/reactbits-free/components/oil-slick/variants/ts-tw/OilSlick.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "62dda7c46d8983e0543c2f5cf89e3fcd9e49f40021064a6a5209c7fd94f306bd"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "OilSlick",
+      "style": "default",
+      "file": "vault/reactbits-free/components/oil-slick/variants/ts-tw/OilSlick.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/oil-slick",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Iridescence-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/iridescence"
+  },
+  "hash": "98284539d00e8b225825dadbb57b3e27c7564d7338a77fcb965a3b4cae247660",
+  "fetchedAt": "2026-08-14T05:36:11.403Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "OilSlick",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "iridescence",
+  "upstreamName": "Iridescence"
+}

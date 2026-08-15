@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/coarse-focus",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "coarse-focus",
+  "name": "CoarseFocus",
+  "title": "Coarse Focus",
+  "description": "Interactive pixelation effect with cursor-controlled reveal",
+  "tags": [
+    "animation",
+    "effect",
+    "shader"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "pixelate-hover-css",
+      "path": "vault/reactbits-starter/components/coarse-focus/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/coarse-focus/variants/css/coarse-focus.tsx",
+          "bytes": 24331,
+          "sha256": "dfdd888560a1d558f51f5efb42b1f8c04b98bd40621f566ecc5fd0da9ef1d93d"
+        },
+        {
+          "path": "vault/reactbits-starter/components/coarse-focus/variants/css/coarse-focus.css",
+          "bytes": 211,
+          "sha256": "3c1c160f11f1c6cf34491808e035770cbc17135c3b6e96dd6fe0f8d891e4c553"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CoarseFocus",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/coarse-focus/variants/css/coarse-focus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f9b46618fd848d6315273d68771427caf568e9d41944967a36a0a0b8bdda8b21"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "pixelate-hover-tw",
+      "path": "vault/reactbits-starter/components/coarse-focus/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/coarse-focus/variants/tw/coarse-focus.tsx",
+          "bytes": 24323,
+          "sha256": "dc3aea043aa43457fc4793f75872c1beb91bfbd3c09b12c22050f89ee0df60bd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CoarseFocus",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/coarse-focus/variants/tw/coarse-focus.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "90dfab6c4371f6c4f98bccfe7ce2a9d71a82ab1b8f11797c4952668f2355e1f0"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CoarseFocus",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/coarse-focus/variants/tw/coarse-focus.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/coarse-focus",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/pixelate-hover-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "25f6d79d3db6586345ecb0fee60be13cc692e87c665aaa1698cbbbab15001ad7",
+  "fetchedAt": "2026-08-14T05:34:02.722Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "pixelate-hover",
+  "upstreamName": "PixelateHover"
+}

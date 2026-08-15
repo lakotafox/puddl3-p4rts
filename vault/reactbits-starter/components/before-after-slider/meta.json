@@ -1,0 +1,152 @@
+{
+  "id": "rb-starter/component/before-after-slider",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "before-after-slider",
+  "name": "BeforeAfterSlider",
+  "title": "Before After Slider",
+  "description": "Before/after image comparison with draggable or hover controls",
+  "tags": [
+    "interaction",
+    "slider",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "interaction",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "comparison-slider-css",
+      "path": "vault/reactbits-starter/components/before-after-slider/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/before-after-slider/variants/css/before-after-slider.tsx",
+          "bytes": 16307,
+          "sha256": "f1a64f569f2ebaa7fe66e7be04233c3f3eb33f92582c1f77fda3bd020beff9da"
+        },
+        {
+          "path": "vault/reactbits-starter/components/before-after-slider/variants/css/before-after-slider.css",
+          "bytes": 2794,
+          "sha256": "24965b2bc830cce4c440b3e4bc596c982c9839d492a6582a0271e7fb5272c829"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeforeAfterSlider",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/before-after-slider/variants/css/before-after-slider.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "39ec3b0ba30d8b3b25b7c6edfd0d9c97b97659425015aef6d0b8b53de2f4a57e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "comparison-slider-tw",
+      "path": "vault/reactbits-starter/components/before-after-slider/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/before-after-slider/variants/tw/before-after-slider.tsx",
+          "bytes": 17595,
+          "sha256": "7981c434cde61f17eadc16cb752596c62a73c9a043b2eeaeaeb6105b54deb68f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeforeAfterSlider",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/before-after-slider/variants/tw/before-after-slider.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9a5cd8f2ef305bee00a9b89bc55a6c6dd64566e59bcfb91a06a25235b4cff08e"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "*"
+    },
+    {
+      "name": "gsap",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BeforeAfterSlider",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/before-after-slider/variants/tw/before-after-slider.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/before-after-slider",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/comparison-slider-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "52df9d268e633032c0fe16090b4157c7c8023245362e5ab23995ad5f68699643",
+  "fetchedAt": "2026-08-14T05:32:15.280Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "comparison-slider",
+  "upstreamName": "ComparisonSlider"
+}

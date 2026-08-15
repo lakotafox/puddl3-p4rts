@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-2",
+  "name": "navbar-2",
+  "title": "Navbar 2",
+  "description": "Compact breadcrumb toolbar with an invite popover, filter chips, sorting, and an overflow menu.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-2",
+      "path": "vault/reactbits-pro/blocks/navbar-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-2/files/navbar-2.tsx",
+          "bytes": 19770,
+          "sha256": "9bf8cdc5503386493603783919355593afd0327d0f5a45fa74ca6750116d0257"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-2/files/navbar-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dac3078d71fcb3c41d4fbef8c12fa03f3e041acfafabe5576e9bfd08eb1f8446"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-2/files/navbar-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "82541cc4d50ec145f3f351aaa5760e70eb92a307788aaed946e93198e2a7afcc",
+  "fetchedAt": "2026-08-14T05:49:49.403Z",
+  "vaultVersion": 1
+}

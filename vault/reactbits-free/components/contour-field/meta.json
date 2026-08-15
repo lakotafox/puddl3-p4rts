@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/contour-field",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "contour-field",
+  "name": "ContourField",
+  "title": "Contour Field",
+  "description": "A living contour map with glowing, elevation-tinted lines.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Topography-JS-CSS",
+      "path": "vault/reactbits-free/components/contour-field/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/js-css/ContourField.css",
+          "bytes": 99,
+          "sha256": "255ee5079320b5056d8b9543103e7e1ac6641586c86179990b5fb26ed90061f1"
+        },
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/js-css/ContourField.jsx",
+          "bytes": 11173,
+          "sha256": "c3fe36e0ef05a79a002d0cba2a3baab7ba5ebad1b2833b3437e806c216fd0fb0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ContourField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/contour-field/variants/js-css/ContourField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d4a5f8c2391ff341a466f08e89955441248a92c2b51569ef87dee3e91b436ec3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Topography-JS-TW",
+      "path": "vault/reactbits-free/components/contour-field/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/js-tw/ContourField.jsx",
+          "bytes": 11164,
+          "sha256": "1a8729fee0b909061031b23c6f3eb302676c97a2b55c690ea829397bf5d39079"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ContourField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/contour-field/variants/js-tw/ContourField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8152eb4f6f3b5fd82137ec1b0fe43e11c4899040ef2c348a7cd06431c9dbdc93"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Topography-TS-CSS",
+      "path": "vault/reactbits-free/components/contour-field/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/ts-css/ContourField.css",
+          "bytes": 99,
+          "sha256": "255ee5079320b5056d8b9543103e7e1ac6641586c86179990b5fb26ed90061f1"
+        },
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/ts-css/ContourField.tsx",
+          "bytes": 12281,
+          "sha256": "01ed3e16c226ca8c406b22a2856c47479e70857c1ac1be3076648078de6b6a96"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ContourField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/contour-field/variants/ts-css/ContourField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9677da0adfe56656bf5e9fecfa6118c504768c03c2d986ca6942cfbbe67d4df7"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Topography-TS-TW",
+      "path": "vault/reactbits-free/components/contour-field/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/contour-field/variants/ts-tw/ContourField.tsx",
+          "bytes": 12272,
+          "sha256": "8e65fd9e44efbb92d1e4ba2ec123c87896d2b03ac6087772998cbb781e476af2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ContourField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/contour-field/variants/ts-tw/ContourField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c83eb20aaf0a356fca51e97d8f436a75294a0a4052931b9842d35d6833a7619"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ContourField",
+      "style": "default",
+      "file": "vault/reactbits-free/components/contour-field/variants/ts-tw/ContourField.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/contour-field",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Topography-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/topography"
+  },
+  "hash": "300f0380b65ada0f5548944c52e8d906352802eb437664bc3034b19c9326cef4",
+  "fetchedAt": "2026-08-14T05:36:11.475Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ContourField",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "topography",
+  "upstreamName": "Topography"
+}

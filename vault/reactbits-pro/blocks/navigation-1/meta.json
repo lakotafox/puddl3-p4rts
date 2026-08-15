@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/navigation-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-1",
+  "name": "navigation-1",
+  "title": "Navigation 1",
+  "description": "Classic top nav with dropdown menus and mobile overlay",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-1",
+      "path": "vault/reactbits-pro/blocks/navigation-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-1/files/navigation-1.tsx",
+          "bytes": 13995,
+          "sha256": "3f844601040a093c105716df3d6ffde2259ff08a1b6da90923647a611006ae7a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-1/files/navigation-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "94ac8a6732becb45f64d9c323ad496f02de45f7a8be38350397a59fd03b088d8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-1/files/navigation-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ae59a7d99b9b97899a0d82a200d754570212f3a8cdb808ba0ce08f10ad8ee6fb",
+  "fetchedAt": "2026-08-14T05:50:01.301Z",
+  "vaultVersion": 1
+}

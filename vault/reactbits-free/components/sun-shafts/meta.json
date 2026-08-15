@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/sun-shafts",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "sun-shafts",
+  "name": "SunShafts",
+  "title": "Sun Shafts",
+  "description": "Volumetric light rays/beams with customizable direction.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LightRays-JS-CSS",
+      "path": "vault/reactbits-free/components/sun-shafts/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/js-css/SunShafts.css",
+          "bytes": 137,
+          "sha256": "99c675bf97ed23b24188df6c3aabe2524fae003167bfdac464b913b81538411e"
+        },
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/js-css/SunShafts.jsx",
+          "bytes": 11714,
+          "sha256": "b2be0dd25ba903c1a0897cc5ddac82634f599c99984df465cf5f632a265a4150"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SunShafts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sun-shafts/variants/js-css/SunShafts.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6934e18c3f5d611649a35b488518befb9ce0b2433d73f20ec6c7e40d350a1e6b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LightRays-JS-TW",
+      "path": "vault/reactbits-free/components/sun-shafts/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/js-tw/SunShafts.jsx",
+          "bytes": 11728,
+          "sha256": "99412408c406321be93bd572f379f0d30c3ff5ad964a1f648886f6cfece4a7b7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SunShafts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sun-shafts/variants/js-tw/SunShafts.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d1bf8d99c05b5e60785e775dcb44383f0a82bb098a0d2fb64d56d0af1de2b515"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LightRays-TS-CSS",
+      "path": "vault/reactbits-free/components/sun-shafts/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/ts-css/SunShafts.css",
+          "bytes": 137,
+          "sha256": "99c675bf97ed23b24188df6c3aabe2524fae003167bfdac464b913b81538411e"
+        },
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/ts-css/SunShafts.tsx",
+          "bytes": 13089,
+          "sha256": "88f7b1590a0d1c7e198ad620b06989a23d727844c0354fa51141d4406febb46d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SunShafts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sun-shafts/variants/ts-css/SunShafts.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d741fde8c9b1e032c0663dcb4e416454410259fca6964869f95de12385f790ef"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LightRays-TS-TW",
+      "path": "vault/reactbits-free/components/sun-shafts/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sun-shafts/variants/ts-tw/SunShafts.tsx",
+          "bytes": 13133,
+          "sha256": "a8425f3746cf9994cb9064266bc23be77c5326832a234d192858dd1ab5546bb2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SunShafts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sun-shafts/variants/ts-tw/SunShafts.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8f4c3877b3449522f730831e0e2a1dd1add2099ed53bd70c7c8ff5d8e00112ea"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SunShafts",
+      "style": "default",
+      "file": "vault/reactbits-free/components/sun-shafts/variants/ts-tw/SunShafts.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/sun-shafts",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LightRays-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/light-rays"
+  },
+  "hash": "a60ba15f5b04b7fd1722d63b3881268f27ab88519ca7cb1da30742cd3c29d150",
+  "fetchedAt": "2026-08-14T05:36:11.409Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SunShafts",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "light-rays",
+  "upstreamName": "LightRays"
+}

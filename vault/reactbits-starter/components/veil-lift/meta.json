@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/veil-lift",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "veil-lift",
+  "name": "VeilLift",
+  "title": "Veil Lift",
+  "description": "Interactive liquid image reveal",
+  "tags": [
+    "animation",
+    "shader"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "shader-reveal-css",
+      "path": "vault/reactbits-starter/components/veil-lift/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/veil-lift/variants/css/veil-lift.tsx",
+          "bytes": 50453,
+          "sha256": "2dbeac68ef3809ad15be02fe43655d94caec806ad598eadd1fe13231cfca41aa"
+        },
+        {
+          "path": "vault/reactbits-starter/components/veil-lift/variants/css/veil-lift.css",
+          "bytes": 102,
+          "sha256": "be7a585e143440d0cd2538eb912756550f76f4f26517b18dc81a26ca566a8fac"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VeilLift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/veil-lift/variants/css/veil-lift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5c3f2b6f73c473a8c31ab9751edbf56fd7d08fb88c00249876033eee654addbf"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "shader-reveal-tw",
+      "path": "vault/reactbits-starter/components/veil-lift/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/veil-lift/variants/tw/veil-lift.tsx",
+          "bytes": 50738,
+          "sha256": "4a55d469792ed4ad5caf0fb758656de0a7805da1ecd375a4091115cb3637e647"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VeilLift",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/veil-lift/variants/tw/veil-lift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d837e58329cf6d54fc88015004ce243f08bbc7d44cf1890bb55ff06bd265b088"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VeilLift",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/veil-lift/variants/tw/veil-lift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/veil-lift",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/shader-reveal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "cc5993da33674f1fa3e41896326135ba015bd81bb2e16da4f7133009bf65a40d",
+  "fetchedAt": "2026-08-14T05:34:29.227Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "shader-reveal",
+  "upstreamName": "ShaderReveal"
+}

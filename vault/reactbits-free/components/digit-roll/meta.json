@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/digit-roll",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "digit-roll",
+  "name": "DigitRoll",
+  "title": "Digit Roll",
+  "description": "Flexible animated counter supporting increments + easing.",
+  "tags": [
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Counter-JS-CSS",
+      "path": "vault/reactbits-free/components/digit-roll/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/js-css/DigitRoll.css",
+          "bytes": 586,
+          "sha256": "60fab391d42262f31bc52685686ff6cba19abe3304e4179cbc0e7e5be4db22a0"
+        },
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/js-css/DigitRoll.jsx",
+          "bytes": 3509,
+          "sha256": "6d4abe14c27485bd909989c8aba374a5dc88bfe7d2b79e439f738d5462b8cb0d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DigitRoll",
+          "style": "default",
+          "file": "vault/reactbits-free/components/digit-roll/variants/js-css/DigitRoll.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e7fff7ae47d95067ae784c4a8f9eb50eecb6c5b240fb9afcf743516237c83481"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Counter-JS-TW",
+      "path": "vault/reactbits-free/components/digit-roll/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/js-tw/DigitRoll.jsx",
+          "bytes": 3979,
+          "sha256": "2a2f39d93d4fa8b11bd20bf1da6edc56ecbbd7c4a91001165cdb31725c7cb588"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DigitRoll",
+          "style": "default",
+          "file": "vault/reactbits-free/components/digit-roll/variants/js-tw/DigitRoll.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3903a725019e1ba645d848ab61230cb84daaef0f6e2e2e442b6e9a775ca102d3"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Counter-TS-CSS",
+      "path": "vault/reactbits-free/components/digit-roll/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/ts-css/DigitRoll.css",
+          "bytes": 586,
+          "sha256": "60fab391d42262f31bc52685686ff6cba19abe3304e4179cbc0e7e5be4db22a0"
+        },
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/ts-css/DigitRoll.tsx",
+          "bytes": 4558,
+          "sha256": "f502f0df5c8ff881cba9aa8137b0f8f0fb1ddd812cd6697abdc0c74c1dee4f50"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DigitRoll",
+          "style": "default",
+          "file": "vault/reactbits-free/components/digit-roll/variants/ts-css/DigitRoll.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "38469a4a522c1ec656baaf42d2f7df815b891bc059289e0a0735e54419b63e8a"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Counter-TS-TW",
+      "path": "vault/reactbits-free/components/digit-roll/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/digit-roll/variants/ts-tw/DigitRoll.tsx",
+          "bytes": 5261,
+          "sha256": "eefa92e679a0ed696ad6c8fa0adf6d4f18c134f28453b477ff786ff3329683e8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DigitRoll",
+          "style": "default",
+          "file": "vault/reactbits-free/components/digit-roll/variants/ts-tw/DigitRoll.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "338aa36623eb791ab4cc66b9f84a84e78cf85b517e39a1550ea86824e9525050"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DigitRoll",
+      "style": "default",
+      "file": "vault/reactbits-free/components/digit-roll/variants/ts-tw/DigitRoll.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/digit-roll",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Counter-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/counter"
+  },
+  "hash": "a57d1cdfc5a362a37aebefb09eff7c931a42faf0440f64a1c239ef0325419013",
+  "fetchedAt": "2026-08-14T05:36:11.352Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DigitRoll",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "counter",
+  "upstreamName": "Counter"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/stats-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-6",
+  "name": "stats-6",
+  "title": "Stats 6",
+  "description": "Asymmetrical layout with mobile device mockups and parallax stat circles",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-6",
+      "path": "vault/reactbits-pro/blocks/stats-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-6/files/stats-6.tsx",
+          "bytes": 7229,
+          "sha256": "b82836939fe1e5838a66a00a9da34991a012deeb64ab4a5da1122f98523155f2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-6/files/stats-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "543c0f606d05711102b2b650fa4b5bac490ba17a9d210d5469058a3f953fdfc1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-6/files/stats-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "4d7964465c375a2d47c01dc302e656c81c9629990aba43a456cc838da725e0af",
+  "fetchedAt": "2026-08-14T05:55:49.948Z",
+  "vaultVersion": 1
+}

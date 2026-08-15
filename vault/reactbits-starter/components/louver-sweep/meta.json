@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/louver-sweep",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "louver-sweep",
+  "name": "LouverSweep",
+  "title": "Louver Sweep",
+  "description": "Bands of light that roll open and closed like window blinds",
+  "tags": [
+    "background",
+    "shader",
+    "blinds",
+    "stripes",
+    "webgl",
+    "motion"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rolling-blinds-css",
+      "path": "vault/reactbits-starter/components/louver-sweep/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/louver-sweep/variants/css/louver-sweep.tsx",
+          "bytes": 11962,
+          "sha256": "60d44ee018f33fd12c35c93b9b2319867e07bbeada2fc024b6fd2e2c0d308e14"
+        },
+        {
+          "path": "vault/reactbits-starter/components/louver-sweep/variants/css/louver-sweep.css",
+          "bytes": 221,
+          "sha256": "b535ee6f285914997969ce839b5167cc1368a58024f85add83d95db433502046"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LouverSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/louver-sweep/variants/css/louver-sweep.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "LouverSweep",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/louver-sweep/variants/css/louver-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "124505d48723f6071c8b729424efc36b808869061e30bad216d41464250ee876"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rolling-blinds-tw",
+      "path": "vault/reactbits-starter/components/louver-sweep/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/louver-sweep/variants/tw/louver-sweep.tsx",
+          "bytes": 11935,
+          "sha256": "959279ff7b0cf041c5325d2f82adb9c1c203ec332c05f359e3c985c939e9698e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LouverSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/louver-sweep/variants/tw/louver-sweep.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "LouverSweep",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/louver-sweep/variants/tw/louver-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5df2d100899d39ce44a1d7f0dc102c018554d61e6c31e010e8fb2c5e394bfffb"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LouverSweep",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/louver-sweep/variants/tw/louver-sweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/louver-sweep",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rolling-blinds-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "b4471e4b70ea32e25bc8254f9d7fe3048c1e07cb40cb4180cbd30a672858332b",
+  "fetchedAt": "2026-08-14T05:34:16.826Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rolling-blinds",
+  "upstreamName": "RollingBlinds"
+}

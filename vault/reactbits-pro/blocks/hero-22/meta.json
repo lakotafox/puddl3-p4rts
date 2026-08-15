@@ -1,0 +1,113 @@
+{
+  "id": "rb-pro/block/hero-22",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-22",
+  "name": "hero-22",
+  "title": "Hero 22",
+  "description": "Centered launch hero over a theme-aware MeshGradient shader with grained color flow and a blurred headline reveal.",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-22",
+      "path": "vault/reactbits-pro/blocks/hero-22/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-22/files/hero-22.tsx",
+          "bytes": 5971,
+          "sha256": "f4714ca6f09b2a28cad642d478ad5e79e0e0c7afef1418eec5c4b3f856d7832e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        },
+        {
+          "name": "@paper-design/shaders-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero22",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-22/files/hero-22.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero22",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-22/files/hero-22.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "665a7c004e2f4e4ce40169fef742edea0c49d68db5cb0da459c81f7fe44e1041"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "@paper-design/shaders-react",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero22",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-22/files/hero-22.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-22",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-22.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8bddf7c14c7bd24179196b2d648794b97b84e5d6c26ed18492533f7dd6594fa1",
+  "fetchedAt": "2026-08-14T05:48:13.653Z",
+  "vaultVersion": 1
+}

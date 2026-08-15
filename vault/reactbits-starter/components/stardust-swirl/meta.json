@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/stardust-swirl",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "stardust-swirl",
+  "name": "StardustSwirl",
+  "title": "Stardust Swirl",
+  "description": "Starfield warp tunnel with glittering particle effects",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glitter-warp-css",
+      "path": "vault/reactbits-starter/components/stardust-swirl/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/stardust-swirl/variants/css/stardust-swirl.tsx",
+          "bytes": 7323,
+          "sha256": "91ec36cbfbbf3eb56f1057e398ac1f552237ba7c549180f1d6d0c2034c509215"
+        },
+        {
+          "path": "vault/reactbits-starter/components/stardust-swirl/variants/css/stardust-swirl.css",
+          "bytes": 249,
+          "sha256": "9ac260d78c7bbbed86c10290fba3418b77da45d54cffc853948c65259b114a3a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StardustSwirl",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/stardust-swirl/variants/css/stardust-swirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d75f626645b2f9ba685b0e2814fc41ad2a4a33e17cfc9b34007377cc66dce41e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glitter-warp-tw",
+      "path": "vault/reactbits-starter/components/stardust-swirl/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/stardust-swirl/variants/tw/stardust-swirl.tsx",
+          "bytes": 7389,
+          "sha256": "71eea88b7fceb10f236046a4fafda1e6016b91cd578b3f6bd9f666e8b93d60e5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StardustSwirl",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/stardust-swirl/variants/tw/stardust-swirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8bd433efc42c4a0a660ec92219a221fa8bdaa07750b294f096bed8f569a678dd"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StardustSwirl",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/stardust-swirl/variants/tw/stardust-swirl.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/stardust-swirl",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glitter-warp-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "6134ec7abdb479296b8195ea90ed2d6d811e22f7c9ff4b5e2497c91cd32bf69c",
+  "fetchedAt": "2026-08-14T05:32:52.188Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glitter-warp",
+  "upstreamName": "GlitterWarp"
+}

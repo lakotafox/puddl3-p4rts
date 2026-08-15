@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/rainbow-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "rainbow-type",
+  "name": "RainbowType",
+  "title": "Rainbow Type",
+  "description": "Animated gradient sweep across live text with speed and color control.",
+  "tags": [
+    "effect",
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GradientText-JS-CSS",
+      "path": "vault/reactbits-free/components/rainbow-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/js-css/RainbowType.css",
+          "bytes": 999,
+          "sha256": "bf78ec32709f2efbf66ea7edccc647cc05d5fe20f65ccb08888abfbb1d5e0aaa"
+        },
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/js-css/RainbowType.jsx",
+          "bytes": 3068,
+          "sha256": "060d15a5e57005b1c69a7d3774d4df0512fb3462e300a78898735883179c9369"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-type/variants/js-css/RainbowType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2a4c6e411592e73bb185f9515000b41ce4cffe772667703698ec7a1e8ce78b8b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GradientText-JS-TW",
+      "path": "vault/reactbits-free/components/rainbow-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/js-tw/RainbowType.jsx",
+          "bytes": 3710,
+          "sha256": "bcaed9dfd283a252156ad885f0f6e5a2cb93c59fad61bf2ad9aceae1881905f9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-type/variants/js-tw/RainbowType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d8599f0b44667e2c7ec7eeb7c84d1e293174da65eaf8aff80d8365ec7365641"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GradientText-TS-CSS",
+      "path": "vault/reactbits-free/components/rainbow-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/ts-css/RainbowType.css",
+          "bytes": 1232,
+          "sha256": "d070e5902e9345aed7d52787dc5fa7065926ac4c4292372bc9fbf67879af798d"
+        },
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/ts-css/RainbowType.tsx",
+          "bytes": 3351,
+          "sha256": "4504b8b85aace410829813bbc21e13059c584e6710812a089a06901071b30adc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-type/variants/ts-css/RainbowType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fa8fbde37d2ad27dcb4b40696172430587cb442c321034b887ec6e93aa9c3ceb"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GradientText-TS-TW",
+      "path": "vault/reactbits-free/components/rainbow-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rainbow-type/variants/ts-tw/RainbowType.tsx",
+          "bytes": 3993,
+          "sha256": "b08d896cf89d3aff0bbe7d1cafc39da651a986e0d319b7a052e1775e98815eea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RainbowType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rainbow-type/variants/ts-tw/RainbowType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5e4509f148a6faf23054345e3e05bd41f71cccb4ba80cd9879eeec770e32aebd"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RainbowType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/rainbow-type/variants/ts-tw/RainbowType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/rainbow-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GradientText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/gradient-text"
+  },
+  "hash": "792c7b5e1ea0a3afd8a8ca13dda3dab86b487ccaa2595949cc166cdfd0437038",
+  "fetchedAt": "2026-08-14T05:36:11.389Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RainbowType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "gradient-text",
+  "upstreamName": "GradientText"
+}

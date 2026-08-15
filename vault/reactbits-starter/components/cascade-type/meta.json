@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/cascade-type",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "cascade-type",
+  "name": "CascadeType",
+  "title": "Cascade Type",
+  "description": "Flexible, feature-rich text animation component for staggered reveals",
+  "tags": [
+    "animation",
+    "text"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "staggered-text-css",
+      "path": "vault/reactbits-starter/components/cascade-type/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/cascade-type/variants/css/cascade-type.tsx",
+          "bytes": 10260,
+          "sha256": "8d06056b5eebeb28a6590b94fcd5658b95f9aee2d2443ee3bd95060b1c8a2b76"
+        },
+        {
+          "path": "vault/reactbits-starter/components/cascade-type/variants/css/cascade-type.css",
+          "bytes": 209,
+          "sha256": "e2af8742c0c1f02f6d26f1c4ccea818685be77e8a628aa17c7efe60d83c080f7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CascadeType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/cascade-type/variants/css/cascade-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf8a966a0fdacc0d436f73c0f5a33620d1957babc97d9dc5c5804e0fccb1a250"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "staggered-text-tw",
+      "path": "vault/reactbits-starter/components/cascade-type/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/cascade-type/variants/tw/cascade-type.tsx",
+          "bytes": 10227,
+          "sha256": "3bb48dd6082d15e3e08f6078c98d09f1a7e4f84c4fc3ad5e188ce6ec8681dea3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CascadeType",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/cascade-type/variants/tw/cascade-type.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d8682d86d458a9bb3d3faf8e3a599b035356788dd55f530a75c20a9d3dff5a62"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CascadeType",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/cascade-type/variants/tw/cascade-type.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/cascade-type",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/staggered-text-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8303798cd3bd292bd4fc0e3daea3baf9f48caa16ddcfa4db78f776ad0b4be1ab",
+  "fetchedAt": "2026-08-14T05:34:55.225Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "staggered-text",
+  "upstreamName": "StaggeredText"
+}

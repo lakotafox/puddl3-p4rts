@@ -1,0 +1,188 @@
+{
+  "id": "rb-free/component/terminal-type",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "terminal-type",
+  "name": "TerminalType",
+  "title": "Terminal Type",
+  "description": "Renders text with an animated ASCII background for a retro feel.",
+  "tags": [
+    "text",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ASCIIText-JS-CSS",
+      "path": "vault/reactbits-free/components/terminal-type/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/terminal-type/variants/js-css/TerminalType.jsx",
+          "bytes": 15023,
+          "sha256": "9f01dad501c018a27d26423bdbb00c87c05881b9e5da49b3ac9ddcedc888fcc9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TerminalType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/terminal-type/variants/js-css/TerminalType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "23baeeeaed0e4b18233eeaaa777f300fc233153330099e92f165a0d34194c5c8"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ASCIIText-JS-TW",
+      "path": "vault/reactbits-free/components/terminal-type/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/terminal-type/variants/js-tw/TerminalType.jsx",
+          "bytes": 14964,
+          "sha256": "489c08cf52a837011169c8c4cd5a9e207abec0add6d0a54a0056e8120406d62a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TerminalType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/terminal-type/variants/js-tw/TerminalType.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "706ef782dbab96698d336b87ff7288bdae05ffdf976e5c3d2e4106d30ebab924"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ASCIIText-TS-CSS",
+      "path": "vault/reactbits-free/components/terminal-type/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/terminal-type/variants/ts-css/TerminalType.tsx",
+          "bytes": 17374,
+          "sha256": "678c3dda481647f3b0cdbd42c2508614b9644a7d4cf8bad53276b8a9730943be"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TerminalType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/terminal-type/variants/ts-css/TerminalType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cea1f161fd3697f09e4691248fe053984a19c8754b9a401ef37a11abee9c1d49"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ASCIIText-TS-TW",
+      "path": "vault/reactbits-free/components/terminal-type/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/terminal-type/variants/ts-tw/TerminalType.tsx",
+          "bytes": 17442,
+          "sha256": "8fcdbc0f82e36103a4d26677d48e49454005cad97ecd9083d0f065007af54141"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TerminalType",
+          "style": "default",
+          "file": "vault/reactbits-free/components/terminal-type/variants/ts-tw/TerminalType.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9152e8078b4e04ab80397d21c6d53ad4e1e2b432053ad78680dcbe185af15ec6"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TerminalType",
+      "style": "default",
+      "file": "vault/reactbits-free/components/terminal-type/variants/ts-tw/TerminalType.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/terminal-type",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ASCIIText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/asciitext"
+  },
+  "hash": "a5455682e7cbfbfd503161e1e91b791f7df58dbfb9c0072d0fe182db4b43567b",
+  "fetchedAt": "2026-08-14T05:36:11.332Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TerminalType",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "asciitext",
+  "upstreamName": "ASCIIText"
+}

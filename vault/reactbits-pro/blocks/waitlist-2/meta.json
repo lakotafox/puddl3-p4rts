@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/waitlist-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "waitlist-2",
+  "name": "waitlist-2",
+  "title": "Waitlist 2",
+  "description": "Centered waitlist signup with large title and fading card",
+  "tags": [
+    "waitlist",
+    "signup",
+    "email",
+    "form",
+    "pre-launch"
+  ],
+  "tagSource": "upstream",
+  "category": "waitlist",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "waitlist-2",
+      "path": "vault/reactbits-pro/blocks/waitlist-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/waitlist-2/files/waitlist-2.tsx",
+          "bytes": 5577,
+          "sha256": "d3c02177193c0414a5aa377fe94af5eb6cbdbe434e2e6a9c9a3543fcef4922b2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Waitlist2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/waitlist-2/files/waitlist-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "465ef0160b9aca774a38403f976a77e9aecf15cba378725366b7557a85463be8"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Waitlist2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/waitlist-2/files/waitlist-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/waitlist-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/waitlist-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9b52f12c8e9c51af87bfd88dd20847e7df542eb831bdc40eef020cb4d402fcee",
+  "fetchedAt": "2026-08-14T05:56:13.841Z",
+  "vaultVersion": 1
+}

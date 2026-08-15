@@ -1,0 +1,154 @@
+{
+  "id": "rb-starter/component/spiral-bend",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "spiral-bend",
+  "name": "SpiralBend",
+  "title": "Spiral Bend",
+  "description": "Twisting warp distortion effect",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "warp-twister-css",
+      "path": "vault/reactbits-starter/components/spiral-bend/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spiral-bend/variants/css/spiral-bend.tsx",
+          "bytes": 10225,
+          "sha256": "c7b8c12ec15269234080b038b6ef027705f4e95a71eb62613e40d8a28989e40c"
+        },
+        {
+          "path": "vault/reactbits-starter/components/spiral-bend/variants/css/spiral-bend.css",
+          "bytes": 116,
+          "sha256": "35fae642797ce92f3b9e999afb5feea25ff9826b2fa41cd4370b3ce49e6e6a58"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpiralBend",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spiral-bend/variants/css/spiral-bend.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d5a0d1ee7581e163da9368dbad653c021ca0b68d60f044a1f6e15cb74547e738"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "warp-twister-tw",
+      "path": "vault/reactbits-starter/components/spiral-bend/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spiral-bend/variants/tw/spiral-bend.tsx",
+          "bytes": 10087,
+          "sha256": "45a36641077407cd9882cc048d54a5032bb3c3c73485991e07d22f6e4719409f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpiralBend",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spiral-bend/variants/tw/spiral-bend.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "52aa4050f2351388e1ce7100f2400a22b4099fdbe3f013bc8ce4c3650fcbdd37"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpiralBend",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/spiral-bend/variants/tw/spiral-bend.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/spiral-bend",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/warp-twister-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "ce9635298fead7b96f5db98f600287ba5253af54325bcb6da17348f13248a8f0",
+  "fetchedAt": "2026-08-14T05:35:21.709Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "warp-twister",
+  "upstreamName": "WarpTwister"
+}

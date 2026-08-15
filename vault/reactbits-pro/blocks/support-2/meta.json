@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/support-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "support-2",
+  "name": "support-2",
+  "title": "Support 2",
+  "description": "Ticket form with inline article suggestions, priority-driven response time, and attachments.",
+  "tags": [
+    "support",
+    "help",
+    "tickets",
+    "help center",
+    "chat",
+    "service desk"
+  ],
+  "tagSource": "upstream",
+  "category": "support",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "support-2",
+      "path": "vault/reactbits-pro/blocks/support-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/support-2/files/support-2.tsx",
+          "bytes": 16021,
+          "sha256": "dc3569943f2062c327a54b8ab43d6c2ce1b7b2f7b16a50716273569b33671ec8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Support2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/support-2/files/support-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f320543417a981798d6ab841f3b961aa600f0e5725a7ee874d8e4bf39164d2b3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Support2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/support-2/files/support-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/support-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/support-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1f1d92608ed32a657b9214adfa5b3e039550412adad8317052ddc87ad61f3f77",
+  "fetchedAt": "2026-08-14T05:55:57.280Z",
+  "vaultVersion": 1
+}

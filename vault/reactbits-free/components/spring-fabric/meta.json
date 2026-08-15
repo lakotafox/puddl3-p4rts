@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/spring-fabric",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "spring-fabric",
+  "name": "SpringFabric",
+  "title": "Spring Fabric",
+  "description": "Spring-mesh surface that stretches under the pointer and settles back with damped physics.",
+  "tags": [
+    "animation",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ElasticMesh-JS-CSS",
+      "path": "vault/reactbits-free/components/spring-fabric/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/js-css/SpringFabric.css",
+          "bytes": 185,
+          "sha256": "1a21e996d86269deb28c42f28f5fa8493baef5b7e123e6c804511e2d4284eb3f"
+        },
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/js-css/SpringFabric.jsx",
+          "bytes": 17124,
+          "sha256": "fb97dcfd2771db2756ebda10d30be919721189f5c6d1847b92efa0e260a0688b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringFabric",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-fabric/variants/js-css/SpringFabric.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dc395650fbbb8cd6890ecfdd7455a0aabb42f3450e13c475f2fa8bcfea28444b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ElasticMesh-JS-TW",
+      "path": "vault/reactbits-free/components/spring-fabric/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/js-tw/SpringFabric.jsx",
+          "bytes": 17161,
+          "sha256": "aa6547446f1fc01c044af8fd5cc8b6a66844330d2f88ec635e8f7f40a926f503"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringFabric",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-fabric/variants/js-tw/SpringFabric.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0efd07a0bbc3a2df52e42ba2d5cdfe9995ae1cf3a34427e813d7d104dac352cc"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ElasticMesh-TS-CSS",
+      "path": "vault/reactbits-free/components/spring-fabric/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/ts-css/SpringFabric.css",
+          "bytes": 185,
+          "sha256": "1a21e996d86269deb28c42f28f5fa8493baef5b7e123e6c804511e2d4284eb3f"
+        },
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/ts-css/SpringFabric.tsx",
+          "bytes": 17865,
+          "sha256": "6334e128dc19de90fc746051da06d452b30fa1b8c2de527f031d64403428b66c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringFabric",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-fabric/variants/ts-css/SpringFabric.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "08f7c9a9d4b6c03d5997fd9e49b4a235ba95619f2a757b53e8b62861272136e0"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ElasticMesh-TS-TW",
+      "path": "vault/reactbits-free/components/spring-fabric/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spring-fabric/variants/ts-tw/SpringFabric.tsx",
+          "bytes": 17902,
+          "sha256": "669021e3c22e34eeaad1168e98c325af31e0f50883e1da1bd6983073ac00a01c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpringFabric",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spring-fabric/variants/ts-tw/SpringFabric.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1d90579b264845e3577fe1e77a43eb12213b7d4f041efea88d214e2d5200d07d"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpringFabric",
+      "style": "default",
+      "file": "vault/reactbits-free/components/spring-fabric/variants/ts-tw/SpringFabric.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/spring-fabric",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ElasticMesh-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/elastic-mesh"
+  },
+  "hash": "91fd5add259dcba6ac330bb89c726a5258670ff556c40e19b03e0f5c61763db1",
+  "fetchedAt": "2026-08-14T05:36:11.371Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SpringFabric",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "elastic-mesh",
+  "upstreamName": "ElasticMesh"
+}

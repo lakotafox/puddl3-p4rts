@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/loom",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "loom",
+  "name": "Loom",
+  "title": "Loom",
+  "description": "Animated pattern of lines forming a fabric-like motion.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Threads-JS-CSS",
+      "path": "vault/reactbits-free/components/loom/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/loom/variants/js-css/Loom.css",
+          "bytes": 76,
+          "sha256": "553118f93593a3c30109f2b911fe076f89ab7d43036cdee8dc951e4497d078e2"
+        },
+        {
+          "path": "vault/reactbits-free/components/loom/variants/js-css/Loom.jsx",
+          "bytes": 8533,
+          "sha256": "83c6d520171819b1ba7effb6e62303bc58c9f41604157b0975ef00961704ada3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Loom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/loom/variants/js-css/Loom.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "49aadb7a09134f0967d0054850e0e1db33c855cc859e252f60ebdec3054f259e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Threads-JS-TW",
+      "path": "vault/reactbits-free/components/loom/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/loom/variants/js-tw/Loom.jsx",
+          "bytes": 8513,
+          "sha256": "25a0c9eb4949a949c7f66e1129f9299cdbe45d9e94a366a4346bdc2b6704d270"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Loom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/loom/variants/js-tw/Loom.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "01a3ce5256b2b1d418dc1a88a792c592b244fd3917bce27b9aebcf3a7fba8e05"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Threads-TS-CSS",
+      "path": "vault/reactbits-free/components/loom/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/loom/variants/ts-css/Loom.css",
+          "bytes": 76,
+          "sha256": "553118f93593a3c30109f2b911fe076f89ab7d43036cdee8dc951e4497d078e2"
+        },
+        {
+          "path": "vault/reactbits-free/components/loom/variants/ts-css/Loom.tsx",
+          "bytes": 8772,
+          "sha256": "c404b720e1ccbb645cdda2db1878beb23a166a039242a4d7fa403e458dfdd214"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Loom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/loom/variants/ts-css/Loom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe6b332dae3f722d8c2573c7db6edf75069e507a24c77c8153e97039c384b3ea"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Threads-TS-TW",
+      "path": "vault/reactbits-free/components/loom/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/loom/variants/ts-tw/Loom.tsx",
+          "bytes": 8752,
+          "sha256": "cb48428cb6ceab74fb464b5f09df530f0423eaa6a6c6d730b0137cc6c0920912"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Loom",
+          "style": "default",
+          "file": "vault/reactbits-free/components/loom/variants/ts-tw/Loom.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2dde128233b16362704f8d9c8c866d778c2cb0b4d94e51a0ba60da32905ef4d2"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Loom",
+      "style": "default",
+      "file": "vault/reactbits-free/components/loom/variants/ts-tw/Loom.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/loom",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Threads-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/threads"
+  },
+  "hash": "31468362b9e10a4a70e5e497ed3cef32f976ea403825fb59447b225fc6d8a5d2",
+  "fetchedAt": "2026-08-14T05:36:11.473Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "Loom",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "threads",
+  "upstreamName": "Threads"
+}

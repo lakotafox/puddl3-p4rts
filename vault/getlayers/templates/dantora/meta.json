@@ -1,0 +1,471 @@
+{
+  "id": "getlayers/template/dantora",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "dantora",
+  "name": "Dantora",
+  "title": "Dantora",
+  "description": "PUDDL3 — a 24/7 walk-in clinic for shift workers",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3-universe"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "dantora",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "dantora",
+      "path": "vault/getlayers/templates/dantora/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/dantora/files/LICENSE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Services/01.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Services/03.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Services/02.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Team/01.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Team/03.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Team/02.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Team/05.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Our Team/04.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/About/banner.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/instagram.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/discover-circle.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/dna.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/plus.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/arrow-circle.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/facebook.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/linkedin.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/icons/twitter.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/01.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/03.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/02.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/06.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/07.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/05.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/04.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/public/assets/Why Dantora/08.png"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/apple-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/opengraph-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/ui/icons/dna-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/ui/icons/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/ui/icons/arrow-up-right-icon.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/ui/button.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/preloader/reveal-on-ready.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/preloader/preload-context.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/preloader/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/preloader/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/header/mobile-menu.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/header/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/header/header-cta.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/scene/dna-ink/dna-ink-controls.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/scene/dna-ink/dna-ink-controls.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/scene/dna-ink/lazy-dna-ink.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/scene/dna-ink/dna-ink.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/components/scene/dna-ink/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/use-media-query.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/motion/text-presets.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/brand-mark.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/scene/dna-ink/shaders.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/scene/dna-ink/scene.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/scene/dna-ink/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/lib/scene/dna-ink/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/index.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/hero.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/team.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/about-banner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/contact.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/cursor-trail.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/services.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/services-track.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/stat-counter.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/team-slider.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/about.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/dantora/files/src/views/home/sections/why-dantora.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/dantora",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": "Healthcare that runs on your clock, not ours"
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=dantora",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.225Z",
+  "vaultVersion": 1
+}

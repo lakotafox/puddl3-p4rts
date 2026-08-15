@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/editor-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "editor-4",
+  "name": "editor-4",
+  "title": "Editor 4",
+  "description": "Suggestion review mode pairing inline highlights with an accept and dismiss side panel.",
+  "tags": [
+    "editor",
+    "writing",
+    "markdown",
+    "code",
+    "document"
+  ],
+  "tagSource": "upstream",
+  "category": "editor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "editor-4",
+      "path": "vault/reactbits-pro/blocks/editor-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/editor-4/files/editor-4.tsx",
+          "bytes": 13118,
+          "sha256": "8bcda8902d6080a7cf7124a3a21dee96521e35b672ca65ef454b3cc07762fc51"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Editor4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/editor-4/files/editor-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b52d9e7b35a75d3202b9c657954b79537b7f604c8646e2279e956e5954ac06d5"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Editor4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/editor-4/files/editor-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/editor-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/editor-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b0d8e9913aa98799568e1182f4d71c629f35d0c4158fd379f9e4b31520937d90",
+  "fetchedAt": "2026-08-14T05:46:05.175Z",
+  "vaultVersion": 1
+}

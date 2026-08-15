@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/mobile-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "mobile-1",
+  "name": "mobile-1",
+  "title": "Mobile 1",
+  "description": "Five-tab bottom bar with a spring indicator, unread badge, and a crossfading panel per tab.",
+  "tags": [
+    "mobile",
+    "navigation",
+    "tab bar",
+    "bottom bar",
+    "bottom sheet",
+    "floating action button",
+    "dock",
+    "drawer",
+    "touch"
+  ],
+  "tagSource": "upstream",
+  "category": "mobile",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "mobile-1",
+      "path": "vault/reactbits-pro/blocks/mobile-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/mobile-1/files/mobile-1.tsx",
+          "bytes": 11203,
+          "sha256": "a340dece7e8e4374fb78c7c7a81e8d0ebab9b5a18f8f2332914c48e46c7f3384"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Mobile1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/mobile-1/files/mobile-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "49d5ea742369c5010a28362b081ff6d9d26b2aa4d66ce25c1389ccdccf129ee4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Mobile1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/mobile-1/files/mobile-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/mobile-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/mobile-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e4c41bb6258ce9b2b3ce54c7329fbea1a62004f54447c15fe7874035710753f4",
+  "fetchedAt": "2026-08-14T05:49:18.258Z",
+  "vaultVersion": 1
+}

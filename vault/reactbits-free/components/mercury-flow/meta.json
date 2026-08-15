@@ -1,0 +1,221 @@
+{
+  "id": "rb-free/component/mercury-flow",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "mercury-flow",
+  "name": "MercuryFlow",
+  "title": "Mercury Flow",
+  "description": "Liquid metallic chrome shader with flowing reflective surface.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LiquidChrome-JS-CSS",
+      "path": "vault/reactbits-free/components/mercury-flow/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/js-css/MercuryFlow.css",
+          "bytes": 59,
+          "sha256": "8b2d26ec1d06b0eb18decb31dfb5bf0f64de92596b87f8c9ae0924250ae48ff6"
+        },
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/js-css/MercuryFlow.jsx",
+          "bytes": 5193,
+          "sha256": "ee79fe1284995f8b7269c48ea15a92e183add793cefe673c6876543be59222ba"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MercuryFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/js-css/MercuryFlow.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MercuryFlow",
+          "style": "named",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/js-css/MercuryFlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b0a8773306d1b34c32c4db23f47e82e0cda6718cb90b439105dbf07b78e48186"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LiquidChrome-JS-TW",
+      "path": "vault/reactbits-free/components/mercury-flow/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/js-tw/MercuryFlow.jsx",
+          "bytes": 5154,
+          "sha256": "8cfc7fcae5433ada896ccdd91f3ee580b9cfc9a5add770369d2d63d1ca40e3be"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MercuryFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/js-tw/MercuryFlow.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MercuryFlow",
+          "style": "named",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/js-tw/MercuryFlow.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e802062ea34ac6bfa5e0b97d65337c569f0f0975fa3567931d66d7cde0f0bda4"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LiquidChrome-TS-CSS",
+      "path": "vault/reactbits-free/components/mercury-flow/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/ts-css/MercuryFlow.css",
+          "bytes": 59,
+          "sha256": "8b2d26ec1d06b0eb18decb31dfb5bf0f64de92596b87f8c9ae0924250ae48ff6"
+        },
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/ts-css/MercuryFlow.tsx",
+          "bytes": 5569,
+          "sha256": "a0700fe8d0cf2e62aea4411cf82ce2911061ff802cc980e7a4536d50ebf9748d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MercuryFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/ts-css/MercuryFlow.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MercuryFlow",
+          "style": "named",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/ts-css/MercuryFlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b6cf57f98444f525a961d7e2c14a98d7f09aeae4d16f31235c62ce802a9d693e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LiquidChrome-TS-TW",
+      "path": "vault/reactbits-free/components/mercury-flow/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mercury-flow/variants/ts-tw/MercuryFlow.tsx",
+          "bytes": 5530,
+          "sha256": "a246ab170dd1c8567bb5ffb02614b847e435d138b7f11409b9bf7249bae5c2ca"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MercuryFlow",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/ts-tw/MercuryFlow.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "MercuryFlow",
+          "style": "named",
+          "file": "vault/reactbits-free/components/mercury-flow/variants/ts-tw/MercuryFlow.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae02155037102997fec76f4fe7a9038d7f3308e7f24a5c7218ccca5b6535fbdb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MercuryFlow",
+      "style": "default",
+      "file": "vault/reactbits-free/components/mercury-flow/variants/ts-tw/MercuryFlow.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/mercury-flow",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LiquidChrome-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/liquid-chrome"
+  },
+  "hash": "f1294d3f48ced40fc0016cff5b8a4f791d345717113f877a242685bb575bc6b2",
+  "fetchedAt": "2026-08-14T05:36:11.412Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MercuryFlow",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "liquid-chrome",
+  "upstreamName": "LiquidChrome"
+}

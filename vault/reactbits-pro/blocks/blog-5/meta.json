@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/blog-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "blog-5",
+  "name": "blog-5",
+  "title": "Blog 5",
+  "description": "Detailed article page with scroll progress and AI input",
+  "tags": [
+    "blog",
+    "articles",
+    "posts",
+    "content"
+  ],
+  "tagSource": "upstream",
+  "category": "blog",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "blog-5",
+      "path": "vault/reactbits-pro/blocks/blog-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/blog-5/files/blog-5.tsx",
+          "bytes": 14445,
+          "sha256": "48ec2e9586d60b39412129490e631fe0a82ee2a06c041c14d4ad01339d631abf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Blog5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/blog-5/files/blog-5.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Blog5",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/blog-5/files/blog-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "167b74b2164808e7c16844657acbbc97bad56b743279af7ba0e6b7ad38b66db1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Blog5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/blog-5/files/blog-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/blog-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/blog-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "33e80c41f04dd857c8e5ef81ce1512043ac302aac0034716ede6ce442ac2add5",
+  "fetchedAt": "2026-08-14T05:43:15.712Z",
+  "vaultVersion": 1
+}

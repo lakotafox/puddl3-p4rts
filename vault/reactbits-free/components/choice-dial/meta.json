@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/choice-dial",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "choice-dial",
+  "name": "ChoiceDial",
+  "title": "Choice Dial",
+  "description": "Curved option picker that spins via scroll, drag, or arrow keys, fading and tilting items away from the selection.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "OptionWheel-JS-CSS",
+      "path": "vault/reactbits-free/components/choice-dial/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/js-css/ChoiceDial.css",
+          "bytes": 1098,
+          "sha256": "8b93e9fb9983020a64d188d1cac61f2488ef2fc90a82fea90427b1bf87fc4dd6"
+        },
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/js-css/ChoiceDial.jsx",
+          "bytes": 9681,
+          "sha256": "61d6a475cfa7a08c87579518780de726e8a04d8c09ce531370a4129ccd73e162"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChoiceDial",
+          "style": "default",
+          "file": "vault/reactbits-free/components/choice-dial/variants/js-css/ChoiceDial.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e1b917915a8ed3d52408b44dff0d846a69d9085c86b6613cf504fdf734275e76"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "OptionWheel-JS-TW",
+      "path": "vault/reactbits-free/components/choice-dial/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/js-tw/ChoiceDial.jsx",
+          "bytes": 10012,
+          "sha256": "3e02ae5f36c4d0a673923f557226c4668fbe6e7be6a2f8067d9a635c930c81b9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChoiceDial",
+          "style": "default",
+          "file": "vault/reactbits-free/components/choice-dial/variants/js-tw/ChoiceDial.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b3aed55afb40431414c5f4fe235729be3db8a0bda9146211d8faeb2134cdf398"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "OptionWheel-TS-CSS",
+      "path": "vault/reactbits-free/components/choice-dial/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/ts-css/ChoiceDial.css",
+          "bytes": 1098,
+          "sha256": "8b93e9fb9983020a64d188d1cac61f2488ef2fc90a82fea90427b1bf87fc4dd6"
+        },
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/ts-css/ChoiceDial.tsx",
+          "bytes": 10931,
+          "sha256": "3c75bd132ff0ad7696f286a2d53bd4edc93a577c67feb694a65a265e10ba014e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChoiceDial",
+          "style": "default",
+          "file": "vault/reactbits-free/components/choice-dial/variants/ts-css/ChoiceDial.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5d8970ed0655a52158a2a82628494db7d2dcb772a206e717e8c54d76aa1a9618"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "OptionWheel-TS-TW",
+      "path": "vault/reactbits-free/components/choice-dial/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/choice-dial/variants/ts-tw/ChoiceDial.tsx",
+          "bytes": 11262,
+          "sha256": "5e5592ad9d92441b55fbd89e1f4fb7225f4bd42207970eacf24c2368963dbd41"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ChoiceDial",
+          "style": "default",
+          "file": "vault/reactbits-free/components/choice-dial/variants/ts-tw/ChoiceDial.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bd156f687ae5ea7a5f9321a0fc18fc8f665feaf73e7c3f5c1f4698434468c8cb"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ChoiceDial",
+      "style": "default",
+      "file": "vault/reactbits-free/components/choice-dial/variants/ts-tw/ChoiceDial.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/choice-dial",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/OptionWheel-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/option-wheel"
+  },
+  "hash": "2f6c30af9b985635854e603015999f055a873f6ceff87e2537fe9a3f71c4ae1f",
+  "fetchedAt": "2026-08-14T05:36:11.427Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ChoiceDial",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "option-wheel",
+  "upstreamName": "OptionWheel"
+}

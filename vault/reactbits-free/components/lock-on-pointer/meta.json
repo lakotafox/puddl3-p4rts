@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/lock-on-pointer",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "lock-on-pointer",
+  "name": "LockOnPointer",
+  "title": "Lock-On Pointer",
+  "description": "A cursor follow animation with 4 corners that lock onto targets.",
+  "tags": [
+    "cursor",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "TargetCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/lock-on-pointer/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/js-css/LockOnPointer.css",
+          "bytes": 940,
+          "sha256": "cc7c0dd27a646902f7013f69c3e978b28ac69299a7ddffd502b7d45e2c33436d"
+        },
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/js-css/LockOnPointer.jsx",
+          "bytes": 13749,
+          "sha256": "d0aa13c74ef278e3de2d875ad116d9bd30d83c5c6a9200505ff20bae93c19526"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LockOnPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lock-on-pointer/variants/js-css/LockOnPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "59e6c14dc237a84b9adec0bf35d49e36bbcec3a4e198f476f85cfb593c260737"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "TargetCursor-JS-TW",
+      "path": "vault/reactbits-free/components/lock-on-pointer/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/js-tw/LockOnPointer.jsx",
+          "bytes": 14319,
+          "sha256": "7ab29249b8d25a57bed0169cd1521184652f67eab345dea7866617bffa4e815f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LockOnPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lock-on-pointer/variants/js-tw/LockOnPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e42b8000898f38d47bbfcc1d38ab51d63e4b24b9ddd091b3075bb6d0c2a0ffe0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "TargetCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/lock-on-pointer/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/ts-css/LockOnPointer.css",
+          "bytes": 940,
+          "sha256": "cc7c0dd27a646902f7013f69c3e978b28ac69299a7ddffd502b7d45e2c33436d"
+        },
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/ts-css/LockOnPointer.tsx",
+          "bytes": 14609,
+          "sha256": "4364256466a543388327b4915eccd50baebe91bbe147c88df9c2f29fea73f4f1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LockOnPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lock-on-pointer/variants/ts-css/LockOnPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4cb0e931033512ffd8546afb1b19d51127735fc67c08c4e3af1bb5652dc6a275"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "TargetCursor-TS-TW",
+      "path": "vault/reactbits-free/components/lock-on-pointer/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lock-on-pointer/variants/ts-tw/LockOnPointer.tsx",
+          "bytes": 15104,
+          "sha256": "7a12d3b05e7ba404034f6aa4a360a902500a779c65a8f24ced65e7246721e1ac"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LockOnPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lock-on-pointer/variants/ts-tw/LockOnPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d78ddbd0e1f495532c218db8b356d7ccc65a1f1151698ba0837485329c35b9b7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LockOnPointer",
+      "style": "default",
+      "file": "vault/reactbits-free/components/lock-on-pointer/variants/ts-tw/LockOnPointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/lock-on-pointer",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/TargetCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/target-cursor"
+  },
+  "hash": "4673cbe9e1ba54bbdbead0a56a8f4078fdebc273a7eb86cac07cb3cdff8b6b59",
+  "fetchedAt": "2026-08-14T05:36:11.470Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LockOnPointer",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "target-cursor",
+  "upstreamName": "TargetCursor"
+}

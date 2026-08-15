@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/billing-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "billing-3",
+  "name": "billing-3",
+  "title": "Billing 3",
+  "description": "New invoice wizard with a step indicator, customer details, and payment terms.",
+  "tags": [
+    "billing",
+    "invoices",
+    "subscriptions",
+    "plans",
+    "payments",
+    "usage"
+  ],
+  "tagSource": "upstream",
+  "category": "billing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "billing-3",
+      "path": "vault/reactbits-pro/blocks/billing-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/billing-3/files/billing-3.tsx",
+          "bytes": 24550,
+          "sha256": "1452a7e8ec534cebb6f44bcbdeaee0fbee7478d7920df8d4986faf9a32284ba4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Billing3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/billing-3/files/billing-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6ae0dd39ee40cf5099956ff0663b42b203d3ca98c5633b4e64203137de4369cc"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Billing3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/billing-3/files/billing-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/billing-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/billing-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a40f5d5598a7f4dabe37c2bc80e6ea1d1c8a853ae7f110f8a8c1b523e7238ec3",
+  "fetchedAt": "2026-08-14T05:42:57.838Z",
+  "vaultVersion": 1
+}

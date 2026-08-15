@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-8",
+  "name": "ecommerce-8",
+  "title": "Ecommerce 8",
+  "description": "Object product page with crossfading gallery, layout-animated finish swatches, tabular spec sheet, and quantity-aware add to bag.",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-8",
+      "path": "vault/reactbits-pro/blocks/ecommerce-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-8/files/ecommerce-8.tsx",
+          "bytes": 10675,
+          "sha256": "002b7b8d61048b2de2d14b4e619fa2ea4ce732e8eeb0f06de549716946b5e6c0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-8/files/ecommerce-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d913e7ae8142c93322e74ca86848f3712820aec287f7eff386a84f5a40e02e3a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-8/files/ecommerce-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "83ab4defc6d4803a2fa7457dc8c6c4cc68c764126328e5e72482e088abdda21f",
+  "fetchedAt": "2026-08-14T05:45:57.760Z",
+  "vaultVersion": 1
+}

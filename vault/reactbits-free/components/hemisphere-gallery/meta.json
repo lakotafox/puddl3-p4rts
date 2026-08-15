@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/hemisphere-gallery",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "hemisphere-gallery",
+  "name": "HemisphereGallery",
+  "title": "Hemisphere Gallery",
+  "description": "Immersive 3D dome gallery projecting images on a hemispheric surface.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DomeGallery-JS-CSS",
+      "path": "vault/reactbits-free/components/hemisphere-gallery/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/js-css/HemisphereGallery.css",
+          "bytes": 4106,
+          "sha256": "34d0df55960bb97d5546c97a8901291012c655893c84a8fb13b2ec0c9a97c2f5"
+        },
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/js-css/HemisphereGallery.jsx",
+          "bytes": 24873,
+          "sha256": "287ccf1e4b78d2d63b3cc5a3b48e49c5c507180fe286ea3edefec0892c470ed6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@use-gesture/react",
+          "range": "^10.2.27"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HemisphereGallery",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hemisphere-gallery/variants/js-css/HemisphereGallery.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8923cf3b1297727a3b27cbe6640ec34a1148ed2d956bcc798132718fd552190d"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DomeGallery-JS-TW",
+      "path": "vault/reactbits-free/components/hemisphere-gallery/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/js-tw/HemisphereGallery.jsx",
+          "bytes": 32177,
+          "sha256": "374c21a6831dd79dec4f8ac12cc966e0cb8a6cbeb4230aebc4922ced22406b12"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@use-gesture/react",
+          "range": "^10.2.27"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HemisphereGallery",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hemisphere-gallery/variants/js-tw/HemisphereGallery.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d57ca7bf012ef5f2dcc7164bff7f61de9c005669f9f36f0b8ebff409e8f29e9a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DomeGallery-TS-CSS",
+      "path": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-css/HemisphereGallery.css",
+          "bytes": 4106,
+          "sha256": "34d0df55960bb97d5546c97a8901291012c655893c84a8fb13b2ec0c9a97c2f5"
+        },
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-css/HemisphereGallery.tsx",
+          "bytes": 26524,
+          "sha256": "d342fdfb4a9bff6a6ab796a5def0a0437cf7598b4789fbd33446ca578025b446"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@use-gesture/react",
+          "range": "^10.2.27"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HemisphereGallery",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-css/HemisphereGallery.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "20fa3bff8232e26cf5da60f9537cbb917e92dbfc6d9b3c2a843168495e87b9e1"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DomeGallery-TS-TW",
+      "path": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-tw/HemisphereGallery.tsx",
+          "bytes": 33746,
+          "sha256": "a3997a0c19f60e226a823871d286d504e98aa623572df8b0cbd24891f7b98410"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@use-gesture/react",
+          "range": "^10.2.27"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HemisphereGallery",
+          "style": "default",
+          "file": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-tw/HemisphereGallery.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6e3699fc6626aeab07f4ee1eaf9876856c86c942cf3f51b56b07db8993e6e947"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@use-gesture/react",
+      "range": "^10.2.27"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HemisphereGallery",
+      "style": "default",
+      "file": "vault/reactbits-free/components/hemisphere-gallery/variants/ts-tw/HemisphereGallery.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/hemisphere-gallery",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DomeGallery-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dome-gallery"
+  },
+  "hash": "c4f06deb885165bbafbcf4ccfe6cb96a2150010e089d5401256d7cbcd05112e0",
+  "fetchedAt": "2026-08-14T05:36:11.366Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "HemisphereGallery",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dome-gallery",
+  "upstreamName": "DomeGallery"
+}

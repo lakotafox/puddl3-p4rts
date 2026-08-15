@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/comparison-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comparison-6",
+  "name": "comparison-6",
+  "title": "Comparison 6",
+  "description": "An editorial two-column panel trading the usual stack for the product line by line, with ban/check chips and a footer link.",
+  "tags": [
+    "comparison",
+    "features",
+    "pricing"
+  ],
+  "tagSource": "upstream",
+  "category": "comparison",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comparison-6",
+      "path": "vault/reactbits-pro/blocks/comparison-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comparison-6/files/comparison-6.tsx",
+          "bytes": 7433,
+          "sha256": "058fb7a4fda0a203cdbe3cb29241a4f6e09426b389f06809058fe7f584a4ed27"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comparison6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comparison-6/files/comparison-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ab243e070e6fda77a21d1bf2a7a5ba9c7051c67f006b4fde217bf4a1bdab0cd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comparison6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comparison-6/files/comparison-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comparison-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comparison-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "45458d6867e41dfe9ebc4ba330e7b1b7032b386e107956e9f5b6d5e1e8ce2dca",
+  "fetchedAt": "2026-08-14T05:44:16.195Z",
+  "vaultVersion": 1
+}

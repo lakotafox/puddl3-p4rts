@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/blob-fusion",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "blob-fusion",
+  "name": "BlobFusion",
+  "title": "Blob Fusion",
+  "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation.",
+  "tags": [
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "MetaBalls-JS-CSS",
+      "path": "vault/reactbits-free/components/blob-fusion/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/js-css/BlobFusion.css",
+          "bytes": 78,
+          "sha256": "f2c012a7d94b527810073410b7e13d25ba2bee3c0077a167c946bf89d6bccab0"
+        },
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/js-css/BlobFusion.jsx",
+          "bytes": 8565,
+          "sha256": "dd6a9166f271b23ed8f688a016511174399cd5a203398127cb491dbc2e217d86"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlobFusion",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blob-fusion/variants/js-css/BlobFusion.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "66e500e85588bfcf1883dbc84e53da2cebc8d8ff12784e577c7552d537a1add7"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "MetaBalls-JS-TW",
+      "path": "vault/reactbits-free/components/blob-fusion/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/js-tw/BlobFusion.jsx",
+          "bytes": 8509,
+          "sha256": "618a287eb45ee7a2210e4ea92af305a7548507caaea78950a90a7af048cb7ba2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlobFusion",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blob-fusion/variants/js-tw/BlobFusion.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2a10c0c5f685b15b5a3c75a55cee54f3b57930f98ae217b619c4c58aaa4cd386"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "MetaBalls-TS-CSS",
+      "path": "vault/reactbits-free/components/blob-fusion/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/ts-css/BlobFusion.css",
+          "bytes": 78,
+          "sha256": "f2c012a7d94b527810073410b7e13d25ba2bee3c0077a167c946bf89d6bccab0"
+        },
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/ts-css/BlobFusion.tsx",
+          "bytes": 9243,
+          "sha256": "4a19481474a29e3ea5f98eb957695eade2f8c70611eb48af4b6657bf1a3d8647"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlobFusion",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blob-fusion/variants/ts-css/BlobFusion.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3395b3cdbfe05115647127b9afe7a34da0c1cf93aa21d7ff0fc19a7543bf2b14"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "MetaBalls-TS-TW",
+      "path": "vault/reactbits-free/components/blob-fusion/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/blob-fusion/variants/ts-tw/BlobFusion.tsx",
+          "bytes": 9220,
+          "sha256": "6385c3508d6ec6c3f90ef6690da9765ceab1b0ed98c139978e351cc867282098"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlobFusion",
+          "style": "default",
+          "file": "vault/reactbits-free/components/blob-fusion/variants/ts-tw/BlobFusion.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe0fabeca248a8c7ea4dc20509618cb32688596595f969c501902924ecc2e944"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BlobFusion",
+      "style": "default",
+      "file": "vault/reactbits-free/components/blob-fusion/variants/ts-tw/BlobFusion.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/blob-fusion",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/MetaBalls-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/meta-balls"
+  },
+  "hash": "d2a5ef58996a035d4574d1fcea0bfc7d4fa2b24a65bb1b8e2cc50bceccada1f3",
+  "fetchedAt": "2026-08-14T05:36:11.421Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BlobFusion",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "meta-balls",
+  "upstreamName": "MetaBalls"
+}

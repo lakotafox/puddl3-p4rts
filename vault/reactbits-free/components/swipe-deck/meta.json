@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/swipe-deck",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "swipe-deck",
+  "name": "SwipeDeck",
+  "title": "Swipe Deck",
+  "description": "Layered stack with swipe animations, autoplay and smooth transitions.",
+  "tags": [
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Stack-JS-CSS",
+      "path": "vault/reactbits-free/components/swipe-deck/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/js-css/SwipeDeck.css",
+          "bytes": 614,
+          "sha256": "a35777a64ea893c92fd1d3e4856539912333962ff51801d2432ddc62382c1789"
+        },
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/js-css/SwipeDeck.jsx",
+          "bytes": 5102,
+          "sha256": "0c0f2e2d554a17185207f04738d111e77023e3cf0778e9aa3f58a80652349f26"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-deck/variants/js-css/SwipeDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "28638953f6faaaf0fe5339c8065039413ac4473c82ecf7e825325f716d8066c3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Stack-JS-TW",
+      "path": "vault/reactbits-free/components/swipe-deck/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/js-tw/SwipeDeck.jsx",
+          "bytes": 5345,
+          "sha256": "c76fc99557c7c1c765d2510dc5cea60382392274613cb513414d813fe45a9c91"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-deck/variants/js-tw/SwipeDeck.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3b49ee0207c31f75cbaec3d25c551d21861d1c5671d0b700f81151755caaefee"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Stack-TS-CSS",
+      "path": "vault/reactbits-free/components/swipe-deck/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/ts-css/SwipeDeck.css",
+          "bytes": 614,
+          "sha256": "a35777a64ea893c92fd1d3e4856539912333962ff51801d2432ddc62382c1789"
+        },
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/ts-css/SwipeDeck.tsx",
+          "bytes": 5719,
+          "sha256": "0ec6c0b2f563107b4b9289bd2c881f74077ac2c92d989c805dfc21e74a2fb45b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-deck/variants/ts-css/SwipeDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef9b3bc762e4b435d1cd0ed4768d084e3d139348f7dd08481a311e42c792f235"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Stack-TS-TW",
+      "path": "vault/reactbits-free/components/swipe-deck/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/swipe-deck/variants/ts-tw/SwipeDeck.tsx",
+          "bytes": 5962,
+          "sha256": "d963bea3ed3faf1ae3f8dd4a7e1c4be154d4afdc5ac73340e111b4a02dbcdf8c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SwipeDeck",
+          "style": "default",
+          "file": "vault/reactbits-free/components/swipe-deck/variants/ts-tw/SwipeDeck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "420d854214faaed9d045fc20ce010a4000270be4d2be35ed47107ce1cbc69528"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SwipeDeck",
+      "style": "default",
+      "file": "vault/reactbits-free/components/swipe-deck/variants/ts-tw/SwipeDeck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/swipe-deck",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Stack-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/stack"
+  },
+  "hash": "c206c00872edd0e6542aca3dbf7ffbf9bb38101abc43b508d5d33ac34568aff8",
+  "fetchedAt": "2026-08-14T05:36:11.462Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SwipeDeck",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "stack",
+  "upstreamName": "Stack"
+}

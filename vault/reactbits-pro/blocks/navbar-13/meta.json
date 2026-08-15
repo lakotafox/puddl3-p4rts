@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navbar-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navbar-13",
+  "name": "navbar-13",
+  "title": "Navbar 13",
+  "description": "Centred-logo navbar with split links and a staggered full-screen overlay menu.",
+  "tags": [
+    "navbar",
+    "navigation",
+    "header",
+    "menu",
+    "dropdown",
+    "mega menu",
+    "breadcrumb",
+    "tabs",
+    "mobile"
+  ],
+  "tagSource": "upstream",
+  "category": "navbar",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navbar-13",
+      "path": "vault/reactbits-pro/blocks/navbar-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navbar-13/files/navbar-13.tsx",
+          "bytes": 9709,
+          "sha256": "29072c00eebaf5a58f59f14bec54a7fbf3ff93fafe0ada8c83800a9546fc076d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navbar-13/files/navbar-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ebf59017ec6a10d3a5f5329c0378a53364ac4018bae61e0213a737247bc5780"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navbar13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navbar-13/files/navbar-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navbar-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navbar-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6c8826031ddf76e3b39047a6dfcb3024705401bdf89e1f837e408caef2d801b3",
+  "fetchedAt": "2026-08-14T05:49:46.406Z",
+  "vaultVersion": 1
+}

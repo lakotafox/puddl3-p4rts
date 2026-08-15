@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/integrations-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "integrations-1",
+  "name": "integrations-1",
+  "title": "Integrations 1",
+  "description": "Integration marketplace grid with category tabs, search, connect toggles, and an empty state.",
+  "tags": [
+    "integrations",
+    "api keys",
+    "webhooks",
+    "oauth",
+    "connections"
+  ],
+  "tagSource": "upstream",
+  "category": "integrations",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "integrations-1",
+      "path": "vault/reactbits-pro/blocks/integrations-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/integrations-1/files/integrations-1.tsx",
+          "bytes": 10611,
+          "sha256": "5015abdf412ba79078772b5e605a3294edb36bb2d65ec4f34b31c25e641bd4bf"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Integrations1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/integrations-1/files/integrations-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cc5e105368fee8bc5eb5d71fa6cad4b6a58ae9120c31c25ec8807956ee0440cc"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Integrations1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/integrations-1/files/integrations-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/integrations-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/integrations-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e9775fde77b63c1d0a11f71249b7f34443e1749086b241e8dc7b98a045478877",
+  "fetchedAt": "2026-08-14T05:48:42.186Z",
+  "vaultVersion": 1
+}

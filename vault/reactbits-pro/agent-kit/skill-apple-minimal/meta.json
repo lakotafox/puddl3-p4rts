@@ -1,0 +1,77 @@
+{
+  "id": "rb-pro/skill/skill-apple-minimal",
+  "source": "rb-pro",
+  "kind": "skill",
+  "slug": "skill-apple-minimal",
+  "name": "skill-apple-minimal",
+  "title": "Apple Minimal",
+  "description": "Build product landing pages with Apple's restraint: one idea per viewport, a giant type scale, generous negative space, and the product as the only hero.",
+  "tags": [
+    "skill",
+    "product",
+    "apple",
+    "minimal",
+    "typography",
+    "hardware",
+    "restraint"
+  ],
+  "tagSource": "upstream",
+  "category": "skill",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "skill-apple-minimal",
+      "path": "vault/reactbits-pro/agent-kit/skill-apple-minimal/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-apple-minimal/files/SKILL.md",
+          "bytes": 24507,
+          "sha256": "5dc4f69466848b259e08a633231035a852b76b1aefa1d163a753dc9f590fb5fb"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/skill-apple-minimal/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "d7c0545fd5ed13cbcd9d8c071e42f38f70fb22792ef19ea6c08ac5850953bdd4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": "v4",
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/skill-apple-minimal",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/skill-apple-minimal.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a9ef96e821dd3e53f26b216afb21ec28fa624cef0e47ce4d3e569007d8e758f0",
+  "fetchedAt": "2026-08-14T05:54:54.458Z",
+  "vaultVersion": 1
+}

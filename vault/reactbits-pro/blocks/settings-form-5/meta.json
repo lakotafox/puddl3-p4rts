@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/settings-form-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "settings-form-5",
+  "name": "settings-form-5",
+  "title": "Settings Form 5",
+  "description": "API keys and integrations with reveal, copy, rotate, and revoke actions.",
+  "tags": [
+    "forms",
+    "settings",
+    "preferences",
+    "profile",
+    "account"
+  ],
+  "tagSource": "upstream",
+  "category": "forms",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "settings-form-5",
+      "path": "vault/reactbits-pro/blocks/settings-form-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/settings-form-5/files/settings-form-5.tsx",
+          "bytes": 22752,
+          "sha256": "9f457cea7501a61292cc3f1a90a6d35aee581c63ceb6f31d54923748e9a5db42"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SettingsForm5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/settings-form-5/files/settings-form-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e98f0408cbfe698568e2ed5369fb489fde190e23f87b343bccee4ff2efc0ea58"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SettingsForm5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/settings-form-5/files/settings-form-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/settings-form-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/settings-form-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1ebb48861aa4aa35e2d644d99b357a42774eb0b2e8637ce1a4da20e2233e6295",
+  "fetchedAt": "2026-08-14T05:54:39.343Z",
+  "vaultVersion": 1
+}

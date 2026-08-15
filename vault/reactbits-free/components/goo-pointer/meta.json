@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/goo-pointer",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "goo-pointer",
+  "name": "GooPointer",
+  "title": "Goo Pointer",
+  "description": "Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing.",
+  "tags": [
+    "cursor",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "BlobCursor-JS-CSS",
+      "path": "vault/reactbits-free/components/goo-pointer/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/js-css/GooPointer.css",
+          "bytes": 407,
+          "sha256": "0e576404ed356333dddb3942f34365c1117cc56dde792522c80ed8cdb840c9d6"
+        },
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/js-css/GooPointer.jsx",
+          "bytes": 3429,
+          "sha256": "d2a08d3af3c80a8c63cedd869308f7ab3baf5925131742995b0de8129d9988c7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GooPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/goo-pointer/variants/js-css/GooPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "895e83442a1a3b4183bf972e68b66c8efcb54dca130818436b254af18e71cae2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "BlobCursor-JS-TW",
+      "path": "vault/reactbits-free/components/goo-pointer/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/js-tw/GooPointer.jsx",
+          "bytes": 3558,
+          "sha256": "67a3a29bc74a4afbc8a6e7553191c9e5094cfc2d5e3c27f5eb06c70d65ea59b6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GooPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/goo-pointer/variants/js-tw/GooPointer.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7f41e90ec9cdd26555f930605771cf1df44d55671602f5f84cf6aa89d6081fdb"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "BlobCursor-TS-CSS",
+      "path": "vault/reactbits-free/components/goo-pointer/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/ts-css/GooPointer.css",
+          "bytes": 407,
+          "sha256": "0e576404ed356333dddb3942f34365c1117cc56dde792522c80ed8cdb840c9d6"
+        },
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/ts-css/GooPointer.tsx",
+          "bytes": 4097,
+          "sha256": "f2b79bcfd588b558b13b5a5ca0e86a9b88fddf389ffb56dd3865cd9b4f33d668"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GooPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/goo-pointer/variants/ts-css/GooPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bce132a710ac309eccec7431c6c936854318500436d1f844677feeacc4d110e0"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "BlobCursor-TS-TW",
+      "path": "vault/reactbits-free/components/goo-pointer/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/goo-pointer/variants/ts-tw/GooPointer.tsx",
+          "bytes": 4226,
+          "sha256": "bfee01fd73c4d66f6beae1e55b57e462486d7a00b94904f5746bb2250d1efaf3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GooPointer",
+          "style": "default",
+          "file": "vault/reactbits-free/components/goo-pointer/variants/ts-tw/GooPointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dcc4ceaa30b4eae9599f5bccf83af23544263b240cef98ee04e58484399542ec"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GooPointer",
+      "style": "default",
+      "file": "vault/reactbits-free/components/goo-pointer/variants/ts-tw/GooPointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/goo-pointer",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/BlobCursor-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/blob-cursor"
+  },
+  "hash": "ef9c5229f8d15ffe114aed6034f35893937ea3e8a9aa4b9739760de00a254ad6",
+  "fetchedAt": "2026-08-14T05:36:11.339Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "GooPointer",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "blob-cursor",
+  "upstreamName": "BlobCursor"
+}

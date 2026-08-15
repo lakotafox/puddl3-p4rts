@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-7",
+  "name": "cta-7",
+  "title": "CTA 7",
+  "description": "Centered download CTA with serif headline, press awards row, and phone mockup",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-7",
+      "path": "vault/reactbits-pro/blocks/cta-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-7/files/cta-7.tsx",
+          "bytes": 3941,
+          "sha256": "0b69a73da1022f552cc10b3dc83063b158f30507dffed4e5193425e6682d2fe4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Cta7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-7/files/cta-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e49ed514ad9646d85730ef095ee9075780fba1c93e070699c264c1da1d7cd735"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Cta7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-7/files/cta-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "83bef3225699a7b6aa268114fbd0d3a6b7d520ec617c2aaeb0807142fec7b2a9",
+  "fetchedAt": "2026-08-14T05:44:54.713Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/breathing-matrix",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "breathing-matrix",
+  "name": "BreathingMatrix",
+  "title": "Breathing Matrix",
+  "description": "A dot matrix breathing around a drifting cloud of density",
+  "tags": [
+    "background",
+    "shader",
+    "dots",
+    "grid",
+    "webgl",
+    "ai"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "thinking-dots-css",
+      "path": "vault/reactbits-starter/components/breathing-matrix/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/breathing-matrix/variants/css/breathing-matrix.tsx",
+          "bytes": 18604,
+          "sha256": "cfe186a15e990b82c2602194297bb404df92f9fed7cbb52526698f368d26b1e6"
+        },
+        {
+          "path": "vault/reactbits-starter/components/breathing-matrix/variants/css/breathing-matrix.css",
+          "bytes": 218,
+          "sha256": "2a8153dc7804b3654aef32c138b3e8c1ba623653986a72e621c1fd625fab2ec6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BreathingMatrix",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/breathing-matrix/variants/css/breathing-matrix.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BreathingMatrix",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/breathing-matrix/variants/css/breathing-matrix.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4f9fb5d7aa5b34fc96b2e2b01523b417fc540739e28eb5c9f59cc3e26a3aadf5"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "thinking-dots-tw",
+      "path": "vault/reactbits-starter/components/breathing-matrix/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/breathing-matrix/variants/tw/breathing-matrix.tsx",
+          "bytes": 18580,
+          "sha256": "d44c57225ef797bf34127eec9e155eea0ae6c55d9a2049e6f49429324db75326"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BreathingMatrix",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/breathing-matrix/variants/tw/breathing-matrix.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BreathingMatrix",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/breathing-matrix/variants/tw/breathing-matrix.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a844bae619df550260ed10dccd352a0aa8f40ac40c1ae57c68d4b0a3dbe4fcb8"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BreathingMatrix",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/breathing-matrix/variants/tw/breathing-matrix.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/breathing-matrix",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/thinking-dots-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "b3f29eb8263605a76b32b8cd1b30672ed7f58ea4668d45e122ff85981e030342",
+  "fetchedAt": "2026-08-14T05:35:11.055Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "thinking-dots",
+  "upstreamName": "ThinkingDots"
+}

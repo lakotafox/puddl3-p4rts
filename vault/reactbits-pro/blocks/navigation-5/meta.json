@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navigation-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-5",
+  "name": "navigation-5",
+  "title": "Navigation 5",
+  "description": "Fixed bottom nav that expands upward with full menu and social links",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-5",
+      "path": "vault/reactbits-pro/blocks/navigation-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-5/files/navigation-5.tsx",
+          "bytes": 9349,
+          "sha256": "4d6aebe3728cd601eb433224fc344fe34c968c08ab8d5f66b972c244958f5151"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-5/files/navigation-5.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Navigation5",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/navigation-5/files/navigation-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c0e7db95e6e9f273c991fd340bffe87ffec96ddd28fe3c873c2c1f735298ff8e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-5/files/navigation-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f92bf7d53d7a5442756a5983c5dfd5d82529d1b84ce3a99d8ea14bed335e149e",
+  "fetchedAt": "2026-08-14T05:52:46.969Z",
+  "vaultVersion": 1
+}

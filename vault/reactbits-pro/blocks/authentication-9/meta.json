@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-9",
+  "name": "authentication-9",
+  "title": "Authentication 9",
+  "description": "Passkey sign-in with a device picker, a waiting state, and fallbacks to password or email link.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-9",
+      "path": "vault/reactbits-pro/blocks/authentication-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-9/files/authentication-9.tsx",
+          "bytes": 11904,
+          "sha256": "7495a2449092f14d7288d1deb3dfbcb5aeede650632bb8fed16c08d6bacd0d69"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-9/files/authentication-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ab1587901fbd3da2f2ed5d8c8c4888745698faa01e0f8f9a3e36b567bd3d78d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-9/files/authentication-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0c35054ad281ebf040ff778c45e920573b7a0b5997d532e8fde389b5fc22224f",
+  "fetchedAt": "2026-08-14T05:42:53.366Z",
+  "vaultVersion": 1
+}

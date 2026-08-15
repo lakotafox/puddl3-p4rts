@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/comparison-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "comparison-5",
+  "name": "comparison-5",
+  "title": "Comparison 5",
+  "description": "A cost-at-scale comparison table where savings deepen through an emerald heat ramp at each growth stage, with stacked cards on mobile.",
+  "tags": [
+    "comparison",
+    "features",
+    "pricing"
+  ],
+  "tagSource": "upstream",
+  "category": "comparison",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "comparison-5",
+      "path": "vault/reactbits-pro/blocks/comparison-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/comparison-5/files/comparison-5.tsx",
+          "bytes": 11010,
+          "sha256": "b99a019b49344858ef9f238c09e4531992e12ed3295ee430bb10762fc21afd9e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Comparison5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/comparison-5/files/comparison-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d6bb1eb431516b1466efe3b669428f77b272c212c0e325474377650c7af620a1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Comparison5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/comparison-5/files/comparison-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/comparison-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/comparison-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2471c52cad7c9eb38dc01a3bf37e76eabda64191d410446cbb6557fd8f875aa9",
+  "fetchedAt": "2026-08-14T05:44:14.638Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/warp-strings",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "warp-strings",
+  "name": "WarpStrings",
+  "title": "Warp Strings",
+  "description": "Animated line wave pattern with colorful warped distortion.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LineWaves-JS-CSS",
+      "path": "vault/reactbits-free/components/warp-strings/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/js-css/WarpStrings.css",
+          "bytes": 56,
+          "sha256": "c0ffea6715a2f4965e5a1cc60bd14971e5a8fb93a87bc950ec1450d1cfbe788c"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/js-css/WarpStrings.jsx",
+          "bytes": 7744,
+          "sha256": "66ce085d6913a6fd55c90045452459abdf11d11f9c8a4250080bc5e8d042789b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WarpStrings",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-strings/variants/js-css/WarpStrings.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3216588d25b39ec93696ece91bf3b807ae20ef2444db716078a70bafbcffa68b"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LineWaves-JS-TW",
+      "path": "vault/reactbits-free/components/warp-strings/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/js-tw/WarpStrings.jsx",
+          "bytes": 7711,
+          "sha256": "a7825845eda61ea785586b44d3e7a42c06bf8d449b39ca6491164a3958d8847a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WarpStrings",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-strings/variants/js-tw/WarpStrings.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "447ce3b103c5d47ad97fea988903f74ce0a3502a097db39d028e44857092120c"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LineWaves-TS-CSS",
+      "path": "vault/reactbits-free/components/warp-strings/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/ts-css/WarpStrings.css",
+          "bytes": 56,
+          "sha256": "c0ffea6715a2f4965e5a1cc60bd14971e5a8fb93a87bc950ec1450d1cfbe788c"
+        },
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/ts-css/WarpStrings.tsx",
+          "bytes": 8194,
+          "sha256": "9a47cee3c7e6a85292afe711677741928173bd62344e31e3ba16eeba3381f027"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WarpStrings",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-strings/variants/ts-css/WarpStrings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b68391f9111310e998b30536c75916bcb209dcddef894e26819bdaedec4a2d53"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LineWaves-TS-TW",
+      "path": "vault/reactbits-free/components/warp-strings/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/warp-strings/variants/ts-tw/WarpStrings.tsx",
+          "bytes": 8160,
+          "sha256": "f483ae3a3b66ce4eb4190d817a64b4daadde9342964c6f9782444acf40429b37"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WarpStrings",
+          "style": "default",
+          "file": "vault/reactbits-free/components/warp-strings/variants/ts-tw/WarpStrings.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "afb51faa9459bfc25762d137d9e0b28bef799690f991cff97c3e0794729d051d"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WarpStrings",
+      "style": "default",
+      "file": "vault/reactbits-free/components/warp-strings/variants/ts-tw/WarpStrings.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/warp-strings",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LineWaves-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/line-waves"
+  },
+  "hash": "f1ad617844abce46dcd8f4a24b088f69f43c92fe9d11278954b40dcf67413819",
+  "fetchedAt": "2026-08-14T05:36:11.412Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WarpStrings",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "line-waves",
+  "upstreamName": "LineWaves"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "rb-starter/component/bulge-tile",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "bulge-tile",
+  "name": "BulgeTile",
+  "title": "Bulge Tile",
+  "description": "Image card with mouse-following bulge distortion shader",
+  "tags": [
+    "shader",
+    "3d",
+    "card",
+    "hover"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "warped-card-css",
+      "path": "vault/reactbits-starter/components/bulge-tile/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bulge-tile/variants/css/bulge-tile.tsx",
+          "bytes": 8860,
+          "sha256": "84f0cbe4038bf3a1395a6370b132288d7faf4f3ecc9955b54e6e0ae5d2e78391"
+        },
+        {
+          "path": "vault/reactbits-starter/components/bulge-tile/variants/css/bulge-tile.css",
+          "bytes": 422,
+          "sha256": "2d9c0698642c00bcf16031d7602161dab2d995143a483b42005258c551b7760b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BulgeTile",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bulge-tile/variants/css/bulge-tile.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4d0b1b2c43387a313710f32e9d22096cd9785046fc1542619d8d6d91b85941a9"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "warped-card-tw",
+      "path": "vault/reactbits-starter/components/bulge-tile/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/bulge-tile/variants/tw/bulge-tile.tsx",
+          "bytes": 9010,
+          "sha256": "37881d4ddc42699ad85f8ead268062b810d45c2de897d928ed56edcb726b8be3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BulgeTile",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/bulge-tile/variants/tw/bulge-tile.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eb309849f7b1abefaf05ed0f468872154438ee45420246228e10816be1f26f83"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BulgeTile",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/bulge-tile/variants/tw/bulge-tile.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/bulge-tile",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/warped-card-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "343e6305e259aa443af9100e20b746699c24ea7942597dc0de1106c7d74d9225",
+  "fetchedAt": "2026-08-14T05:35:23.471Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "warped-card",
+  "upstreamName": "WarpedCard"
+}

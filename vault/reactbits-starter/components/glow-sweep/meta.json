@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/glow-sweep",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "glow-sweep",
+  "name": "GlowSweep",
+  "title": "Glow Sweep",
+  "description": "Realistic neon bar effect that sweeps across the container",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "neon-reveal-css",
+      "path": "vault/reactbits-starter/components/glow-sweep/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glow-sweep/variants/css/glow-sweep.tsx",
+          "bytes": 15380,
+          "sha256": "62030108116de932eb3f54350a0de1d00dae52803d124fa95931141b0828a6eb"
+        },
+        {
+          "path": "vault/reactbits-starter/components/glow-sweep/variants/css/glow-sweep.css",
+          "bytes": 351,
+          "sha256": "0f0555454940616638844067a31c139ff57fe440ce037f629f385982450d2b08"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glow-sweep/variants/css/glow-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "da275a8a28cc31ff7a8b9583a46604320b6727a96b37d0d9ef234897cd04f620"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "neon-reveal-tw",
+      "path": "vault/reactbits-starter/components/glow-sweep/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/glow-sweep/variants/tw/glow-sweep.tsx",
+          "bytes": 15635,
+          "sha256": "c7886aa7b61c54abb0f7f9ceb2189924aafba5042fbd3104374882fa6234630d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/glow-sweep/variants/tw/glow-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "56a63aba77ac5e42dd6e4b7969365fa560262c9dee7835fc995540d6d4d0e563"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlowSweep",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/glow-sweep/variants/tw/glow-sweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/glow-sweep",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/neon-reveal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "602e23c19a35d1a204fbc9da92936389c55d217d3307ffae54ac6100f0fe6b98",
+  "fetchedAt": "2026-08-14T05:33:39.679Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "neon-reveal",
+  "upstreamName": "NeonReveal"
+}

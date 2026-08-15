@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-4",
+  "name": "card-4",
+  "title": "Card 4",
+  "description": "Agenda cards led by a square date panel, with attendees and an inline RSVP row.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-4",
+      "path": "vault/reactbits-pro/blocks/card-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-4/files/card-4.tsx",
+          "bytes": 6569,
+          "sha256": "82b4ccda8b33bfd878bec8d2a1641148643dae9135b7b98670bf4f65ca0d4116"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-4/files/card-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7593012c8ae4ac78753f90f757c16e1509beabf6de63c671b51a025201eb6ab9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-4/files/card-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5d082905e040590a89bed6af351c34e1930963b9d05dc2571cddfce98a4a82dc",
+  "fetchedAt": "2026-08-14T05:43:32.039Z",
+  "vaultVersion": 1
+}

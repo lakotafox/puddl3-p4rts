@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/dashboard-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-7",
+  "name": "dashboard-7",
+  "title": "Dashboard 7",
+  "description": "Dashboard showing loading skeletons and a first-run empty project state.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-7",
+      "path": "vault/reactbits-pro/blocks/dashboard-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-7/files/dashboard-7.tsx",
+          "bytes": 12769,
+          "sha256": "bdcb4876e75412bf56d531c0e0dd6ac2e1a44085e89b0039fedabef0155d0e5a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dashboard7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-7/files/dashboard-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "13e8a05123c4dfdb2b777459f89cc220ea248b6556e873d5fe9b93d441b497bc"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-7/files/dashboard-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "41334b99435dd03a9bb13af851e5f6ca92b15803a68d8b648bc07234591675b1",
+  "fetchedAt": "2026-08-14T05:45:16.041Z",
+  "vaultVersion": 1
+}

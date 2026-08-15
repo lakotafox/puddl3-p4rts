@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/app-shell-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-shell-1",
+  "name": "app-shell-1",
+  "title": "App Shell 1",
+  "description": "Sidebar with collapsible nav groups, a breadcrumb header, and an overview screen of metrics and records.",
+  "tags": [
+    "shell",
+    "layout",
+    "navigation",
+    "sidebar",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "shell",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-shell-1",
+      "path": "vault/reactbits-pro/blocks/app-shell-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-shell-1/files/app-shell-1.tsx",
+          "bytes": 37355,
+          "sha256": "116e0015dd208a8d5f31986ef08adfd6d20add04a8b47a8b0feb97b15387f090"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppShell1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-shell-1/files/app-shell-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3d6752078b41506fd7f0dea5b500a1ab08017e40d8a97652fd6a305d7debddb3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppShell1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-shell-1/files/app-shell-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-shell-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-shell-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "60a2e1a442472b3336bc561b27dbca393d50989f6f7a2213f1ae787712ec395b",
+  "fetchedAt": "2026-08-14T05:37:28.278Z",
+  "vaultVersion": 1
+}

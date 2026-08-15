@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/scheduling-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "scheduling-5",
+  "name": "scheduling-5",
+  "title": "Scheduling 5",
+  "description": "Weekly availability editor with per-day switches and multiple bookable intervals.",
+  "tags": [
+    "scheduling",
+    "calendar",
+    "availability",
+    "booking",
+    "time"
+  ],
+  "tagSource": "upstream",
+  "category": "scheduling",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "scheduling-5",
+      "path": "vault/reactbits-pro/blocks/scheduling-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/scheduling-5/files/scheduling-5.tsx",
+          "bytes": 11644,
+          "sha256": "8f19d1ba1852ff2c21f196fcdd16e4ca6ab3ed1ad672983a6afac4a6447d83db"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Scheduling5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/scheduling-5/files/scheduling-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fcd3a4b34826c88a3fc170b8f22d528b3509547c5641a38620203ca4f3feb037"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Scheduling5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/scheduling-5/files/scheduling-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/scheduling-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/scheduling-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6b6676686ab5b849b887e6b383425add3c320501455a67097d5919852fcedd48",
+  "fetchedAt": "2026-08-14T05:54:28.874Z",
+  "vaultVersion": 1
+}

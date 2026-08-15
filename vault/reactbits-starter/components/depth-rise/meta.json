@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/depth-rise",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "depth-rise",
+  "name": "DepthRise",
+  "title": "Depth Rise",
+  "description": "Scroll-triggered 3D text animation with GSAP",
+  "tags": [
+    "animation",
+    "text",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "3d-text-reveal-css",
+      "path": "vault/reactbits-starter/components/depth-rise/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/depth-rise/variants/css/depth-rise.tsx",
+          "bytes": 4170,
+          "sha256": "c05b57cccfd2556bbc39ddbebfb292bac95d7165bc9ee66db85385be87eddc52"
+        },
+        {
+          "path": "vault/reactbits-starter/components/depth-rise/variants/css/depth-rise.css",
+          "bytes": 540,
+          "sha256": "01c2652608fb4633826d279e14f192bb5d74c243e6bcd8694af1408bb1679cec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DepthRise",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/depth-rise/variants/css/depth-rise.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "810e28630f49d690a1b5677c951128a615a1fa8a7168c239c3321b0beb51aef8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "3d-text-reveal-tw",
+      "path": "vault/reactbits-starter/components/depth-rise/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/depth-rise/variants/tw/depth-rise.tsx",
+          "bytes": 4490,
+          "sha256": "88b3dd1a02de7c9607b80f4b15d7282af092ce0290cf11ce5312de79a4248ce8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DepthRise",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/depth-rise/variants/tw/depth-rise.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4228ca9f3208175d31443564717e7dedf3961a5b8644d986d84535b86a95ff10"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "*"
+    },
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DepthRise",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/depth-rise/variants/tw/depth-rise.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/depth-rise",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/3d-text-reveal-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a40c36c0d130d48fdef60f1504eaebcac00b37f1e217aac62e7ca06727a4333b",
+  "fetchedAt": "2026-08-14T05:31:29.504Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "3d-text-reveal",
+  "upstreamName": "ThreeDTextReveal"
+}

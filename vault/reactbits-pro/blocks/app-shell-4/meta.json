@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-shell-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-shell-4",
+  "name": "app-shell-4",
+  "title": "App Shell 4",
+  "description": "Three-column frame with a toggleable context panel that runs alongside the main content.",
+  "tags": [
+    "shell",
+    "layout",
+    "navigation",
+    "sidebar",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "shell",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-shell-4",
+      "path": "vault/reactbits-pro/blocks/app-shell-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-shell-4/files/app-shell-4.tsx",
+          "bytes": 40444,
+          "sha256": "8584d0bce41eed666430cec0c156df80f29908d61e0807d9af030311f1d656dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppShell4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-shell-4/files/app-shell-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "35943084b7133639aa78d0e4487d0a82b92a568cb8cfe4b032838dfb8847a2f9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppShell4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-shell-4/files/app-shell-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-shell-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-shell-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d22716b52ccab7796802c402fa18af652d00ed8bc2c32b1a04074dfa8abd20cd",
+  "fetchedAt": "2026-08-14T05:37:32.906Z",
+  "vaultVersion": 1
+}

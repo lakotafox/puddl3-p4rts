@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/ring-reel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ring-reel",
+  "name": "RingReel",
+  "title": "Ring Reel",
+  "description": "Circular orbit gallery rotating images.",
+  "tags": [
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CircularGallery-JS-CSS",
+      "path": "vault/reactbits-free/components/ring-reel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/js-css/RingReel.css",
+          "bytes": 226,
+          "sha256": "ca7afc8e04f6309903436d421d8e6e010828838edebda43f592107ce3c72fe4d"
+        },
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/js-css/RingReel.jsx",
+          "bytes": 21272,
+          "sha256": "a605312f944daaf95878a1946e48d129ed61619537f08cd86c57277bced864d2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RingReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ring-reel/variants/js-css/RingReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "29d54df9c86acbf32c66e8f733f66bbefc187b6750576eec5d40dfb0e3d01bae"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CircularGallery-JS-TW",
+      "path": "vault/reactbits-free/components/ring-reel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/js-tw/RingReel.jsx",
+          "bytes": 21232,
+          "sha256": "9063738cf4542b44716411da1d54d6c0a446614b6578dbde08211857af6fc179"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RingReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ring-reel/variants/js-tw/RingReel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5d828650e57ceba778391a6f20fccb18546ec040afa01e523c8537ddfd930f89"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CircularGallery-TS-CSS",
+      "path": "vault/reactbits-free/components/ring-reel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/ts-css/RingReel.css",
+          "bytes": 226,
+          "sha256": "ca7afc8e04f6309903436d421d8e6e010828838edebda43f592107ce3c72fe4d"
+        },
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/ts-css/RingReel.tsx",
+          "bytes": 24883,
+          "sha256": "df992d36941449d49926c13966317c1e7b438bf994d4b8b82fee891b67f64cf8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RingReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ring-reel/variants/ts-css/RingReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "680936fd927b84f8d59c10a8c87aa18bfac692c7bb87374dea54abfd24aaf937"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CircularGallery-TS-TW",
+      "path": "vault/reactbits-free/components/ring-reel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ring-reel/variants/ts-tw/RingReel.tsx",
+          "bytes": 24954,
+          "sha256": "930b2a2cbd9bdbf42a0a32f8559c59af791f18f7c57c7769f66bd8e81d26f6c5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RingReel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ring-reel/variants/ts-tw/RingReel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "76eb9dc3c0ed94b49d068510ecb5d4a96a6bef634c643272f4406386751a3cd0"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RingReel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ring-reel/variants/ts-tw/RingReel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ring-reel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CircularGallery-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/circular-gallery"
+  },
+  "hash": "e56d0ae3003e2a3d281c806d4175c52ceacf95e6f3dbc94882e4f16f2f521b8b",
+  "fetchedAt": "2026-08-14T05:36:11.349Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RingReel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "circular-gallery",
+  "upstreamName": "CircularGallery"
+}

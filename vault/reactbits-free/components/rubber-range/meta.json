@@ -1,0 +1,225 @@
+{
+  "id": "rb-free/component/rubber-range",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "rubber-range",
+  "name": "RubberRange",
+  "title": "Rubber Range",
+  "description": "Slider handle stretches elastically then snaps with spring physics.",
+  "tags": [
+    "animation",
+    "motion",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ElasticSlider-JS-CSS",
+      "path": "vault/reactbits-free/components/rubber-range/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/js-css/RubberRange.css",
+          "bytes": 1139,
+          "sha256": "53db338d32cc8a872e99e7a8d720a7ba708af3164bf212fdcff0c765809c57e2"
+        },
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/js-css/RubberRange.jsx",
+          "bytes": 5442,
+          "sha256": "2f71d341992dcf477a5b00ba95c940fe95f0eac3455310a0619696f3ca89d55c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@chakra-ui/react",
+          "range": "^3.20.0"
+        },
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RubberRange",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rubber-range/variants/js-css/RubberRange.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "12d2a2ddd1d2624b6877241a9b2884290d7f373fb31bbf4798c72ae63b1fb078"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ElasticSlider-JS-TW",
+      "path": "vault/reactbits-free/components/rubber-range/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/js-tw/RubberRange.jsx",
+          "bytes": 5585,
+          "sha256": "6a8a9f081ba56b67fb6da5ac162541c815cb1d8d6d67dd178d89c48f2d7d1516"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RubberRange",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rubber-range/variants/js-tw/RubberRange.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c568dc03157fea7f1a1c91c6f1ebb3713ce1460b1e58059d53c4235c008ae9c1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ElasticSlider-TS-CSS",
+      "path": "vault/reactbits-free/components/rubber-range/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/ts-css/RubberRange.css",
+          "bytes": 1139,
+          "sha256": "53db338d32cc8a872e99e7a8d720a7ba708af3164bf212fdcff0c765809c57e2"
+        },
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/ts-css/RubberRange.tsx",
+          "bytes": 6201,
+          "sha256": "1a1e840bf70a108cab2e628e542e070ef73a2780226518abf22c3dc83b821282"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@chakra-ui/react",
+          "range": "^3.20.0"
+        },
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        },
+        {
+          "name": "react-icons",
+          "range": "^5.5.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RubberRange",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rubber-range/variants/ts-css/RubberRange.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e6505ad6f66f988e5ca0ad2186f1b6ac3d5ac1ee7eeec69355755d3a6a565a50"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ElasticSlider-TS-TW",
+      "path": "vault/reactbits-free/components/rubber-range/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/rubber-range/variants/ts-tw/RubberRange.tsx",
+          "bytes": 6345,
+          "sha256": "e0c79eb8e1bc4aa76514ce0cf0e70165156a4849e2fbce06500d709350a04bff"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RubberRange",
+          "style": "default",
+          "file": "vault/reactbits-free/components/rubber-range/variants/ts-tw/RubberRange.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ba116725010c1fc68fe1ba31dee345e6d0a8e9143df17bed2f5ba0e300bcd160"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@chakra-ui/react",
+      "range": "^3.20.0"
+    },
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    },
+    {
+      "name": "react-icons",
+      "range": "^5.5.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RubberRange",
+      "style": "default",
+      "file": "vault/reactbits-free/components/rubber-range/variants/ts-tw/RubberRange.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": [
+      "chakra"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/rubber-range",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ElasticSlider-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/elastic-slider"
+  },
+  "hash": "42d478de50064bb11fb58485cb9219b097126a65550a319b8f20ee6c6b9fe179",
+  "fetchedAt": "2026-08-14T05:36:11.372Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RubberRange",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "elastic-slider",
+  "upstreamName": "ElasticSlider"
+}

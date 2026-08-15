@@ -1,0 +1,78 @@
+{
+  "id": "rb-pro/prompt/prompt-fitness",
+  "source": "rb-pro",
+  "kind": "prompt",
+  "slug": "prompt-fitness",
+  "name": "prompt-fitness",
+  "title": "Fitness",
+  "description": "Build a fitness page that converts an emotional decision into a booked trial: transformation framing without unfounded claims, schedule UI that works on mobile, honest proof, and transparent pricing.",
+  "tags": [
+    "prompt",
+    "health",
+    "fitness",
+    "gym",
+    "coaching",
+    "membership",
+    "trial",
+    "conversion"
+  ],
+  "tagSource": "upstream",
+  "category": "prompt",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "prompt-fitness",
+      "path": "vault/reactbits-pro/agent-kit/prompt-fitness/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-fitness/files/PROMPT.md",
+          "bytes": 17731,
+          "sha256": "a14d0548f7cbb9c07f98825e9647e06308a9daa6408463cd06b73c0b4b4a357e"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/prompt-fitness/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "16dbc128f430665c437f7d88608775323b1d52eca9972681192494ddd2cec270"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/prompt-fitness",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/prompt-fitness.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6e0597b1d339decc1888272445f3dfb15b92aec098e62c32a3e15536e2e8dcf9",
+  "fetchedAt": "2026-08-14T05:54:03.410Z",
+  "vaultVersion": 1
+}

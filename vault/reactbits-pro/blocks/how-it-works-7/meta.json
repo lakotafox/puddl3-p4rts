@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/how-it-works-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-7",
+  "name": "how-it-works-7",
+  "title": "How It Works 7",
+  "description": "Sculptural four-step grid with oversized serif numerals orbiting a central arched image",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-7",
+      "path": "vault/reactbits-pro/blocks/how-it-works-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-7/files/how-it-works-7.tsx",
+          "bytes": 5827,
+          "sha256": "af91ae59ae467fba543dfe449782bf698174b26cc6cd81df10ef03e7d791145d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-7/files/how-it-works-7.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HowItWorks7",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/how-it-works-7/files/how-it-works-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "91f32ee30a679acafb761e2ebc3110276fd11e8e2faa568253d23ae88ba93865"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-7/files/how-it-works-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b8984f64293c5611ead169a8303018b04b84c2bb64e2373e046f34676220a165",
+  "fetchedAt": "2026-08-14T05:48:37.770Z",
+  "vaultVersion": 1
+}

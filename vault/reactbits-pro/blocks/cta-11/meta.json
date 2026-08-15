@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/cta-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "cta-11",
+  "name": "cta-11",
+  "title": "CTA 11",
+  "description": "Oversized neutral product-preview banner with layered reveal motion",
+  "tags": [
+    "cta",
+    "conversion",
+    "action",
+    "button"
+  ],
+  "tagSource": "upstream",
+  "category": "cta",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "cta-11",
+      "path": "vault/reactbits-pro/blocks/cta-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/cta-11/files/cta-11.tsx",
+          "bytes": 9075,
+          "sha256": "9f3c6975cc67f660759cd2f1751fcc2aa9c9557c24554a238a33c7cee84f4aca"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CTA11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/cta-11/files/cta-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "01fc0f171af90c5a427b00605bb30899508394e170a36792ba0e30334ab657a2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CTA11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/cta-11/files/cta-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/cta-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/cta-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "494d18527a3396863eaf6c221b36e849cdcacc996c85635bd08638ab5f5ac38a",
+  "fetchedAt": "2026-08-14T05:44:41.324Z",
+  "vaultVersion": 1
+}

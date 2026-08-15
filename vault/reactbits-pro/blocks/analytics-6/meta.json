@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-6",
+  "name": "analytics-6",
+  "title": "Analytics 6",
+  "description": "Ranked source list with a segmented composition bar and row sparklines.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-6",
+      "path": "vault/reactbits-pro/blocks/analytics-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-6/files/analytics-6.tsx",
+          "bytes": 13979,
+          "sha256": "fba7d0d2b42a38cf40f3237eb482fdb87b2425accda8e63fb1085e933907d421"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-6/files/analytics-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a93677ff823380422e9d932af1c21dbe35ff76b2c162d7625f2120753f8c8dbe"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-6/files/analytics-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7aa23a7b8b7afa7aa326675c2b5ff410f32879384324e98bcbd3dfc6d3fe894b",
+  "fetchedAt": "2026-08-14T05:37:11.876Z",
+  "vaultVersion": 1
+}

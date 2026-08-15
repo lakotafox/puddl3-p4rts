@@ -1,0 +1,112 @@
+{
+  "id": "rb-starter/component/parallax-panel",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "parallax-panel",
+  "name": "ParallaxPanel",
+  "title": "Parallax Panel",
+  "description": "Perspective depth effect that responds to mouse movement",
+  "tags": [
+    "card",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "depth-card-css",
+      "path": "vault/reactbits-starter/components/parallax-panel/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/parallax-panel/variants/css/parallax-panel.tsx",
+          "bytes": 11689,
+          "sha256": "f54eadcc9ab8f7eb94eb9caf7cb6ddab606fc7529a72afe0deeae5d76012f13d"
+        },
+        {
+          "path": "vault/reactbits-starter/components/parallax-panel/variants/css/parallax-panel.css",
+          "bytes": 1247,
+          "sha256": "958187eb205a5ab14a84d3f3d43eeb464acac89ce2329e6b0efe3849fae42ba9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ParallaxPanel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/parallax-panel/variants/css/parallax-panel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7070cfdbe61fadc848b3a5be169e7815e535ff815179d914d9a8f88508e974bc"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "depth-card-tw",
+      "path": "vault/reactbits-starter/components/parallax-panel/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/parallax-panel/variants/tw/parallax-panel.tsx",
+          "bytes": 11314,
+          "sha256": "0280ad10b3ee5bfcc319678e69cfe025f553dda2932d76f831810b97c58c3497"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ParallaxPanel",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/parallax-panel/variants/tw/parallax-panel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ff3dedacd0343924f24088b641596869cd917c4febda2dbfbdd35ff77632e102"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ParallaxPanel",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/parallax-panel/variants/tw/parallax-panel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/parallax-panel",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/depth-card-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "6ef5c3f53e475ed45a0c1a270e222e81e13ddc7658e6699308fbfb197bb5a382",
+  "fetchedAt": "2026-08-14T05:32:22.379Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "depth-card",
+  "upstreamName": "DepthCard"
+}

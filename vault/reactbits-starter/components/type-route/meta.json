@@ -1,0 +1,139 @@
+{
+  "id": "rb-starter/component/type-route",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "type-route",
+  "name": "TypeRoute",
+  "title": "Type Route",
+  "description": "Animated text that follows an SVG path with GSAP",
+  "tags": [
+    "animation",
+    "text"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "text-path-css",
+      "path": "vault/reactbits-starter/components/type-route/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/type-route/variants/css/type-route.tsx",
+          "bytes": 3486,
+          "sha256": "b64a8dd33733162638d77bc62c32e9d824fe3debfb7618504c3c0f81f3d8a238"
+        },
+        {
+          "path": "vault/reactbits-starter/components/type-route/variants/css/type-route.css",
+          "bytes": 403,
+          "sha256": "c0f6f4f3074356193ca2a9c6cea31819e1a1793b300222d07d3ac7b0b86e867c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TypeRoute",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/type-route/variants/css/type-route.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53570cb4123ecd45976df679409ecde81f86c54c54c1261e5e22ccbc780b5f2c"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "text-path-tw",
+      "path": "vault/reactbits-starter/components/type-route/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/type-route/variants/tw/type-route.tsx",
+          "bytes": 3767,
+          "sha256": "65ff89e1f617b3dead1b29f48df59f882a9b9b9e989d3e63e90f95c28d837bc1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TypeRoute",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/type-route/variants/tw/type-route.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e9a86690f3b6d42f07c9a667eefed5a752635c6b55293e26726dc8dcca976c36"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "*"
+    },
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TypeRoute",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/type-route/variants/tw/type-route.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/type-route",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/text-path-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f376929a9e5e5d7595d7c8ba70caf3d5c66156759c3e4f1ab5e37330a60e2aa5",
+  "fetchedAt": "2026-08-14T05:35:07.577Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "text-path",
+  "upstreamName": "TextPath"
+}

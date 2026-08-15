@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/jelly-field",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "jelly-field",
+  "name": "JellyField",
+  "title": "Jelly Field",
+  "description": "Rubbery fluid distortion shader",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "rubber-fluid-css",
+      "path": "vault/reactbits-starter/components/jelly-field/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/jelly-field/variants/css/jelly-field.tsx",
+          "bytes": 11344,
+          "sha256": "7c0d037de8ff03ccba2dec132a792ca6bab669d062cd68a2cbc626343cc6ba48"
+        },
+        {
+          "path": "vault/reactbits-starter/components/jelly-field/variants/css/jelly-field.css",
+          "bytes": 249,
+          "sha256": "b853ff9a434b115abe304b4d9f3f0ae4e72ca5f46c5c6d59ca66083a920279cd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "JellyField",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/jelly-field/variants/css/jelly-field.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7103e1396d0e0ed5ef5a7b940f7c778366d317bf2ebc0643dcd150ce841c104c"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "rubber-fluid-tw",
+      "path": "vault/reactbits-starter/components/jelly-field/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/jelly-field/variants/tw/jelly-field.tsx",
+          "bytes": 11389,
+          "sha256": "147db76f1822a9e5f5c9dc274aa4b884a8cdad6ee785338f2670dcfaf85eaff0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "JellyField",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/jelly-field/variants/tw/jelly-field.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe2ff5285ea8d77b731c659f57079825dcb22097ba02243d22f535ca6200ef9f"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "JellyField",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/jelly-field/variants/tw/jelly-field.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/jelly-field",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/rubber-fluid-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "10d1c01b747b47fe9d8e048d1041a2a603a07e9df4abdc39a860f364fd8e70e4",
+  "fetchedAt": "2026-08-14T05:34:22.168Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "rubber-fluid",
+  "upstreamName": "RubberFluid"
+}

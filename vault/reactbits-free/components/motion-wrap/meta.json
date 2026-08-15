@@ -1,0 +1,188 @@
+{
+  "id": "rb-free/component/motion-wrap",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "motion-wrap",
+  "name": "MotionWrap",
+  "title": "Motion Wrap",
+  "description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.",
+  "tags": [
+    "animation",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "AnimatedContent-JS-CSS",
+      "path": "vault/reactbits-free/components/motion-wrap/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/motion-wrap/variants/js-css/MotionWrap.jsx",
+          "bytes": 2489,
+          "sha256": "03877fc7d220cf80b637b8ac419caaf9850e6dca9e234cb76c226915be1b5dc6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MotionWrap",
+          "style": "default",
+          "file": "vault/reactbits-free/components/motion-wrap/variants/js-css/MotionWrap.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9e496d834d0bd79a00b8bc3b2d12d0d5d221ee4d1a8c84c2b88d3dabb9c3d0ee"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "AnimatedContent-JS-TW",
+      "path": "vault/reactbits-free/components/motion-wrap/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/motion-wrap/variants/js-tw/MotionWrap.jsx",
+          "bytes": 2471,
+          "sha256": "479382c87445b7e6535153c20a11d3bc292925f5fb585bea850488d3c5691c70"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MotionWrap",
+          "style": "default",
+          "file": "vault/reactbits-free/components/motion-wrap/variants/js-tw/MotionWrap.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8dd3d4ff4620858eb29921ab4d248dacfbc2d13010c7c2badfa03470c19e209"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "AnimatedContent-TS-CSS",
+      "path": "vault/reactbits-free/components/motion-wrap/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/motion-wrap/variants/ts-css/MotionWrap.tsx",
+          "bytes": 3132,
+          "sha256": "974af91639b793958d15302b7fd4afef4803ec112219c2727fbf0428fb49dbf8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MotionWrap",
+          "style": "default",
+          "file": "vault/reactbits-free/components/motion-wrap/variants/ts-css/MotionWrap.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2db95faa518e37286beee72eb971725d66b348873f383289ccc9cde5a272fdda"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "AnimatedContent-TS-TW",
+      "path": "vault/reactbits-free/components/motion-wrap/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/motion-wrap/variants/ts-tw/MotionWrap.tsx",
+          "bytes": 3094,
+          "sha256": "bf56bb84fad5c61feb355f630d94a578b1bf3f2172b0fc8fb812f237441c036f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MotionWrap",
+          "style": "default",
+          "file": "vault/reactbits-free/components/motion-wrap/variants/ts-tw/MotionWrap.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "35930b349c33b2f9b6652f1e2ec5a64eb78f064daf54575d50f59c818d812482"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MotionWrap",
+      "style": "default",
+      "file": "vault/reactbits-free/components/motion-wrap/variants/ts-tw/MotionWrap.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/motion-wrap",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/AnimatedContent-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/animated-content"
+  },
+  "hash": "3ac8c6b9cd8b7b9635e67d702968ef2656c11e914fe9ae3dfcf17ef3cc1f55b0",
+  "fetchedAt": "2026-08-14T05:36:11.328Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MotionWrap",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "animated-content",
+  "upstreamName": "AnimatedContent"
+}

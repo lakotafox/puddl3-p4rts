@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/waitlist-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "waitlist-5",
+  "name": "waitlist-5",
+  "title": "Waitlist 5",
+  "description": "Editorial two-column creator waitlist with serif-accent headline, avatar social proof, and a cycling testimonial card over photography.",
+  "tags": [
+    "waitlist",
+    "signup",
+    "email",
+    "form",
+    "pre-launch"
+  ],
+  "tagSource": "upstream",
+  "category": "waitlist",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "waitlist-5",
+      "path": "vault/reactbits-pro/blocks/waitlist-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/waitlist-5/files/waitlist-5.tsx",
+          "bytes": 12720,
+          "sha256": "c7d24a42192cabb15b96c0d769c686b1887ab11e8dfd1def3cb05484ccd62a20"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Waitlist5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/waitlist-5/files/waitlist-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4529cf909149bd64c664344a3702d31101125740c11ba7f019688a4f00e27f29"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Waitlist5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/waitlist-5/files/waitlist-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/waitlist-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/waitlist-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "8397d16a2e6a8a37c3aece90361d67343aeb70f02d5338d6ff9fac75a2be938d",
+  "fetchedAt": "2026-08-14T05:56:18.704Z",
+  "vaultVersion": 1
+}

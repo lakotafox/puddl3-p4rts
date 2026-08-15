@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-4",
+  "name": "analytics-4",
+  "title": "Analytics 4",
+  "description": "Stacked area chart with cumulative totals and a share-of-total mode.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-4",
+      "path": "vault/reactbits-pro/blocks/analytics-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-4/files/analytics-4.tsx",
+          "bytes": 18233,
+          "sha256": "3acd4276092832f2f52801b401aa60128ba90dd745e2ff785205762e4eb6f70b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-4/files/analytics-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "07690c00b577bc70de03ab42272255d23826f3a40e28f54c0f8f7cd001f9ab9d"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-4/files/analytics-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a65ceb688cd5c2634fd2d931c2ad28412a0f0b88d09e2323117a4abe10e111bd",
+  "fetchedAt": "2026-08-14T05:37:08.832Z",
+  "vaultVersion": 1
+}

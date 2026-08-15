@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/plasma-morph",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "plasma-morph",
+  "name": "PlasmaMorph",
+  "title": "Plasma Morph",
+  "description": "Animated 3D blob with customizable colors and glow effects",
+  "tags": [
+    "animation",
+    "effect",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "ai-blob-css",
+      "path": "vault/reactbits-starter/components/plasma-morph/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/plasma-morph/variants/css/plasma-morph.tsx",
+          "bytes": 12066,
+          "sha256": "014a9a4fd74c8dc03017b066010e38222e392c26786b230e777c5c8c4eb0e0fe"
+        },
+        {
+          "path": "vault/reactbits-starter/components/plasma-morph/variants/css/plasma-morph.css",
+          "bytes": 323,
+          "sha256": "6970a9929ea55869ba3bb03379644833d32e4956ce87dcafa127ed2bc7c9d2f6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlasmaMorph",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/plasma-morph/variants/css/plasma-morph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e31233d5b6201b710034b21270a96608371d9e5544f8068cf6d717c00343cdce"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "ai-blob-tw",
+      "path": "vault/reactbits-starter/components/plasma-morph/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/plasma-morph/variants/tw/plasma-morph.tsx",
+          "bytes": 12054,
+          "sha256": "2fbae0a483543fc9129100ba0031fb50cb4ae610d7ca5696c26ec71c953fcb87"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlasmaMorph",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/plasma-morph/variants/tw/plasma-morph.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ed184cc0b40431346236a256d5562ad20e7fd354b2d02ef15907a197059a89ee"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PlasmaMorph",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/plasma-morph/variants/tw/plasma-morph.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/plasma-morph",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/ai-blob-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "e877cb5b719d005562b82a3114a0b154bddf65680e1e70b7bfdfbce2c12342ab",
+  "fetchedAt": "2026-08-14T05:31:33.102Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "ai-blob",
+  "upstreamName": "AIBlob"
+}

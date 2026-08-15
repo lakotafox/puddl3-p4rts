@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/billing-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "billing-4",
+  "name": "billing-4",
+  "title": "Billing 4",
+  "description": "Recovery queue with retry metrics and an expandable failed-charge attempt log.",
+  "tags": [
+    "billing",
+    "invoices",
+    "subscriptions",
+    "plans",
+    "payments",
+    "usage"
+  ],
+  "tagSource": "upstream",
+  "category": "billing",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "billing-4",
+      "path": "vault/reactbits-pro/blocks/billing-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/billing-4/files/billing-4.tsx",
+          "bytes": 23222,
+          "sha256": "cfcfe1d158559e4bfcc06dc64f70f8451b065e8a9b6336fc6decaab92ceecaad"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Billing4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/billing-4/files/billing-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2013ce52d7afc4517e7ad8f65c8a16f92620eb9e20537b013878e0bf151893ce"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Billing4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/billing-4/files/billing-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/billing-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/billing-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7533bee412d4cf4aae6edce8a0eb995a1c5fae9dd3680ffb8e0bb87c6eacab90",
+  "fetchedAt": "2026-08-14T05:42:59.322Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,101 @@
+{
+  "id": "rb-pro/block/ecommerce-11",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ecommerce-11",
+  "name": "ecommerce-11",
+  "title": "Ecommerce 11",
+  "description": "Cart review with animated line items, free-shipping progress, gift-note expander, and sticky order summary.",
+  "tags": [
+    "ecommerce",
+    "shop",
+    "product",
+    "store"
+  ],
+  "tagSource": "upstream",
+  "category": "ecommerce",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ecommerce-11",
+      "path": "vault/reactbits-pro/blocks/ecommerce-11/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ecommerce-11/files/ecommerce-11.tsx",
+          "bytes": 14740,
+          "sha256": "0747118c4376ed2931cbfbace19379408c55562c061423f32fe0140b91e63697"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ecommerce11",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ecommerce-11/files/ecommerce-11.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f75f2d53c734e7835103a2ababcae0a94f6b4875ef745f1c8f85ce0e17e0483c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Ecommerce11",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ecommerce-11/files/ecommerce-11.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ecommerce-11",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ecommerce-11.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9d0c741e88d823c16e08f410a009da3a0ce446d5dd7d3f24c61472420fa78382",
+  "fetchedAt": "2026-08-14T05:45:47.327Z",
+  "vaultVersion": 1
+}

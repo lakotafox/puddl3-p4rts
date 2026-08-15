@@ -1,0 +1,131 @@
+{
+  "id": "rb-starter/component/fan-deck",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "fan-deck",
+  "name": "FanDeck",
+  "title": "Fan Deck",
+  "description": "A fanned deck of cards that spreads open on hover",
+  "tags": [
+    "cards",
+    "hover",
+    "fan",
+    "stack",
+    "gallery",
+    "motion"
+  ],
+  "tagSource": "upstream",
+  "category": "cards",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "card-spread-css",
+      "path": "vault/reactbits-starter/components/fan-deck/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fan-deck/variants/css/fan-deck.tsx",
+          "bytes": 11750,
+          "sha256": "d812d64a6a3c481b59b213b8d5a59dc5e75dcba59f1c4698a6afa4fb65e0eb4c"
+        },
+        {
+          "path": "vault/reactbits-starter/components/fan-deck/variants/css/fan-deck.css",
+          "bytes": 469,
+          "sha256": "0c8a516facd6d0b62092d685e39d75120a62551d7333966030e0cd6c3109d214"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FanDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fan-deck/variants/css/fan-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "75651c13ee0f6dfb7c29f9b48ee91f4ecc188c297ad00c6c12a3956b0b605c7b"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "card-spread-tw",
+      "path": "vault/reactbits-starter/components/fan-deck/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fan-deck/variants/tw/fan-deck.tsx",
+          "bytes": 11821,
+          "sha256": "f05e540ad321dac4665d0b2aabf391b8ef2596a7db0dd08fde54d45f8e2ea5a0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FanDeck",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fan-deck/variants/tw/fan-deck.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9a9169323ca845e4900e7a49bdd3bb4c3f962ea4e622ca6b0634136686d5bd87"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FanDeck",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/fan-deck/variants/tw/fan-deck.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/fan-deck",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/card-spread-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3bc1ae222b8be689e248dd9b79d31356c7650f1f61f83f218f2e224460ec5acb",
+  "fetchedAt": "2026-08-14T05:31:57.901Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "card-spread",
+  "upstreamName": "CardSpread"
+}

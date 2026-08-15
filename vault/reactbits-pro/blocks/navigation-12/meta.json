@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/navigation-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-12",
+  "name": "navigation-12",
+  "title": "Navigation 12",
+  "description": "Floating glass pill navbar with a layout-animated active indicator and an expanding mobile menu.",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-12",
+      "path": "vault/reactbits-pro/blocks/navigation-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-12/files/navigation-12.tsx",
+          "bytes": 8046,
+          "sha256": "509b92a13197b7bf9888d1741f396bd2297f4ac68e924322d8b2baae2c92b1a3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-12/files/navigation-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e43ea2272b358ba68cbdb2a0a3fbb76bda03f1ab2920b9951ac87f027752c921"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-12/files/navigation-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "82630e7dbb2da7efee2f275a3f8ccb9eb9b7cc309d2099e014817845c9d6d02c",
+  "fetchedAt": "2026-08-14T05:52:35.455Z",
+  "vaultVersion": 1
+}

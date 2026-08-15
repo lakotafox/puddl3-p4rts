@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/agent-plan-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "agent-plan-1",
+  "name": "agent-plan-1",
+  "title": "Agent Plan 1",
+  "description": "Task plan checklist with live step status and a vertical progress rail.",
+  "tags": [
+    "ai",
+    "agent",
+    "plan",
+    "tasks",
+    "checklist"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "agent-plan-1",
+      "path": "vault/reactbits-pro/blocks/agent-plan-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/agent-plan-1/files/agent-plan-1.tsx",
+          "bytes": 11489,
+          "sha256": "f80a7b4bfe6b2979a31698bd1c813d230c9e009a9bca09c71da2bfa5312f058c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentPlan1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/agent-plan-1/files/agent-plan-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a4b4983fc59136e1a5b19f429b0dea2aedb5b58f0d8cf83b3dc5b08703d0287a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AgentPlan1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/agent-plan-1/files/agent-plan-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/agent-plan-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/agent-plan-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "2c785533e5e2d21df77afa3041ac35d4bd320e250c3d49ab314adf36fc6ea29b",
+  "fetchedAt": "2026-08-14T05:36:19.535Z",
+  "vaultVersion": 1
+}

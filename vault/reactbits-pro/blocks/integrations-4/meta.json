@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/integrations-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "integrations-4",
+  "name": "integrations-4",
+  "title": "Integrations 4",
+  "description": "Webhook endpoints beside an expandable delivery log with payloads and replay controls.",
+  "tags": [
+    "integrations",
+    "api keys",
+    "webhooks",
+    "oauth",
+    "connections"
+  ],
+  "tagSource": "upstream",
+  "category": "integrations",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "integrations-4",
+      "path": "vault/reactbits-pro/blocks/integrations-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/integrations-4/files/integrations-4.tsx",
+          "bytes": 14539,
+          "sha256": "ffc5dfc3b9a78de074583d2e9862a166c0e37bea5f85dca5f5dbd17439a9c0d4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Integrations4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/integrations-4/files/integrations-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fb7e71d0d3bb07accffdae335c77f24df352655b8aa251d4b54f041f89b82b54"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Integrations4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/integrations-4/files/integrations-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/integrations-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/integrations-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c3d0202b97d42aac2c68063e563a6f37d5e09b2d446d45b5fa2b11ad09bcac7f",
+  "fetchedAt": "2026-08-14T05:48:46.620Z",
+  "vaultVersion": 1
+}

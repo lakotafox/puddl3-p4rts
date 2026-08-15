@@ -1,0 +1,258 @@
+{
+  "id": "rb-free/component/retro-static",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "retro-static",
+  "name": "RetroStatic",
+  "title": "Retro Static",
+  "description": "Retro dithered noise shader background.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Dither-JS-CSS",
+      "path": "vault/reactbits-free/components/retro-static/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/js-css/RetroStatic.css",
+          "bytes": 75,
+          "sha256": "0a7127a03bde00697a89ea1d5c75a67e7391a5b7760d74777a95ea7911569f39"
+        },
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/js-css/RetroStatic.jsx",
+          "bytes": 9086,
+          "sha256": "266fcfc6be54b0745c73b4cbed34b5836279fbb17321699cedacb01e7caed763"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "@react-three/postprocessing",
+          "range": "^3.0.4"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroStatic",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-static/variants/js-css/RetroStatic.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cfe194ba3758f1b1a0007b4afdcb112d13720c1972ec5460c718566897f11767"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Dither-JS-TW",
+      "path": "vault/reactbits-free/components/retro-static/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/js-tw/RetroStatic.jsx",
+          "bytes": 9068,
+          "sha256": "971089463611821b19dd0c5225f9fbfeeb62085972e2b6952a1300a097997917"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "@react-three/postprocessing",
+          "range": "^3.0.4"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroStatic",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-static/variants/js-tw/RetroStatic.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e11c49185ad859564e694092d4eab41ca06b180497ab2edcef014799e46b01fc"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Dither-TS-CSS",
+      "path": "vault/reactbits-free/components/retro-static/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/ts-css/RetroStatic.css",
+          "bytes": 75,
+          "sha256": "0a7127a03bde00697a89ea1d5c75a67e7391a5b7760d74777a95ea7911569f39"
+        },
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/ts-css/RetroStatic.tsx",
+          "bytes": 10438,
+          "sha256": "38421b9a888239b8f70c9a65614906d41964b36e0c690f3fe73419dad05bcbed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "@react-three/postprocessing",
+          "range": "^3.0.4"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroStatic",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-static/variants/ts-css/RetroStatic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dadc7e2762af853e6bc4e4ce462fd3dccb428e90750b9cb509abe5f35ac511bc"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Dither-TS-TW",
+      "path": "vault/reactbits-free/components/retro-static/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/retro-static/variants/ts-tw/RetroStatic.tsx",
+          "bytes": 10430,
+          "sha256": "a62fac9824b4f90e2a7f160859e5bf1425474a51edcb1399139d1b5b84da653c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "@react-three/postprocessing",
+          "range": "^3.0.4"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroStatic",
+          "style": "default",
+          "file": "vault/reactbits-free/components/retro-static/variants/ts-tw/RetroStatic.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cd861c1bbcdf21b44abfb790dc135f002697d8602866484e0e94910b318b043d"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "@react-three/postprocessing",
+      "range": "^3.0.4"
+    },
+    {
+      "name": "postprocessing",
+      "range": "^6.36.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RetroStatic",
+      "style": "default",
+      "file": "vault/reactbits-free/components/retro-static/variants/ts-tw/RetroStatic.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/retro-static",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Dither-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dither"
+  },
+  "hash": "da7ebfc8ba07481fe2a080b8f150923b533b4506abf1b439f8a2661b2961262e",
+  "fetchedAt": "2026-08-14T05:36:11.364Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RetroStatic",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dither",
+  "upstreamName": "Dither"
+}

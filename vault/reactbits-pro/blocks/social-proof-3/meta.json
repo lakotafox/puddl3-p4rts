@@ -1,0 +1,92 @@
+{
+  "id": "rb-pro/block/social-proof-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-3",
+  "name": "social-proof-3",
+  "title": "Social Proof 3",
+  "description": "Bento-style testimonial grid with backdrop blur cards and gradient background",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-3",
+      "path": "vault/reactbits-pro/blocks/social-proof-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-3/files/social-proof-3.tsx",
+          "bytes": 5373,
+          "sha256": "2064c5c02bf443e8ca6303efbee8ffb8fd07786b53bf426498fe82282f6594ef"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-3/files/social-proof-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "85ff5aef72639afbadc832cf8204744888e86fe01168b306f442b750bedb53f3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-3/files/social-proof-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5f6eede0ac8bdaff6a66296f2db164d67a14e7bb31df769b5983b85ab1431b98",
+  "fetchedAt": "2026-08-14T05:55:22.309Z",
+  "vaultVersion": 1
+}

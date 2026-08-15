@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/dissolve-panel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "dissolve-panel",
+  "name": "DissolvePanel",
+  "title": "Dissolve Panel",
+  "description": "Hover parallax effect that disintegrates the content of a card.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DecayCard-JS-CSS",
+      "path": "vault/reactbits-free/components/dissolve-panel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/js-css/DissolvePanel.css",
+          "bytes": 346,
+          "sha256": "1f905588ec084009e48139389fc07933efe7e6427bc593b244152aa02e9fdc38"
+        },
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/js-css/DissolvePanel.jsx",
+          "bytes": 4758,
+          "sha256": "e399771214d232daa3dcee61cb0174439d48754bee7f8ec601e27af6820dc127"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DissolvePanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dissolve-panel/variants/js-css/DissolvePanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d22705d657a7a57fcdbbab1b092c90ed5be86c11bb9719cd1cd481ef006d3b6d"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DecayCard-JS-TW",
+      "path": "vault/reactbits-free/components/dissolve-panel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/js-tw/DissolvePanel.jsx",
+          "bytes": 4873,
+          "sha256": "ee386361d051e0c9ccb18b23c3acccbf5030deea0dc21258de8b73757832d585"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DissolvePanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dissolve-panel/variants/js-tw/DissolvePanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f35ed04adb6a9c0af7294d7e4bc6f6ab210af29ef625f997b20ffc49abed7064"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DecayCard-TS-CSS",
+      "path": "vault/reactbits-free/components/dissolve-panel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/ts-css/DissolvePanel.css",
+          "bytes": 346,
+          "sha256": "ef36fad39305e89ed77b48e114cb58eefed23e7656e5f200b81a5cea01575706"
+        },
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/ts-css/DissolvePanel.tsx",
+          "bytes": 5348,
+          "sha256": "7da0d23f7ba564f21b2d83459615dae75b2b5279005768b0f3105cb80c1b8a0e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DissolvePanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dissolve-panel/variants/ts-css/DissolvePanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8010dacc7b7bac163cc455859b1579f69c392716f235e937447e7fba4fc467d0"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DecayCard-TS-TW",
+      "path": "vault/reactbits-free/components/dissolve-panel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/dissolve-panel/variants/ts-tw/DissolvePanel.tsx",
+          "bytes": 5478,
+          "sha256": "c38ae10e6f0e9ac5df83c7ba14a60807e28c4c705bd80b9dbedcc2fab689bae5"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DissolvePanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/dissolve-panel/variants/ts-tw/DissolvePanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "51733ef30198262002717e8cd6b8da24f4e13fe56bb8aade725c22d40f5f1e06"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DissolvePanel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/dissolve-panel/variants/ts-tw/DissolvePanel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/dissolve-panel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DecayCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/decay-card"
+  },
+  "hash": "42a0086fb81d9ec174e8b91256eb2a15a5bbc17e9304776483a4af9f4c4bbf3f",
+  "fetchedAt": "2026-08-14T05:36:11.360Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DissolvePanel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "decay-card",
+  "upstreamName": "DecayCard"
+}

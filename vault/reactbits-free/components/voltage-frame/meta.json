@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/voltage-frame",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "voltage-frame",
+  "name": "VoltageFrame",
+  "title": "Voltage Frame",
+  "description": "Jittery electric energy border with animated arcs, glow and adjustable intensity.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ElectricBorder-JS-CSS",
+      "path": "vault/reactbits-free/components/voltage-frame/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/js-css/VoltageFrame.css",
+          "bytes": 1130,
+          "sha256": "f827d435106963c5db77445e02c2df372f1c85908cb4e8403575e91e5ed5eece"
+        },
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/js-css/VoltageFrame.jsx",
+          "bytes": 8955,
+          "sha256": "455f90f5182804434d80ff167a928b40105f7eebb99d2dec4bf96869e0f496ae"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "VoltageFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voltage-frame/variants/js-css/VoltageFrame.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ac8af424967a5052be27e6dd60163f27e619a9d039d67fe357acaac646fb61c5"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ElectricBorder-JS-TW",
+      "path": "vault/reactbits-free/components/voltage-frame/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/js-tw/VoltageFrame.jsx",
+          "bytes": 9619,
+          "sha256": "12807025225161da8d2fe7f179a500687141e7a60a10bdbb63a54217f47739c8"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "VoltageFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voltage-frame/variants/js-tw/VoltageFrame.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6f26c032da0fbba9895431c6c2812ff3c61dc3eb5d12276c6b6f179185996464"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ElectricBorder-TS-CSS",
+      "path": "vault/reactbits-free/components/voltage-frame/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/ts-css/VoltageFrame.css",
+          "bytes": 1130,
+          "sha256": "f827d435106963c5db77445e02c2df372f1c85908cb4e8403575e91e5ed5eece"
+        },
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/ts-css/VoltageFrame.tsx",
+          "bytes": 9338,
+          "sha256": "5737424482fb11aa284299ce514c05b93344143412a3e356add125bf1e1ba52c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "VoltageFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voltage-frame/variants/ts-css/VoltageFrame.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "004c1c5870d49d07626f9616a6d49364445aa908455412627a4318c29335cef3"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ElectricBorder-TS-TW",
+      "path": "vault/reactbits-free/components/voltage-frame/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/voltage-frame/variants/ts-tw/VoltageFrame.tsx",
+          "bytes": 10365,
+          "sha256": "fa27c750791fd0fdd535ad1f86cd3055c9d7d3910c7e8b0d88f71cb7ff9d20e5"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "VoltageFrame",
+          "style": "default",
+          "file": "vault/reactbits-free/components/voltage-frame/variants/ts-tw/VoltageFrame.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b66150bdde4cf504c5743204ffb09c4af9212c7e454c768d90342dd31bb71bf5"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VoltageFrame",
+      "style": "default",
+      "file": "vault/reactbits-free/components/voltage-frame/variants/ts-tw/VoltageFrame.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/voltage-frame",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ElectricBorder-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/electric-border"
+  },
+  "hash": "bdaac841b2996fcee78c4a23b57a586ed2d9732be49120cb7d74926064947e6c",
+  "fetchedAt": "2026-08-14T05:36:11.373Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "VoltageFrame",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "electric-border",
+  "upstreamName": "ElectricBorder"
+}

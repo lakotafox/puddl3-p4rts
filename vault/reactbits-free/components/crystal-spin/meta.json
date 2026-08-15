@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/crystal-spin",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "crystal-spin",
+  "name": "CrystalSpin",
+  "title": "Crystal Spin",
+  "description": "Rotating prism with configurable intensity, size, and colors.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Prism-JS-CSS",
+      "path": "vault/reactbits-free/components/crystal-spin/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/js-css/CrystalSpin.css",
+          "bytes": 74,
+          "sha256": "b27bb62b87f0d5db150d509a64ae8514610aaea7f30dad7d10a33ffacba87e6d"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/js-css/CrystalSpin.jsx",
+          "bytes": 12237,
+          "sha256": "1f5051fc670fbbe5c05f67cc2f57c1d85452feff10df9f611965fa8c62bba407"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalSpin",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-spin/variants/js-css/CrystalSpin.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "598db69c9998b446d835d24bd78fe6fbec0292b03cc6a611c16de819db1f00a2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Prism-JS-TW",
+      "path": "vault/reactbits-free/components/crystal-spin/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/js-tw/CrystalSpin.jsx",
+          "bytes": 12222,
+          "sha256": "ff4522fcbcaa80e7d3ab01470c2167494c0050135f28aed1ce2ce4545ccdf124"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalSpin",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-spin/variants/js-tw/CrystalSpin.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b154d5a484f92991e4a4c61ebb0edf67bcd5d44b99ad313309c1f1a340e8ce23"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Prism-TS-CSS",
+      "path": "vault/reactbits-free/components/crystal-spin/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/ts-css/CrystalSpin.css",
+          "bytes": 74,
+          "sha256": "b27bb62b87f0d5db150d509a64ae8514610aaea7f30dad7d10a33ffacba87e6d"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/ts-css/CrystalSpin.tsx",
+          "bytes": 13073,
+          "sha256": "0623d623ce59b65bf33b78aaf87b6843493b92b702291cbdf7a9236ca67d5add"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalSpin",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-spin/variants/ts-css/CrystalSpin.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "25d77bcfdba42426ca55a38a5ab6dd88c3e82e07022b3046ebe067b7910c8373"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Prism-TS-TW",
+      "path": "vault/reactbits-free/components/crystal-spin/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-spin/variants/ts-tw/CrystalSpin.tsx",
+          "bytes": 13058,
+          "sha256": "49e3991bfe2c4a6f0f7578c813c653e87bdecf64328f327b6c953e20df45af19"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalSpin",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-spin/variants/ts-tw/CrystalSpin.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "af4af6940ad453fe31bbf46078efeaf484bdc43e54f490fbcce5ef2d61c03e0c"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CrystalSpin",
+      "style": "default",
+      "file": "vault/reactbits-free/components/crystal-spin/variants/ts-tw/CrystalSpin.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/crystal-spin",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Prism-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/prism"
+  },
+  "hash": "00c56a334080fb8ab1c09d38497ae02042759d1b5183f3dcf38a84bb733e228e",
+  "fetchedAt": "2026-08-14T05:36:11.439Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CrystalSpin",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "prism",
+  "upstreamName": "Prism"
+}

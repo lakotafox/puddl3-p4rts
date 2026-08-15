@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-12",
+  "name": "list-12",
+  "title": "List 12",
+  "description": "Recursive file tree with indent guides and full keyboard traversal.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-12",
+      "path": "vault/reactbits-pro/blocks/list-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-12/files/list-12.tsx",
+          "bytes": 16384,
+          "sha256": "971ab65fb26de6a600a962241e032aee19791e423006486bccaa7802a8248a7d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-12/files/list-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ff66bca7f91d3b0b57ce125b795683baf49c139c5761a25c38915747813612c1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-12/files/list-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "084b8f46ff70be4501530d57dca276c188111192e24a9632ab308d5948550800",
+  "fetchedAt": "2026-08-14T05:49:04.451Z",
+  "vaultVersion": 1
+}

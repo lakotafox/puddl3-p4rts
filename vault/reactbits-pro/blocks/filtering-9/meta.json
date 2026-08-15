@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-9",
+  "name": "filtering-9",
+  "title": "Filtering 9",
+  "description": "Scrollable cuisine pills above rating, price level, and dietary filters.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-9",
+      "path": "vault/reactbits-pro/blocks/filtering-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-9/files/filtering-9.tsx",
+          "bytes": 29829,
+          "sha256": "0d07a2b0b77d6ffcb1775c991a4fa3a3056a709439a8ad51e766a550cd847e95"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-9/files/filtering-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "87cd1e17e34cb1fe215a108cc9b602d951d21b20fccc406cabe1d001155b5862"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-9/files/filtering-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "f7296366a84fd4e4783e4f31aecbcf9703ff2d7689de5e9541c77a6ba514f70a",
+  "fetchedAt": "2026-08-14T05:47:15.210Z",
+  "vaultVersion": 1
+}

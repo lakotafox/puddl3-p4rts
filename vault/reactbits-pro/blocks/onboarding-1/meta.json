@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/onboarding-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "onboarding-1",
+  "name": "onboarding-1",
+  "title": "Onboarding 1",
+  "description": "Split-screen profile setup with a live directory preview of what teammates will see.",
+  "tags": [
+    "onboarding",
+    "setup",
+    "stepper",
+    "checklist",
+    "invite"
+  ],
+  "tagSource": "upstream",
+  "category": "onboarding",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "onboarding-1",
+      "path": "vault/reactbits-pro/blocks/onboarding-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/onboarding-1/files/onboarding-1.tsx",
+          "bytes": 12551,
+          "sha256": "f9ea6dc6e5b82d3bb1dd29966b8314d6771e5c16fb57c5b5013b5bfe6b4ec4ed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Onboarding1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/onboarding-1/files/onboarding-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "77c8aecea8ec28a79334e626b567ee3010bbfa1743fc57f6f1e0fad4bcdb08b2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Onboarding1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/onboarding-1/files/onboarding-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/onboarding-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/onboarding-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d0c523c3648ab190bc5c3f392305c4e5beb92fd1590f2180e25f43551b7b6d0e",
+  "fetchedAt": "2026-08-14T05:53:03.525Z",
+  "vaultVersion": 1
+}

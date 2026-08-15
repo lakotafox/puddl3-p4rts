@@ -1,0 +1,81 @@
+{
+  "id": "rb-pro/recipe/recipe-product-launch",
+  "source": "rb-pro",
+  "kind": "recipe",
+  "slug": "recipe-product-launch",
+  "name": "recipe-product-launch",
+  "title": "Product Launch Page",
+  "description": "A tested block arrangement that assembles a full product-launch page from React Bits Pro blocks (announcement hero through waitlist capture) in one prompt.",
+  "tags": [
+    "recipe",
+    "launch",
+    "product",
+    "waitlist",
+    "announcement",
+    "blocks"
+  ],
+  "tagSource": "upstream",
+  "category": "recipe",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": null,
+      "styling": null,
+      "upstreamName": "recipe-product-launch",
+      "path": "vault/reactbits-pro/agent-kit/recipe-product-launch/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-product-launch/files/RECIPE.md",
+          "bytes": 22360,
+          "sha256": "1ba9e7fc813670d066192a1c83e2b97f03be1bc53cdffaee9560caa007c4b817"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-product-launch/files/LICENSE.md",
+          "bytes": 4739,
+          "sha256": "c64f001ad0c4c19c901f07454ad342694a063b46fca61b5c80986237938b3788"
+        },
+        {
+          "path": "vault/reactbits-pro/agent-kit/recipe-product-launch/files/plan.json",
+          "bytes": 6930,
+          "sha256": "1e6071a68d6829c7f2c0d667535859fa57423b3161db6fccb7385675a380a4cd"
+        }
+      ],
+      "dependencies": [],
+      "exports": [],
+      "hash": "d2bc0af9b7ddb67bff67e2aed0bb9e3aa9f881c0ae4a355bbb44392a16881b24"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/agent-kit/recipe-product-launch",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "code"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/recipe-product-launch.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "bb555a5ecd480a397f01fb9c979815e25deab4c3ca5e8af90d74ad1cab118d9e",
+  "fetchedAt": "2026-08-14T05:54:19.874Z",
+  "vaultVersion": 1
+}

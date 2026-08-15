@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-2",
+  "name": "hero-2",
+  "title": "Hero 2",
+  "description": "Curved bento grid hero, with cursor following effect",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-2",
+      "path": "vault/reactbits-pro/blocks/hero-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-2/files/hero-2.tsx",
+          "bytes": 13493,
+          "sha256": "a449ca76d76485461bf5e10163905349ce508274223ddf087b269e099a60295b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-2/files/hero-2.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero2",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-2/files/hero-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "041f75c09cac881f9e38ad77697bd45c72beb3b7829cd1c40b6b6a9ceed4e181"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-2/files/hero-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "843987cd35a2387725a204a7927c3e3df0dd715030f7a18e09adc14b0437d936",
+  "fetchedAt": "2026-08-14T05:48:09.240Z",
+  "vaultVersion": 1
+}

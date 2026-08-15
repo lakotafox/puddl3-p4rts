@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/data-table-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "data-table-8",
+  "name": "data-table-8",
+  "title": "Data Table 8",
+  "description": "Wide table with a sticky first column and horizontal scroll affordances.",
+  "tags": [
+    "data",
+    "table",
+    "grid",
+    "filters",
+    "pagination"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "data-table-8",
+      "path": "vault/reactbits-pro/blocks/data-table-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/data-table-8/files/data-table-8.tsx",
+          "bytes": 14446,
+          "sha256": "795ce2469bfa342947a34836b25a98d1a065ae25ed93c03c167f92b2a963051a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataTable8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/data-table-8/files/data-table-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf1b5917d446325a010e4e3eab358d2c1a6e086bad933b9605129d71289cd47a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DataTable8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/data-table-8/files/data-table-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/data-table-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/data-table-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "debe2cb5ac3ad28fd178319db41edd5d7d5035e9a162962011a2086fcb711455",
+  "fetchedAt": "2026-08-14T05:45:31.074Z",
+  "vaultVersion": 1
+}

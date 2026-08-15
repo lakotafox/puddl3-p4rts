@@ -1,0 +1,93 @@
+{
+  "id": "rb-pro/block/showcase-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "showcase-5",
+  "name": "showcase-5",
+  "title": "Showcase 5",
+  "description": "Tabbed creator showcase with slide carousel for studios, creators, and teams",
+  "tags": [
+    "showcase",
+    "portfolio",
+    "gallery",
+    "display"
+  ],
+  "tagSource": "upstream",
+  "category": "showcase",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "showcase-5",
+      "path": "vault/reactbits-pro/blocks/showcase-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/showcase-5/files/showcase-5.tsx",
+          "bytes": 7108,
+          "sha256": "72ee09de5281e29c4ceaee635149ce5ce033b9769c9cdcd0c992c5696c829999"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Showcase5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/showcase-5/files/showcase-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f80d12592e65abc786ccf93162dd465efb0512617910f35faec521eca4a9837a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Showcase5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/showcase-5/files/showcase-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/showcase-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/showcase-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "e6c9d1bb3afd77e12aef60b08ef136b82063c9da15c667eadb03cf0eca4d8562",
+  "fetchedAt": "2026-08-14T05:54:48.289Z",
+  "vaultVersion": 1
+}

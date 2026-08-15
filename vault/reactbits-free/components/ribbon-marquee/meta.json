@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/ribbon-marquee",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ribbon-marquee",
+  "name": "RibbonMarquee",
+  "title": "Ribbon Marquee",
+  "description": "Flowing looping text path along a customizable curve with drag interaction.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CurvedLoop-JS-CSS",
+      "path": "vault/reactbits-free/components/ribbon-marquee/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/js-css/RibbonMarquee.css",
+          "bytes": 429,
+          "sha256": "bc818c36430c1c29d53156c7769042b94cdedfb1c0c6226d744f2a4c5bc05aad"
+        },
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/js-css/RibbonMarquee.jsx",
+          "bytes": 4185,
+          "sha256": "0cfdeb06b2f22e1d28381ea4ab4682eb8b1e504adc41c6a0e447363783655255"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RibbonMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ribbon-marquee/variants/js-css/RibbonMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "73cccdf657e7667b4a2a79423544484a685ef5b7645cca77728b53ce1251e9c5"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CurvedLoop-JS-TW",
+      "path": "vault/reactbits-free/components/ribbon-marquee/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/js-tw/RibbonMarquee.jsx",
+          "bytes": 4301,
+          "sha256": "ae9a8357b9da48cee5381516060b1796311c478bc760dadda5d0c53baeb28538"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RibbonMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ribbon-marquee/variants/js-tw/RibbonMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "05c6de1d2c0bb7cedc2c2a0ed128a21c975d0009d173d89bb05b3943165c593a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CurvedLoop-TS-CSS",
+      "path": "vault/reactbits-free/components/ribbon-marquee/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/ts-css/RibbonMarquee.css",
+          "bytes": 429,
+          "sha256": "bc818c36430c1c29d53156c7769042b94cdedfb1c0c6226d744f2a4c5bc05aad"
+        },
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/ts-css/RibbonMarquee.tsx",
+          "bytes": 4535,
+          "sha256": "dac7342b3ced4696510385777d492ba26997e6a2f388d03115c2f2972ed0475b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RibbonMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ribbon-marquee/variants/ts-css/RibbonMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d16481243826b7c90d26ad02624f77a458fec81b75bcdc67e4ce20faed6a57ea"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CurvedLoop-TS-TW",
+      "path": "vault/reactbits-free/components/ribbon-marquee/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ribbon-marquee/variants/ts-tw/RibbonMarquee.tsx",
+          "bytes": 4656,
+          "sha256": "7997b2aaa51ee0370ad84571060e5244e310ac6286459b45391fd2e96c43297a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "RibbonMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ribbon-marquee/variants/ts-tw/RibbonMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6de73842ec8a541abd73ab339267e9e1c98d3cb9337bea3de2cc54beed37adb1"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RibbonMarquee",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ribbon-marquee/variants/ts-tw/RibbonMarquee.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ribbon-marquee",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CurvedLoop-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/curved-loop"
+  },
+  "hash": "a7661b457560b2e7281c6525af488651b7309782e262ea3225d8419daa44af50",
+  "fetchedAt": "2026-08-14T05:36:11.358Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RibbonMarquee",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "curved-loop",
+  "upstreamName": "CurvedLoop"
+}

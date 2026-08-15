@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/navigation-14",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-14",
+  "name": "navigation-14",
+  "title": "Navigation 14",
+  "description": "Full-width mega panel navbar with crossfading sections, a featured spotlight card, and an accordion mobile menu.",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-14",
+      "path": "vault/reactbits-pro/blocks/navigation-14/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-14/files/navigation-14.tsx",
+          "bytes": 18251,
+          "sha256": "c066badead17805f7f94717d8a2fcd8fb95c3b9ce0849f6c5cf267f76843c780"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation14",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-14/files/navigation-14.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4cef0270ce2ae0f211d17b241f8bd768083877756ef5b74c1ad13719f00deca6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation14",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-14/files/navigation-14.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-14",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-14.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "1c94e86408b9126cbd33cbe1328c5fc134e52e8b9565ec039ed5b4bf1ed8774b",
+  "fetchedAt": "2026-08-14T05:52:38.757Z",
+  "vaultVersion": 1
+}

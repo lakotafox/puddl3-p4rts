@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/bitmap-panel",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "bitmap-panel",
+  "name": "BitmapPanel",
+  "title": "Bitmap Panel",
+  "description": "Card content revealed through pixel expansion transition.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelCard-JS-CSS",
+      "path": "vault/reactbits-free/components/bitmap-panel/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/js-css/BitmapPanel.css",
+          "bytes": 707,
+          "sha256": "f836fd73f02116d8182b8d56bfd92e6fd6db21d93e757f3152107cf1abb9cd00"
+        },
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/js-css/BitmapPanel.jsx",
+          "bytes": 6650,
+          "sha256": "8514c2cd83008b77b1780223ce45fdbe38d49fd0e1bd1feaafe233ea56e173b9"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BitmapPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bitmap-panel/variants/js-css/BitmapPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "edde68d62308439a7eae63fc850010c7bc94d3639ad263eb741c84ffa16747f1"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelCard-JS-TW",
+      "path": "vault/reactbits-free/components/bitmap-panel/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/js-tw/BitmapPanel.jsx",
+          "bytes": 6826,
+          "sha256": "0c8bb0eb900d069a3b0d95bb1cd8b9803b2a48f653eae633dc47b9fb9c7fdc3a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BitmapPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bitmap-panel/variants/js-tw/BitmapPanel.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b9973f1731e477eebf67f6468b163b8fbee943b656408bb99f6f5fec59d5fd26"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelCard-TS-CSS",
+      "path": "vault/reactbits-free/components/bitmap-panel/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/ts-css/BitmapPanel.css",
+          "bytes": 707,
+          "sha256": "f836fd73f02116d8182b8d56bfd92e6fd6db21d93e757f3152107cf1abb9cd00"
+        },
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/ts-css/BitmapPanel.tsx",
+          "bytes": 7907,
+          "sha256": "f4b38c7e971fd94895d2933a1d667dfeca70948369bc044102ffb01df928c220"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BitmapPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bitmap-panel/variants/ts-css/BitmapPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "15322512cc702338c12c4c79ddae6d937086840ca4042ca9be1d44781ce8a3bd"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelCard-TS-TW",
+      "path": "vault/reactbits-free/components/bitmap-panel/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/bitmap-panel/variants/ts-tw/BitmapPanel.tsx",
+          "bytes": 8083,
+          "sha256": "8bc16a2fc109e07256d2e75c9937497d2554d4f342d9bbf15305c0e663487399"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BitmapPanel",
+          "style": "default",
+          "file": "vault/reactbits-free/components/bitmap-panel/variants/ts-tw/BitmapPanel.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "58a95cf0ac7091892785779a16e274730196eb332f34b0d75898d1eb9a2635bf"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BitmapPanel",
+      "style": "default",
+      "file": "vault/reactbits-free/components/bitmap-panel/variants/ts-tw/BitmapPanel.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/bitmap-panel",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-card"
+  },
+  "hash": "1d07d49593ded899d3ed59fb1712c1a91d408ab21f0895ba91935b191cd417ee",
+  "fetchedAt": "2026-08-14T05:36:11.434Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BitmapPanel",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-card",
+  "upstreamName": "PixelCard"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/list-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "list-1",
+  "name": "list-1",
+  "title": "List 1",
+  "description": "Metric rows that expand in place to reveal how each figure is defined.",
+  "tags": [
+    "list",
+    "rows",
+    "feed",
+    "queue",
+    "leaderboard",
+    "tree"
+  ],
+  "tagSource": "upstream",
+  "category": "list",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "list-1",
+      "path": "vault/reactbits-pro/blocks/list-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/list-1/files/list-1.tsx",
+          "bytes": 8796,
+          "sha256": "0aba486e4f09867e44fbcb48b7c5c596204ef58adf1eafabdf66c883e8664688"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "List1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/list-1/files/list-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0fdfd20e9799fd01669982dd6878aeb1affc1a0937537c2e8edea3858d7cb5e0"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "List1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/list-1/files/list-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/list-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/list-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ae674b12b2a97635a5282efbf2cb8394c3c37ac9244ea11556c0304b903f2178",
+  "fetchedAt": "2026-08-14T05:48:59.922Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/endless-wall",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "endless-wall",
+  "name": "EndlessWall",
+  "title": "Endless Wall",
+  "description": "3D infinite scrolling image gallery with drag and parallax",
+  "tags": [
+    "3d",
+    "gallery",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "infinite-gallery-css",
+      "path": "vault/reactbits-starter/components/endless-wall/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/endless-wall/variants/css/endless-wall.tsx",
+          "bytes": 23275,
+          "sha256": "d6daf54ddc333c33a54bd9d89fad1896ee3444d9368be18cc0f35f6db86cfa7d"
+        },
+        {
+          "path": "vault/reactbits-starter/components/endless-wall/variants/css/endless-wall.css",
+          "bytes": 191,
+          "sha256": "1bbffa93966b87c8cb1b36fdd2a893305a568cd5a9d873b242af0f9ce065d6c4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessWall",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/endless-wall/variants/css/endless-wall.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8eaddcea6649559006c0574484fda09448d92c3a67147df21e896318478438ea"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "infinite-gallery-tw",
+      "path": "vault/reactbits-starter/components/endless-wall/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/endless-wall/variants/tw/endless-wall.tsx",
+          "bytes": 23288,
+          "sha256": "ad20769f0163f128223260849f9f2ef6385fabb14e3811fcdf74c698b9bb0e8a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "EndlessWall",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/endless-wall/variants/tw/endless-wall.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "70071afa391e8568773f6bcb8925a55debdb82f545c7419df2f32b53a586d603"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "EndlessWall",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/endless-wall/variants/tw/endless-wall.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/endless-wall",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/infinite-gallery-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "42249048233367f625f8cda6a7fdf99c11996b79d78d44c6b0c2ec0a43f19be2",
+  "fetchedAt": "2026-08-14T05:33:13.549Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "infinite-gallery",
+  "upstreamName": "InfiniteGallery"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/stagger-stack",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "stagger-stack",
+  "name": "StaggerStack",
+  "title": "Stagger Stack",
+  "description": "Animated list with animated items",
+  "tags": [
+    "animation",
+    "list",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "animated-list-css",
+      "path": "vault/reactbits-starter/components/stagger-stack/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/stagger-stack/variants/css/stagger-stack.tsx",
+          "bytes": 11319,
+          "sha256": "4734d0f8d2b0612310b25801fbac81b6654e245233012699abf4cd87d5558dc4"
+        },
+        {
+          "path": "vault/reactbits-starter/components/stagger-stack/variants/css/stagger-stack.css",
+          "bytes": 1717,
+          "sha256": "011159021d642092951306d944afbb8e88f1e648d07b458e07755e3555f8cc6d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StaggerStack",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/stagger-stack/variants/css/stagger-stack.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f33a1eff425c958db8c5afa7c106935353a0692121b09b6d3e083643f645bc00"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "animated-list-tw",
+      "path": "vault/reactbits-starter/components/stagger-stack/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/stagger-stack/variants/tw/stagger-stack.tsx",
+          "bytes": 11898,
+          "sha256": "9b7f2d1749812ffa077d90a737029c4ad26de596c43bc5bf5ebd7fb126d5435b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StaggerStack",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/stagger-stack/variants/tw/stagger-stack.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d14f61172da1fb916172c1e5fbf5983dd379f29b2b1c2930f190598fbefac3f4"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StaggerStack",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/stagger-stack/variants/tw/stagger-stack.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/stagger-stack",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/animated-list-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "a86f28e82bdf82b585fbb221c2489a708761b62239ebe5752b87a5b132026fb2",
+  "fetchedAt": "2026-08-14T05:31:34.831Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "animated-list",
+  "upstreamName": "AnimatedList"
+}

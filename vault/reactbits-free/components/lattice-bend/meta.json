@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/lattice-bend",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "lattice-bend",
+  "name": "LatticeBend",
+  "title": "Lattice Bend",
+  "description": "Warped grid mesh distorts smoothly reacting to cursor.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GridDistortion-JS-CSS",
+      "path": "vault/reactbits-free/components/lattice-bend/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/js-css/LatticeBend.css",
+          "bytes": 77,
+          "sha256": "72e65422ee004668851653c155278cac44edcfb9cfa58e142c549e1208f5a640"
+        },
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/js-css/LatticeBend.jsx",
+          "bytes": 7343,
+          "sha256": "7313b8c779d016841114d13ee1a3ce2fdb1a17a513ec48749149f9bc7bab88af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeBend",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lattice-bend/variants/js-css/LatticeBend.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "36d15accdec06abbfc61476c59ae40a4ef3a2cbe296028749808e7eb7b28edd3"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GridDistortion-JS-TW",
+      "path": "vault/reactbits-free/components/lattice-bend/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/js-tw/LatticeBend.jsx",
+          "bytes": 7316,
+          "sha256": "b2559b5ae5f55f4eb66a656dee1262a71572286ff874b31ac6567ac97c3f0571"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeBend",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lattice-bend/variants/js-tw/LatticeBend.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5de38dea120e991f6b6a7d569fbe2728a07e789dc24ff0af99efa02dc0f66478"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GridDistortion-TS-CSS",
+      "path": "vault/reactbits-free/components/lattice-bend/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/ts-css/LatticeBend.css",
+          "bytes": 77,
+          "sha256": "72e65422ee004668851653c155278cac44edcfb9cfa58e142c549e1208f5a640"
+        },
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/ts-css/LatticeBend.tsx",
+          "bytes": 7951,
+          "sha256": "7c9f46297e6cb894931240a9e420ab702af09c43147a13f722b3d796344e22a7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeBend",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lattice-bend/variants/ts-css/LatticeBend.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d04b11ba6394898399d7a1dcc0eb09bc0858d57f96456449b6e78cf5811359d"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GridDistortion-TS-TW",
+      "path": "vault/reactbits-free/components/lattice-bend/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/lattice-bend/variants/ts-tw/LatticeBend.tsx",
+          "bytes": 7924,
+          "sha256": "745b0c36b6dae9209e646593f971594d2b229b4d31de6464b6189dea838baad2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LatticeBend",
+          "style": "default",
+          "file": "vault/reactbits-free/components/lattice-bend/variants/ts-tw/LatticeBend.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6323adf02a298672b5ec10de8eba1f1f34744c5e75309e6acf34c431c7359d83"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LatticeBend",
+      "style": "default",
+      "file": "vault/reactbits-free/components/lattice-bend/variants/ts-tw/LatticeBend.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/lattice-bend",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GridDistortion-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/grid-distortion"
+  },
+  "hash": "c6230439f608aa7b3779da9ce82705c6553c95308c46735e3693d29237c7dcf0",
+  "fetchedAt": "2026-08-14T05:36:11.392Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "LatticeBend",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "grid-distortion",
+  "upstreamName": "GridDistortion"
+}

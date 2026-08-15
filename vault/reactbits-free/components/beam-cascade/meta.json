@@ -1,0 +1,221 @@
+{
+  "id": "rb-free/component/beam-cascade",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "beam-cascade",
+  "name": "BeamCascade",
+  "title": "Beam Cascade",
+  "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LaserFlow-JS-CSS",
+      "path": "vault/reactbits-free/components/beam-cascade/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/js-css/BeamCascade.css",
+          "bytes": 103,
+          "sha256": "679be89dbe1a47da2d4431d52d05ed2201761ea940c40ac8f42f36cfdb41e2c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/js-css/BeamCascade.jsx",
+          "bytes": 20046,
+          "sha256": "61fb3f19e9480afee6e4835415d986bcc48ace4bd4b022cb7a87ae85fcfa1804"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamCascade",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/js-css/BeamCascade.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamCascade",
+          "style": "named",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/js-css/BeamCascade.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e0d038c7b694a1249ea4e289dc274cf65cf1f87500ad58e94b7ce5babaf6650e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LaserFlow-JS-TW",
+      "path": "vault/reactbits-free/components/beam-cascade/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/js-tw/BeamCascade.jsx",
+          "bytes": 20022,
+          "sha256": "6caba895406313fa6bcae0af115078458094515c505575f7810cbb07c86872a4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamCascade",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/js-tw/BeamCascade.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamCascade",
+          "style": "named",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/js-tw/BeamCascade.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a484911db8820a87070a87ddd0cdf27e0004ed56e3ce34b29fce9d64fcdf8333"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LaserFlow-TS-CSS",
+      "path": "vault/reactbits-free/components/beam-cascade/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/ts-css/BeamCascade.css",
+          "bytes": 103,
+          "sha256": "679be89dbe1a47da2d4431d52d05ed2201761ea940c40ac8f42f36cfdb41e2c6"
+        },
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/ts-css/BeamCascade.tsx",
+          "bytes": 20904,
+          "sha256": "841b3f54043d7fff1943f3af9cb7fe43f6b06f6bc63765e713c5e419ea19395f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamCascade",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/ts-css/BeamCascade.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamCascade",
+          "style": "named",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/ts-css/BeamCascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0bfe9580bb36580fad5f75d960b42035aabd33382b282dbe7af832f43f9797db"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LaserFlow-TS-TW",
+      "path": "vault/reactbits-free/components/beam-cascade/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/beam-cascade/variants/ts-tw/BeamCascade.tsx",
+          "bytes": 20999,
+          "sha256": "5305b4f13ea77750a52f59208a9a7ed41b2b6f61ed99b9b6d1dbcb487827b336"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "BeamCascade",
+          "style": "default",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/ts-tw/BeamCascade.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BeamCascade",
+          "style": "named",
+          "file": "vault/reactbits-free/components/beam-cascade/variants/ts-tw/BeamCascade.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aa168efbde5e07cd64ce79f12d6ace22313768ef8301b5f30ba0141d22a8f837"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BeamCascade",
+      "style": "default",
+      "file": "vault/reactbits-free/components/beam-cascade/variants/ts-tw/BeamCascade.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/beam-cascade",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LaserFlow-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/laser-flow"
+  },
+  "hash": "48b5bdaf4c4060cf8abc91f70427c6456d641e244badb738af253600c0eb93ab",
+  "fetchedAt": "2026-08-14T05:36:11.405Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BeamCascade",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "laser-flow",
+  "upstreamName": "LaserFlow"
+}

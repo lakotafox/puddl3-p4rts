@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/app-sidebar-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-sidebar-3",
+  "name": "app-sidebar-3",
+  "title": "App Sidebar 3",
+  "description": "Sidebar with workspace switcher, scoped search, and pinned items.",
+  "tags": [
+    "navigation",
+    "sidebar",
+    "shell",
+    "layout",
+    "app"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-sidebar-3",
+      "path": "vault/reactbits-pro/blocks/app-sidebar-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-sidebar-3/files/app-sidebar-3.tsx",
+          "bytes": 14327,
+          "sha256": "e5f93c11799dbc4b52a04092c209a870938229fbf6a5c472068a7a2fb8cfc76d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppSidebar3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-sidebar-3/files/app-sidebar-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "19a53da8a097c2bb5fd97cad796c117ca4d8fdf0f751e1367bcda19ab0a11ae2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppSidebar3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-sidebar-3/files/app-sidebar-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-sidebar-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-sidebar-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b1b73861495ebb8fb09767b000286cfee2f00f37ca864bc3a745a136bab6ddfe",
+  "fetchedAt": "2026-08-14T05:37:44.708Z",
+  "vaultVersion": 1
+}

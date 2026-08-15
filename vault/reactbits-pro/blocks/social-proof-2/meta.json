@@ -1,0 +1,92 @@
+{
+  "id": "rb-pro/block/social-proof-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-2",
+  "name": "social-proof-2",
+  "title": "Social Proof 2",
+  "description": "Customer showcase with dual opposite-scrolling marquees and gradient fades",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-2",
+      "path": "vault/reactbits-pro/blocks/social-proof-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-2/files/social-proof-2.tsx",
+          "bytes": 5311,
+          "sha256": "70da0598bc09cffad8746033ccbf4b32ddbcd268ce86d17acc8dc7121355e81d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-2/files/social-proof-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "20e432d101903e680026cfb1863647e472787915ae4557324be4fda7bd2148a1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-2/files/social-proof-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "6216df5d28bb5cc9ae22c187b148cc0bd2d170b5c36aa7181ac8f47008516c0e",
+  "fetchedAt": "2026-08-14T05:55:20.712Z",
+  "vaultVersion": 1
+}

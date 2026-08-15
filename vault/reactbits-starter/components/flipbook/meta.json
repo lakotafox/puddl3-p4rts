@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/flipbook",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "flipbook",
+  "name": "Flipbook",
+  "title": "Flipbook",
+  "description": "Scroll drives a frame sequence through a canvas playhead",
+  "tags": [
+    "scroll",
+    "canvas",
+    "sequence",
+    "sticky",
+    "cinematic",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "scroll",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "frame-scrub-css",
+      "path": "vault/reactbits-starter/components/flipbook/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/flipbook/variants/css/flipbook.tsx",
+          "bytes": 28710,
+          "sha256": "31e097b7f4945ed770382d66cd38d10641ad0eb322b75d84e660ceee21cd0d81"
+        },
+        {
+          "path": "vault/reactbits-starter/components/flipbook/variants/css/flipbook.css",
+          "bytes": 1806,
+          "sha256": "65474d5fb0afc162df787d2d8cced950d30784d5ba9479e991cae039de291d56"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Flipbook",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/flipbook/variants/css/flipbook.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Flipbook",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/flipbook/variants/css/flipbook.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "129196c3be9450e6057156dbb21bff840ccfcc90985d4d7c02386dc542db058a"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "frame-scrub-tw",
+      "path": "vault/reactbits-starter/components/flipbook/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/flipbook/variants/tw/flipbook.tsx",
+          "bytes": 29039,
+          "sha256": "35edf77f745236014af6810d68b907113691ead8b9ac6cd479f0e10f3fcc975e"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Flipbook",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/flipbook/variants/tw/flipbook.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Flipbook",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/flipbook/variants/tw/flipbook.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "abbad025f2df6b1252fa095daa430e446acdf8aa0d55a31d68ea8b09b2e98162"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Flipbook",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/flipbook/variants/tw/flipbook.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/flipbook",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/frame-scrub-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "871d3ad573927e4d873f248ea2d4e6c7b2be09102c243eacaa9a66914da94492",
+  "fetchedAt": "2026-08-14T05:32:43.479Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "frame-scrub",
+  "upstreamName": "FrameScrub"
+}

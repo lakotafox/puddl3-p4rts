@@ -1,0 +1,105 @@
+{
+  "id": "rb-pro/block/hero-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "hero-12",
+  "name": "hero-12",
+  "title": "Hero 12",
+  "description": "Background image with curved shape text overlays",
+  "tags": [
+    "hero",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "hero",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "hero-12",
+      "path": "vault/reactbits-pro/blocks/hero-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/hero-12/files/hero-12.tsx",
+          "bytes": 5725,
+          "sha256": "f9751ed1c73c27bccb41f15f1a928d3d7e234682f0032fa7b12ff4235ce713d1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/hero-12/files/hero-12.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Hero12",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/hero-12/files/hero-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dbf4cef34851a6e0109e40300fd979c2e80d81e535518c6c0d2fcf09dba820ff"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Hero12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/hero-12/files/hero-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/hero-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/hero-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "282491bc4ca5658da5100059d8b35dc360f1b07757007c0e06f3179345c96fea",
+  "fetchedAt": "2026-08-14T05:47:57.079Z",
+  "vaultVersion": 1
+}

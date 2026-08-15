@@ -1,0 +1,124 @@
+{
+  "id": "rb-starter/component/atlas",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "atlas",
+  "name": "Atlas",
+  "title": "Atlas",
+  "description": "Interactive 3D globe with animated arcs and location markers",
+  "tags": [
+    "3d",
+    "visualization"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "globe-css",
+      "path": "vault/reactbits-starter/components/atlas/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/atlas/variants/css/atlas.tsx",
+          "bytes": 23050,
+          "sha256": "b8d9be42cb857597a39b47c3aa78f9f6b833e12f820d8621a56d2f94592eb6e4"
+        },
+        {
+          "path": "vault/reactbits-starter/components/atlas/variants/css/atlas.css",
+          "bytes": 474,
+          "sha256": "1e99399a456f45c46d13c2db8c939d2084c45295232accd8e1027b418c7b4d5a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Atlas",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/atlas/variants/css/atlas.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Atlas",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/atlas/variants/css/atlas.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "99f4a35e7d4d284b7767158cc7480c9b4c07b73f689d3770bf9997121c47534e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "globe-tw",
+      "path": "vault/reactbits-starter/components/atlas/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/atlas/variants/tw/atlas.tsx",
+          "bytes": 22866,
+          "sha256": "63d39434f10b32ef6b84af265506da19358e2d112a955c2b86243a0accd8c5d1"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Atlas",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/atlas/variants/tw/atlas.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Atlas",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/atlas/variants/tw/atlas.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fcd2acaf61de2c15c06f4ffe34540f7dda425c92aad6f717866cc58745cb068e"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Atlas",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/atlas/variants/tw/atlas.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/atlas",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/globe-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3ab19effca3347b478f010bbe1c83a4d29d6dd17cd19830057f191c585d27df0",
+  "fetchedAt": "2026-08-14T05:32:53.930Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "globe",
+  "upstreamName": "Globe"
+}

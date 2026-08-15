@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/fluid-columns",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "fluid-columns",
+  "name": "FluidColumns",
+  "title": "Fluid Columns",
+  "description": "Animated liquid bar effect with smooth wave motion",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "liquid-bars-css",
+      "path": "vault/reactbits-starter/components/fluid-columns/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fluid-columns/variants/css/fluid-columns.tsx",
+          "bytes": 13982,
+          "sha256": "792459c34aff3b2fa2e8a1426a7c36e39a7682e10739bd1c8b9a20ee81715e1d"
+        },
+        {
+          "path": "vault/reactbits-starter/components/fluid-columns/variants/css/fluid-columns.css",
+          "bytes": 311,
+          "sha256": "5b959649d671fd7accdcac10556c3b1f4eb6a533769d552b3a07da86628c0f04"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluidColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fluid-columns/variants/css/fluid-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ec0803842d02f757d4415513eed8769489fd76760f0f6ea32edc40e850a17f10"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "liquid-bars-tw",
+      "path": "vault/reactbits-starter/components/fluid-columns/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fluid-columns/variants/tw/fluid-columns.tsx",
+          "bytes": 14014,
+          "sha256": "a826f7722a76d189fd471afe32912bd666cac21fb36b4bde1c125112ec89b7b0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluidColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fluid-columns/variants/tw/fluid-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bd9477888ce7e322d985fc05fbd9d7f9b2109ade9bb065517cd5318999db4522"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FluidColumns",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/fluid-columns/variants/tw/fluid-columns.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/fluid-columns",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/liquid-bars-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "1566a01bdbcfec952cf5ac9e76633a79b81b69387f5be18f57a42174639717c5",
+  "fetchedAt": "2026-08-14T05:33:24.031Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "liquid-bars",
+  "upstreamName": "LiquidBars"
+}

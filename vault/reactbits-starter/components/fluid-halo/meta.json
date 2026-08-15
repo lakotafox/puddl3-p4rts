@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/fluid-halo",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "fluid-halo",
+  "name": "FluidHalo",
+  "title": "Fluid Halo",
+  "description": "Radial shader waves with distortion and various effects",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "radial-liquid-css",
+      "path": "vault/reactbits-starter/components/fluid-halo/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fluid-halo/variants/css/fluid-halo.tsx",
+          "bytes": 20580,
+          "sha256": "5dd192f667a7d9a112cd689dd50168df48689b2ecc60038995cf56620242d06c"
+        },
+        {
+          "path": "vault/reactbits-starter/components/fluid-halo/variants/css/fluid-halo.css",
+          "bytes": 293,
+          "sha256": "edec6687bb7e66a50de59d4a0e472c84dba411594c5ba94178fcabd4806db3c6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluidHalo",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fluid-halo/variants/css/fluid-halo.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "FluidHalo",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/fluid-halo/variants/css/fluid-halo.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e7aee63ce9d74b615b8495410e4bc8e9e1f107c7b0f99187226849537cb45d18"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "radial-liquid-tw",
+      "path": "vault/reactbits-starter/components/fluid-halo/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/fluid-halo/variants/tw/fluid-halo.tsx",
+          "bytes": 20622,
+          "sha256": "3231136bdf670acdd4b93c995c5f3e7212ec2e68c9b0248f8bd3479ecb1ac6b0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FluidHalo",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/fluid-halo/variants/tw/fluid-halo.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "FluidHalo",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/fluid-halo/variants/tw/fluid-halo.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "960c946ad548512a65c6112dd4c8822b8c575cdcc14d1b196f2b454caeda9999"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FluidHalo",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/fluid-halo/variants/tw/fluid-halo.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/fluid-halo",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/radial-liquid-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "f1a2c79dbf6d78f7069d389b2dd65423d37a197df13e0112365907aa8f59f1c0",
+  "fetchedAt": "2026-08-14T05:34:07.949Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "radial-liquid",
+  "upstreamName": "RadialLiquid"
+}

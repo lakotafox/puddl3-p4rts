@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/lens-pointer",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "lens-pointer",
+  "name": "LensPointer",
+  "title": "Lens Pointer",
+  "description": "Glass-like cursor trail with refraction and blur",
+  "tags": [
+    "cursor",
+    "effect",
+    "3d"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glass-cursor-css",
+      "path": "vault/reactbits-starter/components/lens-pointer/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lens-pointer/variants/css/lens-pointer.tsx",
+          "bytes": 15430,
+          "sha256": "cead5dd14fba9c3dc34b26dfd65146fed2c6097a148743a8b6316ff472164470"
+        },
+        {
+          "path": "vault/reactbits-starter/components/lens-pointer/variants/css/lens-pointer.css",
+          "bytes": 282,
+          "sha256": "297073e3766b12bf3fcd6f968906aed8b58b251756ecbf5a86cd7a9c50d7e94c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LensPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lens-pointer/variants/css/lens-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "83a3ffc65a717f21113999045513b8335fe5dfc4347f12dd65f997faca6a4571"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glass-cursor-tw",
+      "path": "vault/reactbits-starter/components/lens-pointer/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/lens-pointer/variants/tw/lens-pointer.tsx",
+          "bytes": 15556,
+          "sha256": "0bad9b332f17a7d9db8260fc9934e6418b137f469ae7a12ae094543b814a7891"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "LensPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/lens-pointer/variants/tw/lens-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "031d083ece6cde9993e178f73aac187b50e77f5cad05da96dac4353aecadafab"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "LensPointer",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/lens-pointer/variants/tw/lens-pointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/lens-pointer",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glass-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "ed7e07488b50a4d2d059ce7190b6064901a0a00fd5c24282222f44ae95f8bbaf",
+  "fetchedAt": "2026-08-14T05:32:45.221Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glass-cursor",
+  "upstreamName": "GlassCursor"
+}

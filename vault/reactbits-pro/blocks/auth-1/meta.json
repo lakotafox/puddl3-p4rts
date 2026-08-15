@@ -1,0 +1,150 @@
+{
+  "id": "rb-pro/block/auth-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "auth-1",
+  "name": "auth-1",
+  "title": "Auth 1",
+  "description": "Split layout with sign-in form and animated testimonial marquee",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "authentication"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "auth-1",
+      "path": "vault/reactbits-pro/blocks/auth-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/auth-1/files/auth-1.tsx",
+          "bytes": 10494,
+          "sha256": "207626866cd4d74a4f9f696995e6d5dc0cfbaae3b77436030b7ce854e1cd0823"
+        },
+        {
+          "path": "vault/reactbits-pro/blocks/auth-1/files/twinkle-field.tsx",
+          "bytes": 9776,
+          "sha256": "d6dbcd1478a1a1a6902728be48dfcca11a0559d6bfb316bbb65478d3ff3cd9da"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        },
+        {
+          "name": "next-themes",
+          "range": "*"
+        },
+        {
+          "name": "clsx",
+          "range": "*"
+        },
+        {
+          "name": "tailwind-merge",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Auth1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/auth-1/files/auth-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Auth1",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/auth-1/files/auth-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "TwinkleField",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/auth-1/files/twinkle-field.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "TwinkleField",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/auth-1/files/twinkle-field.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "447388edb78e14e91452220cf1b4cbd81ccb5cfe1e3b8be30ce269d2544a5841"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "clsx",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    },
+    {
+      "name": "next-themes",
+      "range": "*"
+    },
+    {
+      "name": "tailwind-merge",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Auth1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/auth-1/files/auth-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/auth-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/auth-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dcb0a80ae0cb104bea024a7817d5abd6917a345eced44b7c7288e8620a45037d",
+  "fetchedAt": "2026-08-14T05:37:52.032Z",
+  "vaultVersion": 1
+}

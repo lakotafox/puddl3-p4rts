@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/navigation-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-8",
+  "name": "navigation-8",
+  "title": "Navigation 8",
+  "description": "Bottom nav with blurred background and image previews",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-8",
+      "path": "vault/reactbits-pro/blocks/navigation-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-8/files/navigation-8.tsx",
+          "bytes": 8604,
+          "sha256": "6c369deb1c277acd670b645ec24dc8cef4bcedfa502dc850dbc23e3dbccf864e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-8/files/navigation-8.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Navigation8",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/navigation-8/files/navigation-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b73ec3a97d89659bb0b6ded880f3290c96e4d21f6244ed2d4d28c2b91325d74e"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-8/files/navigation-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "094c4e6ee3d8f66a1263dd31ca6095125297cc9eacc7b5f4052c2d40c07be06a",
+  "fetchedAt": "2026-08-14T05:52:51.436Z",
+  "vaultVersion": 1
+}

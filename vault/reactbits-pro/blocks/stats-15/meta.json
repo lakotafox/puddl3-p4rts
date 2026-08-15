@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/stats-15",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "stats-15",
+  "name": "stats-15",
+  "title": "Stats 15",
+  "description": "Dual-ring coverage dial with a per-workflow automation ledger.",
+  "tags": [
+    "stats",
+    "metrics",
+    "numbers",
+    "data",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "stats",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "stats-15",
+      "path": "vault/reactbits-pro/blocks/stats-15/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/stats-15/files/stats-15.tsx",
+          "bytes": 8137,
+          "sha256": "f118833c7334b83bf7a9b3120fbb65a9a53b55a75defbd285748ae6956e0819c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Stats15",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/stats-15/files/stats-15.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b84b8766466e547362979b4844c7123c0bedaf8bd717e7b5557ca331cb21aab5"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Stats15",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/stats-15/files/stats-15.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/stats-15",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/stats-15.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "c574d945b85c551e7d9948a59f6b8953818f3f1df7da1d3160893dc55028c74f",
+  "fetchedAt": "2026-08-14T05:55:42.585Z",
+  "vaultVersion": 1
+}

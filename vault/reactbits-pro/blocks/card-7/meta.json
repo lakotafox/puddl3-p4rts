@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/card-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "card-7",
+  "name": "card-7",
+  "title": "Card 7",
+  "description": "Changelog cards with a version overline, a two-line excerpt, an author, and a bookmark.",
+  "tags": [
+    "card",
+    "grid",
+    "gallery",
+    "profile",
+    "metric"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "card-7",
+      "path": "vault/reactbits-pro/blocks/card-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/card-7/files/card-7.tsx",
+          "bytes": 6430,
+          "sha256": "9c7bdc3875f2d55b1904b20d69d63985eef9ca2bdc48a6af9140f1420e1734a9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/card-7/files/card-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e9e499f8a1621e712a3dc6d8dbcfe959c3e256fcda24126bb86842d6c06f041c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Card7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/card-7/files/card-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/card-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/card-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "3e48073fb65966d555f074607285a9fe5c6a6938826eb840d734b8e0d4ab144f",
+  "fetchedAt": "2026-08-14T05:43:36.750Z",
+  "vaultVersion": 1
+}

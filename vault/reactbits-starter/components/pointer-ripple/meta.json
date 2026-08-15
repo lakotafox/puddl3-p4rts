@@ -1,0 +1,115 @@
+{
+  "id": "rb-starter/component/pointer-ripple",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "pointer-ripple",
+  "name": "PointerRipple",
+  "title": "Pointer Ripple",
+  "description": "A grid of shapes that reacts to your cursor and clicks",
+  "tags": [
+    "interactive",
+    "cursor",
+    "background",
+    "canvas",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "interactive",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "cursor-wave-css",
+      "path": "vault/reactbits-starter/components/pointer-ripple/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pointer-ripple/variants/css/pointer-ripple.tsx",
+          "bytes": 16351,
+          "sha256": "6a51cb712587dba22bcb47a11f66bb6835e1a20c0d282218b018c4ccd37e45e8"
+        },
+        {
+          "path": "vault/reactbits-starter/components/pointer-ripple/variants/css/pointer-ripple.css",
+          "bytes": 290,
+          "sha256": "77c8e2bbd9980e09809b375abf07d5b171d175afcf6432e10a978fc50bd907a4"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerRipple",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pointer-ripple/variants/css/pointer-ripple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e9f55670ce6ff9fba88272b16814a8b9f96e6309b43f130eb6fa355de0d96bd6"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "cursor-wave-tw",
+      "path": "vault/reactbits-starter/components/pointer-ripple/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pointer-ripple/variants/tw/pointer-ripple.tsx",
+          "bytes": 16426,
+          "sha256": "0da79cfb35a558f1e226f0d377224a8b322e19678e60c24c6af5009ba34bb1c8"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "PointerRipple",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pointer-ripple/variants/tw/pointer-ripple.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e70c9c139ba6df3de1d99c0f7b9d1455367a359183094aa20077341495c9b722"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PointerRipple",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/pointer-ripple/variants/tw/pointer-ripple.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/pointer-ripple",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/cursor-wave-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8403929b733707e8c487aa98d14b7e2c48cae5695e235997005063cb085f4592",
+  "fetchedAt": "2026-08-14T05:32:18.760Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "cursor-wave",
+  "upstreamName": "CursorWave"
+}

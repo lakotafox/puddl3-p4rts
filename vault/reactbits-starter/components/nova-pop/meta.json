@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/nova-pop",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "nova-pop",
+  "name": "NovaPop",
+  "title": "Nova Pop",
+  "description": "Star burst explosion effect with particles",
+  "tags": [
+    "animation",
+    "particles"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "star-burst-css",
+      "path": "vault/reactbits-starter/components/nova-pop/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/nova-pop/variants/css/nova-pop.tsx",
+          "bytes": 9256,
+          "sha256": "2a71c5123c1d2cea6b2410ee449990092ea23ebb7c4fb8b4d303fbb5cbf124f4"
+        },
+        {
+          "path": "vault/reactbits-starter/components/nova-pop/variants/css/nova-pop.css",
+          "bytes": 126,
+          "sha256": "dd5b1179779396a6459daf93e9cb93b67d047d1f4b5a9f108db061cf583f9abd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NovaPop",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/nova-pop/variants/css/nova-pop.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6da7542075f39b5d835487da1e67c66dc07d5ab08946a28d17eafec7115a41ce"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "star-burst-tw",
+      "path": "vault/reactbits-starter/components/nova-pop/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/nova-pop/variants/tw/nova-pop.tsx",
+          "bytes": 9317,
+          "sha256": "f390b207b1562889bdfd56aa1c41e35bd57863f40ea1002ba445e907352c0951"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NovaPop",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/nova-pop/variants/tw/nova-pop.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "662226d64aee514342040ef821decea23cc2984a31556251aef37a3b7e60b900"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NovaPop",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/nova-pop/variants/tw/nova-pop.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/nova-pop",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/star-burst-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "5945677ad47ae789f327c082cd682aaa791963cc4a4a5d81f16c68c972d9c714",
+  "fetchedAt": "2026-08-14T05:34:56.981Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "star-burst",
+  "upstreamName": "StarBurst"
+}

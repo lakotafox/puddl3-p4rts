@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/vanishing-lattice",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "vanishing-lattice",
+  "name": "VanishingLattice",
+  "title": "Vanishing Lattice",
+  "description": "Infinite scrolling 3D perspective grid with WebGL shader rendering",
+  "tags": [
+    "3d",
+    "grid",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "3d",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "perspective-grid-css",
+      "path": "vault/reactbits-starter/components/vanishing-lattice/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/vanishing-lattice/variants/css/vanishing-lattice.tsx",
+          "bytes": 8938,
+          "sha256": "09ecbbbac552151116fb33271c2736bcf4ffeb35f099afd219e9be7020cdd169"
+        },
+        {
+          "path": "vault/reactbits-starter/components/vanishing-lattice/variants/css/vanishing-lattice.css",
+          "bytes": 407,
+          "sha256": "73dc820e800cb2a241ba977430c6105826ede3ddb0dd12c34960dd062bc9c0cd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VanishingLattice",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/vanishing-lattice/variants/css/vanishing-lattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dfc1d2f20c0cbc1d4ca7d7f8e323dec115f9a3596771f99912b6cae905cbab4d"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "perspective-grid-tw",
+      "path": "vault/reactbits-starter/components/vanishing-lattice/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/vanishing-lattice/variants/tw/vanishing-lattice.tsx",
+          "bytes": 9024,
+          "sha256": "ed2ee5c5097b3f5e3508600dd4d8b07a041f37860f8957f80caa42616ab5fd84"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VanishingLattice",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/vanishing-lattice/variants/tw/vanishing-lattice.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2498e6c5508a0b5a5b54d28a1373e09680ba009311527e673f578c206b20208e"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VanishingLattice",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/vanishing-lattice/variants/tw/vanishing-lattice.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/vanishing-lattice",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/perspective-grid-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "9075f684116513584045953703123e3747ff3b7c5d9aa74149ecf10bd06142cd",
+  "fetchedAt": "2026-08-14T05:33:55.490Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "perspective-grid",
+  "upstreamName": "PerspectiveGrid"
+}

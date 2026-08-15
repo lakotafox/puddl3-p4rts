@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/midnight-haze",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "midnight-haze",
+  "name": "MidnightHaze",
+  "title": "Midnight Haze",
+  "description": "Subtle dark background with a smooth animation and postprocessing.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DarkVeil-JS-CSS",
+      "path": "vault/reactbits-free/components/midnight-haze/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/js-css/MidnightHaze.css",
+          "bytes": 70,
+          "sha256": "5e1658de28e5446be8d43c03d0db74a2a99798969cbdc1a921a1fecfe19f1112"
+        },
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/js-css/MidnightHaze.jsx",
+          "bytes": 11825,
+          "sha256": "a56867700b0477fe0d5e83058d02c42f1d63542a2177c7b0ddec0ca456bd99f1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MidnightHaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/midnight-haze/variants/js-css/MidnightHaze.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9347e07857300fa03b4dc006d7693c7ecc6ff9552ee9df3a379e99780fe63b27"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DarkVeil-JS-TW",
+      "path": "vault/reactbits-free/components/midnight-haze/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/js-tw/MidnightHaze.jsx",
+          "bytes": 11497,
+          "sha256": "073b0d375930a35222d95c83155d0ce337c26a82aaef7cf2ccdcbcc49ceba192"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MidnightHaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/midnight-haze/variants/js-tw/MidnightHaze.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5e710ba0a9e614b0f74d8b136a28fee4542d2f2834c16b0d33b244ef45f5ab1f"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DarkVeil-TS-CSS",
+      "path": "vault/reactbits-free/components/midnight-haze/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/ts-css/MidnightHaze.css",
+          "bytes": 70,
+          "sha256": "5e1658de28e5446be8d43c03d0db74a2a99798969cbdc1a921a1fecfe19f1112"
+        },
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/ts-css/MidnightHaze.tsx",
+          "bytes": 12078,
+          "sha256": "d894007f87d6993eb418468609757d167499c79454d72810e7a2317cfe11e0a4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MidnightHaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/midnight-haze/variants/ts-css/MidnightHaze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c1842ba344e7bf1497ef6e0031ca176927fa95691b653f295a4e437f5d0a2afb"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DarkVeil-TS-TW",
+      "path": "vault/reactbits-free/components/midnight-haze/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/midnight-haze/variants/ts-tw/MidnightHaze.tsx",
+          "bytes": 12059,
+          "sha256": "bff550d32ae2d4f25a1f80f06c4ff932f01edb7bac5d4cb6f75ddcc7451c8091"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MidnightHaze",
+          "style": "default",
+          "file": "vault/reactbits-free/components/midnight-haze/variants/ts-tw/MidnightHaze.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4c6826664d65e449c1f178142b0e2c655e8472e83e3997d1026ea27c57b81d44"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MidnightHaze",
+      "style": "default",
+      "file": "vault/reactbits-free/components/midnight-haze/variants/ts-tw/MidnightHaze.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/midnight-haze",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DarkVeil-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/dark-veil"
+  },
+  "hash": "54c9a19b62a717d5a20f751a4c17c10d135a0dd9cbd3465ab28203d57269cc9e",
+  "fetchedAt": "2026-08-14T05:36:11.359Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MidnightHaze",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "dark-veil",
+  "upstreamName": "DarkVeil"
+}

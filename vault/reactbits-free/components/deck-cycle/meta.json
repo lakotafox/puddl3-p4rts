@@ -1,0 +1,222 @@
+{
+  "id": "rb-free/component/deck-cycle",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "deck-cycle",
+  "name": "DeckCycle",
+  "title": "Deck Cycle",
+  "description": "Cards animate position swapping with smooth layout transitions.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CardSwap-JS-CSS",
+      "path": "vault/reactbits-free/components/deck-cycle/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/js-css/DeckCycle.css",
+          "bytes": 655,
+          "sha256": "92d6d744940a053734297f34b4a21ff6b47d71484b67b16912f6d7bf515f6af9"
+        },
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/js-css/DeckCycle.jsx",
+          "bytes": 4790,
+          "sha256": "2e1537ed83fc514ece7b2e4642659b37ae1975e430f377531513cffe987f25a3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeckCycle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/js-css/DeckCycle.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Card",
+          "style": "named",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/js-css/DeckCycle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2425b00a96824a2f463173716039d84905ba7f605ab1839a250643f0f77d7809"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CardSwap-JS-TW",
+      "path": "vault/reactbits-free/components/deck-cycle/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/js-tw/DeckCycle.jsx",
+          "bytes": 5225,
+          "sha256": "85cd16bf92ad5bb2ed8c9b2a4b5137d6b75badbfe993a297b5c74d4dffe9173e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeckCycle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/js-tw/DeckCycle.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Card",
+          "style": "named",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/js-tw/DeckCycle.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f0e14cba095fd961980cc44bc69adf411c74b1012f52040b1ff0b97faea412a9"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CardSwap-TS-CSS",
+      "path": "vault/reactbits-free/components/deck-cycle/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/ts-css/DeckCycle.css",
+          "bytes": 655,
+          "sha256": "92d6d744940a053734297f34b4a21ff6b47d71484b67b16912f6d7bf515f6af9"
+        },
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/ts-css/DeckCycle.tsx",
+          "bytes": 5586,
+          "sha256": "0a8a07a9edc8cc0368c64dd2a57eacd74519267885b6806a2ebbb70bdcf85fba"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeckCycle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/ts-css/DeckCycle.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Card",
+          "style": "named",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/ts-css/DeckCycle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1678249f47c8dbeceb58e4e3913815e828206869fb1450f0b4030652b2308f5e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CardSwap-TS-TW",
+      "path": "vault/reactbits-free/components/deck-cycle/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/deck-cycle/variants/ts-tw/DeckCycle.tsx",
+          "bytes": 6020,
+          "sha256": "2a907901cf39c9b73f87d9d5371f242d7cabbbf0043c1c0d248f99a23365b168"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeckCycle",
+          "style": "default",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/ts-tw/DeckCycle.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Card",
+          "style": "named",
+          "file": "vault/reactbits-free/components/deck-cycle/variants/ts-tw/DeckCycle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8d88f0333269ddd6f6544dc42a8d4d6ac275440430f3cf2ead5043550e7d99a5"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DeckCycle",
+      "style": "default",
+      "file": "vault/reactbits-free/components/deck-cycle/variants/ts-tw/DeckCycle.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/deck-cycle",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CardSwap-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/card-swap"
+  },
+  "hash": "a08acbfd18eee63921871a6cf67c8bd8dbe446796f64b96606388817b03ff891",
+  "fetchedAt": "2026-08-14T05:36:11.345Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "DeckCycle",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "card-swap",
+  "upstreamName": "CardSwap"
+}

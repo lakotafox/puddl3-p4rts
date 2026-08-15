@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/storm-bolts",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "storm-bolts",
+  "name": "StormBolts",
+  "title": "Storm Bolts",
+  "description": "Procedural lightning bolts with branching and glow flicker.",
+  "tags": [
+    "background"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Lightning-JS-CSS",
+      "path": "vault/reactbits-free/components/storm-bolts/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/js-css/StormBolts.css",
+          "bytes": 78,
+          "sha256": "2abfa31dd44ee108a46e876dd6fc9389d405ef36c8fd9823604580185c95fe2c"
+        },
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/js-css/StormBolts.jsx",
+          "bytes": 6030,
+          "sha256": "3358de2ed94c6ff5a8e2c840a83e1e93423a08b7a1b8bdb12360733556c71acf"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StormBolts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/storm-bolts/variants/js-css/StormBolts.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "17d1cc97b277d29e042c0633371e7b2d9d7d55f8ca5dfcee4f0844f2dc9300bc"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Lightning-JS-TW",
+      "path": "vault/reactbits-free/components/storm-bolts/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/js-tw/StormBolts.jsx",
+          "bytes": 6007,
+          "sha256": "e2c21b12ee5a1b3ce8469e9267b04c34bb64f0e4521911eddabb143aae54136a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StormBolts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/storm-bolts/variants/js-tw/StormBolts.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5a2df89dd612aa211fc19835d109dd7eb66591ca206db25cdb9029b788943461"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Lightning-TS-CSS",
+      "path": "vault/reactbits-free/components/storm-bolts/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/ts-css/StormBolts.css",
+          "bytes": 78,
+          "sha256": "2abfa31dd44ee108a46e876dd6fc9389d405ef36c8fd9823604580185c95fe2c"
+        },
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/ts-css/StormBolts.tsx",
+          "bytes": 6241,
+          "sha256": "ff619cf694fe19f6c05dabef90eba3cfd27c424a744f1ba5ed58481f22db2c2c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StormBolts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/storm-bolts/variants/ts-css/StormBolts.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a4bb11c53d4d2dab376d4f36249c8e959a173de8a113ceee09cfb1fb7e5ea3a8"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Lightning-TS-TW",
+      "path": "vault/reactbits-free/components/storm-bolts/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/storm-bolts/variants/ts-tw/StormBolts.tsx",
+          "bytes": 6218,
+          "sha256": "96a4616c5bb3dc1c085707601ca9620a26a09767a92480963394f1d2b35d9311"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "StormBolts",
+          "style": "default",
+          "file": "vault/reactbits-free/components/storm-bolts/variants/ts-tw/StormBolts.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bf22d18d2165d4fe21785e743e8475a50d42c879a32631221df7f7877743b488"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StormBolts",
+      "style": "default",
+      "file": "vault/reactbits-free/components/storm-bolts/variants/ts-tw/StormBolts.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/storm-bolts",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Lightning-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/lightning"
+  },
+  "hash": "a244fb70f5b8128e78f3b6b59b94fdaf0f811bf282715b4a92dec91c41202da9",
+  "fetchedAt": "2026-08-14T05:36:11.407Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "StormBolts",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "lightning",
+  "upstreamName": "Lightning"
+}

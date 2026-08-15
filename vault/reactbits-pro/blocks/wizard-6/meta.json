@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/wizard-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "wizard-6",
+  "name": "wizard-6",
+  "title": "Wizard 6",
+  "description": "Running step showing overall progress with per-task done, active, pending, and warning states.",
+  "tags": [
+    "wizard",
+    "stepper",
+    "multi-step",
+    "flow",
+    "progress"
+  ],
+  "tagSource": "upstream",
+  "category": "wizard",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "wizard-6",
+      "path": "vault/reactbits-pro/blocks/wizard-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/wizard-6/files/wizard-6.tsx",
+          "bytes": 7996,
+          "sha256": "8f71d77194908be5e4229ccb88ca922bdcd50b6f277a12ac26bf3be9821c0e86"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Wizard6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/wizard-6/files/wizard-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "390f019bfec7383937561397d15c94e7c98d165a0578fe3db262a9b172cd65e9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Wizard6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/wizard-6/files/wizard-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/wizard-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/wizard-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "39777c771eab6fcada940372f4a6da1e95d835d4cd7fd7dfcbf6bc523d679211",
+  "fetchedAt": "2026-08-14T05:56:30.064Z",
+  "vaultVersion": 1
+}

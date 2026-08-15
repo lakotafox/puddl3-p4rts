@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-13",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-13",
+  "name": "authentication-13",
+  "title": "Authentication 13",
+  "description": "Password reset with match validation and the device sessions the change will end.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-13",
+      "path": "vault/reactbits-pro/blocks/authentication-13/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-13/files/authentication-13.tsx",
+          "bytes": 16354,
+          "sha256": "9ec7822e9b7fdc8f9b81b75e383b2abd3f39db6324a4836071a1b61045cc6e5c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication13",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-13/files/authentication-13.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "41000c9c9233e01df6c9238365eaadaae3a88577b98f487e9256317726a29888"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication13",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-13/files/authentication-13.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-13",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-13.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d2d551a2a9bf65521d16378fa922479928773c3dc2cf1dc484f0b9bf991da818",
+  "fetchedAt": "2026-08-14T05:42:39.472Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/polar-sweep",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "polar-sweep",
+  "name": "PolarSweep",
+  "title": "Polar Sweep",
+  "description": "A sweeping aurora beam built from layered sheets of light",
+  "tags": [
+    "background",
+    "shader",
+    "aurora",
+    "glow",
+    "webgl",
+    "ambient"
+  ],
+  "tagSource": "upstream",
+  "category": "background",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "aurora-beam-css",
+      "path": "vault/reactbits-starter/components/polar-sweep/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/polar-sweep/variants/css/polar-sweep.tsx",
+          "bytes": 17672,
+          "sha256": "0f948a1cdad52aa0a15050e3391a938cefb7d2538c8a439b345249e2298cb559"
+        },
+        {
+          "path": "vault/reactbits-starter/components/polar-sweep/variants/css/polar-sweep.css",
+          "bytes": 212,
+          "sha256": "3caef121710cc6dd79e4e0d67f347ae78c01c2051177e9d71c8e14b97eb4abab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/polar-sweep/variants/css/polar-sweep.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PolarSweep",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/polar-sweep/variants/css/polar-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80e0b07a973a590996932a3493b65304d53c5213096e0d31a0f993123fc81569"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "aurora-beam-tw",
+      "path": "vault/reactbits-starter/components/polar-sweep/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/polar-sweep/variants/tw/polar-sweep.tsx",
+          "bytes": 17674,
+          "sha256": "f59f22985a54a0eefe523ef629f5f4d545b21179ddae6a7b3729dda11163ec7b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PolarSweep",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/polar-sweep/variants/tw/polar-sweep.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "PolarSweep",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/polar-sweep/variants/tw/polar-sweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "453a74fae8bd9186a0b45631bfb6fc22e7d54893289df223ddb304703b10f699"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PolarSweep",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/polar-sweep/variants/tw/polar-sweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/polar-sweep",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/aurora-beam-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3885dec3c87967686da59123f039fb7b16a3b68ac6a667eabbbdcc65f0523a13",
+  "fetchedAt": "2026-08-14T05:31:43.836Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "aurora-beam",
+  "upstreamName": "AuroraBeam"
+}

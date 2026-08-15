@@ -1,0 +1,155 @@
+{
+  "id": "rb-starter/component/slanted-lanes",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "slanted-lanes",
+  "name": "SlantedLanes",
+  "title": "Slanted Lanes",
+  "description": "Tilted reels of images that glide as you scroll",
+  "tags": [
+    "gallery",
+    "images",
+    "scroll",
+    "marquee",
+    "showcase",
+    "interactive"
+  ],
+  "tagSource": "upstream",
+  "category": "gallery",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "reel-gallery-css",
+      "path": "vault/reactbits-starter/components/slanted-lanes/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/slanted-lanes/variants/css/slanted-lanes.tsx",
+          "bytes": 22731,
+          "sha256": "f202ce8042e69c4f2a53431aadc0a5eee8955c96b5058ce324b362718e9a7509"
+        },
+        {
+          "path": "vault/reactbits-starter/components/slanted-lanes/variants/css/slanted-lanes.css",
+          "bytes": 419,
+          "sha256": "84faba264db1a1461624461f2b6d57ccf537a602d88160598b496f98f2932e70"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlantedLanes",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/slanted-lanes/variants/css/slanted-lanes.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SlantedLanes",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/slanted-lanes/variants/css/slanted-lanes.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ad305793133504b4eac9f449ded44aedd1c54add327a88bcdfc9a69475b0d9e7"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "reel-gallery-tw",
+      "path": "vault/reactbits-starter/components/slanted-lanes/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/slanted-lanes/variants/tw/slanted-lanes.tsx",
+          "bytes": 22816,
+          "sha256": "075796c933ab2001587594bfaf493ddc388ad3814030f31692f124e05bcfc27e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlantedLanes",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/slanted-lanes/variants/tw/slanted-lanes.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "SlantedLanes",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/slanted-lanes/variants/tw/slanted-lanes.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b65eb3f5ff21201108f0dfaa4827ff0dfa6d1fdef3adec67670af18cb8e98a4a"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SlantedLanes",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/slanted-lanes/variants/tw/slanted-lanes.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/slanted-lanes",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/reel-gallery-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "97a88cdaa0816503c7342a0d52c4d80a91fb88566b5edcff0f9c21619c77d4d2",
+  "fetchedAt": "2026-08-14T05:34:09.792Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "reel-gallery",
+  "upstreamName": "ReelGallery"
+}

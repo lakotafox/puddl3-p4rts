@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/ink-currents",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "ink-currents",
+  "name": "InkCurrents",
+  "title": "Ink Currents",
+  "description": "Interactive liquid shader with flowing distortion and customizable colors.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LiquidEther-JS-CSS",
+      "path": "vault/reactbits-free/components/ink-currents/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/js-css/InkCurrents.css",
+          "bytes": 123,
+          "sha256": "c437ec9365c14e6df7b53051cf720e01c4edd10fcdcea0b2f254a7b8584046f2"
+        },
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/js-css/InkCurrents.jsx",
+          "bytes": 37600,
+          "sha256": "54796e5f075b3908237c93c1d2852eee043654590921a9ac24e62ffb42f39c31"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkCurrents",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ink-currents/variants/js-css/InkCurrents.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9ebd0ea5df921895d159fe9729084040f18ad104d91f50b2fb0749d79e488086"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LiquidEther-JS-TW",
+      "path": "vault/reactbits-free/components/ink-currents/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/js-tw/InkCurrents.jsx",
+          "bytes": 37651,
+          "sha256": "6562f0a2bea130e047d5b92d79d4dc7cad1e17b265ca5710a92e1abdd58bcf36"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkCurrents",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ink-currents/variants/js-tw/InkCurrents.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "15c1c6328eb2b9ec3025091deadb7daf9484cc009f46561161a22a1dedf8a772"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LiquidEther-TS-CSS",
+      "path": "vault/reactbits-free/components/ink-currents/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/ts-css/InkCurrents.css",
+          "bytes": 123,
+          "sha256": "c437ec9365c14e6df7b53051cf720e01c4edd10fcdcea0b2f254a7b8584046f2"
+        },
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/ts-css/InkCurrents.tsx",
+          "bytes": 40492,
+          "sha256": "26a5cec09168a3a276901f6b051af83306fcbe339339718cae8bf7703bb6fc3b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkCurrents",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ink-currents/variants/ts-css/InkCurrents.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "06c52bae5dbaac2d03e9332e35c7af2d26ad4d4b21a930774d8f05c90f9709f8"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LiquidEther-TS-TW",
+      "path": "vault/reactbits-free/components/ink-currents/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/ink-currents/variants/ts-tw/InkCurrents.tsx",
+          "bytes": 40831,
+          "sha256": "f65a6e377a7925652f4dfd17d8734ed4171b333bd1a5f3d23965ae83298aeb28"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "InkCurrents",
+          "style": "default",
+          "file": "vault/reactbits-free/components/ink-currents/variants/ts-tw/InkCurrents.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "dc656318a084a7fd92f5257928dc48cc65b3b9d423c61bb9d47d25eb32b379a7"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "InkCurrents",
+      "style": "default",
+      "file": "vault/reactbits-free/components/ink-currents/variants/ts-tw/InkCurrents.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/ink-currents",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LiquidEther-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/liquid-ether"
+  },
+  "hash": "1306b01d162fd5b3a6e5539cce52e51f57cddcc12c5594cf6442cb601715075f",
+  "fetchedAt": "2026-08-14T05:36:11.415Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "InkCurrents",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "liquid-ether",
+  "upstreamName": "LiquidEther"
+}

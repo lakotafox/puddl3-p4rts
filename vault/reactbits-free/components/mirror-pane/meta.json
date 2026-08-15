@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/mirror-pane",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "mirror-pane",
+  "name": "MirrorPane",
+  "title": "Mirror Pane",
+  "description": "Card with dynamic webcam reflection and glare effects that respond to cursor movement.",
+  "tags": [
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ReflectiveCard-JS-CSS",
+      "path": "vault/reactbits-free/components/mirror-pane/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/js-css/MirrorPane.css",
+          "bytes": 3756,
+          "sha256": "2bc2dd79172e700e5acd8166d102225029925392b6a37707ffe7430c01c147b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/js-css/MirrorPane.jsx",
+          "bytes": 4734,
+          "sha256": "47309a0104209a409a910a8073e15055414bfc89543df4323782d50c414ac1b6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "^0.542.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MirrorPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mirror-pane/variants/js-css/MirrorPane.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "53c5ddd409edce78eab2c69f5ff6e70b8268ae90c3156fcd790dda2ce8dd50e1"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ReflectiveCard-JS-TW",
+      "path": "vault/reactbits-free/components/mirror-pane/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/js-tw/MirrorPane.jsx",
+          "bytes": 6696,
+          "sha256": "1555e69168593c4d9907f0c7fa4b766ff22f6dca5c314d7c628ec2512ac9a1bd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "^0.542.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MirrorPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mirror-pane/variants/js-tw/MirrorPane.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f8149201d669a55b2fdf538d441e15f6a331950eb87453106ce5a88d5455cb5b"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ReflectiveCard-TS-CSS",
+      "path": "vault/reactbits-free/components/mirror-pane/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/ts-css/MirrorPane.css",
+          "bytes": 3756,
+          "sha256": "2bc2dd79172e700e5acd8166d102225029925392b6a37707ffe7430c01c147b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/ts-css/MirrorPane.tsx",
+          "bytes": 5276,
+          "sha256": "69efec0247775e952f5b3684b1d621223b946ddf98147f6cf30210deb86d02ab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "^0.542.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MirrorPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mirror-pane/variants/ts-css/MirrorPane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ee9d6f7a1ebb7efd52c6b5a75c26e64d71078787ad4d2b7a61f8bd79f67db2ff"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ReflectiveCard-TS-TW",
+      "path": "vault/reactbits-free/components/mirror-pane/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mirror-pane/variants/ts-tw/MirrorPane.tsx",
+          "bytes": 7238,
+          "sha256": "522850bee1ca5269bd823c1fe84650786f5a693715dac2eb3fa1cac67a9fd0e6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "^0.542.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MirrorPane",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mirror-pane/variants/ts-tw/MirrorPane.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c78a5ab6a434b9927481a40f1b03ee21324a6b9e79421659f93415f78672341b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "^0.542.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MirrorPane",
+      "style": "default",
+      "file": "vault/reactbits-free/components/mirror-pane/variants/ts-tw/MirrorPane.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/mirror-pane",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ReflectiveCard-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/reflective-card"
+  },
+  "hash": "a6124b06247f1d1d969356c6c9c54835595012c97f0333678c4f873ceb0bc03f",
+  "fetchedAt": "2026-08-14T05:36:11.443Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MirrorPane",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "reflective-card",
+  "upstreamName": "ReflectiveCard"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-5",
+  "name": "authentication-5",
+  "title": "Authentication 5",
+  "description": "Magic-link confirmation with a delivery summary, resend countdown, and a way back to the form.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-5",
+      "path": "vault/reactbits-pro/blocks/authentication-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-5/files/authentication-5.tsx",
+          "bytes": 11253,
+          "sha256": "8ca6a121aff91273ec826150adeb191fccc1ff1a24f6a8b7d46c707d1f6c6f0f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-5/files/authentication-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "819eb1207c9a87b6728f408bbc4d42bd08788e9cf6881ec17909e4e3c3c5683a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-5/files/authentication-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "d361dbd1cd8d400bcc6076876f3712617dbcda32fa6de7862f047b12d4dfcbc7",
+  "fetchedAt": "2026-08-14T05:42:47.320Z",
+  "vaultVersion": 1
+}

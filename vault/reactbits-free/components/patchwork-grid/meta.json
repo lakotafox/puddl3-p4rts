@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/patchwork-grid",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "patchwork-grid",
+  "name": "PatchworkGrid",
+  "title": "Patchwork Grid",
+  "description": "Responsive masonry layout with animated reflow + gaps optimization.",
+  "tags": [
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Masonry-JS-CSS",
+      "path": "vault/reactbits-free/components/patchwork-grid/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/js-css/PatchworkGrid.css",
+          "bytes": 504,
+          "sha256": "36e677d7683bc2c2458abafc269da8fa8bf441bfcffcc4bf69bf2949fbdc5804"
+        },
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/js-css/PatchworkGrid.jsx",
+          "bytes": 6754,
+          "sha256": "ed68bb5f0d540917d4254d6e4a99a92dfac208900e531350c200e066db79bcb0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PatchworkGrid",
+          "style": "default",
+          "file": "vault/reactbits-free/components/patchwork-grid/variants/js-css/PatchworkGrid.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d2d1d15ab1444fe39ea707ef22ac98bf4689aa7ff0fb15d259e6c2a0b0ed45fd"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Masonry-JS-TW",
+      "path": "vault/reactbits-free/components/patchwork-grid/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/js-tw/PatchworkGrid.jsx",
+          "bytes": 6381,
+          "sha256": "6182ceda69612158a57fe95575d7739f30f046f2808ad40bf4e266ee85ab408f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PatchworkGrid",
+          "style": "default",
+          "file": "vault/reactbits-free/components/patchwork-grid/variants/js-tw/PatchworkGrid.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "aed721c49ca4173bc581b46f4e9de9bf39f0085fa08a678b0955cbda2cc1e82e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Masonry-TS-CSS",
+      "path": "vault/reactbits-free/components/patchwork-grid/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/ts-css/PatchworkGrid.css",
+          "bytes": 504,
+          "sha256": "36e677d7683bc2c2458abafc269da8fa8bf441bfcffcc4bf69bf2949fbdc5804"
+        },
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/ts-css/PatchworkGrid.tsx",
+          "bytes": 7409,
+          "sha256": "2f98c73ea2638baaaa3b8712d9064b655bd966cdd3833a797f4481513ab080db"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PatchworkGrid",
+          "style": "default",
+          "file": "vault/reactbits-free/components/patchwork-grid/variants/ts-css/PatchworkGrid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "074d489cc8ba062849982d5914098cf5c28e67c6c3849a8cbc639384e9dfc361"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Masonry-TS-TW",
+      "path": "vault/reactbits-free/components/patchwork-grid/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/patchwork-grid/variants/ts-tw/PatchworkGrid.tsx",
+          "bytes": 6999,
+          "sha256": "d181b085b1bdb12e3832ad4063e6f9b38828d81e0d2efcd855d7115ff7fd141e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PatchworkGrid",
+          "style": "default",
+          "file": "vault/reactbits-free/components/patchwork-grid/variants/ts-tw/PatchworkGrid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e6ff8ca528b2a89a19dcfbca0268a4fcb21984c108c1fb19648a1aec05d5a746"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PatchworkGrid",
+      "style": "default",
+      "file": "vault/reactbits-free/components/patchwork-grid/variants/ts-tw/PatchworkGrid.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/patchwork-grid",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Masonry-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/masonry"
+  },
+  "hash": "da860890e24a043707145bcce6abc6ddba4c84f762775d307b12ec715d027953",
+  "fetchedAt": "2026-08-14T05:36:11.421Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PatchworkGrid",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "masonry",
+  "upstreamName": "Masonry"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/star-rush",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "star-rush",
+  "name": "StarRush",
+  "title": "Star Rush",
+  "description": "Hyperspace light streak effect with click interaction",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "lightspeed-css",
+      "path": "vault/reactbits-starter/components/star-rush/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/star-rush/variants/css/star-rush.tsx",
+          "bytes": 12858,
+          "sha256": "a8523be5f76cdc0b3f724adf239d2261619d3431f5d5914983639250b1aea97f"
+        },
+        {
+          "path": "vault/reactbits-starter/components/star-rush/variants/css/star-rush.css",
+          "bytes": 234,
+          "sha256": "22264a8023e84f0b90b510afdaae0add4c544c91634c62c6c1e0500f898dc240"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StarRush",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/star-rush/variants/css/star-rush.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ca573f656ad73878d03072a6db8c45f34b5713db481a89f6b7f1fdd110bcb113"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "lightspeed-tw",
+      "path": "vault/reactbits-starter/components/star-rush/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/star-rush/variants/tw/star-rush.tsx",
+          "bytes": 12906,
+          "sha256": "adbb83e765e3da9b7d31641005fc5ab2598bc1750f90a6e807fb66a8b62f896b"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "StarRush",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/star-rush/variants/tw/star-rush.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d58d717b60fe1e249489bd381bf74194dbbc0b659ef34425c2d6715bf9ccb5b6"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "StarRush",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/star-rush/variants/tw/star-rush.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/star-rush",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/lightspeed-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "d0cb82923d632f17ce0624bd718ce83f12bd8b8b1b740e2b75c20468101e58fa",
+  "fetchedAt": "2026-08-14T05:33:20.546Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "lightspeed",
+  "upstreamName": "Lightspeed"
+}

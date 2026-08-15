@@ -1,0 +1,131 @@
+{
+  "id": "rb-starter/component/oblique-columns",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "oblique-columns",
+  "name": "ObliqueColumns",
+  "title": "Oblique Columns",
+  "description": "A tilted grid of image columns that drift as you scroll",
+  "tags": [
+    "grid",
+    "gallery",
+    "tilt",
+    "scroll",
+    "images",
+    "showcase"
+  ],
+  "tagSource": "upstream",
+  "category": "grid",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "tilted-tiles-css",
+      "path": "vault/reactbits-starter/components/oblique-columns/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/oblique-columns/variants/css/oblique-columns.tsx",
+          "bytes": 10544,
+          "sha256": "69231eaa39615c34eaec1ef63f58f6f9c1f3a0ccea1def1859a8f5c01b3ea345"
+        },
+        {
+          "path": "vault/reactbits-starter/components/oblique-columns/variants/css/oblique-columns.css",
+          "bytes": 536,
+          "sha256": "d51da64cad3fd9ffd7afe620cc1733b34fd0255538836de1a7bbe277e0b4edb6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ObliqueColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/oblique-columns/variants/css/oblique-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "537a95accb76e817fb4211a4a774ecc173f702c794f239ab1e677e40634fa201"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "tilted-tiles-tw",
+      "path": "vault/reactbits-starter/components/oblique-columns/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/oblique-columns/variants/tw/oblique-columns.tsx",
+          "bytes": 10620,
+          "sha256": "308832429c3669d033a2fc5ecbbdbf64ea0442a054d71091aa6e608c1ccbfd92"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ObliqueColumns",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/oblique-columns/variants/tw/oblique-columns.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2256e2f58bc923e0665ab7bf20ff9220d4c6dee4fcc7d98b946536d977e21827"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ObliqueColumns",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/oblique-columns/variants/tw/oblique-columns.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/oblique-columns",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/tilted-tiles-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "bfcb2243c1356dba57a847622d50f4f4f32053d297bdfed8f3e666a488405c84",
+  "fetchedAt": "2026-08-14T05:35:12.774Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "tilted-tiles",
+  "upstreamName": "TiltedTiles"
+}

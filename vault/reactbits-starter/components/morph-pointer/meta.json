@@ -1,0 +1,127 @@
+{
+  "id": "rb-starter/component/morph-pointer",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "morph-pointer",
+  "name": "MorphPointer",
+  "title": "Morph Pointer",
+  "description": "Interactive cursor component with smooth animations and target morphing",
+  "tags": [
+    "cursor",
+    "animation"
+  ],
+  "tagSource": "upstream",
+  "category": "cursor",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "custom-cursor-css",
+      "path": "vault/reactbits-starter/components/morph-pointer/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/morph-pointer/variants/css/morph-pointer.tsx",
+          "bytes": 14638,
+          "sha256": "84fef3a05e0d095693669e61170d7e85ea984d8611dd55646b26c2d9ee68fb9b"
+        },
+        {
+          "path": "vault/reactbits-starter/components/morph-pointer/variants/css/morph-pointer.css",
+          "bytes": 436,
+          "sha256": "9a3eecc030533e5bfd3d0f6651cfefd9c47fbf0456e54f4548c1dad6889df551"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MorphPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/morph-pointer/variants/css/morph-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eadb42b4128f1fa54130a53a9a80eab52419a19d3704d320802f74d68b9fbd8c"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "custom-cursor-tw",
+      "path": "vault/reactbits-starter/components/morph-pointer/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/morph-pointer/variants/tw/morph-pointer.tsx",
+          "bytes": 14692,
+          "sha256": "d07611cabaab6ff2beaeef0d17d8f514ef5a8c7b9f5ec938b28a793fee79e14a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MorphPointer",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/morph-pointer/variants/tw/morph-pointer.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3baada0ae5a09d3465e27ddcdd6466d1dd3f56d8a8a7558ea91c2b601c2e67d8"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MorphPointer",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/morph-pointer/variants/tw/morph-pointer.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/morph-pointer",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/custom-cursor-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3b6171a335336a0d6d7a219f0342a043804c3d1012283a51e3f5aedd783469be",
+  "fetchedAt": "2026-08-14T05:32:20.501Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "custom-cursor",
+  "upstreamName": "CustomCursor"
+}

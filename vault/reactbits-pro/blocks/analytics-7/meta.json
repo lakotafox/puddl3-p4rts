@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-7",
+  "name": "analytics-7",
+  "title": "Analytics 7",
+  "description": "Sparkline card grid with direction-aware deltas and a promoted detail panel.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-7",
+      "path": "vault/reactbits-pro/blocks/analytics-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-7/files/analytics-7.tsx",
+          "bytes": 15531,
+          "sha256": "7bbfe8e5d776e62793e253617681d41f3cd6070098de82109f73882eeca45cb7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-7/files/analytics-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d64b91ef0a1cac145bd1ef6e2c30561fc9a202f583161c8877d1f80d38c84ff"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-7/files/analytics-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "b6a79f511ade36b932bfe6805bdf5394e8db315b053096cb5477fe8d59c3daa9",
+  "fetchedAt": "2026-08-14T05:37:13.350Z",
+  "vaultVersion": 1
+}

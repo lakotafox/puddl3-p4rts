@@ -1,0 +1,196 @@
+{
+  "id": "rb-free/component/brand-marquee",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "brand-marquee",
+  "name": "BrandMarquee",
+  "title": "Brand Marquee",
+  "description": "Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LogoLoop-JS-CSS",
+      "path": "vault/reactbits-free/components/brand-marquee/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/js-css/BrandMarquee.css",
+          "bytes": 3530,
+          "sha256": "3082fe5b5e262894e7e12ee50ab083c7161ed6c347eb90db1ff644724fa987bf"
+        },
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/js-css/BrandMarquee.jsx",
+          "bytes": 10510,
+          "sha256": "61b7edf7c31d7122e1f9a31f796e640827aef55f6345eb0ce9896c11d775fe84"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BrandMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/js-css/BrandMarquee.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BrandMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/js-css/BrandMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "94f5ef689c852c0bf86f2a50b7235d2e5ca2f827a6a609154310f9212ad30a9c"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LogoLoop-JS-TW",
+      "path": "vault/reactbits-free/components/brand-marquee/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/js-tw/BrandMarquee.jsx",
+          "bytes": 14697,
+          "sha256": "15c9ff7dce939425fa1ccbc372e30c3807e0d60d941a66c6b33a1d7330eb45bd"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BrandMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/js-tw/BrandMarquee.jsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BrandMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/js-tw/BrandMarquee.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "0717c79d2791409027e5716df2be3dd28125f620a070fb246066594657ccf6ac"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LogoLoop-TS-CSS",
+      "path": "vault/reactbits-free/components/brand-marquee/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/ts-css/BrandMarquee.css",
+          "bytes": 3572,
+          "sha256": "7aa2fee410ee0b6a56419bd995e5d518d10d81b280107e0287d9f5a8fab47f24"
+        },
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/ts-css/BrandMarquee.tsx",
+          "bytes": 11996,
+          "sha256": "0a8e0d0ea162235f3f0aeae233915af4c31c1cc2d0a0fe7e1bed319e563870b3"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BrandMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/ts-css/BrandMarquee.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BrandMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/ts-css/BrandMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "77872522f81259d7de96c1f14ad686d3231918ae4783abf3f48c606cd3eec33c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LogoLoop-TS-TW",
+      "path": "vault/reactbits-free/components/brand-marquee/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/brand-marquee/variants/ts-tw/BrandMarquee.tsx",
+          "bytes": 16086,
+          "sha256": "ea1b025bac7380b9ffd9d44ee8bd1bd08769fb9cf8adb5a427a651d9450b8d7b"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "BrandMarquee",
+          "style": "default",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/ts-tw/BrandMarquee.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "BrandMarquee",
+          "style": "named",
+          "file": "vault/reactbits-free/components/brand-marquee/variants/ts-tw/BrandMarquee.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be76f1a3ec1dcce3647cbfeb1171abe968713821adbf0602c0943a8f4e9664f9"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "BrandMarquee",
+      "style": "default",
+      "file": "vault/reactbits-free/components/brand-marquee/variants/ts-tw/BrandMarquee.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/brand-marquee",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LogoLoop-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/logo-loop"
+  },
+  "hash": "15b2736c99127272a41e2949a41b2cc1d7f5e78256f86b7596f235e0500c9c38",
+  "fetchedAt": "2026-08-14T05:36:11.416Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "BrandMarquee",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "logo-loop",
+  "upstreamName": "LogoLoop"
+}

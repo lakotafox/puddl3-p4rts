@@ -1,0 +1,106 @@
+{
+  "id": "rb-pro/block/monitoring-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "monitoring-1",
+  "name": "monitoring-1",
+  "title": "Monitoring 1",
+  "description": "Platform health overview with KPI deltas, an interactive throughput chart, and an incident feed.",
+  "tags": [
+    "monitoring",
+    "observability",
+    "metrics",
+    "charts",
+    "alerts",
+    "incidents",
+    "uptime",
+    "logs",
+    "slo"
+  ],
+  "tagSource": "upstream",
+  "category": "monitoring",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "monitoring-1",
+      "path": "vault/reactbits-pro/blocks/monitoring-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/monitoring-1/files/monitoring-1.tsx",
+          "bytes": 17644,
+          "sha256": "6b55eb2340f60f882ae67ba8d47f68a7e4615960b8316e03885347febabe21ab"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Monitoring1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/monitoring-1/files/monitoring-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1f831eee2752b0aec2d53a81eedc07604a73e1d4bc171bb256040739894fafe4"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    },
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Monitoring1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/monitoring-1/files/monitoring-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/monitoring-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/monitoring-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "ec07416c9c5aa0cb5d8a381acd12a0e0ed8a5ae701bdbd46700c4b9a8799a2d4",
+  "fetchedAt": "2026-08-14T05:49:25.621Z",
+  "vaultVersion": 1
+}

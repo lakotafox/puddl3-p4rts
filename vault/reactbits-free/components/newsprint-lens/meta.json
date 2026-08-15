@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/newsprint-lens",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "newsprint-lens",
+  "name": "NewsprintLens",
+  "title": "Newsprint Lens",
+  "description": "Print-style halftone dot matrix that resolves into sharp content around the cursor.",
+  "tags": [
+    "scroll",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "HalftoneReveal-JS-CSS",
+      "path": "vault/reactbits-free/components/newsprint-lens/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/js-css/NewsprintLens.css",
+          "bytes": 215,
+          "sha256": "39d00fcf2d40bc16698521aabd312d2849957109f8658a08a7e5ca0fdc7125b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/js-css/NewsprintLens.jsx",
+          "bytes": 11074,
+          "sha256": "38dd67d2adf5eda93d190ebc9733a6d92ad5cf790b0371a11f15645dfb1ca0cc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsprintLens",
+          "style": "default",
+          "file": "vault/reactbits-free/components/newsprint-lens/variants/js-css/NewsprintLens.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eab9d5354fd3428470b4ea4ab8bcd592f13d201a48a0ae6566e38c5fb64b1c81"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "HalftoneReveal-JS-TW",
+      "path": "vault/reactbits-free/components/newsprint-lens/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/js-tw/NewsprintLens.jsx",
+          "bytes": 11115,
+          "sha256": "4c4952ece216ba24c1e4a1ac638f351bbbbcc55bb8b3cc423aab038d4905e46c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsprintLens",
+          "style": "default",
+          "file": "vault/reactbits-free/components/newsprint-lens/variants/js-tw/NewsprintLens.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1a1fef8395967ec4c00eb210b7a988316f6b7b9e8f6f8ed945af0791aab4276e"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "HalftoneReveal-TS-CSS",
+      "path": "vault/reactbits-free/components/newsprint-lens/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/ts-css/NewsprintLens.css",
+          "bytes": 215,
+          "sha256": "39d00fcf2d40bc16698521aabd312d2849957109f8658a08a7e5ca0fdc7125b6"
+        },
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/ts-css/NewsprintLens.tsx",
+          "bytes": 11895,
+          "sha256": "8d94fe39d8ca39a1662b1e2ac420caeaff15cfded1112c7614974d72902ce7ff"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsprintLens",
+          "style": "default",
+          "file": "vault/reactbits-free/components/newsprint-lens/variants/ts-css/NewsprintLens.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5842bcfc23557afcb45e5195f17d052ffae150c38468aa04587dcf2d48c177d5"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "HalftoneReveal-TS-TW",
+      "path": "vault/reactbits-free/components/newsprint-lens/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/newsprint-lens/variants/ts-tw/NewsprintLens.tsx",
+          "bytes": 11936,
+          "sha256": "3321fd59b34c4a572df29b732e60f016674700644700ede4ded90e7892fb20d9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewsprintLens",
+          "style": "default",
+          "file": "vault/reactbits-free/components/newsprint-lens/variants/ts-tw/NewsprintLens.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ab181ef64420a79a0e3f5114d231c206910ad5eee774fa6851c3ce7994da9bb9"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NewsprintLens",
+      "style": "default",
+      "file": "vault/reactbits-free/components/newsprint-lens/variants/ts-tw/NewsprintLens.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/newsprint-lens",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/HalftoneReveal-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/halftone-reveal"
+  },
+  "hash": "37ae10336f6fd654bc2222daa48cc2245b0a621a26af3044f588b603b2770dcd",
+  "fetchedAt": "2026-08-14T05:36:11.395Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "NewsprintLens",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "halftone-reveal",
+  "upstreamName": "HalftoneReveal"
+}

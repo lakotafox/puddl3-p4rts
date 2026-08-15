@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/chat-4",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "chat-4",
+  "name": "chat-4",
+  "title": "Chat 4",
+  "description": "Support chat widget with a transcript, quick replies, attachments, and a rating.",
+  "tags": [
+    "chat",
+    "messaging",
+    "conversation",
+    "inbox",
+    "social",
+    "support"
+  ],
+  "tagSource": "upstream",
+  "category": "chat",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "chat-4",
+      "path": "vault/reactbits-pro/blocks/chat-4/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/chat-4/files/chat-4.tsx",
+          "bytes": 11812,
+          "sha256": "adc4ff1ef3fc153b9e248a9c78c19799ce31c7f06d3f3f89e8a944628e4c0b80"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Chat4",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/chat-4/files/chat-4.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "24c44dd71474371666bfc57eab1f6d3050de8c93f4a7b5a4a8129c810a6e28da"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Chat4",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/chat-4/files/chat-4.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/chat-4",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/chat-4.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "51b77815cfe62e765016f1a63bab74c2833f887b6c55ee9f944e0d9580dc5150",
+  "fetchedAt": "2026-08-14T05:43:45.778Z",
+  "vaultVersion": 1
+}

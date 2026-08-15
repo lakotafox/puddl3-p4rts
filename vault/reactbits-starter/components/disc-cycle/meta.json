@@ -1,0 +1,126 @@
+{
+  "id": "rb-starter/component/disc-cycle",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "disc-cycle",
+  "name": "DiscCycle",
+  "title": "Disc Cycle",
+  "description": "A tilted stack of circles that cycles through your images",
+  "tags": [
+    "carousel",
+    "stack",
+    "3d",
+    "motion",
+    "rotating",
+    "showcase"
+  ],
+  "tagSource": "upstream",
+  "category": "carousel",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "circle-stack-css",
+      "path": "vault/reactbits-starter/components/disc-cycle/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/disc-cycle/variants/css/disc-cycle.tsx",
+          "bytes": 12901,
+          "sha256": "17ecdf2fb91a1ec20b687aaeec86ed3526d19a08a4dfdea397b9e98c52cc7838"
+        },
+        {
+          "path": "vault/reactbits-starter/components/disc-cycle/variants/css/disc-cycle.css",
+          "bytes": 2012,
+          "sha256": "ab22ce760dff4c195bbe10b01c8fd920ede073690518282a7c74dfc185ff13aa"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "DiscCycle",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/disc-cycle/variants/css/disc-cycle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "357538f65db69a56f3821fe4c9019968fca9d89232d7f13444b91f53c4b15930"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "circle-stack-tw",
+      "path": "vault/reactbits-starter/components/disc-cycle/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/disc-cycle/variants/tw/disc-cycle.tsx",
+          "bytes": 4796,
+          "sha256": "eb53d445694ca2131f0eba5355a414abb50185a400e820c58c72147a608efe02"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "DiscCycle",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/disc-cycle/variants/tw/disc-cycle.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "347733221c2d1b23c82d4488e20026a11af2fdf14e248d241a63ef5c2bbc04a9"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "DiscCycle",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/disc-cycle/variants/tw/disc-cycle.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/disc-cycle",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/circle-stack-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3ae62315d2db68837d8e27417c7d062d7523f118204dbf59bfb4ca61197b93c1",
+  "fetchedAt": "2026-08-14T05:32:08.297Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "circle-stack",
+  "upstreamName": "CircleStack"
+}

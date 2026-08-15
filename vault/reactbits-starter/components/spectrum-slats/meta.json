@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/spectrum-slats",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "spectrum-slats",
+  "name": "SpectrumSlats",
+  "title": "Spectrum Slats",
+  "description": "Colorful diagonal stripes that bend toward your cursor",
+  "tags": [
+    "shader",
+    "background",
+    "stripes",
+    "color",
+    "cursor",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "chroma-blinds-css",
+      "path": "vault/reactbits-starter/components/spectrum-slats/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spectrum-slats/variants/css/spectrum-slats.tsx",
+          "bytes": 12041,
+          "sha256": "1b91b7ccc5eded1b25e561c04f217b932c95623897a30d3efe6a000776697229"
+        },
+        {
+          "path": "vault/reactbits-starter/components/spectrum-slats/variants/css/spectrum-slats.css",
+          "bytes": 192,
+          "sha256": "b0e6bbdbc9d32b0c3758f788ff2f1f7e99513211a2dca34874aca3b3d2485ca6"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumSlats",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spectrum-slats/variants/css/spectrum-slats.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d44dc56fe3db5823202675d37dfbf9e7fa81be6db20461a2019268e420a2892c"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "chroma-blinds-tw",
+      "path": "vault/reactbits-starter/components/spectrum-slats/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/spectrum-slats/variants/tw/spectrum-slats.tsx",
+          "bytes": 11979,
+          "sha256": "05c44e07da88bc3f9ee922f240c3ce7490089766dcf5eab3714021f1de2b1bff"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumSlats",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/spectrum-slats/variants/tw/spectrum-slats.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4abd573f9fd4feaaef4bf96c0d709a1f083ebaf7830a3af00aebee61cccb3204"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpectrumSlats",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/spectrum-slats/variants/tw/spectrum-slats.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/spectrum-slats",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/chroma-blinds-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "7536c0591db664fc8a8e4165c6a13c79c6c6aca6ee49a190930c266c24f6c6f4",
+  "fetchedAt": "2026-08-14T05:32:01.325Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "chroma-blinds",
+  "upstreamName": "ChromaBlinds"
+}

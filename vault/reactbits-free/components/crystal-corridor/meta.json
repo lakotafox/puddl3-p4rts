@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/crystal-corridor",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "crystal-corridor",
+  "name": "CrystalCorridor",
+  "title": "Crystal Corridor",
+  "description": "A crystalline corridor of stacked squares receding into depth.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "AcidSquares-JS-CSS",
+      "path": "vault/reactbits-free/components/crystal-corridor/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/js-css/CrystalCorridor.css",
+          "bytes": 101,
+          "sha256": "2ff9c4cc47a06e88ac70f46bfa40082ec95c6e37ae1c05c95381040e1b2d1044"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/js-css/CrystalCorridor.jsx",
+          "bytes": 13764,
+          "sha256": "1281d1eabc164a0af1fd4f17d50fb6964ff3e69dcdbbcf021a01964d2e0cf98e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalCorridor",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-corridor/variants/js-css/CrystalCorridor.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "badc5c8fda2bc3965a2e6dcb7da1aba2cb0a42737c02a8a7099298b186d23ad8"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "AcidSquares-JS-TW",
+      "path": "vault/reactbits-free/components/crystal-corridor/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/js-tw/CrystalCorridor.jsx",
+          "bytes": 13752,
+          "sha256": "8e423250623d19db766ce3cc82f85280ea853a713a5d1bae2698b8fa51c2c597"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalCorridor",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-corridor/variants/js-tw/CrystalCorridor.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "be8c40764dfa99f4f8c80ca7cbac4005151c9a47b8c6802eb1b8ef06bdf6407a"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "AcidSquares-TS-CSS",
+      "path": "vault/reactbits-free/components/crystal-corridor/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/ts-css/CrystalCorridor.css",
+          "bytes": 101,
+          "sha256": "2ff9c4cc47a06e88ac70f46bfa40082ec95c6e37ae1c05c95381040e1b2d1044"
+        },
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/ts-css/CrystalCorridor.tsx",
+          "bytes": 15225,
+          "sha256": "be8163429009a2f86088d8fbc242bc7f04d10be3d18eebe934c85b6f4d7f279c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalCorridor",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-corridor/variants/ts-css/CrystalCorridor.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "888ace14cd24d1bf75e12b9c02f79a7abc9d4e4304f041d0a9156f52eafc2c4b"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "AcidSquares-TS-TW",
+      "path": "vault/reactbits-free/components/crystal-corridor/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/crystal-corridor/variants/ts-tw/CrystalCorridor.tsx",
+          "bytes": 15213,
+          "sha256": "44360ca9a6b66bd92257f7163cb1de026664d3ec15128c96d675a72407686b28"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrystalCorridor",
+          "style": "default",
+          "file": "vault/reactbits-free/components/crystal-corridor/variants/ts-tw/CrystalCorridor.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2534698559292412ec98d454213c63105399ab02708e8fff7b91d5a490df3ab2"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "CrystalCorridor",
+      "style": "default",
+      "file": "vault/reactbits-free/components/crystal-corridor/variants/ts-tw/CrystalCorridor.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/crystal-corridor",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/AcidSquares-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/acid-squares"
+  },
+  "hash": "e9f330963266ecea3afa6198d6c9a5b88b8ec80e1c3a2cf2ca356c1b34a62525",
+  "fetchedAt": "2026-08-14T05:36:11.327Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "CrystalCorridor",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "acid-squares",
+  "upstreamName": "AcidSquares"
+}

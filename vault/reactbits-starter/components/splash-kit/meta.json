@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/splash-kit",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "splash-kit",
+  "name": "SplashKit",
+  "title": "Splash Kit",
+  "description": "Animated loading screens with multiple style variants",
+  "tags": [
+    "loading",
+    "animation",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "loading",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "preloader-css",
+      "path": "vault/reactbits-starter/components/splash-kit/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/splash-kit/variants/css/splash-kit.tsx",
+          "bytes": 16794,
+          "sha256": "8b20e86c9a4007bf3dd1d19f45d4a2f36e26a737328d290a54e142d3ac2f9b92"
+        },
+        {
+          "path": "vault/reactbits-starter/components/splash-kit/variants/css/splash-kit.css",
+          "bytes": 2787,
+          "sha256": "170371de27bd39c41928497d19df65d0d43f68b191908f3aeef5925e540f79ed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SplashKit",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/splash-kit/variants/css/splash-kit.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ef748520784ec668c16d8f5d31b51ade66401a85824657c7bf0532235ccee3e5"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "preloader-tw",
+      "path": "vault/reactbits-starter/components/splash-kit/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/splash-kit/variants/tw/splash-kit.tsx",
+          "bytes": 17027,
+          "sha256": "7eb2a37f76c12d3070e125d035806d55c98da5f282b08f265b7b8e89440caa59"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SplashKit",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/splash-kit/variants/tw/splash-kit.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e9053e8585c25e723e91e9d35c010599effad4b8e97208b7465cae4233725bdb"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SplashKit",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/splash-kit/variants/tw/splash-kit.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/splash-kit",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/preloader-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "83fd05aa0e37cacbaf8ee05d5e192cb18d555f0eae7378e5ff6dc1c9b008bf48",
+  "fetchedAt": "2026-08-14T05:34:06.213Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "preloader",
+  "upstreamName": "Preloader"
+}

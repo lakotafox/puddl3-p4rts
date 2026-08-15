@@ -1,0 +1,114 @@
+{
+  "id": "getlayers/scene/soda",
+  "source": "getlayers",
+  "kind": "scene",
+  "slug": "soda",
+  "name": "Soda",
+  "title": "Soda",
+  "description": "PUDDLE — zero-sugar fizz by the PUDDL3 team, 3D can one-pager",
+  "tags": [
+    "scene",
+    "getlayers",
+    "puddl3-universe"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "soda",
+    "PUDDLE"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "soda",
+      "path": "vault/getlayers/scenes/soda/files",
+      "files": [
+        {
+          "path": "vault/getlayers/scenes/soda/files/index.html"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Images/Green Soda.png"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Images/bubble.png"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Images/green base color.jpg"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Images/Blue Soda.png"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Images/blue base color.jpg"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Models/cherry.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Models/deit_soda2.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Models/leaves.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Models/diet_soda.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Models/blueberry.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/style.css"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Blender/openart-image_1777625197329_0a32bd31_1777625197758_eaf1b236.jpg"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Blender/Soda.blend"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/Blender/Soda.blend1"
+        },
+        {
+          "path": "vault/getlayers/scenes/soda/files/diet_soda_can.png"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 0
+  },
+  "paths": {
+    "root": "vault/getlayers/scenes/soda",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDLE",
+    "tagline": "Fizz for any hour."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=soda",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.183Z",
+  "vaultVersion": 1
+}

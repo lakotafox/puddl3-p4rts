@@ -1,0 +1,199 @@
+{
+  "id": "rb-free/component/sheen-sweep",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "sheen-sweep",
+  "name": "SheenSweep",
+  "title": "Sheen Sweep",
+  "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+  "tags": [
+    "effect",
+    "motion",
+    "text"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "ShinyText-JS-CSS",
+      "path": "vault/reactbits-free/components/sheen-sweep/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/js-css/SheenSweep.css",
+          "bytes": 41,
+          "sha256": "ddd3e35beb196f744606b5677830a35c86741b07d000543cf522667dbce74c80"
+        },
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/js-css/SheenSweep.jsx",
+          "bytes": 3604,
+          "sha256": "40db1d6de91972de7c78702c2b29f58ca9b2de22a07193fdec9683a16b4cb5dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SheenSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sheen-sweep/variants/js-css/SheenSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a8c1ecce50dc8ad4e92e6752791c021d5f12a15e47effd4686ac43529376845c"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "ShinyText-JS-TW",
+      "path": "vault/reactbits-free/components/sheen-sweep/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/js-tw/SheenSweep.jsx",
+          "bytes": 3616,
+          "sha256": "efd0ef9772e740be4b23a4b3792f825d74172343b942973dfe6d6abce28f3597"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SheenSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sheen-sweep/variants/js-tw/SheenSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "198632fbe4a3f5939e75420c267966d11fb59eb2f83bc4f3c5fa8c20d1c9381d"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "ShinyText-TS-CSS",
+      "path": "vault/reactbits-free/components/sheen-sweep/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/ts-css/SheenSweep.css",
+          "bytes": 537,
+          "sha256": "16b7287240738b4851e0d4decd9f91a935d9e40c0174b985cc800682e5c267bb"
+        },
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/ts-css/SheenSweep.tsx",
+          "bytes": 3971,
+          "sha256": "d3fe731c9c91ff80eeb1696b548fceeebe7495e6a1aec1a0c6848108c4ba0c91"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SheenSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sheen-sweep/variants/ts-css/SheenSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2d74fff77820ad8b1e589be20e40682a55dd03316a58a7c6ed60d0422e8b092c"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "ShinyText-TS-TW",
+      "path": "vault/reactbits-free/components/sheen-sweep/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/sheen-sweep/variants/ts-tw/SheenSweep.tsx",
+          "bytes": 3947,
+          "sha256": "50fc6c15f52173ffa3e66a4f0923f50756763cfaee70afbcbddbd94938d862b3"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SheenSweep",
+          "style": "default",
+          "file": "vault/reactbits-free/components/sheen-sweep/variants/ts-tw/SheenSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d8a3ba18995f6158982c8a7840848319510c316c9e4c2864298c3f3a6da7fdb3"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SheenSweep",
+      "style": "default",
+      "file": "vault/reactbits-free/components/sheen-sweep/variants/ts-tw/SheenSweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/sheen-sweep",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/ShinyText-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/shiny-text"
+  },
+  "hash": "e55b02a505d312f42fc71d881ccdf29490e7a981b322b2b00a577cc0d61df003",
+  "fetchedAt": "2026-08-14T05:36:11.453Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SheenSweep",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "shiny-text",
+  "upstreamName": "ShinyText"
+}

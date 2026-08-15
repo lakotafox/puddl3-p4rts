@@ -1,0 +1,238 @@
+{
+  "id": "rb-free/component/wireframe-sweep",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "wireframe-sweep",
+  "name": "WireframeSweep",
+  "title": "Wireframe Sweep",
+  "description": "Animated grid room 3D scan effect and cool interactions.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GridScan-JS-CSS",
+      "path": "vault/reactbits-free/components/wireframe-sweep/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/js-css/WireframeSweep.css",
+          "bytes": 757,
+          "sha256": "1f29a2d4b5d63a53d084634092788b32116f7279cf073ce89d874a78092ead37"
+        },
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/js-css/WireframeSweep.jsx",
+          "bytes": 28742,
+          "sha256": "9b760515aa8f49474d74d3ee4b2d9d951593044e332095718545891b02a15e62"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "face-api.js",
+          "range": "^0.22.2"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WireframeSweep",
+          "style": "named",
+          "file": "vault/reactbits-free/components/wireframe-sweep/variants/js-css/WireframeSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7d88932f701ee7ea92cca234009a1ee3a7a9926ab4ee744d79539d66b67fb98e"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GridScan-JS-TW",
+      "path": "vault/reactbits-free/components/wireframe-sweep/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/js-tw/WireframeSweep.jsx",
+          "bytes": 29015,
+          "sha256": "53de7d66727ce0c61b17559152d5a494ed9160380c8cbe751c95c602d0783819"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "face-api.js",
+          "range": "^0.22.2"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WireframeSweep",
+          "style": "named",
+          "file": "vault/reactbits-free/components/wireframe-sweep/variants/js-tw/WireframeSweep.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "17191d2ea7af75801b31438166eee75c6cae4cca730fe8bbb4b02c312478f642"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GridScan-TS-CSS",
+      "path": "vault/reactbits-free/components/wireframe-sweep/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/ts-css/WireframeSweep.css",
+          "bytes": 757,
+          "sha256": "1f29a2d4b5d63a53d084634092788b32116f7279cf073ce89d874a78092ead37"
+        },
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/ts-css/WireframeSweep.tsx",
+          "bytes": 30093,
+          "sha256": "b13efb7d5dea1994e79f1ab0dd770443b3a7bcdfcc22ec1091a1a438ad7f8d9f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "face-api.js",
+          "range": "^0.22.2"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WireframeSweep",
+          "style": "named",
+          "file": "vault/reactbits-free/components/wireframe-sweep/variants/ts-css/WireframeSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e57f422fed39becc277545663650acf78a7944ce69c207325d104210a28a80f3"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GridScan-TS-TW",
+      "path": "vault/reactbits-free/components/wireframe-sweep/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/wireframe-sweep/variants/ts-tw/WireframeSweep.tsx",
+          "bytes": 30366,
+          "sha256": "6d6e188a65775409e7ff194d5385c8a36ef388e973ba436a3be66d40ecead71c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "face-api.js",
+          "range": "^0.22.2"
+        },
+        {
+          "name": "postprocessing",
+          "range": "^6.36.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "WireframeSweep",
+          "style": "named",
+          "file": "vault/reactbits-free/components/wireframe-sweep/variants/ts-tw/WireframeSweep.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6b0f139a4d32bd357090a210b7ac4b4696d9fbb8928626badd44aa9c6464714f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "face-api.js",
+      "range": "^0.22.2"
+    },
+    {
+      "name": "postprocessing",
+      "range": "^6.36.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "WireframeSweep",
+      "style": "named",
+      "file": "vault/reactbits-free/components/wireframe-sweep/variants/ts-tw/WireframeSweep.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/wireframe-sweep",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GridScan-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/grid-scan"
+  },
+  "hash": "047e26f08c79d57ea800acf7ff7beccdd21bfdd65c5aef5359ab7e3e7e1cbad2",
+  "fetchedAt": "2026-08-14T05:36:11.394Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "WireframeSweep",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "grid-scan",
+  "upstreamName": "GridScan"
+}

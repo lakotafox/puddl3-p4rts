@@ -1,0 +1,197 @@
+{
+  "id": "rb-free/component/spectrum-flare",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "spectrum-flare",
+  "name": "SpectrumFlare",
+  "title": "Spectrum Flare",
+  "description": "Burst of light rays with controllable color, distortion, amount.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PrismaticBurst-JS-CSS",
+      "path": "vault/reactbits-free/components/spectrum-flare/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/js-css/SpectrumFlare.css",
+          "bytes": 104,
+          "sha256": "eafb7031fe4035a012c1ba0668b648c80d079204607be8394124eb2e0b08d7cf"
+        },
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/js-css/SpectrumFlare.jsx",
+          "bytes": 13864,
+          "sha256": "b26dd45935d7e77d34630ca9f7405d2d52401d49f24366de9373370e887a4d88"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumFlare",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spectrum-flare/variants/js-css/SpectrumFlare.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e43d084d3b6cfaa006588a9a49f174cd688aabaef96ac17ef176352af2284fc8"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PrismaticBurst-JS-TW",
+      "path": "vault/reactbits-free/components/spectrum-flare/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/js-tw/SpectrumFlare.jsx",
+          "bytes": 13656,
+          "sha256": "200c40ce94e4a71d1675b12f45ce89a710ed5a49b2b466271f853f4051fb52e7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumFlare",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spectrum-flare/variants/js-tw/SpectrumFlare.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "02bc2cccd0814693c42847dc5e18a22964f97ac1ff172ab28ae102213180ac62"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PrismaticBurst-TS-CSS",
+      "path": "vault/reactbits-free/components/spectrum-flare/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/ts-css/SpectrumFlare.css",
+          "bytes": 104,
+          "sha256": "eafb7031fe4035a012c1ba0668b648c80d079204607be8394124eb2e0b08d7cf"
+        },
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/ts-css/SpectrumFlare.tsx",
+          "bytes": 14324,
+          "sha256": "1dde090a58b9eacb29525ffa76fd06abb71c6e73f334571828939c1b69b62833"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumFlare",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spectrum-flare/variants/ts-css/SpectrumFlare.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d8d51f1786bc32a2005e167b5cdab528cc91db8ed4412fcb313ef40873b451e0"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PrismaticBurst-TS-TW",
+      "path": "vault/reactbits-free/components/spectrum-flare/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/spectrum-flare/variants/ts-tw/SpectrumFlare.tsx",
+          "bytes": 14214,
+          "sha256": "90fef44d0c69a78bc2ff0ec8d7039cb2597f238edb160f88f420ca39fc761c01"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpectrumFlare",
+          "style": "default",
+          "file": "vault/reactbits-free/components/spectrum-flare/variants/ts-tw/SpectrumFlare.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8bdd9303321ee47f2811bc4c4813992205ffbaf74c2bec0dff240a1bfa523779"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SpectrumFlare",
+      "style": "default",
+      "file": "vault/reactbits-free/components/spectrum-flare/variants/ts-tw/SpectrumFlare.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/spectrum-flare",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PrismaticBurst-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/prismatic-burst"
+  },
+  "hash": "a0adab0ce359ff3370eb950bd774df9a90c8c02ea77fa69dc3a41f1a1bf8b78a",
+  "fetchedAt": "2026-08-14T05:36:11.440Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "SpectrumFlare",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "prismatic-burst",
+  "upstreamName": "PrismaticBurst"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/pan-board",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "pan-board",
+  "name": "PanBoard",
+  "title": "Pan Board",
+  "description": "Pannable grid with smooth drag and momentum",
+  "tags": [
+    "interaction",
+    "grid",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "interaction",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "draggable-grid-css",
+      "path": "vault/reactbits-starter/components/pan-board/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pan-board/variants/css/pan-board.tsx",
+          "bytes": 11180,
+          "sha256": "2fd0fc7969a8f63d5a536f530ee317520da5242768792cfd599e258b71124f7e"
+        },
+        {
+          "path": "vault/reactbits-starter/components/pan-board/variants/css/pan-board.css",
+          "bytes": 1440,
+          "sha256": "d1a693c2dfe1d9af19a7733fb3150cba0fdf045df0d466fbc03e44c9701f8718"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanBoard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pan-board/variants/css/pan-board.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "789158705c0cdefba00c5df55885a86f8ba7737d4094c56b08fb90044e4ccee1"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "draggable-grid-tw",
+      "path": "vault/reactbits-starter/components/pan-board/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/pan-board/variants/tw/pan-board.tsx",
+          "bytes": 11575,
+          "sha256": "f57a1d67422d8524edea5a1d35e188eb59714534600a8d8d55d570f7617a84af"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "*"
+        },
+        {
+          "name": "@gsap/react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PanBoard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/pan-board/variants/tw/pan-board.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "68894d0bc607459f5e1e5a3e65ba3a2a248df0960bc2ab34c983ac8427267aab"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@gsap/react",
+      "range": "*"
+    },
+    {
+      "name": "gsap",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PanBoard",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/pan-board/variants/tw/pan-board.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/pan-board",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/draggable-grid-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "8ba8b160c6095fffa43ccdce1c8cf0615a9a95854f47a6ee8ff6c6d378ea6b77",
+  "fetchedAt": "2026-08-14T05:32:32.302Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "draggable-grid",
+  "upstreamName": "DraggableGrid"
+}

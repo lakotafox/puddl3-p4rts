@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/social-proof-15",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "social-proof-15",
+  "name": "social-proof-15",
+  "title": "Social Proof 15",
+  "description": "Spotlight customer story with author rail, timed progress, and crossfade rotation",
+  "tags": [
+    "social-proof",
+    "testimonials",
+    "landing"
+  ],
+  "tagSource": "upstream",
+  "category": "social-proof",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "social-proof-15",
+      "path": "vault/reactbits-pro/blocks/social-proof-15/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/social-proof-15/files/social-proof-15.tsx",
+          "bytes": 10186,
+          "sha256": "970406dc9449daaca8c2697a8dc538b0b78a85f1d2dfd39c429c37abffcae309"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "SocialProof15",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/social-proof-15/files/social-proof-15.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b5c8ec47ecc9eb7bd4ba0041deca55a38afd1e448b4421c9dbd977eac8b7b1ce"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "SocialProof15",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/social-proof-15/files/social-proof-15.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/social-proof-15",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/social-proof-15.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "5de27689a33f717e127860f2b0342d4554e50f4677bb01a209eb05a01971f483",
+  "fetchedAt": "2026-08-14T05:55:17.677Z",
+  "vaultVersion": 1
+}

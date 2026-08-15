@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/filtering-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "filtering-8",
+  "name": "filtering-8",
+  "title": "Filtering 8",
+  "description": "Flight filters with time-of-day and duration ranges plus per-airline fares.",
+  "tags": [
+    "filter",
+    "facet",
+    "refine",
+    "search",
+    "query",
+    "sort"
+  ],
+  "tagSource": "upstream",
+  "category": "filter",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "filtering-8",
+      "path": "vault/reactbits-pro/blocks/filtering-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/filtering-8/files/filtering-8.tsx",
+          "bytes": 37787,
+          "sha256": "e70d6f7892462b25c6920a8af60d2426765a09d56b8fbc4b9bf498d73a6572ee"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Filtering8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/filtering-8/files/filtering-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3505168c8ca1db7c3ef4b011231a2b697fa23d400ab6cea4fb92c413b7ec6a57"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Filtering8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/filtering-8/files/filtering-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/filtering-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/filtering-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a04e5ef64c740a9cedbbc2850d7bf2e004de95e9c5023f4fa766f8fb3f6d6fc9",
+  "fetchedAt": "2026-08-14T05:47:13.706Z",
+  "vaultVersion": 1
+}

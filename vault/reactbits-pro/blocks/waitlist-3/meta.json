@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/waitlist-3",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "waitlist-3",
+  "name": "waitlist-3",
+  "title": "Waitlist 3",
+  "description": "Rounded waitlist card with top SVG insert and image",
+  "tags": [
+    "waitlist",
+    "signup",
+    "email",
+    "form",
+    "pre-launch"
+  ],
+  "tagSource": "upstream",
+  "category": "waitlist",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "waitlist-3",
+      "path": "vault/reactbits-pro/blocks/waitlist-3/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/waitlist-3/files/waitlist-3.tsx",
+          "bytes": 4495,
+          "sha256": "3734e68d4b2b75c625725998e7411d55b66c2747eff77eb567bda15abf47e36c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Waitlist3",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/waitlist-3/files/waitlist-3.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "80a32f1a0132e2bc3edfcb0fac2ee3b70bbd06d9d644547669a47283aeb5b6d1"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Waitlist3",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/waitlist-3/files/waitlist-3.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/waitlist-3",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/waitlist-3.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "7920b185673ceda4ed2cf844f89bcad3f450d84f7023c2b94b55801794f80260",
+  "fetchedAt": "2026-08-14T05:56:15.351Z",
+  "vaultVersion": 1
+}

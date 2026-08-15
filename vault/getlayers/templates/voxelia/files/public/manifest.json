@@ -1,0 +1,13 @@
+{
+  "name": "PUDDL3",
+  "short_name": "PUDDL3",
+  "description": "Wages streamed in real time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#004AC7",
+  "theme_color": "#004AC7",
+  "icons": [
+    { "src": "/icon", "sizes": "64x64", "type": "image/png" },
+    { "src": "/apple-icon", "sizes": "180x180", "type": "image/png" }
+  ]
+}

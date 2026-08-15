@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/mesh-drift",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "mesh-drift",
+  "name": "MeshDrift",
+  "title": "Mesh Drift",
+  "description": "Perspective moving grid lines based on cusror position.",
+  "tags": [
+    "background",
+    "gsap"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "GridMotion-JS-CSS",
+      "path": "vault/reactbits-free/components/mesh-drift/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/js-css/MeshDrift.css",
+          "bytes": 1460,
+          "sha256": "6ce41ff8ca8efa7b7b29528282b6ebd487021a8a470d015f54376907c8684c66"
+        },
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/js-css/MeshDrift.jsx",
+          "bytes": 2954,
+          "sha256": "583b6962790d5f1a57f50092ac10384cabfa1d386ba9acc836c03c41a98a82da"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeshDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mesh-drift/variants/js-css/MeshDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "5ea3e8232869aff333da4004b8664ba8210a0d68a6c9523340d326c9102f0664"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "GridMotion-JS-TW",
+      "path": "vault/reactbits-free/components/mesh-drift/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/js-tw/MeshDrift.jsx",
+          "bytes": 3428,
+          "sha256": "9244b36157ae448fbc99daa0523aee2700e490372508ca01a542a51cb5338f5a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeshDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mesh-drift/variants/js-tw/MeshDrift.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "460bc6992d776d5b532ae37a722806da672ead705d1e5f0221c2ee9163b558a0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "GridMotion-TS-CSS",
+      "path": "vault/reactbits-free/components/mesh-drift/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/ts-css/MeshDrift.css",
+          "bytes": 1460,
+          "sha256": "6ce41ff8ca8efa7b7b29528282b6ebd487021a8a470d015f54376907c8684c66"
+        },
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/ts-css/MeshDrift.tsx",
+          "bytes": 3228,
+          "sha256": "b079493e5cf6cb4fd3a9fa0763ceac478a74efa417cf1a71b78e6187dfe88226"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeshDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mesh-drift/variants/ts-css/MeshDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c035f9bae372a528e69e674227ddf3f1d7dbaa9930f895cb3c375a4cdc15fd5e"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "GridMotion-TS-TW",
+      "path": "vault/reactbits-free/components/mesh-drift/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/mesh-drift/variants/ts-tw/MeshDrift.tsx",
+          "bytes": 3656,
+          "sha256": "aca0a3b57db7f6a0064cb269f61c8d6462533a7db4ef03a288d81bdcb9601938"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "MeshDrift",
+          "style": "default",
+          "file": "vault/reactbits-free/components/mesh-drift/variants/ts-tw/MeshDrift.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a55e9f459f70c3b1d4451ba460960d44f10c97314ac2c9c398d56064419bb834"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "MeshDrift",
+      "style": "default",
+      "file": "vault/reactbits-free/components/mesh-drift/variants/ts-tw/MeshDrift.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/mesh-drift",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/GridMotion-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/grid-motion"
+  },
+  "hash": "1309660b8779c10b194eb361cb56528588b49bf38aef94083facb63c96a42773",
+  "fetchedAt": "2026-08-14T05:36:11.392Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "MeshDrift",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "grid-motion",
+  "upstreamName": "GridMotion"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/ai-chat-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-chat-6",
+  "name": "ai-chat-6",
+  "title": "AI Chat 6",
+  "description": "Multi-agent conversation with per-agent identity, handoffs, and a live activity rail.",
+  "tags": [
+    "ai",
+    "agent",
+    "chat",
+    "assistant",
+    "streaming"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-chat-6",
+      "path": "vault/reactbits-pro/blocks/ai-chat-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-chat-6/files/ai-chat-6.tsx",
+          "bytes": 22553,
+          "sha256": "1411efccc5cc19f43b80d6b2d0a49fd9f1c8e2d6b44f086ef3cd9910b45b3b46"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AiChat6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-chat-6/files/ai-chat-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d50eede9a41ffb08c835b9cab13c05d6953bbc823a3e050929ed0ba7c8e9240c"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiChat6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-chat-6/files/ai-chat-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-chat-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-chat-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "dcc5a2eaa6e6a49afd213168d58365e1691ce0811ed7ec05405139bd808853b9",
+  "fetchedAt": "2026-08-14T05:36:35.973Z",
+  "vaultVersion": 1
+}

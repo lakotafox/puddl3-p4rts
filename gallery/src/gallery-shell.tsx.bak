@@ -1,0 +1,251 @@
+import { StrictMode, useEffect, useMemo, useState } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+
+type Variant = { id: string; path: string; files: { path: string }[] };
+type Asset = {
+  id: string; source: string; kind: string; slug: string; title: string;
+  description: string; tags: string[]; variants: Variant[]; defaultVariant: string;
+  dependencies: { name: string }[];
+  exports: { name: string; style: string; confidence: string }[];
+  requires: { webgl: boolean; client: boolean; tailwind: string | null; providers: string[] };
+  preview: { mode: string };
+  demo?: { name: string };
+  category?: string | null;
+  license: { spdx: string };
+};
+
+const SOURCES: Record<string, string> = {
+  "rb-free": "React Bits free", "rb-starter": "React Bits Pro", "rb-pro": "Pro blocks", layers: "Layers",
+};
+
+function useManifest() {
+  const [assets, setAssets] = useState<Asset[]>([]);
+  useEffect(() => {
+    // Fetched, not imported, so a `foxbits sync` shows up on reload.
+    fetch("/vault/manifest.json").then((r) => r.json()).then((m) => setAssets(m.assets));
+  }, []);
+  return assets;
+}
+
+function score(a: Asset, q: string) {
+  const s = q.toLowerCase();
+  let n = 0;
+  if (a.slug === s) n += 100;
+  else if (a.slug.startsWith(s)) n += 60;
+  else if (a.slug.includes(s)) n += 35;
+  if (a.title.toLowerCase().includes(s)) n += 40;
+  if (a.tags.some((t) => t === s)) n += 30;
+  if (a.description.toLowerCase().includes(s)) n += 10;
+  if (a.dependencies.some((d) => d.name === s)) n += 15;
+  return n;
+}
+
+function Preview({ asset, variant }: { asset: Asset; variant: Variant }) {
+  const [status, setStatus] = useState("loading");
+  const [demo, setDemo] = useState(true);
+  const file = variant.files.find((f) => /\.(tsx|jsx)$/.test(f.path))?.path ?? "";
+  // Full-bleed components size themselves off the parent (`w-full h-full` +
+  // offsetHeight). Centring them collapses that to content size, so they need a
+  // filled stage; text and UI bits want to be centred instead.
+  const fill = asset.requires.webgl || asset.tags.includes("background") || asset.kind === "block";
+  // Free components have react-bits' own demo vendored, which renders the exact
+  // reactbits.dev experience (stage, Customize panel, prop table). Everything
+  // else falls back to mounting the bare component on a plain stage.
+  const src = asset.demo
+    ? `/demo.html?demo=${encodeURIComponent(asset.demo.name)}`
+    : `/preview.html?path=${encodeURIComponent(file)}` +
+      `&export=${encodeURIComponent(asset.exports[0]?.name ?? "")}` +
+      `&fit=${fill ? "fill" : "center"}${fill && demo ? "&demo=1" : ""}`;
+
+  useEffect(() => {
+    setStatus("loading");
+    const onMsg = (e: MessageEvent) => {
+      if (e.data?.type === "foxbits:preview") setStatus(e.data.status);
+    };
+    addEventListener("message", onMsg);
+    return () => removeEventListener("message", onMsg);
+  }, [src]);
+
+  // A fixed-height stage, matching reactbits' own `h={500}` demo container.
+  // Full-bleed shaders are authored against a box of roughly this size; in a
+  // full-viewport frame they render as a thin band instead of filling.
+  return (
+    <div className={asset.demo ? "relative h-full w-full" : "relative h-[500px] w-full overflow-hidden rounded-xl border border-neutral-800"}>
+      <iframe
+        key={src}
+        src={src}
+        className="h-full w-full border-0 bg-neutral-950"
+        title={asset.title}
+        sandbox="allow-scripts allow-same-origin"
+      />
+      {fill && !asset.demo && (
+        <button
+          onClick={() => setDemo((d) => !d)}
+          className="absolute bottom-3 right-3 flex items-center gap-2 rounded-lg border border-white/10 bg-black/60 px-3 py-1.5 text-xs text-neutral-300 backdrop-blur"
+        >
+          Demo Content
+          <span className={`h-4 w-7 rounded-full transition ${demo ? "bg-orange-500" : "bg-neutral-700"}`}>
+            <span className={`block h-3 w-3 translate-y-0.5 rounded-full bg-white transition ${demo ? "translate-x-3.5" : "translate-x-0.5"}`} />
+          </span>
+        </button>
+      )}
+      {status !== "ok" && (
+        <div className="pointer-events-none absolute bottom-3 left-3 rounded bg-black/70 px-2 py-1 font-mono text-[10px] text-neutral-400">
+          {status}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function App() {
+  const assets = useManifest();
+  const [q, setQ] = useState("");
+  const [source, setSource] = useState<string | null>(null);
+  const [tag, setTag] = useState<string | null>(null);
+  const [sel, setSel] = useState<Asset | null>(null);
+  const [variantId, setVariantId] = useState<string | null>(null);
+  const [tab, setTab] = useState<"preview" | "code" | "add">("preview");
+  const [code, setCode] = useState("");
+
+  const filtered = useMemo(() => {
+    let out = assets;
+    if (source) out = out.filter((a) => a.source === source);
+    if (tag) out = out.filter((a) => a.tags.includes(tag));
+    if (q) out = out.map((a) => ({ a, n: score(a, q) })).filter((x) => x.n > 0)
+      .sort((x, y) => y.n - x.n).map((x) => x.a);
+    return out;
+  }, [assets, q, source, tag]);
+
+  const tags = useMemo(() => {
+    const c = new Map<string, number>();
+    for (const a of assets) for (const t of a.tags) c.set(t, (c.get(t) ?? 0) + 1);
+    return [...c].sort((a, b) => b[1] - a[1]).slice(0, 24);
+  }, [assets]);
+
+  const variant = sel?.variants.find((v) => v.id === (variantId ?? sel.defaultVariant)) ?? sel?.variants[0];
+
+  useEffect(() => {
+    if (tab !== "code" || !variant) return;
+    const f = variant.files.find((x) => /\.(tsx|jsx)$/.test(x.path)) ?? variant.files[0];
+    if (f) fetch("/" + f.path).then((r) => r.text()).then(setCode);
+  }, [tab, variant]);
+
+  useEffect(() => { setVariantId(null); setTab("preview"); }, [sel?.id]);
+
+  return (
+    <div className="flex h-screen bg-neutral-950 text-neutral-200">
+      {/* facets */}
+      <aside className="w-56 shrink-0 overflow-y-auto border-r border-neutral-800 p-3">
+        <div className="mb-3 font-mono text-sm font-bold text-orange-400">foxbits</div>
+        <div className="mb-4 text-[11px] text-neutral-500">{assets.length} assets</div>
+
+        <div className="mb-4">
+          <div className="mb-1 text-[10px] uppercase tracking-wide text-neutral-500">source</div>
+          {Object.entries(SOURCES).map(([k, label]) => {
+            const n = assets.filter((a) => a.source === k).length;
+            if (!n) return null;
+            return (
+              <button key={k} onClick={() => setSource(source === k ? null : k)}
+                className={`block w-full rounded px-2 py-1 text-left text-xs ${source === k ? "bg-orange-500/20 text-orange-300" : "hover:bg-neutral-900"}`}>
+                {label} <span className="text-neutral-600">{n}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div>
+          <div className="mb-1 text-[10px] uppercase tracking-wide text-neutral-500">tag</div>
+          {tags.map(([t, n]) => (
+            <button key={t} onClick={() => setTag(tag === t ? null : t)}
+              className={`block w-full rounded px-2 py-1 text-left text-xs ${tag === t ? "bg-orange-500/20 text-orange-300" : "hover:bg-neutral-900"}`}>
+              {t} <span className="text-neutral-600">{n}</span>
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      {/* list */}
+      <div className="flex w-80 shrink-0 flex-col border-r border-neutral-800">
+        <input autoFocus value={q} onChange={(e) => setQ(e.target.value)} placeholder="search…"
+          className="border-b border-neutral-800 bg-transparent px-3 py-2 text-sm outline-none placeholder:text-neutral-600" />
+        <div className="flex-1 overflow-y-auto">
+          {filtered.map((a) => (
+            <button key={a.id} onClick={() => setSel(a)}
+              className={`block w-full border-b border-neutral-900 px-3 py-2 text-left ${sel?.id === a.id ? "bg-neutral-900" : "hover:bg-neutral-900/50"}`}>
+              <div className="truncate text-sm">{a.title}</div>
+              <div className="truncate text-[10px] text-neutral-500">{a.tags.join(" · ")}</div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* detail */}
+      <main className="flex min-w-0 flex-1 flex-col">
+        {!sel ? (
+          <div className="grid flex-1 place-items-center text-sm text-neutral-600">select a component</div>
+        ) : (
+          <>
+            <header className="border-b border-neutral-800 px-4 py-3">
+              <div className="flex items-baseline gap-3">
+                <h1 className="text-lg font-semibold">{sel.title}</h1>
+                <span className="font-mono text-[11px] text-neutral-500">{sel.id}</span>
+              </div>
+              {sel.description && <p className="mt-1 text-xs text-neutral-400">{sel.description}</p>}
+              <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px]">
+                {sel.variants.map((v) => (
+                  <button key={v.id} onClick={() => setVariantId(v.id)}
+                    className={`rounded px-2 py-0.5 font-mono ${v.id === variant?.id ? "bg-orange-500/20 text-orange-300" : "bg-neutral-900 text-neutral-400"}`}>
+                    {v.id}
+                  </button>
+                ))}
+                {sel.requires.webgl && <span className="rounded bg-blue-500/15 px-2 py-0.5 text-blue-300">webgl</span>}
+                {sel.requires.tailwind === "v4" && <span className="rounded bg-amber-500/15 px-2 py-0.5 text-amber-300">tw v4</span>}
+                <span className="text-neutral-600">{sel.dependencies.map((d) => d.name).join(", ")}</span>
+              </div>
+              <nav className="mt-3 flex gap-1">
+                {(["preview", "code", "add"] as const).map((t) => (
+                  <button key={t} onClick={() => setTab(t)}
+                    className={`rounded px-2 py-1 text-xs ${tab === t ? "bg-neutral-800" : "text-neutral-500 hover:text-neutral-300"}`}>
+                    {t}
+                  </button>
+                ))}
+              </nav>
+            </header>
+
+            <section className="min-h-0 flex-1 overflow-auto">
+              {tab === "preview" && variant && <Preview asset={sel} variant={variant} />}
+              {tab === "code" && (
+                <pre className="overflow-auto p-4 font-mono text-[11px] leading-relaxed text-neutral-300">{code}</pre>
+              )}
+              {tab === "add" && (
+                <div className="space-y-4 p-4 font-mono text-xs">
+                  <div>
+                    <div className="mb-1 text-neutral-500">copy into a project</div>
+                    <code className="block rounded bg-neutral-900 p-2 text-orange-300">
+                      foxbits add {sel.id} --variant {variant?.id}
+                    </code>
+                  </div>
+                  <div>
+                    <div className="mb-1 text-neutral-500">import</div>
+                    <code className="block rounded bg-neutral-900 p-2 text-neutral-300">
+                      {sel.exports[0]
+                        ? sel.exports[0].style === "default"
+                          ? `import ${sel.exports[0].name} from "@/components/foxbits/${sel.slug}";`
+                          : `import { ${sel.exports[0].name} } from "@/components/foxbits/${sel.slug}";`
+                        : "—"}
+                    </code>
+                  </div>
+                  <div className="text-neutral-500">license: {sel.license.spdx}</div>
+                </div>
+              )}
+            </section>
+          </>
+        )}
+      </main>
+    </div>
+  );
+}
+
+createRoot(document.getElementById("root")!).render(<StrictMode><App /></StrictMode>);

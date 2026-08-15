@@ -1,0 +1,143 @@
+{
+  "id": "rb-starter/component/prism-grid",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "prism-grid",
+  "name": "PrismGrid",
+  "title": "Prism Grid",
+  "description": "A shimmering background of colorful glass tiles",
+  "tags": [
+    "shader",
+    "background",
+    "caustics",
+    "glass",
+    "color",
+    "webgl"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "glass-tiles-css",
+      "path": "vault/reactbits-starter/components/prism-grid/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/prism-grid/variants/css/prism-grid.tsx",
+          "bytes": 6526,
+          "sha256": "391aeedd19dde50e45b41912757696d460e01b6aee88dbb05b454f81a1110f53"
+        },
+        {
+          "path": "vault/reactbits-starter/components/prism-grid/variants/css/prism-grid.css",
+          "bytes": 186,
+          "sha256": "7cf12ea36f4ff5609887664beb47ecb8bb984ae9e14701496e7ab7d79290c613"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PrismGrid",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/prism-grid/variants/css/prism-grid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "90f2da943ccdb19214b621bb76cde948bf482789e5d757d16cd6e5c26f8009a8"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "glass-tiles-tw",
+      "path": "vault/reactbits-starter/components/prism-grid/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/prism-grid/variants/tw/prism-grid.tsx",
+          "bytes": 6508,
+          "sha256": "19a223ef10759fb52f6b4bd532c5a1d37b28e3d6b2c621ec76d78af3ec696fb1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PrismGrid",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/prism-grid/variants/tw/prism-grid.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e4ffbc58bbf8b934ca92dd8020bd64a8e6133c9d3d2f3c6577ac04e1aec89c05"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PrismGrid",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/prism-grid/variants/tw/prism-grid.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/prism-grid",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/glass-tiles-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3f2fc6a35598372682e5caabcf2c935c7d5e4ff2c8fc473d5e67724f0a9e5ca5",
+  "fetchedAt": "2026-08-14T05:32:48.711Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "glass-tiles",
+  "upstreamName": "GlassTiles"
+}

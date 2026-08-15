@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/authentication-7",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "authentication-7",
+  "name": "authentication-7",
+  "title": "Authentication 7",
+  "description": "Sign-up card with a segmented strength meter and a live two-column password requirement list.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "sso",
+    "passkey",
+    "onboarding"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "authentication-7",
+      "path": "vault/reactbits-pro/blocks/authentication-7/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/authentication-7/files/authentication-7.tsx",
+          "bytes": 12174,
+          "sha256": "8719ef0a8f189c1094ae05b2253a3b03ee760cc853e49d95eb541ac00c4c85a4"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Authentication7",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/authentication-7/files/authentication-7.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f80dd60dd0689ee05818f10ee665d39eb0efd5358d0fefd9f44fa1aac51df1f6"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Authentication7",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/authentication-7/files/authentication-7.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/authentication-7",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/authentication-7.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "374aa174dbd3d78bacab8886638ffbe34993899d7500f1a0d6f55f27192eed4c",
+  "fetchedAt": "2026-08-14T05:42:50.311Z",
+  "vaultVersion": 1
+}

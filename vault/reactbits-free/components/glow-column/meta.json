@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/glow-column",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "glow-column",
+  "name": "GlowColumn",
+  "title": "Glow Column",
+  "description": "Vertical pillar of light with glow effects.",
+  "tags": [
+    "ui",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "LightPillar-JS-CSS",
+      "path": "vault/reactbits-free/components/glow-column/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/js-css/GlowColumn.css",
+          "bytes": 345,
+          "sha256": "20153c578ec10ecdab665e31f5e47a26edfa4b212787a34e2120257845b32731"
+        },
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/js-css/GlowColumn.jsx",
+          "bytes": 12471,
+          "sha256": "2077163091afc551895ae8d059b73a1fb4cca21569af6a078c702f2a18df5e44"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowColumn",
+          "style": "default",
+          "file": "vault/reactbits-free/components/glow-column/variants/js-css/GlowColumn.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fa543d17a20dccb8055df0e8e24b3cb1188db3cd018a7c9599e8102a1333f8ca"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "LightPillar-JS-TW",
+      "path": "vault/reactbits-free/components/glow-column/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/js-tw/GlowColumn.jsx",
+          "bytes": 12657,
+          "sha256": "ae8e0453947cd7c02034fc3800fc8b4e528d759633a65f7545f44a7de1149211"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowColumn",
+          "style": "default",
+          "file": "vault/reactbits-free/components/glow-column/variants/js-tw/GlowColumn.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "e6c6621e7ab03419723e58a2a9fa08bcfb16e2ee38d4fbc1c95541d2b55266c1"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "LightPillar-TS-CSS",
+      "path": "vault/reactbits-free/components/glow-column/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/ts-css/GlowColumn.css",
+          "bytes": 345,
+          "sha256": "20153c578ec10ecdab665e31f5e47a26edfa4b212787a34e2120257845b32731"
+        },
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/ts-css/GlowColumn.tsx",
+          "bytes": 13306,
+          "sha256": "f1a465d00d70e2e74efd112d85221489227015f7fa9214317f5292bab36daece"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowColumn",
+          "style": "default",
+          "file": "vault/reactbits-free/components/glow-column/variants/ts-css/GlowColumn.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fba770392b06d4145da61c6634de772f72bc816aa1e7227a84d502e02a11c9c1"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "LightPillar-TS-TW",
+      "path": "vault/reactbits-free/components/glow-column/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/glow-column/variants/ts-tw/GlowColumn.tsx",
+          "bytes": 15827,
+          "sha256": "e14a9e2d14db19eab5fb93aaa3308c16386a7b78b0b8623d60a401bf48444722"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlowColumn",
+          "style": "default",
+          "file": "vault/reactbits-free/components/glow-column/variants/ts-tw/GlowColumn.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "77ce642cdac7dd8cf0ea972f04847bc42aec7580f02ba23feeb16dfcf32f99f0"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "GlowColumn",
+      "style": "default",
+      "file": "vault/reactbits-free/components/glow-column/variants/ts-tw/GlowColumn.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/glow-column",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/LightPillar-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/light-pillar"
+  },
+  "hash": "cc12b777113a850a95372d4726e72fa4525177a1bb76cb9cf7bb9e94cb39a1ee",
+  "fetchedAt": "2026-08-14T05:36:11.409Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "GlowColumn",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "light-pillar",
+  "upstreamName": "LightPillar"
+}

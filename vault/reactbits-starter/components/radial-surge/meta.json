@@ -1,0 +1,130 @@
+{
+  "id": "rb-starter/component/radial-surge",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "radial-surge",
+  "name": "RadialSurge",
+  "title": "Radial Surge",
+  "description": "Radial flowing animation from center",
+  "tags": [
+    "animation",
+    "effect",
+    "ui"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "center-flow-css",
+      "path": "vault/reactbits-starter/components/radial-surge/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/radial-surge/variants/css/radial-surge.tsx",
+          "bytes": 15095,
+          "sha256": "bb5922aec7db28725c7c604e44087adc67a07ae4d0f917527d0f3c0047eef1c9"
+        },
+        {
+          "path": "vault/reactbits-starter/components/radial-surge/variants/css/radial-surge.css",
+          "bytes": 811,
+          "sha256": "d5aeb4ac42230d04288325c56b12dcfeb4b051d68146dac2bdd4251a7fc396ae"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RadialSurge",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/radial-surge/variants/css/radial-surge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "2b9b5d53904240197773f0cee8a4cc707c8d6431220d5cdcfa15af789938c753"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "center-flow-tw",
+      "path": "vault/reactbits-starter/components/radial-surge/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/radial-surge/variants/tw/radial-surge.tsx",
+          "bytes": 15240,
+          "sha256": "7d06ff37d66ee536831b610f2ed97277852812b3b4d0d17f18ef2c362fafa28e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "next-themes",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RadialSurge",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/radial-surge/variants/tw/radial-surge.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1e2c8b3ca3fe13409f58586657a22916f87f0e97ccda973dea6a440aba2964a1"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "next-themes",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RadialSurge",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/radial-surge/variants/tw/radial-surge.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": [
+      "next-themes"
+    ]
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/radial-surge",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/center-flow-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "ad4ad79eaa898c321ddccbc2f87482cf4774ee9a8ccb5e67de424af7d410fe29",
+  "fetchedAt": "2026-08-14T05:31:59.627Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "center-flow",
+  "upstreamName": "CenterFlow"
+}

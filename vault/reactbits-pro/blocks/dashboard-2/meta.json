@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/dashboard-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "dashboard-2",
+  "name": "dashboard-2",
+  "title": "Dashboard 2",
+  "description": "Dashboard with a primary chart panel, breakdown table, and date range control.",
+  "tags": [
+    "data",
+    "dashboard",
+    "metrics",
+    "charts",
+    "analytics"
+  ],
+  "tagSource": "upstream",
+  "category": "data",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "dashboard-2",
+      "path": "vault/reactbits-pro/blocks/dashboard-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/dashboard-2/files/dashboard-2.tsx",
+          "bytes": 13962,
+          "sha256": "cadc233cfba802f80b573d21a4a387dcdb5c0e790427c4c90f8567251db1c399"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Dashboard2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/dashboard-2/files/dashboard-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "26d0da2a42835402604c866527925633b15449bfbbfa35e22cbc9c8fe3f535b2"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Dashboard2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/dashboard-2/files/dashboard-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/dashboard-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/dashboard-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "a9f7074ed0b232e82a24ae6119cf62c1a90b2ca89b68d38756f3f0e798552ba1",
+  "fetchedAt": "2026-08-14T05:45:08.342Z",
+  "vaultVersion": 1
+}

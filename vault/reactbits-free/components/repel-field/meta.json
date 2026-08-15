@@ -1,0 +1,207 @@
+{
+  "id": "rb-free/component/repel-field",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "repel-field",
+  "name": "RepelField",
+  "title": "Repel Field",
+  "description": "3D antigravity particle field that repels from the cursor with smooth motion.",
+  "tags": [
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Antigravity-JS-CSS",
+      "path": "vault/reactbits-free/components/repel-field/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/repel-field/variants/js-css/RepelField.jsx",
+          "bytes": 5572,
+          "sha256": "aafcfc5a8ba9e64ebd55fb93961d99a24d78ce612684f3d8c81d4cf9838674dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RepelField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/repel-field/variants/js-css/RepelField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1287a2268e0aa518a15cfb3ac4d8f07a2f31ace59a12b9a0655c341885c7f422"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Antigravity-JS-TW",
+      "path": "vault/reactbits-free/components/repel-field/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/repel-field/variants/js-tw/RepelField.jsx",
+          "bytes": 5572,
+          "sha256": "aafcfc5a8ba9e64ebd55fb93961d99a24d78ce612684f3d8c81d4cf9838674dd"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RepelField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/repel-field/variants/js-tw/RepelField.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1287a2268e0aa518a15cfb3ac4d8f07a2f31ace59a12b9a0655c341885c7f422"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Antigravity-TS-CSS",
+      "path": "vault/reactbits-free/components/repel-field/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/repel-field/variants/ts-css/RepelField.tsx",
+          "bytes": 6037,
+          "sha256": "17d00cf5bfa54e3d8af77ba81d01df02db009a1ae7b1304a25f2087b31a55d6e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RepelField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/repel-field/variants/ts-css/RepelField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "63e84659d29a40d600f2e3b4ac70be2b6571f8b13441c8bcace5a0e681a24a84"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Antigravity-TS-TW",
+      "path": "vault/reactbits-free/components/repel-field/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/repel-field/variants/ts-tw/RepelField.tsx",
+          "bytes": 6037,
+          "sha256": "17d00cf5bfa54e3d8af77ba81d01df02db009a1ae7b1304a25f2087b31a55d6e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "^9.3.0"
+        },
+        {
+          "name": "three",
+          "range": "^0.180.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "RepelField",
+          "style": "default",
+          "file": "vault/reactbits-free/components/repel-field/variants/ts-tw/RepelField.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "63e84659d29a40d600f2e3b4ac70be2b6571f8b13441c8bcace5a0e681a24a84"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "^9.3.0"
+    },
+    {
+      "name": "three",
+      "range": "^0.180.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "RepelField",
+      "style": "default",
+      "file": "vault/reactbits-free/components/repel-field/variants/ts-tw/RepelField.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/repel-field",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Antigravity-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/antigravity"
+  },
+  "hash": "5e1b12b9d6e4b52078c95af0315d761fb46bcf7f65d4c478e1d875163e02a804",
+  "fetchedAt": "2026-08-14T05:36:11.330Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "RepelField",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "antigravity",
+  "upstreamName": "Antigravity"
+}

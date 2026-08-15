@@ -1,0 +1,102 @@
+{
+  "id": "rb-pro/block/app-dialog-2",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "app-dialog-2",
+  "name": "app-dialog-2",
+  "title": "App Dialog 2",
+  "description": "Destructive confirmation dialog requiring the resource name to be typed.",
+  "tags": [
+    "overlay",
+    "dialog",
+    "modal",
+    "drawer",
+    "popover"
+  ],
+  "tagSource": "upstream",
+  "category": "overlay",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "app-dialog-2",
+      "path": "vault/reactbits-pro/blocks/app-dialog-2/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/app-dialog-2/files/app-dialog-2.tsx",
+          "bytes": 14402,
+          "sha256": "924e2df47d3d87b534ce3b3f9ca09645f428b3abd8a6b843d60774b60a525e7d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppDialog2",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/app-dialog-2/files/app-dialog-2.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4a5f4948ff1290d0b5d648382a806e68de8776ae9becb885f54a789be16363da"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AppDialog2",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/app-dialog-2/files/app-dialog-2.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/app-dialog-2",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/app-dialog-2.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0827660785e54444b1f3024ef14391b96360ab178afcd131e3871a755b7d62cf",
+  "fetchedAt": "2026-08-14T05:37:19.332Z",
+  "vaultVersion": 1
+}

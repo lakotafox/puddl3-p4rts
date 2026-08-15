@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-12",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-12",
+  "name": "analytics-12",
+  "title": "Analytics 12",
+  "description": "Horizontal bar ranking with sortable measures and inline value labels.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-12",
+      "path": "vault/reactbits-pro/blocks/analytics-12/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-12/files/analytics-12.tsx",
+          "bytes": 18590,
+          "sha256": "d21539570ec746ba028f6d7589e864e919714897c3ef6a234bbf288db71bff45"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics12",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-12/files/analytics-12.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d3516926ea76c98a14b516a214d651381375e919f5f6907dfdd656238e7ea55a"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics12",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-12/files/analytics-12.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-12",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-12.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "62aaa39c695eb0d8719b02f3d50e442f355ec2a07c4f85455dde20a38427ec48",
+  "fetchedAt": "2026-08-14T05:36:58.484Z",
+  "vaultVersion": 1
+}

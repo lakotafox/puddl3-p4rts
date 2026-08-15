@@ -1,0 +1,175 @@
+{
+  "recommendedSkills": [
+    "skill-apple-minimal"
+  ],
+  "harmonization": {
+    "type": {
+      "heroHeadline": "text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight",
+      "sectionHeading": "text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight",
+      "cardTitle": "text-lg sm:text-xl font-medium",
+      "lead": "text-base sm:text-lg leading-relaxed",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "eyebrow": "text-xs font-medium uppercase tracking-[0.08em]",
+      "weight": "font-medium for all display type and headings, font-semibold only for emphasis in running copy, never font-bold",
+      "rule": "the hero headline is the largest type on the page"
+    },
+    "colour": {
+      "sectionBase": "bg-white dark:bg-neutral-950",
+      "sectionRecessed": "bg-neutral-50 dark:bg-neutral-900",
+      "cardSurface": "bg-neutral-100 dark:bg-neutral-800",
+      "border": "border-neutral-200 dark:border-neutral-800",
+      "textPrimary": "text-neutral-900 dark:text-white",
+      "textSecondary": "text-neutral-600 dark:text-neutral-400",
+      "textTertiary": "text-neutral-500",
+      "rule": "one accent on the primary CTA only, repeated at most once elsewhere; sample the accent from the hero-7 shader and keep every other section neutral so the shader stays the only saturated moment"
+    },
+    "layout": {
+      "sectionPadding": "py-16 sm:py-20 lg:py-24",
+      "navPadding": "py-4",
+      "container": "max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8",
+      "innerMeasure": "max-w-2xl",
+      "headerAlignment": "centered",
+      "radiusPanel": "rounded-xl",
+      "radiusControl": "rounded-lg"
+    },
+    "motion": {
+      "reveal": {
+        "initial": "{ opacity: 0, y: 20 }",
+        "whileInView": "{ opacity: 1, y: 0 }",
+        "transition": "{ duration: 0.5, ease: \"easeOut\" }",
+        "viewport": "{ once: true, margin: \"-80px\" }"
+      },
+      "stagger": "delay: Math.min(index, 5) * 0.06, a section must finish revealing within 500ms",
+      "mountAllowed": [
+        "navigation-3",
+        "hero-7"
+      ],
+      "convertToScroll": [
+        "showcase-3",
+        "how-it-works-3",
+        "waitlist-2",
+        "pricing-3",
+        "faq-2",
+        "cta-5"
+      ],
+      "maxScrollLinkedSections": 1,
+      "reducedMotion": "add useReducedMotion() and collapse to an opacity-only fade when true; hero-7's shader drops to a static frame or still gradient"
+    }
+  },
+  "blocks": [
+    {
+      "slug": "navigation-3",
+      "role": "Navigation",
+      "content": "Product name, up to three links, one CTA matching the page conversion goal.",
+      "config": {
+        "sticky": "true",
+        "ctaLabel": "match the page-wide CTA label verbatim"
+      },
+      "fallback": "A fixed 56–64px bar: product name left, 3 links, one action right."
+    },
+    {
+      "slug": "hero-7",
+      "role": "Announcement hero",
+      "content": "Product name or one-idea statement, a one-sentence subhead naming the audience, a status line (launch date or availability), the primary CTA, and one real product visual.",
+      "config": {
+        "statusLine": "Waitlist opens [date] | Shipping now",
+        "actions": "one primary CTA plus one text link"
+      },
+      "fallback": "Full-viewport hero: headline, subhead, status line, CTA, product image."
+    },
+    {
+      "slug": "social-proof-4",
+      "role": "Social proof",
+      "content": "Real, recognisable customer logos or linked press mentions. Remove this block entirely if none exist.",
+      "config": {
+        "optional": "true",
+        "omitWhen": "no verified logos or press"
+      },
+      "fallback": "A single row of linked press mentions in caption-size text."
+    },
+    {
+      "slug": "showcase-3",
+      "role": "The one idea",
+      "content": "The product's single strongest claim as one headline and one supporting visual.",
+      "config": {
+        "headlineWords": "4-10",
+        "visuals": "1"
+      },
+      "fallback": "A full-viewport statement section: one headline, one visual, no body copy."
+    },
+    {
+      "slug": "features-6",
+      "role": "Capabilities",
+      "content": "Three to five capabilities as alternating text/visual rows. Outcome headline, one-to-two sentence mechanism, one visual each.",
+      "config": {
+        "rows": "3-5",
+        "layout": "alternating text/visual, never a card grid"
+      },
+      "fallback": "Stacked two-column rows alternating text and visual sides."
+    },
+    {
+      "slug": "stats-4",
+      "role": "Proof in numbers",
+      "content": "Three or four real numbers with units and short labels. Remove this block if the numbers are not real.",
+      "config": {
+        "optional": "true",
+        "omitWhen": "no verifiable metrics"
+      },
+      "fallback": "A hairline-separated row of three numbers with captions."
+    },
+    {
+      "slug": "how-it-works-3",
+      "role": "Mechanism or rollout",
+      "content": "Pre-launch: what waitlist members receive and when. Shipping now: setup or rollout in three steps.",
+      "config": {
+        "steps": "3"
+      },
+      "fallback": "Three hairline-separated rows describing the sequence."
+    },
+    {
+      "slug": "waitlist-2",
+      "role": "Conversion: pre-launch",
+      "content": "Email capture only. State what the visitor receives, when, and the anti-spam promise.",
+      "config": {
+        "variant": "use for launch status = waitlist",
+        "fields": "email only"
+      },
+      "fallback": "A single-field email form with a submit button and a one-line promise."
+    },
+    {
+      "slug": "pricing-3",
+      "role": "Conversion: available now",
+      "content": "Real prices and real limits, with plain-text answers on trial end, card requirement, and cancellation.",
+      "config": {
+        "variant": "use for launch status = shipping now",
+        "tiers": "up to 3 plus Enterprise"
+      },
+      "fallback": "A hairline-separated pricing table stating each tier's binding limit."
+    },
+    {
+      "slug": "faq-2",
+      "role": "Questions",
+      "content": "Five to eight real questions including availability, refunds/cancellation, data handling, and the comparison to the obvious alternative.",
+      "config": {
+        "items": "5-8"
+      },
+      "fallback": "A keyboard-operable disclosure list of questions and answers."
+    },
+    {
+      "slug": "cta-5",
+      "role": "Closing",
+      "content": "Restate the offer with new information: a date, a limit, or a guarantee. Never a copy of the hero.",
+      "config": {
+        "ctaLabel": "match the page-wide CTA label verbatim"
+      },
+      "fallback": "A tall closing section: one line, one button, one friction-reducing caption."
+    },
+    {
+      "slug": "footer-4",
+      "role": "Footer",
+      "content": "Legal, contact, status, and social links. Real destinations only.",
+      "config": {},
+      "fallback": "A small-type footer with grouped links and a legal line."
+    }
+  ]
+}

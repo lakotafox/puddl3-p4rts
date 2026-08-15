@@ -1,0 +1,84 @@
+{
+  "id": "getlayers/scene/laocoon",
+  "source": "getlayers",
+  "kind": "scene",
+  "slug": "laocoon",
+  "name": "Laocoon",
+  "title": "Laocoon",
+  "description": "MOLT3N — cinematic WebGL one-pager for a liquid-bronze digital sculpture studio built by the PUDDL3 team",
+  "tags": [
+    "scene",
+    "getlayers",
+    "puddl3-universe"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "laocoon",
+    "MOLT3N"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "laocoon",
+      "path": "vault/getlayers/scenes/laocoon/files",
+      "files": [
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/index.html"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/Content/bronze_horse.glb"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/Content/1.png"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/script.js"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/scenes/laocoon/files/style.css"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 0
+  },
+  "paths": {
+    "root": "vault/getlayers/scenes/laocoon",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "MOLT3N",
+    "tagline": "Sculpture that never waits."
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=laocoon",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T18:58:57.202Z",
+  "vaultVersion": 1
+}

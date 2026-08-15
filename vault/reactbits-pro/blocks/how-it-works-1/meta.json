@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/how-it-works-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "how-it-works-1",
+  "name": "how-it-works-1",
+  "title": "How It Works 1",
+  "description": "Step-by-step carousel with images and navigation",
+  "tags": [
+    "how-it-works",
+    "process",
+    "steps",
+    "workflow"
+  ],
+  "tagSource": "upstream",
+  "category": "how-it-works",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "how-it-works-1",
+      "path": "vault/reactbits-pro/blocks/how-it-works-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/how-it-works-1/files/how-it-works-1.tsx",
+          "bytes": 10468,
+          "sha256": "d3924402a841cd19fd12b86617cd56a183de0d6effab0944853267cefa75bc7d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/how-it-works-1/files/how-it-works-1.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "HowItWorks1",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/how-it-works-1/files/how-it-works-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "84ee4e5ca7a6b7822329f1877397fba5a5702f49d94fdab94a37e9d44a0b438f"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "HowItWorks1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/how-it-works-1/files/how-it-works-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/how-it-works-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/how-it-works-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "fb4d09fa2dcd63d325f4cef48f17e884e35be1420198cb435f0bc1db524e2127",
+  "fetchedAt": "2026-08-14T05:48:28.445Z",
+  "vaultVersion": 1
+}

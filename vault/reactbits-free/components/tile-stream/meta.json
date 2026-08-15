@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/tile-stream",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "tile-stream",
+  "name": "TileStream",
+  "title": "Tile Stream",
+  "description": "An endless perspective wall of tiles drifting past, lifting on hover.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DriftWall-JS-CSS",
+      "path": "vault/reactbits-free/components/tile-stream/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/js-css/TileStream.css",
+          "bytes": 3009,
+          "sha256": "022c15ad24586e42f4fbe1dd1f059eeb0d558fd568972749768654c74e1e957d"
+        },
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/js-css/TileStream.jsx",
+          "bytes": 9582,
+          "sha256": "a9dc6ed61bc1d165cba908b94212657982eca6ea37e4b88de4391e18cb7aff64"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TileStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tile-stream/variants/js-css/TileStream.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b69d9432f38fb5c92f85cf78b9a610a08c26982133d7a3c75ddf7e6a30b8ddcf"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DriftWall-JS-TW",
+      "path": "vault/reactbits-free/components/tile-stream/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/js-tw/TileStream.jsx",
+          "bytes": 11819,
+          "sha256": "3d4939ee8c9b8ed4e685b143e55fd577a79b042f0f56cac49d835e1c32c4088d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TileStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tile-stream/variants/js-tw/TileStream.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "62865a16819f842e46809ea6a5201833ce9c9a78f79a2104d96d3924c28cc290"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DriftWall-TS-CSS",
+      "path": "vault/reactbits-free/components/tile-stream/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/ts-css/TileStream.css",
+          "bytes": 3009,
+          "sha256": "022c15ad24586e42f4fbe1dd1f059eeb0d558fd568972749768654c74e1e957d"
+        },
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/ts-css/TileStream.tsx",
+          "bytes": 10882,
+          "sha256": "19cc2be693fa9da9f0c63b86f79dfcf0f7c9c32a30c988d5445ca79d00cb6c6d"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TileStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tile-stream/variants/ts-css/TileStream.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a1b580b2ffc569c4630b697736a64a594a6a138f16c69deeb1d74157e2f3a2e9"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DriftWall-TS-TW",
+      "path": "vault/reactbits-free/components/tile-stream/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tile-stream/variants/ts-tw/TileStream.tsx",
+          "bytes": 13114,
+          "sha256": "4f996893b9b2a57663a7de861880d2bb810fb53b43f36ded32bce9ce22c2dabd"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TileStream",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tile-stream/variants/ts-tw/TileStream.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "923c04c639f1fa7ad4a310a1c867c317c56047d2bba7f4f5d9b586f1d49565e5"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TileStream",
+      "style": "default",
+      "file": "vault/reactbits-free/components/tile-stream/variants/ts-tw/TileStream.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/tile-stream",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DriftWall-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/drift-wall"
+  },
+  "hash": "8cc4cf01288baa44a8ae0fde947bcce423f1006b312a720971d794ca58543f46",
+  "fetchedAt": "2026-08-14T05:36:11.369Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TileStream",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "drift-wall",
+  "upstreamName": "DriftWall"
+}

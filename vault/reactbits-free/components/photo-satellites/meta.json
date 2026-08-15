@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/photo-satellites",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "photo-satellites",
+  "name": "PhotoSatellites",
+  "title": "Photo Satellites",
+  "description": "SVG Path customizable orbiting images effect",
+  "tags": [
+    "background",
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "OrbitImages-JS-CSS",
+      "path": "vault/reactbits-free/components/photo-satellites/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/js-css/PhotoSatellites.css",
+          "bytes": 790,
+          "sha256": "85a80f228529300ddd30fe1e2f0a68be5e5e31d963a5d0191dc95e9a6e2c5669"
+        },
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/js-css/PhotoSatellites.jsx",
+          "bytes": 8299,
+          "sha256": "593289ed58a14520f498e17d8d75b2b6ba083475ed1a552f4e106e13674909fc"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoSatellites",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-satellites/variants/js-css/PhotoSatellites.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4cbe13f401452ffa4454793dd90afecb161490989ab4def51a530e8d4e5dcfe2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "OrbitImages-JS-TW",
+      "path": "vault/reactbits-free/components/photo-satellites/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/js-tw/PhotoSatellites.jsx",
+          "bytes": 8455,
+          "sha256": "5a437c244ba2a71c194819a4c9b4ec3f7bf36b7707c09ad375e1a261d76a3ed7"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoSatellites",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-satellites/variants/js-tw/PhotoSatellites.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "b91af793d28544c923a67e9587f81ffa4fd32145f63b4992edb9c39dbf529269"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "OrbitImages-TS-CSS",
+      "path": "vault/reactbits-free/components/photo-satellites/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/ts-css/PhotoSatellites.css",
+          "bytes": 790,
+          "sha256": "85a80f228529300ddd30fe1e2f0a68be5e5e31d963a5d0191dc95e9a6e2c5669"
+        },
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/ts-css/PhotoSatellites.tsx",
+          "bytes": 9739,
+          "sha256": "96ec6acda4e88c7fadde557ab2387e6b0fdb3b82009992e8b3fb797d7fce43e9"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoSatellites",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-satellites/variants/ts-css/PhotoSatellites.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "f8f349ee895a8fe12ab9678a6c1927e5c0fd678d3e19a2dd914ce94086da15e3"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "OrbitImages-TS-TW",
+      "path": "vault/reactbits-free/components/photo-satellites/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/photo-satellites/variants/ts-tw/PhotoSatellites.tsx",
+          "bytes": 9895,
+          "sha256": "25838e522f6648022cfedeab0d42c53edc68622eb9921c285fb94afb6c0967ce"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PhotoSatellites",
+          "style": "default",
+          "file": "vault/reactbits-free/components/photo-satellites/variants/ts-tw/PhotoSatellites.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6185919006df3dc76c83387516290a26b5beb1c147a627d92ba2956823ab560f"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PhotoSatellites",
+      "style": "default",
+      "file": "vault/reactbits-free/components/photo-satellites/variants/ts-tw/PhotoSatellites.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/photo-satellites",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/OrbitImages-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/orbit-images"
+  },
+  "hash": "2afc2cbf00084b9c60ca328adeff16dd6b55e3cebedae9895fe647d666b3afd0",
+  "fetchedAt": "2026-08-14T05:36:11.429Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PhotoSatellites",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "orbit-images",
+  "upstreamName": "OrbitImages"
+}

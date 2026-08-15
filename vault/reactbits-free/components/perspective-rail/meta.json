@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/perspective-rail",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "perspective-rail",
+  "name": "PerspectiveRail",
+  "title": "Perspective Rail",
+  "description": "Cards recede into depth on a 3D rail, with drag, keyboard and auto-advance.",
+  "tags": [
+    "gsap",
+    "ui"
+  ],
+  "tagSource": "derived",
+  "category": "Components",
+  "keywords": [
+    "Components"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "DepthCarousel-JS-CSS",
+      "path": "vault/reactbits-free/components/perspective-rail/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/js-css/PerspectiveRail.css",
+          "bytes": 2717,
+          "sha256": "0a514e4fd20dceee49badc9e3c86fa7d040357d2d5eb0958323a1699692b70c0"
+        },
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/js-css/PerspectiveRail.jsx",
+          "bytes": 13120,
+          "sha256": "fac871e61670426fc4f23b90c12ffaeafcf031dabbe1cb760d2f18e65180480f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PerspectiveRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/perspective-rail/variants/js-css/PerspectiveRail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a3f5812a6d5925d62ce43c8d180cb1316bbd00552883bf5bd464f1e51380aede"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "DepthCarousel-JS-TW",
+      "path": "vault/reactbits-free/components/perspective-rail/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/js-tw/PerspectiveRail.jsx",
+          "bytes": 14572,
+          "sha256": "97a1fb0dc50b6612ea2ec4c4807d4ab951de0f5600a43c8f17c4741e610b513d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PerspectiveRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/perspective-rail/variants/js-tw/PerspectiveRail.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "9b769207f0273a034c541c20863be3b3c1478a019e2c82d180ce97cbff563449"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "DepthCarousel-TS-CSS",
+      "path": "vault/reactbits-free/components/perspective-rail/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/ts-css/PerspectiveRail.css",
+          "bytes": 2717,
+          "sha256": "0a514e4fd20dceee49badc9e3c86fa7d040357d2d5eb0958323a1699692b70c0"
+        },
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/ts-css/PerspectiveRail.tsx",
+          "bytes": 14948,
+          "sha256": "bd01039957f83da5a2cc9f9c5a891ad0dbb002eab18d45e07092763979386084"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PerspectiveRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/perspective-rail/variants/ts-css/PerspectiveRail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "081e9f25d3c4351e0254484c03b2ff18c8b70ad8dfd8b911f9756c9e6be8928f"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "DepthCarousel-TS-TW",
+      "path": "vault/reactbits-free/components/perspective-rail/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/perspective-rail/variants/ts-tw/PerspectiveRail.tsx",
+          "bytes": 16366,
+          "sha256": "16659463a8f2460b6f9aa9e17db18a33e60e75921df12bad9c1b94a7f0870ad8"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "gsap",
+          "range": "^3.13.0"
+        }
+      ],
+      "exports": [
+        {
+          "name": "PerspectiveRail",
+          "style": "default",
+          "file": "vault/reactbits-free/components/perspective-rail/variants/ts-tw/PerspectiveRail.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "4658c4d9c30c6597d42f4dee27af4f7fda414fbe383dd4562aed71488c87a9d8"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "gsap",
+      "range": "^3.13.0"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "PerspectiveRail",
+      "style": "default",
+      "file": "vault/reactbits-free/components/perspective-rail/variants/ts-tw/PerspectiveRail.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/perspective-rail",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/DepthCarousel-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/depth-carousel"
+  },
+  "hash": "60c95df65067510eca650706f72a75b66c86348ca82e9896deeab190ff99898c",
+  "fetchedAt": "2026-08-14T05:36:11.362Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "PerspectiveRail",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "depth-carousel",
+  "upstreamName": "DepthCarousel"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "rb-free/component/shard-switch",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "shard-switch",
+  "name": "ShardSwitch",
+  "title": "Shard Switch",
+  "description": "Pixel fragments assemble into a full cover, swap arbitrary content, then dissolve away with reversible colors and triggers.",
+  "tags": [
+    "misc"
+  ],
+  "tagSource": "derived",
+  "category": "Animations",
+  "keywords": [
+    "Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "PixelSwap-JS-CSS",
+      "path": "vault/reactbits-free/components/shard-switch/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/js-css/ShardSwitch.css",
+          "bytes": 516,
+          "sha256": "9f18666f6660fc5e327c36777444466f4c8e8cca2dba86d1638c8408a17867d4"
+        },
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/js-css/ShardSwitch.jsx",
+          "bytes": 12356,
+          "sha256": "1495d1847f25e9dcd43567e0696fea1d42f18d98b56d74188f48053f4805396c"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShardSwitch",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shard-switch/variants/js-css/ShardSwitch.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "eaf7b7c21bc4f17a1a6c2f221ffc947d5c8dac50b49a65bbdfe4cca4e8386b96"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "PixelSwap-JS-TW",
+      "path": "vault/reactbits-free/components/shard-switch/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/js-tw/ShardSwitch.jsx",
+          "bytes": 12501,
+          "sha256": "6c24ceb809b251beb3c2e8911d72346c11772a4d79f854b0116cf5686c9e95e6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShardSwitch",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shard-switch/variants/js-tw/ShardSwitch.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "7ff1f6ab8a2cc93101bfc2f38ae6423ae64d1110cbc5230645a2261b3ba8e7f0"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "PixelSwap-TS-CSS",
+      "path": "vault/reactbits-free/components/shard-switch/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/ts-css/ShardSwitch.css",
+          "bytes": 516,
+          "sha256": "9f18666f6660fc5e327c36777444466f4c8e8cca2dba86d1638c8408a17867d4"
+        },
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/ts-css/ShardSwitch.tsx",
+          "bytes": 14256,
+          "sha256": "e383f603c0ed8184b58541597c88de7193cf7e44c97160ce8fd93182b038e3e6"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShardSwitch",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shard-switch/variants/ts-css/ShardSwitch.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8d34f729ed55454813e2fb81d0c564171176558bdcb1256d657339229e8b9888"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "PixelSwap-TS-TW",
+      "path": "vault/reactbits-free/components/shard-switch/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/shard-switch/variants/ts-tw/ShardSwitch.tsx",
+          "bytes": 14400,
+          "sha256": "ccc55719ee4f6ef9ef5b2baf09de2693681b1ca0cd8ed9c12f8e023ac2506761"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "ShardSwitch",
+          "style": "default",
+          "file": "vault/reactbits-free/components/shard-switch/variants/ts-tw/ShardSwitch.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "df89951851447e9967547cdfe1b788bbcaef103dc7f400ac51626d1e5689052b"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ShardSwitch",
+      "style": "default",
+      "file": "vault/reactbits-free/components/shard-switch/variants/ts-tw/ShardSwitch.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/shard-switch",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/PixelSwap-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/pixel-swap"
+  },
+  "hash": "fd01cb261ce6657d0767310786d23c584db4f8d385d72af1e6f1f021416f2b94",
+  "fetchedAt": "2026-08-14T05:36:11.436Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "ShardSwitch",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "pixel-swap",
+  "upstreamName": "PixelSwap"
+}

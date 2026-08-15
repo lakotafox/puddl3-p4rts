@@ -1,0 +1,108 @@
+{
+  "id": "rb-pro/block/404-6",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "404-6",
+  "name": "404-6",
+  "title": "404 6",
+  "description": "Theme-aware GLSL static-field 404 with a synchronized chromatic-glitch numeral and centered composition",
+  "tags": [
+    "404",
+    "error",
+    "page"
+  ],
+  "tagSource": "upstream",
+  "category": "404",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "404-6",
+      "path": "vault/reactbits-pro/blocks/404-6/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/404-6/files/404-6.tsx",
+          "bytes": 12042,
+          "sha256": "9207bf2f251765800078c22f6d2f9b0c9ae008c145a1714eefad3170bf98c7f1"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "NotFound6",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/404-6/files/404-6.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d972aec191732fc2495cd400dbeffac969e589ce4c9f2b4de574d179e6ab2dec"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "NotFound6",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/404-6/files/404-6.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/404-6",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/404-6.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "236b19633feaecb29f27693777f0a8df77300767483d04907d759f522779f9ca",
+  "fetchedAt": "2026-08-14T05:35:38.191Z",
+  "vaultVersion": 1
+}

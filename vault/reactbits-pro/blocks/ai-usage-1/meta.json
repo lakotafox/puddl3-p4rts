@@ -1,0 +1,85 @@
+{
+  "id": "rb-pro/block/ai-usage-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-usage-1",
+  "name": "ai-usage-1",
+  "title": "AI Usage 1",
+  "description": "Token usage overview with stacked input and output bars and a range switcher.",
+  "tags": [
+    "ai",
+    "usage",
+    "tokens",
+    "billing",
+    "quota",
+    "cost"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-usage-1",
+      "path": "vault/reactbits-pro/blocks/ai-usage-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-usage-1/files/ai-usage-1.tsx",
+          "bytes": 9072,
+          "sha256": "0dddd670554376556e2b679da74b285d7c2b3b13fb1045c82685767a9db040fc"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AiUsage1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-usage-1/files/ai-usage-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "bc7611c820476349a66ca29d425d0b9dacb09a65e303d93b1d1299157fe82673"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiUsage1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-usage-1/files/ai-usage-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-usage-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-usage-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "0af513c3b8fce347fc511cc8d26da57abc1eb781f3d1976f087e3da3f08e032d",
+  "fetchedAt": "2026-08-14T05:36:42.275Z",
+  "vaultVersion": 1
+}

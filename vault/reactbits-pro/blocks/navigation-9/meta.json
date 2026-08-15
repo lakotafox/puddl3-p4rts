@@ -1,0 +1,100 @@
+{
+  "id": "rb-pro/block/navigation-9",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "navigation-9",
+  "name": "navigation-9",
+  "title": "Navigation 9",
+  "description": "Dark pill nav with announcement tab peeking above",
+  "tags": [
+    "navigation",
+    "menu",
+    "header"
+  ],
+  "tagSource": "upstream",
+  "category": "navigation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "navigation-9",
+      "path": "vault/reactbits-pro/blocks/navigation-9/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/navigation-9/files/navigation-9.tsx",
+          "bytes": 5312,
+          "sha256": "0be5dd22c9df350054928b6005da3ca003bfddb0e7aab9dcd6525e8ec8b39130"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navigation9",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/navigation-9/files/navigation-9.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "df8ac7035a0c2b8952cdffda8ac3e945873e9d748e964786b08c607e25dbd3c3"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Navigation9",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/navigation-9/files/navigation-9.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/navigation-9",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/navigation-9.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "360f6f25bbacafdd6c4921c545cbe260e4e5ffe6160d9629941ab2597966fa96",
+  "fetchedAt": "2026-08-14T05:52:52.899Z",
+  "vaultVersion": 1
+}

@@ -1,0 +1,124 @@
+{
+  "id": "rb-starter/component/twinkle-field",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "twinkle-field",
+  "name": "TwinkleField",
+  "title": "Twinkle Field",
+  "description": "Flickering particle grid with customizable properties",
+  "tags": [
+    "animation",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "flicker-css",
+      "path": "vault/reactbits-starter/components/twinkle-field/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/twinkle-field/variants/css/twinkle-field.tsx",
+          "bytes": 9764,
+          "sha256": "31900a2dd94c83db6c5f2c1f586c9759a3c5d3d430f028f24de383b9c6ac27fb"
+        },
+        {
+          "path": "vault/reactbits-starter/components/twinkle-field/variants/css/twinkle-field.css",
+          "bytes": 125,
+          "sha256": "1c2380fd8a7ebfd3bfc2f3b7533c462fb6d21b25f1498aaac245ac626d753b41"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleField",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/twinkle-field/variants/css/twinkle-field.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "TwinkleField",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/twinkle-field/variants/css/twinkle-field.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "40f93bb1b570fca12c80109fa590350ac7b3f39f513883d848e93d663b6435e6"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "flicker-tw",
+      "path": "vault/reactbits-starter/components/twinkle-field/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/twinkle-field/variants/tw/twinkle-field.tsx",
+          "bytes": 9776,
+          "sha256": "d6dbcd1478a1a1a6902728be48dfcca11a0559d6bfb316bbb65478d3ff3cd9da"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "TwinkleField",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/twinkle-field/variants/tw/twinkle-field.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "TwinkleField",
+          "style": "named",
+          "file": "vault/reactbits-starter/components/twinkle-field/variants/tw/twinkle-field.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "704f2a1d5a93d1491b5897215a718131887fd38f874779efa724e92b4dbd6019"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TwinkleField",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/twinkle-field/variants/tw/twinkle-field.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/twinkle-field",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/flicker-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "4cde0555e300fcbe6224f5bf6aeaab72efb33c98437d6dc6a4a37998d882aad9",
+  "fetchedAt": "2026-08-14T05:32:37.972Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "flicker",
+  "upstreamName": "Flicker"
+}

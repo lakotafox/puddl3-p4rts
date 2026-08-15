@@ -1,0 +1,140 @@
+{
+  "id": "rb-starter/component/color-whirl",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "color-whirl",
+  "name": "ColorWhirl",
+  "title": "Color Whirl",
+  "description": "Colorful iterative swirl shader with palette controls",
+  "tags": [
+    "shader",
+    "3d",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "shader",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "swirl-blend-css",
+      "path": "vault/reactbits-starter/components/color-whirl/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/color-whirl/variants/css/color-whirl.tsx",
+          "bytes": 10522,
+          "sha256": "888ea4e6f1d1958bf6c3bd208c64f8af37dad5639bf2d7dd985f9d0aa276f01a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/color-whirl/variants/css/color-whirl.css",
+          "bytes": 246,
+          "sha256": "ee29516b0eb675483b1c70fb8cc8cc33f4cebfa16347dfeb8b34eba2e2a7782d"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ColorWhirl",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/color-whirl/variants/css/color-whirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "3c1ca952c5e62cece0109235654d392762b2f694205d11120e0d29579eb35648"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "swirl-blend-tw",
+      "path": "vault/reactbits-starter/components/color-whirl/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/color-whirl/variants/tw/color-whirl.tsx",
+          "bytes": 10571,
+          "sha256": "53e32880fda1afa956296aa32ac326724ce8086accb245a8a2fa3a2c640f0466"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ColorWhirl",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/color-whirl/variants/tw/color-whirl.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "d84861a25be0b0fe0ecffd37e37f4f0497fc3a902dbb3ea4fc996457e8081b7c"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ColorWhirl",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/color-whirl/variants/tw/color-whirl.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/color-whirl",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/swirl-blend-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "5849b549087c45fb80d51b4b3c6d05bbf9169414d88fd4e6d27673c6b4372533",
+  "fetchedAt": "2026-08-14T05:35:00.487Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "swirl-blend",
+  "upstreamName": "SwirlBlend"
+}

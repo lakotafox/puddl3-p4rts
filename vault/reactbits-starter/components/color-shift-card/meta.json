@@ -1,0 +1,151 @@
+{
+  "id": "rb-starter/component/color-shift-card",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "color-shift-card",
+  "name": "ColorShiftCard",
+  "title": "Color Shift Card",
+  "description": "Card with chromatic color shifting effect",
+  "tags": [
+    "card",
+    "effect"
+  ],
+  "tagSource": "upstream",
+  "category": "card",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "chroma-card-css",
+      "path": "vault/reactbits-starter/components/color-shift-card/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/color-shift-card/variants/css/color-shift-card.tsx",
+          "bytes": 10122,
+          "sha256": "993ad87d0cfa1ac30f737057df72e6fde9c1c44c5c4e70ab10f1bd6e19ac9a8a"
+        },
+        {
+          "path": "vault/reactbits-starter/components/color-shift-card/variants/css/color-shift-card.css",
+          "bytes": 279,
+          "sha256": "950c08488acf9ccecb5d2335d7619756f2d3219192dedc91e065027718e3805f"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ColorShiftCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/color-shift-card/variants/css/color-shift-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "89e006f2e42227ed2e8b93619dba8231b00d6efcc440ad34aa7646cbb633624e"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "chroma-card-tw",
+      "path": "vault/reactbits-starter/components/color-shift-card/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/color-shift-card/variants/tw/color-shift-card.tsx",
+          "bytes": 10137,
+          "sha256": "4aa1274054e55dd9a451c730eb6611ddd9e134aeda57b7d2d8ddbc3d2228e27a"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "@react-three/fiber",
+          "range": "*"
+        },
+        {
+          "name": "three",
+          "range": "*"
+        },
+        {
+          "name": "gsap",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "ColorShiftCard",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/color-shift-card/variants/tw/color-shift-card.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "8bd432e37569944ca0d741535999fa294cca59ef04b1d7800b53b199c0d855f2"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "@react-three/fiber",
+      "range": "*"
+    },
+    {
+      "name": "gsap",
+      "range": "*"
+    },
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "ColorShiftCard",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/color-shift-card/variants/tw/color-shift-card.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/color-shift-card",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/chroma-card-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "c6c137f410bf09a4ef0db6a3ec32952d7db331ed79b4e7955be33a86c270b79b",
+  "fetchedAt": "2026-08-14T05:32:03.118Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "chroma-card",
+  "upstreamName": "ChromaCard"
+}

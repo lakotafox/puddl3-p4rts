@@ -1,0 +1,95 @@
+{
+  "id": "rb-pro/block/file-manager-1",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "file-manager-1",
+  "name": "file-manager-1",
+  "title": "File Manager 1",
+  "description": "Drive explorer with a folder tree, suggested folders, file table, and storage meter.",
+  "tags": [
+    "files",
+    "drive",
+    "folders",
+    "storage",
+    "upload",
+    "assets"
+  ],
+  "tagSource": "upstream",
+  "category": "files",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "file-manager-1",
+      "path": "vault/reactbits-pro/blocks/file-manager-1/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/file-manager-1/files/file-manager-1.tsx",
+          "bytes": 33632,
+          "sha256": "0b49885f2faf1dade9fc7ba124ddfff20063510209ce0acd9317a9a0c0e0bdd0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "FileManager1",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/file-manager-1/files/file-manager-1.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "cae5e22a0a957c04dbef0d346cdb97ee9c326e9b4845b782491725a57da4c7c9"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "FileManager1",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/file-manager-1/files/file-manager-1.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/file-manager-1",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/file-manager-1.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "88aa360762fb1cef18a580294a7e202167acbe95a147841bbd595ab421a3c726",
+  "fetchedAt": "2026-08-14T05:46:57.111Z",
+  "vaultVersion": 1
+}

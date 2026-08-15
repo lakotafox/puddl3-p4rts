@@ -1,0 +1,85 @@
+{
+  "id": "rb-pro/block/ai-usage-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "ai-usage-5",
+  "name": "ai-usage-5",
+  "title": "AI Usage 5",
+  "description": "Budget settings with a monthly cap slider, alert thresholds, and hard-stop toggles.",
+  "tags": [
+    "ai",
+    "usage",
+    "tokens",
+    "billing",
+    "quota",
+    "cost"
+  ],
+  "tagSource": "upstream",
+  "category": "ai",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "ai-usage-5",
+      "path": "vault/reactbits-pro/blocks/ai-usage-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/ai-usage-5/files/ai-usage-5.tsx",
+          "bytes": 8330,
+          "sha256": "65b9cd80e0de25872d0cb926ef26f7e19e4dbdc37590650b7f317df9bcce8ba0"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "AiUsage5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/ai-usage-5/files/ai-usage-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "fe2d896c333cc4e56056807130538e2fa4e15e9fb4ddc159d0e24f46c06de9dd"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AiUsage5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/ai-usage-5/files/ai-usage-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/ai-usage-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/ai-usage-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "90ee341d4ed2839945a71671016b3c12cbbfc485e06407baf4714844277595ed",
+  "fetchedAt": "2026-08-14T05:36:48.177Z",
+  "vaultVersion": 1
+}

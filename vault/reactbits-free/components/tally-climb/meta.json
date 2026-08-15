@@ -1,0 +1,187 @@
+{
+  "id": "rb-free/component/tally-climb",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "tally-climb",
+  "name": "TallyClimb",
+  "title": "Tally Climb",
+  "description": "Animated number counter supporting formatting and decimals.",
+  "tags": [
+    "motion"
+  ],
+  "tagSource": "derived",
+  "category": "Text Animations",
+  "keywords": [
+    "Text Animations"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "CountUp-JS-CSS",
+      "path": "vault/reactbits-free/components/tally-climb/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tally-climb/variants/js-css/TallyClimb.jsx",
+          "bytes": 2545,
+          "sha256": "ce44e284022cc510a36feca3c376d6cb344311f9f8932521d43cdedbf4d250d2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TallyClimb",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tally-climb/variants/js-css/TallyClimb.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1032b56349158309bf90520820bbe34dd344f2d0232643608e6516b620dacd97"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "CountUp-JS-TW",
+      "path": "vault/reactbits-free/components/tally-climb/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tally-climb/variants/js-tw/TallyClimb.jsx",
+          "bytes": 2545,
+          "sha256": "ce44e284022cc510a36feca3c376d6cb344311f9f8932521d43cdedbf4d250d2"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TallyClimb",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tally-climb/variants/js-tw/TallyClimb.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "1032b56349158309bf90520820bbe34dd344f2d0232643608e6516b620dacd97"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "CountUp-TS-CSS",
+      "path": "vault/reactbits-free/components/tally-climb/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tally-climb/variants/ts-css/TallyClimb.tsx",
+          "bytes": 2921,
+          "sha256": "57749f8dd8fb4998583a2ab6c429a232b7fb5aeeff0783bdc1d43e28c731fc70"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TallyClimb",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tally-climb/variants/ts-css/TallyClimb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c6a3c1a73790184137ca039b742e0970609db6c1ab695ec6f5ffb1fec5bdd530"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "CountUp-TS-TW",
+      "path": "vault/reactbits-free/components/tally-climb/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/tally-climb/variants/ts-tw/TallyClimb.tsx",
+          "bytes": 2921,
+          "sha256": "57749f8dd8fb4998583a2ab6c429a232b7fb5aeeff0783bdc1d43e28c731fc70"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "^12.23.12"
+        }
+      ],
+      "exports": [
+        {
+          "name": "TallyClimb",
+          "style": "default",
+          "file": "vault/reactbits-free/components/tally-climb/variants/ts-tw/TallyClimb.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c6a3c1a73790184137ca039b742e0970609db6c1ab695ec6f5ffb1fec5bdd530"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "motion",
+      "range": "^12.23.12"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "TallyClimb",
+      "style": "default",
+      "file": "vault/reactbits-free/components/tally-climb/variants/ts-tw/TallyClimb.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/tally-climb",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/CountUp-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/count-up"
+  },
+  "hash": "e0637347333ac7ef1775df1488c6a83c582e4f1bfa3dfc3753326f16605a9885",
+  "fetchedAt": "2026-08-14T05:36:11.353Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "TallyClimb",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "count-up",
+  "upstreamName": "CountUp"
+}

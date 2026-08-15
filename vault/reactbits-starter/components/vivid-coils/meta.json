@@ -1,0 +1,128 @@
+{
+  "id": "rb-starter/component/vivid-coils",
+  "source": "rb-starter",
+  "kind": "component",
+  "slug": "vivid-coils",
+  "name": "VividCoils",
+  "title": "Vivid Coils",
+  "description": "Animated colorful loops with orbital motion",
+  "tags": [
+    "animation",
+    "effect",
+    "background"
+  ],
+  "tagSource": "upstream",
+  "category": "animation",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "css",
+      "lang": null,
+      "styling": "css",
+      "upstreamName": "color-loops-css",
+      "path": "vault/reactbits-starter/components/vivid-coils/variants/css",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/vivid-coils/variants/css/vivid-coils.tsx",
+          "bytes": 6565,
+          "sha256": "fdc7b10e0ab3ac9e2e97c0d3fa32d39cb2b66f631dc8876d690335c8477e5aec"
+        },
+        {
+          "path": "vault/reactbits-starter/components/vivid-coils/variants/css/vivid-coils.css",
+          "bytes": 184,
+          "sha256": "6159bbffa1796fffff86bba63491bd5fa356c1eb3d9baf1562fe0c9cee65d0ed"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VividCoils",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/vivid-coils/variants/css/vivid-coils.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae7c90e88357c28c45a19f756afb6d340ffe3d42caa3c48445ba85dc688e9eba"
+    },
+    {
+      "id": "tw",
+      "lang": null,
+      "styling": "tw",
+      "upstreamName": "color-loops-tw",
+      "path": "vault/reactbits-starter/components/vivid-coils/variants/tw",
+      "files": [
+        {
+          "path": "vault/reactbits-starter/components/vivid-coils/variants/tw/vivid-coils.tsx",
+          "bytes": 6561,
+          "sha256": "37981ad1ef214c2399e08171a3781f4936060f85629079b3635a9b1a6864974c"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "three",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "VividCoils",
+          "style": "default",
+          "file": "vault/reactbits-starter/components/vivid-coils/variants/tw/vivid-coils.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "a444324b59bcf4fda4c9bd9d06cd42a0cad9c3ffc33e245a0a83abae2a8e8ef5"
+    }
+  ],
+  "defaultVariant": "tw",
+  "dependencies": [
+    {
+      "name": "three",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "VividCoils",
+      "style": "default",
+      "file": "vault/reactbits-starter/components/vivid-coils/variants/tw/vivid-coils.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": true,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-starter/components/vivid-coils",
+    "raw": "vault/_raw/reactbits-starter",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/starter/color-loops-tw.json",
+    "registry": "reactbits-starter"
+  },
+  "hash": "3bd4d92b12162407ed3c4ec272c9437bcd9475a5e7e27d180525178968d21b24",
+  "fetchedAt": "2026-08-14T05:32:13.507Z",
+  "vaultVersion": 1,
+  "upstreamSlug": "color-loops",
+  "upstreamName": "ColorLoops"
+}

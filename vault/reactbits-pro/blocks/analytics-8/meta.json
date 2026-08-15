@@ -1,0 +1,84 @@
+{
+  "id": "rb-pro/block/analytics-8",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-8",
+  "name": "analytics-8",
+  "title": "Analytics 8",
+  "description": "Conversion funnel with per-stage drop-off and worst-step highlighting.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-8",
+      "path": "vault/reactbits-pro/blocks/analytics-8/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-8/files/analytics-8.tsx",
+          "bytes": 9440,
+          "sha256": "09de2dc5271afea5b992b434b19bc35270b200325ee35b83dbe1655db5d4433a"
+        }
+      ],
+      "dependencies": [],
+      "exports": [
+        {
+          "name": "Analytics8",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-8/files/analytics-8.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "681b5f10e93df12dd5d8be37c855f8887a0566a7c44bdaced84b7de213ac1d33"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics8",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-8/files/analytics-8.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-8",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-8.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "609dc79c20e4c1a32fa5c36cdd4877a880ae3dcc5a095059b0545a1bfb05295a",
+  "fetchedAt": "2026-08-14T05:37:14.821Z",
+  "vaultVersion": 1
+}

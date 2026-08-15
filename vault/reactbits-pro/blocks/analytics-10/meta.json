@@ -1,0 +1,94 @@
+{
+  "id": "rb-pro/block/analytics-10",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "analytics-10",
+  "name": "analytics-10",
+  "title": "Analytics 10",
+  "description": "Radial goal gauges with target ticks and animated attainment sweeps.",
+  "tags": [
+    "analytics",
+    "charts",
+    "metrics",
+    "reporting",
+    "dashboard"
+  ],
+  "tagSource": "upstream",
+  "category": "analytics",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "analytics-10",
+      "path": "vault/reactbits-pro/blocks/analytics-10/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/analytics-10/files/analytics-10.tsx",
+          "bytes": 11826,
+          "sha256": "1f23e994c3b92784b3748b1a3344d9f15d2c7b15b47679dbd759e4789d50ce42"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "d3-shape",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Analytics10",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/analytics-10/files/analytics-10.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "34b6b07aa9f07aebadeca40491bfbd9ac671b1ccaa954ea2623ab7790d6c42c7"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "d3-shape",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Analytics10",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/analytics-10/files/analytics-10.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/analytics-10",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/analytics-10.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "9cc6ea730e2fe2b04c07806327d98584ba256712e0b52072f702686c65d5a123",
+  "fetchedAt": "2026-08-14T05:36:55.501Z",
+  "vaultVersion": 1
+}

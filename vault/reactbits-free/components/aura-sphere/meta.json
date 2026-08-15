@@ -1,0 +1,198 @@
+{
+  "id": "rb-free/component/aura-sphere",
+  "source": "rb-free",
+  "kind": "component",
+  "slug": "aura-sphere",
+  "name": "AuraSphere",
+  "title": "Aura Sphere",
+  "description": "Floating energy orb with customizable hover effect.",
+  "tags": [
+    "background",
+    "webgl"
+  ],
+  "tagSource": "derived",
+  "category": "Backgrounds",
+  "keywords": [
+    "Backgrounds"
+  ],
+  "variants": [
+    {
+      "id": "js-css",
+      "lang": "js",
+      "styling": "css",
+      "upstreamName": "Orb-JS-CSS",
+      "path": "vault/reactbits-free/components/aura-sphere/variants/js-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/js-css/AuraSphere.css",
+          "bytes": 86,
+          "sha256": "8d42570fcde49b2af596dc492dd81dd194c50bc5546461c09844ae9fafeccf92"
+        },
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/js-css/AuraSphere.jsx",
+          "bytes": 10476,
+          "sha256": "8969e3135981ad68ad3ff3af059323f53d51415267416500eec1554387e479b0"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraSphere",
+          "style": "default",
+          "file": "vault/reactbits-free/components/aura-sphere/variants/js-css/AuraSphere.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "ae5a7c9c76e9e85d4f27d88fc756445b6c681f9f21b227e3506d872d58893ab2"
+    },
+    {
+      "id": "js-tw",
+      "lang": "js",
+      "styling": "tw",
+      "upstreamName": "Orb-JS-TW",
+      "path": "vault/reactbits-free/components/aura-sphere/variants/js-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/js-tw/AuraSphere.jsx",
+          "bytes": 10467,
+          "sha256": "84d789db6f7cb14ba469de5a6085cc1ae5966809d3fd0bbfc09d71ad08bb06ea"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraSphere",
+          "style": "default",
+          "file": "vault/reactbits-free/components/aura-sphere/variants/js-tw/AuraSphere.jsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "c53146850f4f87763d4cd6eb0a1c089fa2b094283858779c5cb10a323e4711eb"
+    },
+    {
+      "id": "ts-css",
+      "lang": "ts",
+      "styling": "css",
+      "upstreamName": "Orb-TS-CSS",
+      "path": "vault/reactbits-free/components/aura-sphere/variants/ts-css",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/ts-css/AuraSphere.css",
+          "bytes": 72,
+          "sha256": "44fa83c3f80ad4597b901559260b21c37273f43a49cccf68b327a4c0b779e26c"
+        },
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/ts-css/AuraSphere.tsx",
+          "bytes": 10725,
+          "sha256": "e5e5abb20cad04783205583a38b604dc7b818b325ba69c6cac9e72c4b372f4ec"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraSphere",
+          "style": "default",
+          "file": "vault/reactbits-free/components/aura-sphere/variants/ts-css/AuraSphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "6649476769b855631fb53a84d673e56b1dcc937325715407654826202bfee062"
+    },
+    {
+      "id": "ts-tw",
+      "lang": "ts",
+      "styling": "tw",
+      "upstreamName": "Orb-TS-TW",
+      "path": "vault/reactbits-free/components/aura-sphere/variants/ts-tw",
+      "files": [
+        {
+          "path": "vault/reactbits-free/components/aura-sphere/variants/ts-tw/AuraSphere.tsx",
+          "bytes": 10704,
+          "sha256": "0eb34b008d6770f3fe6e859825bfd622ec1c93e48440fa6acb5371932114347e"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "ogl",
+          "range": "^1.0.11"
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuraSphere",
+          "style": "default",
+          "file": "vault/reactbits-free/components/aura-sphere/variants/ts-tw/AuraSphere.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "05c6f73d52b2e44f30d23ee85aeb0b9194532946036f0c1d17632477663efd39"
+    }
+  ],
+  "defaultVariant": "ts-tw",
+  "dependencies": [
+    {
+      "name": "ogl",
+      "range": "^1.0.11"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "AuraSphere",
+      "style": "default",
+      "file": "vault/reactbits-free/components/aura-sphere/variants/ts-tw/AuraSphere.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": null,
+    "client": false,
+    "webgl": true,
+    "sizedParent": true,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-free/components/aura-sphere",
+    "raw": "vault/_raw/reactbits-free",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live",
+    "note": "react-bits demo"
+  },
+  "license": {
+    "spdx": "MIT AND Commons-Clause",
+    "redistributable": true,
+    "note": "React Bits free — personal and commercial use permitted."
+  },
+  "upstream": {
+    "url": "https://reactbits.dev/r/Orb-TS-TW.json",
+    "registry": "reactbits-free",
+    "docs": "https://reactbits.dev/components/orb"
+  },
+  "hash": "7a2e58f52b2b60c35ef10f0be2107c3413f4be316766529786ab6f1ece67a0fb",
+  "fetchedAt": "2026-08-14T05:36:11.428Z",
+  "vaultVersion": 1,
+  "demo": {
+    "name": "AuraSphere",
+    "path": "vendor/reactbits"
+  },
+  "upstreamSlug": "orb",
+  "upstreamName": "Orb"
+}

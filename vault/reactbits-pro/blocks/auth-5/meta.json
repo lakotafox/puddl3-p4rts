@@ -1,0 +1,107 @@
+{
+  "id": "rb-pro/block/auth-5",
+  "source": "rb-pro",
+  "kind": "block",
+  "slug": "auth-5",
+  "name": "auth-5",
+  "title": "Auth 5",
+  "description": "Centered magic-link card that swaps to a check-your-inbox state with resend cooldown and OAuth fallback.",
+  "tags": [
+    "auth",
+    "login",
+    "signup",
+    "authentication"
+  ],
+  "tagSource": "upstream",
+  "category": "auth",
+  "keywords": [],
+  "variants": [
+    {
+      "id": "default",
+      "lang": "ts",
+      "styling": null,
+      "upstreamName": "auth-5",
+      "path": "vault/reactbits-pro/blocks/auth-5/files",
+      "files": [
+        {
+          "path": "vault/reactbits-pro/blocks/auth-5/files/auth-5.tsx",
+          "bytes": 12342,
+          "sha256": "e755fafc2f4e01dc20e9ea3d98f0cad43a6a39308a99f593f165010b30080683"
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "motion",
+          "range": "*"
+        },
+        {
+          "name": "lucide-react",
+          "range": "*"
+        }
+      ],
+      "exports": [
+        {
+          "name": "Auth5",
+          "style": "default",
+          "file": "vault/reactbits-pro/blocks/auth-5/files/auth-5.tsx",
+          "confidence": "parsed"
+        },
+        {
+          "name": "Auth5",
+          "style": "named",
+          "file": "vault/reactbits-pro/blocks/auth-5/files/auth-5.tsx",
+          "confidence": "parsed"
+        }
+      ],
+      "hash": "711dbe6a1125adb0c3b879acb465299a1e68aa2d7de5a88b7a1b20b56ca08aa7"
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [
+    {
+      "name": "lucide-react",
+      "range": "*"
+    },
+    {
+      "name": "motion",
+      "range": "*"
+    }
+  ],
+  "registryDependencies": [],
+  "exports": [
+    {
+      "name": "Auth5",
+      "style": "default",
+      "file": "vault/reactbits-pro/blocks/auth-5/files/auth-5.tsx",
+      "confidence": "parsed"
+    }
+  ],
+  "requires": {
+    "tailwind": "v4",
+    "client": true,
+    "webgl": false,
+    "sizedParent": false,
+    "providers": []
+  },
+  "paths": {
+    "root": "vault/reactbits-pro/blocks/auth-5",
+    "raw": "vault/_raw/reactbits-pro",
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "live"
+  },
+  "license": {
+    "spdx": "Proprietary",
+    "redistributable": false,
+    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+  },
+  "upstream": {
+    "url": "https://pro.reactbits.dev/api/r/pro/auth-5.json",
+    "registry": "reactbits-pro"
+  },
+  "hash": "672a7ece2c4b2a1c386f261ee45aef7c1cec12b88284a39ad3ba38b196b22827",
+  "fetchedAt": "2026-08-14T05:37:58.070Z",
+  "vaultVersion": 1
+}
