@@ -1,5 +1,4 @@
 import { Hero } from "@/components/hero/hero";
-import { SiteHeader } from "@/components/hero/site-header";
 import { Preloader } from "@/components/preloader/preloader";
 import { NebulaScene } from "@/components/three/nebula-scene";
 
@@ -18,7 +17,6 @@ export const HomeView = () => {
         className="pointer-events-none fixed inset-x-edge bottom-[15.75rem] z-0 hidden h-px bg-border md:block"
       />
       <NebulaScene />
-      <SiteHeader />
       <Hero />
       <Preloader />
     </main>
