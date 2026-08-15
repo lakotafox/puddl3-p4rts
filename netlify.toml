@@ -9,6 +9,16 @@
   status = 200
 
 [[redirects]]
+  from = "/PUDDL3P4RTS/template.html"
+  to = "/template.html"
+  status = 200
+
+[[redirects]]
+  from = "/PUDDL3P4RTS/preview.html"
+  to = "/preview.html"
+  status = 200
+
+[[redirects]]
   from = "/PUDDL3P4RTS/favicon.svg"
   to = "/favicon.svg"
   status = 200
