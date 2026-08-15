@@ -114,6 +114,7 @@ async function stripLanding() {
     s = s.replace("import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';",
                   "import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';");
   }
+  s = s.replace("<Router>", "<Router basename={import.meta.env.BASE_URL}>");
   s = s.replace('<Route exact path="/" element={<LandingPage />} />',
                 '<Route exact path="/" element={<Navigate to="/get-started/introduction" replace />} />');
   s = s.replace(/\s*<Route exact path="\/sponsors" element=\{<SponsorsPage \/>\} \/>/, "");
@@ -124,7 +125,8 @@ async function stripLanding() {
   const nav = join(VENDOR, "components/landingnew/Navbar/Navbar.jsx");
   let n = await readFile(nav, "utf8");
   const nBefore = n;
-  n = n.replace(/,?\s*\{ label: 'Sponsors', to: '\/sponsors', match: '\/sponsors' \}/, "");
+  n = n.replace(/const NAV_LINKS = \[[\s\S]*?\];/, "const NAV_LINKS = [];");
+  n = n.replace('          <span className="ln-navbar-divider">/</span>\n\n', "");
   // the whole storefront cluster renders under {!showDocs && …} — one block
   n = n.replace(/\{!showDocs && \(\s*<>\s*<a\s*\{\.\.\.proLinkProps\('\/', 'navbar'\)\}[\s\S]*?COMMUNITY <span className="ln-navbar-soon">SOON<\/span>\s*<\/span>\s*<\/>\s*\)\}/, "");
   // github icon in the lakotafox button → the fox mark (user, 2026-08-15)

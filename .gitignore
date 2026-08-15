@@ -9,3 +9,6 @@ vault/getlayers/**/media/
 backups/
 scripts/data/shots/
 scripts/data/pro-test-results.json
+
+# Local Netlify folder
+.netlify

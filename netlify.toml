@@ -5,7 +5,24 @@
   path = "/*"
   function = "auth"
 
-# SPA fallback — real files win because these are non-forced
+# The app is served through lakotafox.com/PUDDL3P4RTS (portfolio proxy), so
+# requests arrive base-prefixed; map them onto the real files at dist root.
+[[redirects]]
+  from = "/PUDDL3P4RTS/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/PUDDL3P4RTS/favicon.svg"
+  to = "/favicon.svg"
+  status = 200
+
+[[redirects]]
+  from = "/PUDDL3P4RTS/*"
+  to = "/index.html"
+  status = 200
+
+# SPA fallback for everything else — real files win because non-forced
 [[redirects]]
   from = "/*"
   to = "/index.html"

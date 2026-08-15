@@ -231,9 +231,8 @@ export default function ProDemo() {
     <TabsLayout>
       <PreviewTab>
         <Box mb={4}>
-          <Box as="h1" fontSize="3rem" fontWeight="700" lineHeight="1.1">
-            {meta.title}
-          </Box>
+          {/* page title comes from CategoryPage — repeating it here doubled
+              every Deep page's heading (user, 2026-08-15) */}
           {meta.description && (
             <Box color="#a1a1aa" mt={2}>
               {meta.description}
@@ -241,7 +240,7 @@ export default function ProDemo() {
           )}
           <Box mt={3} display="flex" gap="8px" flexWrap="wrap" fontSize="11px">
             <Box px={2} py="2px" borderRadius="6px" bg="rgba(82,39,255,.25)" color="#c4b5fd">
-              PRO
+              DEEP
             </Box>
             {meta.tags?.slice(0, 6).map(t => (
               <Box key={t} px={2} py="2px" borderRadius="6px" bg="#1a1a1a" color="#a1a1aa">

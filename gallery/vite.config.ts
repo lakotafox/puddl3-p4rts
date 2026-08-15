@@ -134,6 +134,8 @@ function serveVault() {
 }
 
 export default defineConfig({
+  // deployed under lakotafox.com/puddl3-parts via proxy — see scripts/build-site.ts
+  base: process.env.P4RTS_BASE || "/",
   // GetLayers templates read process.env at module scope (Next inlines it)
   define: { "process.env": {} },
   plugins: [react(), tailwind(), serveVault(), getlayersAssets()],

@@ -18,9 +18,7 @@ import cssIcon from '../../../assets/icons/css.svg';
 import twIcon from '../../../assets/icons/tw.svg';
 import './Navbar.css';
 
-const NAV_LINKS = [
-  { label: 'Docs', to: '/get-started/introduction', match: '/get-started' }
-];
+const NAV_LINKS = [];
 
 const Navbar = ({ showDocs }) => {
   const stars = useStars();
@@ -118,8 +116,6 @@ const Navbar = ({ showDocs }) => {
           <Link to="/" className="ln-navbar-logo">
             <Logo />
           </Link>
-
-          <span className="ln-navbar-divider">/</span>
 
           <nav className="ln-navbar-links" ref={linksRef} onMouseLeave={handleLinksLeave}>
             <div className="ln-navbar-link-highlight" ref={highlightRef} />
