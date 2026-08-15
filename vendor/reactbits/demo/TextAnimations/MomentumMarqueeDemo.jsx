@@ -111,7 +111,7 @@ const MomentumMarqueeDemo = () => {
           <Box position="relative" className="demo-container" h={400} overflow={'hidden'}>
             <Flex position="relative" justifyContent="center" alignItems="center">
               <MomentumMarquee
-                texts={['foxbits', 'Scroll Down']}
+                texts={['PUDDL3 P4RTS', 'Scroll Down']}
                 velocity={velocity}
                 numCopies={numCopies}
                 damping={damping}

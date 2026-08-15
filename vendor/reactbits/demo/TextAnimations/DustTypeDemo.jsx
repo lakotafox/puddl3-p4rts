@@ -78,7 +78,7 @@ const DustTypeDemo = () => {
       {
         name: 'text',
         type: 'string',
-        default: '"foxbits"',
+        default: '"PUDDL3 P4RTS"',
         description: 'The words sampled into particle targets.'
       },
       {

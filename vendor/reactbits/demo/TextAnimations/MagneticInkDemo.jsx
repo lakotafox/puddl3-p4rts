@@ -74,7 +74,7 @@ const MagneticInkDemo = () => {
         <PreviewTab>
           <Box ref={containerRef} position="relative" className="demo-container" minH={400} overflow="hidden" p={4}>
             <MagneticInk
-              label={'Hover me! And then star foxbits on GitHub, or else...'}
+              label={'Hover me! And then star PUDDL3 P4RTS on GitHub, or else...'}
               className={'magnetic-ink-demo'}
               fromFontVariationSettings="'wght' 400, 'opsz' 9"
               toFontVariationSettings="'wght' 1000, 'opsz' 40"

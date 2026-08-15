@@ -18,7 +18,7 @@ import KeystrokeReveal from '../../content/TextAnimations/KeystrokeReveal/Keystr
 import { keystrokeReveal } from '../../constants/code/TextAnimations/keystrokeRevealCode';
 
 const DEFAULT_PROPS = {
-  texts: ['Welcome to foxbits! Good to see you!', 'Build some amazing experiences!'],
+  texts: ['Welcome to PUDDL3 P4RTS! Good to see you!', 'Build some amazing experiences!'],
   typingSpeed: 75,
   pauseDuration: 1500,
   deletingSpeed: 50,

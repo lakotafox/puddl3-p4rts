@@ -152,7 +152,7 @@ const ShardSwitchDemo = () => {
               firstContent={
                 <div className="shard-switch-demo__panel shard-switch-demo__panel--first">
                   <span className="shard-switch-demo__eyebrow">{hint}</span>
-                  <h3 className="shard-switch-demo__title">Use foxbits</h3>
+                  <h3 className="shard-switch-demo__title">Use PUDDL3 P4RTS</h3>
                 </div>
               }
               secondContent={

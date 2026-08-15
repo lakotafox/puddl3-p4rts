@@ -126,7 +126,7 @@ const ArcFieldDemo = () => {
         <PreviewTab>
           <Box position="relative" className="demo-container" h={500} overflow="hidden" display="flex" alignItems="center" justifyContent="center" px={{ base: 4, md: 12 }}>
             <Box w="100%" maxW="720px" display="flex" justifyContent="center">
-              <ArcField {...props} placeholder="elias@foxbits.dev" onSubmit={value => console.log('Submitted:', value)} />
+              <ArcField {...props} placeholder="elias@puddl3.xyz" onSubmit={value => console.log('Submitted:', value)} />
             </Box>
           </Box>
 

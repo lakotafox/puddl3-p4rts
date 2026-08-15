@@ -136,7 +136,7 @@ const ParallaxLiftDemo = () => {
             </Text>
             <Box position="relative" pt={1600} pb={600} px="3rem">
               <ParallaxLift stagger={stagger} animationDuration={duration} key={key} scrollContainerRef={containerRef}>
-                foxbits
+                PUDDL3 P4RTS
               </ParallaxLift>
             </Box>
           </Box>

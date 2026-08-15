@@ -205,7 +205,7 @@ const PinDeckDemo = () => {
               </PinDeckItem>
 
               <PinDeckItem itemClassName="pin-deck-card-demo ssc-demo-5">
-                <h3>All on foxbits!</h3>
+                <h3>All on PUDDL3 P4RTS!</h3>
               </PinDeckItem>
             </PinDeck>
           </Box>

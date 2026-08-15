@@ -391,7 +391,7 @@ export default function ProDemo() {
           </Box>
         )}
         <Box mt={2} fontSize="13px" color="#71717a">
-          Install: <code>foxbits add {meta.id}</code>
+          Install: <code>p4rts add {subcategory.replace(/-pro$/, '')}</code>
         </Box>
       </PreviewTab>
 

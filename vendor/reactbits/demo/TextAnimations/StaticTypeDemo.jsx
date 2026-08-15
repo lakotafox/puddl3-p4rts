@@ -69,7 +69,7 @@ const StaticTypeDemo = () => {
         <PreviewTab>
           <Box position="relative" className="demo-container" h={400} overflow="hidden">
             <StaticType key={key} speed={speed} enableShadows={enableShadows} enableOnHover={enableOnHover}>
-              {enableOnHover ? 'Hover Me' : 'foxbits'}
+              {enableOnHover ? 'Hover Me' : 'PUDDL3 P4RTS'}
             </StaticType>
           </Box>
 

@@ -74,7 +74,7 @@ const StormBoltsDemo = () => {
             <StormBolts key={key} hue={hue} xOffset={xOffset} speed={speed} intensity={intensity} size={size} />
 
             {/* For Demo Purposes Only */}
-            <BackgroundContent pillText="New Background" headline="The power of nature's fury, with foxbits!" />
+            <BackgroundContent pillText="New Background" headline="The power of nature's fury, with PUDDL3 P4RTS!" />
           </Box>
 
           <Flex justify="flex-end" mt={2} mb={-2}>

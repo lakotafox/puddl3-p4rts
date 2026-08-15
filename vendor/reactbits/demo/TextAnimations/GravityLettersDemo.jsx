@@ -116,7 +116,7 @@ const GravityLettersDemo = () => {
           >
             <GravityLetters
               key={key}
-              text={`foxbits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
+              text={`PUDDL3 P4RTS is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
               highlightWords={['React', 'Bits', 'animated', 'components', 'simplify']}
               highlightClass="highlighted"
               trigger={trigger}

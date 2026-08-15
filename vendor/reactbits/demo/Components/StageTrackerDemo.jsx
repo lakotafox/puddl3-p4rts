@@ -149,7 +149,7 @@ const StageTrackerDemo = () => {
             >
               <Step>
                 <Text color="#5227FF" fontSize="1.2rem" fontWeight={600}>
-                  Welcome to the foxbits stage-tracker!
+                  Welcome to the PUDDL3 P4RTS stage-tracker!
                 </Text>
                 <p>Check out the next step!</p>
               </Step>
