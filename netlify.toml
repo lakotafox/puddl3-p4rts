@@ -1,10 +1,6 @@
 [build]
   publish = "gallery/dist"
 
-[[edge_functions]]
-  path = "/*"
-  function = "auth"
-
 # The app is served through lakotafox.com/PUDDL3P4RTS (portfolio proxy), so
 # requests arrive base-prefixed; map them onto the real files at dist root.
 [[redirects]]

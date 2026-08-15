@@ -114,7 +114,7 @@ async function stripLanding() {
     s = s.replace("import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';",
                   "import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';");
   }
-  s = s.replace("<Router>", "<Router basename={import.meta.env.BASE_URL}>");
+  s = s.replace("<Router>", "<Router basename={import.meta.env.BASE_URL.replace(/\\/$/, '')}>");
   s = s.replace('<Route exact path="/" element={<LandingPage />} />',
                 '<Route exact path="/" element={<Navigate to="/get-started/introduction" replace />} />');
   s = s.replace(/\s*<Route exact path="\/sponsors" element=\{<SponsorsPage \/>\} \/>/, "");
