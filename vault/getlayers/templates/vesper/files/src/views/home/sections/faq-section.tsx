@@ -117,7 +117,7 @@ const FaqAsterisk = () => {
   return (
     <animated.img
       ref={ref}
-      src="/assets/sections/asterisk.svg"
+      src="/t/vesper/assets/sections/asterisk.svg"
       alt=""
       className="block size-[1.806vw] max-lg:size-[1.5rem]"
       style={spin}

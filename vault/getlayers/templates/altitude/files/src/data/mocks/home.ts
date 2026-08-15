@@ -66,7 +66,7 @@ export const homeHero: HeroContent = {
   ],
   submitLabel: "Send",
   video: {
-    src: "/assets/hero/starry-night.mp4",
+    src: "/t/altitude/assets/hero/starry-night.mp4",
     type: "video/mp4",
   },
   summary: {

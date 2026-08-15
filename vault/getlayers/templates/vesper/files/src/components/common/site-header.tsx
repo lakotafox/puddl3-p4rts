@@ -38,7 +38,7 @@ export const SiteHeader = () => {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/assets/hero/logo.svg"
+            src="/t/vesper/assets/hero/logo.svg"
             alt="PUDDL3"
             className="block h-full w-full"
           />

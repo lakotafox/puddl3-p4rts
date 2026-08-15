@@ -51,7 +51,7 @@ interface Playback {
   texture: VideoTexture;
 }
 
-/** `/assets/hero/Videoes/color noise.mp4` → `color noise`. */
+/** `/t/codescan/assets/hero/Videoes/color noise.mp4` → `color noise`. */
 const clipKey = (url: string): string => {
   const file = decodeURIComponent(url).split("/").pop() ?? url;
   return file.replace(/\.[^.]+$/, "").trim().toLowerCase();

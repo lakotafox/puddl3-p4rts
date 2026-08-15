@@ -74,7 +74,7 @@ export const FinancialSection = () => {
               configures AVIF/WebP + device sizes in `next.config.ts`. Served raw it
               was the single heaviest asset on the page — heavier than the scene. */}
           <Image
-            src="/assets/sections/financial.png"
+            src="/t/vesper/assets/sections/financial.png"
             alt="A figure lit in teal, face turned toward the light"
             fill
             sizes="(max-width: 1023px) 100vw, 28vw"

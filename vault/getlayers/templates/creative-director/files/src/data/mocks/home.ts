@@ -91,7 +91,7 @@ export interface LavaConfig {
 }
 
 export const heroContent: HeroContent = {
-  videoSrc: "/assets/home/hero.mp4",
+  videoSrc: "/t/creative-director/assets/home/hero.mp4",
   infoLabels: ["Brand Identity", "Product & Motion", "Realtime Design"],
   description:
     "The in-house creative studio at PUDDL3, designing\nbrands and interfaces for money that moves in real time.",
@@ -110,7 +110,7 @@ export const portfolioContent: PortfolioSectionContent = {
   cards: [
     {
       variant: "left",
-      image: "/assets/home/art-direction.webp",
+      image: "/t/creative-director/assets/home/art-direction.webp",
       imageAlt: "PUDDL3 live earnings counter case study visual",
       title: "The PUDDL3 Earnings UI &\nBrand System",
       description:
@@ -118,7 +118,7 @@ export const portfolioContent: PortfolioSectionContent = {
     },
     {
       variant: "right",
-      image: "/assets/home/packaging.webp",
+      image: "/t/creative-director/assets/home/packaging.webp",
       imageAlt: "Wage-streaming brand identity case study visual",
       badge: "Brand Identity",
       title: "Turning payroll relics into\nbrands that move in real time",
@@ -185,25 +185,25 @@ export const carouselContent: CarouselSectionContent = {
       title: "PUDDL3 Core",
       category: "Brand Identity",
       year: "2026",
-      image: "/assets/home/1.webp",
+      image: "/t/creative-director/assets/home/1.webp",
     },
     {
       title: "Shift Ledger",
       category: "Dashboard UI",
       year: "2026",
-      image: "/assets/home/2.webp",
+      image: "/t/creative-director/assets/home/2.webp",
     },
     {
       title: "6:04 AM Drop",
       category: "Motion System",
       year: "2025",
-      image: "/assets/home/1.webp",
+      image: "/t/creative-director/assets/home/1.webp",
     },
     {
       title: "Cashout Day",
       category: "Art Direction",
       year: "2025",
-      image: "/assets/home/2.webp",
+      image: "/t/creative-director/assets/home/2.webp",
     },
   ],
 };

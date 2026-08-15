@@ -36,6 +36,35 @@ async function walk(dir: string): Promise<string[]> {
 const title = (slug: string) =>
   slug.split("-").map((w) => (w === "ai" ? "AI" : w.charAt(0).toUpperCase() + w.slice(1))).join(" ");
 
+/**
+ * Static hosting cannot disambiguate template assets by Referer, so every
+ * root-absolute asset ref becomes /t/<name>/… . Runs INSIDE ingest so a
+ * re-ingest can never silently lose it (which it once did — live-only broken
+ * images while dev's referer fallback masked it).
+ */
+async function namespaceAssets(filesDir: string, name: string) {
+  const src = join(filesDir, "src");
+  try { await stat(src); } catch { return; }
+  const pat = /(["'`(])\/(assets|images|videos|fonts|models|draco|sounds|textures)\//g;
+  let n = 0;
+  const walkAll = async (d: string): Promise<string[]> => {
+    const out: string[] = [];
+    for (const e of await readdir(d, { withFileTypes: true })) {
+      const p = join(d, e.name);
+      if (e.isDirectory()) out.push(...(await walkAll(p)));
+      else if (/\.(tsx|ts|jsx|js|css|json)$/.test(e.name)) out.push(p);
+    }
+    return out;
+  };
+  for (const f of await walkAll(src)) {
+    const before = await readFile(f, "utf8");
+    if (before.includes(`/t/${name}/`)) continue;
+    const after = before.replace(pat, (_m, q, root) => `${q}/t/${name}/${root}/`);
+    if (after !== before) { await writeFile(f, after, "utf8"); n++; }
+  }
+  if (n) console.log(`    namespaced ${n} files → /t/${name}/`);
+}
+
 async function main() {
   const ledger = JSON.parse(await readFile(LEDGER, "utf8"));
   const names = (await readdir(RAW, { withFileTypes: true })).filter((e) => e.isDirectory()).map((e) => e.name);
@@ -84,6 +113,7 @@ async function main() {
       fetchedAt: new Date().toISOString(),
       vaultVersion: 1,
     };
+    if (kind === "template") await namespaceAssets(filesDir, name);
     await writeFile(join(destRoot, "meta.json"), JSON.stringify(meta, null, 2) + "\n", "utf8");
     n++;
     console.log(`  ${kind}: ${name} (${fileRecs.length} files)`);

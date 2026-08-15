@@ -54,7 +54,7 @@ export const homeHero: HomeHeroContent = {
   headingLead: "Paid every second you work",
   headingFollow: "Cash out at any hour",
   media: {
-    src: "/assets/hero/purple-valley.mp4",
+    src: "/t/forma/assets/hero/purple-valley.mp4",
     label: "A violet valley of lavender hills beneath a pale arch and moon",
   },
   metric: {
@@ -69,7 +69,7 @@ export const homeHero: HomeHeroContent = {
   },
   showcase: {
     title: "See your wages stream while you're mid-shift",
-    image: "/assets/hero/showcase-trails.png",
+    image: "/t/forma/assets/hero/showcase-trails.png",
     cta: { label: "How it works", href: "/services" },
     actionLabel: "See how streaming works",
   },

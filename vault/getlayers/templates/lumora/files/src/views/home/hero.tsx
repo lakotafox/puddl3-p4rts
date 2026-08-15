@@ -29,8 +29,8 @@ export const Hero = ({ hero }: HeroProps) => {
     >
       {/* Full-bleed background — `before` shown, `after` revealed on a cursor trail */}
       <LiquidReveal
-        beforeSrc="/assets/hero/after.jpg"
-        afterSrc="/assets/hero/before.jpg"
+        beforeSrc="/t/lumora/assets/hero/after.jpg"
+        afterSrc="/t/lumora/assets/hero/before.jpg"
         alt="Portrait of a PUDDL3 worker mid-shift"
         className="absolute inset-0 z-0"
         brushRadius={143}

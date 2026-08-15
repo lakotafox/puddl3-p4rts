@@ -37,7 +37,7 @@ export const SiteHeader = () => (
         className={`${pill} justify-center px-6 py-4 md:px-10`}
       >
         <Image
-          src="/assets/logo.svg"
+          src="/t/gring-x/assets/logo.svg"
           alt={brand.name}
           width={77}
           height={18}

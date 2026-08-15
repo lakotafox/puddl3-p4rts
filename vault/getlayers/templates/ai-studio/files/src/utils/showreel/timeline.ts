@@ -311,15 +311,15 @@ export interface GridItem {
  *  across the 14 items deterministically below (SSR-stable, fixed per reload).
  *  Spaces in the filenames are URL-encoded for use in `url()`. */
 const GRID_IMAGES = [
-  "/assets/grid-images/image%20553.png",
-  "/assets/grid-images/image%20554.png",
-  "/assets/grid-images/image%20555.png",
-  "/assets/grid-images/image%20556.png",
-  "/assets/grid-images/image%20557.png",
-  "/assets/grid-images/image%20558.png",
-  "/assets/grid-images/image%20559.png",
-  "/assets/grid-images/image%20560.png",
-  "/assets/grid-images/image%20561.png",
+  "/t/ai-studio/assets/grid-images/image%20553.png",
+  "/t/ai-studio/assets/grid-images/image%20554.png",
+  "/t/ai-studio/assets/grid-images/image%20555.png",
+  "/t/ai-studio/assets/grid-images/image%20556.png",
+  "/t/ai-studio/assets/grid-images/image%20557.png",
+  "/t/ai-studio/assets/grid-images/image%20558.png",
+  "/t/ai-studio/assets/grid-images/image%20559.png",
+  "/t/ai-studio/assets/grid-images/image%20560.png",
+  "/t/ai-studio/assets/grid-images/image%20561.png",
 ];
 
 /** The 14 placeholder positions from the original markup, with deterministic

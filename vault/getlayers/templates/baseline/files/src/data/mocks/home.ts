@@ -144,7 +144,7 @@ export const homeContent: HomeContent = {
   hero: {
     titleLines: ["Always In Play"],
     taglineLines: ["Any Hour,", "Any Day"],
-    backgroundImage: "/assets/hero/hero-court.webp",
+    backgroundImage: "/t/baseline/assets/hero/hero-court.webp",
     backgroundAlt: "Player lunging for a shot on a hard court",
     collections: [
       {
@@ -152,7 +152,7 @@ export const homeContent: HomeContent = {
         title: "Court-Ready Gear",
         blurb: "Tour-grade rackets and strings, priced in plain sight.",
         cta: "See the kit",
-        image: "/assets/2.webp",
+        image: "/t/baseline/assets/2.webp",
         imageAlt: "Player driving a backhand on a hard court",
       },
       {
@@ -160,7 +160,7 @@ export const homeContent: HomeContent = {
         title: "Late Drop",
         blurb: "Lightweight layers built for long sessions under lights.",
         cta: "View the line",
-        image: "/assets/3.webp",
+        image: "/t/baseline/assets/3.webp",
         imageAlt: "Player stretching for a forehand on clay",
       },
       {
@@ -168,14 +168,14 @@ export const homeContent: HomeContent = {
         title: "Junior Range",
         blurb: "Lighter frames and grips, sized for games still growing.",
         cta: "Browse juniors",
-        image: "/assets/5.webp",
+        image: "/t/baseline/assets/5.webp",
         imageAlt: "Player set in a ready stance on clay",
       },
     ],
     membership: {
       value: "9K+",
       caption: "Members on court now",
-      image: "/assets/1.webp",
+      image: "/t/baseline/assets/1.webp",
       imageAlt: "Player waiting to return on a clay court",
     },
   },
@@ -190,21 +190,21 @@ export const homeContent: HomeContent = {
       {
         name: "Tomas Ferreira",
         role: "Head Coach",
-        image: "/assets/5.webp",
+        image: "/t/baseline/assets/5.webp",
         imageAlt: "Head coach set in a ready stance on clay",
         headline: ["Every", "Point", "Counted", "Live"],
       },
       {
         name: "Nadia Keller",
         role: "Performance Coach",
-        image: "/assets/4.webp",
+        image: "/t/baseline/assets/4.webp",
         imageAlt: "Performance coach following through on a serve",
         headline: ["Sharper", "Every", "Single", "Session"],
       },
       {
         name: "Dev Chauhan",
         role: "Juniors Lead",
-        image: "/assets/1.webp",
+        image: "/t/baseline/assets/1.webp",
         imageAlt: "Juniors lead waiting to return on clay",
         headline: ["Young", "Players", "Rise", "Daily"],
       },
@@ -241,7 +241,7 @@ export const homeContent: HomeContent = {
     ],
   },
   facilities: {
-    icon: "/assets/3.webp",
+    icon: "/t/baseline/assets/3.webp",
     iconAlt: "Player stretching for a forehand on clay",
     titleLines: ["See The", "Courts In", "Real Time"],
     body: "Book by the hour, any hour — live availability, one flat rate, and the same conditions you'll compete in.",
@@ -249,14 +249,14 @@ export const homeContent: HomeContent = {
       {
         name: "Sunrise Clay",
         description: "An outdoor clay court that opens with the 6 AM crowd.",
-        image: "/assets/1.webp",
+        image: "/t/baseline/assets/1.webp",
         imageAlt: "Player deep behind the line on an outdoor clay court",
         tone: "clay",
       },
       {
         name: "Nightshift Blue",
         description: "A floodlit hard court built for precision after dark.",
-        image: "/assets/4.webp",
+        image: "/t/baseline/assets/4.webp",
         imageAlt: "Player following through on a blue hard court",
         tone: "blue",
       },

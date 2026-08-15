@@ -89,7 +89,7 @@ export const createHandParticles = async (
     seed,
   } = config;
 
-  const base = "/assets/hand";
+  const base = "/t/auralis/assets/hand";
   const [manifest, binary] = await Promise.all([
     fetch(`${base}/points.manifest.json`).then((r) => r.json() as Promise<PointsManifest>),
     fetch(`${base}/points.bin`).then((r) => r.arrayBuffer()),
