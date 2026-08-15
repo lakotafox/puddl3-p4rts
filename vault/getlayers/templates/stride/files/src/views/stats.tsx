@@ -35,10 +35,10 @@ const BarsIcon = () => (
 
 // Avatar photos for the commitment card's stack (public paths).
 const AVATARS = [
-  "/t/stride/assets/images/2nd/avatars/1.png",
-  "/t/stride/assets/images/2nd/avatars/2.png",
-  "/t/stride/assets/images/2nd/avatars/3.png",
-  "/t/stride/assets/images/2nd/avatars/4.png",
+  "/assets/images/2nd/avatars/1.png",
+  "/assets/images/2nd/avatars/2.png",
+  "/assets/images/2nd/avatars/3.png",
+  "/assets/images/2nd/avatars/4.png",
 ];
 
 // Numbers share the block heading's display scale (see about.tsx `.lead`).
@@ -65,7 +65,7 @@ export const Stats = ({ content }: StatsProps) => {
           className="relative flex min-h-[32rem] flex-col justify-end overflow-hidden rounded-3xl bg-card-blue p-7 text-black [will-change:transform,opacity]"
         >
           <Image
-            src="/t/stride/assets/images/2nd/people.png"
+            src="/assets/images/2nd/people.png"
             alt=""
             fill
             sizes="(max-width: 1024px) 100vw, 33vw"

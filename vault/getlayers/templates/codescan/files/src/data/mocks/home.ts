@@ -173,20 +173,20 @@ export const homeHero: HomeHeroContent = {
   recordingLabel: "LIVE",
   sceneLabel: "Interactive 3D scene: a figure facing a wall of televisions",
   loadingLabel: "Tuning the signal",
-  modelUrl: "/t/codescan/assets/hero/TV.glb",
+  modelUrl: "/assets/hero/TV.glb",
   screenVideos: [
-    "/t/codescan/assets/hero/Videoes/bridge.mp4",
-    "/t/codescan/assets/hero/Videoes/cat.mp4",
-    "/t/codescan/assets/hero/Videoes/chelik.mp4",
-    "/t/codescan/assets/hero/Videoes/color noise.mp4",
-    "/t/codescan/assets/hero/Videoes/hands.mp4",
-    "/t/codescan/assets/hero/Videoes/magic.mp4",
-    "/t/codescan/assets/hero/Videoes/noise.mp4",
+    "/assets/hero/Videoes/bridge.mp4",
+    "/assets/hero/Videoes/cat.mp4",
+    "/assets/hero/Videoes/chelik.mp4",
+    "/assets/hero/Videoes/color noise.mp4",
+    "/assets/hero/Videoes/hands.mp4",
+    "/assets/hero/Videoes/magic.mp4",
+    "/assets/hero/Videoes/noise.mp4",
   ],
   // Screens 2, 5 and 12 share one still texture in the model; only this one
   // should play, so it cannot be expressed by the texture-name match.
   screenVideoOverrides: {
-    "12": "/t/codescan/assets/hero/Videoes/noise.mp4",
+    "12": "/assets/hero/Videoes/noise.mp4",
   },
   // Between the wall and the carousel there is nothing but fog, and the flight
   // through it is long. These two stand in it at different depths — the near one
@@ -238,7 +238,7 @@ export const homeHero: HomeHeroContent = {
     lead: "Let's make it move.",
   },
   finalShot: {
-    image: "/t/codescan/assets/CTA/CTA-TV.png",
+    image: "/assets/CTA/CTA-TV.png",
     label: "You're on in a second",
   },
   cases: {
@@ -267,42 +267,42 @@ export const homeHero: HomeHeroContent = {
       {
         name: "Émile Fontaine",
         tags: ["Art director", "Product designer", "9 years of experience"],
-        image: "/t/codescan/assets/team/1.png",
+        image: "/assets/team/1.png",
       },
       {
         name: "Isla Brooks",
         tags: ["Creative lead", "3D generalist", "8 years of experience"],
-        image: "/t/codescan/assets/team/2.png",
+        image: "/assets/team/2.png",
       },
       {
         name: "Runa Bekk",
         tags: ["Brand designer", "Type & systems", "6 years of experience"],
-        image: "/t/codescan/assets/team/3.png",
+        image: "/assets/team/3.png",
       },
       {
         name: "Casey Marsh",
         tags: ["Motion designer", "Art direction", "5 years of experience"],
-        image: "/t/codescan/assets/team/4.png",
+        image: "/assets/team/4.png",
       },
       {
         name: "Nova Lindqvist",
         tags: ["UX designer", "Research", "7 years of experience"],
-        image: "/t/codescan/assets/team/5.png",
+        image: "/assets/team/5.png",
       },
       {
         name: "Ada Wells",
         tags: ["Producer", "Strategy", "10 years of experience"],
-        image: "/t/codescan/assets/team/6.png",
+        image: "/assets/team/6.png",
       },
       {
         name: "Milo Tarn",
         tags: ["Front-end engineer", "WebGL", "4 years of experience"],
-        image: "/t/codescan/assets/team/7.png",
+        image: "/assets/team/7.png",
       },
       {
         name: "Juno Calder",
         tags: ["Copy & narrative", "Content design", "6 years of experience"],
-        image: "/t/codescan/assets/team/8.png",
+        image: "/assets/team/8.png",
       },
     ],
   },

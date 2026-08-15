@@ -46,7 +46,7 @@ export const createTreeParticles = async (
     seed,
   } = config;
 
-  const base = "/t/auralis/assets/tree";
+  const base = "/assets/tree";
   const [manifest, binary] = await Promise.all([
     fetch(`${base}/points.manifest.json`).then((r) => r.json() as Promise<PointsManifest>),
     fetch(`${base}/points.bin`).then((r) => r.arrayBuffer()),

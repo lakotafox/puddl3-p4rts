@@ -24,7 +24,7 @@ import {
 const BASE = "#1c3ee6";
 const LIGHT = "#eef3ff";
 const SEED = 7.2;
-const MODEL_URL = "/t/stride/assets/heart.glb";
+const MODEL_URL = "/assets/heart.glb";
 
 // Absolute document offset of an element (walks offsetParent).
 const absoluteTop = (el: HTMLElement) => {

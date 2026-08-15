@@ -159,6 +159,9 @@ async function simplifySearch() {
 async function stripNewBadges() {
   const p = join(VENDOR, "constants/Categories.js");
   let s = await readFile(p, "utf8");
+  // Index page removed for now (user, 2026-08-15): its Browse-All cards use
+  // upstream's prerecorded preview media. Redo later with our own screenshots.
+  s = s.replace(/,?\s*'Index'/, "");
   const after = s.replace(/export const NEW = \[[\s\S]*?\];/, "export const NEW = [];");
   if (after !== s) await writeFile(p, after, "utf8");
   console.log("  NEW badges cleared");

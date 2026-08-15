@@ -89,7 +89,7 @@ export const HeroSection = ({ content }: HeroSectionProps) => {
           className="col-start-1 justify-self-start focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hero-fg"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/t/lumen/assets/logo.svg" alt={brand} width={84} height={29} className="h-[1.8em] w-auto" />
+          <img src="/assets/logo.svg" alt={brand} width={84} height={29} className="h-[1.8em] w-auto" />
         </Link>
 
         <nav aria-label="Primary" className="col-start-2 hidden lg:block">

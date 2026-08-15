@@ -1,0 +1,396 @@
+{
+  "id": "getlayers/template/gring-x",
+  "source": "getlayers",
+  "kind": "template",
+  "slug": "gring-x",
+  "name": "GringX",
+  "title": "Gring X",
+  "description": "Gring X — GetLayers template, PUDDL3-branded",
+  "tags": [
+    "template",
+    "getlayers",
+    "puddl3-universe"
+  ],
+  "tagSource": "derived",
+  "category": "Templates",
+  "keywords": [
+    "gring-x",
+    "PUDDL3"
+  ],
+  "variants": [
+    {
+      "id": "default",
+      "upstreamName": "gring-x",
+      "path": "vault/getlayers/templates/gring-x/files",
+      "files": [
+        {
+          "path": "vault/getlayers/templates/gring-x/files/postcss.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/HOW_TO_USE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/tsconfig.tsbuildinfo"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/.cursorrules"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/next-env.d.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/README.md"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/yarn.lock"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/favicon-16x16.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/open-graph.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-192x192.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/draco/draco_decoder.js"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/draco/draco_decoder.wasm"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/draco/draco_wasm_wrapper.js"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-72x72.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-96x96.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-36x36.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/apple-icon-180x180.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/manifest.json"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-48x48.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/assets/hands.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/assets/.gitkeep"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/assets/icon.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/assets/icon.glb"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/assets/logo.svg"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/browserconfig.xml"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/android-icon-144x144.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/public/favicon-32x32.png"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/.gitignore"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/package.json"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/tsconfig.json"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/AGENTS.md"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/eslint.config.mjs"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/CLAUDE.md"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/next.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/types/springs.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/robots.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/favicon.ico"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/sitemap.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/error.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/api/contact/route.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/loading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/fonts/Mulish-Regular.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/fonts/Mulish-Light.ttf"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/page.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/globals.css"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/app/not-found.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/scroll-to.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/math.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/is-bot.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/lvh.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/animation/coords.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/seo/structured-data.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/utils/seo/generate-page-metadata.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/style/index.css"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/ui/button.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/preloader/preloader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/in-view.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/spring-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/spring.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/handle.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/progress-trigger.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/animated-var-text-tag.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/animation/springs/hover.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/three/nebula-sphere.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/three/nebula-scene.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/three/nebula-sphere.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/three/nebula-controls.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/three/nebula-sphere.shaders.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/skeleton-image.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/skeleton-loader.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/skeleton-video.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/reduced-motion.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/LazyCookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/cookieStore.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/CookieBanner.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/Cookie.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/CookieButton.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/CookiePreferencesModal.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/Cookie/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/grid/grid.config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/grid/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/common/grid/adaptive-grid.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/hero.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/reveal.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/site-header.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/status-dot.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/hero-heading.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/hero-stats.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/components/hero/mobile-nav.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/layouts/scroll-layout.tsx"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/use-adaptive-grid.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/use-window-size.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-progress-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-in-view-ref.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-spring-trigger.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-render-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-loop-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/use-dynamic-in-view.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/animation/user-resize-loop.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/hooks/smooth-scroll/use-scroll.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/api-client.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/intro-timing.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/animation/ticker.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/site.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/springs/config.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/lib/api/index.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/env.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/data/mocks/home.ts"
+        },
+        {
+          "path": "vault/getlayers/templates/gring-x/files/src/views/home.tsx"
+        }
+      ],
+      "exports": []
+    }
+  ],
+  "defaultVariant": "default",
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [],
+  "requires": {
+    "webgl": true,
+    "tailwind": 4
+  },
+  "paths": {
+    "root": "vault/getlayers/templates/gring-x",
+    "raw": null,
+    "preview": null,
+    "demo": null
+  },
+  "preview": {
+    "mode": "iframe"
+  },
+  "brand": {
+    "contentBrand": "PUDDL3",
+    "tagline": ""
+  },
+  "license": {
+    "spdx": "LicenseRef-GetLayers",
+    "redistributable": false,
+    "note": "GetLayers template, PUDDL3-rebranded; not redistributable"
+  },
+  "upstream": {
+    "url": "https://www.getlayers.ai/?tab=templates&layer=gring-x",
+    "registry": "getlayers"
+  },
+  "hash": "",
+  "fetchedAt": "2026-08-15T20:20:35.334Z",
+  "vaultVersion": 1
+}

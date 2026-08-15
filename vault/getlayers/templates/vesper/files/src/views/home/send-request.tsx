@@ -37,7 +37,7 @@ export const SendRequest = () => {
       </animated.span>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/t/vesper/assets/hero/send-icon.svg"
+        src="/assets/hero/send-icon.svg"
         alt=""
         className="block size-[3.542vw] shrink-0 max-lg:size-[3.125rem]"
       />

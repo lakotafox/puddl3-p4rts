@@ -63,7 +63,7 @@ export const Team = ({ content }: TeamProps) => (
                   className="block size-12 transition-opacity duration-[var(--duration-fast)] ease-entrance hover:opacity-80 lg:size-16"
                 >
                   <Image
-                    src={`/t/dantora/assets/icons/${social.icon}.svg`}
+                    src={`/assets/icons/${social.icon}.svg`}
                     alt=""
                     width={64}
                     height={64}

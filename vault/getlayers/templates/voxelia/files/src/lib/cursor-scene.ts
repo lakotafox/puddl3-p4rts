@@ -34,7 +34,7 @@ import { subscribeToTicker } from "@/lib/animation/ticker";
 import { useCursorSettings, type CursorAngles } from "@/lib/cursor-settings";
 import { DRACO_DECODER_PATH } from "@/lib/scene/chess-defaults";
 
-export const CURSOR_MODEL_URL = "/t/voxelia/assets/cursor.glb";
+export const CURSOR_MODEL_URL = "/assets/cursor.glb";
 /**
  * Canvas edge in CSS pixels. Square, because the model sweeps as it turns.
  *

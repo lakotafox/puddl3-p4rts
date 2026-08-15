@@ -73,7 +73,7 @@ export interface ShowreelContent {
   };
 }
 
-const A = "/t/ai-studio/assets/showreel";
+const A = "/assets/showreel";
 
 export const homeContent: ShowreelContent = {
   brand: "PUDDL3",

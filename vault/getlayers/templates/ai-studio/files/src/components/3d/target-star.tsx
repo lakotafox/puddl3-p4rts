@@ -5,7 +5,7 @@ import { useGLTF } from "@react-three/drei";
 import { useMemo, useRef, useEffect, Suspense } from "react";
 import * as THREE from "three";
 
-const MODEL_URL = "/t/ai-studio/assets/showreel/model.glb";
+const MODEL_URL = "/assets/showreel/model.glb";
 const DEG = Math.PI / 180;
 const TWO_PI = Math.PI * 2;
 

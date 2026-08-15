@@ -35,7 +35,7 @@ const SHOW_CONTROLS = false;
 const BASE = "#1c3ee6";
 const LIGHT = "#eef3ff";
 const SEED = 3.7;
-const MODEL_URL = "/t/stride/assets/chain.glb";
+const MODEL_URL = "/assets/chain.glb";
 
 export interface ChainContent {
   /** Section heading — also the section's accessible name. */

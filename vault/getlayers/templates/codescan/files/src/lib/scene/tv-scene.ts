@@ -82,7 +82,7 @@ import { TvSky } from "@/lib/scene/tv-sky";
 import { disposeObject } from "@/utils/scene/dispose-object";
 
 /** Draco decoder, copied out of `three/examples/jsm/libs/draco/gltf/`. */
-const DRACO_DECODER_PATH = "/t/codescan/draco/";
+const DRACO_DECODER_PATH = "/draco/";
 
 /**
  * Longest step the animation may take in one frame (seconds).

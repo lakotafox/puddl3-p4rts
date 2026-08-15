@@ -95,7 +95,7 @@ export const SiteFooter = ({ copy }: SiteFooterProps) => {
           <span className="block h-[1.806vw] w-[5.86vw] max-lg:h-[1.5rem] max-lg:w-[4.875rem]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/t/vesper/assets/hero/logo.svg"
+              src="/assets/hero/logo.svg"
               alt={copy.wordmark}
               className="block h-full w-full"
             />

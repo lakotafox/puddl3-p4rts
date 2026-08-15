@@ -40,7 +40,7 @@ import {
   type SceneVisibility,
 } from "@/utils/showreel/timeline";
 
-const A = "/t/ai-studio/assets/showreel";
+const A = "/assets/showreel";
 
 export interface ShowreelStageProps {
   content: ShowreelContent;

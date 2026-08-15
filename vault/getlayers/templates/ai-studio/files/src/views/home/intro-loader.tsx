@@ -8,7 +8,7 @@ import { animated, easings, to, useSpring } from "@react-spring/web";
 import { useLoaderStore } from "@/hooks/use-loader";
 import { useScroll } from "@/hooks/smooth-scroll/use-scroll";
 
-const STAR = "/t/ai-studio/assets/showreel/star.svg";
+const STAR = "/assets/showreel/star.svg";
 
 export interface IntroLoaderProps {
   /**

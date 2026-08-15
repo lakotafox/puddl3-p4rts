@@ -6,6 +6,8 @@ import { ActiveRouteProvider } from './components/context/ActiveRouteContext/Act
 import { forceChakraDarkTheme } from './utils/utils';
 
 import SidebarLayout from './components/layout/SidebarLayout';
+import LandingIntro from './pages/LandingIntro';
+import LibraryHome from './pages/LibraryHome';
 import CategoryPage from './pages/CategoryPage';
 import ShowcasePage from './pages/ShowcasePage';
 import FavoritesPage from './pages/FavoritesPage';
@@ -17,7 +19,16 @@ function AppContent() {
     <>
       <Providers>
         <Routes>
-          <Route exact path="/" element={<Navigate to="/get-started/introduction" replace />} />
+          <Route exact path="/" element={<LandingIntro />} />
+          <Route
+            exact
+            path="/library"
+            element={
+              <SidebarLayout>
+                <LibraryHome />
+              </SidebarLayout>
+            }
+          />
           <Route exact path="/showcase" element={<ShowcasePage />} />
           <Route exact path="/pro" element={<ProPage />} />
           <Route

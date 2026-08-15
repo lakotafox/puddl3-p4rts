@@ -55,7 +55,7 @@ export const Product = ({ content }: ProductProps) => {
           className="relative flex min-h-[26rem] flex-col justify-between overflow-hidden rounded-3xl p-8 text-black lg:col-span-2 [will-change:transform,opacity]"
         >
           <Image
-            src="/t/stride/assets/images/6th.png"
+            src="/assets/images/6th.png"
             alt=""
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

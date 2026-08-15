@@ -37,7 +37,7 @@ export const ArrowButton = ({ href, label, className }: ArrowButtonProps) => {
         className="flex size-10 shrink-0 items-center justify-center rounded-chip bg-white text-ink"
       >
         <Image
-          src="/t/ai-studio/assets/icons/arrow.svg"
+          src="/assets/icons/arrow.svg"
           alt=""
           width={16}
           height={16}

@@ -17,8 +17,8 @@
 import type { ChessSceneSettings, SurfaceSettings } from "@/types/scene";
 
 /** Path of the GLB and its Draco decoder — kept local, never a CDN. */
-export const CHESS_MODEL_URL = "/t/voxelia/assets/chess.glb";
-export const DRACO_DECODER_PATH = "/t/voxelia/draco/";
+export const CHESS_MODEL_URL = "/assets/chess.glb";
+export const DRACO_DECODER_PATH = "/draco/";
 
 /**
  * Node names inside `chess.glb`.

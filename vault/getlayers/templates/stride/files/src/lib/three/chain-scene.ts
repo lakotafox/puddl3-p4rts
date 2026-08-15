@@ -118,7 +118,7 @@ export function createChainScene(
 
   // The GLB is Draco-compressed; decoder files live in public/draco/.
   const draco = new DRACOLoader();
-  draco.setDecoderPath("/t/stride/draco/");
+  draco.setDecoderPath("/draco/");
   const loader = new GLTFLoader();
   loader.setDRACOLoader(draco);
 

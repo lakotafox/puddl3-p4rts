@@ -15,7 +15,7 @@ import { BrainMesh, buildBrainGeometry, loadBrainMesh } from "./brain-geometry";
 import { brainFragmentShader, brainVertexShader } from "./brain-shaders";
 
 /** The baked mesh (ADR-0028). 43 KB, in place of the 4.67 MB GLB. */
-export const BRAIN_MESH_URL = "/t/vesper/assets/brain/brain-mesh.bin";
+export const BRAIN_MESH_URL = "/assets/brain/brain-mesh.bin";
 
 const clamp = (v: number, lo: number, hi: number) =>
   Math.max(lo, Math.min(hi, v));
