@@ -8,7 +8,7 @@ export const ribbonMarquee = {
   usage: `import RibbonMarquee from './RibbonMarquee';
 
 // Basic usage
-<RibbonMarquee marqueeText="Welcome to foxbits ✦" />
+<RibbonMarquee marqueeText="Welcome to PUDDL3 P4RTS ✦" />
 
 // With custom props
 <RibbonMarquee 

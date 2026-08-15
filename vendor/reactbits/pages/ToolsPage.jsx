@@ -272,7 +272,7 @@ export default function ToolsPage() {
             <div className="tools-landing-header-left">
               <h1 className="tools-landing-title">Creative Tools</h1>
               <p className="tools-landing-subtitle">
-                Free utilities to boost your creative workflow and help you get the most out of foxbits in your projects.
+                Free utilities to boost your creative workflow and help you get the most out of PUDDL3 P4RTS in your projects.
               </p>
             </div>
           </div>

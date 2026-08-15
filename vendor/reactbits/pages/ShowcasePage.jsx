@@ -12,7 +12,7 @@ const ShowcasePage = () => {
   useScrollToTop();
   usePageSEO({
     title: 'PUDDL3 P4RTS - Showcase',
-    description: 'See how developers around the world are using foxbits components in their projects.',
+    description: 'See how developers around the world are using PUDDL3 P4RTS components in their projects.',
     path: '/showcase'
   });
 
@@ -28,7 +28,7 @@ const ShowcasePage = () => {
           <div className="showcase-header-left">
             <h1 className="showcase-title">Showcase</h1>
             <p className="showcase-subtitle">
-              See how developers around the world are using foxbits in their projects.
+              See how developers around the world are using PUDDL3 P4RTS in their projects.
             </p>
           </div>
           <a

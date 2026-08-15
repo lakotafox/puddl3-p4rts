@@ -170,7 +170,7 @@ const Ownership = () => (
         >
           <h2 className="ln-own-title">The code is yours</h2>
           <p className="ln-own-subtitle">
-            foxbits isn&apos;t a package you depend on. Each component lands in your repo as source you own.
+            PUDDL3 P4RTS isn&apos;t a package you depend on. Each component lands in your repo as source you own.
           </p>
 
           <ul className="ln-own-points">

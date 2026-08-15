@@ -38,7 +38,7 @@ const CopyPageButton = () => {
     providerKey => {
       const md = getMarkdown();
       if (!md) return;
-      openInAI(providerKey, `Read the foxbits documentation below, then help me apply it.\n\n${md}`);
+      openInAI(providerKey, `Read the PUDDL3 P4RTS documentation below, then help me apply it.\n\n${md}`);
     },
     [getMarkdown]
   );

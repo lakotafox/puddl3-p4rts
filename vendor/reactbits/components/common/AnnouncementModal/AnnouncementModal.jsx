@@ -155,7 +155,7 @@ const AnnouncementModal = () => {
                   loop
                   muted={isMuted}
                   playsInline
-                  aria-label="Preview of the new foxbits Pro app UI blocks and agent kit"
+                  aria-label="Preview of the new PUDDL3 P4RTS Pro app UI blocks and agent kit"
                 />
                 <button
                   className="announcement-modal-sound"
@@ -168,7 +168,7 @@ const AnnouncementModal = () => {
 
               <div className="announcement-modal-content">
                 <h2 id="announcement-modal-title" className="announcement-modal-title">
-                  foxbits Pro August Update
+                  PUDDL3 P4RTS Pro August Update
                 </h2>
 
                 <div id="announcement-modal-description" className="announcement-modal-description">
@@ -192,7 +192,7 @@ const AnnouncementModal = () => {
                     handleDismiss();
                   }}
                 >
-                  Explore foxbits Pro <FiArrowRight size={14} />
+                  Explore PUDDL3 P4RTS Pro <FiArrowRight size={14} />
                 </a>
               </div>
             </div>

@@ -16,7 +16,7 @@ ref={containerRef}
 style={{position: 'relative'}}
 >
   <MagneticInk
-    label={'Hover me! And then star foxbits on GitHub, or else...'}
+    label={'Hover me! And then star PUDDL3 P4RTS on GitHub, or else...'}
     className={'variable-proximity-demo'}
     fromFontVariationSettings="'wght' 400, 'opsz' 9"
     toFontVariationSettings="'wght' 1000, 'opsz' 40"

@@ -34,7 +34,7 @@ const ProCta = ({ title, description, placement, secondary, trackParams, showSha
           rel="noopener noreferrer"
           onClick={() => trackProClick(placement, trackParams)}
         >
-          Get foxbits Pro
+          Get PUDDL3 P4RTS Pro
           <LuArrowUpRight size={15} />
         </a>
 

@@ -61,7 +61,7 @@ const CategoryProFooter = ({ category }) => {
       {count > 0 && (
         <Link className="cat-pro-card" to={to}>
           <span className="cat-pro-body">
-            <span className="cat-pro-eyebrow">foxbits Pro</span>
+            <span className="cat-pro-eyebrow">PUDDL3 P4RTS Pro</span>
             <span className="cat-pro-title">
               {count} more {config.noun}
             </span>

@@ -1,4 +1,4 @@
-const SITE_ORIGIN = 'https://reactbits.dev';
+const SITE_ORIGIN = 'https://lakotafox.com/PUDDL3P4RTS'; // foxbits:own-origin
 
 const SKIP_SELECTOR = [
   '.docs-button-bar',
@@ -179,11 +179,10 @@ export const componentDocsUrl = (category, subcategory) => `${SITE_ORIGIN}/${cat
 
 export function buildCompactPrompt({ componentName, category, subcategory, language, style, installCommand, usage }) {
   const lines = [
-    `Help me add the <${componentName} /> component from foxbits to my project.`,
+    `Help me add the <${componentName} /> component from PUDDL3 P4RTS to my project.`,
     '',
     `Variant: ${variantCode(language, style)} (${language === 'TS' ? 'TypeScript' : 'JavaScript'}, ${style === 'TW' ? 'Tailwind' : 'plain CSS'})`,
-    `Docs: ${componentDocsUrl(category, subcategory)}`,
-    `Component source + dependencies (JSON): ${registryUrl(componentName, language, style)}`
+    `Docs: ${componentDocsUrl(category, subcategory)}`
   ];
 
   if (installCommand) {
@@ -196,8 +195,8 @@ export function buildCompactPrompt({ componentName, category, subcategory, langu
 
   lines.push(
     '',
-    'Please fetch the registry JSON above for the exact source, install any listed dependencies, add the component to my project, and wire it into the right place.',
-    `If this is not the right component, the full library index is at ${SITE_ORIGIN}/llms.txt.`
+    'Grab the exact source from the Code tab on the docs page above, install any listed dependencies, add the component to my project, and wire it into the right place.',
+    `If this is not the right component, browse the full library at ${SITE_ORIGIN}.`
   );
 
   return lines.join('\n');

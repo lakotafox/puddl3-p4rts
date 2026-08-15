@@ -7,7 +7,7 @@
    bg-linear-to-br, ...) are simply not generated — blocks render half-styled. */
 @source "../../vault/**/*.{jsx,tsx}";
 
-/* foxbits layout overrides.
+/* PUDDL3 P4RTS layout overrides.
    Declared here rather than by editing the vendored CSS so a re-vendor cannot
    silently drop them. Same specificity as the upstream rule and later in the
    cascade, so these win. */
@@ -38,3 +38,11 @@
 }
 .sidebar { left: auto !important; right: 0 !important; }
 .sidebar::before { left: auto; right: 0; }
+
+/* ── arrival after the /library hero picker (boss-dash flow) ──
+   set on <body> just before navigating; the freshly-mounted chrome and page
+   fade in, then the class self-clears (timer set in LibraryHome). */
+@keyframes p4rts-arrive-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+body.p4rts-arrive .ln-navbar { opacity: 0; animation: p4rts-arrive-in .8s ease .55s forwards; }
+body.p4rts-arrive .sidebar { opacity: 0; animation: p4rts-arrive-in .8s ease .25s forwards; }
+body.p4rts-arrive .category-wrapper > :not(.sidebar) { opacity: 0; animation: p4rts-arrive-in .8s ease .4s forwards; }

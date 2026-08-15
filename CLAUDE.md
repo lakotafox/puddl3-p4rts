@@ -369,3 +369,20 @@ vault/_state/sync-<source>.jsonl            append-only journal (resumability)
 Sync is hash-gated: unchanged files are not rewritten, so a re-sync produces a
 clean diff showing only what upstream actually changed. Pro ingest resumes by
 skipping any asset that already has a complete `meta.json`.
+
+## Brand enforcement + global wiring (2026-08-15)
+
+- rebrand.ts ends its TEXT map with a catch-all `foxbits(?![-:_])` → PUDDL3
+  P4RTS (also sweeps .md/.html now). Deliberately NOT renamed: script markers
+  (`foxbits:*`), generated asset filenames (`foxbits-logo*` etc.), postMessage
+  types (`foxbits:preview/props/demo`), `FOXBITS_HOME`. Bundle-level check:
+  `grep -roh "foxbits[^\"']*" gallery/dist/assets/*.js | sort -u` → only those.
+- The upstream Pro storefront (/pro, /pro/:section, /showcase, mobile ProLinks,
+  CategoryProFooter) is stripped by rebrand.ts stripProStorefront().
+- AI-export prompts speak our ecosystem: SITE_ORIGIN → lakotafox.com/PUDDL3P4RTS
+  (retargetAIExport()); compact prompt no longer cites upstream registry JSON.
+- `p4rts` is a global binary (package.json bin + `bun link` → ~/.bun/bin/p4rts);
+  MCP server registered user-scope as `puddl3-parts`; global ~/.claude/CLAUDE.md
+  tells every session to check PUDDL3 P4RTS first for UI work.
+- 4 agent-kit meta descriptions (3 recipes + starter skill) were hand-scrubbed
+  of "React Bits" — `index --renormalize` from _raw would resurrect them.

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" width="120" height="28" fill="none">
-  <title>foxbits</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 28" width="158" height="28" fill="none">
+  <title>PUDDL3 P4RTS</title>
   <g transform="translate(0 2.5) scale(0.72)">
     <path d="M16 29 L3 13 L6 3 L13 8.5 L16 10 L19 8.5 L26 3 L29 13 Z M9.5 14.5 L14 14.5 L11.75 19 Z M18 14.5 L22.5 14.5 L20.25 19 Z" fill="#ff8c1a" fill-rule="evenodd"/>
   </g>
-  <text x="28" y="20" fill="#ff8c1a" font-family="Geist, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing="-0.3">foxbits</text>
+  <text x="28" y="20" fill="#ff8c1a" font-family="Geist, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600" letter-spacing="-0.3">PUDDL3 P4RTS</text>
 </svg>

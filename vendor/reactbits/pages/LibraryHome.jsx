@@ -1,78 +1,103 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+import LineSidebar from '../components/common/LineSidebar/LineSidebar';
+import RetroFlurry from '../content/Backgrounds/RetroFlurry/RetroFlurry';
+import { CATEGORIES } from '../constants/Categories';
 
-// /library — styled after the PUDDL3 app's start screen (lakotafox.com/puddl3):
-// a dead-quiet centered column — micro uppercase labels, a thin underlined
-// row, one big rounded dark button, a small footnote link. Background comes
-// later (user, 2026-08-15). The sidebar keeps the employer-dash entry:
-// sections reveal one at a time, header dead last.
+// /library — the boss-dash hero picker (user, 2026-08-15): ONLY the centered
+// LineSidebar exists — navbar and the real sidebar stay hidden. Picking a
+// section fades the picker away, then the app's UI fades in on the destination
+// with the chosen category open (the collapsible sidebar auto-opens the
+// active route's section).
+const slug = (s) => s.toLowerCase().replace(/\s+/g, '-');
+
 const LibraryHome = () => {
+  const navigate = useNavigate();
+  const wrapRef = useRef(null);
+  const leavingRef = useRef(false);
+  const sections = useMemo(
+    () => CATEGORIES.map((c) => ({
+      label: c.name,
+      to: `/${slug(c.name)}/${slug(c.subcategories[0] ?? '')}`,
+    })),
+    [],
+  );
+
   useEffect(() => {
-    const items = Array.from(document.querySelectorAll('.sidebar .category-name'));
-    const navbar = document.querySelector('.ln-navbar');
+    // hero state: no other UI at all
+    const chrome = [document.querySelector('.ln-navbar'), document.querySelector('.sidebar')];
+    chrome.forEach((el) => { if (el) { el.style.opacity = '0'; el.style.pointerEvents = 'none'; } });
+    // picker items reveal one at a time (dash entry)
+    const items = Array.from(document.querySelectorAll('.line-sidebar__item'));
     items.forEach((el, i) => {
       el.style.opacity = '0';
       el.style.animation = 'lh-entry 1.1s ease forwards';
-      el.style.animationDelay = `${0.5 + i * 0.55}s`;
+      el.style.animationDelay = `${0.35 + i * 0.4}s`;
     });
-    if (navbar) {
-      navbar.style.opacity = '0';
-      navbar.style.animation = 'lh-entry 1.3s ease forwards';
-      navbar.style.animationDelay = `${0.5 + items.length * 0.55 + 0.3}s`;
-    }
     return () => {
-      [...items, navbar].forEach((el) => {
-        if (!el) return;
-        el.style.opacity = ''; el.style.animation = ''; el.style.animationDelay = '';
-      });
+      chrome.forEach((el) => { if (el) { el.style.opacity = ''; el.style.pointerEvents = ''; } });
+      items.forEach((el) => { el.style.opacity = ''; el.style.animation = ''; el.style.animationDelay = ''; });
     };
   }, []);
 
+  const pick = (index) => {
+    if (leavingRef.current) return;
+    leavingRef.current = true;
+    const el = wrapRef.current;
+    if (el) { el.style.transition = 'opacity .6s ease'; el.style.opacity = '0'; }
+    document.body.classList.add('p4rts-arrive');
+    setTimeout(() => document.body.classList.remove('p4rts-arrive'), 2600);
+    setTimeout(() => navigate(sections[index].to), 620);
+  };
+
   return (
-    <div className="library-home">
+    <div className="library-home" ref={wrapRef}>
       <style>{`
         @keyframes lh-entry { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
         .library-home {
-          min-height: calc(100vh - 160px);
+          position: fixed; inset: 0; z-index: 30;
           display: flex; align-items: center; justify-content: center;
+          background: var(--bg-body, #0a0a0d);
         }
-        .lh-col {
-          width: min(300px, 86vw);
-          display: flex; flex-direction: column;
-          opacity: 0; animation: lh-entry .5s ease .15s forwards;
+        .library-home .lh-bg {
+          position: absolute; inset: 0; pointer-events: none;
+          opacity: 0; animation: lh-bg-in 2s ease .2s forwards;
         }
-        .lh-label {
-          font-size: 11px; letter-spacing: .22em; font-weight: 600;
-          color: #94a3b8; text-transform: uppercase; margin-bottom: 10px;
-        }
-        .lh-row {
-          color: #64748b; font-size: 15px; padding: 6px 2px 12px;
-          border-bottom: 1px solid rgba(148,163,184,.25); margin-bottom: 34px;
-        }
-        .lh-btn {
-          display: block; width: 100%; text-align: center; text-decoration: none;
-          background: transparent; color: #e5e7eb; font-size: 15px;
-          border: 1px solid rgba(148,163,184,.25); border-radius: 12px;
-          padding: 13px 0; transition: background .2s ease;
-        }
-        .lh-btn:hover { background: rgba(148,163,184,.08); }
-        .lh-foot { margin-top: 26px; font-size: 14px; color: #64748b; }
-        .lh-foot a { color: #22d3ee; text-decoration: none; font-weight: 600; }
+        @keyframes lh-bg-in { to { opacity: 1; } }
+        .library-home .line-sidebar { position: relative; z-index: 1; }
       `}</style>
-
-      <div className="lh-col">
-        <div className="lh-label">PUDDL3 P4RTS</div>
-        <div className="lh-row">pick a part — any hour, any day</div>
-        <a className="lh-btn" href="text-animations/letter-break"
-           onClick={(e) => { e.preventDefault(); window.location.href = `${import.meta.env.BASE_URL}text-animations/letter-break`; }}>
-          Browse components
-        </a>
-        <div className="lh-foot">
-          New here? <a href="get-started/introduction"
-            onClick={(e) => { e.preventDefault(); window.location.href = `${import.meta.env.BASE_URL}get-started/introduction`; }}>
-            Read the intro
-          </a>
-        </div>
+      <div className="lh-bg">
+        <RetroFlurry
+          color="#ffffff"
+          flakeSize={0.01}
+          minFlakeSize={1.25}
+          pixelResolution={200}
+          speed={1.25}
+          density={0.3}
+          direction={125}
+          brightness={1}
+        />
       </div>
+      <LineSidebar
+        items={sections.map((s) => s.label)}
+        accentColor="#a855f7"
+        textColor="#c4c4c4"
+        markerColor="#2FD8E8"
+        showIndex
+        showMarker
+        proximityRadius={100}
+        maxShift={30}
+        falloff="smooth"
+        markerLength={130}
+        markerGap={0}
+        tickScale={0.5}
+        scaleTick
+        itemGap={33}
+        fontSize={1.35}
+        smoothing={60}
+        singleHighlight
+        onItemClick={pick}
+      />
     </div>
   );
 };

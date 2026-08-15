@@ -104,9 +104,9 @@ const VIDEO_START_TIME = 0.4;
 const ProPage = () => {
   useScrollToTop();
   usePageSEO({
-    title: 'foxbits Pro - Components, Blocks, App UI & Templates',
+    title: 'PUDDL3 P4RTS Pro - Components, Blocks, App UI & Templates',
     description:
-      'See everything that ships with foxbits Pro: animated components, marketing blocks, app UI blocks, complete Next.js templates and an Agent Kit for AI coding tools. Lifetime or annual, full source, yours to edit.',
+      'See everything that ships with PUDDL3 P4RTS Pro: animated components, marketing blocks, app UI blocks, complete Next.js templates and an Agent Kit for AI coding tools. Lifetime or annual, full source, yours to edit.',
     path: '/pro'
   });
 
@@ -142,7 +142,7 @@ const ProPage = () => {
             </h1>
 
             <p className="prox-hero-desc">
-              foxbits stays free forever. Pro adds 134 more components, built to the same standard, plus page blocks,
+              PUDDL3 P4RTS stays free forever. Pro adds 134 more components, built to the same standard, plus page blocks,
               app UI blocks, templates and an agent kit.
             </p>
 
@@ -154,7 +154,7 @@ const ProPage = () => {
                 rel="noopener noreferrer"
                 onClick={() => trackProClick(HERO_PLACEMENT)}
               >
-                Get foxbits Pro
+                Get PUDDL3 P4RTS Pro
                 <LuArrowUpRight size={14} />
               </a>
               <Link className="prox-btn prox-btn-ghost" to="/pro/components">

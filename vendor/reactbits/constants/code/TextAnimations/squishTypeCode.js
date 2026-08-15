@@ -11,7 +11,7 @@ import SquishType from './SquishType';
 
 // Note:
 // Make sure the font you're using supports all the variable properties. 
-// foxbits does not take responsibility for the fonts used
+// PUDDL3 P4RTS does not take responsibility for the fonts used
 
 <div style={{position: 'relative', height: '300px'}}>
   <SquishType

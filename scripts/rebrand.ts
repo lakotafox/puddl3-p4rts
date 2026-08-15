@@ -29,12 +29,25 @@ const TEXT: [RegExp, string][] = [
   // display-brand pass (runs after the foxbits substitutions above):
   [/foxbits - /g, "PUDDL3 P4RTS - "],
   [/foxbits — an open source/g, "PUDDL3 P4RTS — an open source"],
+  // AI-export prompts (user caught "More from foxbits" in a pasted prompt):
+  [/component from foxbits/g, "component from PUDDL3 P4RTS"],
+  [/### More from foxbits/g, "### More from PUDDL3 P4RTS"],
+  [
+    /The full library index, including everything reactbits\.dev offers, is at https:\/\/reactbits\.dev\/llms\.txt — fetch it/g,
+    "The full library lives at https://lakotafox.com/PUDDL3P4RTS — browse it",
+  ],
+  // Catch-all (user, 2026-08-15: "no foxbits anywhere"): every remaining
+  // display "foxbits" becomes the real brand. The lookahead protects the
+  // internals that must keep the name: script markers (foxbits:pro-cli …),
+  // generated asset filenames (foxbits-logo.svg …), and identifiers
+  // (foxbits_…); FOXBITS_HOME and FoxBits bindings differ by case.
+  [/foxbits(?![-:_])/g, "PUDDL3 P4RTS"],
 ];
 
 /** Files whose content is copied into user projects — leave their code alone. */
 const SKIP_DIRS = ["/content/", "/tailwind/", "/ts-default/", "/ts-tailwind/", "/assets/"];
 
-const isCode = (p: string) => /\.(jsx?|tsx?)$/.test(p);
+const isCode = (p: string) => /\.(jsx?|tsx?|md|html)$/.test(p);
 
 /**
  * The foxbits mark: an origami-style fox head, one path, fill-rule evenodd so
@@ -49,19 +62,19 @@ const FOX_HEAD =
 
 const foxSvg = (fill: string, size = 32) =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="${size}" height="${size}" fill="none">
-  <title>foxbits</title>
+  <title>PUDDL3 P4RTS</title>
   <path d="${FOX_HEAD}" fill="${fill}" fill-rule="evenodd"/>
 </svg>
 `;
 
 /** Full lockup: fox head + wordmark, for the gh-logo demo assets. */
 const foxLockup = (fill: string) =>
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" width="120" height="28" fill="none">
-  <title>foxbits</title>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 28" width="158" height="28" fill="none">
+  <title>PUDDL3 P4RTS</title>
   <g transform="translate(0 2.5) scale(0.72)">
     <path d="${FOX_HEAD}" fill="${fill}" fill-rule="evenodd"/>
   </g>
-  <text x="28" y="20" fill="${fill}" font-family="Geist, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing="-0.3">foxbits</text>
+  <text x="28" y="20" fill="${fill}" font-family="Geist, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600" letter-spacing="-0.3">PUDDL3 P4RTS</text>
 </svg>
 `;
 
@@ -93,6 +106,8 @@ async function main() {
   await stripTools();
   await brandAssets();
   await stripOpenInAI();
+  await retargetAIExport();
+  await stripProStorefront();
   await simplifySearch();
   await stripNewBadges();
   await stripSponsors();
@@ -210,7 +225,7 @@ async function stripTools() {
 
   // Empties every nav that maps over TOOLS.
   await edit("constants/Tools.js", () =>
-    `// Tools removed for foxbits (see scripts/rebrand.ts). Every header, sidebar
+    `// Tools removed for PUDDL3 P4RTS (see scripts/rebrand.ts). Every header, sidebar
 // and mobile nav maps over this list, so an empty array clears them all.
 export const TOOLS = [];
 `);
@@ -229,7 +244,7 @@ export const TOOLS = [];
   // alongside the default export, so a stub that only covers the component
   // breaks the build.
   await edit("components/common/Preview/OpenInStudioButton.jsx", () =>
-    `// Background Studio was removed for foxbits. This keeps the same exports and
+    `// Background Studio was removed for PUDDL3 P4RTS. This keeps the same exports and
 // props so none of the 61 demos rendering it need to change.
 export const buildStudioUrl = () => null;
 
@@ -243,7 +258,7 @@ export default function OpenInStudioButton() {
   await edit("components/common/TabsLayout.jsx", (s) =>
     s.replace(
       /const studioButtonProps = contentMap\.PreviewTab\s*\n\s*\? findChildProps\(contentMap\.PreviewTab\.props\.children, OpenInStudioButton\)\s*\n\s*: null;/,
-      "const studioButtonProps = null; // Background Studio removed for foxbits",
+      "const studioButtonProps = null; // Background Studio removed for PUDDL3 P4RTS",
     ));
 
   // The desktop header renders a standalone Tools link and hover menu that do
@@ -261,11 +276,11 @@ export default function OpenInStudioButton() {
     s
       .replace(
         /const ToolsLinks = \(\{ onClose \}\) => \(/,
-        "const ToolsLinks = () => null; // Tools removed for foxbits\nconst _UnusedToolsLinks = ({ onClose }) => (",
+        "const ToolsLinks = () => null; // Tools removed for PUDDL3 P4RTS\nconst _UnusedToolsLinks = ({ onClose }) => (",
       )
       .replace(
         /\{\/\* Tools Section - after Pro \*\/\}\s*\n(\s*)\{i === 0 && \(/,
-        "{/* Tools section removed for foxbits */}\n$1{false && (",
+        "{/* Tools section removed for PUDDL3 P4RTS */}\n$1{false && (",
       ));
 }
 
@@ -376,7 +391,7 @@ async function stripPromo() {
     `import Navbar from '../landingnew/Navbar/Navbar';
 import Sidebar from '../../components/navs/Sidebar';
 
-// The upstream right rail (ProCard + SponsorsCard) is removed for foxbits.
+// The upstream right rail (ProCard + SponsorsCard) is removed for PUDDL3 P4RTS.
 // Dropping the <aside> alone is not enough — .category-wrapper reserves
 // --right-panel-width via padding-right, so that variable is zeroed in
 // gallery/src/demo.css or the preview stays pushed to the left.
@@ -422,7 +437,7 @@ export default LandingLoader;
 
   // Author credit under every component page. Keep the default export shape.
   await writeFile(join(VENDOR, "components/common/TabsFooter.jsx"),
-    `// Credit footer removed for the foxbits mirror; upstream attribution lives in
+    `// Credit footer removed for the PUDDL3 P4RTS mirror; upstream attribution lives in
 // the repository (vendor/reactbits is MIT + Commons Clause).
 const DemoFooter = () => null;
 
@@ -467,6 +482,82 @@ export default DemoFooter;
  * component off to external AI sites, which has no place in an offline mirror.
  * The copy items (prompt, markdown, install, source) stay.
  */
+/**
+ * The upstream Pro storefront is an upsell for a licence already owned and
+ * mirrored (the Deep zone). Three live surfaces carried it past the earlier
+ * strips: the /pro + /pro/:section + /showcase routes, the mobile drawer's
+ * ProLinks, and CategoryProFooter at the bottom of every component page.
+ * Pages stay on disk unreferenced (same policy as tools/).
+ */
+async function stripProStorefront() {
+  const app = join(VENDOR, "App.jsx");
+  let a = await readFile(app, "utf8");
+  const beforeA = a;
+  a = a.replace("import ProPage from './pages/ProPage';\n", "");
+  a = a.replace("import ProSectionPage from './pages/ProSectionPage';\n", "");
+  a = a.replace("import ShowcasePage from './pages/ShowcasePage';\n", "");
+  a = a.replace(`          <Route exact path="/showcase" element={<ShowcasePage />} />\n`, "");
+  a = a.replace(`          <Route exact path="/pro" element={<ProPage />} />\n`, "");
+  a = a.replace(
+    `          <Route
+            path="/pro/:section"
+            element={
+              <SidebarLayout hideProCard>
+                <ProSectionPage />
+              </SidebarLayout>
+            }
+          />\n`,
+    "",
+  );
+  if (a !== beforeA) await writeFile(app, a, "utf8");
+
+  const sidebar = join(VENDOR, "components/navs/Sidebar.jsx");
+  let s = await readFile(sidebar, "utf8");
+  if (!s.includes("_UnusedProLinks")) {
+    s = s.replace(
+      "const ProLinks = ({ onClose }) => (",
+      "const ProLinks = () => null; // Pro storefront removed for PUDDL3 P4RTS\nconst _UnusedProLinks = ({ onClose }) => (",
+    );
+    await writeFile(sidebar, s, "utf8");
+  }
+
+  const tabs = join(VENDOR, "components/common/TabsLayout.jsx");
+  let t = await readFile(tabs, "utf8");
+  const beforeT = t;
+  t = t.replace("import CategoryProFooter from './Pro/CategoryProFooter';\n", "");
+  t = t.replace(/\n *<CategoryProFooter category=\{category\} \/>\n/, "\n");
+  if (t !== beforeT) await writeFile(tabs, t, "utf8");
+}
+
+/**
+ * The AI-export prompts must speak OUR ecosystem (user, 2026-08-15 — "why does
+ * it say foxbits in this prompt"): SITE_ORIGIN becomes the live site (docs and
+ * source links resolve for real), and the compact prompt stops referencing
+ * upstream registry JSON — we don't serve /r/*.json, the Code tab is the source.
+ */
+async function retargetAIExport() {
+  const p = join(VENDOR, "utils/aiExport.js");
+  let s = await readFile(p, "utf8");
+  const before = s;
+  s = s.replace(
+    "const SITE_ORIGIN = 'https://reactbits.dev';",
+    "const SITE_ORIGIN = 'https://lakotafox.com/PUDDL3P4RTS'; // foxbits:own-origin",
+  );
+  s = s.replace(
+    /,\n    `Component source \+ dependencies \(JSON\): \$\{registryUrl\(componentName, language, style\)\}`/,
+    "",
+  );
+  s = s.replace(
+    "'Please fetch the registry JSON above for the exact source, install any listed dependencies, add the component to my project, and wire it into the right place.',",
+    "'Grab the exact source from the Code tab on the docs page above, install any listed dependencies, add the component to my project, and wire it into the right place.',",
+  );
+  s = s.replace(
+    "`If this is not the right component, the full library index is at ${SITE_ORIGIN}/llms.txt.`",
+    "`If this is not the right component, browse the full library at ${SITE_ORIGIN}.`",
+  );
+  if (s !== before) await writeFile(p, s, "utf8");
+}
+
 async function stripOpenInAI() {
   const hook = join(VENDOR, "hooks/useAIExportActions.js");
   let h = await readFile(hook, "utf8");

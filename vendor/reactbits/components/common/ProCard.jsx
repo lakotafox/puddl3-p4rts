@@ -103,7 +103,7 @@ const ProCard = () => {
         <div className="pro-card-glow" />
         <div className="pro-card-content">
           <span className="pro-card-badge">PRO</span>
-          <h3 className="pro-card-title">Get foxbits Pro</h3>
+          <h3 className="pro-card-title">Get PUDDL3 P4RTS Pro</h3>
           <p className="pro-card-desc">{PRO_SUMMARY}.</p>
           <div className="pro-card-cta">
             <span>Explore Pro</span>

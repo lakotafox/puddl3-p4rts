@@ -77,7 +77,7 @@ function DemoContent() {
                     alignItems: "center", justifyContent: "space-between", padding: "12px 20px",
                     borderRadius: 999, background: "rgba(255,255,255,.08)",
                     backdropFilter: "blur(12px)", border: "1px solid rgba(255,255,255,.12)" }}>
-        <strong style={{ fontSize: 15 }}>foxbits</strong>
+        <strong style={{ fontSize: 15 }}>PUDDL3 P4RTS</strong>
         <span style={{ display: "flex", gap: 20, alignItems: "center", fontSize: 14, opacity: .8 }}>
           Features About
           <span style={{ background: "#fff", color: "#000", padding: "7px 16px", borderRadius: 999, fontWeight: 600 }}>

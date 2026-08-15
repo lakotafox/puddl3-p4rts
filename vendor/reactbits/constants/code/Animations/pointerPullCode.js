@@ -7,7 +7,7 @@ export const pointerPull = {
   usage: `import PointerPull from './PointerPull'
 
 <PointerPull padding={50} disabled={false} magnetStrength={50}>
-  <p>Star foxbits on GitHub!</p>
+  <p>Star PUDDL3 P4RTS on GitHub!</p>
 </PointerPull>`,
   code,
   tailwind,

@@ -78,7 +78,7 @@ const SponsorsPage = () => {
   usePageSEO({
     title: 'PUDDL3 P4RTS - Sponsors',
     description:
-      'Sponsor foxbits and get your brand in front of 500K+ developers monthly. Simple monthly plans for Diamond, Platinum and Silver tiers.',
+      'Sponsor PUDDL3 P4RTS and get your brand in front of 500K+ developers monthly. Simple monthly plans for Diamond, Platinum and Silver tiers.',
     path: '/sponsors'
   });
 
@@ -95,7 +95,7 @@ const SponsorsPage = () => {
           <div className="sponsors-page-header-left">
             <h1 className="sponsors-page-title">Sponsors</h1>
             <p className="sponsors-page-subtitle">
-              Your support keeps foxbits free and open-source for developers everywhere.
+              Your support keeps PUDDL3 P4RTS free and open-source for developers everywhere.
             </p>
           </div>
           <a href="#sponsor-plans" className="sponsors-page-cta">

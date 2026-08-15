@@ -5,7 +5,7 @@
   "slug": "recipe-saas-homepage",
   "name": "recipe-saas-homepage",
   "title": "SaaS Homepage",
-  "description": "A tested 13-block arrangement that assembles a complete self-serve B2B SaaS homepage (navigation through footer) from React Bits Pro blocks in one prompt.",
+  "description": "A tested 13-block arrangement that assembles a complete self-serve B2B SaaS homepage (navigation through footer) from PUDDL3 P4RTS Deep blocks in one prompt.",
   "tags": [
     "recipe",
     "marketing",
@@ -69,7 +69,7 @@
   "license": {
     "spdx": "Proprietary",
     "redistributable": false,
-    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
   },
   "upstream": {
     "url": "https://pro.reactbits.dev/api/r/pro/recipe-saas-homepage.json",

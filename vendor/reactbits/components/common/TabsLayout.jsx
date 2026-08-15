@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import TabsFooter from './TabsFooter';
-import CategoryProFooter from './Pro/CategoryProFooter';
 
 import { Tabs, Icon, Flex, Tooltip, Box, Menu, Portal } from '@chakra-ui/react';
 import { FiCode, FiEye } from 'react-icons/fi';
@@ -76,7 +75,7 @@ function buildPrompt(componentName, codeObject, propData, lang, style) {
   const usage = codeObject.usage || '';
   const deps = codeObject.dependencies || '';
 
-  let prompt = `## Integrate the <${componentName} /> component from foxbits
+  let prompt = `## Integrate the <${componentName} /> component from PUDDL3 P4RTS
 
 You are helping integrate an open-source React component into an existing application.
 
@@ -124,8 +123,8 @@ ${css}
 ${css ? '3. Import the CSS file alongside the component.\n' : ''}${css ? '4' : '3'}. Import and render the component using the usage example above as a starting point.
 ${css ? '5' : '4'}. Adjust props as needed for the specific use case — refer to the props table for all available options.
 
-### More from foxbits
-The full library index, including everything reactbits.dev offers, is at https://reactbits.dev/llms.txt — fetch it if this component is not the right fit or the project needs more pieces.
+### More from PUDDL3 P4RTS
+The full library lives at https://lakotafox.com/PUDDL3P4RTS — browse it if this component is not the right fit or the project needs more pieces.
 `;
 
   return prompt;
@@ -192,7 +191,7 @@ const TabsLayout = ({ children, className }) => {
   // Extract codeObject/componentName from CodeExample child and propData from PropTable child
   const codeExampleProps = contentMap.CodeTab ? findChildProps(contentMap.CodeTab.props.children, CodeExample) : null;
   const propTableProps = contentMap.PreviewTab ? findChildProps(contentMap.PreviewTab.props.children, PropTable) : null;
-  const studioButtonProps = null; // Background Studio removed for foxbits
+  const studioButtonProps = null; // Background Studio removed for PUDDL3 P4RTS
 
   const navigate = useNavigate();
   const handleOpenStudio = useCallback(() => {
@@ -464,7 +463,6 @@ const TabsLayout = ({ children, className }) => {
         {contentMap.CodeTab}
       </Tabs.Content>
 
-      <CategoryProFooter category={category} />
 
       <TabsFooter />
     </Tabs.Root>

@@ -15,7 +15,7 @@ export const parallaxLift = {
   scrollEnd='bottom bottom-=40%'
   stagger={0.03}
 >
-  foxbits
+  PUDDL3 P4RTS
 </ParallaxLift>`,
   code,
   css,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T21:54:40.593Z",
+  "generatedAt": "2026-08-15T23:16:19.716Z",
   "counts": {
     "total": 876,
     "getlayers": 17,
@@ -92823,7 +92823,7 @@
       "slug": "recipe-agency-homepage",
       "name": "recipe-agency-homepage",
       "title": "Agency Homepage",
-      "description": "A tested 10-block arrangement that assembles a complete creative or technical studio homepage (positioning through enquiry) from React Bits Pro blocks in one prompt.",
+      "description": "A tested 10-block arrangement that assembles a complete creative or technical studio homepage (positioning through enquiry) from PUDDL3 P4RTS Deep blocks in one prompt.",
       "tags": [
         "recipe",
         "marketing",
@@ -92905,7 +92905,7 @@
       "slug": "recipe-product-launch",
       "name": "recipe-product-launch",
       "title": "Product Launch Page",
-      "description": "A tested block arrangement that assembles a full product-launch page from React Bits Pro blocks (announcement hero through waitlist capture) in one prompt.",
+      "description": "A tested block arrangement that assembles a full product-launch page from PUDDL3 P4RTS Deep blocks (announcement hero through waitlist capture) in one prompt.",
       "tags": [
         "recipe",
         "launch",
@@ -92986,7 +92986,7 @@
       "slug": "recipe-saas-homepage",
       "name": "recipe-saas-homepage",
       "title": "SaaS Homepage",
-      "description": "A tested 13-block arrangement that assembles a complete self-serve B2B SaaS homepage (navigation through footer) from React Bits Pro blocks in one prompt.",
+      "description": "A tested 13-block arrangement that assembles a complete self-serve B2B SaaS homepage (navigation through footer) from PUDDL3 P4RTS Deep blocks in one prompt.",
       "tags": [
         "recipe",
         "marketing",
@@ -112218,7 +112218,7 @@
       "slug": "skill",
       "name": "skill",
       "title": "React Bits Pro Skill",
-      "description": "Teach your agent to install and use React Bits Pro components and blocks correctly on the first try.",
+      "description": "Teach your agent to install and use PUDDL3 P4RTS Deep components and blocks correctly on the first try.",
       "tags": [
         "skill",
         "agent",

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Offline vault of UI components, blocks and templates",
-  "comment": "Component dependencies live at the repo root, not in gallery/, because vault files import them from outside gallery's tree — Node resolution walks up from the vault, so it must find them here.",
+  "comment": "Component dependencies live at the repo root, not in gallery/, because vault files import them from outside gallery's tree \u2014 Node resolution walks up from the vault, so it must find them here.",
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^3.20.0",
@@ -55,5 +55,8 @@
   },
   "devDependencies": {
     "playwright": "^1.62.1"
+  },
+  "bin": {
+    "p4rts": "src/cli/main.ts"
   }
 }

@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
-// react-bits' own app, vendored verbatim and rebranded to foxbits. Running their
+// react-bits' own app, vendored verbatim and rebranded to PUDDL3 P4RTS. Running their
 // real App means the sidebar, category routes, search, Customize panels and prop
 // tables are the genuine article rather than a lookalike.
 import App from "@/App";

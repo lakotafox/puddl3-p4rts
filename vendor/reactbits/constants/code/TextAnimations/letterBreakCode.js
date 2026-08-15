@@ -1,4 +1,4 @@
-// Fun fact: this is the first component ever made for foxbits!
+// Fun fact: this is the first component ever made for PUDDL3 P4RTS!
 import code from '@content/TextAnimations/LetterBreak/LetterBreak.jsx?raw';
 import tailwind from '@tailwind/TextAnimations/LetterBreak/LetterBreak.jsx?raw';
 import tsCode from '@ts-default/TextAnimations/LetterBreak/LetterBreak.tsx?raw';

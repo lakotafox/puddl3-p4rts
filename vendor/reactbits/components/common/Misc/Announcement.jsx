@@ -90,14 +90,14 @@ const Announcement = () => {
           const file = new File([blob], 'vue-bits.jpg', { type: 'image/jpeg' });
 
           await navigator.share({
-            title: 'Vue Bits - Official Vue Port of foxbits',
+            title: 'Vue Bits - Official Vue Port of PUDDL3 P4RTS',
             text: shareText,
             files: [file]
           });
         } catch (error) {
           try {
             await navigator.share({
-              title: 'Vue Bits - Official Vue Port of foxbits',
+              title: 'Vue Bits - Official Vue Port of PUDDL3 P4RTS',
               text: shareText,
               url: window.location.origin
             });

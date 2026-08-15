@@ -5,7 +5,7 @@
   "slug": "recipe-product-launch",
   "name": "recipe-product-launch",
   "title": "Product Launch Page",
-  "description": "A tested block arrangement that assembles a full product-launch page from React Bits Pro blocks (announcement hero through waitlist capture) in one prompt.",
+  "description": "A tested block arrangement that assembles a full product-launch page from PUDDL3 P4RTS Deep blocks (announcement hero through waitlist capture) in one prompt.",
   "tags": [
     "recipe",
     "launch",
@@ -69,7 +69,7 @@
   "license": {
     "spdx": "Proprietary",
     "redistributable": false,
-    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
   },
   "upstream": {
     "url": "https://pro.reactbits.dev/api/r/pro/recipe-product-launch.json",

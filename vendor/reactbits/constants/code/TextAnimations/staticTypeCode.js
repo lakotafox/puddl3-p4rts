@@ -13,7 +13,7 @@ export const staticType = {
   enableOnHover={true}
   className='custom-class'
 >
-  foxbits
+  PUDDL3 P4RTS
 </StaticType>`,
   code,
   css,

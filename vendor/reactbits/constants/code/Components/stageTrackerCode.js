@@ -18,7 +18,7 @@ export const stageTracker = {
   nextButtonText="Next"
 >
   <Step>
-    <h2>Welcome to the foxbits stageTracker!</h2>
+    <h2>Welcome to the PUDDL3 P4RTS stageTracker!</h2>
     <p>Check out the next step!</p>
   </Step>
   <Step>

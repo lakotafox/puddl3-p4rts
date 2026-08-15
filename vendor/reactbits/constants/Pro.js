@@ -53,9 +53,9 @@ export const PRO_SECTIONS = [
     tagline: 'Animated React components, the full set',
     description:
       'Shaders, cursor effects, galleries and text animations, in Tailwind or vanilla CSS. One CLI command drops the real source into your project.',
-    seoTitle: 'foxbits Pro - Animated React Components',
+    seoTitle: 'PUDDL3 P4RTS Pro - Animated React Components',
     seoDescription:
-      'Browse every animated React component in foxbits Pro. Shader effects, custom cursors, galleries, 3D text and more, with Tailwind and CSS variants.',
+      'Browse every animated React component in PUDDL3 P4RTS Pro. Shader effects, custom cursors, galleries, 3D text and more, with Tailwind and CSS variants.',
     proPath: '/docs/components'
   },
   {
@@ -73,9 +73,9 @@ export const PRO_SECTIONS = [
     tagline: 'Full page sections, ready to ship',
     description:
       'Heroes, pricing, FAQs, footers and every other section a landing page needs, each a single editable file. A full page is a few minutes of work.',
-    seoTitle: 'foxbits Pro - React UI Blocks & Page Sections',
+    seoTitle: 'PUDDL3 P4RTS Pro - React UI Blocks & Page Sections',
     seoDescription:
-      'Browse React UI blocks from foxbits Pro: hero sections, pricing tables, FAQs, footers, auth screens and more, each in multiple ready-to-ship variants.',
+      'Browse React UI blocks from PUDDL3 P4RTS Pro: hero sections, pricing tables, FAQs, footers, auth screens and more, each in multiple ready-to-ship variants.',
     proPath: '/docs/blocks'
   },
   {
@@ -94,9 +94,9 @@ export const PRO_SECTIONS = [
     tagline: 'The interface layer for real products',
     description:
       'Dashboards, data tables, AI chat, forms, overlays and auth flows. Shared theme tokens restyle every screen at once, so they land looking like your product.',
-    seoTitle: 'foxbits Pro - React App UI, Dashboards & AI Interfaces',
+    seoTitle: 'PUDDL3 P4RTS Pro - React App UI, Dashboards & AI Interfaces',
     seoDescription:
-      'Dashboards, data tables, AI chat interfaces, forms, overlays and auth flows for React apps, from foxbits Pro.',
+      'Dashboards, data tables, AI chat interfaces, forms, overlays and auth flows for React apps, from PUDDL3 P4RTS Pro.',
     proPath: '/docs/app-ui'
   },
   {
@@ -110,9 +110,9 @@ export const PRO_SECTIONS = [
     tagline: 'Complete sites, ready to deploy',
     description:
       'Full multi-page Next.js templates, wired end to end. Download the project, swap the copy, deploy. The Portfolio template is free.',
-    seoTitle: 'foxbits Pro - React & Next.js Website Templates',
+    seoTitle: 'PUDDL3 P4RTS Pro - React & Next.js Website Templates',
     seoDescription:
-      'Complete React and Next.js templates from foxbits Pro: SaaS, agency, portfolio, finance, AI and security sites, with live previews. One template is free.',
+      'Complete React and Next.js templates from PUDDL3 P4RTS Pro: SaaS, agency, portfolio, finance, AI and security sites, with live previews. One template is free.',
     proPath: '/docs/templates'
   },
   {
@@ -128,7 +128,7 @@ export const PRO_SECTIONS = [
     tagline: 'Give your AI agent real design taste',
     description:
       'Skills that teach Claude Code, Cursor and Copilot to build pages that look designed. They autoload once installed, so asking for the style is enough.',
-    seoTitle: 'foxbits Pro - Agent Kit for Claude Code, Cursor & Copilot',
+    seoTitle: 'PUDDL3 P4RTS Pro - Agent Kit for Claude Code, Cursor & Copilot',
     seoDescription:
       'Design skills, prompts and recipes that teach AI coding agents to build well-designed React pages. Works with Claude Code, Cursor and Copilot. Includes a free skill.',
     proPath: '/docs/agent-kit'
@@ -140,7 +140,7 @@ export const PRO_SECTION_MAP = Object.fromEntries(PRO_SECTIONS.map(s => [s.slug,
 /** Objection-handling FAQ for the Pro hub. Ordered by how often each one blocks a purchase. */
 export const PRO_FAQ = [
   {
-    q: 'Is the free foxbits going away?',
+    q: 'Is the free PUDDL3 P4RTS going away?',
     a: 'No. Every component on this site stays free, open source and maintained. Pro is a separate library that sits on top of it, and it is what funds the free one.'
   },
   {
@@ -206,7 +206,7 @@ export const PRO_TESTIMONIALS = [
   {
     handle: '@MajorBaguette',
     avatar: 'https://pbs.twimg.com/profile_images/1671069355872796677/l5NFDO8o_400x400.png',
-    text: 'A product so well crafted that it becomes an instant classic in your stack? My last one is foxbits.',
+    text: 'A product so well crafted that it becomes an instant classic in your stack? My last one is PUDDL3 P4RTS.',
     url: 'https://x.com/MajorBaguette/status/1968616151421776293'
   },
   {
@@ -218,7 +218,7 @@ export const PRO_TESTIMONIALS = [
   {
     handle: '@MaartenSlebos',
     avatar: 'https://pbs.twimg.com/profile_images/2082020722793197568/_n43BeHN_400x400.jpg',
-    text: 'I start from a template and customize it with my agents using the foxbits skill. Makes my life so much easier.',
+    text: 'I start from a template and customize it with my agents using the PUDDL3 P4RTS skill. Makes my life so much easier.',
     url: 'https://x.com/MaartenSlebos'
   },
   {
@@ -236,13 +236,13 @@ export const PRO_TESTIMONIALS = [
   {
     handle: '@justine_chang39',
     avatar: 'https://pbs.twimg.com/profile_images/2038292993556533248/p5lPVFXv_400x400.jpg',
-    text: '@davidhdev is cooking some of the most beautiful components I have ever seen with foxbits.',
+    text: '@davidhdev is cooking some of the most beautiful components I have ever seen with PUDDL3 P4RTS.',
     url: 'https://x.com/justine_chang39/status/1968195651457724550'
   },
   {
     handle: '@theorcdev',
     avatar: 'https://pbs.twimg.com/profile_images/1756766826736893952/6Gvg6jha_400x400.jpg',
-    text: "If you haven't seen foxbits yet, you need to. David is grinding harder than any warrior you've seen before.",
+    text: "If you haven't seen PUDDL3 P4RTS yet, you need to. David is grinding harder than any warrior you've seen before.",
     url: 'https://x.com/theorcdev/status/1963881697205715128'
   },
   {
@@ -260,7 +260,7 @@ export const PRO_TESTIMONIALS = [
   {
     handle: '@GibsonSMurray',
     avatar: 'https://pbs.twimg.com/profile_images/2072160805710143488/J0uL0tQ1_400x400.jpg',
-    text: 'foxbits has got to be the most artistic component lib I have seen in a while 🤌',
+    text: 'PUDDL3 P4RTS has got to be the most artistic component lib I have seen in a while 🤌',
     url: 'https://x.com/GibsonSMurray/status/1889909058838339626'
   },
   {

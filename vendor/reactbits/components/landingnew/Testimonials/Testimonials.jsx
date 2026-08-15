@@ -17,13 +17,13 @@ const TWEETS = [
   {
     handle: '@GibsonSMurray',
     avatar: 'https://pbs.twimg.com/profile_images/1724192049002340352/-tood-4D_400x400.jpg',
-    text: 'foxbits has got to be the most artistic ui component lib I have seen in a while 🤌',
+    text: 'PUDDL3 P4RTS has got to be the most artistic ui component lib I have seen in a while 🤌',
     url: 'https://x.com/GibsonSMurray/status/1889909058838339626'
   },
   {
     handle: '@orcdev',
     avatar: 'https://pbs.twimg.com/profile_images/1756766826736893952/6Gvg6jha_400x400.jpg',
-    text: "foxbits has become the ultimate visual animation library for React. This level of flexibility doesn't exist anywhere else.",
+    text: "PUDDL3 P4RTS has become the ultimate visual animation library for React. This level of flexibility doesn't exist anywhere else.",
     url: 'https://x.com/orcdev/status/2005627805938422123'
   },
   {
@@ -47,7 +47,7 @@ const TWEETS = [
   {
     handle: '@irohandev',
     avatar: 'https://pbs.twimg.com/profile_images/1920165535351742464/CJU2uWMU_400x400.jpg',
-    text: 'Got to know about foxbits and its just wow, the components are incredibly well designed! Really loved the overall feel and quality.',
+    text: 'Got to know about PUDDL3 P4RTS and its just wow, the components are incredibly well designed! Really loved the overall feel and quality.',
     url: 'https://x.com/irohandev/status/1934877463064268822'
   },
   {

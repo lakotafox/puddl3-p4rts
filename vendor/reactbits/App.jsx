@@ -9,10 +9,7 @@ import SidebarLayout from './components/layout/SidebarLayout';
 import LandingIntro from './pages/LandingIntro';
 import LibraryHome from './pages/LibraryHome';
 import CategoryPage from './pages/CategoryPage';
-import ShowcasePage from './pages/ShowcasePage';
 import FavoritesPage from './pages/FavoritesPage';
-import ProPage from './pages/ProPage';
-import ProSectionPage from './pages/ProSectionPage';
 
 function AppContent() {
   return (
@@ -26,16 +23,6 @@ function AppContent() {
             element={
               <SidebarLayout>
                 <LibraryHome />
-              </SidebarLayout>
-            }
-          />
-          <Route exact path="/showcase" element={<ShowcasePage />} />
-          <Route exact path="/pro" element={<ProPage />} />
-          <Route
-            path="/pro/:section"
-            element={
-              <SidebarLayout hideProCard>
-                <ProSectionPage />
               </SidebarLayout>
             }
           />

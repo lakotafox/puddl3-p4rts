@@ -5,7 +5,7 @@
   "slug": "recipe-agency-homepage",
   "name": "recipe-agency-homepage",
   "title": "Agency Homepage",
-  "description": "A tested 10-block arrangement that assembles a complete creative or technical studio homepage (positioning through enquiry) from React Bits Pro blocks in one prompt.",
+  "description": "A tested 10-block arrangement that assembles a complete creative or technical studio homepage (positioning through enquiry) from PUDDL3 P4RTS Deep blocks in one prompt.",
   "tags": [
     "recipe",
     "marketing",
@@ -70,7 +70,7 @@
   "license": {
     "spdx": "Proprietary",
     "redistributable": false,
-    "note": "React Bits Pro (Ultimate) — licensed to this user. Do not redistribute."
+    "note": "React Bits Pro (Ultimate) \u2014 licensed to this user. Do not redistribute."
   },
   "upstream": {
     "url": "https://pro.reactbits.dev/api/r/pro/recipe-agency-homepage.json",

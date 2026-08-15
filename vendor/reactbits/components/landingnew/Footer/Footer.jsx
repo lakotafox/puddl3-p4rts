@@ -20,7 +20,7 @@ const Footer = () => (
     >
       <div className="ln-footer-top">
         <div className="ln-footer-brand">
-          <img src={FoxBitsLogo} alt="foxbits" className="ln-footer-logo" />
+          <img src={FoxBitsLogo} alt="PUDDL3 P4RTS" className="ln-footer-logo" />
           <p className="ln-footer-tagline">
             Animated UI components for React.
           </p>
@@ -54,7 +54,7 @@ const Footer = () => (
             <Link to="/pro/blocks" className="ln-footer-link">Pro Blocks</Link>
             <Link to="/pro/templates" className="ln-footer-link">Pro Templates</Link>
             <a {...proLinkProps('/', 'footer')} className="ln-footer-link">
-              Get foxbits Pro
+              Get PUDDL3 P4RTS Pro
             </a>
           </div>
         </nav>
@@ -62,7 +62,7 @@ const Footer = () => (
 
       <div className="ln-footer-bottom">
         <p className="ln-footer-copy">
-          © {new Date().getFullYear()} foxbits ·{' '}
+          © {new Date().getFullYear()} PUDDL3 P4RTS ·{' '}
           <a
             href="https://github.com/DavidHDev/react-bits/blob/main/LICENSE.md"
             target="_blank"

@@ -147,7 +147,8 @@ const MobileHeader = ({ onSearchClick, onSponsorsClick, onMenuClick }) => (
 );
 
 // ─── Pro Configuration ───────────────────────────────────────────────────────
-const ProLinks = ({ onClose }) => (
+const ProLinks = () => null; // Pro storefront removed for PUDDL3 P4RTS
+const _UnusedProLinks = ({ onClose }) => (
   <>
     <Text className="sidebar-pro-name" mb={3}>
       Pro
@@ -172,7 +173,7 @@ const ProLinks = ({ onClose }) => (
 );
 
 // ─── Tools Configuration ─────────────────────────────────────────────────────
-const ToolsLinks = () => null; // Tools removed for foxbits
+const ToolsLinks = () => null; // Tools removed for PUDDL3 P4RTS
 const _UnusedToolsLinks = ({ onClose }) => (
   <>
     <Separator my={4} />
@@ -625,7 +626,7 @@ const Sidebar = () => {
                   </Box>
                 )}
 
-                {/* Tools section removed for foxbits */}
+                {/* Tools section removed for PUDDL3 P4RTS */}
                 {false && (
                   <Box>
                     <Text className="category-name" mb={2} mt={4}>

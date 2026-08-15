@@ -9,7 +9,7 @@ export const momentumMarquee = {
   usage: `import MomentumMarquee from './MomentumMarquee';
   
 <MomentumMarquee
-  texts={['foxbits', 'Scroll Down']} 
+  texts={['PUDDL3 P4RTS', 'Scroll Down']} 
   velocity={velocity} 
   className="custom-scroll-text"
 />`,

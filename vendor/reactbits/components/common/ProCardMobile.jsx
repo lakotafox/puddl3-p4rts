@@ -5,13 +5,13 @@ import './ProCardMobile.css';
 
 const ProCardMobile = () => {
   return (
-    <a {...proLinkProps('/', 'mobile-bar')} className="pro-mobile-bar" aria-label="Get foxbits Pro">
+    <a {...proLinkProps('/', 'mobile-bar')} className="pro-mobile-bar" aria-label="Get PUDDL3 P4RTS Pro">
       <span className="pro-mobile-bar-badge">
         <LuSparkles size={11} />
         NEW
       </span>
       <span className="pro-mobile-bar-text">
-        <strong>foxbits Pro</strong>
+        <strong>PUDDL3 P4RTS Pro</strong>
         <span className="pro-mobile-bar-sub">{PRO_COUNTS.total} pieces, one-time payment</span>
       </span>
       <span className="pro-mobile-bar-cta">
