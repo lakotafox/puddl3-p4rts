@@ -77,11 +77,22 @@ function getlayersAssets() {
           sendFile(res, p, req.headers.range);
         }
       });
-      // template public/ assets by Referer ?t=
+      // namespaced template assets: /t/<name>/* → that template's files/public
+      server.middlewares.use((req: any, res: any, next: any) => {
+        const um = decodeURIComponent((req.url ?? "").split("?")[0]).match(/^\/t\/([a-z0-9-]+)\/(.+)$/);
+        if (!um) return next();
+        const p = resolve(GL, "templates", um[1]!, "files/public", um[2]!);
+        if (existsSync(p) && statSync(p).isFile()) { sendFile(res, p, req.headers.range); return; }
+        next();
+      });
+      // template public/ assets by Referer ?t= (legacy fallback)
       server.middlewares.use((req: any, res: any, next: any) => {
         const url = decodeURIComponent((req.url ?? "").split("?")[0]);
         if (!/\.(webp|png|jpe?g|gif|svg|mp4|webm|glb|gltf|hdr|woff2?|ttf|json|bin|ktx2|js|mjs|wasm|mp3)$/i.test(url)) return next();
-        if (url.startsWith("/vault/") || url.startsWith("/@") || url.startsWith("/src/") || url.startsWith("/assets/")) return next();
+        if (url.startsWith("/vault/") || url.startsWith("/@") || url.startsWith("/src/")) return next();
+        // the gallery's own public assets win; template /assets/* only serve
+        // when the gallery doesn't have that file (both use "/assets/…")
+        if (existsSync(resolve(import.meta.dirname, "public", "." + url))) return next();
         const ref = req.headers.referer ?? "";
         const m = ref.match(/[?&]t=([a-z0-9-]+)/i);
         const candidates: string[] = m ? [m[1]!] : [];

@@ -69,7 +69,7 @@ export const Preloader = () => {
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/assets/logo.svg"
+        src="/t/lumen/assets/logo.svg"
         alt="PUDDL3"
         width={84}
         height={29}

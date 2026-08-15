@@ -57,25 +57,14 @@ export const TEMPLATE_INDEX = ${JSON.stringify(index, null, 2)};
   comp += `\n${START}\n${lines.join("\n")}\n${END}\n`;
   await writeFile(compPath, comp, "utf8");
 
-  // ── zone: fold into SECTION_CATEGORIES (add-pro generates it empty) ──────
-  const proCat = join(VENDOR, "constants/ProCatalog.js");
-  let pc = await readFile(proCat, "utf8");
-  if (pc.includes("export const SECTION_CATEGORIES = [];")) {
-    pc = pc.replace("export const SECTION_CATEGORIES = [];",
-      "import { TEMPLATE_CATEGORIES } from './TemplatesCatalog';\nexport const SECTION_CATEGORIES = TEMPLATE_CATEGORIES;");
-    await writeFile(proCat, pc, "utf8");
+  // ── Templates rides the ONE sidebar as a normal (collapsible) category ───
+  const catPath = join(VENDOR, "constants/Categories.js");
+  let cat = stripBlock(await readFile(catPath, "utf8"));
+  if (!cat.includes("TEMPLATE_CATEGORIES")) {
+    cat = `import { TEMPLATE_CATEGORIES } from './TemplatesCatalog';\n` + cat;
   }
-
-  // ── navbar: TEMPLATES ↔ LIBRARY links next to DOCS ───────────────────────
-  const nav = join(VENDOR, "components/landingnew/Navbar/Navbar.jsx");
-  let n = await readFile(nav, "utf8");
-  if (!n.includes("/templates/")) {
-    n = n.replace(
-      /(<button className="ln-navbar-icon-btn ln-navbar-search-btn")/,
-      `<Link to="/templates/${gl[0]?.slug ?? ""}" className="ln-navbar-link">TEMPLATES</Link>\n              $1`,
-    );
-    await writeFile(nav, n, "utf8");
-  }
+  cat += `\n${START}\nCATEGORIES.push(...TEMPLATE_CATEGORIES);\n${END}\n`;
+  await writeFile(catPath, cat, "utf8");
 
   // ── per-template tailwind wrappers for the stage ─────────────────────────
   const cssDir = join(HOME, "gallery/src/template-css");

@@ -164,8 +164,7 @@ export const PRO_CATEGORIES = [
 ];
 
 // Pre-built sections (blocks) + Agent Kit — a separate zone from the library.
-import { TEMPLATE_CATEGORIES } from './TemplatesCatalog';
-export const SECTION_CATEGORIES = TEMPLATE_CATEGORIES;
+export const SECTION_CATEGORIES = [];
 
 export const PRO_INDEX = {
   "atlas": {

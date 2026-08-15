@@ -350,11 +350,25 @@ const Category = memo(
       [category.name, category.subcategories, location.pathname, pendingActivePath, savedSet]
     );
 
+    // Collapsible sections (user, 2026-08-15): a category opens when it holds
+    // the active route; the heading toggles it manually.
+    const containsActive = items.some(it => it.isActive);
+    const [manualOpen, setManualOpen] = useState(null);
+    const open = manualOpen === null ? containsActive : manualOpen;
+
     return (
       <Box>
-        <Text className="category-name" mb={2} mt={isFirstCategory ? 0 : 4}>
+        <Text
+          className="category-name"
+          mb={2}
+          mt={isFirstCategory ? 0 : 4}
+          onClick={() => setManualOpen(!open)}
+          style={{ cursor: 'pointer', userSelect: 'none' }}
+        >
+          <span style={{ display: 'inline-block', width: 14, opacity: 0.55, fontSize: 11 }}>{open ? '▾' : '▸'}</span>
           {category.name}
         </Text>
+        {open && (
         <Stack spacing={0.5} pl={4} borderLeft="1px solid #2F293A" position="relative">
           {items.map(({ sub, path, isActive, isNew, isUpdated, isFavorited }) => (
             <Link
@@ -378,6 +392,7 @@ const Category = memo(
             </Link>
           ))}
         </Stack>
+        )}
       </Box>
     );
   }

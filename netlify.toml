@@ -1,0 +1,12 @@
+[build]
+  publish = "gallery/dist"
+
+[[edge_functions]]
+  path = "/*"
+  function = "auth"
+
+# SPA fallback — real files win because these are non-forced
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -22,5 +22,5 @@ export const heroContent: HeroContent = {
     { label: "How it works", href: "#how-it-works", variant: "ghost" },
   ],
   outro: { lead: "The end of", trail: "the two-week wait" },
-  card: { src: "/assets/card.png", alt: "PUDDL3 cash-out card" },
+  card: { src: "/t/lumen/assets/card.png", alt: "PUDDL3 cash-out card" },
 };

@@ -127,6 +127,9 @@ async function stripLanding() {
   n = n.replace(/,?\s*\{ label: 'Sponsors', to: '\/sponsors', match: '\/sponsors' \}/, "");
   // the whole storefront cluster renders under {!showDocs && …} — one block
   n = n.replace(/\{!showDocs && \(\s*<>\s*<a\s*\{\.\.\.proLinkProps\('\/', 'navbar'\)\}[\s\S]*?COMMUNITY <span className="ln-navbar-soon">SOON<\/span>\s*<\/span>\s*<\/>\s*\)\}/, "");
+  // github icon in the lakotafox button → the fox mark (user, 2026-08-15)
+  n = n.replace('<FaGithub size={16} color="#fff" />',
+    `<svg width="16" height="16" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="\${FOX_HEAD}" fill="#ff8c1a" fillRule="evenodd" /></svg>`);
   // the person-icon Preferences hover menu (JS/TS + CSS/TW presets + Favorites
   // link) — redundant with the per-page Code tab switchers (user, 2026-08-15)
   n = n.replace(/\n\s*<div className="ln-navbar-prefs-wrapper"[\s\S]*?\n              <\/div>\n(?=\s*<\/>)/, "\n");

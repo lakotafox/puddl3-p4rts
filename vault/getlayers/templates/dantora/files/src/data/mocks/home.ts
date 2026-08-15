@@ -151,14 +151,14 @@ export const WHY_CONTENT: WhyContent = {
     { label: "How it works", href: "#about" },
   ],
   trailImages: [
-    "/assets/Why Dantora/01.png",
-    "/assets/Why Dantora/02.png",
-    "/assets/Why Dantora/03.png",
-    "/assets/Why Dantora/04.png",
-    "/assets/Why Dantora/05.png",
-    "/assets/Why Dantora/06.png",
-    "/assets/Why Dantora/07.png",
-    "/assets/Why Dantora/08.png",
+    "/t/dantora/assets/Why Dantora/01.png",
+    "/t/dantora/assets/Why Dantora/02.png",
+    "/t/dantora/assets/Why Dantora/03.png",
+    "/t/dantora/assets/Why Dantora/04.png",
+    "/t/dantora/assets/Why Dantora/05.png",
+    "/t/dantora/assets/Why Dantora/06.png",
+    "/t/dantora/assets/Why Dantora/07.png",
+    "/t/dantora/assets/Why Dantora/08.png",
   ],
 };
 
@@ -179,7 +179,7 @@ export const SERVICE_CARDS: readonly ServiceCard[] = [
   {
     index: "02",
     title: "Same-Day Imaging",
-    image: "/assets/Our Services/01.png",
+    image: "/t/dantora/assets/Our Services/01.png",
     cta: "Discover",
     variant: "photo",
   },
@@ -192,14 +192,14 @@ export const SERVICE_CARDS: readonly ServiceCard[] = [
   {
     index: "04",
     title: "24/7 Laboratory",
-    image: "/assets/Our Services/02.png",
+    image: "/t/dantora/assets/Our Services/02.png",
     cta: "Discover",
     variant: "photo",
   },
   {
     index: "05",
     title: "Specialist Care",
-    image: "/assets/Our Services/03.png",
+    image: "/t/dantora/assets/Our Services/03.png",
     cta: "Discover",
     variant: "photo",
   },
@@ -209,7 +209,7 @@ export const ABOUT_CONTENT: AboutContent = {
   eyebrow: "About the clinic",
   // Extracted from Figma node 1546:163 — the wide theatre shot the mockup uses,
   // which was not among the supplied photo folders.
-  bannerImage: "/assets/About/banner.png",
+  bannerImage: "/t/dantora/assets/About/banner.png",
   stats: [
     { value: "98%", label: "Patients seen on time" },
     { value: "4h", label: "Median lab turnaround" },
@@ -250,27 +250,27 @@ export const TEAM_CONTENT: TeamContent = {
     {
       name: "Marcus Oyelaran",
       role: "Cardiologist",
-      image: "/assets/Our Team/01.png",
+      image: "/t/dantora/assets/Our Team/01.png",
     },
     {
       name: "Ingrid Halvorsen",
       role: "Radiologist",
-      image: "/assets/Our Team/02.png",
+      image: "/t/dantora/assets/Our Team/02.png",
     },
     {
       name: "Dario Ferretto",
       role: "Medical Geneticist",
-      image: "/assets/Our Team/03.png",
+      image: "/t/dantora/assets/Our Team/03.png",
     },
     {
       name: "Tomas Reiner",
       role: "Endocrinologist",
-      image: "/assets/Our Team/04.png",
+      image: "/t/dantora/assets/Our Team/04.png",
     },
     {
       name: "Sofia Andrade",
       role: "Neurologist",
-      image: "/assets/Our Team/05.png",
+      image: "/t/dantora/assets/Our Team/05.png",
     },
   ],
   more: {

@@ -139,7 +139,6 @@ const Navbar = ({ showDocs }) => {
         <div className="ln-navbar-right">
           {showDocs && (
             <>
-              <Link to="/templates/ai-studio" className="ln-navbar-link">TEMPLATES</Link>
               <button className="ln-navbar-icon-btn ln-navbar-search-btn" onClick={toggleSearch} aria-label="Search">
                 <LuSearch size={15} />
                 <span className="ln-navbar-search-text">Search...</span>
@@ -151,7 +150,7 @@ const Navbar = ({ showDocs }) => {
           
 
           <a className="ln-navbar-github" href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
-            <FaGithub size={16} color="#fff" />
+            <svg width="16" height="16" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 29 L3 13 L6 3 L13 8.5 L16 10 L19 8.5 L26 3 L29 13 Z M9.5 14.5 L14 14.5 L11.75 19 Z M18 14.5 L22.5 14.5 L20.25 19 Z" fill="#ff8c1a" fillRule="evenodd" /></svg>
             <span>{formattedStars}</span>
           </a>
 

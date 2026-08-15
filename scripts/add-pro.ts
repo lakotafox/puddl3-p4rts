@@ -379,7 +379,7 @@ async function patchZones() {
 async function patchCli() {
   const p = join(VENDOR, "utils/cli.js");
   let s = await readFile(p, "utf8");
-  if (s.includes("foxbits:pro-cli")) return;
+  if (s.includes("foxbits:pro-cli") || s.includes("foxbits:own-ecosystem")) return;
   s = s.replace(
     "export const generateCliCommands = (language, style, category, subcategory, dependencies = '') => {\n  if (!category || !subcategory) return null;",
     `export const generateCliCommands = (language, style, category, subcategory, dependencies = '') => {
