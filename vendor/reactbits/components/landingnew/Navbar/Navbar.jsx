@@ -24,6 +24,7 @@ const Navbar = ({ showDocs }) => {
   const stars = useStars();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openCat, setOpenCat] = useState(null); // p4rts-mobile-accordion
   const [prefsOpen, setPrefsOpen] = useState(false);
   const linksRef = useRef(null);
   const highlightRef = useRef(null);
@@ -193,12 +194,21 @@ const Navbar = ({ showDocs }) => {
               <div className="ln-navbar-mobile-backdrop" onClick={() => setMenuOpen(false)} />
               <div className="ln-navbar-mobile-menu ln-navbar-mobile-menu-docs">
                 <div className="ln-navbar-mobile-scroll">
-                  {CATEGORIES.map((cat, i) => {
+                  {CATEGORIES.map(cat => {
                     const slug = str => str.replace(/\s+/g, '-').toLowerCase();
+                    const open = openCat === cat.name;
                     return (
                       <div className="ln-navbar-mobile-section" key={cat.name}>
-                        <span className="ln-navbar-mobile-label">{cat.name}</span>
-                        {cat.subcategories.map(sub => (
+                        <button
+                          type="button"
+                          className={`ln-navbar-mobile-label ln-navbar-mobile-acc${open ? ' is-open' : ''}`}
+                          aria-expanded={open}
+                          onClick={() => setOpenCat(open ? null : cat.name)}
+                        >
+                          {cat.name}
+                          <span className="ln-navbar-mobile-acc-chev" aria-hidden="true">▾</span>
+                        </button>
+                        {open && cat.subcategories.map(sub => (
                           <Link
                             key={sub}
                             className="ln-navbar-mobile-link"
@@ -208,42 +218,6 @@ const Navbar = ({ showDocs }) => {
                             {sub}
                           </Link>
                         ))}
-                        {false && ( /* Pro/Tools mobile groups removed for PUDDL3 P4RTS */
-                          <>
-                            {/* Mirrors the desktop sidebar, where Pro sits directly
-                                below Get Started and above Tools. */}
-                            <span className="ln-navbar-mobile-label" style={{ marginTop: 12 }}>
-                              Pro
-                            </span>
-                            <Link className="ln-navbar-mobile-link" to="/pro" onClick={() => setMenuOpen(false)}>
-                              Overview
-                            </Link>
-                            {PRO_SECTIONS.map(section => (
-                              <Link
-                                key={section.slug}
-                                className="ln-navbar-mobile-link"
-                                to={`/pro/${section.slug}`}
-                                onClick={() => setMenuOpen(false)}
-                              >
-                                {section.label}
-                              </Link>
-                            ))}
-
-                            <span className="ln-navbar-mobile-label" style={{ marginTop: 12 }}>
-                              Tools
-                            </span>
-                            {TOOLS.map(tool => (
-                              <Link
-                                key={tool.id}
-                                className="ln-navbar-mobile-link"
-                                to={tool.path}
-                                onClick={() => setMenuOpen(false)}
-                              >
-                                {tool.label}
-                              </Link>
-                            ))}
-                          </>
-                        )}
                       </div>
                     );
                   })}

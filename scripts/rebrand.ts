@@ -538,6 +538,59 @@ async function stripProStorefront() {
     "{false && ( /* Pro/Tools mobile groups removed for PUDDL3 P4RTS */\n                          <>\n                            {/* Mirrors the desktop sidebar",
   );
   if (n !== beforeN) await writeFile(nav, n, "utf8");
+
+  await mobileMenuAccordion();
+}
+
+/**
+ * Mobile mega-menu → accordion (user, 2026-08-16): every category rendered
+ * fully expanded made the hamburger menu enormous. Category labels become
+ * tap-to-expand buttons, one section open at a time, all collapsed on open.
+ * Styling for .ln-navbar-mobile-acc lives in gallery/src/demo.css (ours).
+ */
+async function mobileMenuAccordion() {
+  const nav = join(VENDOR, "components/landingnew/Navbar/Navbar.jsx");
+  let n = await readFile(nav, "utf8");
+  if (n.includes("p4rts-mobile-accordion")) return;
+
+  n = n.replace(
+    "const [menuOpen, setMenuOpen] = useState(false);",
+    "const [menuOpen, setMenuOpen] = useState(false);\n  const [openCat, setOpenCat] = useState(null); // p4rts-mobile-accordion",
+  );
+
+  // Replace the whole CATEGORIES map (18-space `})}` closes it) with the
+  // accordion version; the gated Pro/Tools chunk inside goes with it.
+  n = n.replace(
+    /\{CATEGORIES\.map\(\(cat, i\) => \{[\s\S]*?\n {18}\}\)\}/,
+    `{CATEGORIES.map(cat => {
+                    const slug = str => str.replace(/\\s+/g, '-').toLowerCase();
+                    const open = openCat === cat.name;
+                    return (
+                      <div className="ln-navbar-mobile-section" key={cat.name}>
+                        <button
+                          type="button"
+                          className={\`ln-navbar-mobile-label ln-navbar-mobile-acc\${open ? ' is-open' : ''}\`}
+                          aria-expanded={open}
+                          onClick={() => setOpenCat(open ? null : cat.name)}
+                        >
+                          {cat.name}
+                          <span className="ln-navbar-mobile-acc-chev" aria-hidden="true">▾</span>
+                        </button>
+                        {open && cat.subcategories.map(sub => (
+                          <Link
+                            key={sub}
+                            className="ln-navbar-mobile-link"
+                            to={\`/\${slug(cat.name)}/\${slug(sub)}\`}
+                            onClick={() => setMenuOpen(false)}
+                          >
+                            {sub}
+                          </Link>
+                        ))}
+                      </div>
+                    );
+                  })}`,
+  );
+  await writeFile(nav, n, "utf8");
 }
 
 /**

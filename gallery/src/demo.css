@@ -93,3 +93,27 @@ main.app-container { background: transparent; }
    below the fold; dvh tracks the real visible height. */
 .template-stage { height: calc(100vh - 140px); }
 @supports (height: 100dvh) { .template-stage { height: calc(100dvh - 140px); } }
+
+/* ── mobile menu accordion (Navbar mega-menu, rebrand.ts mobileMenuAccordion) ── */
+.ln-navbar-mobile-acc {
+  appearance: none;
+  background: none;
+  border: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+  padding: 12px 0;
+  min-height: 44px;
+}
+.ln-navbar-mobile-acc-chev {
+  font-size: 12px;
+  opacity: 0.55;
+  transition: transform 0.25s ease;
+}
+.ln-navbar-mobile-acc.is-open .ln-navbar-mobile-acc-chev { transform: rotate(180deg); }
