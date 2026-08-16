@@ -540,6 +540,83 @@ async function stripProStorefront() {
   if (n !== beforeN) await writeFile(nav, n, "utf8");
 
   await mobileMenuAccordion();
+  await mobileGetMenu();
+}
+
+/**
+ * Mobile component-page toolbar (user, 2026-08-16): the unlabeled ••• menu
+ * becomes a "Get" pill, and the Code tab folds INTO it — the toolbar is just
+ * [Preview][Get ▾]; the menu leads with a View code/View preview toggle, then
+ * favorites and the copy actions. Requires controlled Tabs (the menu switches
+ * the view). Desktop keeps the visible Code tab and full action buttons.
+ */
+async function mobileGetMenu() {
+  const p = join(VENDOR, "components/common/TabsLayout.jsx");
+  let s = await readFile(p, "utf8");
+  if (s.includes("p4rts-get-menu")) return;
+
+  s = s.replace(
+    "import { RotateCcw, MoreHorizontal, Palette } from 'lucide-react';",
+    "import { RotateCcw, MoreHorizontal, Palette, ChevronDown } from 'lucide-react';",
+  );
+  s = s.replace(
+    "const aiActions = useAIExportActions({ category, subcategory, ...(aiExport || {}) });",
+    "const aiActions = useAIExportActions({ category, subcategory, ...(aiExport || {}) });\n  const [p4rtsTab, setP4rtsTab] = useState('preview'); // p4rts-get-menu",
+  );
+  s = s.replace(
+    "const hasOverflowActions = hasChanges || showFavorite || Boolean(codeExampleProps) || Boolean(studioButtonProps);",
+    "const hasOverflowActions = true; // p4rts-get-menu — the mobile menu always hosts View code",
+  );
+  s = s.replace(
+    `<Tabs.Root w="100%" variant="plain" lazyMount defaultValue="preview" className={className}>`,
+    `<Tabs.Root w="100%" variant="plain" lazyMount value={p4rtsTab} onValueChange={e => setP4rtsTab(e.value)} className={className}>`,
+  );
+  s = s.replace(
+    `<Tabs.Trigger value="code" {...TAB_STYLE_PROPS} flex={{ base: '1 1 0', md: '0 0 auto' }}>`,
+    `<Tabs.Trigger value="code" {...TAB_STYLE_PROPS} display={{ base: 'none', md: 'flex' }} flex={{ base: '1 1 0', md: '0 0 auto' }}>`,
+  );
+  s = s.replace(`aria-label="More actions"`, `aria-label="Get this component"`);
+  s = s.replace(
+    `                    {...TAB_STYLE_PROPS}
+                    w={10}
+                    px={0}
+                    position="relative"
+                  >
+                    <MoreHorizontal size={18} color="#fff" />`,
+    `                    {...TAB_STYLE_PROPS}
+                    px={4}
+                    position="relative"
+                  >
+                    <Box as="span" color="#fff" fontSize="14px" fontWeight="600">Get</Box>
+                    <ChevronDown size={15} color="#fff" />`,
+  );
+  s = s.replace(
+    `                      transformOrigin="top right"
+                    >
+`,
+    `                      transformOrigin="top right"
+                    >
+                      <Menu.Item
+                        value="p4rts-view-toggle"
+                        onSelect={() => setP4rtsTab(p4rtsTab === 'code' ? 'preview' : 'code')}
+                        display="flex"
+                        alignItems="center"
+                        gap={3}
+                        px={3}
+                        py={2}
+                        fontSize="14px"
+                        color="#fff"
+                        borderRadius="8px"
+                        cursor="pointer"
+                        _hover={{ bg: colors.bgHover }}
+                      >
+                        <Icon as={p4rtsTab === 'code' ? FiEye : FiCode} boxSize={4} color="#fff" />
+                        {p4rtsTab === 'code' ? 'View preview' : 'View code'}
+                      </Menu.Item>
+                      <Menu.Separator borderColor={colors.borderPrimary} my={1} />
+`,
+  );
+  await writeFile(p, s, "utf8");
 }
 
 /**

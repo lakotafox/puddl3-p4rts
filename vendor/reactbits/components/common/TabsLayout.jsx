@@ -4,7 +4,7 @@ import TabsFooter from './TabsFooter';
 import { Tabs, Icon, Flex, Tooltip, Box, Menu, Portal } from '@chakra-ui/react';
 import { FiCode, FiEye } from 'react-icons/fi';
 import { RiHeartFill, RiHeartLine } from 'react-icons/ri';
-import { RotateCcw, MoreHorizontal, Palette } from 'lucide-react';
+import { RotateCcw, MoreHorizontal, Palette, ChevronDown } from 'lucide-react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
 import { toggleSavedComponent, isComponentSaved } from '../../utils/favorites';
@@ -239,12 +239,13 @@ const TabsLayout = ({ children, className }) => {
   ]);
 
   const aiActions = useAIExportActions({ category, subcategory, ...(aiExport || {}) });
+  const [p4rtsTab, setP4rtsTab] = useState('preview'); // p4rts-get-menu
 
   const showFavorite = favoriteKey && category !== 'get-started';
-  const hasOverflowActions = hasChanges || showFavorite || Boolean(codeExampleProps) || Boolean(studioButtonProps);
+  const hasOverflowActions = true; // p4rts-get-menu — the mobile menu always hosts View code
 
   return (
-    <Tabs.Root w="100%" variant="plain" lazyMount defaultValue="preview" className={className}>
+    <Tabs.Root w="100%" variant="plain" lazyMount value={p4rtsTab} onValueChange={e => setP4rtsTab(e.value)} className={className}>
       <Tabs.List w="100%">
         <Flex gap={2} justifyContent="space-between" alignItems="center" w="100%" wrap="nowrap">
           {/* Primary tabs */}
@@ -253,7 +254,7 @@ const TabsLayout = ({ children, className }) => {
               <Icon as={FiEye} /> Preview
             </Tabs.Trigger>
 
-            <Tabs.Trigger value="code" {...TAB_STYLE_PROPS} flex={{ base: '1 1 0', md: '0 0 auto' }}>
+            <Tabs.Trigger value="code" {...TAB_STYLE_PROPS} display={{ base: 'none', md: 'flex' }} flex={{ base: '1 1 0', md: '0 0 auto' }}>
               <Icon as={FiCode} /> Code
             </Tabs.Trigger>
           </Flex>
@@ -339,18 +340,18 @@ const TabsLayout = ({ children, className }) => {
                 <Menu.Trigger asChild>
                   <Box
                     as="button"
-                    aria-label="More actions"
+                    aria-label="Get this component"
                     display="flex"
                     cursor="pointer"
                     alignItems="center"
                     justifyContent="center"
                     gap={2}
                     {...TAB_STYLE_PROPS}
-                    w={10}
-                    px={0}
+                    px={4}
                     position="relative"
                   >
-                    <MoreHorizontal size={18} color="#fff" />
+                    <Box as="span" color="#fff" fontSize="14px" fontWeight="600">Get</Box>
+                    <ChevronDown size={15} color="#fff" />
                     {(hasChanges || isSaved) && (
                       <Box
                         position="absolute"
@@ -376,6 +377,24 @@ const TabsLayout = ({ children, className }) => {
                       zIndex={1500}
                       transformOrigin="top right"
                     >
+                      <Menu.Item
+                        value="p4rts-view-toggle"
+                        onSelect={() => setP4rtsTab(p4rtsTab === 'code' ? 'preview' : 'code')}
+                        display="flex"
+                        alignItems="center"
+                        gap={3}
+                        px={3}
+                        py={2}
+                        fontSize="14px"
+                        color="#fff"
+                        borderRadius="8px"
+                        cursor="pointer"
+                        _hover={{ bg: colors.bgHover }}
+                      >
+                        <Icon as={p4rtsTab === 'code' ? FiEye : FiCode} boxSize={4} color="#fff" />
+                        {p4rtsTab === 'code' ? 'View preview' : 'View code'}
+                      </Menu.Item>
+                      <Menu.Separator borderColor={colors.borderPrimary} my={1} />
                       {hasChanges && (
                         <Menu.Item
                           value="reset"

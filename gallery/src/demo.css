@@ -117,3 +117,10 @@ main.app-container { background: transparent; }
   transition: transform 0.25s ease;
 }
 .ln-navbar-mobile-acc.is-open .ln-navbar-mobile-acc-chev { transform: rotate(180deg); }
+
+/* hamburger menu legibility (user, 2026-08-16): labels + links white,
+   the open section's label purple */
+.ln-navbar-mobile-label { color: #fff; }
+.ln-navbar-mobile-link { color: rgba(255, 255, 255, 0.92); }
+.ln-navbar-mobile-acc.is-open { color: #c084fc; }
+.ln-navbar-mobile-acc.is-open .ln-navbar-mobile-acc-chev { opacity: 1; }
