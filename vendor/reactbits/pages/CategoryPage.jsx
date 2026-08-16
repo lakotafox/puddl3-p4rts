@@ -7,6 +7,7 @@ import { Box, Text } from '@chakra-ui/react';
 import { useTransition } from '../hooks/useTransition';
 import usePageSEO from '../hooks/usePageSEO';
 import BackToTopButton from '../components/common/BackToTopButton';
+import ComponentPager from '../components/common/ComponentPager';
 import { SkeletonLoader, GetStartedLoader } from '../components/common/SkeletonLoader';
 import IndexPage from './IndexPage';
 
@@ -85,6 +86,7 @@ const CategoryPage = () => {
                 </Text>
               </Box>
             )}
+            {!isGetStartedRoute && <ComponentPager category={category} subcategory={subcategory} />}
           </Box>
           <BackToTopButton />
         </Box>

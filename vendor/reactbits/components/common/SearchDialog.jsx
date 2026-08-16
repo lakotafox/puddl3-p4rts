@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import { CATEGORIES } from '../../constants/Categories';
 import { TEMPLATE_CATEGORIES } from '../../constants/TemplatesCatalog';
 import { fuzzyMatch } from '../../utils/fuzzy';
+import { componentMetadata } from '../../constants/Information';
+import { PRO_INDEX } from '../../constants/ProCatalog';
 import { proUrl, trackProClick } from '../../utils/pro';
 import { useSearch } from '../context/SearchContext/useSearch';
 import './SearchDialog.css';
@@ -24,6 +26,27 @@ const readFreeOnly = () => {
 const matchesSearch = (value, query) =>
   fuzzyMatch(value, query) || fuzzyMatch(value.replace(/\s+/g, ''), query.replace(/\s+/g, ''));
 
+// p4rts-search-meta: the words we stopped rendering still have to be findable.
+const CATEGORY_KEYS = {
+  Animations: 'Animations',
+  Backgrounds: 'Backgrounds',
+  Components: 'Components',
+  'Text Animations': 'TextAnimations'
+};
+
+const metaTextFor = (categoryName, component) => {
+  const parts = [];
+  const key = `${CATEGORY_KEYS[categoryName] || categoryName}/${component.replace(/\s+/g, '')}`;
+  const free = componentMetadata[key];
+  if (free?.description) parts.push(free.description);
+  const pro = PRO_INDEX[component.toLowerCase().replace(/\s+/g, '-')];
+  if (pro) {
+    if (pro.description) parts.push(pro.description);
+    if (Array.isArray(pro.tags)) parts.push(pro.tags.join(' '));
+  }
+  return parts.join(' ');
+};
+
 function searchComponents(query) {
   if (!query || query.trim() === '') return [];
   const results = [];
@@ -33,7 +56,9 @@ function searchComponents(query) {
       subcategories.forEach(component => results.push({ categoryName, componentName: component }));
     } else {
       subcategories.forEach(component => {
-        if (matchesSearch(component, query)) results.push({ categoryName, componentName: component });
+        const meta = metaTextFor(categoryName, component);
+        if (matchesSearch(component, query) || (meta && meta.toLowerCase().includes(query.trim().toLowerCase())))
+          results.push({ categoryName, componentName: component });
       });
     }
   });

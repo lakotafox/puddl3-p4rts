@@ -171,3 +171,34 @@ html.p4rts-hero-boot .sidebar * {
   opacity: 0 !important;
   pointer-events: none !important;
 }
+
+/* ── component pager (ComponentPager, rebrand.ts) ── */
+.p4rts-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 40px 0 8px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.p4rts-pager-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  text-decoration: none;
+  max-width: 46%;
+}
+.p4rts-pager-link.is-next { text-align: right; margin-left: auto; }
+.p4rts-pager-link:hover { background: rgba(255, 255, 255, 0.07); }
+.p4rts-pager-dir { font-size: 11px; letter-spacing: 0.08em; color: #a1a1aa; text-transform: uppercase; }
+.p4rts-pager-name { font-size: 14px; font-weight: 600; color: #fff; }
+
+/* component title: big on desktop, sane on phones (user, 2026-08-16) */
+@media (max-width: 640px) {
+  .category-page .sub-category { font-size: 1.9rem; line-height: 1.15; }
+}
