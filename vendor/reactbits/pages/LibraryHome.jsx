@@ -47,15 +47,37 @@ const LibraryHome = () => {
     CATEGORIES.forEach((c, ci) => {
       out.push({ kind: 'cat', ci, label: c.name });
       if (openCat === ci) {
-        c.subcategories.forEach((sub, si) =>
-          out.push({ kind: 'sub', ci, si, label: `   ${sub}` }),
-        );
+        c.subcategories.forEach((sub, si) => out.push({ kind: 'sub', ci, si, label: sub }));
       }
     });
     return out;
   }, [openCat]);
   const items = rows.map((r) => r.label);
   const expanded = openCat != null;
+
+  // LineSidebar takes a flat array of strings, so the open section's children
+  // are styled by position: nth-child over the expanded range. Its colours come
+  // from --text-color/--accent-color per item, so overriding those keeps the
+  // proximity hover mix working instead of fighting it.
+  const groupCss = useMemo(() => {
+    if (openCat == null) return '';
+    const head = rows.findIndex((r) => r.kind === 'cat' && r.ci === openCat);
+    const count = CATEGORIES[openCat].subcategories.length;
+    if (head === -1 || !count) return '';
+    const first = head + 2; // nth-child is 1-based; children start after the header
+    const last = head + 1 + count;
+    return `
+      .library-home .line-sidebar__item:nth-child(${head + 1}) { --text-color: #c084fc; }
+      .library-home .line-sidebar__item:nth-child(n+${first}):nth-child(-n+${last}) {
+        --text-color: #7dd3fc;
+      }
+      .library-home .line-sidebar__item:nth-child(n+${first}):nth-child(-n+${last}) .line-sidebar__label {
+        margin-left: 18px;
+        padding-left: 16px;
+        border-left: 1px solid rgba(168, 85, 247, .35);
+      }
+    `;
+  }, [openCat, rows]);
 
   // Hero state: no other UI at all. A body class (styled in demo.css), not
   // inline styles — the navbar can re-render mid-route-change and a fresh
@@ -175,7 +197,7 @@ const LibraryHome = () => {
           /* short/landscape phones: let the list scroll instead of clipping */
           .library-home { align-items: safe center; }
         }
-        .library-home .line-sidebar__text { white-space: pre; }
+        ${groupCss}
       `}</style>
       <button type="button" className="lh-snow" onClick={toggleSnow}>
         {snowOn ? 'Disable snow' : 'Enable snow'}

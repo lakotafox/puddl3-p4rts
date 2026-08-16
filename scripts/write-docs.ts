@@ -52,16 +52,16 @@ const Introduction = () => {
         </li>
       </ul>
 
-      <h2 className="docs-section-title">Got the repo?</h2>
+      <h2 className="docs-section-title">On the team?</h2>
       <p className="docs-paragraph">
-        Then the CLI drops a component straight in, installs its deps, and prints the import line:
+        The library repo is private. With it checked out, the CLI drops a component straight in, installs its deps,
+        and prints the import line:
       </p>
       <CodeBlock language="bash">{'p4rts add letter-break --to ./my-app'}</CodeBlock>
 
       <p className="docs-paragraph dim">
-        Want your AI hooked up to the whole library so you can just ask for parts? Set up the{' '}
-        <Link className="docs-link" to="/get-started/mcp">MCP server</Link> — optional, and not needed for anything
-        above.
+        Same deal for the <Link className="docs-link" to="/get-started/mcp">MCP server</Link>, which wires your AI
+        into the whole library. Both are extras — copy and paste above works for everyone, no repo needed.
       </p>
 
       <DocsButtonBar next={{ label: 'Browse the library', route: '/library' }} />
