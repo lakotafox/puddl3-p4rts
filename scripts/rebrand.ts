@@ -543,6 +543,52 @@ async function stripProStorefront() {
   await mobileGetMenu();
   await collapsibleSections();
   await hamburgerToPicker();
+  await colorPickerDone();
+}
+
+/**
+ * Color picker needs an obvious way out (user, 2026-08-16): on touch the only
+ * close was tapping the swatch again — outside-click dismissal is invisible on
+ * a phone. Adds a full-width Done button under the presets.
+ */
+async function colorPickerDone() {
+  const p = join(VENDOR, "components/common/Preview/PreviewColorPickerCustom.jsx");
+  let s = await readFile(p, "utf8");
+  if (s.includes("p4rts-color-done")) return;
+  s = s.replace(
+    `              ))}
+            </div>
+          </div>,
+          document.body
+        )}`,
+    `              ))}
+            </div>
+
+            {/* p4rts-color-done */}
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              style={{
+                marginTop: 12,
+                width: '100%',
+                minHeight: 40,
+                borderRadius: 8,
+                border: '1px solid var(--border-primary)',
+                background: 'rgba(168, 85, 247, 0.18)',
+                color: '#fff',
+                fontSize: 13,
+                fontWeight: 600,
+                letterSpacing: '0.04em',
+                cursor: 'pointer'
+              }}
+            >
+              Done
+            </button>
+          </div>,
+          document.body
+        )}`,
+  );
+  await writeFile(p, s, "utf8");
 }
 
 /**

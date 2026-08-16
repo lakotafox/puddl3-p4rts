@@ -331,6 +331,27 @@ export default function PreviewColorPickerCustom({ title, color, onChange }) {
                 />
               ))}
             </div>
+
+            {/* p4rts-color-done */}
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              style={{
+                marginTop: 12,
+                width: '100%',
+                minHeight: 40,
+                borderRadius: 8,
+                border: '1px solid var(--border-primary)',
+                background: 'rgba(168, 85, 247, 0.18)',
+                color: '#fff',
+                fontSize: 13,
+                fontWeight: 600,
+                letterSpacing: '0.04em',
+                cursor: 'pointer'
+              }}
+            >
+              Done
+            </button>
           </div>,
           document.body
         )}

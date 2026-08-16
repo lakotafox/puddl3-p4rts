@@ -134,7 +134,10 @@ main.app-container { background: transparent; }
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* chevron sits right beside the heading — space-between stranded it at the
+     far screen edge on phones (user, 2026-08-16) */
+  justify-content: flex-start;
+  gap: 12px;
   cursor: pointer;
   color: inherit;
   text-align: left;

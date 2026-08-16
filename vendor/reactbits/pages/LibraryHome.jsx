@@ -14,6 +14,9 @@ import { CATEGORIES } from '../constants/Categories';
 // returns to the sections. Desktop keeps the direct one-tap flow.
 const slug = (s) => s.toLowerCase().replace(/\s+/g, '-');
 
+// per-tab: the staggered reveal is a one-time first impression
+const FIRST_RUN_KEY = 'p4rts-picker-intro';
+
 // LineSidebar has no media queries of its own; on phones the desktop props
 // (130px marker gutter + 1.35rem labels + 30px shift) overflow a 390px screen.
 const useCompact = () => {
@@ -34,16 +37,25 @@ const LibraryHome = () => {
   const wrapRef = useRef(null);
   const leavingRef = useRef(false);
   const compact = useCompact();
-  const [subOf, setSubOf] = useState(null); // category index while drilled in (compact)
-  const level = subOf != null ? CATEGORIES[subOf] : null;
-  const sections = useMemo(
-    () => CATEGORIES.map((c) => ({
-      label: c.name,
-      to: `/${slug(c.name)}/${slug(c.subcategories[0] ?? '')}`,
-    })),
-    [],
-  );
-  const items = level ? level.subcategories : sections.map((s) => s.label);
+  // Sections expand IN PLACE (user, 2026-08-16) — tapping one reveals its
+  // components right under it in the same list, like the desktop sidebar. No
+  // second screen, no back button. Rows are flattened into LineSidebar's flat
+  // items array and mapped back on click.
+  const [openCat, setOpenCat] = useState(null);
+  const rows = useMemo(() => {
+    const out = [];
+    CATEGORIES.forEach((c, ci) => {
+      out.push({ kind: 'cat', ci, label: c.name });
+      if (openCat === ci) {
+        c.subcategories.forEach((sub, si) =>
+          out.push({ kind: 'sub', ci, si, label: `   ${sub}` }),
+        );
+      }
+    });
+    return out;
+  }, [openCat]);
+  const items = rows.map((r) => r.label);
+  const expanded = openCat != null;
 
   useEffect(() => {
     // hero state: no other UI at all. A body class (styled in demo.css), not
@@ -54,21 +66,31 @@ const LibraryHome = () => {
     return () => document.body.classList.remove('p4rts-hero');
   }, []);
 
+  // The slow one-at-a-time reveal is a first-impression beat: it plays once per
+  // tab, on the first arrival from the landing (user, 2026-08-16). Decided in a
+  // ref, not inside the effect — StrictMode double-invokes effects, so the
+  // second pass would always read the flag it just wrote and never stagger.
+  const firstRunRef = useRef(null);
+  if (firstRunRef.current === null) {
+    firstRunRef.current = sessionStorage.getItem(FIRST_RUN_KEY) !== 'done';
+    if (firstRunRef.current) sessionStorage.setItem(FIRST_RUN_KEY, 'done');
+  }
+
   useEffect(() => {
-    // items reveal one at a time (dash entry) — re-runs per drill level
-    if (wrapRef.current) wrapRef.current.scrollTop = 0;
+    // Later visits — hamburger, expand, collapse — fade the whole list in at
+    // once, once the outgoing content has cleared.
     const nodes = Array.from(document.querySelectorAll('.line-sidebar__item'));
-    const perItem = level ? 0.06 : 0.4;
-    const lead = level ? 0.1 : 0.35;
+    const stagger = firstRunRef.current && !expanded;
     nodes.forEach((el, i) => {
       el.style.opacity = '0';
-      el.style.animation = 'lh-entry 1.1s ease forwards';
-      el.style.animationDelay = `${lead + i * perItem}s`;
+      el.style.animation = stagger ? 'lh-entry 1.1s ease forwards' : 'lh-entry .45s ease forwards';
+      el.style.animationDelay = stagger ? `${0.35 + i * 0.4}s` : '.1s';
     });
+    firstRunRef.current = false;
     return () => {
       nodes.forEach((el) => { el.style.opacity = ''; el.style.animation = ''; el.style.animationDelay = ''; });
     };
-  }, [subOf, level]);
+  }, [openCat, expanded]);
 
   const pickRoute = (to) => {
     if (leavingRef.current) return;
@@ -82,15 +104,14 @@ const LibraryHome = () => {
 
   const choose = (index) => {
     if (leavingRef.current) return;
-    if (level) {
-      pickRoute(`/${slug(level.name)}/${slug(level.subcategories[index])}`);
+    const row = rows[index];
+    if (!row) return;
+    if (row.kind === 'cat') {
+      setOpenCat((cur) => (cur === row.ci ? null : row.ci));
       return;
     }
-    if (compact) {
-      setSubOf(index);
-      return;
-    }
-    pickRoute(sections[index].to);
+    const cat = CATEGORIES[row.ci];
+    pickRoute(`/${slug(cat.name)}/${slug(cat.subcategories[row.si])}`);
   };
 
   return (
@@ -109,36 +130,24 @@ const LibraryHome = () => {
           /* short/landscape phones: let the list scroll instead of clipping */
           .library-home { align-items: safe center; }
         }
-        .lh-back {
-          position: fixed; top: calc(16px + env(safe-area-inset-top, 0px)); left: 16px; z-index: 2;
-          appearance: none; background: rgba(18,15,23,.82); border: 1px solid rgba(255,255,255,.18);
-          border-radius: 999px; color: #fff; font-size: 13px; font-weight: 600; letter-spacing: .04em;
-          padding: 10px 16px; min-height: 44px; cursor: pointer;
-          animation: lh-entry .5s ease both;
-        }
+        .library-home .line-sidebar__text { white-space: pre; }
       `}</style>
-      {level && (
-        <button type="button" className="lh-back" onClick={() => setSubOf(null)}>
-          ‹ Sections
-        </button>
-      )}
       <LineSidebar
-        key={subOf ?? 'root'}
         items={items}
         accentColor="#a855f7"
         textColor="#c4c4c4"
         markerColor="#2FD8E8"
-        showIndex
+        showIndex={!expanded}
         showMarker
         proximityRadius={compact ? 70 : 100}
         maxShift={compact ? 16 : 30}
         falloff="smooth"
-        markerLength={level ? 40 : compact ? 56 : 130}
+        markerLength={expanded ? 40 : compact ? 56 : 130}
         markerGap={0}
         tickScale={0.5}
         scaleTick
-        itemGap={level ? 14 : compact ? 20 : 33}
-        fontSize={level ? 0.95 : compact ? 1.05 : 1.35}
+        itemGap={expanded ? 14 : compact ? 20 : 33}
+        fontSize={expanded ? 0.95 : compact ? 1.05 : 1.35}
         smoothing={60}
         singleHighlight
         onItemClick={choose}
