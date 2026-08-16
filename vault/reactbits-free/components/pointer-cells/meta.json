@@ -166,7 +166,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PointerCells",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "cursor-grid",
   "upstreamName": "CursorGrid"

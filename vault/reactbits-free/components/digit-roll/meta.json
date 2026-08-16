@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DigitRoll",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "counter",
   "upstreamName": "Counter"

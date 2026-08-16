@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "StippleSurface",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "dot-field",
   "upstreamName": "DotField"

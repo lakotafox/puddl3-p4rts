@@ -189,7 +189,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BrandMarquee",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "logo-loop",
   "upstreamName": "LogoLoop"

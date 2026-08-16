@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "LiquidLetters",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "warp-text",
   "upstreamName": "WarpText"

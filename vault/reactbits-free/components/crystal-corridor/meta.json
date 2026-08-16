@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CrystalCorridor",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "acid-squares",
   "upstreamName": "AcidSquares"

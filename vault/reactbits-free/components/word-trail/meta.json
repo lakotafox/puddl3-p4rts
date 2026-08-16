@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "WordTrail",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "text-cursor",
   "upstreamName": "TextCursor"

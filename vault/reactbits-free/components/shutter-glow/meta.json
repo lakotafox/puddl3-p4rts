@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ShutterGlow",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "gradient-blinds",
   "upstreamName": "GradientBlinds"

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "EmberGaze",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "evil-eye",
   "upstreamName": "EvilEye"

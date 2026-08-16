@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BeaconTile",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "spotlight-card",
   "upstreamName": "SpotlightCard"

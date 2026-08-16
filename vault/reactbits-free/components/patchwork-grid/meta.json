@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PatchworkGrid",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "masonry",
   "upstreamName": "Masonry"

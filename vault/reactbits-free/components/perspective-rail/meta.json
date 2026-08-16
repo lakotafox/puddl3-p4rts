@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PerspectiveRail",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "depth-carousel",
   "upstreamName": "DepthCarousel"

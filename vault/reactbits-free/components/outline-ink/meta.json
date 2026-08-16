@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "OutlineInk",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "stroke-text",
   "upstreamName": "StrokeText"

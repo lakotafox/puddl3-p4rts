@@ -270,7 +270,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BadgeSwing",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "lanyard",
   "upstreamName": "Lanyard"

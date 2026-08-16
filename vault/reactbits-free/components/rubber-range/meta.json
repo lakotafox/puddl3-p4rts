@@ -218,7 +218,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RubberRange",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "elastic-slider",
   "upstreamName": "ElasticSlider"

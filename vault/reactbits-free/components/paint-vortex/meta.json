@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PaintVortex",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "balatro",
   "upstreamName": "Balatro"

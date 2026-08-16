@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ConcertinaPanels",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "accordion-gallery",
   "upstreamName": "AccordionGallery"

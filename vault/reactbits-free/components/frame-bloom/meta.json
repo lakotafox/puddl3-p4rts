@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FrameBloom",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "scroll-expand",
   "upstreamName": "ScrollExpand"

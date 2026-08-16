@@ -25,7 +25,7 @@ type Result = {
 };
 
 async function main() {
-  const catalog = await readFile(join(HOME, "vendor/reactbits/constants/ProCatalog.js"), "utf8");
+  const catalog = await readFile(join(HOME, "site/constants/ProCatalog.js"), "utf8");
   const i = catalog.indexOf("PRO_INDEX = ");
   const j = catalog.indexOf(";\n", i);
   const index: Record<string, any> = JSON.parse(catalog.slice(i + 12, j));
@@ -61,9 +61,9 @@ async function main() {
         // preview.tsx posts its status to parent; as the top window that is
         // itself, so a listener installed before load catches it.
         await page.addInitScript(() => {
-          (window as any).__foxbitsStatus = [];
+          (window as any).__p4rtsStatus = [];
           window.addEventListener("message", (e: MessageEvent) => {
-            if ((e.data as any)?.type === "foxbits:preview") (window as any).__foxbitsStatus.push(e.data);
+            if ((e.data as any)?.type === "foxbits:preview") (window as any).__p4rtsStatus.push(e.data);
           });
         });
 
@@ -91,7 +91,7 @@ async function main() {
             });
             await page.waitForTimeout(1_500);
           }
-          const msgs: any[] = await page.evaluate(() => (window as any).__foxbitsStatus);
+          const msgs: any[] = await page.evaluate(() => (window as any).__p4rtsStatus);
           const last = msgs.filter((m) => m.status !== "timeout").pop() ?? msgs.pop();
           status = last?.status ?? "no-signal";
           detail = last?.detail ?? "";

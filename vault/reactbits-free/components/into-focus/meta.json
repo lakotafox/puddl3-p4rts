@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "IntoFocus",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "scroll-reveal",
   "upstreamName": "ScrollReveal"

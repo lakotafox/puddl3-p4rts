@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FiberRush",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "light-tunnel",
   "upstreamName": "LightTunnel"

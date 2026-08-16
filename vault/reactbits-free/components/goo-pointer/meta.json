@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "GooPointer",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "blob-cursor",
   "upstreamName": "BlobCursor"

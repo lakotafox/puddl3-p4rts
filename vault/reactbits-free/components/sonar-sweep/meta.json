@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SonarSweep",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "radar",
   "upstreamName": "Radar"

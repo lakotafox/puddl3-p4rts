@@ -2,10 +2,8 @@ import { createHash } from "node:crypto";
 import { mkdir, writeFile, readFile, readdir, stat } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 
-export const HOME = process.env.FOXBITS_HOME || join(process.env.HOME!, "foxbits");
+export const HOME = process.env.P4RTS_HOME || join(process.env.HOME!, "puddl3-p4rts");
 export const VAULT = join(HOME, "vault");
-export const RAW = join(VAULT, "_raw");
-export const STATE = join(VAULT, "_state");
 
 export const sha256 = (s: string | Buffer) => createHash("sha256").update(s).digest("hex");
 
@@ -71,12 +69,6 @@ export async function walk(dir: string, match: (p: string) => boolean): Promise<
   return out;
 }
 
-/** Append-only journal so an interrupted sync resumes instead of restarting. */
-export async function journal(source: string, entry: Record<string, unknown>): Promise<void> {
-  await mkdir(STATE, { recursive: true });
-  const line = JSON.stringify({ ...entry, at: new Date().toISOString() }) + "\n";
-  await writeFile(join(STATE, `sync-${source}.jsonl`), line, { flag: "a" });
-}
 
 export function parseDep(raw: string): { name: string; range: string } {
   // "motion@^12.23.12" -> {motion, ^12.23.12};  "@react-three/fiber" -> {..., "*"}

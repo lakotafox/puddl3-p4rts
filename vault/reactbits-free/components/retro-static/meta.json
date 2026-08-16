@@ -251,7 +251,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RetroStatic",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "dither",
   "upstreamName": "Dither"

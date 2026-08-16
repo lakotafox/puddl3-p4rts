@@ -181,7 +181,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CipherReveal",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "decrypted-text",
   "upstreamName": "DecryptedText"

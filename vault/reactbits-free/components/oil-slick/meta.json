@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "OilSlick",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "iridescence",
   "upstreamName": "Iridescence"

@@ -203,7 +203,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "HueTiles",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "chroma-grid",
   "upstreamName": "ChromaGrid"

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PhotoWake",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "image-trail",
   "upstreamName": "ImageTrail"

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BlobFusion",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "meta-balls",
   "upstreamName": "MetaBalls"

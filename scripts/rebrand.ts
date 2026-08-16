@@ -4,44 +4,44 @@ import { readFile, writeFile } from "node:fs/promises";
 import { HOME, walk } from "../src/lib/vault.ts";
 
 /**
- * Rebrand the vendored react-bits site to foxbits.
+ * Brand the site as PUDDL3 P4RTS.
  *
  * Idempotent and re-runnable, so re-vendoring upstream is: copy the tree, run
  * this. Editing the vendored files by hand instead would silently lose every
  * change the next time the source is refreshed.
  *
  * Display text only — real https URLs are left intact. Rewriting
- * https://pro.reactbits.dev to a foxbits domain would manufacture dead links,
+ * a third-party domain to ours would manufacture dead links,
  * which is worse than an honest one; the promo UI that shows them is removed
  * outright instead.
  */
 
-const VENDOR = join(HOME, "vendor/reactbits");
+const VENDOR = join(HOME, "site");
 
 /** Order matters: longest first, so "React Bits Pro" isn't half-replaced. */
 const TEXT: [RegExp, string][] = [
-  [/React Bits Pro/g, "foxbits Pro"],
-  [/React Bits/g, "foxbits"],
+  [/React Bits Pro/g, "PUDDL3 P4RTS Pro"],
+  [/React Bits/g, "PUDDL3 P4RTS"],
   [/ReactBits/g, "FoxBits"],
   [/react-bits-logo/g, "foxbits-logo"],
   [/reactbits-gh/g, "foxbits-gh"],
   [/react-bits-sticker/g, "foxbits-sticker"],
-  // display-brand pass (runs after the foxbits substitutions above):
-  [/foxbits - /g, "PUDDL3 P4RTS - "],
-  [/foxbits — an open source/g, "PUDDL3 P4RTS — an open source"],
-  // AI-export prompts (user caught "More from foxbits" in a pasted prompt):
-  [/component from foxbits/g, "component from PUDDL3 P4RTS"],
-  [/### More from foxbits/g, "### More from PUDDL3 P4RTS"],
+  // display-brand pass (runs after the PUDDL3 P4RTS substitutions above):
+  [/PUDDL3 P4RTS - /g, "PUDDL3 P4RTS - "],
+  [/PUDDL3 P4RTS — an open source/g, "PUDDL3 P4RTS — an open source"],
+  // AI-export prompts (user caught "More from PUDDL3 P4RTS" in a pasted prompt):
+  [/component from PUDDL3 P4RTS/g, "component from PUDDL3 P4RTS"],
+  [/### More from PUDDL3 P4RTS/g, "### More from PUDDL3 P4RTS"],
   [
     /The full library index, including everything reactbits\.dev offers, is at https:\/\/reactbits\.dev\/llms\.txt — fetch it/g,
     "The full library lives at https://lakotafox.com/PUDDL3P4RTS — browse it",
   ],
-  // Catch-all (user, 2026-08-15: "no foxbits anywhere"): every remaining
-  // display "foxbits" becomes the real brand. The lookahead protects the
+  // Catch-all (user, 2026-08-15: "no PUDDL3 P4RTS anywhere"): every remaining
+  // display "PUDDL3 P4RTS" becomes the real brand. The lookahead protects the
   // internals that must keep the name: script markers (foxbits:pro-cli …),
   // generated asset filenames (foxbits-logo.svg …), and identifiers
-  // (foxbits_…); FOXBITS_HOME and FoxBits bindings differ by case.
-  [/foxbits(?![-:_])/g, "PUDDL3 P4RTS"],
+  // (PUDDL3 P4RTS_…); P4RTS_HOME and FoxBits bindings differ by case.
+  [/PUDDL3 P4RTS(?![-:_])/g, "PUDDL3 P4RTS"],
 ];
 
 /** Files whose content is copied into user projects — leave their code alone. */
@@ -50,7 +50,7 @@ const SKIP_DIRS = ["/content/", "/tailwind/", "/ts-default/", "/ts-tailwind/", "
 const isCode = (p: string) => /\.(jsx?|tsx?|md|html)$/.test(p);
 
 /**
- * The foxbits mark: an origami-style fox head, one path, fill-rule evenodd so
+ * The PUDDL3 P4RTS mark: an origami-style fox head, one path, fill-rule evenodd so
  * the eyes punch through to whatever is behind. Angular on purpose — it reads
  * at 16px (favicon) and stays crisp at any scale. currentColor everywhere a
  * variant doesn't pin a color.
@@ -167,7 +167,7 @@ async function simplifySearch() {
 }
 
 /**
- * NEW badges off (user, 2026-08-15): the whole library is "new to foxbits", so
+ * NEW badges off (user, 2026-08-15): the whole library is "new to PUDDL3 P4RTS", so
  * the tags are noise. Emptying NEW[] clears every badge; the array stays so a
  * future curated list drops straight in.
  */
@@ -318,7 +318,7 @@ export const useStars = () => 'lakotafox';
 /**
  * The navbar wordmark is not an asset — it's an inline SVG component whose
  * "React Bits" lettering is hand-drawn vector paths, so no string replacement
- * can touch it. Swap the whole component for a foxbits wordmark that keeps the
+ * can touch it. Swap the whole component for a PUDDL3 P4RTS wordmark that keeps the
  * same export name and box so the navbar layout is unchanged.
  */
 async function writeWordmark() {
@@ -340,7 +340,7 @@ async function writeWordmark() {
 
 /**
  * Upstream imports several logo variants (small, small-black, gh-white,
- * gh-black). The rebrand rewrites every specifier, so a foxbits counterpart is
+ * gh-black). The rebrand rewrites every specifier, so a PUDDL3 P4RTS counterpart is
  * generated for each from FOX_HEAD — no hand-drawn master file to maintain.
  */
 async function mirrorLogos() {
@@ -438,7 +438,7 @@ export default LandingLoader;
   // Author credit under every component page. Keep the default export shape.
   await writeFile(join(VENDOR, "components/common/TabsFooter.jsx"),
     `// Credit footer removed for the PUDDL3 P4RTS mirror; upstream attribution lives in
-// the repository (vendor/reactbits is MIT + Commons Clause).
+// the repository (site is MIT + Commons Clause).
 const DemoFooter = () => null;
 
 export default DemoFooter;
@@ -1026,7 +1026,7 @@ async function mobileMenuAccordion() {
 
 /**
  * The AI-export prompts must speak OUR ecosystem (user, 2026-08-15 — "why does
- * it say foxbits in this prompt"): SITE_ORIGIN becomes the live site (docs and
+ * it say PUDDL3 P4RTS in this prompt"): SITE_ORIGIN becomes the live site (docs and
  * source links resolve for real), and the compact prompt stops referencing
  * upstream registry JSON — we don't serve /r/*.json, the Code tab is the source.
  */

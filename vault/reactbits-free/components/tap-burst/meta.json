@@ -155,7 +155,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TapBurst",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "click-spark",
   "upstreamName": "ClickSpark"

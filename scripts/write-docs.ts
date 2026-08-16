@@ -13,8 +13,8 @@ import { HOME } from "../src/lib/vault.ts";
  * re-run. Old /get-started/installation links land on the merged page.
  */
 
-const DOCS = join(HOME, "vendor/reactbits/docs");
-const VENDOR = join(HOME, "vendor/reactbits");
+const DOCS = join(HOME, "site/docs");
+const VENDOR = join(HOME, "site");
 
 const intro = `import { Link } from 'react-router-dom';
 import useScrollToTop from '../hooks/useScrollToTop';

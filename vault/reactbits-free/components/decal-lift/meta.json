@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DecalLift",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "sticker-peel",
   "upstreamName": "StickerPeel"

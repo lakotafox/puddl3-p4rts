@@ -231,7 +231,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CrossingBands",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "beams",
   "upstreamName": "Beams"

@@ -26,7 +26,7 @@ import "./demo.css";
 
 initInputModeTracking();
 
-const demos = import.meta.glob("../../vendor/reactbits/demo/**/*Demo.jsx");
+const demos = import.meta.glob("../../site/demo/**/*Demo.jsx");
 
 const params = new URLSearchParams(location.search);
 const want = params.get("demo") ?? "";

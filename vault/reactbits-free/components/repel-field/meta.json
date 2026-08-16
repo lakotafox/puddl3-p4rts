@@ -200,7 +200,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RepelField",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "antigravity",
   "upstreamName": "Antigravity"

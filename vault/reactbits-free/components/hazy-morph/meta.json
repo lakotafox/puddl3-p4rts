@@ -181,7 +181,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "HazyMorph",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "shape-blur",
   "upstreamName": "ShapeBlur"

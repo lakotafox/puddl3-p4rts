@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "StormBolts",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "lightning",
   "upstreamName": "Lightning"

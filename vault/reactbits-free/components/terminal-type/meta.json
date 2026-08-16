@@ -181,7 +181,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TerminalType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "asciitext",
   "upstreamName": "ASCIIText"

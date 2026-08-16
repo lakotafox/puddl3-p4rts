@@ -155,7 +155,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TremorType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "fuzzy-text",
   "upstreamName": "FuzzyText"

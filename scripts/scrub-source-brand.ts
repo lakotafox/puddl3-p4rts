@@ -21,10 +21,10 @@ import { HOME, walk } from "../src/lib/vault.ts";
 
 const TARGETS = [
   join(HOME, "vault"),
-  join(HOME, "vendor/reactbits/content"),
-  join(HOME, "vendor/reactbits/tailwind"),
-  join(HOME, "vendor/reactbits/ts-default"),
-  join(HOME, "vendor/reactbits/ts-tailwind"),
+  join(HOME, "site/content"),
+  join(HOME, "site/tailwind"),
+  join(HOME, "site/ts-default"),
+  join(HOME, "site/ts-tailwind"),
 ];
 
 const SUBS: [RegExp, string][] = [

@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "VoltageFrame",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "electric-border",
   "upstreamName": "ElectricBorder"

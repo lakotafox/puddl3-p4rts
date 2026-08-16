@@ -30,13 +30,13 @@ rebuilt from each asset's `meta.json` with no network.
 ```
 vault/<source>/<kind>/<slug>/meta.json + variants/<id>/<files>
 vault/getlayers/{templates,scenes}/<name>/files/**
-vendor/reactbits/                  THE SITE — see below
+site/                  THE SITE — see below
 gallery/                           vite app that serves it
 src/{cli,lib,mcp,ingest}/          CLI, manifest, MCP server
 scripts/                           the idempotent build/brand pipeline
 ```
 
-**`vendor/reactbits/` is the frontend, not a vendored reference copy.**
+**`site/` is the frontend, not a vendored reference copy.**
 `gallery/src/main.tsx` does `import App from "@/App"`, and `@` resolves there.
 1,607 files: `App.jsx`, `pages/`, `components/` (navbar, sidebar, search),
 `constants/` (categories, catalog), `demo/` (all 166 live demos), `docs/`, CSS.
@@ -53,7 +53,7 @@ is absent, verified by a clean build.
 
 ## Never hand-edit the site — run the scripts
 
-Everything in `vendor/reactbits/` is produced by idempotent scripts. Hand edits
+Everything in `site/` is produced by idempotent scripts. Hand edits
 survive until the next run and then vanish. Run in this order after any change:
 
 | script | what it owns |

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SmudgeType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "scrambled-text",
   "upstreamName": "ScrambledText"

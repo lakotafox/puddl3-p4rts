@@ -215,7 +215,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DeckCycle",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "card-swap",
   "upstreamName": "CardSwap"

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "LockOnPointer",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "target-cursor",
   "upstreamName": "TargetCursor"

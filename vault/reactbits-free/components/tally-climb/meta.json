@@ -180,7 +180,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TallyClimb",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "count-up",
   "upstreamName": "CountUp"

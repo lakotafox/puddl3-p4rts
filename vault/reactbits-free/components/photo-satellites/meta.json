@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PhotoSatellites",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "orbit-images",
   "upstreamName": "OrbitImages"

@@ -15,6 +15,6 @@ const html = `<!doctype html><body style="margin:0;background:transparent">
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 512, height: 512 } });
 await p.setContent(html);
-await p.locator("div").screenshot({ path: "vendor/reactbits/assets/logos/foxbits-sticker.png", omitBackground: true });
+await p.locator("div").screenshot({ path: "site/assets/logos/foxbits-sticker.png", omitBackground: true });
 await b.close();
 console.log("sticker written");

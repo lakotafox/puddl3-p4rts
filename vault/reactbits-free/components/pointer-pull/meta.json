@@ -155,7 +155,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PointerPull",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "magnet",
   "upstreamName": "Magnet"

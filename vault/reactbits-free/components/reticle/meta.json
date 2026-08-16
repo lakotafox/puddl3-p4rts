@@ -180,7 +180,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "Reticle",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "crosshair",
   "upstreamName": "Crosshair"

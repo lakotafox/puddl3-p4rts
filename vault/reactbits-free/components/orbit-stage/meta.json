@@ -221,7 +221,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "OrbitStage",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "model-viewer",
   "upstreamName": "ModelViewer"

@@ -193,7 +193,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SpherePool",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "ballpit",
   "upstreamName": "Ballpit"

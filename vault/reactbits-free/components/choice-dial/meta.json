@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ChoiceDial",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "option-wheel",
   "upstreamName": "OptionWheel"

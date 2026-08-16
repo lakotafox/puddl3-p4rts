@@ -8,12 +8,12 @@ import { HOME } from "../src/lib/vault.ts";
  * 2026-08-14). Free demos live in vendored files, so — like rebrand.ts — this
  * is a script, not hand edits: re-vendoring upstream is copy-the-tree, re-run.
  *
- * Each entry lists [upstreamString, foxbitsString]. After the first run the
+ * Each entry lists [upstreamString, p4rtsString]. After the first run the
  * upstream string is gone, so re-runs are no-ops; after a re-vendor the
  * upstream strings are back and the pass re-applies.
  */
 
-const VENDOR = join(HOME, "vendor/reactbits");
+const VENDOR = join(HOME, "site");
 
 const DEMO_TEXT: Record<string, [string, string][]> = {
   "demo/TextAnimations/SplitTextDemo.jsx": [
@@ -67,7 +67,7 @@ const DEMO_TEXT: Record<string, [string, string][]> = {
     ['text="REACT BITS"', 'text="PUDDL3"'],
     ['text="FOXBITS"', 'text="PUDDL3"'],
   ],
-  "demo/Components/CurvedInputDemo.jsx": [['placeholder="david@reactbits.dev"', 'placeholder="elias@foxbits.dev"']],
+  "demo/Components/CurvedInputDemo.jsx": [['placeholder="david@reactbits.dev"', 'placeholder="elias@puddl3.xyz"']],
 };
 
 async function main() {

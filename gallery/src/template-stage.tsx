@@ -6,7 +6,7 @@ import { createRoot } from "react-dom/client";
  * the vault, in an isolated iframe: its real app/page.tsx, its real globals.css
  * compiled through tailwind (the wrappers in src/template-css add the @source
  * scan), its own Lenis scroll. Ported from the harvest sandbox, which learned
- * every lesson the hard way (see ~/foxbits-harvest/README.md).
+ * every lesson the hard way (see ~/puddl3-harvest/README.md).
  */
 
 const params = new URLSearchParams(location.search);

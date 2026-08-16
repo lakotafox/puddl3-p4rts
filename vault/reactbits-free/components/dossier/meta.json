@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "Dossier",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "folder",
   "upstreamName": "Folder"

@@ -230,7 +230,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SquareWake",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pixel-trail",
   "upstreamName": "PixelTrail"

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "Streamers",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "ribbons",
   "upstreamName": "Ribbons"

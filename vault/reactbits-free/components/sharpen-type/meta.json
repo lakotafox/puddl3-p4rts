@@ -182,7 +182,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SharpenType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "blur-text",
   "upstreamName": "BlurText"

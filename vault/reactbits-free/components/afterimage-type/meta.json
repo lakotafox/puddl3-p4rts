@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "AfterimageType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "echo-text",
   "upstreamName": "EchoText"

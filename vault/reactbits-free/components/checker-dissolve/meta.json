@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CheckerDissolve",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pixel-transition",
   "upstreamName": "PixelTransition"

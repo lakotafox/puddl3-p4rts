@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CrystalPanel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "glass-surface",
   "upstreamName": "GlassSurface"

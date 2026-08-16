@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BitmapPanel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pixel-card",
   "upstreamName": "PixelCard"

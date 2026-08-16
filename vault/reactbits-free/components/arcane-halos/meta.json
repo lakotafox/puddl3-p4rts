@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ArcaneHalos",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "magic-rings",
   "upstreamName": "MagicRings"

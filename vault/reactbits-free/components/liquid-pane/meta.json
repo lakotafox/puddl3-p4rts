@@ -240,7 +240,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "LiquidPane",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "fluid-glass",
   "upstreamName": "FluidGlass"

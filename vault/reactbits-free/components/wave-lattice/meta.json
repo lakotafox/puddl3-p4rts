@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "WaveLattice",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "ripple-grid",
   "upstreamName": "RippleGrid"

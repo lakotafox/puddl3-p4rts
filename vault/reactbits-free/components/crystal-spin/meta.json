@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CrystalSpin",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "prism",
   "upstreamName": "Prism"

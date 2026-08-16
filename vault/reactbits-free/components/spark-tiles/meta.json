@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SparkTiles",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "magic-bento",
   "upstreamName": "MagicBento"

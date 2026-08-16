@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ChromeInk",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "metallic-paint",
   "upstreamName": "MetallicPaint"

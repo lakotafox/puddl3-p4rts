@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DriftingWires",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "floating-lines",
   "upstreamName": "FloatingLines"

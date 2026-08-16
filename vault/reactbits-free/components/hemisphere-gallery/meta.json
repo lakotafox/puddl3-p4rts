@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "HemisphereGallery",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "dome-gallery",
   "upstreamName": "DomeGallery"

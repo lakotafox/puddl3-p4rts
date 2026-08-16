@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "WaterWarp",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "ripple-distortion",
   "upstreamName": "RippleDistortion"

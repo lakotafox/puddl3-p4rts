@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ExtrudedType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "depth-text",
   "upstreamName": "DepthText"

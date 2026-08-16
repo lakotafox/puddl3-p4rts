@@ -215,7 +215,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "MomentumMarquee",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "scroll-velocity",
   "upstreamName": "ScrollVelocity"

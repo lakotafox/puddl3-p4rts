@@ -211,7 +211,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PanelNav",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "card-nav",
   "upstreamName": "CardNav"

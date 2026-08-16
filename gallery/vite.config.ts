@@ -5,7 +5,7 @@ import { resolve } from "node:path";
 import { existsSync, statSync, readdirSync, createReadStream, readFileSync } from "node:fs";
 
 
-const HOME = process.env.FOXBITS_HOME || resolve(import.meta.dirname, "..");
+const HOME = process.env.P4RTS_HOME || resolve(import.meta.dirname, "..");
 const SHIMS = resolve(import.meta.dirname, "src/shims");
 const GL = resolve(HOME, "vault/getlayers");
 
@@ -115,7 +115,7 @@ function getlayersAssets() {
 /** Serve the vault (which lives outside Vite's root) at /vault/*. */
 function serveVault() {
   return {
-    name: "foxbits-vault",
+    name: "p4rts-vault",
     configureServer(server: any) {
       server.middlewares.use(async (req: any, res: any, next: any) => {
         if (!req.url?.startsWith("/vault/")) return next();
@@ -161,10 +161,10 @@ export default defineConfig({
       // <XDemo /> components gives an exact clone of the reactbits.dev preview
       // (stage, Customize controls, prop tables) with nothing reimplemented.
       // The four source-variant trees their code-constants read raw, for the Code tab.
-      { find: "@content", replacement: resolve(HOME, "vendor/reactbits/content") },
-      { find: "@ts-default", replacement: resolve(HOME, "vendor/reactbits/ts-default") },
-      { find: "@ts-tailwind", replacement: resolve(HOME, "vendor/reactbits/ts-tailwind") },
-      { find: "@tailwind", replacement: resolve(HOME, "vendor/reactbits/tailwind") },
+      { find: "@content", replacement: resolve(HOME, "site/content") },
+      { find: "@ts-default", replacement: resolve(HOME, "site/ts-default") },
+      { find: "@ts-tailwind", replacement: resolve(HOME, "site/ts-tailwind") },
+      { find: "@tailwind", replacement: resolve(HOME, "site/tailwind") },
       // Next.js surface for the GetLayers templates (shims from the harvest sandbox)
       { find: /^next\/image$/, replacement: resolve(SHIMS, "next-image.tsx") },
       { find: /^next\/link$/, replacement: resolve(SHIMS, "next-link.tsx") },
@@ -185,7 +185,7 @@ export default defineConfig({
           // fall back to the joined path so non-code assets (@/assets/x.png)
           // keep flowing through vite's own pipeline, as the old prefix
           // replacement did
-          return resolveWithExt(resolve(HOME, "vendor/reactbits", source)) ?? resolve(HOME, "vendor/reactbits", source);
+          return resolveWithExt(resolve(HOME, "site", source)) ?? resolve(HOME, "site", source);
         },
       },
     ],

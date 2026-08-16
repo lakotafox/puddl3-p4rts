@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ProximityNav",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "line-sidebar",
   "upstreamName": "LineSidebar"

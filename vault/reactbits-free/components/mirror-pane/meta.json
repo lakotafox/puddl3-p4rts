@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "MirrorPane",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "reflective-card",
   "upstreamName": "ReflectiveCard"

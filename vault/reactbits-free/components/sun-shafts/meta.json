@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SunShafts",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "light-rays",
   "upstreamName": "LightRays"

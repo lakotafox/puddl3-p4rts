@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FilamentWeave",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "strands",
   "upstreamName": "Strands"

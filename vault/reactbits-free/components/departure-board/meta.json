@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DepartureBoard",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "split-flap-text",
   "upstreamName": "SplitFlapText"

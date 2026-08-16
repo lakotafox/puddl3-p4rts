@@ -201,7 +201,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SatinFlow",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "silk",
   "upstreamName": "Silk"

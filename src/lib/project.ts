@@ -59,7 +59,7 @@ async function resolveAlias(root: string, alias: string): Promise<string | null>
 
 export async function inspectTarget(dir: string): Promise<Target> {
   const root = await findRoot(dir);
-  if (root === HOME) throw new Error("Refusing to add into the foxbits repo itself. Use --to <dir>.");
+  if (root === HOME) throw new Error("Refusing to add into the PUDDL3 P4RTS repo itself. Use --to <dir>.");
 
   const pkg = await readJson<any>(join(root, "package.json"));
   const cj = await readJson<any>(join(root, "components.json"));

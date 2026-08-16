@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ParallaxLift",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "scroll-float",
   "upstreamName": "ScrollFloat"

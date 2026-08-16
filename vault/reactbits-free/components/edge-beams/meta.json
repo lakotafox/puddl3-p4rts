@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "EdgeBeams",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "side-rays",
   "upstreamName": "SideRays"

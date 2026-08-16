@@ -7,7 +7,7 @@ export const MANIFEST = join(VAULT, "manifest.json");
 
 /**
  * Rebuild the manifest from each asset's meta.json. The manifest is a cache;
- * the files on disk are the source of truth. Delete it, run `foxbits index`,
+ * the files on disk are the source of truth. Delete it, run `PUDDL3 P4RTS index`,
  * get it back — no network required.
  */
 export async function rebuildIndex(): Promise<Manifest> {
@@ -37,7 +37,7 @@ export async function rebuildIndex(): Promise<Manifest> {
 
 export async function loadManifest(): Promise<Manifest> {
   const m = await readJson<Manifest>(MANIFEST);
-  if (!m) throw new Error(`No manifest at ${MANIFEST}. Run: foxbits sync   (or: foxbits index)`);
+  if (!m) throw new Error(`No manifest at ${MANIFEST}. Run: p4rts index   (or: PUDDL3 P4RTS index)`);
   return m;
 }
 

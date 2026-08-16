@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PathMarquee",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "text-loop",
   "upstreamName": "TextLoop"

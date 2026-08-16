@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ShardSwitch",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pixel-swap",
   "upstreamName": "PixelSwap"

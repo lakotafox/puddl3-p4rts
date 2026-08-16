@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FrostedGlyphs",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "glass-icons",
   "upstreamName": "GlassIcons"

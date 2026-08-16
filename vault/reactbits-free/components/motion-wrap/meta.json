@@ -181,7 +181,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "MotionWrap",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "animated-content",
   "upstreamName": "AnimatedContent"

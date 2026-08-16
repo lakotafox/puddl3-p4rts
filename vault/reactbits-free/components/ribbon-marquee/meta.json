@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RibbonMarquee",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "curved-loop",
   "upstreamName": "CurvedLoop"

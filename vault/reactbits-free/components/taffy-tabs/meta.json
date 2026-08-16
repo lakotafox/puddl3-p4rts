@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TaffyTabs",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "gooey-nav",
   "upstreamName": "GooeyNav"

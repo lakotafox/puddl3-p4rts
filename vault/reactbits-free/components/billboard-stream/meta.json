@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BillboardStream",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "flying-posters",
   "upstreamName": "FlyingPosters"

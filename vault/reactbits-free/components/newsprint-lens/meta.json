@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "NewsprintLens",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "halftone-reveal",
   "upstreamName": "HalftoneReveal"

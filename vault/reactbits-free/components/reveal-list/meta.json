@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RevealList",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "animated-list",
   "upstreamName": "AnimatedList"

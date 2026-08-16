@@ -156,7 +156,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CipherRain",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "letter-glitch",
   "upstreamName": "LetterGlitch"

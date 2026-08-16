@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "HorizonSwells",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "gradient-waves",
   "upstreamName": "GradientWaves"

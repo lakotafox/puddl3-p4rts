@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DissolvePanel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "decay-card",
   "upstreamName": "DecayCard"

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FocalFibers",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "web-threads",
   "upstreamName": "WebThreads"

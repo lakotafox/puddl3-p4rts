@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "Loom",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "threads",
   "upstreamName": "Threads"

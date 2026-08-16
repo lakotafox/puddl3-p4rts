@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TwinkleFrame",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "star-border",
   "upstreamName": "StarBorder"

@@ -210,7 +210,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SquareBurst",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pixel-blast",
   "upstreamName": "PixelBlast"

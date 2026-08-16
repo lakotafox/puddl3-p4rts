@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SpectrumFlare",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "prismatic-burst",
   "upstreamName": "PrismaticBurst"

@@ -255,7 +255,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "WarpDrive",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "hyperspeed",
   "upstreamName": "Hyperspeed"

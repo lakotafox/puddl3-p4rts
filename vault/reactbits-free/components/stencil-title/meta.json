@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "StencilTitle",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "masked-heading",
   "upstreamName": "MaskedHeading"

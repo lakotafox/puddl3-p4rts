@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ZoomShelf",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "dock",
   "upstreamName": "Dock"

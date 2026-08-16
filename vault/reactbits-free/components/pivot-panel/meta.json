@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PivotPanel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "tilted-card",
   "upstreamName": "TiltedCard"

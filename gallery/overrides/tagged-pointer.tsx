@@ -1,6 +1,6 @@
 /**
- * foxbits preview override of user-cursor (vault copy stays byte-identical to
- * upstream — `foxbits add` ships the original). One behavioral change: with
+ * PUDDL3 P4RTS preview override of user-cursor (vault copy stays byte-identical to
+ * upstream — `p4rts add` ships the original). One behavioral change: with
  * directionAwareTilt on, the arrow HOLDS its last direction at idle instead of
  * springing back to the resting tilt.
  */
@@ -205,7 +205,7 @@ const TaggedPointer = forwardRef<HTMLDivElement, TaggedPointerProps>(
     const VELOCITY_FULL = 600;
     const VELOCITY_MIN = 40;
     // @ts-ignore — override marker for verification
-    if (typeof window !== 'undefined') (window as any).__foxbitsOverride = 'user-cursor';
+    if (typeof window !== 'undefined') (window as any).__p4rtsOverride = 'user-cursor';
 
     // foxbits: remember the last pointing direction so idle holds it.
     const lastArrowRotate = useRef(tilt);

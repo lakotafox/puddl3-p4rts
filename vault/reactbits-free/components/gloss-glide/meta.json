@@ -166,7 +166,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "GlossGlide",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "glare-hover",
   "upstreamName": "GlareHover"

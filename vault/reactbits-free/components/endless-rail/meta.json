@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "EndlessRail",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "infinite-menu",
   "upstreamName": "InfiniteMenu"

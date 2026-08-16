@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ForgeSwirl",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "molten-metal",
   "upstreamName": "MoltenMetal"

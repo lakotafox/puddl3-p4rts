@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RainbowDrift",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "color-bends",
   "upstreamName": "ColorBends"

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "LatticeBend",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "grid-distortion",
   "upstreamName": "GridDistortion"

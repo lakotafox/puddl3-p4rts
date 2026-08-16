@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "BloomNav",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "bubble-menu",
   "upstreamName": "BubbleMenu"

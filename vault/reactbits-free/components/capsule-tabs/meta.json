@@ -213,7 +213,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CapsuleTabs",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "pill-nav",
   "upstreamName": "PillNav"

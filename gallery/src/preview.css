@@ -5,5 +5,5 @@
 @source "../../vault/**/*.{jsx,tsx}";
 /* demoProps in the generated catalog carry Tailwind classes (className props);
    without scanning it those utilities never get generated. */
-@source "../../vendor/reactbits/constants/ProCatalog.js";
+@source "../../site/constants/ProCatalog.js";
 @custom-variant dark (&:is(.dark *));

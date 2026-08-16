@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FilmGrain",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "noise",
   "upstreamName": "Noise"

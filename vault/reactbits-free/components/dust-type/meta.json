@@ -166,7 +166,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "DustType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "particle-text",
   "upstreamName": "ParticleText"

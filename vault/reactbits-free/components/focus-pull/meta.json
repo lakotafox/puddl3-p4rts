@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FocusPull",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "gradual-blur",
   "upstreamName": "GradualBlurMemo"

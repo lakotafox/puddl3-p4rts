@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "PhraseFlip",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "rotating-text",
   "upstreamName": "RotatingText"

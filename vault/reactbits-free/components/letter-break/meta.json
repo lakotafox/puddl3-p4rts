@@ -201,7 +201,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "LetterBreak",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "split-text",
   "upstreamName": "SplitText"

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SpeckleWash",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "grainient",
   "upstreamName": "Grainient"

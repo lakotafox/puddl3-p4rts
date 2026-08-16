@@ -1,7 +1,7 @@
 /* react-bits' own global stylesheet, verbatim — fonts, CSS variables, and the
    .demo-container / preview-control styling their demos rely on. */
-@import "../../vendor/reactbits/styles.css";
-@source "../../vendor/reactbits/**/*.{jsx,tsx,js,ts}";
+@import "../../site/styles.css";
+@source "../../site/**/*.{jsx,tsx,js,ts}";
 /* The vault is where Pro block/component source lives. Without this @source,
    Tailwind never scans those files, so their utilities (dark:bg-neutral-950,
    bg-linear-to-br, ...) are simply not generated — blocks render half-styled. */

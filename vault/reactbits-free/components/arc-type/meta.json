@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ArcType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "circular-text",
   "upstreamName": "CircularText"

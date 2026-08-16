@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "HaloEdge",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "border-glow",
   "upstreamName": "BorderGlow"

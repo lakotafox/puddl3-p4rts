@@ -155,7 +155,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SquishType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "text-pressure",
   "upstreamName": "TextPressure"

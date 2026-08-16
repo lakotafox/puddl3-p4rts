@@ -215,7 +215,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "WaterfallNav",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "staggered-menu",
   "upstreamName": "StaggeredMenu"

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "MagneticInk",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "variable-proximity",
   "upstreamName": "VariableProximity"

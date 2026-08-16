@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "IonSwell",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "plasma-wave",
   "upstreamName": "PlasmaWave"

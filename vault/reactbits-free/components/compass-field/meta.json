@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CompassField",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "magnet-lines",
   "upstreamName": "MagnetLines"

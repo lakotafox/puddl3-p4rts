@@ -155,7 +155,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "RipplePointer",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "splash-cursor",
   "upstreamName": "SplashCursor"

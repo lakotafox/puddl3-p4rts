@@ -166,7 +166,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "StaticType",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "glitch-text",
   "upstreamName": "GlitchText"

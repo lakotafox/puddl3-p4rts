@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FluxPool",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "ferrofluid",
   "upstreamName": "Ferrofluid"

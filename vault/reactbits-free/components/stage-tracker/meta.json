@@ -214,7 +214,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "StageTracker",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "stepper",
   "upstreamName": "Stepper"

@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "KeystrokeReveal",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "text-type",
   "upstreamName": "TextType"

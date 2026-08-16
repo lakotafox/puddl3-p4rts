@@ -211,7 +211,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SwipeReel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "carousel",
   "upstreamName": "Carousel"

@@ -192,7 +192,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SpringDeck",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "bounce-cards",
   "upstreamName": "BounceCards"

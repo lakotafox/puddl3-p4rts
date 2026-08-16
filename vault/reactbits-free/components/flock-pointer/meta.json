@@ -191,7 +191,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "FlockPointer",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "swarm-cursor",
   "upstreamName": "SwarmCursor"

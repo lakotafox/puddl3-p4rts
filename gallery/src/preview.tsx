@@ -21,7 +21,7 @@ const all = {
 // Preview-only overrides: same filename as the vault component, preferred when
 // present. Lets previews carry small behavioral tweaks (user-cursor holding its
 // idle direction) and personalized demo content while the vault — what
-// `foxbits add` actually ships — stays byte-identical to upstream.
+// `p4rts add` actually ships — stays byte-identical to upstream.
 const overrides = import.meta.glob("../overrides/*.{tsx,jsx}");
 
 const params = new URLSearchParams(location.search);

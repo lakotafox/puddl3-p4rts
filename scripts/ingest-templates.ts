@@ -4,7 +4,7 @@ import { readFile, writeFile, mkdir, readdir, stat, copyFile, rm } from "node:fs
 import { HOME } from "../src/lib/vault.ts";
 
 /**
- * Ingest the PUDDL3-rebranded GetLayers templates from ~/foxbits-harvest/raw
+ * Ingest the PUDDL3-rebranded GetLayers templates from ~/puddl3-harvest/raw
  * into the vault as first-class assets:
  *   vault/getlayers/templates/<name>/files/**   (React templates — whole src+public)
  *   vault/getlayers/scenes/<name>/files/**      (vanilla three.js one-pagers)
@@ -15,8 +15,8 @@ import { HOME } from "../src/lib/vault.ts";
  * the sidebar shows TEMPLATE NAMES while the content speaks PUDDL3.
  */
 
-const RAW = join(process.env.HOME!, "foxbits-harvest/raw");
-const LEDGER = join(process.env.HOME!, "foxbits-harvest/rebrand.json");
+const RAW = join(process.env.HOME!, "puddl3-harvest/raw");
+const LEDGER = join(process.env.HOME!, "puddl3-harvest/rebrand.json");
 const OUT = join(HOME, "vault/getlayers");
 
 const SCENES = new Set(["laocoon", "soda"]);

@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "CRTFlicker",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "faulty-terminal",
   "upstreamName": "FaultyTerminal"

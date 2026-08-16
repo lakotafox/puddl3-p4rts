@@ -190,7 +190,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ContourField",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "topography",
   "upstreamName": "Topography"

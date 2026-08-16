@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "TileStream",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "drift-wall",
   "upstreamName": "DriftWall"

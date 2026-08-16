@@ -165,7 +165,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "ArcField",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "curved-input",
   "upstreamName": "CurvedInput"

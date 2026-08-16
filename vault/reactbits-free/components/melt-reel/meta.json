@@ -212,7 +212,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "MeltReel",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "morph-slider",
   "upstreamName": "MorphSlider"

@@ -181,7 +181,7 @@
   "vaultVersion": 1,
   "demo": {
     "name": "SoftEntrance",
-    "path": "vendor/reactbits"
+    "path": "site"
   },
   "upstreamSlug": "fade-content",
   "upstreamName": "FadeContent"
