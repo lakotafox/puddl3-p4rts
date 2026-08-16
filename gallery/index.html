@@ -19,6 +19,10 @@
           'html,body{background:#120f17!important}' +
           '.ln-navbar,.sidebar,.category-page{opacity:0!important;pointer-events:none!important}';
         document.head.appendChild(s);
+        // Safety net: never let the holding style outlive the arrival. If the
+        // picker doesn't mount and remove it (JS error, slow chunk), it would
+        // otherwise blank every page navigated to afterwards.
+        setTimeout(function () { var el = document.getElementById('p4rts-boot'); if (el) el.remove(); }, 4000);
       }
     </script>
   </head>

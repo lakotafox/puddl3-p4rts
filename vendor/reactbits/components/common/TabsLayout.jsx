@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import TabsFooter from './TabsFooter';
+import ComponentPager from './ComponentPager';
 
 import { Tabs, Icon, Flex, Tooltip, Box, Menu, Portal } from '@chakra-ui/react';
 import { FiCode, FiEye } from 'react-icons/fi';
@@ -327,7 +328,8 @@ const TabsLayout = ({ children, className }) => {
 
           {/* Mobile: overflow menu */}
           {hasOverflowActions && (
-            <Box display={{ base: 'flex', md: 'none' }} flexShrink={0}>
+            <Box display={{ base: 'flex', md: 'none' }} flexShrink={0} gap={2} alignItems="center">
+              <ComponentPager compact />
               <Menu.Root
                 positioning={{
                   placement: 'bottom-end',

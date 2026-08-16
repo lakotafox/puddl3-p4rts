@@ -1,4 +1,4 @@
-import { StrictMode, useState } from "react";
+import { StrictMode, useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
@@ -13,52 +13,42 @@ import "./demo.css";
 
 // Site-wide pixel snow (user, 2026-08-15): fixed at z -1 behind every page,
 // carrying the base page color itself — demo.css makes .app-container
-// transparent so it shows through, while demo stages stay opaque. The SNOW
-// pill (bottom-right, every page) turns it off; the choice persists.
+// transparent so it shows through, while demo stages stay opaque.
+// On by default; the only control is the "Disable snow" button on the /library
+// picker (user, 2026-08-16 — the floating pill was in the way everywhere).
+// That button lives in the vendored tree, which can't import from here, so the
+// two talk over a window event and share the localStorage key.
 const SNOW_KEY = "p4rts-snow";
 
 const SiteFlurry = () => {
-  const [on, setOn] = useState(() => {
-    const stored = localStorage.getItem(SNOW_KEY);
-    if (stored) return stored !== "off";
-    // no stored choice: respect reduced-motion (full-viewport shader otherwise)
-    return !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  });
-  const toggle = () =>
-    setOn((v) => {
-      localStorage.setItem(SNOW_KEY, v ? "off" : "on");
-      return !v;
-    });
+  const [on, setOn] = useState(() => localStorage.getItem(SNOW_KEY) !== "off");
+  useEffect(() => {
+    const onToggle = (e: Event) => {
+      const next = (e as CustomEvent<boolean>).detail;
+      localStorage.setItem(SNOW_KEY, next ? "on" : "off");
+      setOn(next);
+    };
+    window.addEventListener("p4rts-snow", onToggle);
+    return () => window.removeEventListener("p4rts-snow", onToggle);
+  }, []);
   return (
-    <>
-      <div
-        aria-hidden="true"
-        style={{ position: "fixed", inset: 0, zIndex: -1, pointerEvents: "none", background: "#120f17" }}
-      >
-        {on && (
-          <RetroFlurry
-            color="#ffffff"
-            flakeSize={0.01}
-            minFlakeSize={1.25}
-            pixelResolution={200}
-            speed={1.25}
-            density={0.3}
-            direction={125}
-            brightness={1}
-          />
-        )}
-      </div>
-      <button
-        type="button"
-        onClick={toggle}
-        aria-pressed={on}
-        className="snow-toggle"
-        title={on ? "Turn snow off" : "Turn snow on"}
-      >
-        <span aria-hidden="true" className="snow-toggle__flake">❄</span>
-        <span className="snow-toggle__label">SNOW {on ? "ON" : "OFF"}</span>
-      </button>
-    </>
+    <div
+      aria-hidden="true"
+      style={{ position: "fixed", inset: 0, zIndex: -1, pointerEvents: "none", background: "#120f17" }}
+    >
+      {on && (
+        <RetroFlurry
+          color="#ffffff"
+          flakeSize={0.01}
+          minFlakeSize={1.25}
+          pixelResolution={200}
+          speed={1.25}
+          density={0.3}
+          direction={125}
+          brightness={1}
+        />
+      )}
+    </div>
   );
 };
 

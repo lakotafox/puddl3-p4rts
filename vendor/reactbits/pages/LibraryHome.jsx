@@ -66,10 +66,13 @@ const LibraryHome = () => {
   if (typeof document !== 'undefined') document.body.classList.add('p4rts-hero');
   useEffect(() => {
     document.body.classList.add('p4rts-hero');
-    return () => {
-      document.body.classList.remove('p4rts-hero');
-      document.documentElement.classList.remove('p4rts-hero-boot');
-    };
+    // Hand over from the pre-React boot style (index.html) — it holds a dark,
+    // chrome-free screen until the picker is up. It MUST be torn down here: it
+    // carries `.category-page { opacity: 0 }` and an opaque background, so
+    // leaving it in place blanked every page reached from the picker and hid
+    // the snow (only a hard reload, which skips it, looked fine).
+    document.getElementById('p4rts-boot')?.remove();
+    return () => document.body.classList.remove('p4rts-hero');
   }, []);
 
   // The slow one-at-a-time reveal is a first-impression beat: it plays once per
@@ -115,6 +118,15 @@ const LibraryHome = () => {
     }, 460);
   };
 
+  // The site-wide snow lives in gallery/src/main.tsx (outside this tree), so the
+  // control talks to it by event and shares its localStorage key.
+  const [snowOn, setSnowOn] = useState(() => localStorage.getItem('p4rts-snow') !== 'off');
+  const toggleSnow = () => {
+    const next = !snowOn;
+    setSnowOn(next);
+    window.dispatchEvent(new CustomEvent('p4rts-snow', { detail: next }));
+  };
+
   const choose = (index) => {
     if (leavingRef.current) return;
     const row = rows[index];
@@ -143,12 +155,24 @@ const LibraryHome = () => {
            the first paint, so the full list flashed on screen and then vanished
            to stagger back in (user, 2026-08-16). */
         .library-home .line-sidebar__item { opacity: 0; }
+        .lh-snow {
+          position: fixed; z-index: 2;
+          top: calc(18px + env(safe-area-inset-top, 0px)); right: 18px;
+          appearance: none; background: none; border: 0; padding: 10px 4px;
+          min-height: 44px; cursor: pointer;
+          color: #8b8b93; font-size: 12px; font-weight: 600; letter-spacing: .06em;
+          text-transform: uppercase;
+        }
+        .lh-snow:hover { color: #fff; }
         @supports (height: 100dvh) {
           /* short/landscape phones: let the list scroll instead of clipping */
           .library-home { align-items: safe center; }
         }
         .library-home .line-sidebar__text { white-space: pre; }
       `}</style>
+      <button type="button" className="lh-snow" onClick={toggleSnow}>
+        {snowOn ? 'Disable snow' : 'Enable snow'}
+      </button>
       <LineSidebar
         items={items}
         accentColor="#a855f7"
