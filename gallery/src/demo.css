@@ -124,3 +124,26 @@ main.app-container { background: transparent; }
 .ln-navbar-mobile-link { color: rgba(255, 255, 255, 0.92); }
 .ln-navbar-mobile-acc.is-open { color: #c084fc; }
 .ln-navbar-mobile-acc.is-open .ln-navbar-mobile-acc-chev { opacity: 1; }
+
+/* ── collapsible Customize / Props sections (p4rts-fold, rebrand.ts) ── */
+.p4rts-fold-head {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+}
+.p4rts-fold-chev {
+  font-size: 15px;
+  opacity: 0.55;
+  color: #fff;
+  transition: transform 0.25s ease;
+  margin-top: 0.5em;
+}
+.p4rts-fold-chev.is-open { transform: rotate(180deg); opacity: 1; }

@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import './PropTable.css';
 
-const PropTable = ({ data }) => (
+// p4rts-fold: collapsed by default, expand via header chevron
+const PropTable = ({ data }) => {
+  const [open, setOpen] = useState(false);
+  return (
   <div className="prop-table-section">
-    <h2 className="demo-title-extra">Props</h2>
+    <button type="button" className="p4rts-fold-head" aria-expanded={open} onClick={() => setOpen(o => !o)}>
+      <h2 className="demo-title-extra">Props</h2>
+      <span className={`p4rts-fold-chev${open ? ' is-open' : ''}`} aria-hidden="true">▾</span>
+    </button>
+    {open && (<>
 
     {/* Desktop table */}
     <div className="prop-table-wrap">
@@ -44,7 +52,9 @@ const PropTable = ({ data }) => (
         </div>
       ))}
     </div>
+    </>)}
   </div>
-);
+  );
+};
 
 export default PropTable;

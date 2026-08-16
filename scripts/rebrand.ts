@@ -541,6 +541,84 @@ async function stripProStorefront() {
 
   await mobileMenuAccordion();
   await mobileGetMenu();
+  await collapsibleSections();
+}
+
+/**
+ * Customize + Props sections collapse (user, 2026-08-16): both start collapsed
+ * on every viewport and expand via a header chevron. One edit each in the
+ * shared components covers all 166 free demos AND the Deep pages (ProDemo
+ * renders the same <Customize>). Chevron styling in gallery/src/demo.css.
+ */
+async function collapsibleSections() {
+  const cust = join(VENDOR, "components/common/Preview/Customize.jsx");
+  let c = await readFile(cust, "utf8");
+  if (!c.includes("p4rts-fold")) {
+    await writeFile(cust,
+`import { useState } from 'react';
+
+// p4rts-fold: collapsed by default; the grid wraps only the controls so the
+// header button sits outside .preview-options.
+const Customize = ({ children }) => {
+  const [open, setOpen] = useState(false);
+  return (
+    <section className="p4rts-fold">
+      <button type="button" className="p4rts-fold-head" aria-expanded={open} onClick={() => setOpen(o => !o)}>
+        <h2 className="demo-title-extra">Customize</h2>
+        <span className={\`p4rts-fold-chev\${open ? ' is-open' : ''}\`} aria-hidden="true">▾</span>
+      </button>
+      {open && <div className="preview-options">{children}</div>}
+    </section>
+  );
+};
+
+export default Customize;
+`, "utf8");
+  }
+
+  const prop = join(VENDOR, "components/common/Preview/PropTable.jsx");
+  let p = await readFile(prop, "utf8");
+  if (!p.includes("p4rts-fold")) {
+    p = p.replace(
+      `import './PropTable.css';
+
+const PropTable = ({ data }) => (
+  <div className="prop-table-section">
+    <h2 className="demo-title-extra">Props</h2>
+`,
+      `import { useState } from 'react';
+import './PropTable.css';
+
+// p4rts-fold: collapsed by default, expand via header chevron
+const PropTable = ({ data }) => {
+  const [open, setOpen] = useState(false);
+  return (
+  <div className="prop-table-section">
+    <button type="button" className="p4rts-fold-head" aria-expanded={open} onClick={() => setOpen(o => !o)}>
+      <h2 className="demo-title-extra">Props</h2>
+      <span className={\`p4rts-fold-chev\${open ? ' is-open' : ''}\`} aria-hidden="true">▾</span>
+    </button>
+    {open && (<>
+`,
+    );
+    p = p.replace(
+      `      ))}
+    </div>
+  </div>
+);
+
+export default PropTable;`,
+      `      ))}
+    </div>
+    </>)}
+  </div>
+  );
+};
+
+export default PropTable;`,
+    );
+    await writeFile(prop, p, "utf8");
+  }
 }
 
 /**
@@ -574,6 +652,12 @@ async function mobileGetMenu() {
   s = s.replace(
     `<Tabs.Trigger value="code" {...TAB_STYLE_PROPS} flex={{ base: '1 1 0', md: '0 0 auto' }}>`,
     `<Tabs.Trigger value="code" {...TAB_STYLE_PROPS} display={{ base: 'none', md: 'flex' }} flex={{ base: '1 1 0', md: '0 0 auto' }}>`,
+  );
+  // Mobile shows the Preview pill only in code view (it's the way back) and
+  // compact — a lone stretched tab wasted the whole row (user, 2026-08-16).
+  s = s.replace(
+    `<Tabs.Trigger value="preview" {...TAB_STYLE_PROPS} flex={{ base: '1 1 0', md: '0 0 auto' }}>`,
+    `<Tabs.Trigger value="preview" {...TAB_STYLE_PROPS} display={{ base: p4rtsTab === 'code' ? 'flex' : 'none', md: 'flex' }} flex="0 0 auto">`,
   );
   s = s.replace(`aria-label="More actions"`, `aria-label="Get this component"`);
   s = s.replace(

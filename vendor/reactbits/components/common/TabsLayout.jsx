@@ -250,7 +250,7 @@ const TabsLayout = ({ children, className }) => {
         <Flex gap={2} justifyContent="space-between" alignItems="center" w="100%" wrap="nowrap">
           {/* Primary tabs */}
           <Flex gap={2} wrap="nowrap" flex={{ base: '1 1 0', md: '0 0 auto' }} minW="0">
-            <Tabs.Trigger value="preview" {...TAB_STYLE_PROPS} flex={{ base: '1 1 0', md: '0 0 auto' }}>
+            <Tabs.Trigger value="preview" {...TAB_STYLE_PROPS} display={{ base: p4rtsTab === 'code' ? 'flex' : 'none', md: 'flex' }} flex="0 0 auto">
               <Icon as={FiEye} /> Preview
             </Tabs.Trigger>
 
