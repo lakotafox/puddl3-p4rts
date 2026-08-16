@@ -92,7 +92,7 @@ const TemplateDemo = () => {
   const meta = TEMPLATE_INDEX[subcategory];
   if (!meta) return <div style={{ padding: 24, color: '#f87171' }}>Unknown template: {subcategory}</div>;
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 12, height: 'calc(100vh - 140px)' }}>
+    <div className="template-stage" style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 12, flexWrap: 'wrap' }}>
         <h2 style={{ margin: 0, fontSize: 24, fontWeight: 700 }}>{meta.title}</h2>
         <span style={{ opacity: 0.55, fontSize: 13 }}>

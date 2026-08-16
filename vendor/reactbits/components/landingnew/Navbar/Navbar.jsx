@@ -208,7 +208,7 @@ const Navbar = ({ showDocs }) => {
                             {sub}
                           </Link>
                         ))}
-                        {i === 0 && (
+                        {false && ( /* Pro/Tools mobile groups removed for PUDDL3 P4RTS */
                           <>
                             {/* Mirrors the desktop sidebar, where Pro sits directly
                                 below Get Started and above Tools. */}

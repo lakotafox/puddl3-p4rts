@@ -18,7 +18,12 @@ import "./demo.css";
 const SNOW_KEY = "p4rts-snow";
 
 const SiteFlurry = () => {
-  const [on, setOn] = useState(() => localStorage.getItem(SNOW_KEY) !== "off");
+  const [on, setOn] = useState(() => {
+    const stored = localStorage.getItem(SNOW_KEY);
+    if (stored) return stored !== "off";
+    // no stored choice: respect reduced-motion (full-viewport shader otherwise)
+    return !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  });
   const toggle = () =>
     setOn((v) => {
       localStorage.setItem(SNOW_KEY, v ? "off" : "on");
@@ -47,30 +52,11 @@ const SiteFlurry = () => {
         type="button"
         onClick={toggle}
         aria-pressed={on}
+        className="snow-toggle"
         title={on ? "Turn snow off" : "Turn snow on"}
-        style={{
-          position: "fixed",
-          right: 20,
-          bottom: 20,
-          zIndex: 2000,
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-          padding: "10px 18px",
-          borderRadius: 999,
-          border: "1px solid rgba(255,255,255,.18)",
-          background: "rgba(18,15,23,.82)",
-          backdropFilter: "blur(10px)",
-          color: "#fff",
-          fontSize: 13,
-          fontWeight: 700,
-          letterSpacing: "0.08em",
-          cursor: "pointer",
-          opacity: on ? 1 : 0.65,
-        }}
       >
-        <span aria-hidden="true" style={{ fontSize: 15 }}>❄</span>
-        SNOW {on ? "ON" : "OFF"}
+        <span aria-hidden="true" className="snow-toggle__flake">❄</span>
+        <span className="snow-toggle__label">SNOW {on ? "ON" : "OFF"}</span>
       </button>
     </>
   );

@@ -254,7 +254,8 @@ export default function ProDemo() {
           <CodeHighlighter language="markdown" codeString={source || 'Loading…'} />
         ) : (
           <>
-            <Box display="flex" justifyContent="flex-end" gap="6px" mb={2}>
+            <Box display="flex" justifyContent="flex-end" flexWrap="wrap" gap="6px" mb={2}>
+              {/* viewport presets mean nothing ON a phone — hide below md */}
               {[
                 { icon: Monitor, w: '100%', label: 'Desktop preview' },
                 { icon: Tablet, w: '768px', label: 'Tablet preview' },
@@ -265,6 +266,7 @@ export default function ProDemo() {
                   as="button"
                   aria-label={label}
                   onClick={() => setViewWidth(w)}
+                  display={{ base: 'none', md: 'block' }}
                   p="8px"
                   borderRadius="10px"
                   bg={viewWidth === w ? '#27232f' : '#171420'}
@@ -291,7 +293,7 @@ export default function ProDemo() {
                 <RotateCw size={15} />
               </Box>
             </Box>
-            <Box position="relative" className="demo-container" h={isBlock ? 620 : 500} p={0} overflow="hidden"
+            <Box position="relative" className="demo-container" h={{ base: 420, md: isBlock ? 620 : 500 }} p={0} overflow="hidden"
                  display="flex" justifyContent="center" bg="#060608">
               {previewSrc ? (
                 <iframe

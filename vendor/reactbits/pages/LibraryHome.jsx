@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LineSidebar from '../components/common/LineSidebar/LineSidebar';
 import { CATEGORIES } from '../constants/Categories';
@@ -10,10 +10,26 @@ import { CATEGORIES } from '../constants/Categories';
 // active route's section).
 const slug = (s) => s.toLowerCase().replace(/\s+/g, '-');
 
+// LineSidebar has no media queries of its own; on phones the desktop props
+// (130px marker gutter + 1.35rem labels + 30px shift) overflow a 390px screen.
+const useCompact = () => {
+  const [compact, setCompact] = useState(
+    () => window.matchMedia('(max-width: 640px)').matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 640px)');
+    const onChange = (e) => setCompact(e.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
+  return compact;
+};
+
 const LibraryHome = () => {
   const navigate = useNavigate();
   const wrapRef = useRef(null);
   const leavingRef = useRef(false);
+  const compact = useCompact();
   const sections = useMemo(
     () => CATEGORIES.map((c) => ({
       label: c.name,
@@ -56,10 +72,15 @@ const LibraryHome = () => {
         .library-home {
           position: fixed; inset: 0; z-index: 30;
           display: flex; align-items: center; justify-content: center;
+          overflow-y: auto; padding: 32px 0;
           /* transparent — the site-wide SiteFlurry (main.tsx) is the backdrop,
              and it stays put while the picker fades, carrying into the app */
         }
         .library-home .line-sidebar { position: relative; z-index: 1; }
+        @supports (height: 100dvh) {
+          /* short/landscape phones: let the list scroll instead of clipping */
+          .library-home { align-items: safe center; }
+        }
       `}</style>
       <LineSidebar
         items={sections.map((s) => s.label)}
@@ -68,15 +89,15 @@ const LibraryHome = () => {
         markerColor="#2FD8E8"
         showIndex
         showMarker
-        proximityRadius={100}
-        maxShift={30}
+        proximityRadius={compact ? 70 : 100}
+        maxShift={compact ? 16 : 30}
         falloff="smooth"
-        markerLength={130}
+        markerLength={compact ? 56 : 130}
         markerGap={0}
         tickScale={0.5}
         scaleTick
-        itemGap={33}
-        fontSize={1.35}
+        itemGap={compact ? 20 : 33}
+        fontSize={compact ? 1.05 : 1.35}
         smoothing={60}
         singleHighlight
         onItemClick={pick}

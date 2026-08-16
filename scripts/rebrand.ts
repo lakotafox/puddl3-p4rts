@@ -527,6 +527,17 @@ async function stripProStorefront() {
   t = t.replace("import CategoryProFooter from './Pro/CategoryProFooter';\n", "");
   t = t.replace(/\n *<CategoryProFooter category=\{category\} \/>\n/, "\n");
   if (t !== beforeT) await writeFile(tabs, t, "utf8");
+
+  // The navbar's mobile mega-menu injects a Pro group (dead /pro links) and a
+  // Tools group after the first category — gate the whole block off.
+  const nav = join(VENDOR, "components/landingnew/Navbar/Navbar.jsx");
+  let n = await readFile(nav, "utf8");
+  const beforeN = n;
+  n = n.replace(
+    /\{i === 0 && \(\s*<>\s*\{\/\* Mirrors the desktop sidebar/,
+    "{false && ( /* Pro/Tools mobile groups removed for PUDDL3 P4RTS */\n                          <>\n                            {/* Mirrors the desktop sidebar",
+  );
+  if (n !== beforeN) await writeFile(nav, n, "utf8");
 }
 
 /**
