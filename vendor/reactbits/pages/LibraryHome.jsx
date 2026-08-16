@@ -72,9 +72,7 @@ const LibraryHome = () => {
         --text-color: #7dd3fc;
       }
       .library-home .line-sidebar__item:nth-child(n+${first}):nth-child(-n+${last}) .line-sidebar__label {
-        margin-left: 18px;
-        padding-left: 16px;
-        border-left: 1px solid rgba(168, 85, 247, .35);
+        margin-left: 28px;
       }
     `;
   }, [openCat, rows]);
