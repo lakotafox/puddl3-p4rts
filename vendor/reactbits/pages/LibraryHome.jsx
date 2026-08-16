@@ -132,6 +132,13 @@ const LibraryHome = () => {
     const row = rows[index];
     if (!row) return;
     if (row.kind === 'cat') {
+      const cat = CATEGORIES[row.ci];
+      // Get Started is one short read, not a shelf of parts — go straight to it
+      // (MCP is linked from inside it). Every other section expands in place.
+      if (cat.name === 'Get Started') {
+        pickRoute(`/${slug(cat.name)}/${slug(cat.subcategories[0])}`);
+        return;
+      }
       setOpenCat((cur) => (cur === row.ci ? null : row.ci));
       return;
     }

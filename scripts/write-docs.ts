@@ -16,7 +16,8 @@ import { HOME } from "../src/lib/vault.ts";
 const DOCS = join(HOME, "vendor/reactbits/docs");
 const VENDOR = join(HOME, "vendor/reactbits");
 
-const intro = `import useScrollToTop from '../hooks/useScrollToTop';
+const intro = `import { Link } from 'react-router-dom';
+import useScrollToTop from '../hooks/useScrollToTop';
 import DocsButtonBar from './DocsButtonBar';
 import CopyPageButton from './CopyPageButton';
 import CodeBlock from './CodeBlock';
@@ -58,8 +59,9 @@ const Introduction = () => {
       <CodeBlock language="bash">{'p4rts add letter-break --to ./my-app'}</CodeBlock>
 
       <p className="docs-paragraph dim">
-        Want your AI hooked up to the whole library so you can just ask for parts? That&apos;s the optional{' '}
-        <span className="docs-highlight">MCP</span> page — but you don&apos;t need it for anything above.
+        Want your AI hooked up to the whole library so you can just ask for parts? Set up the{' '}
+        <Link className="docs-link" to="/get-started/mcp">MCP server</Link> — optional, and not needed for anything
+        above.
       </p>
 
       <DocsButtonBar next={{ label: 'Browse the library', route: '/library' }} />
