@@ -163,7 +163,11 @@ body.p4rts-depart .ln-navbar {
 body.p4rts-hero .ln-navbar,
 body.p4rts-hero .sidebar,
 body.p4rts-hero .ln-navbar *,
-body.p4rts-hero .sidebar * {
+body.p4rts-hero .sidebar *,
+html.p4rts-hero-boot .ln-navbar,
+html.p4rts-hero-boot .sidebar,
+html.p4rts-hero-boot .ln-navbar *,
+html.p4rts-hero-boot .sidebar * {
   opacity: 0 !important;
   pointer-events: none !important;
 }

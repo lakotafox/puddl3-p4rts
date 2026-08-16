@@ -57,13 +57,19 @@ const LibraryHome = () => {
   const items = rows.map((r) => r.label);
   const expanded = openCat != null;
 
+  // Hero state: no other UI at all. A body class (styled in demo.css), not
+  // inline styles — the navbar can re-render mid-route-change and a fresh
+  // element would drop inline styles, leaving an invisible bar that still
+  // swallows taps (it did — the Back button was unclickable).
+  // Set during render, not in an effect: an effect runs after the first paint,
+  // so the navbar/sidebar flashed before hiding.
+  if (typeof document !== 'undefined') document.body.classList.add('p4rts-hero');
   useEffect(() => {
-    // hero state: no other UI at all. A body class (styled in demo.css), not
-    // inline styles — the navbar can re-render mid-route-change and a fresh
-    // element would drop inline styles, leaving an invisible bar that still
-    // swallows taps (it did — the Back button was unclickable).
     document.body.classList.add('p4rts-hero');
-    return () => document.body.classList.remove('p4rts-hero');
+    return () => {
+      document.body.classList.remove('p4rts-hero');
+      document.documentElement.classList.remove('p4rts-hero-boot');
+    };
   }, []);
 
   // The slow one-at-a-time reveal is a first-impression beat: it plays once per
@@ -126,6 +132,10 @@ const LibraryHome = () => {
              and it stays put while the picker fades, carrying into the app */
         }
         .library-home .line-sidebar { position: relative; z-index: 1; }
+        /* Items start hidden in CSS, not from the effect: the effect runs after
+           the first paint, so the full list flashed on screen and then vanished
+           to stagger back in (user, 2026-08-16). */
+        .library-home .line-sidebar__item { opacity: 0; }
         @supports (height: 100dvh) {
           /* short/landscape phones: let the list scroll instead of clipping */
           .library-home { align-items: safe center; }

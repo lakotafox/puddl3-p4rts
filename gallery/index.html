@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>PUDDL3 P4RTS</title>
+    <script>
+      // Landing on the /library picker directly: flag it before React mounts so
+      // the navbar and sidebar never paint a frame first (they used to flash).
+      if (/\/library\/?$/.test(location.pathname)) document.documentElement.classList.add('p4rts-hero-boot');
+    </script>
   </head>
   <body>
     <div id="root"></div>
