@@ -1,21 +1,25 @@
 #!/usr/bin/env bun
 import { join } from "node:path";
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { HOME } from "../src/lib/vault.ts";
 
 /**
- * Get Started docs, ours (user, 2026-08-15): short intro in the PUDDLE voice,
- * and Installation/MCP that document how THIS library actually works — the
- * site's copy buttons, the foxbits CLI, and the local MCP server
- * (src/mcp/server.ts) — not upstream's registry. Wholesale page writes, so a
- * re-vendor is copy-the-tree, re-run.
+ * Get Started docs, ours. Reworked 2026-08-16 (user: "over-complicating things
+ * for vibe coders"): Introduction and Installation are ONE simple page that
+ * leads with copy-paste (the Get button's Copy prompt / Copy source — the
+ * thing we never mentioned), CLI second, and MCP as an OPTIONAL side page —
+ * not a forced next step — that ends with a way back into the library.
+ * Wholesale page writes + wiring patches, so a re-vendor is copy-the-tree,
+ * re-run. Old /get-started/installation links land on the merged page.
  */
 
 const DOCS = join(HOME, "vendor/reactbits/docs");
+const VENDOR = join(HOME, "vendor/reactbits");
 
 const intro = `import useScrollToTop from '../hooks/useScrollToTop';
 import DocsButtonBar from './DocsButtonBar';
 import CopyPageButton from './CopyPageButton';
+import CodeBlock from './CodeBlock';
 
 const Introduction = () => {
   useScrollToTop();
@@ -27,64 +31,43 @@ const Introduction = () => {
       </div>
 
       <p className="docs-lead">
-        Hey — this is PUDDL3 P4RTS. Free components for PUDDLE projects: easy to use, fun to play with.
-      </p>
-      <p className="docs-paragraph">
-        Pick a component, tweak the knobs, copy the code. That&apos;s the whole tutorial.
+        Hey — this is PUDDL3 P4RTS. Free animated components for PUDDLE projects. No accounts, no keys, nothing to
+        install.
       </p>
 
-      <DocsButtonBar next={{ label: 'Installation', route: '/get-started/installation' }} />
+      <h2 className="docs-section-title">Grab a part</h2>
+      <p className="docs-paragraph">
+        Open any component and hit <span className="docs-highlight">Get</span> (on desktop it&apos;s the{' '}
+        <span className="docs-highlight">Copy for AI</span> menu):
+      </p>
+      <ul className="docs-list">
+        <li className="docs-list-item">
+          <span className="docs-highlight">Copy prompt</span> — paste it into Claude, Cursor, or ChatGPT and your AI
+          wires the component into your project for you. Easiest way, start here.
+        </li>
+        <li className="docs-list-item">
+          <span className="docs-highlight">Copy component source</span> — paste the code in yourself. The Code tab has
+          all four variants (JS/TS × CSS/Tailwind).
+        </li>
+      </ul>
+
+      <h2 className="docs-section-title">Got the repo?</h2>
+      <p className="docs-paragraph">
+        Then the CLI drops a component straight in, installs its deps, and prints the import line:
+      </p>
+      <CodeBlock language="bash">{'p4rts add letter-break --to ./my-app'}</CodeBlock>
+
+      <p className="docs-paragraph dim">
+        Want your AI hooked up to the whole library so you can just ask for parts? That&apos;s the optional{' '}
+        <span className="docs-highlight">MCP</span> page — but you don&apos;t need it for anything above.
+      </p>
+
+      <DocsButtonBar next={{ label: 'Browse the library', route: '/library' }} />
     </section>
   );
 };
 
 export default Introduction;
-`;
-
-const install = `import useScrollToTop from '../hooks/useScrollToTop';
-import DocsButtonBar from './DocsButtonBar';
-import CopyPageButton from './CopyPageButton';
-import CodeBlock from './CodeBlock';
-
-const Installation = () => {
-  useScrollToTop();
-  return (
-    <section className="docs-section">
-      <div className="docs-page-header">
-        <h1 className="docs-title">Installation</h1>
-        <CopyPageButton />
-      </div>
-
-      <p className="docs-lead">Three ways in, easiest first.</p>
-
-      <h2 className="docs-section-title">1. Copy the code</h2>
-      <p className="docs-paragraph">
-        Every component page has a Code tab with four variants (JS/TS × CSS/Tailwind). Copy the file into your
-        project, install the deps it lists, done. This always works — no accounts, no registries.
-      </p>
-
-      <h2 className="docs-section-title">2. The CLI</h2>
-      <p className="docs-paragraph">
-        On machines with the library checked out, <code>p4rts add</code> drops a component straight into your
-        project, installs its deps, and prints the import line:
-      </p>
-      <CodeBlock language="bash">{'p4rts add letter-break --to ./my-app'}</CodeBlock>
-
-      <h2 className="docs-section-title">3. Ask your AI</h2>
-      <p className="docs-paragraph">
-        Wire up the MCP server (next page) and your assistant can search the library and paste components in for
-        you.
-      </p>
-
-      <DocsButtonBar
-        previous={{ label: 'Introduction', route: '/get-started/introduction' }}
-        next={{ label: 'MCP', route: '/get-started/mcp' }}
-      />
-    </section>
-  );
-};
-
-export default Installation;
 `;
 
 const mcp = `import useScrollToTop from '../hooks/useScrollToTop';
@@ -102,7 +85,8 @@ const McpServer = () => {
       </div>
 
       <p className="docs-lead">
-        The library ships its own MCP server — everything served from local disk, no network, no keys.
+        Optional — only if you want your AI wired straight into the library. Everything is served from local disk: no
+        network, no keys.
       </p>
 
       <h2 className="docs-section-title">Setup</h2>
@@ -132,7 +116,10 @@ const McpServer = () => {
         Then just ask: &quot;find me a text scramble effect and add it to my hero&quot;.
       </p>
 
-      <DocsButtonBar previous={{ label: 'Installation', route: '/get-started/installation' }} />
+      <DocsButtonBar
+        previous={{ label: 'Introduction', route: '/get-started/introduction' }}
+        next={{ label: 'Browse the library', route: '/library' }}
+      />
     </section>
   );
 };
@@ -141,6 +128,23 @@ export default McpServer;
 `;
 
 await writeFile(join(DOCS, "Introduction.jsx"), intro, "utf8");
-await writeFile(join(DOCS, "Installation.jsx"), install, "utf8");
 await writeFile(join(DOCS, "McpServer.jsx"), mcp, "utf8");
-console.log("✓ docs rewritten: Introduction (short), Installation (ours), MCP (real server)");
+
+// wiring: Get Started = Introduction, MCP; old installation links → merged page
+const catPath = join(VENDOR, "constants/Categories.js");
+let cat = await readFile(catPath, "utf8");
+cat = cat.replace(
+  "subcategories: ['Introduction', 'Installation', 'MCP']",
+  "subcategories: ['Introduction', 'MCP']",
+);
+await writeFile(catPath, cat, "utf8");
+
+const compPath = join(VENDOR, "constants/Components.js");
+let comp = await readFile(compPath, "utf8");
+comp = comp.replace(
+  "installation: () => import('../docs/Installation.jsx'),",
+  "installation: () => import('../docs/Introduction.jsx'), // merged (write-docs.ts)",
+);
+await writeFile(compPath, comp, "utf8");
+
+console.log("✓ docs rewritten: Introduction (merged, copy-paste first), MCP (optional, with exit)");

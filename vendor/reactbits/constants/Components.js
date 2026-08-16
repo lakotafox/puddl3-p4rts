@@ -1,7 +1,7 @@
 import { PRO_MAP } from './ProCatalog';
 const getStarted = {
   introduction: () => import('../docs/Introduction.jsx'),
-  installation: () => import('../docs/Installation.jsx'),
+  installation: () => import('../docs/Introduction.jsx'), // merged (write-docs.ts)
   mcp: () => import('../docs/McpServer.jsx')
 };
 

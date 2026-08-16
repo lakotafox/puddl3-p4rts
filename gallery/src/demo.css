@@ -147,3 +147,20 @@ main.app-container { background: transparent; }
   margin-top: 0.5em;
 }
 .p4rts-fold-chev.is-open { transform: rotate(180deg); opacity: 1; }
+
+/* ── departure fade: hamburger → /library picker (rebrand.ts hamburgerToPicker) ── */
+body.p4rts-depart main.app-container,
+body.p4rts-depart .ln-navbar {
+  opacity: 0 !important;
+  transition: opacity 0.35s ease;
+}
+
+/* the /library hero picker owns the screen: chrome invisible AND untappable
+   (body class set by LibraryHome — survives navbar re-renders) */
+body.p4rts-hero .ln-navbar,
+body.p4rts-hero .sidebar,
+body.p4rts-hero .ln-navbar *,
+body.p4rts-hero .sidebar * {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

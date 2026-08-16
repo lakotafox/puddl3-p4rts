@@ -542,6 +542,41 @@ async function stripProStorefront() {
   await mobileMenuAccordion();
   await mobileGetMenu();
   await collapsibleSections();
+  await hamburgerToPicker();
+}
+
+/**
+ * Mobile hamburger → the /library boss-dash picker (user, 2026-08-16): tapping
+ * it fades all content out and lands on the centered LineSidebar, which hosts
+ * the drill-down (LibraryHome's compact two-level mode) instead of the drawer.
+ * The drawer code stays dormant (menuOpen is never set).
+ */
+async function hamburgerToPicker() {
+  const nav = join(VENDOR, "components/landingnew/Navbar/Navbar.jsx");
+  let s = await readFile(nav, "utf8");
+  if (s.includes("p4rts-hamburger-picker")) return;
+  s = s.replace(
+    `            className={\`ln-navbar-hamburger\${menuOpen ? ' open' : ''}\`}
+            onClick={() => setMenuOpen(o => !o)}
+            aria-label="Menu"`,
+    `            className={\`ln-navbar-hamburger\${menuOpen ? ' open' : ''}\`}
+            onClick={() => { /* p4rts-hamburger-picker: fade out, land on /library */
+              document.body.classList.add('p4rts-depart');
+              setTimeout(() => { document.body.classList.remove('p4rts-depart'); navigate('/library'); }, 360);
+            }}
+            aria-label="Browse the library"`,
+  );
+  if (!s.includes("useNavigate")) {
+    s = s.replace(
+      /import \{ Link([^}]*)\} from 'react-router-dom';/,
+      "import { Link$1, useNavigate } from 'react-router-dom';",
+    );
+    s = s.replace(
+      "const [menuOpen, setMenuOpen] = useState(false);",
+      "const navigate = useNavigate();\n  const [menuOpen, setMenuOpen] = useState(false);",
+    );
+  }
+  await writeFile(nav, s, "utf8");
 }
 
 /**

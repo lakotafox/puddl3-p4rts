@@ -13,7 +13,8 @@ const McpServer = () => {
       </div>
 
       <p className="docs-lead">
-        The library ships its own MCP server — everything served from local disk, no network, no keys.
+        Optional — only if you want your AI wired straight into the library. Everything is served from local disk: no
+        network, no keys.
       </p>
 
       <h2 className="docs-section-title">Setup</h2>
@@ -43,7 +44,10 @@ const McpServer = () => {
         Then just ask: &quot;find me a text scramble effect and add it to my hero&quot;.
       </p>
 
-      <DocsButtonBar previous={{ label: 'Installation', route: '/get-started/installation' }} />
+      <DocsButtonBar
+        previous={{ label: 'Introduction', route: '/get-started/introduction' }}
+        next={{ label: 'Browse the library', route: '/library' }}
+      />
     </section>
   );
 };

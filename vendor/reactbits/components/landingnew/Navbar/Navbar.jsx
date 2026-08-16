@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { createPortal } from 'react-dom';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation , useNavigate } from 'react-router-dom';
 import { Logo } from '../../common/SVGComponents';
 import { useStars } from '../../../hooks/useStars';
 import { GITHUB_URL } from '../../../constants/Site';
@@ -23,6 +23,7 @@ const NAV_LINKS = [];
 const Navbar = ({ showDocs }) => {
   const stars = useStars();
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
   const [openCat, setOpenCat] = useState(null); // p4rts-mobile-accordion
   const [prefsOpen, setPrefsOpen] = useState(false);
@@ -153,8 +154,11 @@ const Navbar = ({ showDocs }) => {
 
           <button
             className={`ln-navbar-hamburger${menuOpen ? ' open' : ''}`}
-            onClick={() => setMenuOpen(o => !o)}
-            aria-label="Menu"
+            onClick={() => { /* p4rts-hamburger-picker: fade out, land on /library */
+              document.body.classList.add('p4rts-depart');
+              setTimeout(() => { document.body.classList.remove('p4rts-depart'); navigate('/library'); }, 360);
+            }}
+            aria-label="Browse the library"
           >
             <span />
             <span />

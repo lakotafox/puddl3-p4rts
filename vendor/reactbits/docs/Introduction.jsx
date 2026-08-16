@@ -1,6 +1,7 @@
 import useScrollToTop from '../hooks/useScrollToTop';
 import DocsButtonBar from './DocsButtonBar';
 import CopyPageButton from './CopyPageButton';
+import CodeBlock from './CodeBlock';
 
 const Introduction = () => {
   useScrollToTop();
@@ -12,13 +13,38 @@ const Introduction = () => {
       </div>
 
       <p className="docs-lead">
-        Hey — this is PUDDL3 P4RTS. Free components for PUDDLE projects: easy to use, fun to play with.
-      </p>
-      <p className="docs-paragraph">
-        Pick a component, tweak the knobs, copy the code. That&apos;s the whole tutorial.
+        Hey — this is PUDDL3 P4RTS. Free animated components for PUDDLE projects. No accounts, no keys, nothing to
+        install.
       </p>
 
-      <DocsButtonBar next={{ label: 'Installation', route: '/get-started/installation' }} />
+      <h2 className="docs-section-title">Grab a part</h2>
+      <p className="docs-paragraph">
+        Open any component and hit <span className="docs-highlight">Get</span> (on desktop it&apos;s the{' '}
+        <span className="docs-highlight">Copy for AI</span> menu):
+      </p>
+      <ul className="docs-list">
+        <li className="docs-list-item">
+          <span className="docs-highlight">Copy prompt</span> — paste it into Claude, Cursor, or ChatGPT and your AI
+          wires the component into your project for you. Easiest way, start here.
+        </li>
+        <li className="docs-list-item">
+          <span className="docs-highlight">Copy component source</span> — paste the code in yourself. The Code tab has
+          all four variants (JS/TS × CSS/Tailwind).
+        </li>
+      </ul>
+
+      <h2 className="docs-section-title">Got the repo?</h2>
+      <p className="docs-paragraph">
+        Then the CLI drops a component straight in, installs its deps, and prints the import line:
+      </p>
+      <CodeBlock language="bash">{'p4rts add letter-break --to ./my-app'}</CodeBlock>
+
+      <p className="docs-paragraph dim">
+        Want your AI hooked up to the whole library so you can just ask for parts? That&apos;s the optional{' '}
+        <span className="docs-highlight">MCP</span> page — but you don&apos;t need it for anything above.
+      </p>
+
+      <DocsButtonBar next={{ label: 'Browse the library', route: '/library' }} />
     </section>
   );
 };

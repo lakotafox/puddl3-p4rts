@@ -8,7 +8,7 @@ export const UPDATED = [];
 export const CATEGORIES = [
   {
     name: 'Get Started',
-    subcategories: ['Introduction', 'Installation', 'MCP']
+    subcategories: ['Introduction', 'MCP']
   },
   {
     name: 'Text Animations',
