@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LineSidebar from '../components/common/LineSidebar/LineSidebar';
-import RetroFlurry from '../content/Backgrounds/RetroFlurry/RetroFlurry';
 import { CATEGORIES } from '../constants/Categories';
 
 // /library — the boss-dash hero picker (user, 2026-08-15): ONLY the centered
@@ -57,27 +56,11 @@ const LibraryHome = () => {
         .library-home {
           position: fixed; inset: 0; z-index: 30;
           display: flex; align-items: center; justify-content: center;
-          background: var(--bg-body, #0a0a0d);
+          /* transparent — the site-wide SiteFlurry (main.tsx) is the backdrop,
+             and it stays put while the picker fades, carrying into the app */
         }
-        .library-home .lh-bg {
-          position: absolute; inset: 0; pointer-events: none;
-          opacity: 0; animation: lh-bg-in 2s ease .2s forwards;
-        }
-        @keyframes lh-bg-in { to { opacity: 1; } }
         .library-home .line-sidebar { position: relative; z-index: 1; }
       `}</style>
-      <div className="lh-bg">
-        <RetroFlurry
-          color="#ffffff"
-          flakeSize={0.01}
-          minFlakeSize={1.25}
-          pixelResolution={200}
-          speed={1.25}
-          density={0.3}
-          direction={125}
-          brightness={1}
-        />
-      </div>
       <LineSidebar
         items={sections.map((s) => s.label)}
         accentColor="#a855f7"

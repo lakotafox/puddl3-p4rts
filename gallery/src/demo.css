@@ -46,3 +46,8 @@
 body.p4rts-arrive .ln-navbar { opacity: 0; animation: p4rts-arrive-in .8s ease .55s forwards; }
 body.p4rts-arrive .sidebar { opacity: 0; animation: p4rts-arrive-in .8s ease .25s forwards; }
 body.p4rts-arrive .category-wrapper > :not(.sidebar) { opacity: 0; animation: p4rts-arrive-in .8s ease .4s forwards; }
+
+/* ── site-wide pixel snow (SiteFlurry in main.tsx, fixed at z -1) ──
+   the app shell must not paint over it; demo stages keep their own opaque
+   background so component previews stay true. */
+main.app-container { background: transparent; }
