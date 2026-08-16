@@ -22,7 +22,7 @@ const IMAGE_IDS = [1015, 1025, 1039, 1043, 1044, 1050, 1062, 1069, 1074, 1080, 1
 const items = IMAGE_IDS.map((id, i) => ({
   image: `https://picsum.photos/id/${id}/600/400`,
   title: `Tile ${i + 1}`,
-  href: 'https://reactbits.dev'
+  href: 'https://lakotafox.com/PUDDL3P4RTS'
 }));
 
 const DEFAULT_PROPS = {

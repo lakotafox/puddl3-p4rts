@@ -547,6 +547,21 @@ async function stripProStorefront() {
   await trimComponentHeader();
   await componentPager();
   await searchMetadata();
+  await demoLinksHome();
+}
+
+/**
+ * Demo tiles must not send visitors to the upstream site (user, 2026-08-16 —
+ * Tile Stream's tiles all linked to reactbits.dev). Real https URLs elsewhere
+ * stay intact by policy; a CLICKABLE demo link is different, since it walks
+ * someone straight off our site.
+ */
+async function demoLinksHome() {
+  const p = join(VENDOR, "demo/Components/TileStreamDemo.jsx");
+  let s = await readFile(p, "utf8");
+  const before = s;
+  s = s.replace(/href: 'https:\/\/reactbits\.dev'/g, "href: 'https://lakotafox.com/PUDDL3P4RTS'");
+  if (s !== before) await writeFile(p, s, "utf8");
 }
 
 /**
