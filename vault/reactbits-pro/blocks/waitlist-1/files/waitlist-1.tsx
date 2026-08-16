@@ -216,7 +216,7 @@ function WaitlistForm() {
         id="waitlist-heading"
         className="text-3xl sm:text-4xl font-medium tracking-tight text-neutral-900 dark:text-white mb-4"
       >
-        Be the first to know when we launch React Bits Pro.
+        Be the first to know when we launch PUDDL3 P4RTS Deep.
       </h2>
 
       <form

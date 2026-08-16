@@ -102,10 +102,17 @@ const LibraryHome = () => {
     if (leavingRef.current) return;
     leavingRef.current = true;
     const el = wrapRef.current;
-    if (el) { el.style.transition = 'opacity .6s ease'; el.style.opacity = '0'; }
-    document.body.classList.add('p4rts-arrive');
-    setTimeout(() => document.body.classList.remove('p4rts-arrive'), 2600);
-    setTimeout(() => navigate(to), 620);
+    if (el) { el.style.transition = 'opacity .45s ease'; el.style.opacity = '0'; }
+    // The arrival choreography starts WITH the navigation, not at click time.
+    // Added early it ran against the outgoing picker (itself a .category-wrapper
+    // child, so the fade-in rule dragged it back to visible mid-exit) and burned
+    // its delays before the destination existed — the navbar then snapped in
+    // ahead of an empty page (user, 2026-08-16).
+    setTimeout(() => {
+      document.body.classList.add('p4rts-arrive');
+      navigate(to);
+      setTimeout(() => document.body.classList.remove('p4rts-arrive'), 2200);
+    }, 460);
   };
 
   const choose = (index) => {

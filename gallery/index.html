@@ -6,9 +6,20 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>PUDDL3 P4RTS</title>
     <script>
-      // Landing on the /library picker directly: flag it before React mounts so
-      // the navbar and sidebar never paint a frame first (they used to flash).
-      if (/\/library\/?$/.test(location.pathname)) document.documentElement.classList.add('p4rts-hero-boot');
+      // Arriving at the /library picker (landing "Get Started", refresh, direct
+      // link): hold a dark, chrome-free screen from the very first paint until
+      // the picker itself is ready, so nothing flashes in between.
+      // A <style> element, not a class on <html> — the theme provider assigns
+      // document.documentElement.className outright, which erased a class here
+      // (and briefly took `dark` with it, flashing the light theme).
+      if (/\/library\/?$/.test(location.pathname)) {
+        var s = document.createElement('style');
+        s.id = 'p4rts-boot';
+        s.textContent =
+          'html,body{background:#120f17!important}' +
+          '.ln-navbar,.sidebar,.category-page{opacity:0!important;pointer-events:none!important}';
+        document.head.appendChild(s);
+      }
     </script>
   </head>
   <body>

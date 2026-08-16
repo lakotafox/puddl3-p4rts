@@ -81,7 +81,7 @@ export interface DataAlchemyProps {
   axisColor?: string;
   /** Background color of the stage (transparent by default). */
   backgroundColor?: string;
-  /** Custom node rendered in the center tile (defaults to the React Bits Pro logo). */
+  /** Custom node rendered in the center tile (defaults to the PUDDL3 P4RTS Deep logo). */
   centerContent?: ReactNode;
   /** Pixel size of the center tile on the axis. */
   centerSize?: number;

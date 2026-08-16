@@ -48,7 +48,7 @@ const waitForFonts = async font => {
 };
 
 const DustType = ({
-  text = 'React Bits',
+  text = 'PUDDL3 P4RTS',
   particleSize = 2,
   density = 4,
   color = '#ffffff',

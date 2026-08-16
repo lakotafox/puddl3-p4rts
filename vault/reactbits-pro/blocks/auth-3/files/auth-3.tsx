@@ -133,7 +133,7 @@ export function Auth3() {
           className="hidden lg:block max-w-sm"
         >
           <h2 className="text-4xl font-medium tracking-tighter text-white mb-4">
-            React Bits Pro
+            PUDDL3 P4RTS Deep
           </h2>
 
           <p className="text-lg text-white/90 tracking-tight max-w-[25ch]">
